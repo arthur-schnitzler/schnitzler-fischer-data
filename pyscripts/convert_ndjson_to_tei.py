@@ -116,7 +116,7 @@ def add_list_to_element(parent, list_data, element_name, sub_element_name, attr_
 
 def create_tei_xml(entry, n=None):
     # TEI Root
-    tei = Element('TEI', {'xmlns': 'http://www.tei-c.org/ns/1.0', 'xml:id': str(entry['id'])})
+    tei = Element('TEI', {'xmlns': 'http://www.tei-c.org/ns/1.0', 'xml:id': f"sf_{entry['id']}"})
     
     # TEI Header
     teiHeader = SubElement(tei, 'teiHeader')
@@ -396,7 +396,7 @@ def main():
     for entry in entries:
         n = id_to_n[entry['id']]
         xml_content = create_tei_xml(entry, n=n)
-        filename = f"{entry['id']}.xml"
+        filename = f"sf_{entry['id']}.xml"
         with open(os.path.join(output_dir, filename), 'w', encoding='utf-8') as out_f:
             out_f.write(xml_content)
         print(f"Erstellt: {filename}")
