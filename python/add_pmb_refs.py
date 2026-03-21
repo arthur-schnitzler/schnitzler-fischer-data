@@ -27,9 +27,9 @@ from lxml import etree
 TEI_NS = "http://www.tei-c.org/ns/1.0"
 NS = {"tei": TEI_NS}
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-EDITIONS = os.path.join(BASE_DIR, "editions")
-INDICES = os.path.join(BASE_DIR, "indices-pmb")
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+EDITIONS = os.path.join(BASE_DIR, "data", "editions")
+INDICES = os.path.join(BASE_DIR, "data", "indices-pmb")
 
 
 # ── Hilfsfunktionen ──────────────────────────────────────────────────────────

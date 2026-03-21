@@ -14,6 +14,7 @@ import glob
 import argparse
 from lxml import etree
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEI_NS = "http://www.tei-c.org/ns/1.0"
 NS = {"tei": TEI_NS}
 
@@ -379,7 +380,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--dir",
-        default="/Users/oldfiche/git/schnitzler-fischer-data/editions",
+        default=os.path.join(BASE_DIR, "data", "editions"),
         help="Verzeichnis mit TEI-XML-Dateien",
     )
     parser.add_argument(

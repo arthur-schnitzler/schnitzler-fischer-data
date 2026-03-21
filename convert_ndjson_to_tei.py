@@ -369,9 +369,8 @@ def create_tei_xml(entry, n=None):
     return reparsed.toprettyxml(indent="  ")
 
 def main():
-    _base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    input_file = os.path.join(_base, 'website-download', 'export.ndjson')
-    output_dir = os.path.join(_base, 'data', 'editions')
+    input_file = 'website-download/export.ndjson'
+    output_dir = 'data/editions'
     os.makedirs(output_dir, exist_ok=True)
 
     # Erster Pass: alle Einträge laden und n-Wert pro Datum bestimmen

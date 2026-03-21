@@ -20,8 +20,8 @@ import unicodedata
 from lxml import etree
 
 TEI_NS = "http://www.tei-c.org/ns/1.0"
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-EDITIONS = os.path.join(BASE_DIR, "editions")
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+EDITIONS = os.path.join(BASE_DIR, "data", "editions")
 DEFAULT_OUT = os.path.join(BASE_DIR, "persons_without_ref_split.csv")
 
 

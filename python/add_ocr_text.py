@@ -9,7 +9,7 @@ import re
 import urllib.request
 import xml.etree.ElementTree as ET
 
-EDITIONS_DIR = 'editions'
+EDITIONS_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'editions')
 GITHUB_BASE = (
     'https://raw.githubusercontent.com/arthur-schnitzler/'
     'schnitzler-mikrofilme-static/refs/heads/main/exports'
