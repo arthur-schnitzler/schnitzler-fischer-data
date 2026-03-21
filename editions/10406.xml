@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10406">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1911-12-27 Samuel Fischer (Wien) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">7985BH9Y</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 263</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten beschrieben
+
+Das von SF angeregte Treffen mit AS kam lt. Tgb nicht zustande. Beide sahen sich erst Anfang 1912 am Semmering (Tgb 1912-01-03, 1912-01-04) sowie in Wien (Tgb 1912-01-10).</note>
+        <note type="published_in">Rodewald, 92 [Nr. 127]</note>
+        <note type="type">Handschrift (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1911-12-27.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <date when="1911-12-27" n="01">1911-12-27</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Einladung</term>
+          <term>Gesamtausgabe</term>
+          <term>Treffen</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb2167" source="https://pmb.acdh.oeaw.ac.at/entity/2167/">
+          <persName>Salten, Felix</persName>
+        </person>
+        <person ref="#pmb2173" source="https://pmb.acdh.oeaw.ac.at/entity/2173/">
+          <persName>Schnitzler, Olga</persName>
+        </person>
+        <person ref="#pmb13055" source="https://pmb.acdh.oeaw.ac.at/entity/13055/">
+          <persName>Wassermann, Jakob</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb189" source="https://pmb.acdh.oeaw.ac.at/entity/189/">
+          <placeName>Semmering</placeName>
+        </place>
+        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
+          <placeName ref="#pmb50">Wien</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0517.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten beschrieben
+
+Das von SF angeregte Treffen mit AS kam lt. Tgb nicht zustande. Beide sahen sich erst Anfang 1912 am Semmering (Tgb 1912-01-03, 1912-01-04) sowie in Wien (Tgb 1912-01-10).</p>
+      </div>
+          <div type="OCR"><p>oca<lb/>263<lb/>Kirje<lb/>27/12. 11<lb/>grédentes<lb/>HOTEL ARISTOL<lb/>WIEN<lb/>Lieber Herr Doctor<lb/>Auf der Wurchreise nach dem<lb/>Semering bin ich heute hier.<lb/>Wenn sie nichts besseres vor<lb/>haben und wenn es Ihnen bei<lb/>Diesem Wetter nicht unbequem<lb/>ihfe wurde ich mich sehr<lb/>Srenen mit Ihnen und Ihrer<lb/>fran Gemalin in der Stadt zu<lb/>Abend zu essen. Auch<lb/>Wassermanns und Falfen,<lb/>werden dahei sein.<lb/>Nächst dem egoistischen<lb/>Wunsch mit Ihnen besonnen</p></div>
+    </body>
+  </text>
+</TEI>

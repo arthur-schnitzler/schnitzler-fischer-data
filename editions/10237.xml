@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10237">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1908-10-06 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">R2GXVX44</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 181</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
+            <title>Anatol</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb29557" source="https://pmb.acdh.oeaw.ac.at/entity/29557/">
+            <orgName>A. Entsch (Wien)</orgName>
+          </org>
+          <org type="publisher" ref="#pmb29697" source="https://pmb.acdh.oeaw.ac.at/entity/29697/">
+            <orgName>Breitkopf &amp; Härtel (Leipzig)</orgName>
+          </org>
+          <org type="publisher" ref="#pmb29369" source="https://pmb.acdh.oeaw.ac.at/entity/29369/">
+            <orgName>J. Singer &amp; Co. (Berlin)</orgName>
+          </org>
+          <org type="publisher" ref="#pmb10186309-3" source="https://pmb.acdh.oeaw.ac.at/entity/10186309-3/">
+            <orgName>Theaterverlag Eduard Bloch</orgName>
+          </org>
+          <org type="institution" ref="#pmb59074" source="https://pmb.acdh.oeaw.ac.at/entity/59074/">
+            <orgName>Genossenschaft deutscher Bühnen-Angehöriger</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 2 Seiten beschrieben
+
+Antwort auf: <ref target="10236">1908-10-01 AS an SF</ref>
+Beantwortet in: <ref target="10240">1908-10-21 AS an SF</ref></note>
+        <note type="type">Typoskript (Unterschrift-Stempel)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1908-10-06.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1908-10-06" n="01">1908-10-06</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Abrechnung</term>
+          <term>Aufführungsrecht</term>
+          <term>Garantiesumme</term>
+          <term>Vertrag</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb178500" source="https://pmb.acdh.oeaw.ac.at/entity/178500/">
+          <persName>Bloch, Eduard</persName>
+        </person>
+        <person ref="#pmb2874" source="https://pmb.acdh.oeaw.ac.at/entity/2874/">
+          <persName>Eirich, Oskar Friedrich</persName>
+        </person>
+        <person ref="#pmb2871" source="https://pmb.acdh.oeaw.ac.at/entity/2871/">
+          <persName>Entsch, Theodor</persName>
+        </person>
+        <person ref="#pmb4532" source="https://pmb.acdh.oeaw.ac.at/entity/4532/">
+          <persName>Jonas, Paul</persName>
+        </person>
+        <person ref="1073450619" source="https://d-nb.info/gnd/1073450619">
+          <persName>Singer, Josef</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0352.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 2 Seiten beschrieben
+
+Antwort auf: <ref target="10236">1908-10-01 AS an SF</ref>
+Beantwortet in: <ref target="10240">1908-10-21 AS an SF</ref></p>
+      </div>
+          <div type="OCR"><p>181<lb/>S. FISCHER, VERLAG<lb/>BERene W., DEN 6. Okt. 08<lb/>TELEPHON:<lb/>BÜLowSTRASSE 90<lb/>AMT VI, 1662<lb/>had Haekaa ausb.<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien XVIII<lb/>Lieber Herr Doktor.<lb/>die Haftbarkeit von Bloch ist so zu verstehen, dass er für das letzte<lb/>A<lb/>Quartal, Juli-Oktober, die Auszahlung der Tantiemen bis zur Höhe von 43,000<lb/>Mark garantiert hat. Diese Garantie erstreckt sich aber, wie mir gestern noch<lb/>Herr Jonas sagte, in erster Linie auf die Autoren, die im seinen Verlag über-<lb/>gegangen sind. Entsch ist fallit, von ihm ist nichts zu bekommen, und obgleich<lb/>mir versichert wurde, dass Sie nichts zu fordern haben, so ist ein Nachweis<lb/>darüber, da Entsch keine Bücher geführt hat, nicht festzustellen. Am 1. Septem-<lb/>ber hat Bloch ein Zirkular an die Bühnen verschickt, dass die weiteren Abrech-<lb/>nungen mit ihm zu geschehen haben. Was seit 1. September etwa bei Bloch eingeht.<lb/>bekommen Sie natürlich voll ausbezahlt. Was bisher noch nicht eingegangen ist,<lb/>wird durch meinen Verlag urgiert werden. Ich habe die Verträge, die Entsch mit<lb/>den Bühnen gemacht hat, bis heute noch nicht bekommen können, ich habe mich<lb/>daher einstweilen darauf beschränken müssen, ein allgemeines Zirkular an alle<lb/>Bühnen zu verschicken. Sobald ich die Verträge, die mir Bloch noch für diese<lb/>Woche versprochen hat, bekomme, geht noch ein besonderer Brief bezüglich der<lb/>Verrechnung an die betreffenden Bühnen. Wir werden dann auch feststellen kön-<lb/>nen, was etwa in Juli und August an Entsch bezahlt wurde. Bloch hat alle Hände<lb/>voll zu tun, um überhaupt die Verträge zu finden, da bei Entsch eine unglaubliche</p></div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11314">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1927-06-09 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">V2P4BG2M</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30775" source="https://pmb.acdh.oeaw.ac.at/entity/30775/">
+            <title>Der Gang zum Weiher</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Beantwortet in: <ref target="11315">1927-06-11 AS (Wien) an SF (Berlin)</ref>
+##Datierung prüfen!</note>
+        <note type="type">Typoskript, eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm)</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date notBefore="1900-06-09" notAfter="1931-06-09" n="01">19XX-06-09</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführungstermin</term>
+          <term>Uraufführung</term>
+        </keywords>
+      </textClass>
+      <listOrg type="theaters">
+        <org ref="#pmb45530" source="https://pmb.acdh.oeaw.ac.at/entity/45530/">
+          <orgName>Deutsches Schauspielhaus in Hamburg</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://dl.ub.uni-freiburg.de/diglit/1927-06-09_SF_Berlin_an_AS_Wien"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Beantwortet in: <ref target="11315">1927-06-11 AS (Wien) an SF (Berlin)</ref>
+##Datierung prüfen!</p>
+      </div>
+    </body>
+  </text>
+</TEI>

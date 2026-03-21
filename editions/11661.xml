@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11661">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1931-04-16 Samuel Fischer / Gottfried Bermann / Konrad Maril (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">9XSM6W6I</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
+            <title>Anatol</title>
+          </bibl>
+          <bibl>
+            <title>Anatol: Weihnachtseinkäufe</title>
+          </bibl>
+          <bibl ref="#pmb29845" source="https://pmb.acdh.oeaw.ac.at/entity/29845/">
+            <title>Die Gefährtin</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1931-04-16.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Bermann, Gottfried</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1931-04-16" n="01">1931-04-16</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Honorar</term>
+          <term>Klage/Gerichtliche Verfolgung/Prozess</term>
+          <term>Rundfunk</term>
+          <term>Rundfunkrecht/Senderecht</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="127145885" source="https://d-nb.info/gnd/127145885">
+          <persName>Marcellini, Giovanni</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416744_0123.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite</p>
+      </div>
+          <div type="OCR"><p>0.30 Raits<lb/>S. FISCHERVERLAG A.-G. / BERLIN W'57<lb/>Theaterabteilung<lb/>Telegramm=Adresse: Fischerverlag 6162 Berlinlützow<lb/>Fernsprecher: Lützow Nr. 6162=6164<lb/>Postscheckkonto: Berlin Nr.<lb/>Bankkonto: Deutsche Bank, Depositenkasse P in Berlin<lb/>16692<lb/>Bülowstraße 90 Berlin, den 16.4.31.<lb/>Ma/Hb.<lb/>Herrn<lb/>Dr. Arthur Schnitzler,<lb/>Wien XVIII<lb/>Sternwartestr.71<lb/>Lieber Herr Doktor,<lb/>unsere Reklamation im Falle, Weihnachtseinkäufe,<lb/>3 1/2 1/4 1/3<lb/>hat zum Erfolg geführt, da die Radiogensellschaft nunmehr das<lb/>(ouvretocereto).<lb/>übliche Autorenhonorar von 250.— Lire an uns gezahlt hat.<lb/>Somme jʼai lʼhonneur aveccembre<lb/>Wir haben der Gesellschaft mitgeteilt, dass Herr Marcellini kei-<lb/>nerlei Rechte an dem Werk „Die Gefährtin“ besitzt, dass wir aber die<lb/>Sendung für den Fall freigeben, dass uns das übliche Autoren-<lb/>honcrar gezahlt wird.<lb/>de<lb/>Mit besten Grüssen<lb/>Ihr ergebener<lb/>xx<lb/>10.000.9.30. V.</p></div>
+    </body>
+  </text>
+</TEI>

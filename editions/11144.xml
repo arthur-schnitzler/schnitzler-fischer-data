@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11144">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1931-10-14 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">2GQGW8YS</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29863" source="https://pmb.acdh.oeaw.ac.at/entity/29863/">
+            <title>Lebendige Stunden</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Benachrichtigung über eine Radiosendung in Bern</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift, eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1931-10-14.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1931-10-14" n="02">1931-10-14</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Rundfunk</term>
+          <term>Rundfunkrecht/Senderecht</term>
+        </keywords>
+      </textClass>
+      <listPlace>
+        <place ref="#pmb1223" source="https://pmb.acdh.oeaw.ac.at/entity/1223/">
+          <placeName>Bern</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416744_0168.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Benachrichtigung über eine Radiosendung in Bern</p>
+      </div>
+          <div type="OCR"><p>1064<lb/>S. Fischer Verlag A.-O., Theaterabteilung, Berlin<lb/>Amt: Lützow 6162-64, W 57, Bülowstraße 90 / Tel.-Adr.: Fischerverlag 6162 Berlinlützów<lb/>Postscheckkonto: Berlin 16892<lb/>Den 14.10.1931<lb/>Benachrichtigung<lb/>Herrn Dr. Arthur Schnitzler<lb/>Rundfunk-<lb/>betreffend den Bühexxbschluß von<lb/>“ Lebendige Stunden “<lb/>1. Akt<lb/>mit dem<lb/>Radiostation<lb/>in: Bern<lb/>zu folgenden Bedingungen:<lb/>Eine Sendung: 45.-Frs.<lb/>..g.,J.<lb/>Konventionalstrafe: 45.-Frs.<lb/>Aufführungstermin: 30. November 1931<lb/>le reste a<lb/>le reste des<lb/>Garantiesumme:<lb/>Hochachtungsvoll<lb/>S. FISCHER. VERLAG<lb/>AKTIENGESEL<lb/>HEATERABTER<lb/>F. 812. 1000. 28. 3. 27.<lb/>30000 V. S.</p></div>
+    </body>
+  </text>
+</TEI>

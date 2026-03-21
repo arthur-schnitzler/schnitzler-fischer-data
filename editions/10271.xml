@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10271">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1909-06-18 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">TADMKWFF</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 197</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29931" source="https://pmb.acdh.oeaw.ac.at/entity/29931/">
+            <title>Komtesse Mizzi</title>
+          </bibl>
+          <bibl type="third_party">
+            <title>Heinrich Lautensack: Hahnenkampf</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite beschrieben
+
+Beantwortet in: <ref target="10272">1909-06-22 AS an SF</ref></note>
+        <note type="type">Typoskript (Unterschrift-Stempel)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1909-06-18.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1909-06-18" n="01">1909-06-18</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführung</term>
+          <term>Aufführungsrecht</term>
+          <term>Garantiesumme</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
+          <persName>Barnowsky, Victor</persName>
+        </person>
+        <person ref="#pmb43804" source="https://pmb.acdh.oeaw.ac.at/entity/43804/">
+          <persName>Lautensack, Heinrich</persName>
+        </person>
+      </listPerson>
+      <listOrg type="theaters">
+        <org ref="#pmb45430" source="https://pmb.acdh.oeaw.ac.at/entity/45430/">
+          <orgName>Kleines Theater Berlin</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0387.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite beschrieben
+
+Beantwortet in: <ref target="10272">1909-06-22 AS an SF</ref></p>
+      </div>
+          <div type="OCR"><p>212<lb/>204<lb/>197<lb/>S. FISCHER, VERLAG,’ BERLIN W., BÜLOUSTR. 90<lb/>THEATERABTEILUNG<lb/>BERene W., DEN 18/6. 09.<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien XVIII<lb/>Lieber Herr Doktor,<lb/>Direktor Barnowsky vom Kleinen Theater<lb/>kommt immer wieder auf „Komtess Mizzi" zurück.<lb/>Es handelt sich diesmal darum, dass er zu einem<lb/>dreiaktigen Stück, von dem er sich einen grossen<lb/>Erfolg verspricht, („Der Hahnenkampf“ von Lauten-<lb/>sack) „Komtess Mizzi“ gern haben möchte. Er würde<lb/>30 Aufführungen mit einer Minimalgarantie von<lb/>M. 1000.- garantieren, bei einer Tantiene von 3½.<lb/>Bitte lassen Sie uns wissen, wie wir uns zu die-<lb/>sem Anerbieten verhalten sollen.<lb/>Mit vielen Grüssen<lb/>Ihr<lb/>S. Fischer</p></div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10896">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1922-03-10 Arthur Schnitzler (Wien) an Samuel Fischer / Leo Greiner (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">7CTLV68V</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30819" source="https://pmb.acdh.oeaw.ac.at/entity/30819/">
+            <title>Die Schwestern oder Casanova in Spa</title>
+          </bibl>
+          <bibl ref="#pmb30403" source="https://pmb.acdh.oeaw.ac.at/entity/30403/">
+            <title>Paracelsus</title>
+          </bibl>
+          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
+            <title>Reigen</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="institution" ref="1086221605" source="https://d-nb.info/gnd/1086221605">
+            <orgName>Ladenburg, Thalmann &amp; Co. (Bankhaus, New York)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten
+Antwort auf: <ref target="10894">1922-03-08 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-03-10.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1922-03-10" n="02">1922-03-10</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Greiner, Leo</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Bühnenexemplar</term>
+          <term>Plagiat</term>
+          <term>Reise/Urlaub</term>
+          <term>Tournee</term>
+          <term>Überweisung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb11423" source="https://pmb.acdh.oeaw.ac.at/entity/11423/">
+          <persName>Gerasch, Alfred</persName>
+        </person>
+        <person ref="#pmb3105" source="https://pmb.acdh.oeaw.ac.at/entity/3105/">
+          <persName>Karczag, Wilhelm</persName>
+        </person>
+        <person ref="#pmb20474" source="https://pmb.acdh.oeaw.ac.at/entity/20474/">
+          <persName>Linden, Gustaf</persName>
+        </person>
+        <person ref="#pmb146243" source="https://pmb.acdh.oeaw.ac.at/entity/146243/">
+          <persName>Marton, Alexander</persName>
+        </person>
+        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
+          <persName>Woticky, Edward</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
+          <placeName ref="#pmb168">Berlin</placeName>
+        </place>
+        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
+          <placeName>Niederlande</placeName>
+        </place>
+        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
+          <placeName>Schweden</placeName>
+        </place>
+        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
+          <placeName>Ungarn</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org>
+          <orgName>Puppentheater Frankfurt</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416739_0223.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten
+Antwort auf: <ref target="10894">1922-03-08 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>Haben Sie noch die Liste aller derjeni<lb/>ger Personen,en die seinerzeit Frei- und Wid-<lb/>are meiner Gesammelten Werke abge-<lb/>mungsexem<lb/>gangen sind. Ich möchte diejenigen bezeichnen,<lb/>denen die Ergänzungsbände zuzustellen wären.<lb/>An mich bitte je drei Exemplare „Komödie<lb/>der Worte und „Graesler senden zu lassen.<lb/>„ steht eine<lb/>Zur Luxusausgabe „Lieb“<lb/>bele. V.<lb/>xxxole zu klages noch<lb/>ondgültige Erklärung des<lb/>aus. Ich nehme an, dass Sie gegen eine etwas<lb/>erhöhte Zahl eventuell 800-1000 nichts Ernstli<lb/>ches würden einzuwenden haben.<lb/>Fälls Sie selbst, irgend eine Luxusausgabe<lb/>eines meiner Werke in Erwägung ziehen wollen<lb/>werde ich vielleicht demnächst Gelegenheit ha¬<lb/>ben Ihnen eine Anregung zu geben.<lb/>Mit den herzlichsten Grüssen<lb/>Ihr<lb/>Herrn S.Fischer,Verlag,Berlin.<lb/>Fische<lb/>10.3.1922.<lb/>Verehrtester Herr Greiner<lb/>G.H.S<lb/>An Karc<lb/>habe ich in Ihrem Sinne<lb/>eben geschrieben.<lb/>xxx steht auf dem Standpunkt,<lb/>dass er Ihnen erst dann die Bühnenexemplare<lb/>bezahlen möchte, bis er selbst sie verkauft hat.<lb/>Also von Fall zu Fall. Bitte teilen Sie mir<lb/>jedenfalls genau mit, wie viel Sie ihm gelie-<lb/>fert haben und wie hoch sich die betreffende<lb/>Summe beläuft. Mir schiene es ja das weitaus<lb/>Einfachste, wenn der Verlag Ihnen unverzüglich<lb/>bezahlte, was er selbst schon verkauft hat und<lb/>Sie etwa vierteljährige Abrechnung für die ver<lb/>kauften Exemplare verlangten.<lb/>Den Scheck von Linden für Parazels<lb/>habe ich erhalten. Ich nehme an, dass Sie Ihre<lb/>Provision diesmal wieder bei unserer nächsten<lb/>Bühnenquartalsrechnung in Abzug bringen werden<lb/>werde aber Linden bitten bei nächster Gelegen-<lb/>heit die Sache in der Weise zu ordnen,wie es<lb/>bei derlei Auslandszahlungen für alle Teile<lb/>prajtischer erscheint und verweise auf meine<lb/>in früheren Briefen enthaltenenen Vorschläge.<lb/>So werde ich auch wenn die von Wotitz¬<lb/>ky bei Ladenburg eingezahlten 500 Hollar de<lb/>facto in meinen Besitz übergegangen sind, den<lb/>auf den Verlag Fischer entfallenden Anteil von<lb/>122 (stimmt das?) entweder auf ein Separatkon<lb/>to für Sie schreiben lassen oder in der Origi<lb/>nalvaluta an das Konto des Fischer-Verlags In<lb/>der Deutschen Bank überweisen lassen.<lb/>Von Frau Vixanti habe ich noch immer<lb/>keine Nachricht. Wenn Sie mit jenem neuen<lb/>Bewerber die Verbindung nicht gleich abbre-<lb/>chen wollen, wird es jedesfalls gut sein.</p></div>
+    </body>
+  </text>
+</TEI>

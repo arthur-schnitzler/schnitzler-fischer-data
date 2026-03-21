@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10516">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1914-02-04a Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">HC4GTVBF</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30649" source="https://pmb.acdh.oeaw.ac.at/entity/30649/">
+            <title>Der blinde Geronimo und sein Bruder</title>
+          </bibl>
+          <bibl ref="#pmb30167" source="https://pmb.acdh.oeaw.ac.at/entity/30167/">
+            <title>Die griechische Tänzerin</title>
+          </bibl>
+          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
+            <title>Professor Bernhardi</title>
+          </bibl>
+          <bibl type="journal">
+            <title>Neue Romanreihe (Buchreihe, S. Fischer?)</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb29681" source="https://pmb.acdh.oeaw.ac.at/entity/29681/">
+            <orgName>Ullstein Verlag (Berlin)</orgName>
+          </org>
+          <org type="publisher" ref="#pmb29636" source="https://pmb.acdh.oeaw.ac.at/entity/29636/">
+            <orgName>Wiener Verlag (Wien, Leipzig)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten beschrieben
+
+Antwort auf: 1914-02-04ante SF/Büro an AS
+Beantwortet in: <ref target="10518">1914-02-06 SF an AS</ref></note>
+        <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1914-02-04.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1914-02-04" n="01">1914-02-04</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Auflage/Neuauflage/Neuausgabe</term>
+          <term>Garantiesumme</term>
+          <term>Gesamtausgabe</term>
+          <term>Novellenband</term>
+          <term>Vertrag</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb257737" source="https://pmb.acdh.oeaw.ac.at/entity/257737/">
+          <persName>Biedermann (Übersetzer/LIteraturagent, USA)</persName>
+        </person>
+        <person ref="#pmb11093" source="https://pmb.acdh.oeaw.ac.at/entity/11093/">
+          <persName>Christians, Rudolf</persName>
+        </person>
+        <person ref="#pmb17355" source="https://pmb.acdh.oeaw.ac.at/entity/17355/">
+          <persName>Grein, Jack Thomas</persName>
+        </person>
+        <person ref="#pmb20474" source="https://pmb.acdh.oeaw.ac.at/entity/20474/">
+          <persName>Linden, Gustaf</persName>
+        </person>
+        <person ref="#pmb9667" source="https://pmb.acdh.oeaw.ac.at/entity/9667/">
+          <persName>Schapira, Vera</persName>
+        </person>
+        <person ref="#pmb2173" source="https://pmb.acdh.oeaw.ac.at/entity/2173/">
+          <persName>Schnitzler, Olga</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
+          <placeName ref="#pmb168">Berlin</placeName>
+        </place>
+        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
+          <placeName>England</placeName>
+        </place>
+        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
+          <placeName>München</placeName>
+        </place>
+        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
+          <placeName>New York</placeName>
+        </place>
+        <place ref="#pmb30" source="https://pmb.acdh.oeaw.ac.at/entity/30/">
+          <placeName>Salzburg</placeName>
+        </place>
+        <place ref="#pmb1119" source="https://pmb.acdh.oeaw.ac.at/entity/1119/">
+          <placeName>Stockholm</placeName>
+        </place>
+        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
+          <placeName>USA</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://dl.ub.uni-freiburg.de/diglit/1914-02-04a_AS_Wien_an_SF_Berlin"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten beschrieben
+
+Antwort auf: 1914-02-04ante SF/Büro an AS
+Beantwortet in: <ref target="10518">1914-02-06 SF an AS</ref></p>
+      </div>
+    </body>
+  </text>
+</TEI>

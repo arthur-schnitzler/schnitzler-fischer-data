@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10066">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1897-05-02 Samuel Fischer (Berlin) an Arthur Schnitzler (?)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">3VSNUW7D</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 42</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl type="third_party" ref="#pmb34096" source="https://pmb.acdh.oeaw.ac.at/entity/34096/">
+            <title>Clara Katharina Pollaczek: Mimi</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite beschrieben
+
+Antwort auf: 1897-02-09post/1897-05-02ante AS an SF (keine Publikation 'Mimi'; nicht überliefert)</note>
+        <note type="type">Handschrift (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1897-05-02.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1897-05-02" n="01">1897-05-02</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName>?</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Veröffentlichungsplan/-projekt</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb12435" source="https://pmb.acdh.oeaw.ac.at/entity/12435/">
+          <persName>Pollaczek, Clara Katharina</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0073.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite beschrieben
+
+Antwort auf: 1897-02-09post/1897-05-02ante AS an SF (keine Publikation 'Mimi'; nicht überliefert)</p>
+      </div>
+          <div type="OCR"><p>or<lb/>42<lb/>VERLAG.<lb/>FISCHER.<lb/>P.<lb/>Berlin W., don 2/5 1897<lb/>Steglitzer Strasse 49 I.<lb/>Telephon: Amt VI, 1662.<lb/>Lieber Herr Doctor<lb/>Von Ihrem Wunsch „Mimi<lb/>eils Buch nicht erscheinen zu<lb/>wissen habe ich Vermerk<lb/>Tif werde also de<lb/>Fertz ablegen lassen.<lb/>Mit besten Grüßen<lb/>Thr ergebener<lb/>Fische</p></div>
+    </body>
+  </text>
+</TEI>

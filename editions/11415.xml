@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11415">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1928-05-21 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">6G75DGES</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30971" source="https://pmb.acdh.oeaw.ac.at/entity/30971/">
+            <title>Casanovas Heimfahrt</title>
+          </bibl>
+          <bibl ref="#pmb29923" source="https://pmb.acdh.oeaw.ac.at/entity/29923/">
+            <title>Der Weg ins Freie</title>
+          </bibl>
+          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
+            <title>Reigen</title>
+          </bibl>
+          <bibl ref="#pmb32131" source="https://pmb.acdh.oeaw.ac.at/entity/32131/">
+            <title>Spiel im Morgengrauen</title>
+          </bibl>
+          <bibl ref="#pmb30817" source="https://pmb.acdh.oeaw.ac.at/entity/30817/">
+            <title>Therese. Chronik eines Frauenlebens</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb146179" source="https://pmb.acdh.oeaw.ac.at/entity/146179/">
+            <orgName>Benjamin Harz Verlag (Berlin, Wien)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">3 Blatt, 3 Seiten
+Antwort auf: <ref target="11414">1928-05-19 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in: <ref target="11416">1928-05-31 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift, eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1928-05-21.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1928-05-21" n="01">1928-05-21</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Absatz/Verkauf</term>
+          <term>Auflage/Neuauflage/Neuausgabe</term>
+          <term>Einzelausgabe</term>
+          <term>Erfolg</term>
+          <term>Ergänzungsband</term>
+          <term>Erscheinungstermin</term>
+          <term>Gesamtausgabe</term>
+          <term>Honorar</term>
+          <term>Kritik</term>
+          <term>Luxusausgabe</term>
+          <term>Nachdruck</term>
+          <term>Novellenband</term>
+          <term>Presse/Feuilleton</term>
+          <term>Reise/Urlaub</term>
+          <term>Sammelband</term>
+          <term>Tantiemen</term>
+          <term>Verhandlung</term>
+          <term>Verkaufspreis/Ladenpreis</term>
+          <term>Vertrag</term>
+          <term>Vorschuss</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
+          <persName>Harz, Benjamin</persName>
+        </person>
+        <person ref="#pmb4374" source="https://pmb.acdh.oeaw.ac.at/entity/4374/">
+          <persName>Maril, Konrad</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_1029.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>3 Blatt, 3 Seiten
+Antwort auf: <ref target="11414">1928-05-19 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in: <ref target="11416">1928-05-31 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>soe<lb/>T1<lb/>on a<lb/>es<lb/>868 Deres (21-30)<lb/>S. Fischer/Verlag / A.-G. Berlin W 57<lb/>Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto; Berlin Nr. 1669.<lb/>Fernsprechanschlüsse: Amt Lützow Nr. 6162 bis 6164<lb/>Bülowstraße 9o<lb/>Telegramm-Adresse: Fischerverlag 6162 Berlinlützow<lb/>21. Mai 28<lb/>Reyer<lb/>F/Si.<lb/>get to<lb/>Lieber Freund,<lb/>um mit Exemplaren von „Therese " in keinem Fall knapp zu werden,<lb/>habe ich mich entschlossen, weitere 10 000 Exemplare zu drucken,<lb/>nach unserer Rechnung die 21. - 30. Auflage.- Die bisher eingelaufenen<lb/>Kritiken lasse ich Ihnen mitfolgend zugehen, die weiterhin eingehenden<lb/>werden nachfolgen. Ich bitte Sie, mir die Kritiken nach Gebrauch wieder<lb/>zurückzusenden, weil wir sie für Propagandazwecke brauchen.<lb/>Die Sache mit Harz liegt also so wie ich vermutet habe. Der Ver-<lb/>kauf des Buches hat eben nachgelassen und wenn wir die Restvorräte<lb/>von Harz übernehmen, so bedeutet das einen glatten Verlust des an<lb/>ihn zu zahlenden Betrages. Anders liegt die Sache, wenn wir die Vorräte<lb/>muuvaa<lb/>du soir<lb/>nicht zu übernehmen brauchen; dann werden wir das Buch neu drucken<lb/>und gut ausgestattet von neuem auf den Markt bringen, mit welchem Er-<lb/>folg, das ist freilich nicht vorauszusehen.<lb/>Schriften " wird mir<lb/>Wegen der Einzelausgaben der »<lb/>ET "Ørzähl<lb/>(ouvrage)<lb/>arvoan<lb/>immer klarer, dass die 4 Novellenbände ein unüberwindliches Hindernis<lb/>bilden. Geben wir den 4 Novellenbüchern besondere, neue Titel, so<lb/>schaffen wir vielleicht eine Unklarheit darüber, dass es sich um Novel-<lb/>len handelt, die schon in anderen Bänden veröffentlicht sind und in<lb/>Einzelausgabe ja aush schon existieren. Als Einzelbände können wir<lb/>demnach nur abgeschlossene Werke separat in den Handel bringen; also<lb/>den " Weg ins Freie "., "Therese " und den "Ergänzungsband". Von<lb/>den Novellen des "Ergänzungsbandes" sind Einzelausgaben zwar erschienen</p></div>
+    </body>
+  </text>
+</TEI>

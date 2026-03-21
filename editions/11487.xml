@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11487">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1929-07-19 Samuel Fischer / HF (Pontresina) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">E9E9IVVV</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">3 Blatt, 4 Seiten
+in Kurrentschrift geschrieben</note>
+        <note type="published_in">Rodewald, 153-154 [Nr. 189]</note>
+        <note type="type">Handschrift (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1929-07-19.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Fischer, Hedwig</persName>
+          <placeName>Pontresina</placeName>
+          <date when="1929-07-19" n="01">1929-07-19</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Essay</term>
+          <term>Reise/Urlaub</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb11740" source="https://pmb.acdh.oeaw.ac.at/entity/11740/">
+          <persName>Hofmannsthal, Hugo von</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
+          <placeName ref="#pmb168">Berlin</placeName>
+        </place>
+        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
+          <placeName ref="#pmb50">Wien</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_1101.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>3 Blatt, 4 Seiten
+in Kurrentschrift geschrieben</p>
+      </div>
+          <div type="OCR"><p>918<lb/>DIE NEUE RUNDSCHAU<lb/>S. FISCHER VerLAG 26. Juli<lb/>BERLIN W 57. Rlll.<lb/>91<lb/>Schloss Hotel Underlin<lb/>Pontresina<lb/>19.7.29.<lb/>hiebeo Herr Doktor!<lb/>Unsere Gedanken sind<lb/>jetzt so viel in Wien umb¬<lb/>lässig beschäftigt, mit der<lb/>Tinzödie im Hause Hofmausthelz<lb/>um der Hn auch Sie, einer<lb/>der ültesten Fremmde erschät¬<lb/>teit sind mir nur alle es sind,<lb/>Wir wollten Ihnen schon vor¬<lb/>her Grüße um hier schicken,<lb/>Aber nur müßten nicht, wo<lb/>Sie seien, wo unsere Gedanken</p></div>
+    </body>
+  </text>
+</TEI>

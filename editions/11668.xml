@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11668">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1931-04-27 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">YQW232GX</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30971" source="https://pmb.acdh.oeaw.ac.at/entity/30971/">
+            <title>Casanovas Heimfahrt</title>
+          </bibl>
+          <bibl ref="#pmb30819" source="https://pmb.acdh.oeaw.ac.at/entity/30819/">
+            <title>Die Schwestern oder Casanova in Spa</title>
+          </bibl>
+          <bibl ref="#pmb30881" source="https://pmb.acdh.oeaw.ac.at/entity/30881/">
+            <title>Fink und Fliederbusch</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Antwort auf: <ref target="11667">1931-04-25 SF (Berlin) an AS (Wien)</ref>
+Beantwortet in: 1931-04-31 SF (Berlin) an AS (Wien)</note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1931-04-27.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1931-04-27" n="01">1931-04-27</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Urheberrecht/Copyright</term>
+          <term>Verlagskatalog</term>
+          <term>Überweisung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416741_0170.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Antwort auf: <ref target="11667">1931-04-25 SF (Berlin) an AS (Wien)</ref>
+Beantwortet in: 1931-04-31 SF (Berlin) an AS (Wien)</p>
+      </div>
+          <div type="OCR"><p>Meine Karte nach Mentone haben Sie wohl<lb/>noch erhalten? Ich hoffe, Sie haben dort unten schön<lb/>Tage gehabt.<lb/>Mit den herzlichsten Grüssen<lb/>Ihr<lb/>S.Fischer,Verlag,<lb/>Berlin.<lb/>27.4.1931.<lb/>S. Fischer<lb/>Lieber Freund.<lb/>Wie ich aus dem Ausschnitt Ihres Verlags-<lb/>katalogs entnehme, fehlt bei allen meinen Werke<lb/>bis zum Jahre 1910 und dann wieder 1917-1919<lb/>"Casanovas Heimfahrt", “Die Schwestern“)<lb/>das Copyright. Oder fehlen Ihnen nur die Cer-<lb/>"Fink „<lb/>ödie<lb/>fikate? Sie schrieben mir seinerzeit, dass von<lb/>“te”.<lb/>1902 an jedes meiner Werke durch den Ver-<lb/>lag copyrithed sei. Ist es möglich das Copyright<lb/>der bisher eventuell ungeschützteh Werke nach-<lb/>träglich zu erwerben?<lb/>Vor wenigen Tagen liessen Sie mir eine<lb/>Summe von 3807 Iik, überweisen, doch habe ich<lb/>keinerlei Anzeige erhalten, worauf sich diese Zah-<lb/>lung bezieht.<lb/>Mit vielen Grüssen<lb/>Ihr<lb/>Herrn 3.Fischer,Verlag.<lb/>Berlin.</p></div>
+    </body>
+  </text>
+</TEI>

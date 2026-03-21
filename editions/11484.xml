@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11484">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1929-05-23 Arthur Schnitzler (Wien) an Samuel Fischer / Konrad Maril (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">IKJIKJU2</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30486" source="https://pmb.acdh.oeaw.ac.at/entity/30486/">
+            <title>Frau Bertha Garlan</title>
+          </bibl>
+          <bibl>
+            <title>Gra o brzasku (Spiel im Morgengrauen, poln.)</title>
+          </bibl>
+          <bibl ref="#pmb32131" source="https://pmb.acdh.oeaw.ac.at/entity/32131/">
+            <title>Spiel im Morgengrauen</title>
+          </bibl>
+          <bibl ref="#pmb30817" source="https://pmb.acdh.oeaw.ac.at/entity/30817/">
+            <title>Therese. Chronik eines Frauenlebens</title>
+          </bibl>
+          <bibl ref="#pmb29903" source="https://pmb.acdh.oeaw.ac.at/entity/29903/">
+            <title>Zwischenspiel</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="1073063208" source="https://d-nb.info/gnd/1073063208">
+            <orgName>Alois Srdce (Prag)</orgName>
+          </org>
+          <org type="publisher">
+            <orgName>Rój (Warschau)</orgName>
+          </org>
+          <org type="institution">
+            <orgName>The International Literary Agency (T.I.L.A.; auch: Agence littéraire Internationale)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Antwort auf: <ref target="11481">1929-05-14 SF (Berlin) an AS (Wien)</ref>
+Beantwortet in: <ref target="11485">1929-05-28 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1929-05-23.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1929-05-23" n="01">1929-05-23</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Ablehnung/Absage</term>
+          <term>Abrechnung</term>
+          <term>Aufführung</term>
+          <term>Freiexemplar</term>
+          <term>Garantiesumme</term>
+          <term>italienisch</term>
+          <term>polnisch</term>
+          <term>Provision</term>
+          <term>Tantiemen</term>
+          <term>Verhandlung</term>
+          <term>Verkaufspreis/Ladenpreis</term>
+          <term>Vorschuss</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="1073371425" source="https://d-nb.info/gnd/1073371425">
+          <persName>Srdce, Alois</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
+          <placeName>Italien</placeName>
+        </place>
+        <place ref="#pmb864" source="https://pmb.acdh.oeaw.ac.at/entity/864/">
+          <placeName>Leipzig</placeName>
+        </place>
+        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
+          <placeName>Niederlande</placeName>
+        </place>
+        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
+          <placeName>Polen</placeName>
+        </place>
+        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
+          <placeName>Prag</placeName>
+        </place>
+        <place ref="#pmb888" source="https://pmb.acdh.oeaw.ac.at/entity/888/">
+          <placeName>Warschau</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416741_0086.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Antwort auf: <ref target="11481">1929-05-14 SF (Berlin) an AS (Wien)</ref>
+Beantwortet in: <ref target="11485">1929-05-28 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>zugleich einige persönliche Unterschriften, die<lb/>Sie vielleicht gütig in die Bücher einkleben<lb/>lassen. Sie wählen wohl am besten "Therese". "Jeg<lb/>ins Freie", „Wpiel im Morgengrauen „ „Traumnovel-<lb/>1s“. “Bertha Garlan“, “Casnovas Heimfahrt”.<lb/>Thérenisert<lb/>Berlin<lb/>Fischer<lb/>Garten 23.5.1929.<lb/>7.<lb/>Lieber Herr Doktor.<lb/>Der Vorschlag des Prager Verlags<lb/>Alois Srdos scheint mir in dieser Form kaum<lb/>annehmbar. Bitte verlangen Sie eine 10ge Betei-<lb/>ligung am Ladenpreis und eine Garantie von aller-<lb/>mindestens 3000 cK. für „Therese“. Unwahrschein-<lb/>lich finde ich auch die Summe von 8 Mk., die der<lb/>Verleger sich erlaubt hat uns für "Spiel<lb/>Warschauer<lb/>im Morgengrauen zu bezahlen. Dass Holland noch im-<lb/>mer nicht für "Zwischenspiel" bezahlt hat,ersehe<lb/>ich aus der letzten Abrechnung mit Missvergnügen.<lb/>Diese Säumigkeit darf man wohl schon als Inkorrekt-<lb/>heit bezeichnen.<lb/>Durch die Leipziger Firma E.Alexander<lb/>habe ich eine Anfrage für die italienischen Rechte<lb/>von "Bertha Garlan“ erhalten und zwar I500 Lira<lb/>Vorschuss, 10. Tantièmen. Ausserdem wünscht er eine<lb/>Provision von 20% und Einsendung eines "broschier-<lb/>ten Prüfungsstückes“. Ich halte es für nicht un-<lb/>wahrscheinlich, dass es sich um den gleichen italie-<lb/>nischen Verlag handelt,mit dem Sie in Verbindung<lb/>stehen T.I.L.A. und antworte für alle Fälle ableh-<lb/>nend.<lb/>Mit den verbindlichsten Grüssen und den<lb/>besten Wünsohen für Ihre Gesundheit<lb/>Ihr sehr ergebener<lb/>Herrn Dr. Konrad Maril,<lb/>„Fischer,Verlag.<lb/>Berlin.</p></div>
+    </body>
+  </text>
+</TEI>

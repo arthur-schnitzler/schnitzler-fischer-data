@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10889">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1922-02-21 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">HQRMTHKQ</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30005" source="https://pmb.acdh.oeaw.ac.at/entity/30005/">
+            <title>Anatol: Abschiedssouper</title>
+          </bibl>
+          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
+            <title>Liebelei</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb118088" source="https://pmb.acdh.oeaw.ac.at/entity/118088/">
+            <orgName>Karczag-Verlag (Wien)</orgName>
+          </org>
+          <org type="publisher" ref="#pmb29758" source="https://pmb.acdh.oeaw.ac.at/entity/29758/">
+            <orgName>Rikola Verlag (Wien)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten
+Antwort auf: <ref target="10888">1922-02-17 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-02-21.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1922-02-21" n="01">1922-02-21</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführung</term>
+          <term>Auflage/Neuauflage/Neuausgabe</term>
+          <term>Buchillustration</term>
+          <term>Gesamtausgabe</term>
+          <term>niederländisch</term>
+          <term>Photographie</term>
+          <term>schwedisch</term>
+          <term>Tournee</term>
+          <term>Vorlesung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb11515" source="https://pmb.acdh.oeaw.ac.at/entity/11515/">
+          <persName>Greiner, Leo</persName>
+        </person>
+        <person ref="116484004" source="https://d-nb.info/gnd/116484004">
+          <persName>Harprecht, Bruno</persName>
+        </person>
+        <person ref="#pmb11981" source="https://pmb.acdh.oeaw.ac.at/entity/11981/">
+          <persName>Kramer, Leopold</persName>
+        </person>
+        <person ref="#pmb2327" source="https://pmb.acdh.oeaw.ac.at/entity/2327/">
+          <persName>Löwenstamm, Emma</persName>
+        </person>
+        <person ref="#pmb2456" source="https://pmb.acdh.oeaw.ac.at/entity/2456/">
+          <persName>Specht, Richard</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
+          <placeName>Hamburg</placeName>
+        </place>
+        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
+          <placeName>Niederlande</placeName>
+        </place>
+        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
+          <placeName>Schweden</placeName>
+        </place>
+        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
+          <placeName>USA</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="1242764-0" source="https://d-nb.info/gnd/1242764-0">
+          <orgName>Stavovské divadlo Prag</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416739_0221.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten
+Antwort auf: <ref target="10888">1922-02-17 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>⊃<lb/>B. P. S.<lb/>f. p.ss p.ts<lb/>c &amp; 0<lb/>[incomme?]<lb/>[illegible]<lb/>O. H.<lb/>—<lb/>P &amp; E<lb/>Dt<lb/>===  ===== —<lb/>O-S-<lb/>Hämeen leipäen.<lb/>. ia<lb/>et leur soo<lb/>T. à<lb/>M r<lb/>G. A.<lb/>+<lb/>A.S.<lb/>G. J. P. S. O<lb/>K &amp; 'T<lb/>K &amp; I+.<lb/>Toutes mai-<lb/>or<lb/>-5-8-<lb/>,H-<lb/>« »* » »<lb/>tä- nyt ystä ai-<lb/>P &amp; P -<lb/>Ortwattu<lb/>O<lb/>täyttä, ei-<lb/>P &amp; a. p.<lb/>— — m —<lb/>to (in)<lb/>G. J.<lb/>die<lb/>-- M<lb/>en p<lb/>langue<lb/>O.L.K.<lb/>2, r, 0<lb/>H3 4.<lb/>F.D.<lb/>T. p. p z<lb/>0 [10] —<lb/>B &amp; D De<lb/>A.O. S.<lb/>ftävätöitä,<lb/>opo<lb/>*  ̃<lb/>B S<lb/>„ —“ ###<lb/>i— oi „<lb/>∞+∞<lb/>T.T. S.<lb/>Ory<lb/>— ###<lb/>Läänistä.<lb/>1-10 (1)2<lb/>Täyttely<lb/>G.O.L.C.D.<lb/>get<lb/>„ —  — —<lb/>O —<lb/>H,, O<lb/>+0+0<lb/>O O ct<lb/>̃ — »<lb/>Or<lb/>O W.Dry<lb/>Omü<lb/>### t###N ».<lb/>«&amp; »v» r<lb/>ΟαΟου<lb/>: —<lb/>&amp;c.<lb/>O<lb/>trus<lb/>Tandakina<lb/>P+O+S<lb/>."   ̃  =<lb/>„ „ — „<lb/>« » »<lb/>F.T.<lb/>fraisia<lb/>O<lb/>W &amp; Pâ¢<lb/>£2,000<lb/>Unterwalt<lb/>läänistä.<lb/>F.T.<lb/>P<lb/>E.N. S.<lb/>4-4<lb/>äussi a<lb/>8 52<lb/>handelt<lb/>⊃c: ∙ —<lb/>* -* -<lb/>40<lb/>in eo<lb/>LONO<lb/>Ompiä<lb/>" *<lb/>Ficher<lb/>*« a<lb/>r<lb/>r<lb/>â! (2) »<lb/>T.<lb/>En ceux<lb/>— 0:0<lb/>C4<lb/>et d<lb/>M r<lb/>D W<lb/>100<lb/>E:<lb/>W &amp; 30<lb/>— a<lb/>Or<lb/>wärtä.<lb/>:t:r;:r<lb/>0<lb/>###<lb/>C0 1S-1 a)<lb/>T ###, ###<lb/>Schöfte<lb/>P8.<lb/>Läänistä<lb/>P että ei<lb/>etr ia<lb/>[incompréhensible],<lb/>cto<lb/>—.— O<lb/>Bliches &amp; C,<lb/>Ogs.<lb/>r-<lb/>Ost-<lb/>D'A<lb/>A. S.<lb/>T.H.T.<lb/>H S<lb/>Pr &amp;<lb/>Elos<lb/>— ###<lb/>me<lb/>«<lb/>—.—<lb/>r<lb/>G &amp; E<lb/>M r<lb/>Fakina<lb/>— —<lb/>b0.<lb/>O/O<lb/>ΟουηΟ<lb/>&amp;<lb/>ten.<lb/>T-T-S.<lb/>D 4 m<lb/>G<lb/>alssa<lb/>Köpö<lb/>Lähele<lb/>Päivä.<lb/>O C<lb/>T.H.P.<lb/>b.O. to ai k<lb/>—.—<lb/>T<lb/>inen leipäen.<lb/>Οθος λου<lb/>« »<lb/>o6 —<lb/>-1.<lb/>P &amp; S<lb/>Köp¬<lb/>44 r<lb/>+H N<lb/>ad 3<lb/>Täivä<lb/>— — —<lb/>om<lb/>cij pn<lb/>Lum<lb/>ⵛⵔⴶⵙ<lb/>—<lb/>D &amp; D<lb/>C.<lb/>T<lb/>—  —<lb/>T myöntä.<lb/>R 4-<lb/>&amp;c<lb/>P3<lb/>in se<lb/>P &amp; C.<lb/>Paraprä<lb/>B&amp;N,<lb/>rthe<lb/>E. E.<lb/>&amp;0 —<lb/>Næs<lb/>22 »<lb/>&amp;c<lb/>th E<lb/>me à<lb/>A<lb/>rind<lb/>osakeyhtiä.<lb/>O 'T<lb/>est M<lb/>9 e<lb/>Vällejän aikaisemuksi.<lb/>OO e<lb/>art ock<lb/>Tööl 3.—<lb/>0-40—<lb/>— ua »<lb/>Päivä<lb/>A S-<lb/>et a été d<lb/>n +<lb/>O S O 80<lb/>Εῖς<lb/>T###n —<lb/>täätä, että  suyttävät<lb/>Läänistä<lb/>m4<lb/>rung,,<lb/>m<lb/>B » L » »<lb/>Vuoden lehti, että<lb/>ON<lb/>rds.<lb/>H ad-<lb/>G »<lb/>T.T.H.<lb/>O<lb/>F.T. +<lb/>inen lehti-<lb/>Ο Ο<lb/>D &amp; J<lb/>60 tg og<lb/>Obe<lb/>Päivä<lb/>N.O.<lb/>r<lb/>Hors<lb/>inen leipä-<lb/>O.-<lb/>O¬<lb/>:-<lb/>nähme<lb/>„ — L:ä<lb/>Pr<lb/>+-1 - m</p></div>
+    </body>
+  </text>
+</TEI>

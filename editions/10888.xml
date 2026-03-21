@@ -1,0 +1,117 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10888">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1922-02-17 Samuel Fischer / Leo Greiner (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">XW4IZH45</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30005" source="https://pmb.acdh.oeaw.ac.at/entity/30005/">
+            <title>Anatol: Abschiedssouper</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-02-17.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Greiner, Leo</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1922-02-17" n="01">1922-02-17</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="1243978902" source="https://d-nb.info/gnd/1243978902">
+          <persName>Bauer, Olla</persName>
+        </person>
+        <person ref="116484004" source="https://d-nb.info/gnd/116484004">
+          <persName>Harprecht, Bruno</persName>
+        </person>
+        <person ref="116446552" source="https://d-nb.info/gnd/116446552">
+          <persName>Pilgram, Wilhelm (Ps. Willy Favart)</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
+          <placeName>Hamburg</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="#pmb45530" source="https://pmb.acdh.oeaw.ac.at/entity/45530/">
+          <orgName>Deutsches Schauspielhaus in Hamburg</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0469.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite</p>
+      </div>
+          <div type="OCR"><p>547<lb/>SCHER/VERLAG' THEATERABTEILUNG’ BE<lb/>TR90<lb/>BULOMS<lb/>r, Arthur Schnitzler,<lb/>Den 17. Februar 19 22<lb/>Sehr geehrter Herr Doktor,<lb/>Brunno Harbrecht vom Schauspielhaus<lb/>in Hamburg, verlangt mit Einverständnis Egers für April für<lb/>ca. 30 Aufführungen "Abschiedssouper", das dort mit ihm, Oll<lb/>Bauer und Willy Favorit im Rahmen von Künstlerspielen gegeben<lb/>werden soll. Können wir abschliessen?<lb/>Mit vorzüglicher Hochachung<lb/>S. FISCHER, VERLAG<lb/>THEATERABTEIIUNG<lb/>Dresse</p></div>
+    </body>
+  </text>
+</TEI>

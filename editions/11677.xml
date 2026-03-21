@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11677">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1931-05-28 Samuel Fischer / Konrad Maril (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">SXJ3HGTT</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30717" source="https://pmb.acdh.oeaw.ac.at/entity/30717/">
+            <title>Komödie der Worte</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="institution" ref="#pmb29397" source="https://pmb.acdh.oeaw.ac.at/entity/29397/">
+            <orgName>Société des Auteurs et Compositeurs Dramatiques (Paris)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Anlage: Formular auf französisch zum Ausfüllen</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1931-05-28.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1931-05-28" n="01">1931-05-28</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführungsrecht</term>
+          <term>Inszenierung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person>
+          <persName>Bianchini (Mitarbeiter Société des Auteurs, Paris)</persName>
+        </person>
+        <person ref="#pmb6369" source="https://pmb.acdh.oeaw.ac.at/entity/6369/">
+          <persName>Boner, Georgette</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416744_0137.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Anlage: Formular auf französisch zum Ausfüllen</p>
+      </div>
+          <div type="OCR"><p>1041<lb/>1040 R.S.M.Th<lb/>am<lb/>BERLIN W 57<lb/>S. FISCHER VERLAG-A.-G.<lb/>Theaterabteilung<lb/>Fernsprecher: Lützow Nr. 6162=6164<lb/>Telegramm=Adresse: Fischerverlag 6162 Berlinlützow<lb/>Bankkonto: Deutsche Bank, Depositenkasse P in Berlin<lb/>Postscheckkonto: Berlin Nr.<lb/>16692<lb/>Ma/K<lb/>Bülowstraße 90<lb/>28. Mai 31.<lb/>Herrn<lb/>Dr. Arthur Schnitzler<lb/>W i e n XVIII<lb/>====  ==========<lb/>Sternwartestr. 71<lb/>Sehr geehrter Herr Dr. Schnitzler,<lb/>ich hatte Herrn Bianchi von der Société in Paris<lb/>beauftragt, die von Fräulein Dr. Gorgette Boner geplante<lb/>Aufführung in deutscher Sprache von "Komödie der Worte"<lb/>zu kontrollieren. Herr Blanchini sendet uns beiliegende<lb/>Erklärung, die wir Sie zu unterfertigen bitten.<lb/>Mit besten Grüssen<lb/>Ihr<lb/>0000. 3. 30. V.<lb/>Et au soeur r. 3.</p></div>
+    </body>
+  </text>
+</TEI>

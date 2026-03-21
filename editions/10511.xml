@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10511">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1913-06-20 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">555FCYAE</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
+            <title>Anatol</title>
+          </bibl>
+          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
+            <title>Liebelei</title>
+          </bibl>
+          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
+            <title>Professor Bernhardi</title>
+          </bibl>
+          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
+            <title>Reigen</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb29369" source="https://pmb.acdh.oeaw.ac.at/entity/29369/">
+            <orgName>J. Singer &amp; Co. (Berlin)</orgName>
+          </org>
+          <org type="publisher" ref="#pmb29741" source="https://pmb.acdh.oeaw.ac.at/entity/29741/">
+            <orgName>Éditions Stock (Paris)</orgName>
+          </org>
+          <org type="institution">
+            <orgName>Dania Biofilm Kompagni (Kopenhagen)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 4 Seiten beschrieben
+
+Antwort auf: <ref target="10509">1913-06-16 SF an AS</ref>, 1913-06-18 SF/EPT an AS
+Beantwortet in: 1913-06-24 SF/EPT an AS</note>
+        <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1913-06-20.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1913-06-20" n="01">1913-06-20</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Film/Verfilmung</term>
+          <term>Filmrecht</term>
+          <term>französisch</term>
+          <term>Honorar</term>
+          <term>Vertrag</term>
+          <term>Übersetzung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb17355" source="https://pmb.acdh.oeaw.ac.at/entity/17355/">
+          <persName>Grein, Jack Thomas</persName>
+        </person>
+        <person ref="117446300" source="https://d-nb.info/gnd/117446300">
+          <persName>Ségal, Bettina</persName>
+        </person>
+        <person>
+          <persName>Torel (Übersetzer, Frankreich)</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
+          <placeName>England</placeName>
+        </place>
+        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
+          <placeName>Frankreich</placeName>
+        </place>
+        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
+          <placeName>Italien</placeName>
+        </place>
+        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
+          <placeName>Russland</placeName>
+        </place>
+        <place ref="#pmb56145" source="https://pmb.acdh.oeaw.ac.at/entity/56145/">
+          <placeName>Toulouse</placeName>
+        </place>
+        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
+          <placeName>USA</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://dl.ub.uni-freiburg.de/diglit/1913-06-20_AS_Wien_an_SF_Berlin"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 4 Seiten beschrieben
+
+Antwort auf: <ref target="10509">1913-06-16 SF an AS</ref>, 1913-06-18 SF/EPT an AS
+Beantwortet in: 1913-06-24 SF/EPT an AS</p>
+      </div>
+    </body>
+  </text>
+</TEI>

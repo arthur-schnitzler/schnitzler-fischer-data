@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10867">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1921-12-02 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">XYAY5W9C</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30971" source="https://pmb.acdh.oeaw.ac.at/entity/30971/">
+            <title>Casanovas Heimfahrt</title>
+          </bibl>
+          <bibl ref="#pmb29843" source="https://pmb.acdh.oeaw.ac.at/entity/29843/">
+            <title>Der grüne Kakadu</title>
+          </bibl>
+          <bibl ref="#pmb30215" source="https://pmb.acdh.oeaw.ac.at/entity/30215/">
+            <title>Der Schleier der Pierrette</title>
+          </bibl>
+          <bibl ref="#pmb30819" source="https://pmb.acdh.oeaw.ac.at/entity/30819/">
+            <title>Die Schwestern oder Casanova in Spa</title>
+          </bibl>
+          <bibl ref="#pmb30201" source="https://pmb.acdh.oeaw.ac.at/entity/30201/">
+            <title>Doktor Gräsler, Badearzt</title>
+          </bibl>
+          <bibl ref="#pmb32133" source="https://pmb.acdh.oeaw.ac.at/entity/32133/">
+            <title>Frau Beate und ihr Sohn</title>
+          </bibl>
+          <bibl ref="#pmb30717" source="https://pmb.acdh.oeaw.ac.at/entity/30717/">
+            <title>Komödie der Worte</title>
+          </bibl>
+          <bibl ref="#pmb29863" source="https://pmb.acdh.oeaw.ac.at/entity/29863/">
+            <title>Lebendige Stunden</title>
+          </bibl>
+          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
+            <title>Professor Bernhardi</title>
+          </bibl>
+          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
+            <title>Reigen</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb146179" source="https://pmb.acdh.oeaw.ac.at/entity/146179/">
+            <orgName>Benjamin Harz Verlag (Berlin, Wien)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 3 Seiten
+Beantwortet in: <ref target="10868">1921-12-06 SF (Berlin) an AS (Wien)</ref>, <ref target="10871">1921-12-16 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1921-12-02.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1921-12-02" n="01">1921-12-02</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Gesamtausgabe</term>
+          <term>Honorar</term>
+          <term>vergriffen</term>
+          <term>Vorschuss</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
+          <persName>Bartsch, Rudolf Hans</persName>
+        </person>
+        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
+          <persName>Harz, Benjamin</persName>
+        </person>
+        <person ref="116324333" source="https://d-nb.info/gnd/116324333">
+          <persName>Raggio, Enrico</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
+          <placeName>Italien</placeName>
+        </place>
+        <place ref="#pmb47927" source="https://pmb.acdh.oeaw.ac.at/entity/47927/">
+          <placeName>Washington</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416739_0206.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 3 Seiten
+Beantwortet in: <ref target="10868">1921-12-06 SF (Berlin) an AS (Wien)</ref>, <ref target="10871">1921-12-16 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>zu legen; es liegt keineswegs in seinem Ineres-<lb/>se, dass ich selbst oder ein anderer Verleger<lb/>sich dieser Rechte baldigst erfreue und so ist<lb/>auf ein unaufgefordertes Entgegen.<lb/>kommen von ihm / zu rechnen. Man müsste doch<lb/>glauben, dass jetzt nach dem „Reigen -Prozess<lb/>das gesultat ist mir allerdings noch nicht<lb/>bekannt - die verkaufskonstellationen für das<lb/>Buch besonders günstige seien.<lb/>8. Und da wir eben von Verkauf reden. Vom<lb/>„Weg ins Freie.34.38, „Anatol“. 23.-26...Weites<lb/>Land" 8.-10.,„Einsamer Weg 8.und 9.Auflage ist<lb/>mir unserer Abmachung genass bisher nur die<lb/>erste Hält<lb/>fte bezahlt worden. Sind die bezüglichau<lb/>décreté par un<lb/>zweiten Hälften noch in keinem Falle angebrochen<lb/>Und wie steht es überhaupt mit neuen Auflagen<lb/>me iner anderen Bücher?<lb/>Mit herzlichem Gruss<lb/>Ihr<lb/>Herrn S.Fischer,Verlag,Berlin.<lb/>2.12.1921.<lb/>Tischer<lb/>Lieber Freund.<lb/>Der neue Band meiner Erzählungen für<lb/>die Gesammtausgabe wird enthalten. Frau Beate<lb/>und Ihr Sohn, Novelle, 1913, Doktor Graesler Ba-<lb/>dearzt,Erzählung, 1916, Casanovas Heimfahrt,<lb/>Novelle 1918.<lb/>Der neue Band der Theaterstücke: Profes<lb/>sor Bernhardi,Komödée 1912, Komödle der Worte,<lb/>drei Einakter, 1915, Fink und Fliederbusch<lb/>Komödie, 1917, Die Schwestern oder<lb/>Casanova in Spa, Lustspiel in Versen,1919.<lb/>Dass bis zum Erscheinen der neuen Auf-<lb/>lage der Gesammtausgabe etwas Neues fertig wür¬<lb/>da ist unwahrsche inlich, aber selbst, wenn es den<lb/>Fall sein sollte, käme es nicht mehr für die Ge¬<lb/>sammtausgabe in Betracht. Von der Aufnahme al<lb/>lerlei kleinerer Arbeiten.Dialoge,Noveletten,<lb/>Gedichte, Aphorismen, die bisher nur in Zeit -<lb/>schriften gedruckt worden sind, in die Gesamt<lb/>ausgabe möchte ich vorläufig absehen.<lb/>Werden Sie einfach zwei neue Bände<lb/>drucken,die den Besitzern der bisher er Schie-<lb/>nenen auch nachgeliefert werden können oder<lb/>erwägen Sie auch eine ganz neue Ausgabe,even-<lb/>tuell in veränderter Ausstattung? Wir müssten<lb/>nun wohl auch die Honorarfrage etwas ausführ-<lb/>licher behandeln. Die verschiedenen Ausnahms<lb/>bestimmungen, durch die mein perzentudler An<lb/>teil auch bei den Einzelausgaben zum Teil rech<lb/>erheblich herabgemindert wurde, bestehen im<lb/>Allgemeinen automatisch noch weiter und ich<lb/>wünschte, dass wir uns, so weit das heute schon<lb/>möglich ist, über einen ganz bestimmten Per¬<lb/>zentsatz einigten, ohne Zuschläge etc.eto., von</p></div>
+    </body>
+  </text>
+</TEI>

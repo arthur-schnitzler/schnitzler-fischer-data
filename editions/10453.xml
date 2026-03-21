@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10453">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1912-08-16 Samuel Fischer / Peter Paul Schmitt (Berlin) an Arthur Schnitzler (Brioni)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">P9MUEMXS</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 290</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
+            <title>Professor Bernhardi</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite beschrieben
+Anlage: Prospekt Gesamtausgabe für Buchhandel (1 Blatt, 4 Seiten); Korrekturabzug Prospekt Gesamtausgabe fü Publikum (nicht überliefert)</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1912-08-16.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Schmitt, Peter Paul</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1912-08-16" n="01">1912-08-16</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName>Brioni</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Auflage/Neuauflage/Neuausgabe</term>
+          <term>Erscheinungstermin</term>
+          <term>Gesamtausgabe</term>
+          <term>Korrektur</term>
+          <term>Verlagswerbung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0570.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite beschrieben
+Anlage: Prospekt Gesamtausgabe für Buchhandel (1 Blatt, 4 Seiten); Korrekturabzug Prospekt Gesamtausgabe fü Publikum (nicht überliefert)</p>
+      </div>
+          <div type="OCR"><p>1o<lb/>1<lb/>"<lb/>290<lb/>Berlt<lb/>Fischer,<lb/>Krathur Schnitzler<lb/>sioni<lb/>Sehr geehrter Herr!<lb/>Die Korrekturen für „Professor Bernhardi“<lb/>haben wir bekommen und werden für rasche<lb/>Erledigung Sorge tragen.<lb/>Der für den Buchhandel bestimmte Prospekt<lb/>Über die Theaterstücke ist bereits erschie¬<lb/>nen, wir fügen einen Abzug bei. Der für das<lb/>Publikum bestimmte ist noch nicht gedruckt,<lb/>einen Korrekturabzug finden Sie inliegend.<lb/>Die Auflage der Theaterstücke haben wir auf<lb/>3 50 bemessen, als Erscheinungstermin<lb/>st der 21. September in Aussicht genommen.<lb/>mit vorzüglicher Hochachtung<lb/>schinett</p></div>
+    </body>
+  </text>
+</TEI>

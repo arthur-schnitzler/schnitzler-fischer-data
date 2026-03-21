@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10607">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1917-03-23 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">W268RXKS</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29931" source="https://pmb.acdh.oeaw.ac.at/entity/29931/">
+            <title>Komtesse Mizzi</title>
+          </bibl>
+          <bibl type="journal" ref="#pmb77692" source="https://pmb.acdh.oeaw.ac.at/entity/77692/">
+            <title>Das Forum</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 2 Seiten
+Beantwortet in: <ref target="10608">1917-04-02 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1917-03-23.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1917-03-23" n="01">1917-03-23</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass/>
+      <listPerson>
+        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
+          <persName>Barnowsky, Victor</persName>
+        </person>
+        <person ref="#pmb16123" source="https://pmb.acdh.oeaw.ac.at/entity/16123/">
+          <persName>Feiks, Lily Mirel</persName>
+        </person>
+        <person ref="#pmb5601" source="https://pmb.acdh.oeaw.ac.at/entity/5601/">
+          <persName>Müller, Georg</persName>
+        </person>
+        <person ref="#pmb2315" source="https://pmb.acdh.oeaw.ac.at/entity/2315/">
+          <persName>Steinrück, Elisabeth</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416739_0026.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 2 Seiten
+Beantwortet in: <ref target="10608">1917-04-02 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>23.3.1917.<lb/>Scher<lb/>Lieber Freund.<lb/>Von meiner Schwägerin, Frau Steinrück,<lb/>werde ich gebeten bei Ihnen anzufragen, ob in<lb/>Ihrem verlag zufällig eine stelle frei ist oder<lb/>ob im Laufe der nächsten Zeit eine frei werden<lb/>könnte. Für diesen Fall möchte ich Sie auf Fräu¬<lb/>lein Lili Feix aufmerksam machen, eine junge<lb/>Dame. von der Sie vielleicht schon gehört haben,<lb/>weil sie durch eineinhalb Jahren das „Forum",<lb/>wie sich meine Schwägerin ausdrückt, „selbst-<lb/>ständig gemacht hat“, dann bei Georg Müller in itztung<lb/>war. Sie ist in allen Verlagsgeschäften ver-<lb/>siert.kann stenographieren und maschinschrei-<lb/>ben, ist zuverlässig, diskret und intelligent."<lb/>So weit meine Schwägerin. Aus Eigenem kann ich<lb/>noch hinzusetzen, dass ich persönlich vor eini-<lb/>gen Monaten Gelegenheit hatte Fräulein Feix<lb/>in Wien kennen zu lernen und dass sie mir ei-<lb/>nen ausserordentlich sympathischen und verstän-</p></div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10201">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1907-11-14 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">IPUQCG6B</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 158</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29923" source="https://pmb.acdh.oeaw.ac.at/entity/29923/">
+            <title>Der Weg ins Freie</title>
+          </bibl>
+          <bibl type="journal" ref="#pmb36156" source="https://pmb.acdh.oeaw.ac.at/entity/36156/">
+            <title>Die neue Rundschau</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Doppelblatt, 2 Seiten beschrieben
+
+Antwort auf: <ref target="10200">1907-11-13 AS an SF</ref>
+Beantwortet in: <ref target="10203">1907-11-16 AS an SF</ref></note>
+        <note type="published_in">Rodewald, 76-77 [Nr. 110]</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1907-11-14.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1907-11-14" n="01">1907-11-14</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Druckauftrag</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0301.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Doppelblatt, 2 Seiten beschrieben
+
+Antwort auf: <ref target="10200">1907-11-13 AS an SF</ref>
+Beantwortet in: <ref target="10203">1907-11-16 AS an SF</ref></p>
+      </div>
+          <div type="OCR"><p>212<lb/>158<lb/>S. FISCHER,VERLAG, BERLIN-W., BÜLOUSTR. 90<lb/>BERene W., DEN 14. Nov. 07<lb/>14. No<lb/>07<lb/>G.C.P<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien XVIII<lb/>Spöttelgasse 7<lb/>Lister Kere Doktor.<lb/>es hat natürlich etwas sehr Missliches, Kür-<lb/>zu sachen, ohne das ganze Werk zu<lb/>O<lb/>können. Ich habe wir das selbst gesagt und ich war<lb/>sehr zaghaft bei einigen Strichen, die ich mir er-<lb/>lenst xxx vom unsiten Kapitel an anzumerken. Sicher<lb/>sind es mit den ersten Kapitel nicht anders sein.<lb/>Da aber xxx xxx zweite Kapitel nicht sehr stark<lb/>schien, xxx wir geglaubt, die Streichung des<lb/>Kersten Kapitalt-verschlager zu können, weil uns das<lb/>näpile in der irträchtetur des Gassen nicht entbehr¬<lb/>Hod unddes. Sie übersehen des ja viel besser und<lb/>xyz wie die erste Kmitel sich</p></div>
+    </body>
+  </text>
+</TEI>

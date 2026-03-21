@@ -1,0 +1,126 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10178">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1907-03-09 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">YSTYBM9C</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 143</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
+            <title>Liebelei</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Doppelblatt, 3 Seiten beschrieben
+
+Antwort auf: AS an SF 1907-03-08</note>
+        <note type="type">Typoskript (Unterschrift-Stempel)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1907-03-09.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1907-03-09" n="01">1907-03-09</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführungsrecht</term>
+          <term>Garantiesumme</term>
+          <term>Urheberrecht/Copyright</term>
+          <term>Vertrag</term>
+          <term>Übersetzung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb15048" source="https://pmb.acdh.oeaw.ac.at/entity/15048/">
+          <persName>Colbron, Grace Isabel</persName>
+        </person>
+        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
+          <persName>Kauser, Alice</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
+          <placeName>England</placeName>
+        </place>
+        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
+          <placeName>Österreich</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0259.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Doppelblatt, 3 Seiten beschrieben
+
+Antwort auf: AS an SF 1907-03-08</p>
+      </div>
+          <div type="OCR"><p>Herrn Dr. Arthur Schnitzler<lb/>Wien XV<lb/>Spöttelgas<lb/>Lieber Herr Doktor,<lb/>da Sie in Oesterreich leben, so<lb/>Sie<lb/>die Lage kommen, den Vertrag<lb/>in<lb/>ght-Bureau anzufechten, da<lb/>in Oesterreich<lb/>Recht<lb/>gebend.<lb/>tehe<lb/>allte die<lb/>g-<lb/>G.C.<lb/>alb<lb/>weiterer S</p></div>
+    </body>
+  </text>
+</TEI>

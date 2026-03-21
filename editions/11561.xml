@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11561">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1930-03-24 Arthur Schnitzler (Wien) an Samuel Fischer / Konrad Maril (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">VVWQT6I4</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl type="third_party">
+            <title>Heinrich Sequenz: Sibirien</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite</note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1930-03-24.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1930-03-24" n="01">1930-03-24</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass/>
+      <listPerson>
+        <person ref="140123695" source="https://d-nb.info/gnd/140123695">
+          <persName>Sequenz, Heinrich</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416741_0128.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite</p>
+      </div>
+          <div type="OCR"><p>J. Tischer<lb/>24.3.1930.<lb/>Lieber Doktor Maril.<lb/>Dieser Tage erhielten Sie ein Manuscript<lb/>von Prof. Dr. Sequenz zugesandt „Ribirien“, ein Stück,<lb/>das eine xxxx offenbar ziemlich erlebte Episode<lb/>aus der sibirischen Kriegsgefangenschaft behandelt.<lb/>Ich wollte Sie nur auf Wunsch des Herrn Dr. Sequenz<lb/>bitten den Akt recht bald zu lesen und Herrn Dr.S.<lb/>auf Ihre Erledigung nicht lange warten zu lassen.<lb/>Mit besten Grüssen<lb/>Ihr<lb/>Herrn Dr. Konred Maril,<lb/>S. Fischer, Verlag,<lb/>Perlin.</p></div>
+    </body>
+  </text>
+</TEI>

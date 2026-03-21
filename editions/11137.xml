@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11137">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1924-10-30 Samuel Fischer / Konrad Maril (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">RFNKKWET</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listOrg>
+          <org type="institution">
+            <orgName>How &amp; Raggio (Theateragentur, Rom)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Antwort auf: <ref target="11135">1924-10-27 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in:<ref target="11140">1924-11-08 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-10-30.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1924-10-30" n="02">1924-10-30</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Kritik</term>
+          <term>Vertrag</term>
+        </keywords>
+      </textClass>
+      <listPlace>
+        <place ref="#pmb872" source="https://pmb.acdh.oeaw.ac.at/entity/872/">
+          <placeName>Stuttgart</placeName>
+        </place>
+        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
+          <placeName ref="#pmb50">Wien</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0790.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Antwort auf: <ref target="11135">1924-10-27 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in:<ref target="11140">1924-11-08 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>S. Fischer/Verlag/Berlin W 57/Bülowstraße 90.<lb/>2: Amt Lützow Nr. 1082. 6162 und 9222 / Postschalkosto: Berlin Nr.: 160<lb/>THEATERABTEILUNG<lb/>Berlin, den 30. Oktober 1924<lb/>Herrn<lb/>Dr. Arthur Schnitzler<lb/>wien<lb/>Sehr geehrter Herr Doktor,<lb/>Ihrem Schreiben vom xxx 27. ds. lag der<lb/>Brief von How &amp; Enrico Raggio nicht bei und hir bitten, ihn<lb/>freundlichst nachträglich einsenden zu wollen. H &amp; R. sind unter-<lb/>dessen auch an uns herangetreten und wir werden die Angelegenheit<lb/>zu Ende führen, wenn wir das fehlende Schreiben erhalten.<lb/>In Wochenschriften ist unseres Wissens noch<lb/>keine Werner Kritik erschienen, aber wir nehmen an, dass sie wie ge-<lb/>wöhnlich mit einiger Verspätung auftauchen werden, wie es bei<lb/>Polgar gewöhnlich der Fall zu sein pflegt. - Nach Stuttgart<lb/>haben wir nochmals wegen des Vortrages geschrieben.<lb/>Mit besten Grüssen<lb/>S. FISCHER. VERLAG<lb/>AKTIENGESELL SCHAFT<lb/>THEATERABTEILUNG<lb/>Dkllearil</p></div>
+    </body>
+  </text>
+</TEI>

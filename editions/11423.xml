@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11423">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1928-06-22 Samuel Fischer / Regina Rosenbaum (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">8WBQZKGE</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30817" source="https://pmb.acdh.oeaw.ac.at/entity/30817/">
+            <title>Therese. Chronik eines Frauenlebens</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Beantwortet in: <ref target="11427">1928-07-02 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1928-06-22.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Rosenbaum, Regina</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1928-06-22" n="02">1928-06-22</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Auflage/Neuauflage/Neuausgabe</term>
+          <term>Erfolg</term>
+          <term>Honorar</term>
+          <term>Nachdruck</term>
+          <term>Überweisung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_1038.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Beantwortet in: <ref target="11427">1928-07-02 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>&amp; a<lb/>soon<lb/>872<lb/>S. Fischer/Verlag / A.-G. Berlin W 57.<lb/>Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto; Berlin Nr. 16692<lb/>Fernsprechanschlüsse: Amt Lützow Nr. 6162 bis 6164<lb/>Bülowstraße 90<lb/>Telegramm-Adresse: Fischerverlag 6162 Berlinlützow<lb/>Berlin, den 22. 6. 1928<lb/>Ro./Re.<lb/>30. Aug 6th<lb/>Herrn Dr. Arthur Schnitzler,<lb/>W i e n XVIII<lb/>Sternwartestr. 71<lb/>Sehr verehrter Herr Doktor!<lb/>Die neu gedruckten 10000 Exemplare von "Therese"<lb/>(die 21.-30. Auflage) sind soeben fertiggestellt. Wir überreichen<lb/>Ihnen mitfolgend eine Honorargutschrift für die restlichen 5000<lb/>Exemplare der bisher gedruckten 30 Auflagen und bitten, über<lb/>den Betrag von<lb/>Rm. 6.250.—<lb/>zu verfügen.<lb/>Mit vorzüglicher Hochachtung<lb/>S. Fischer / Verlag A.-G.<lb/>ppa. Rosenbarn Rülelave<lb/>1 Anlage</p></div>
+    </body>
+  </text>
+</TEI>

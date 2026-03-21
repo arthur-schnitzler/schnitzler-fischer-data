@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10005">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1888-11-27 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository>DLA; ursprünglich: CUL: MS Schnitzler B121</repository>
+                <idno type="zotero">HIX9IJLS</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 1 (davon Kopie in ASAF)</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
+            <title>Anatol</title>
+          </bibl>
+          <bibl ref="#pmb30033" source="https://pmb.acdh.oeaw.ac.at/entity/30033/">
+            <title>Anatol: Anatols Hochzeitsmorgen</title>
+          </bibl>
+          <bibl ref="#pmb31357" source="https://pmb.acdh.oeaw.ac.at/entity/31357/">
+            <title>Anatol: Episode</title>
+          </bibl>
+          <bibl ref="#pmb30143" source="https://pmb.acdh.oeaw.ac.at/entity/30143/">
+            <title>Das Abenteuer seines Lebens</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1888-12-10.html">Tgb 1888-12-10 (Inhalt referiert)</ref>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Doppelblatt, 1 Seite beschrieben
+ehN AS (Rötel): Anatol
+
+Antwort auf: 1888-11-27ante AS an SF (Anfrage Drucklegung 'Anatol'; nicht überliefert)</note>
+        <note type="published_in">Rodewald, 51 [Nr. 71]</note>
+        <note type="type">Handschrift (eigenhändige Unterschrift) (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm) AS)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1888-11-27.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1888-11-27" n="01">1888-11-27</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Ablehnung/Absage</term>
+          <term>Drama</term>
+          <term>Herstellungskosten</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://dl.ub.uni-freiburg.de/diglit/1888-11-27_SF_Berlin_an_AS_Wien"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Doppelblatt, 1 Seite beschrieben
+ehN AS (Rötel): Anatol
+
+Antwort auf: 1888-11-27ante AS an SF (Anfrage Drucklegung 'Anatol'; nicht überliefert)</p>
+      </div>
+    </body>
+  </text>
+</TEI>

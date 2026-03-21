@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10352">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1910-12-17 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">L8DBHQZ7</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
+            <title>Anatol</title>
+          </bibl>
+          <bibl ref="#pmb29937" source="https://pmb.acdh.oeaw.ac.at/entity/29937/">
+            <title>Der junge Medardus</title>
+          </bibl>
+          <bibl ref="#pmb29857" source="https://pmb.acdh.oeaw.ac.at/entity/29857/">
+            <title>Der Schleier der Beatrice</title>
+          </bibl>
+          <bibl ref="#pmb29923" source="https://pmb.acdh.oeaw.ac.at/entity/29923/">
+            <title>Der Weg ins Freie</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">5 Blatt, 5 Seiten beschrieben
+
+Antwort auf: <ref target="10351">1910-12-15 SF an AS</ref></note>
+        <note type="published_in">Rodewald, 87-89 [Nr. 123]; Schnitzler B I, 642-645; Buohler 2011, 157-158 (Auszug)</note>
+        <note type="type">Typoskript</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1910-12-17.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1910-12-17" n="01">1910-12-17</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführung</term>
+          <term>Aufführungsrecht</term>
+          <term>Schnitzler-Monographie</term>
+          <term>ungarisch</term>
+          <term>Übersetzung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb10815" source="https://pmb.acdh.oeaw.ac.at/entity/10815/">
+          <persName>Bahr, Hermann</persName>
+        </person>
+        <person ref="#pmb10986" source="https://pmb.acdh.oeaw.ac.at/entity/10986/">
+          <persName>Brahm, Otto</persName>
+        </person>
+        <person ref="#pmb2989" source="https://pmb.acdh.oeaw.ac.at/entity/2989/">
+          <persName>Polgar, Alfred</persName>
+        </person>
+        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
+          <persName>Reinhardt, Max</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
+          <placeName ref="#pmb168">Berlin</placeName>
+        </place>
+        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
+          <placeName>Hamburg</placeName>
+        </place>
+        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
+          <placeName>Ungarn</placeName>
+        </place>
+        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
+          <placeName ref="#pmb50">Wien</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="#pmb36247" source="https://pmb.acdh.oeaw.ac.at/entity/36247/">
+          <orgName>Burgtheater Wien</orgName>
+        </org>
+        <org ref="#pmb35597" source="https://pmb.acdh.oeaw.ac.at/entity/35597/">
+          <orgName>Deutsches Theater Berlin</orgName>
+        </org>
+        <org ref="#pmb118599" source="https://pmb.acdh.oeaw.ac.at/entity/118599/">
+          <orgName>Schall und Rauch Berlin</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://dl.ub.uni-freiburg.de/diglit/1910-12-17_AS_Wien_an_SF_Berlin"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>5 Blatt, 5 Seiten beschrieben
+
+Antwort auf: <ref target="10351">1910-12-15 SF an AS</ref></p>
+      </div>
+    </body>
+  </text>
+</TEI>

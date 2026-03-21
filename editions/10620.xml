@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10620">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1917-08-29 Samuel Fischer (Travemünde) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">G34UNYP2</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">3 Blatt, 3 Seiten</note>
+        <note type="published_in">Rodewald, 115 [Nr. 152]</note>
+        <note type="type">Handschrift (eigenhändige Unterschrift, eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1917-08-29.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName>Travemünde</placeName>
+          <date when="1917-08-29" n="01">1917-08-29</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Auflage/Neuauflage/Neuausgabe</term>
+          <term>Gesamtausgabe</term>
+          <term>Komödie</term>
+          <term>Papiernot</term>
+          <term>Reise/Urlaub</term>
+          <term>Verlagswerbung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0073.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>3 Blatt, 3 Seiten</p>
+      </div>
+          <div type="OCR"><p>388.<lb/>R L<lb/>HER<lb/>8<lb/>Demehe Buch-Departement, k. k. Befür. /. Pommerdecktonn Berlin Nr. 1682 — — Persesprech-Anschlösécke; Amt Lager No. 1662 und 612<lb/>Berlin W 57, Bülowstraße 90<lb/>travemunde.<lb/>"Viller Alma Marke"<lb/>29/8.17<lb/>Lieber freund!<lb/>Mein Bureau meldet mir den Eingang<lb/>des ersten Okts einer neuen Comödie<lb/>von Ihnen und macht mich gleichzeitig<lb/>mit Ihren Wünschen bekannt. Es wird<lb/>villes bestens besorgt werden und wie<lb/>ich hoffe trotz viller Schwierigkeiten<lb/>ohne besondern Zeitverlust. Freilich<lb/>wir freiben schwierigen Verhältnissen zu<lb/>namentlich in Hinsicht auf Papier und<lb/>andere Materialien und ich trage mich<lb/>unter uns gesagt, schon mit dem Plan<lb/>manche Werke in Oesterreich herstellen,<lb/>zu lassen. Mein Papiercontingent wird<lb/>immer knapper und die Productionsver¬<lb/>pflichtung immer größer, denn es gibt<lb/>kann ein wichtigeres Werk meines Verlags<lb/>welches jetzt nicht neu gedrückt werden<lb/>musste. Vom Doctor Gräesler werden<lb/>6 Auflagen dorbereitet und vo¬<lb/>Herr Gesamteinigabe wird<lb/>me<lb/>zweiten xyz</p></div>
+    </body>
+  </text>
+</TEI>

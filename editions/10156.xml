@@ -1,0 +1,120 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10156">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1905-09-25 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">8GZZRGSE</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 128</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29903" source="https://pmb.acdh.oeaw.ac.at/entity/29903/">
+            <title>Zwischenspiel</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten beschrieben</note>
+        <note type="type">Typoskript (Unterschrift-Stempel)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1905-09-25.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1905-09-25" n="01">1905-09-25</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführung</term>
+          <term>Uraufführung</term>
+          <term>Übersetzung</term>
+        </keywords>
+      </textClass>
+      <listPlace>
+        <place ref="#pmb864" source="https://pmb.acdh.oeaw.ac.at/entity/864/">
+          <placeName>Leipzig</placeName>
+        </place>
+        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
+          <placeName>Russland</placeName>
+        </place>
+        <place ref="#pmb433" source="https://pmb.acdh.oeaw.ac.at/entity/433/">
+          <placeName>St. Petersburg</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="#pmb57345" source="https://pmb.acdh.oeaw.ac.at/entity/57345/">
+          <orgName>Schauspielhaus Leipzig</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0224.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten beschrieben</p>
+      </div>
+          <div type="OCR"><p>128<lb/>S. FISCHER, VERLAG, BERLIN W., BÜLowSTR. 91<lb/>THEATERABTEILUNG<lb/>BERene W., DEN 25. Sept. 1905<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien XVIII<lb/>Spöttelgasse 7<lb/>Lieber Herr Doktor!<lb/>Der Theaterprospekt geht Ihnen morgen zu. Mir<lb/>fällt soeben ein, dass die Versendung des Bühnen¬<lb/>textes vor der Aufführung in Petersburd Schwierigkei-<lb/>ten ergeben könnte, wenn durch irgend eine unlautere<lb/>Manipulation irgend ein Theaterdirektor einem russi-<lb/>schen Uebersetzer den Bühnentext zur Uebersetzung<lb/>leiht oder schenkt. Das bezieht sich insbesondere<lb/>auf die deutschen Bühnen in Russland, die nach Em¬<lb/>pfang des Prospekts doch sicher Exemplare der deut-<lb/>schen Ausgabe verlangen werden. Ich nehme doch als<lb/>selbstverständlich an, dass die deutschen Bühnen in</p></div>
+    </body>
+  </text>
+</TEI>

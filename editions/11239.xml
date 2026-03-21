@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11239">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1926-05-27 Samuel Fischer / Konrad Maril (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">8XDYM9VE</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listOrg>
+          <org type="institution">
+            <orgName>Gesellschaft für Senderechte (Berlin)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Beantwortet in: <ref target="11240">1926-05-31 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1926-05-27.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1926-05-27" n="01">1926-05-27</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Rundfunk</term>
+          <term>Rundfunkrecht/Senderecht</term>
+          <term>Verhandlung</term>
+          <term>Vertrag</term>
+          <term>Vorlesung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0876.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Beantwortet in: <ref target="11240">1926-05-31 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>v.,,.,,<lb/>G.C.F.P.<lb/>m.<lb/>1765<lb/>S.FISCHER.VERLAG A.-G. BERLIN W BÜLowSTR. 90<lb/>FRNSPRECHER: LÜTZÖW 6162-64.<lb/>den 27.Mai1926.<lb/>Ma/Ro.<lb/>Herrn<lb/>Dr. Arthur Schnitzler<lb/>Wien.<lb/>Sehr geehrter Herr Doktor!<lb/>Sie dürften in diesen Tagen eine<lb/>Zuschrift der Gesellschaft für Senderechte er<lb/>halten haben mit der Aufforderung, dieser Ge-<lb/>sellschaft Ihre Senderechte für Vorlesungen im<lb/>Rundfunk zu übertragen. Da wir selbst diese<lb/>Vorlesungen kontrollieren und naturgemäss al-<lb/>les besser in Ihrem Interesse wahrnehmen kön¬<lb/>nen als eine Gesellschaft, die alle deutschen<lb/>cʼest lʼhonneur avec<lb/>Autoren vereinigen will, da wir überdies den<lb/>von der Gesellschaft verlangten Anteil für zu<lb/>hoch halten bitten wir Sie, diese Verpflich-<lb/>tung, die S-e auf 10 Jahre binden soll, zu-<lb/>nächst nicht zu unterzeichnen und unsere wei-<lb/>teren Vorschläge in dieser Angelegenheit ab-<lb/>zuwarten.<lb/>HÖchachtungsvoll<lb/>S. FISCHER VerLAG<lb/>Dkmarve<lb/>F. 343.</p></div>
+    </body>
+  </text>
+</TEI>

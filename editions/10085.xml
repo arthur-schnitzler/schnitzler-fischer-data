@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10085">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1898-11-23 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">66IX8PES</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 61</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29843" source="https://pmb.acdh.oeaw.ac.at/entity/29843/">
+            <title>Der grüne Kakadu</title>
+          </bibl>
+          <bibl type="journal" ref="#pmb36152" source="https://pmb.acdh.oeaw.ac.at/entity/36152/">
+            <title>Neue Deutsche Rundschau</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite beschrieben
+
+Antwort auf: 1898-11-15post/1898-11-23ante AS an SF (Honorar 'Kakadu'; nicht überliefert)</note>
+        <note type="published_in">Rodewald, 62 [Nr. 89]</note>
+        <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm)) (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1898-11-23.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1898-11-23" n="01">1898-11-23</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Honorar</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb2914" source="https://pmb.acdh.oeaw.ac.at/entity/2914/">
+          <persName>Bie, Oskar</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0098.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite beschrieben
+
+Antwort auf: 1898-11-15post/1898-11-23ante AS an SF (Honorar 'Kakadu'; nicht überliefert)</p>
+      </div>
+          <div type="OCR"><p>VERLAG<lb/>S. FISCHER, VERLAG<lb/>e<lb/>BERLIN W., den 23. November 189.8.<lb/>Telephon: Amt VI. No. 1662.<lb/>se 91.<lb/>Herrn Dr. Arthur Schnitzler.<lb/>Wien.<lb/>"<lb/>Lieber Herr Doktori<lb/>Sie verlangen für den Abdruck des „Grünen Kakadu“ in der<lb/>Neuen Deutschen Rundschau 500 Mark: diese Summe geht zwar weit über<lb/>unseren Etat:/ ich möchte aber mit Ihnen nicht handeln und erkläre mich<lb/>diesem Honorar einverstanden, da ich grossen Wert darauf lege.<lb/>eine grössere Arbeit von Ihnen in unserer Rundschau zu veröffentlichen<lb/>Ueber alles Weitere, insbesondere über den Termin des Abdrucks, wird<lb/>sich Bie mit Ihnen in direkte Verbindung setzen.<lb/>Mit besten Grüssen<lb/>Ihr ergebener<lb/>Fische<lb/>unsere 1000 zahlenden Abonnenten<lb/>lassen einen solchen Flouararsatz,<lb/>auch nicht annähernd zu</p></div>
+    </body>
+  </text>
+</TEI>

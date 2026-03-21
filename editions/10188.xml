@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10188">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1907-06-24 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">9AR756QB</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 151</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Doppelblatt, 2 Seiten beschrieben
+
+Antwort auf: 1907-06-19post/1907-06-24ante AS an SF (Vertrag Kauser, Anfrage Granville Barker; nicht überliefert)
+Rückbezug auf: <ref target="10184">1907-05-29 SF an AS</ref></note>
+        <note type="type">Typoskript (Unterschrift-Stempel)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1907-06-24.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1907-06-24" n="01">1907-06-24</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Urheberrecht/Copyright</term>
+          <term>Übersetzung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb4087" source="https://pmb.acdh.oeaw.ac.at/entity/4087/">
+          <persName>Freund, Frank E. Washburn</persName>
+        </person>
+        <person ref="#pmb5369" source="https://pmb.acdh.oeaw.ac.at/entity/5369/">
+          <persName>Granville-Barker, Harley</persName>
+        </person>
+        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
+          <persName>Kauser, Alice</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0286.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Doppelblatt, 2 Seiten beschrieben
+
+Antwort auf: 1907-06-19post/1907-06-24ante AS an SF (Vertrag Kauser, Anfrage Granville Barker; nicht überliefert)
+Rückbezug auf: <ref target="10184">1907-05-29 SF an AS</ref></p>
+      </div>
+          <div type="OCR"><p>151<lb/>S. FISCHER, VERLAG,’ BERLIN W., BÜLowSTR. 90<lb/>BERene W., DEN 24. Juni 07<lb/>Herrn Dr. Arthur Sohnitzler<lb/>lien XVIII<lb/>Spöttelgasse 7<lb/>Lieber Herr Doktor,<lb/>wenn ich den Brief von Granville Banker<lb/>recht verstehe, so bezieht: er sich auf eine Anfrage<lb/>von Ihnen, die hervorgerufen ist durch das, was ich<lb/>in meinem Briefe vom 29. Mai an Sie aus dem Briefe<lb/>meines Vertreters citiert habe. Trifft diese Vor¬<lb/>aussetzung zu, so scheint es mir zweckmässig, dass<lb/>Sie Granville Karker schreiben, dass er Herrn<lb/>Frank Washburn Freund Einsicht in die Uebersetzung<lb/>gibt. Sind Sie damit einverstanden, so werde ich<lb/>Herrn Washburn-Freund bitten, die Uebersetzung zu<lb/>lesen und sich über die Qualität der Gebersetzung<lb/>sowie über die Möglichkeiten dieses Stückes an<lb/>einer der englischen Böhnen weiter zu äussern.<lb/>Den Vertrag mit Miss Kaiser auf drei Jahre zu</p></div>
+    </body>
+  </text>
+</TEI>

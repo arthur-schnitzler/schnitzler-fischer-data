@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10468">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1912-10-31 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">XU65I43G</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 300</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
+            <title>Anatol</title>
+          </bibl>
+          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
+            <title>Professor Bernhardi</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 2 Seiten beschrieben
+Anlage: Besprechungen 'Anatol'-Inszenierung New York, von Alice Kauser an SF übermittelt (nicht überliefert).
+
+Beantwortet in: <ref target="10471">1912-11-06 AS an SF</ref></note>
+        <note type="type">Typoskript (Unterschrift-Stempel)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1912-10-31.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1912-10-31" n="01">1912-10-31</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Garantiesumme</term>
+          <term>Vertrag</term>
+          <term>Übersetzung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
+          <persName>Kauser, Alice</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb55347" source="https://pmb.acdh.oeaw.ac.at/entity/55347/">
+          <placeName>Baltimore</placeName>
+        </place>
+        <place ref="#pmb889" source="https://pmb.acdh.oeaw.ac.at/entity/889/">
+          <placeName>Boston</placeName>
+        </place>
+        <place ref="#pmb891" source="https://pmb.acdh.oeaw.ac.at/entity/891/">
+          <placeName>Bremen</placeName>
+        </place>
+        <place ref="#pmb880" source="https://pmb.acdh.oeaw.ac.at/entity/880/">
+          <placeName>Chicago</placeName>
+        </place>
+        <place ref="#pmb45735" source="https://pmb.acdh.oeaw.ac.at/entity/45735/">
+          <placeName>Detroit</placeName>
+        </place>
+        <place ref="#pmb146" source="https://pmb.acdh.oeaw.ac.at/entity/146/">
+          <placeName>Frankfurt am Main</placeName>
+        </place>
+        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
+          <placeName>New York</placeName>
+        </place>
+        <place ref="#pmb47628" source="https://pmb.acdh.oeaw.ac.at/entity/47628/">
+          <placeName>Philadelphia</placeName>
+        </place>
+        <place ref="#pmb56126" source="https://pmb.acdh.oeaw.ac.at/entity/56126/">
+          <placeName>Pittsburg</placeName>
+        </place>
+        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
+          <placeName>USA</placeName>
+        </place>
+        <place ref="#pmb47927" source="https://pmb.acdh.oeaw.ac.at/entity/47927/">
+          <placeName>Washington</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0590.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 2 Seiten beschrieben
+Anlage: Besprechungen 'Anatol'-Inszenierung New York, von Alice Kauser an SF übermittelt (nicht überliefert).
+
+Beantwortet in: <ref target="10471">1912-11-06 AS an SF</ref></p>
+      </div>
+          <div type="OCR"><p>300<lb/>S. Fischer, Verlag, Berlin M., Bülowstrasse 90<lb/>31/X. 1912<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Lieber Herr Doktor,<lb/>ich bin von Miss Kaiser über den Erfolg von "Anatol" in Newyork<lb/>unterrichtet, die anliegenden Besprechungen hat sie mir heute zuge-<lb/>schickt.<lb/>Sie wissen ja, dass "Anatol" in Amerika frei ist. Wir haben, wie<lb/>Ihnen ebenfalls bekannt ist und was Sie uns mit Ihrem Briefe vom 19.<lb/>April bestätigt haben, eine Abmachung für die "moralischen Rechte"<lb/>des Anatol-Zyklus für Newyork getroffen, mit 15 Dollar pro Aufführung,<lb/>die zwischen Ihnen und dem Uebersetzer zu teilen wären, und mit einer<lb/>bereits verrechneten Garantiezahlung von 100 Dollars. Diese Verein-<lb/>barung ist, wie Ihnen ebenfalls mitgeteilt wurde, später erweitert<lb/>worden auf die Städte Philadelphia, Baltimore, Washington, Chicago,<lb/>Boston, Detroit, Pittsburg, und zwar mitteiner Vorauszahlung von<lb/>300 Dollars, die bis heute noch nicht verrechnet sind. Ich lege den<lb/>Vertrag zur Einsichtnahme bei. In diesem Vertrag ist, wie Sie sehen,<lb/>von einem Honorar von 15 Dollar pro Aufführung die Rede. Da es sich hier<lb/>um eine spätere Vereinbarung handelt, so werde ich mich auf den Stand-<lb/>punkt stellen, dass die 15 Dollar für jede Aufführung nicht zu teilen<lb/>sind, sondern Ihnen allein gebühren. Sie müssen dabei bedenken, dass<lb/>sich die ganze Vereinbarung nur auf moralische Rechte bezieht, dass wir<lb/>also damit zufrieden sein können.</p></div>
+    </body>
+  </text>
+</TEI>

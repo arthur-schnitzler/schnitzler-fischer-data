@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11699">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1931-09-02 Samuel Fischer / Gottfried Bermann (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">XULDTTP7</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30863" source="https://pmb.acdh.oeaw.ac.at/entity/30863/">
+            <title>Flucht in die Finsternis</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Beantwortet in: <ref target="11700">1931-09-05 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1931-09-02.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Bermann, Gottfried</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1931-09-02" n="01">1931-09-02</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Überweisung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416744_0161.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Beantwortet in: <ref target="11700">1931-09-05 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>1058<lb/>hi7<lb/>S. Fischer Verlag / Berlin W57 Buͤlowstratze 90<lb/>AKTIEN GESELISCHAFT<lb/>Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto Berlin Nr. 16692<lb/>Fernsprechanschlüsse: Amt Lützow Nr. 6162 bis 6164<lb/>Telegramm-Adresse: Fischerverlag 61,62 Berlinlützow<lb/>Be/Ja<lb/>Berlin, den 2. September 1931.<lb/>Herrn<lb/>Dr.Arthur Schnitzler,<lb/>W<lb/>Sternwartestr.71<lb/>Hochverehrter Herr Doktor!<lb/>In Anbetracht der vollkommen unübersichtlichen<lb/>Wirtschaftslage und des zu befürchtenden starken Absatzrück-<lb/>ganges möchten wir anstatt der vorgeschlagenen 20.000 Exem-<lb/>plare Ihrer neuen Hovelle nur 15.000 zunächst in Druck geben.<lb/>Jedoch soll es bei der Ihnen vorgeschlagenen Vorauszahlung<lb/>für 15.000 Exemplare bleiben. Wollen Sie bitte so liebenswür-<lb/>dig sein, uns mitzuteilen, ob Sie mit einer derartigen Rege-<lb/>lung einverstanden wären. Die von Ihnen erbetene Teilzahlung<lb/>von RM 5.000.- haben wir heute an die von Ihnen angegebene<lb/>Bank überwiesen, ebenso die RM 254.- einer Theaterabrechnung.<lb/>Mit herzlichen Grüssen<lb/>Ihr Ihnen ergebener<lb/>Dr Beemannig</p></div>
+    </body>
+  </text>
+</TEI>

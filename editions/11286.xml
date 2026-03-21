@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11286">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1927-03-01 Samuel Fischer / Paul Eipper (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">EUIDAUYV</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb32131" source="https://pmb.acdh.oeaw.ac.at/entity/32131/">
+            <title>Spiel im Morgengrauen</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Beantwortet in: <ref target="11287">1927-03-03 AS (Wien) an SF (Berlin)</ref>
+Beilage: Text für den Schutzumschlag</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1927-03-01.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Eipper, Paul</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1927-03-01" n="01">1927-03-01</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Druckauftrag</term>
+          <term>Korrektur</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0913.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Beantwortet in: <ref target="11287">1927-03-03 AS (Wien) an SF (Berlin)</ref>
+Beilage: Text für den Schutzumschlag</p>
+      </div>
+          <div type="OCR"><p>/ 90<lb/>S. FISCHER ∙VERLAG A.-G. ‘ BERLIN W’ BÜLowSTR. 90<lb/>TERNSPRECHER: LÜTZ0W 6162-64<lb/>He/VO TELEGRAMM-ADRESSE: FISCHERVERLÄG bies BERLINLÜTÜ?en 1.III.27<lb/>Herrn<lb/>Dr. Arthur Schnitzler<lb/>Wien XVIII<lb/>Sehr geehrter Herr Doktor!<lb/>Bei einer letzten Durchsicht der Korrek-<lb/>turen vom<lb/>»Spiel im Morgengrauen“.<lb/>die wir eben der Druckerei weitergegeben haben,<lb/>fällen uns noch zwei Stellen auf, über die wir um<lb/>Ihre Entscheidung bitten.<lb/>Der Vater des Leutnant Kasda ist auf Seite<lb/>25 als Oberst in Temesvar bezeichnet, auf den Sei-<lb/>ten 70/71 aber als Oberstleutnant in Ungarn.<lb/>Sollen die Dienstgrade in beiden Fällen gleich¬<lb/>mässig behandelt werden und wie?<lb/>Auf Seite 25 ist noch eine uns nicht ganz<lb/>klare Stelle, um deren Aufklärung wir bitten, s.<lb/>Anlage!<lb/>Mit der Bitte um freundliche umgehende<lb/>Benachrichtigung empfehlen wir uns Ihnen, sehr<lb/>geehrter Herr Doktor, mit ganz vorzüglicher<lb/>Hochachtung<lb/>S. FISCHER/VEILAG A.-G.<lb/>r<lb/>22th<lb/>zusammen.<lb/>den Tod re:</p></div>
+    </body>
+  </text>
+</TEI>

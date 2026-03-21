@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10740">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1920-02-12 Samuel Fischer / NN (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">DLPL2HP4</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30819" source="https://pmb.acdh.oeaw.ac.at/entity/30819/">
+            <title>Die Schwestern oder Casanova in Spa</title>
+          </bibl>
+          <bibl ref="#pmb30881" source="https://pmb.acdh.oeaw.ac.at/entity/30881/">
+            <title>Fink und Fliederbusch</title>
+          </bibl>
+          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
+            <title>Reigen</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">3 Blatt, 3 Seiten
+Antwort auf: <ref target="10738">1920-01-23 AS (Wien) an SF (Berlin)</ref>, <ref target="10739">1920-01-30 AS (Wien) an SF (Berlin)</ref>
+Anlage (doppelt): 1920-01-02 Hans Bartsch (New York) an SF (Berlin)</note>
+        <note type="type">Typoskript</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1920-02-12.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">NN, </persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1920-02-12" n="01">1920-02-12</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Abrechnung</term>
+          <term>amerikanisch</term>
+          <term>Aufführung</term>
+          <term>Auslandszahlung</term>
+          <term>deutsch</term>
+          <term>dänisch</term>
+          <term>Erster Weltkrieg</term>
+          <term>Korrespondenz</term>
+          <term>Provision</term>
+          <term>schweizerisch</term>
+          <term>Tantiemen</term>
+          <term>Theater</term>
+          <term>Verhandlung</term>
+          <term>Vertrag</term>
+          <term>Vertreter/Vertretung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
+          <persName>Bartsch, Rudolf Hans</persName>
+        </person>
+        <person ref="#pmb20474" source="https://pmb.acdh.oeaw.ac.at/entity/20474/">
+          <persName>Linden, Gustaf</persName>
+        </person>
+        <person ref="#pmb2357" source="https://pmb.acdh.oeaw.ac.at/entity/2357/">
+          <persName>Nansen, Peter</persName>
+        </person>
+        <person ref="#pmb23303" source="https://pmb.acdh.oeaw.ac.at/entity/23303/">
+          <persName>Reucker, Alfred</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
+          <placeName>Deutschland</placeName>
+        </place>
+        <place ref="#pmb43570" source="https://pmb.acdh.oeaw.ac.at/entity/43570/">
+          <placeName>Dänemark</placeName>
+        </place>
+        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
+          <placeName>Polen</placeName>
+        </place>
+        <place ref="#pmb43435" source="https://pmb.acdh.oeaw.ac.at/entity/43435/">
+          <placeName>Schweiz</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="#pmb35597" source="https://pmb.acdh.oeaw.ac.at/entity/35597/">
+          <orgName>Deutsches Theater Berlin</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0224.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>3 Blatt, 3 Seiten
+Antwort auf: <ref target="10738">1920-01-23 AS (Wien) an SF (Berlin)</ref>, <ref target="10739">1920-01-30 AS (Wien) an SF (Berlin)</ref>
+Anlage (doppelt): 1920-01-02 Hans Bartsch (New York) an SF (Berlin)</p>
+      </div>
+          <div type="OCR"><p>44<lb/>Camerie<lb/>S. Fischer. Verlag. Berlin<lb/>xx<lb/>̃<lb/>Amt Lützow 1662 u. 6162 Theaterabteilung postscheckkonto Nr. 16692<lb/>Berlin W 57, Bülowstraße Nr. 90<lb/>G.H.F.F:P<lb/>Den 12 Februar 10,20<lb/>G/sch<lb/>Neüoerdreim da Jierib eik ne gnuste(m) Hove Höhr enel###.<lb/>- TeV nettiedsed snu nov heb MoaJusä eilsT mi eiw Kola ei3 nietok<lb/>Jhejeed menelbed neaaeTejal Teidi murdaw Jus redert<lb/>Herrn<lb/>rieb aan aasb als „JiedoffgöM“<lb/>Mesel nieder.<lb/>Dr. Arthur Schnitzler,<lb/>wiem.Jdteld selv<lb/>os.Jllirdedns nemeldns? nedosirexlewnos efs V&amp;W<lb/>- xxx ###<lb/>- TeU ebsessern aufs Korn in Beantworte ### Herrn Fischer ge-<lb/>ste, richteten schreibens vom 23. J. und Ihres Briefen vom 30.1. teilen<lb/>neeeib uorir Ihnen ärkebendet folgendes Eiliano etc. Ina aeb gnulxxasniä<lb/>denzen mit<lb/>Tus erd.noglotte Xnsä nebnehmen xxx bisherigen Konrag<lb/>Bantsch in Ihren Angelegenheiten mit Ihrem Einverständnis, durch uns<lb/>geführt worden sind, so müssen wir bitten, es auch für die Zukunft,<lb/>soweit es sich um bereits im Zuge befindliche Dinge handelt, dabei<lb/>Aufgenommen wurde zurücksehen /:n<lb/>on abachen, was unser Vertreter<lb/>zu belassen. Wir wollen hier ganz da<lb/>natürlich nicht berechtigt ist mit den Autorem unter Umgehung des<lb/>"prefaswdol."<lb/>Verhindung zu treten, sondern halmdahei vor<lb/>Vertrages in A<lb/>G.C.H.<lb/>re<lb/>Votre très-t-êt-elle.<lb/>et d<lb/>wiegend einen praktischen Gesichtspunkt im Auge. Tatsächlich ist bei<lb/>em Rechtslage die Kon -<lb/>der durch den Krieg geschaffenen schwanken<lb/>G.C.F.P.<lb/>de la riviere avec une autre même ami-<lb/>zentration derartiger Angelegenheiten in einer Hand unbedingt not -<lb/>wendig und die an sich schon etwas verkorrenen Nernältnisse werden<lb/>durch bezentralisierung ganz bedeutend erschwert. Wir werden im<lb/>yor be<lb/>inne dem Vertrages nach Nie vorkommenden späteren Vergebungen Ihr<lb/>nenw xxx ausdrückliches Einverständnis einholen, müssen Jedock ensuchen, in<lb/>mit uns solchen, Fällen, in denen, als aller Verhandlungen bereitet übernommen<lb/>Sollten wir an diesem Tag noch keine<lb/>Die oben genannten Bedingungen haben Gültigkeit bis zum<lb/>entscheidende Antwort erhalten haben, so nehmen wir an, daß wir über das in Frage stehende Werk anderweltig verfügen können<lb/>G.O.</p></div>
+    </body>
+  </text>
+</TEI>

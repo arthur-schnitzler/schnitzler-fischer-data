@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11362">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1927-12-19 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">8MCBY9WL</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30817" source="https://pmb.acdh.oeaw.ac.at/entity/30817/">
+            <title>Therese. Chronik eines Frauenlebens</title>
+          </bibl>
+          <bibl type="journal" ref="#pmb41531" source="https://pmb.acdh.oeaw.ac.at/entity/41531/">
+            <title>Berliner Tageblatt</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite</note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1927-12-19.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1927-12-19" n="01">1927-12-19</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Erscheinungstermin</term>
+          <term>Manuskript</term>
+          <term>Verhandlung</term>
+          <term>Vertrag</term>
+          <term>Vorabdruck</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416741_0007.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite</p>
+      </div>
+          <div type="OCR"><p>Darf ich ferner bitten einen Band des Harris-<lb/>schen Shakespeare an meinen Sohn Heinrich Schnitz-<lb/>ler, Berlin W. Matthöikirchstr.4, bei Dernburg.<lb/>senden zu wollen und mir auf die Rechnung zu setzen<lb/>Herr Fischer sagte mir einmal, dass Sie ohne weitere<lb/>mir auch Bücher aus anderen Verlagen zu Buchhänd-<lb/>lerpreisen verschaffen könnten. Falls das wirklich<lb/>ohne jede Mühe für den Verlag und ohne sonstige<lb/>Unzukömmlichkeiten möglich ist, möchte ich wohl ge-<lb/>legentlich von dieser Freundlichkeit Gebrauch mache<lb/>Mit herzlichem Gruss<lb/>Ihr sehr ergebener<lb/>Herrn Dr. Konrad Maril,<lb/>S. Fischer.Verlag.<lb/>Berlin.<lb/>J. Fischer<lb/>19.12.1927.<lb/>Lieber Freund.<lb/>Das Berliner Tageblatt schreibt mir, dass<lb/>es ihm von grossem Wert<lb/>wäre einen Roman aus meiner Feder zu veröffentlichen,<lb/>dass die xxx Prüfung des Manuscript frühestens inner-<lb/>halb von 14 Tagen erfolgen könnte, ein Abdruck vor<lb/>dem Herbst nächsten Jahres wegen Vertragsverpflich-<lb/>tungen unmöglich wäre. Ich frage nun an, wann Sie<lb/>den Roman frühestens veröffentlichen können, wenn ich,<lb/>in Anbetracht des späten Termins, auf den Vorabdruck<lb/>ohne weitere Verhandlungen zu verzichten mich ent-<lb/>schlösse.<lb/>Herzlichst grüssend<lb/>Ihr<lb/>Herrn S.Fischer,Verlag,<lb/>Berlin.</p></div>
+    </body>
+  </text>
+</TEI>

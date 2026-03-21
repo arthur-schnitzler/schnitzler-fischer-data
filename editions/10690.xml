@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10690">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1919-01-30 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">2HVY8E6A</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30971" source="https://pmb.acdh.oeaw.ac.at/entity/30971/">
+            <title>Casanovas Heimfahrt</title>
+          </bibl>
+          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
+            <title>Professor Bernhardi</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="5211563-X" source="https://d-nb.info/gnd/5211563-X">
+            <orgName>Nyt Nordisk Forlag Arnold Busck (Kopenhagen)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 2 Seiten
+Antwort auf: <ref target="10687">1919-01-20 AS (Wien) an SF (Berlin)</ref>, <ref target="10688">1919-01-22 AS (Wien) an SF (Berlin)</ref>, <ref target="10689">1919-01-24 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1919-01-30.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1919-01-30" n="01">1919-01-30</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Auflage/Neuauflage/Neuausgabe</term>
+          <term>Honorar</term>
+          <term>Verhandlung</term>
+          <term>Versand</term>
+          <term>Vertrag</term>
+          <term>Vertreter/Vertretung</term>
+          <term>Übersetzungsrecht</term>
+          <term>Überweisung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb20474" source="https://pmb.acdh.oeaw.ac.at/entity/20474/">
+          <persName>Linden, Gustaf</persName>
+        </person>
+        <person ref="#pmb12556" source="https://pmb.acdh.oeaw.ac.at/entity/12556/">
+          <persName>Rosenbaum, Richard</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
+          <placeName>Deutschland</placeName>
+        </place>
+        <place ref="#pmb43570" source="https://pmb.acdh.oeaw.ac.at/entity/43570/">
+          <placeName>Dänemark</placeName>
+        </place>
+        <place ref="#pmb64465" source="https://pmb.acdh.oeaw.ac.at/entity/64465/">
+          <placeName>Norwegen</placeName>
+        </place>
+        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
+          <placeName>Schweden</placeName>
+        </place>
+        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
+          <placeName ref="#pmb50">Wien</placeName>
+        </place>
+        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
+          <placeName>Österreich</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0160.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 2 Seiten
+Antwort auf: <ref target="10687">1919-01-20 AS (Wien) an SF (Berlin)</ref>, <ref target="10688">1919-01-22 AS (Wien) an SF (Berlin)</ref>, <ref target="10689">1919-01-24 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>42 x<lb/>JERLAG<lb/>1<lb/>FISCHE<lb/>Bankkonto: Deutsche Bank, Depositenkasse P. Berlin / Postscheckkonto. Berlin 1669a<lb/>BERLIN W 57, BULowSTRASSE 90<lb/>Ferneuf: Lützow 1662, 6162 und 9292<lb/>30. Jan. 1919<lb/>F/S1.<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Lieber Freund,<lb/>Rosenbauns Leistung läge natürlich nicht nur im Technischen, das<lb/>ist eine geringfügige Leistung, die ein junger Buchhandlungsgehilfe<lb/>mit mehr Sachkenntnis ausüben könnte. Als Vertreter der Gesamtinte-<lb/>ressen des Verlages hätte er zwar auch damit zu tun, aber das füllt<lb/>bei weitem nicht Zeit und Stellung eines höheren geamten aus. Wesent-<lb/>lich wäre, dass er die Fähigkeit mitbrächte, zum geistigen und künst-<lb/>lerischen Leben Oesterreichs ein Verhältnis zu gewinnen, das ihn<lb/>befähigt, urteilend, werbend und vermittelnd für uns zu wirken. Ich<lb/>bezweifele, ob er diese Fähigkeit besitzt und darum weiss ich nicht<lb/>recht, ob Rosenbaum für uns der gegebene Mann bleiben kann; ich hatte<lb/>übrigens von Anfang an diesen Eindruck. Es ist vielleicht besser,<lb/>Sie sprechen mit Rosenbaum garnicht über diese Angelegenheit, ich<lb/>kann noch nicht sagen, in welcher Weise sich die Frage der Vertretung<lb/>für uns lösen lässt.<lb/>Mit Linden haben wir inzwischen „Gasanova“ für Schweden mit<lb/>a-<lb/>1000 schwedischen Kronen abgeschlossen. Verhandlungen für Dänemark<lb/>resp. Norwegen sind mit Nordiske Forlag und einem anderen Wünischen<lb/>Verleger. im Gange.<lb/>Vom „ Casanova „ haben wir in Wien 25 000, in Leipzig 15 000 Exem-<lb/>plare gedruckt. Es ist, wie Sie sich erinnern werden, der Vorsicht<lb/>wegen geschehen, um uns hier in Deutschland für alle Fälle von dem</p></div>
+    </body>
+  </text>
+</TEI>

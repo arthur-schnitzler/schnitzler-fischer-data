@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11404">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1928-04-12 Arthur Schnitzler (Wien) an Samuel Fischer / Konrad Maril (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">R9G2KVWE</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
+            <title>Professor Bernhardi</title>
+          </bibl>
+          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
+            <title>Reigen</title>
+          </bibl>
+          <bibl ref="#pmb30817" source="https://pmb.acdh.oeaw.ac.at/entity/30817/">
+            <title>Therese. Chronik eines Frauenlebens</title>
+          </bibl>
+          <bibl type="journal" ref="#pmb41321" source="https://pmb.acdh.oeaw.ac.at/entity/41321/">
+            <title>Neues Wiener Tagblatt</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 2 Seiten</note>
+        <note type="type">Typoskript</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1928-04-12.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1928-04-12" n="01">1928-04-12</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Abrechnung</term>
+          <term>Aufführung</term>
+          <term>Aufführungsrecht</term>
+          <term>Buchgestaltung/Buchschmuck/Umschlag/Einband</term>
+          <term>Freiexemplar</term>
+          <term>Gesetz</term>
+          <term>Honorar</term>
+          <term>Korrespondenz</term>
+          <term>niederländisch</term>
+          <term>Reise/Urlaub</term>
+          <term>Tantiemen</term>
+          <term>Urheberrecht/Copyright</term>
+          <term>Übersetzung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="nm0886327" source="https://www.imdb.com/name/nm0886327/">
+          <persName>Lugt Melsert, Cor van der</persName>
+        </person>
+        <person ref="#pmb24148" source="https://pmb.acdh.oeaw.ac.at/entity/24148/">
+          <persName>Scheyer, Moritz</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb505" source="https://pmb.acdh.oeaw.ac.at/entity/505/">
+          <placeName>Athen</placeName>
+        </place>
+        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
+          <placeName>Deutschland</placeName>
+        </place>
+        <place ref="#pmb682" source="https://pmb.acdh.oeaw.ac.at/entity/682/">
+          <placeName>Gravosa</placeName>
+        </place>
+        <place ref="#pmb966" source="https://pmb.acdh.oeaw.ac.at/entity/966/">
+          <placeName>Konstantinopel</placeName>
+        </place>
+        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
+          <placeName>Niederlande</placeName>
+        </place>
+        <place ref="#pmb873" source="https://pmb.acdh.oeaw.ac.at/entity/873/">
+          <placeName>Triest</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416741_0041.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 2 Seiten</p>
+      </div>
+          <div type="OCR"><p>Darf ich darum bitten in den nächsten Tagen<lb/>für mein Konto an die Bank für auswärtigen Handel<lb/>als zweite Rate "Therese-Honorar Mk. 5000.- freund-<lb/>lichst überweisen zu wollen.<lb/>Wie steht es nun eigentlich mit dem Ergän-<lb/>zungsband der Gesammelten Werke und dem Neudruck<lb/>der übrigen Bände? Herr Fischer sprach schon im<lb/>August von der Notwendigkeit?<lb/>Und könnte man nicht vielleicht doch bald<lb/>eine anständige Neuausgabeb von "Casanovas Heimfahrt“<lb/>rikieren?<lb/>Donnerstag verlasseich Wien, fahre nach<lb/>Triest und von dort xxxx<lb/>ich mich mit der Stelle d'Italia auf eine Mittel-<lb/>meerfahrt (Corfu,AthenmConstantinopel, Ragusa und<lb/>wieder zurück nach Triest 30. April). Ich schreibe<lb/>natürlich noch vorher und geben nähere Adressen.<lb/>Mit herzlichen Grüssen<lb/>Ihr ergebener<lb/>Herrn Dr. Konrad Maril,<lb/>S.Fischer,Verlag.<lb/>Berlin.<lb/>S. Fischer<lb/>12.4.1928.<lb/>Lieber Herr Doktor.<lb/>G.C.P.<lb/>G.C.F.P.<lb/>Besten Dank für die Uebersendung des<lb/>holländischen Briefes, den ich zugleich zurück-<lb/>sende. Selbstverständlich bin ich nicht gesonnen,<lb/>von Herrn Lugt ein Almosen anzunehmen als wel-<lb/>ches ich seine zweiporzentige Ablindung betrach-<lb/>ten müsste. Uebrigens bin ich überzeugt, dass wir<lb/>zu unserem Rechte kommen müssten. Der "Bernhardi"<lb/>ist ja in holländischer Sprache zu einer Zeit<lb/>in Holland zum ersten Male aufgeführt worden,<lb/>als er noch geschützt war und wir erhielten<lb/>regelmässig Tantiemen. (Sie sehen vielleicht<lb/>freundlichst gelegentlich in Ihren Büchern nach<lb/>wann und wie viel). Es ist kaum denkbar, dass<lb/>auch diese holländischen Uebersetzungen, die ge-<lb/>schützt waren. 10 Jahre nach Erscheinen des Bu-<lb/>ches in Deutschland von einem Tag auf den an-<lb/>dern sozusagen frei werden. Dies ist der Stand-<lb/>punkt, den Ihr Vertreter meiner Ansicht nach<lb/>vor allem betonen müsste. Herr van Lugt ist<lb/>gewiss nicht gezwungen, wie er sich Ihrem Vertre-<lb/>ter gegenüber ausdrückte, die Gesetze seines Lan-<lb/>des zu verbessern, er ist aber noch weniger ge-<lb/>zuungen meine Tartiemen einzustecken. Ich erinne-<lb/>re mich, dass dieser Herr Lugt sich schon vor<lb/>Jahren - ich glaube anlässlich einer holländi-<lb/>schen "Reigen -Aufführung - ähnlich benommen<lb/>hat. Ich habe leider augenblick nicht Zeit die<lb/>Korrespondenz herauszusuchen. Ihr Vertreter<lb/>möge, damit die Sache ordnungsmässig weitergeht,<lb/>auf Zahlung der gleichen Tantième bestehen, wie<lb/>seinerzeit von anderen Gesellschaften für<lb/>"Bervhardi" gezahlt wurde. (7 oder 5⅞). Die<lb/>Sache muss unbedingt zu Ende geführt werden, auf<lb/>die Gefahr hin, dass wir Unrecht behalten.</p></div>
+    </body>
+  </text>
+</TEI>

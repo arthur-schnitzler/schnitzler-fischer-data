@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10759">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1920-06-08 Samuel Fischer / NN (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">TC54SIKZ</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
+            <title>Reigen</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="institution" ref="#pmb29244" source="https://pmb.acdh.oeaw.ac.at/entity/29244/">
+            <orgName>Allgemeine Bodencreditanstalt</orgName>
+          </org>
+          <org type="institution">
+            <orgName>Deutsches Konsulat Madrid</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 2 Seiten
+Anlage: Abschrift XXXX-XX-XX Vertreter SF (Ungarn) an SF (Berlin) (erschlossen)
+Antwort auf: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1920-06-08.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">NN, </persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1920-06-08" n="01">1920-06-08</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Garantiesumme</term>
+          <term>Kündigung</term>
+          <term>spanisch</term>
+          <term>Ungarischer Friedensvertrag</term>
+          <term>Uraufführung</term>
+          <term>Urheberrecht/Copyright</term>
+          <term>Vertrag</term>
+          <term>Vertreter/Vertretung</term>
+          <term>Währung</term>
+          <term>Übersetzung</term>
+          <term>Überweisung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb7777" source="https://pmb.acdh.oeaw.ac.at/entity/7777/">
+          <persName>Hellmer, Arthur</persName>
+        </person>
+        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
+          <persName>Reinhardt, Max</persName>
+        </person>
+        <person ref="#pmb142471" source="https://pmb.acdh.oeaw.ac.at/entity/142471/">
+          <persName>Ziegel, Erich</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb914" source="https://pmb.acdh.oeaw.ac.at/entity/914/">
+          <placeName>Madrid</placeName>
+        </place>
+        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
+          <placeName>Prag</placeName>
+        </place>
+        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
+          <placeName>Ungarn</placeName>
+        </place>
+        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
+          <placeName ref="#pmb50">Wien</placeName>
+        </place>
+        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
+          <placeName>Österreich</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0269.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 2 Seiten
+Anlage: Abschrift XXXX-XX-XX Vertreter SF (Ungarn) an SF (Berlin) (erschlossen)
+Antwort auf: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>étoar<lb/>S. Fischer - Verlag.Berlin<lb/>Immeuble<lb/>määrä<lb/>Amt Lützow 1662 u. 6162 Theaterabteilung postscheckkonto Nr. 16892<lb/>Berlin W 57, Bülowstraße Nr. 90<lb/>o/Sch Den 8. Juni 10/20<lb/>nichtsamtes wenlach sis Todii nejnemosk nenemlew nevni nenes bnu<lb/>ogets Herrn xxxrev arb aflalrejansas,nsl! neunl TedeU.negegane<lb/>Dr. Arthur Schnitzler<lb/>and<lb/>.mensauf stenregeles rereJage led xxn lpschise gfjon se affs¬<lb/>===  =============<lb/>[?], av grisdearedeU nenbatrege'reb nogew<lb/>Sehr geehrter Herr Doktor,<lb/>of a ouM Thosnun Tlv nedsn “ ajtow<lb/>1,1<lb/>150<lb/>R3S<lb/>in Ergänzung unserer neuerlichen Bemerkung en<lb/>Mntav Einsw rexjes fodeo vab Jufenoa hosmed.hribam<lb/>1789<lb/>über den Schutz österreichicher und deutscher Autoren in Ungarn lassen<lb/>teweis Js'Iranox asb fis blev<lb/>wir Ihnen zu Ihrer genauen Orientierung anbei in Abschrift die<lb/>oetenfes asb, j'afrogeb Jaluwwwol nehosiuod mab<lb/>95<lb/>it.<lb/>Auskunft zugehen, die wir nunmehr von unserem ungarischen Vertreter<lb/>###fotiev Tejfew negeweim¬<lb/>vandenmeh amt bin<lb/>Monsieur<lb/>in dieser Angelegenheit erhalten haben. Es war uns bereits bekannt,<lb/>.brtw<lb/>dass der ungarische Friedensvertrag sich in irgend einer Form mit<lb/>nim<lb/>dem Schutz des geistigen Eigentums in Ungarn befasste. Wie wir nunmehr<lb/>V &amp; Vous<lb/>a¬<lb/>the easb..<lb/>is<lb/>ersehen, sind die diesbezüglichen Bestimmungen des Friedensvertrages<lb/>nebrew jeJflusrjod aesotnA<lb/>G. A.<lb/>sehr günstig, so dass wir hoffen unter Berufung hierauf in Ungarn<lb/>Riethofre<lb/>and<lb/>bessere Bedingungen für Buchausgaben erzielen zu können als bisher.<lb/>Wie unser Vertreter uns mitteilt, hat er<lb/>nicht wie von uns gewünscht die Kr. 5000.– Garantie für „Schwestern“<lb/>an Ihre Wiener Bank überwiesen, da dies gewisse Schwierigkeiten macht,<lb/>sondern Anweisung gegeben, dass das Geld hier direkt an uns ausge-<lb/>zahlt wird. Er besitzt zufällig ungarische Kronen hier in Berlin.<lb/>So wird die Angelegenheit auf diesem Wege geordnet werden.<lb/>Bei dieser Gelegenheit teilen wir Ihnen<lb/>ergebenst mit, dass der mit Prag versehentlich geschlossene Vertrag<lb/>"Reigen" aufgehoben worden ist. Im übrigen nahmen wir zur Kenntnis,<lb/>Die oben genannten Bedingungen haben Sältigkeit bis zum. Sollten wir an diesem Tag noch keine<lb/>entscheidende Antwort erhalten haben, so nehmen wir an, daß wir über das in Frage stehende Werk anderweitig verfügen können<lb/>J. 226.</p></div>
+    </body>
+  </text>
+</TEI>

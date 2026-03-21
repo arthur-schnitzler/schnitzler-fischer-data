@@ -1,0 +1,107 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10974">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1923-02-16 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">9IFQZGUS</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listOrg>
+          <org type="institution">
+            <orgName>Wiener Künstler-Siedlung</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Weitergeleiteter Brief, aber nicht von SF! Bezug/Beilage zu einem der umliegenden Briefe?</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-02-16.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1923-02-16" n="01">1923-02-16</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Spende</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb10114" source="https://pmb.acdh.oeaw.ac.at/entity/10114/">
+          <persName>Strobl, Karl Hans</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
+          <placeName ref="#pmb50">Wien</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0595.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Weitergeleiteter Brief, aber nicht von SF! Bezug/Beilage zu einem der umliegenden Briefe?</p>
+      </div>
+          <div type="OCR"><p>603<lb/>„WIENER KÜNSTLER-SIEDLUNG“<lb/>W. K. S. :<lb/>GEMEINNÜTZIGE REGISTR.GENOSSENSCHAFT M. B. H.<lb/>GESCHÄFTSSTELLE: WIEN, IV. KOLSCHITZWYGASSE 30<lb/>FERNRURER 59-5-86<lb/>WIEN, am 16. Februar 1923.<lb/>z. 160./23./H.<lb/>Euer Hochwohlgeboren!<lb/>Das gefertigte Präsidium dankt bestens für Ihre Spende,<lb/>zur Stärkung unseres Baufondes!<lb/>Wir erbitten auch weiterhin Ihre Förderung!<lb/>Wir beabsichtigen, den beiliegenden Aufruf unseres Mitgliedes Dr. Karl<lb/>Hans STROBL in den nächsten Tagen in den hiesigen Tagesblättern zu ver¬<lb/>öffentlichen, und möchten demselben auch Ihren w. Namen, geradeso wie<lb/>den vieler anderer Schriftsteller und Künstler beifügen.<lb/>Wir nehmen an, dies tun zu dürfen, und erbitten hiezu, beiliegende Kar<lb/>te unterfertigt an uns zu senden.<lb/>weber<lb/>Er<lb/>Mit dem Ausdrucke vorzüglicher hochachtung<lb/>„WIENER KUNÜTLESISIEDLUNG“<lb/>W. K. S.<lb/>Gemeinn###z. reg. Gen. m. b. H.<lb/>ein<lb/>Kopfern<lb/>Oberlauern Perz<lb/>Prof. T. Seitus<lb/>Ak. Bildhauf<lb/>Hochwohlgeboren Herrn<lb/>Dr. Arthur SCHNIRZLER,<lb/>W i e n, 18.</p></div>
+    </body>
+  </text>
+</TEI>

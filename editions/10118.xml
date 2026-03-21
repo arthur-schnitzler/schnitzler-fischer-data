@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10118">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1902-03-25 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">KWDAVELM</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 93</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29899" source="https://pmb.acdh.oeaw.ac.at/entity/29899/">
+            <title>Freiwild</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite beschrieben
+
+Antwort auf: 1902-03-25ante AS an SF (Vorwort 'Freiwild'; nicht überliefert)</note>
+        <note type="type">Typoskript (Unterschrift-Stempel)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1902-03-25.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1902-03-25" n="01">1902-03-25</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Honorar</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0156.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite beschrieben
+
+Antwort auf: 1902-03-25ante AS an SF (Vorwort 'Freiwild'; nicht überliefert)</p>
+      </div>
+          <div type="OCR"><p>Es wurde sich in allen Fällen eine fehlen,<lb/>VERLAG<lb/>anzufragen, ob darbetraffen Treslau 11/10.<lb/>schon etwas übersetzt na<lb/>um die Qualification des in Frage zu<lb/>stehenden zu prüfen.<lb/>ERLIN W., DEN 25/3.02.<lb/>Sehr geehrter Herr,<lb/>W'STRASSE 91.<lb/>Hierdurch erlaube ich mir<lb/>Sie anzufragen, ob Sie nur<lb/>G.H.F.F:F.P:P:F:S<lb/>ler<lb/>gestatten würden, „die Frau<lb/>Frankgasse 1<lb/>des Weisen von Schnitzeler, ins<lb/>Französische zu übersetzen, und<lb/>Wien.<lb/>bitte Sie, mir Ihre Bedingungen<lb/>gütigst anzugeben.<lb/>Ihrer geschätzten Antwort<lb/>ben beabsichtigten Vorwort abraten.<lb/>entgegensehend.<lb/>ss bei neuen Auflagen wesentliche<lb/>genügt es, wie in Ihrem Fall, auf<lb/>Hochachtungsvoll<lb/>derte Auflage. Wenn Sie ein Uebri-<lb/>M. Perruchon<lb/>te, die Sie auf Seite 118 angemerkt<lb/>am Vorwort auf eine Aenderung hin-<lb/>bei Frau Treuenfels.<lb/>eint, der Gepflogenheit des Künst-<lb/>18 Gäthestr.<lb/>X Trenenfelt<lb/>greifen, die nur ihn allein angeht.<lb/>Bitte lassen Sie mich wissen, ob ich das Vorwort dennoch setzen soll.<lb/>und ob die correcturen des ganzen Werkes hier gelesen werden können.<lb/>Für die erste Hälfte der zweiten Auflage von „Fraiwild“ lasse<lb/>ich das fällige Honorar von 200 Mark Ihrer Bank überweisen.<lb/>Mit besten Grüssen<lb/>Ihr ergebener<lb/>Fischer Verlay</p></div>
+    </body>
+  </text>
+</TEI>

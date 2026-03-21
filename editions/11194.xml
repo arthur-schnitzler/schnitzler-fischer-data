@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11194">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1925-08-11 Samuel Fischer / Konrad Maril (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">UFYF52XH</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29937" source="https://pmb.acdh.oeaw.ac.at/entity/29937/">
+            <title>Der junge Medardus</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="institution" ref="44825-4" source="https://d-nb.info/gnd/44825-4">
+            <orgName>Nordische Rundfunk AG (Hamburg)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1925-08-11.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1925-08-11" n="01">1925-08-11</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Rundfunkrecht/Senderecht</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0832.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite</p>
+      </div>
+          <div type="OCR"><p>S. FISCHER VERLAG A.-G.  THEATERABTEILUNG<lb/>BERcelIN W 57, BÜLowSTR. 90<lb/>Bankkonto: Deutsche Bank, Depositenkasse F in Berlin    Postacheckkonnte: Berlin Nr. 1662   - Fernsprechanschlütner: Amt Lützow Nr: 6162 bis 6164<lb/>Berlin, den 11. August 1925<lb/>Herrn Dr. Arthur Schnitzler, Wien<lb/>Sehr geehrter Herr Doktor,<lb/>die Nordische Rundfunk A. G., Hamburg,<lb/>et<lb/>will das Senderecht von "Medardus". Wir bitten um Ihren äusser<lb/>V.<lb/>sten Preis, da dieser Sender nicht viel bezahlt. Nebenbei ist es<lb/>senden kann.<lb/>mir unverständlich, wie man den ganzen " Medardus<lb/>Mit vorzüglicher Hochachtung<lb/>S. FISCHER. VerLAG<lb/>AKTIENGESELISCHAFT<lb/>THEATERABTEILUNG<lb/>Dkeuars</p></div>
+    </body>
+  </text>
+</TEI>

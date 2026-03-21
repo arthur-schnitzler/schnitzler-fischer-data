@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11140">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1924-11-08 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">GFTNUTGT</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30033" source="https://pmb.acdh.oeaw.ac.at/entity/30033/">
+            <title>Anatol: Anatols Hochzeitsmorgen</title>
+          </bibl>
+          <bibl ref="#pmb29931" source="https://pmb.acdh.oeaw.ac.at/entity/29931/">
+            <title>Komtesse Mizzi</title>
+          </bibl>
+          <bibl ref="#pmb30205" source="https://pmb.acdh.oeaw.ac.at/entity/30205/">
+            <title>Komödie der Verführung</title>
+          </bibl>
+          <bibl type="journal" ref="#pmb36156" source="https://pmb.acdh.oeaw.ac.at/entity/36156/">
+            <title>Die neue Rundschau</title>
+          </bibl>
+          <bibl type="third_party" ref="#pmb29841" source="https://pmb.acdh.oeaw.ac.at/entity/29841/">
+            <title>George Bernard Shaw: Der Mann des Schicksals oder Der Schlachtenlenker (The Man od Destiny, engl.)</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb36907" source="https://pmb.acdh.oeaw.ac.at/entity/36907/">
+            <orgName>Paul Zsolnay Verlag (Wien)</orgName>
+          </org>
+          <org type="institution">
+            <orgName>How &amp; Raggio (Theateragentur, Rom)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten
+Antwort auf: <ref target="11136">1924-10-30 SF (Berlin) an AS (Wien)</ref>, <ref target="11138">1924-11-06 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-11-08.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1924-11-08" n="01">1924-11-08</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführung</term>
+          <term>Erfolg</term>
+          <term>Vorlesung</term>
+          <term>Übersetzung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb3025" source="https://pmb.acdh.oeaw.ac.at/entity/3025/">
+          <persName>Kahane, Arthur</persName>
+        </person>
+        <person ref="#pmb157361" source="https://pmb.acdh.oeaw.ac.at/entity/157361/">
+          <persName>Neff, Paul</persName>
+        </person>
+        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
+          <persName>Reinhardt, Max</persName>
+        </person>
+        <person ref="#pmb23675" source="https://pmb.acdh.oeaw.ac.at/entity/23675/">
+          <persName>Rotter, Alfred</persName>
+        </person>
+        <person ref="#pmb3876" source="https://pmb.acdh.oeaw.ac.at/entity/3876/">
+          <persName>Rotter, Fritz</persName>
+        </person>
+        <person ref="#pmb2381" source="https://pmb.acdh.oeaw.ac.at/entity/2381/">
+          <persName>Shaw, George Bernard</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
+          <placeName ref="#pmb168">Berlin</placeName>
+        </place>
+        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
+          <placeName>Polen</placeName>
+        </place>
+        <place ref="#pmb872" source="https://pmb.acdh.oeaw.ac.at/entity/872/">
+          <placeName>Stuttgart</placeName>
+        </place>
+        <place ref="#pmb883" source="https://pmb.acdh.oeaw.ac.at/entity/883/">
+          <placeName>Wiesbaden</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org>
+          <orgName>Rotter-Bühnen Berlin</orgName>
+        </org>
+        <org ref="10086050-3" source="https://d-nb.info/gnd/10086050-3">
+          <orgName>Schauspielschule Berlin</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416740_0045.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten
+Antwort auf: <ref target="11136">1924-10-30 SF (Berlin) an AS (Wien)</ref>, <ref target="11138">1924-11-06 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>Fischer<lb/>8.11.1924.<lb/>Lieber Freund<lb/>Beigeschlossen die mir freundlichst<lb/>übersandten geferate über „Komödie der Ver-<lb/>führung. Referate über die Wisbadener Auf<lb/>führung kann ich Ihnen nicht schicken, weil<lb/>Sie mir solche bisher nicht gesandt haben.<lb/>Dagegen erhielt ich welche vom Theater di¬<lb/>rekt. Der Publikumserfolg scheint ja, auch<lb/>nach privaten Nachrichtenk sehr beträchtlich<lb/>zu sein. In den meisten Zeitungen stehen<lb/>die bekannten Albernheiten, die ich schon<lb/>gewohnt bin. Wie ich mich Berlin gegenüber<lb/>verhalten soll, ist wirklich schwer zu sagen.<lb/>Zu Rotters kann ich mich nicht entschlies<lb/>sen; Reinhardt ist wohl der einzige, der die<lb/>Sache heute in Berlin machen könnte, aber<lb/>nach meinen Erfahrungen mit ihm will ich<lb/>mich erst gar nicht an ihn wenden. Kahane<lb/>hat nichts mehr von sich hören lassen. Ich<lb/>denke, ich warte ruhig ab. Auch mit diesem<lb/>Stück eilt es wohl nicht.<lb/>Hinsichtlich Polen bitte zu verfü-<lb/>gen, wie es Ihnen richtig scheint.<lb/>Den Brief von How &amp; Raggio lege<lb/>ich bei, entschuldigen Sie die Verspätung,<lb/>„Der Schlachtenlenker“ (für den ich<lb/>mit „Comtesse Mizi“ zusammen in Königsberg<lb/>10% bekommen soll), ist zu meinem lebhaften<lb/>Bedauern nicht von mir, nicht einmal die<lb/>Uebersetzung,was ich eher verschmerzen kann.<lb/>Aus Stuttgart hat man sich das we¬<lb/>gen des Vorträgs an mich persönlich gewen-</p></div>
+    </body>
+  </text>
+</TEI>

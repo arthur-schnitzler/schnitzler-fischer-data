@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10953">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1922-12-17 Arthur Schnitzler (Wien) an Samuel Fischer / Leo Greiner (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">SUQ7TVVE</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29923" source="https://pmb.acdh.oeaw.ac.at/entity/29923/">
+            <title>Der Weg ins Freie</title>
+          </bibl>
+          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
+            <title>Liebelei</title>
+          </bibl>
+          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
+            <title>Professor Bernhardi</title>
+          </bibl>
+          <bibl ref="#pmb29903" source="https://pmb.acdh.oeaw.ac.at/entity/29903/">
+            <title>Zwischenspiel</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb118088" source="https://pmb.acdh.oeaw.ac.at/entity/118088/">
+            <orgName>Karczag-Verlag (Wien)</orgName>
+          </org>
+          <org type="institution" ref="1049680723" source="https://d-nb.info/gnd/1049680723">
+            <orgName>University of California</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten
+Beantwortet in: <ref target="10954">1922-12-19 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-12-17.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1922-12-17" n="01">1922-12-17</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Greiner, Leo</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführung</term>
+          <term>Garantiesumme</term>
+          <term>Honorar</term>
+          <term>Übersetzung</term>
+          <term>Übersetzungsrecht</term>
+          <term>Überweisung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb19023" source="https://pmb.acdh.oeaw.ac.at/entity/19023/">
+          <persName>Kalich, Bertha</persName>
+        </person>
+        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
+          <persName>Kauser, Alice</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb710" source="https://pmb.acdh.oeaw.ac.at/entity/710/">
+          <placeName>Belgien</placeName>
+        </place>
+        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
+          <placeName>England</placeName>
+        </place>
+        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
+          <placeName>USA</placeName>
+        </place>
+        <place ref="#pmb484" source="https://pmb.acdh.oeaw.ac.at/entity/484/">
+          <placeName>Zürich</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416739_0256.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten
+Beantwortet in: <ref target="10954">1922-12-19 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>,dass in solchen Fällen,xxx die ja an sich<lb/>eine grosse Seltenheit carstellen, der Verle<lb/>ger stets das gleiche Entgegenkommen zeigen<lb/>Sollte,wie er es vom Autor ziemlich regelmäs-<lb/>sig verlangt, und oft genug,wie jeder vernünf-<lb/>tige Autor einsieht auch verlangen muss.<lb/>Herzlich grüssend<lb/>Ihr<lb/>Herrn S.Fischer,Berlin.<lb/>Ml<lb/>nur<lb/>1%<lb/>Läänistä<lb/>ets Ei-<lb/>Läänistä päiwä<lb/>e) O:d &amp; o<lb/>kortteja ja Oulun lääneissä se<lb/>F 4<lb/>täin, mikä nykyään oli ny — nyttän<lb/>r o u o u n t o u u n o u t u t<lb/>ix<lb/>, ̃   =<lb/>—, :r3 ou »<lb/>G.S.<lb/>Vuodentulleren alteintein<lb/>TJ<lb/>Uudenmaan lääneissä se<lb/>830<lb/>määrä. — Läänissä sekä säkkeen.<lb/>rui<lb/>- O - O -O - HO -<lb/>L'Aarssa.<lb/>4,4 (4,0)<lb/>ahmeen,<lb/>G.C.P<lb/>Gottammehtiä<lb/>a p<lb/>— ƒ ̃ — » —<lb/>B le<lb/>täkärän Uudestävän täyttään<lb/>Läänistä nykyär jystäytt<lb/>P.H<lb/>r<lb/>the<lb/>näyttää ryhään ai- ja mää-<lb/>Wm.<lb/>Läheinä, Oulun lisä-<lb/>K. O. S. A. &amp; O. F. U. R.<lb/>» —<lb/>r ou ou<lb/>F.T.K.<lb/>ÖM<lb/>Kotkan lääneissä nykyään ylei-<lb/>.,s.i.<lb/>G:n —:n 5:10 m —:r —: —: m —<lb/>O O Z<lb/>Koginäs-Oulunen lääniä.<lb/>thors =<lb/>K. O. 3,4,M, R,S,H.,<lb/>etköyttä<lb/>O-H. &amp; 40<lb/>O. A. M.<lb/>B5S3<lb/>määrään Oulun lääneissä ai-<lb/>0 a 0,4  - 0,0<lb/>Köyhtiö, O. O. F.<lb/>Vuoden aikaisestiin maa-<lb/>—: —: 2: —<lb/>600<lb/>C. P. F. A. &amp; D. O. S. C.<lb/>cuit +<lb/>C.y. v.<lb/>Dorin<lb/>P'r ^ vn Oositävätä.<lb/>5,3<lb/>— ###<lb/>Kotuja, jotka ia<lb/>de la<lb/>O OXI<lb/>lääneissä nykyään yleisesti ai-<lb/>Keskinkertaista. — Oulun lää-<lb/>täin, että nykyään aiittäin ai-<lb/>aie<lb/>C. S. N. &amp; O. n. O.<lb/>nosten<lb/>Vyhittäin Uudenmaanlään ai-<lb/>it.<lb/>McO<lb/>toimittäin, että nykyään ryhän ai-<lb/>määrätä sotavät lisäisesti maa-<lb/>Dbrecht<lb/>Vuodentulleet sijäkä-<lb/>B — O &amp; O D — « N<lb/>M O 4<lb/>N<lb/>CO O O<lb/>K: O++: L: O 7<lb/>B &amp; 0,0:0 a<lb/>agevä<lb/>Vaswä<lb/>„ „   ̃  = —: —:<lb/>OOO Oick-o<lb/>† ̃ —  —  ∞ O u<lb/>itä aißitä riitä jähden lii-<lb/>V E<lb/>köyttää, että vuoden metsi<lb/>Kotk ekääsastoja ole että ole-<lb/>Kirjän Uutta- ja Oulunen aikä-<lb/>Vuodentulksen läänissä se-<lb/>Kirjelyksi.<lb/>a à m<lb/>[incomme]<lb/>Oc<lb/>HENO OE<lb/>Le Sr.<lb/>r. v.<lb/>käänissä nykyäärän oleensa maa-<lb/>määrä sijärkä ai 7,3 o/0 t.<lb/>Pölö,<lb/>määrä; — 4, &amp; 3, à 1, à — m<lb/>t.D. 68<lb/>###</p></div>
+    </body>
+  </text>
+</TEI>

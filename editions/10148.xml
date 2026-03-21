@@ -1,0 +1,165 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10148">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1904-09-03 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">2RZ5PNQ4</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 120</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
+            <title>Anatol</title>
+          </bibl>
+          <bibl ref="#pmb29985" source="https://pmb.acdh.oeaw.ac.at/entity/29985/">
+            <title>Der einsame Weg</title>
+          </bibl>
+          <bibl ref="#pmb29843" source="https://pmb.acdh.oeaw.ac.at/entity/29843/">
+            <title>Der grüne Kakadu</title>
+          </bibl>
+          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
+            <title>Liebelei</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb29697" source="https://pmb.acdh.oeaw.ac.at/entity/29697/">
+            <orgName>Breitkopf &amp; Härtel (Leipzig)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">3 Blatt, 3 Seiten beschrieben
+Anlagen: Druckschrift zu USA-Copyright (nicht überliefert); 1904-01-29 Emanuel Lederer (New York) an SF/LS (Berlin), 2 Blatt, 2 Seiten beschrieben; Abrechnung (nicht überliefert)
+
+Antwort auf: 1904-08-29post/1904-09-03ante AS an SF (Copyright USA; nicht überliefert)</note>
+        <note type="type">Typoskript (Unterschrift-Stempel, eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm) AS)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1904-09-03.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1904-09-03" n="01">1904-09-03</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Abrechnung</term>
+          <term>Aufführungsrecht</term>
+          <term>Druckauftrag</term>
+          <term>Honorar</term>
+          <term>Tournee</term>
+          <term>Urheberrecht/Copyright</term>
+          <term>Vertrag</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb14328" source="https://pmb.acdh.oeaw.ac.at/entity/14328/">
+          <persName>Blumenthal, Oskar</persName>
+        </person>
+        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
+          <persName>Hauptmann, Gerhart</persName>
+        </person>
+        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
+          <persName>Kauser, Alice</persName>
+        </person>
+        <person ref="116851740" source="https://d-nb.info/gnd/116851740">
+          <persName>Lederer, Emanuel</persName>
+        </person>
+        <person ref="#pmb20466" source="https://pmb.acdh.oeaw.ac.at/entity/20466/">
+          <persName>Lindemann, Gustav</persName>
+        </person>
+        <person ref="#pmb12899" source="https://pmb.acdh.oeaw.ac.at/entity/12899/">
+          <persName>Sudermann, Hermann</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
+          <placeName>Deutschland</placeName>
+        </place>
+        <place ref="#pmb863" source="https://pmb.acdh.oeaw.ac.at/entity/863/">
+          <placeName>Düsseldorf</placeName>
+        </place>
+        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
+          <placeName>New York</placeName>
+        </place>
+        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
+          <placeName>USA</placeName>
+        </place>
+        <place ref="#pmb47927" source="https://pmb.acdh.oeaw.ac.at/entity/47927/">
+          <placeName>Washington</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0204.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>3 Blatt, 3 Seiten beschrieben
+Anlagen: Druckschrift zu USA-Copyright (nicht überliefert); 1904-01-29 Emanuel Lederer (New York) an SF/LS (Berlin), 2 Blatt, 2 Seiten beschrieben; Abrechnung (nicht überliefert)
+
+Antwort auf: 1904-08-29post/1904-09-03ante AS an SF (Copyright USA; nicht überliefert)</p>
+      </div>
+          <div type="OCR"><p>120<lb/>S. FISCHER, VERLAG<lb/>atischen<lb/>BERene W., DEN 3. Sept. 1904<lb/>wenn es in Deutschland ged<lb/>TELEPHON;<lb/>BÜLOWSTRASSE 90/91<lb/>tandis<lb/>AMT VI, 1662,is bis die Registrierung erfolgt<lb/>erwährt auch jetzt<lb/>sere Auffassung war und ist viel<lb/>Herrn Dr. Arthur Schnitzler<lb/>Grund auch He<lb/>Wie n. XVIII<lb/>G.F.P.<lb/>Schutzes für<lb/>Ich x<lb/>Spöttelgasse 7<lb/>res. Dieser Stadt<lb/>liege<lb/>des.<lb/>G.C.H.F.P.<lb/>G.C.P.<lb/>den<lb/>Lieber Herr Doktort<lb/>Da mir Ihr Brief den Eindruck macht, als ob Sie glaubten, ich hätte<lb/>Ihnen wegen des Copyright blauen Dunst vorgemacht, lasse ich Ihnen mitfol-<lb/>G.H.F.M.<lb/>Werke<lb/>gend eine Druckschrift zugehen, aus der Sie auf Seite 24 und 25 die betref-<lb/>G.H.F.F<lb/>fenden Bedingungen über die Erlangung des Schutzes in Amerika ersehen wollen.<lb/>Vielleicht gelingt es Ihnen, aus diesen gesetzlichen Bestimmungen klüger zu<lb/>werden, als es mir und, wie es scheint, auch den Herausgeber dieser Schrift<lb/>gelungen ist. Absatz 2 spricht ausdrücklich von öffentlichen Werken und<lb/>und insbesodere von dramatischen Werken. Nach diesen Absatz würde der Schutz<lb/>Amerika<lb/>des in Deutschland gedruckten dramatischen Werkes unter Einhaltung der<lb/>hier vorgeschriebenen Bedingungen ganz zweifellos sein Bei den sit. c bezeich-<lb/>G.H.P<lb/>neten Absatz auf Seite 25 ist nur von Büchern, Photographien etc. die Rede,<lb/>ten,<lb/>es wird also zwischen den Absatz 2 und der Unterabteilung ein Unterschied<lb/>nicht ausser<lb/>zwischen veröffentlichten dramatischen Werken und Büchern und Photographien<lb/>eine sie Publikus finde.<lb/>Schutsas in xxx<lb/>fall zu überlegen,<lb/>etc. im allgemeinen gemacht.<lb/>Als ich Ihnen wegen des Copyright schrieb, stand ich vollständig auf<lb/>zubringen ei<lb/>den Standpunkt, der auch bei den Vertreter der Astlichen Stelle für den<lb/>istrierung is<lb/>deutschen Buchhandel in Neu-York offenbar naassgebond war: dass die Begliederungs¬<lb/>siben prak</p></div>
+    </body>
+  </text>
+</TEI>

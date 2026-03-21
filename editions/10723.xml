@@ -1,0 +1,136 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10723">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1919-11-03 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">V8QITBIF</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
+            <title>Anatol</title>
+          </bibl>
+          <bibl ref="#pmb30971" source="https://pmb.acdh.oeaw.ac.at/entity/30971/">
+            <title>Casanovas Heimfahrt</title>
+          </bibl>
+          <bibl ref="#pmb30819" source="https://pmb.acdh.oeaw.ac.at/entity/30819/">
+            <title>Die Schwestern oder Casanova in Spa</title>
+          </bibl>
+          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
+            <title>Liebelei</title>
+          </bibl>
+          <bibl type="journal" ref="#pmb47979" source="https://pmb.acdh.oeaw.ac.at/entity/47979/">
+            <title>Börsenblatt für den Deutschen Buchhandel</title>
+          </bibl>
+          <bibl type="journal" ref="205873-X" source="https://ld.zdb-services.de/resource/205873-X">
+            <title>Deutsche Rundschau (Berlin)</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">5 Blatt, 5 Seiten
+Anlage: 1919-10-30 Gebrüder Paetel (Berlin) an SF (Berlin)</note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1919-11-03.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1919-11-03" n="01">1919-11-03</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführungstermin</term>
+          <term>Auflage/Neuauflage/Neuausgabe</term>
+          <term>Beschwerde</term>
+          <term>Erster Weltkrieg</term>
+          <term>Gesamtausgabe</term>
+          <term>Honorar</term>
+          <term>Preiserhöhung</term>
+          <term>Tantiemen</term>
+          <term>Uraufführung</term>
+          <term>Verkaufspreis/Ladenpreis</term>
+          <term>Versand</term>
+          <term>Vertrag</term>
+        </keywords>
+      </textClass>
+      <listPlace>
+        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
+          <placeName>Ungarn</placeName>
+        </place>
+        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
+          <placeName ref="#pmb50">Wien</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="#pmb36247" source="https://pmb.acdh.oeaw.ac.at/entity/36247/">
+          <orgName>Burgtheater Wien</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0198.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>5 Blatt, 5 Seiten
+Anlage: 1919-10-30 Gebrüder Paetel (Berlin) an SF (Berlin)</p>
+      </div>
+          <div type="OCR"><p>spol.<lb/>S. FISCHER / VerLAG<lb/>Bankkonto: Deutsche Bank, Depostenkasse P Berlin / Postscheckkonte: Berlin 1062<lb/>BERLIN W57, BÜL à WSTRASSE 90<lb/>Fernruf: Lützow 1662, 6162 und 9292<lb/>3/XI. 1919<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Lieber Freund!<lb/>Im Buchhändler-Börsenblatt war die anliegende Anzeige von Gebrüder<lb/>Paetel abgedruckt. Infolge Ihrer Mitteilung, dass die "Schwestern" Anfang<lb/>Dezember im Burgtheater zur Uraufführung kommen, habe ich geglaubt, die<lb/>Bemerkung von Gebrüder Paetel: "Der Text ist nur im Oktoberheft der<lb/>Deutschen Rundschau zu haben"inanstanden zu müssen. Darauf ist mir die<lb/>abschriftlich beiliegende Antwort zugogangen, die mich nun aufklärt, wenn<lb/>sie auch den Text der Anzeige nicht vollkommen rechtfertigt. Wir werden<lb/>nun die Dispositionen so zu treffen suchen, dass die "Schwestern", die ja<lb/>schon gedruckt vorliegen, Anfang Dezember in Wien eintreffen. Dass bei<lb/>den jetzigen Verkehrsverhältnissen eine Sicherheit dafür nicht gegeben<lb/>werden kann, dass die Bücher ein par Tage vor oder nach der Premiere<lb/>ankommen, das werden Sie ohne weiteres zugeben.<lb/>Ich benutze diese Gelegenheit, um auf einen Ihrer letzten Briefe<lb/>wegen der leidigen Honorarfrage zurückzukommen. Es tut mir sehr leid, dass<lb/>Sie immer wieder Anlass zu haben glauben, über den jetzigen Honorarmang<lb/>Klage zu führen. Ich wünschte, die Verhältnisse lägen so, dass wir, wie<lb/>vor dem Krieg, über das Honorar garnicht zu sprechen brauchten. Aber<lb/>während Sie zugeben, dass die Herstellungskosten, Löhne und Vertriebs-<lb/>kosten ins Ungemessene gewachsen sind und dass diese Mehrkoste auf<lb/>irgend eine Weise hereingebracht werden müssen, wollen sie für sich eine</p></div>
+    </body>
+  </text>
+</TEI>

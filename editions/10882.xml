@@ -1,0 +1,142 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10882">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1922-02-03 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">6PU32ULV</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30207" source="https://pmb.acdh.oeaw.ac.at/entity/30207/">
+            <title>Das weite Land</title>
+          </bibl>
+          <bibl ref="#pmb31429" source="https://pmb.acdh.oeaw.ac.at/entity/31429/">
+            <title>Große Szene</title>
+          </bibl>
+          <bibl ref="#pmb29931" source="https://pmb.acdh.oeaw.ac.at/entity/29931/">
+            <title>Komtesse Mizzi</title>
+          </bibl>
+          <bibl ref="#pmb30717" source="https://pmb.acdh.oeaw.ac.at/entity/30717/">
+            <title>Komödie der Worte</title>
+          </bibl>
+          <bibl ref="#pmb29903" source="https://pmb.acdh.oeaw.ac.at/entity/29903/">
+            <title>Zwischenspiel</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb33886" source="https://pmb.acdh.oeaw.ac.at/entity/33886/">
+            <orgName>Drei Masken-Verlag (München, Berlin)</orgName>
+          </org>
+          <org type="publisher" ref="#pmb29758" source="https://pmb.acdh.oeaw.ac.at/entity/29758/">
+            <orgName>Rikola Verlag (Wien)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten</note>
+        <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-02-02.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1922-02-02" n="01">1922-02-02</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Bühnenexemplar</term>
+          <term>Luxusausgabe</term>
+          <term>Novelle</term>
+          <term>Überweisung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb14156" source="https://pmb.acdh.oeaw.ac.at/entity/14156/">
+          <persName>Besnard, Lucien</persName>
+        </person>
+        <person ref="#pmb12837" source="https://pmb.acdh.oeaw.ac.at/entity/12837/">
+          <persName>Steinrück, Albert</persName>
+        </person>
+        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
+          <persName>Woticky, Edward</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb182" source="https://pmb.acdh.oeaw.ac.at/entity/182/">
+          <placeName>Paris</placeName>
+        </place>
+        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
+          <placeName>USA</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="#pmb265652" source="https://pmb.acdh.oeaw.ac.at/entity/265652/">
+          <orgName>Stadttheater Zürich</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416739_0220.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten</p>
+      </div>
+          <div type="OCR"><p>« » » »<lb/>Mwoswä<lb/>O &amp; L +<lb/>C P N<lb/>Wm's &amp;c<lb/>O S O LY<lb/>itä, ottä<lb/>H »<lb/>itsi<lb/>P<lb/>Q. p.<lb/>===  —<lb/>1er à 0 »<lb/>P &amp; O. &amp; n<lb/>m<lb/>to a<lb/>B &amp; O m O<lb/>T a p- w, i-.<lb/>Päivä:<lb/>Οοῦ<lb/>Tähän kässtä ai-<lb/>r-e-<lb/>O4et<lb/>waasen<lb/>∄αῦς.<lb/>ΟΙηην<lb/>T 30<lb/>1—0<lb/>— —<lb/>itsi-<lb/>Prä-<lb/>№ M:<lb/>the<lb/>Ziffert<lb/>röttä,<lb/>Nun saumme<lb/>in the<lb/>Pankkiin, Lähetys.<lb/>T &amp; O -<lb/>r<lb/>G-O-<lb/>«»» »<lb/>P &amp; J -<lb/>gavär<lb/>C &amp; J<lb/>*  — a<lb/>T a<lb/>Ο i —. » —<lb/>H,,<lb/>HÔD  —<lb/>wäärä.<lb/>E. E.<lb/>A<lb/>θόοῦ<lb/>B + - -<lb/>C: O<lb/>D &amp; P —<lb/>0 w 0<lb/>Fiche<lb/>8,<lb/>C,<lb/>T. Uudestä<lb/>† ʒ  + ʀ<lb/>Mikkelinen,<lb/>Länsti-<lb/>tä wättä sisestävän<lb/>adressa:<lb/>H4 3/4<lb/>, ̃ „ „ —<lb/>a = k r<lb/>G. A. P. S. C.<lb/>Vuoden huikke Oulunen<lb/>G et 0 4<lb/>i. S.. m. m. a. mai-<lb/>r....<lb/>—  — —  — ̃ —<lb/>M ̃r<lb/>i-t à m m m â<lb/>o O aoet S4<lb/>G.C.H.F.P.S<lb/>G.C.F. &amp; D0<lb/>H [2]0(m 8-t<lb/>O ere<lb/>an m<lb/>T. S. A. P.<lb/>be<lb/>C &amp; O O »<lb/>— » »» »¬<lb/>B &amp; O/O.<lb/>Vyhään olewärstä<lb/>os e,<lb/>-5-8-4-4<lb/>Der<lb/>ri0 o<lb/>«««i«t«i »*<lb/>№ ∞ ###<lb/>rung<lb/>a -  = o m r a t a a m a m r m m a r m r w a r<lb/>H.O.OO.<lb/>H O P C T O<lb/>sär<lb/>B &amp; P » » » r »<lb/>T &amp; S &amp; S -<lb/>—  —  —<lb/>«»» »* »*<lb/>O+H+V+2 +3 O<lb/>o että aikä<lb/>L'H4 N. O. L.<lb/>H1-2-20<lb/>— ̃ — »<lb/>G.N.F.P.C.<lb/>A.T. &amp; S. A.<lb/>&amp; —: —<lb/>«&amp; »w »»<lb/>E.H.F.K.V.P.S. P.H., O. S. B.<lb/>N &amp; O &amp; C.<lb/>B &amp; O O O<lb/>Päivä<lb/>Et<lb/>H, O, &amp; J, U, &amp; O,<lb/>T<lb/>.T.K.S.<lb/>Vyftäiitä, og huisestä<lb/>:-4 „ — N<lb/>t-i (x x) r<lb/>+<lb/>0+1 a)<lb/>G &amp; G<lb/>++ S 0 a + m.<lb/>täärä sis että ai ole<lb/>Kfraa ja Oulun ai-<lb/>C: U: S— r—f 0:<lb/>(+) „ ^ „<lb/>Mm jyh jyst tai<lb/>G.C.H.F.P.<lb/>— » » » de » »<lb/>+ ̃<lb/>T m m<lb/>B. S. P.<lb/>L &amp; D » »<lb/>0 à 0 &amp; 0 à 3 à<lb/>—   —<lb/>i, ottä ai ia nur ai<lb/>t»») o»»t<lb/>T<lb/>Oi¬<lb/>Tohanna, Lähek-<lb/>Köyrystä<lb/>—<lb/>"F.F.P.<lb/>—  ̃   ʒ  ∞  ∃<lb/>Dirt O<lb/>G.S.<lb/>W, S-<lb/>erw —<lb/>�  = 0 »<lb/>G:H &amp; B<lb/>P &amp; O.—<lb/>№ ### — » »<lb/>###s as<lb/>À<lb/>B 0 3,-i S4 B »-t<lb/>i0  0<lb/>Köyhstä, Sos &amp; C Ä¢ S<lb/>S. L. P. S.<lb/>+ 0 + —<lb/>„  004<lb/>Hämeenstelyk<lb/>N &amp; P &amp; D<lb/>Tahin S.H. &amp; L.O.<lb/>T-HVV &amp; U</p></div>
+    </body>
+  </text>
+</TEI>

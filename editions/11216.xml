@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11216">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1926-01-04 Arthur Schnitzler (Wien) an Samuel Fischer / Konrad Maril (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">D296MUG3</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29985" source="https://pmb.acdh.oeaw.ac.at/entity/29985/">
+            <title>Der einsame Weg</title>
+          </bibl>
+          <bibl ref="#pmb30775" source="https://pmb.acdh.oeaw.ac.at/entity/30775/">
+            <title>Der Gang zum Weiher</title>
+          </bibl>
+          <bibl ref="#pmb30717" source="https://pmb.acdh.oeaw.ac.at/entity/30717/">
+            <title>Komödie der Worte</title>
+          </bibl>
+          <bibl ref="#pmb29863" source="https://pmb.acdh.oeaw.ac.at/entity/29863/">
+            <title>Lebendige Stunden</title>
+          </bibl>
+          <bibl ref="#pmb30851" source="https://pmb.acdh.oeaw.ac.at/entity/30851/">
+            <title>Traumnovelle</title>
+          </bibl>
+          <bibl type="journal" ref="538538-6" source="https://ld.zdb-services.de/resource/538538-6">
+            <title>Die Dame</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="1360401458" source="https://d-nb.info/gnd/1360401458">
+            <orgName>Pantheon-Verlag (Berlin)</orgName>
+          </org>
+          <org type="publisher" ref="#pmb29681" source="https://pmb.acdh.oeaw.ac.at/entity/29681/">
+            <orgName>Ullstein Verlag (Berlin)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 2 Seiten
+Antwort auf: 1925-12-25 SF (Berlin) an AS (Wien)
+Beantwortet in: <ref target="11217">1926-01-06 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1926-01-04.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1926-01-04" n="01">1926-01-04</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Honorar</term>
+          <term>Korrektur</term>
+          <term>Manuskript</term>
+          <term>ungarisch</term>
+          <term>Urheberrecht/Copyright</term>
+          <term>Verhandlung</term>
+          <term>Verkaufspreis/Ladenpreis</term>
+          <term>Übersetzungsrecht</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb9146" source="https://pmb.acdh.oeaw.ac.at/entity/9146/">
+          <persName>Ompteda, Georg von</persName>
+        </person>
+        <person ref="#pmb23046" source="https://pmb.acdh.oeaw.ac.at/entity/23046/">
+          <persName>Ranschburg, Viktor</persName>
+        </person>
+        <person>
+          <persName>Rökk-Richter, Stefano (Theateragent und Schriftsteller, Italien)</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
+          <placeName>Italien</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416740_0070.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 2 Seiten
+Antwort auf: 1925-12-25 SF (Berlin) an AS (Wien)
+Beantwortet in: <ref target="11217">1926-01-06 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>Betrügen, Veruntreuen auf geistigen „Sakkaax<lb/>resp. auf geschäftlich-literarischem Gebiete<lb/>in gleicher Weise strafrechtlich verfolgt und<lb/>geahnt werden wird, als es - zuweilen -<lb/>bei Verletzungen anderer Eigentumsrechte der<lb/>all ist.<lb/>ühnen habe ich ei¬<lb/>Von den Sa:<lb/>iburg<lb/>ne Anfrage wegen meines neuen Rücks erhalten.<lb/>Ich habe geantwortet.dass ein eigentlicher Büh-<lb/>nenvertrieb im Augenblick nicht vorge ehen ist,<lb/>und ich vorläufig für eine Aufführung überhaupt<lb/>wenig Interesse habe.Somit bin ich auch ganz<lb/>mit Ihrer Absicht einverstanden<lb/>auf direktoriale Anfragen ganz kurz zu erwi-<lb/>dern, dass das Prama nächstens im Buchhandel<lb/>erscheint und dass Ansichtsendung von Bühnen<lb/>exemplaren nicht erfolgen.<lb/>Ich werde Ihnen die Korrektur bald<lb/>zuschicken,werde dann noch um Zusendung ei-<lb/>ner Korre-tur im Embruch ersuchen; wie lange<lb/>dauert es dann noch von meinem endgültigen<lb/>Imprimatur bis zur Fertigstellung des Buches?<lb/>Es hat nun fünf Aufzüge, nicht drei, die Cäsuren<lb/>nach denen der Trüher erste und der früher<lb/>dritte Akt in je zwei Teile zerfällt, standen<lb/>mir eigentlich schon lange fest; wir haben nun<lb/>fünf knappe, beinahe ganz gleich lange Akte, was<lb/>dem Stil und, wie ich glaube, der Wirkung des<lb/>Stückes zustatten kommen dürfte. Vorläufig<lb/>bei der Lektüre. Wenn das stück gespielt wird<lb/>werden jene zwei neue Cäsuren nur durch Fallen<lb/>und sofortiges Wiederauf ziehen des Vorhangs be-<lb/>zeichnet werden.<lb/>Von Barnowsky habe ich auch weiterhin<lb/>nichts gehört, auch nichts bezüglich der<lb/>tern.<lb/>Mit herzlichen Weihnachtsgrüssen und<lb/>der Bitte solche auch an Herrn Fischer zu be-<lb/>stellen<lb/>Ihm auch u aassa hauen<lb/>G.F.P<lb/>Fischer<lb/>4.1.1926.<lb/>Lieber Herr Dr.Maril,<lb/>m<lb/>f bei mir,<lb/>Eben war Herr Stefano Richt<lb/>der gern einiges für meine sachen in Italien<lb/>tun möchte; insbesondere interessieren Ihn<lb/>und<lb/>„Lebend 1### Stunden“, „Der einsa<lb/>„Komödle der Worte. Ich weiss nicht, wie weit<lb/>Sie schon im Ihren Verhandlungen mit Ompte-<lb/>da fortgeschritten sind. Jedefalls möchte ich<lb/>nicht verschweigen, dass mir Herr Professor<lb/>Richter persönlich einen sehr guten Eindruck<lb/>gemacht hat und da bereits eine Verbindung<lb/>zwischen ihm und Ihnen, lieber vorr Doktor,<lb/>resp. dem Verlag Fischer nach seiner Anga-<lb/>be besteht, habe ich ihn gebeten sich an Sie<lb/>zu wenden und würde Sie zu eventuellen Ab-<lb/>schlüssen mit ihm gerne autoris kran, sowie<lb/>Ihnen das Geschäftliche der Angelegenheit<lb/>überlassen.<lb/>Ebenso war Herr Ranschburg, der Ver-<lb/>the ou-verlages<lb/>treter des ungarischen<lb/>"Traumnov"<lb/>bei mir, um das Recht für<lb/>1°<lb/>zu erwerben. Es ist eigentlich etwas<lb/>früht heute schon darüber zu reden,da<lb/>der Druck in der Dame noch nicht zu Ende<lb/>gediehen ist und xxxxdtsxakka der Verlag<lb/>Wischer eigenblicklich noch nicht einmal<lb/>ber ein Recht besitzt. Immerhin möchte ich<lb/>Sie fragen, ob Ihnen die von Herrn Ranschburg<lb/>vorgeschlagenen Bedingungen (7½) vom Laden-<lb/>preis des broschierten Exemplare, Vorschuss<lb/>von 400 S., Teilung des Honorars bei even-<lb/>tuellem Vorabdruck in einer ungarischen Zei-<lb/>tung) akzeptabel erscheinen. Ranschburg<lb/>möchte gern zwei meiner kürzeren Novellen<lb/>im gleichen Band publizieren. Ranschburg hatte<lb/>sich zuerst an Ullstein gewandt, der abe</p></div>
+    </body>
+  </text>
+</TEI>

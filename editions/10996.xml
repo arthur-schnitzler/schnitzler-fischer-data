@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10996">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1923-04-20 Samuel Fischer / Leo Greiner (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">E458L2QV</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30207" source="https://pmb.acdh.oeaw.ac.at/entity/30207/">
+            <title>Das weite Land</title>
+          </bibl>
+          <bibl ref="#pmb30215" source="https://pmb.acdh.oeaw.ac.at/entity/30215/">
+            <title>Der Schleier der Pierrette</title>
+          </bibl>
+          <bibl ref="#pmb30819" source="https://pmb.acdh.oeaw.ac.at/entity/30819/">
+            <title>Die Schwestern oder Casanova in Spa</title>
+          </bibl>
+          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
+            <title>Professor Bernhardi</title>
+          </bibl>
+          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
+            <title>Reigen</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb29586" source="https://pmb.acdh.oeaw.ac.at/entity/29586/">
+            <orgName>Brandt &amp; Kirkpatrick (New York)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten
+Antwort auf:<ref target="10991">1923-04-09 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in: <ref target="10999">1923-04-27 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-04-20.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Greiner, Leo</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1923-04-20" n="01">1923-04-20</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Abrechnung</term>
+          <term>amerikanisch</term>
+          <term>Aufführung</term>
+          <term>Honorar</term>
+          <term>Manuskript</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="116202335" source="https://d-nb.info/gnd/116202335">
+          <persName>Bloch, Felix</persName>
+        </person>
+        <person ref="#pmb19016" source="https://pmb.acdh.oeaw.ac.at/entity/19016/">
+          <persName>Kalckar, Marc</persName>
+        </person>
+        <person ref="1136979557" source="https://d-nb.info/gnd/1136979557">
+          <persName>Leonard, Oscar</persName>
+        </person>
+        <person ref="#pmb23675" source="https://pmb.acdh.oeaw.ac.at/entity/23675/">
+          <persName>Rotter, Alfred</persName>
+        </person>
+        <person ref="#pmb3876" source="https://pmb.acdh.oeaw.ac.at/entity/3876/">
+          <persName>Rotter, Fritz</persName>
+        </person>
+        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
+          <persName>Woticky, Edward</persName>
+        </person>
+        <person ref="#pmb142471" source="https://pmb.acdh.oeaw.ac.at/entity/142471/">
+          <persName>Ziegel, Erich</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb36300" source="https://pmb.acdh.oeaw.ac.at/entity/36300/">
+          <placeName>Kopenhagen</placeName>
+        </place>
+        <place ref="4096769-4" source="https://d-nb.info/gnd/4096769-4">
+          <placeName>Kopenhagen-Christiania</placeName>
+        </place>
+        <place ref="#pmb45739" source="https://pmb.acdh.oeaw.ac.at/entity/45739/">
+          <placeName>St. Louis</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org>
+          <orgName>Rotter-Bühnen Berlin</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0624.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten
+Antwort auf:<ref target="10991">1923-04-09 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in: <ref target="10999">1923-04-27 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>S. Fischer/Verlag/Berlin M 57/Bülowstraße<lb/>zusprechanschlüsse: Amt Lützow Nr. 1662. 6162 und 9uss / Postscherkkonto: Berlin Nr 1669.<lb/>THEATERABTEILUNG<lb/>erlin, den 20. April 19<lb/>Herrn<lb/>Dr. Arthur Schnitzler<lb/>Wien<lb/>G.C.H.F.P.<lb/>G.H.F.P.<lb/>G.C.F.P.<lb/>Sehr pershrter Herr Doktor,<lb/>von Ihren gefälligen Mitteilungen über<lb/>1S)<lb/>Ihre Kopenhagener Reise und Ihre anderen Anmerkungen die sich auf<lb/>Dänemark beziehen, habe ich Kalokar sogleich nach Empfang Ihres<lb/>Briefes Mitteilung gemacht, bin aber noch ohne Bescheid. Das<lb/>" Schleier der Pierrette "bei Felix Bloch ist, weiss ich wohl.<lb/>G.C.H.S<lb/>Auch über "Reigen " in Christiania habe ich zunächst nichts Neues<lb/>mehr gehört. Es scheint doch, dass die heute dort durch die erfolgten<lb/>G.H.F.P.<lb/>Angriffe ängstlich geworden sind.<lb/>Wir sind natürlich sehr gern bereit, die Rotter-<lb/>G.C.H.P.<lb/>tantiemen für Sie in Empfang zu nehmen. Zufällig hatten wir seit<lb/>ziemlich langer Zeit kein Stück mehr bei den Rotters, sodass die<lb/>augenblicklichen Einnahmemöglichkeiten nicht unmittelbar festzu-<lb/>stellen sind. Ich werde aber wohl nächster Tage in der Lage sein<lb/>Ihnen trotzdem Auskunft zu geben. Ich sprach in meinem letzten<lb/>Briefe von " momentanem Misstrauen". Es täte mir aufrichtig leid<lb/>wenn Sie diesen, wie ich zugebe nicht sehr geschickten Aus-<lb/>sve</p></div>
+    </body>
+  </text>
+</TEI>

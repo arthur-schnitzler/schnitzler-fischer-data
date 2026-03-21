@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11254">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1926-09-13 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">EH6LD8A2</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30051" source="https://pmb.acdh.oeaw.ac.at/entity/30051/">
+            <title>Der Geist im Wort und der Geist in der Tat</title>
+          </bibl>
+          <bibl ref="#pmb30851" source="https://pmb.acdh.oeaw.ac.at/entity/30851/">
+            <title>Traumnovelle</title>
+          </bibl>
+          <bibl type="journal" ref="#pmb36156" source="https://pmb.acdh.oeaw.ac.at/entity/36156/">
+            <title>Die neue Rundschau</title>
+          </bibl>
+          <bibl type="third_party">
+            <title>Thomas Mann: Pariser Rechenschaft</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">3 Blatt, 3 Seiten
+Bezug auf: <ref target="11247">1926-07-08 AS (Wien) an SF (Berlin)</ref>, 1926-07-10 SF (Berlin) an AS (Wien) (erschlossen), 1926-07-12 SF (Berlin) an AS (Wien) (erschlossen), <ref target="11248">1926-07-15 AS (Wien) an SF (Berlin)</ref>, <ref target="11249">1926-07-19 SF (Berlin) an AS (Wien)</ref>, <ref target="11251">1926-07-26 AS (Wien) an SF (Berlin)</ref>, <ref target="11253">1926-07-29 SF (Berlin) an AS (Wien)</ref>
+Beantwortet in: <ref target="11255">1926-09-15 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1926-09-13.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1926-09-13" n="01">1926-09-13</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Absatz/Verkauf</term>
+          <term>Broschüre</term>
+          <term>Buchgestaltung/Buchschmuck/Umschlag/Einband</term>
+          <term>Depesche/Telegramm</term>
+          <term>Druckauftrag</term>
+          <term>Druckprobe/Probedruck</term>
+          <term>Erscheinungstermin</term>
+          <term>Essay</term>
+          <term>Korrektur</term>
+          <term>Korrespondenz</term>
+          <term>Manuskript</term>
+          <term>Nachdruck</term>
+          <term>Reise/Urlaub</term>
+          <term>Verhandlung</term>
+          <term>Vorabdruck</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb11891" source="https://pmb.acdh.oeaw.ac.at/entity/11891/">
+          <persName>Kayser, Rudolf</persName>
+        </person>
+        <person ref="#pmb12176" source="https://pmb.acdh.oeaw.ac.at/entity/12176/">
+          <persName>Mann, Thomas</persName>
+        </person>
+        <person ref="#pmb4374" source="https://pmb.acdh.oeaw.ac.at/entity/4374/">
+          <persName>Maril, Konrad</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb521" source="https://pmb.acdh.oeaw.ac.at/entity/521/">
+          <placeName>Bad Gastein</placeName>
+        </place>
+        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
+          <placeName ref="#pmb168">Berlin</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0883.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>3 Blatt, 3 Seiten
+Bezug auf: <ref target="11247">1926-07-08 AS (Wien) an SF (Berlin)</ref>, 1926-07-10 SF (Berlin) an AS (Wien) (erschlossen), 1926-07-12 SF (Berlin) an AS (Wien) (erschlossen), <ref target="11248">1926-07-15 AS (Wien) an SF (Berlin)</ref>, <ref target="11249">1926-07-19 SF (Berlin) an AS (Wien)</ref>, <ref target="11251">1926-07-26 AS (Wien) an SF (Berlin)</ref>, <ref target="11253">1926-07-29 SF (Berlin) an AS (Wien)</ref>
+Beantwortet in: <ref target="11255">1926-09-15 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>lin als<lb/>ther / Verlag / A.=G.-W.<lb/>ito: Deutsche Bank. Depositenkasse P in Berlin / Postscheckkonto: Berlin Nr. 9.<lb/>Fernsprechanschlüsse: Amt Lützow Nr. 6162 bis 6164<lb/>lawstraße 00<lb/>Jr Schnitz<lb/>Dr<lb/>Lieber Freund,<lb/>ich habe Ihnen soeben depeschiert: - Essay in der Druckerei,<lb/>Korrekturen erhalten Sie noch diese Wochen. Durch die Ferienreisen<lb/>von mir, Kayser und Maril ist eine Stockung in der Behandlung der<lb/>Angelegenheit Ihres Essys eingetreten. Die Sache hat sich historisch<lb/>wie folgt zugetragen: Am 8. Juli haben Sie wegen Ihrer essayist<lb/>Arbeit bei mir angefragt, ob die Broschupre in Oktober und Nov.<lb/>der »Neuen Bundeschaus abgedruckt und noch vor Weihnachten als<lb/>erscheinen könnte. Aß 10. Juli habe ich darauf geantwortet, d<lb/>natürlich sehr gern Ihre Arbeit in der «Bundschauw und als Sonder<lb/>herausgeben wollen. Da ich den Essay nicht kannte, hatte ich vor<lb/>gen, den Andruck in der «Bundschaus in gekürzter Form abzud<lb/>der Käuferkreis für die Breschüre bei den Lesern der<lb/>nicht verloren gehe. Am 11. Juli bin ich nach Sr.<lb/>ich gleichzeitig Herrn D7. Maril die weitere Behr-<lb/>übergaben habe. Am 12. Juli hat Ihnen Dr<lb/>Juli haben<lb/>selbe geschrieben. Am 12<lb/>in si</p></div>
+    </body>
+  </text>
+</TEI>

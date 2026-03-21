@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10900">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1922-03-23 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">FGFLRSD4</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl type="journal" ref="#pmb36156" source="https://pmb.acdh.oeaw.ac.at/entity/36156/">
+            <title>Die neue Rundschau</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite</note>
+        <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-03-23.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1922-03-23" n="01">1922-03-23</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Kayser, Rudolf</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Novelle</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416739_0227.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite</p>
+      </div>
+          <div type="OCR"><p>Sider<lb/>Kayser<lb/>23.3.1922.<lb/>G.C.H.F.P<lb/>Sehr g ehrter Herr Doktor.<lb/>Meiner abschlägigen Antwort an Herrn<lb/>S.Fischer kann ich zu meinem lebhaften Bedau-<lb/>ern keine zusagende folgen lassen. Ich habe<lb/>in der letzten Zeit keine Novelle vollendet<lb/>und von stücken die noch nicht ganz abgeschlos-<lb/>sen sind, einzelne 8zenen drucken zu lassen,<lb/>widerstrebt mir dur chaus. Es blibbealso nur<lb/>Tragmentarisches oder Aphoristisches, das mir ge<lb/>rade bei einem solchen Anlass einœischen<lb/>prätenziös vorkäme. Manche Finladungen zur<lb/>Witarheiterschaft gerade zu dieser Gelegen-<lb/>heit sind ir zuggangen, wenn auch keine mir<lb/>so wert voll wie die von der Neuen Deutschen<lb/>Rundschau. Ich habe sie alle abgelehnt und<lb/>kann das eigentlich sogar von einem gewissen<lb/>prinzipiel en Standpunkt aus nicht ganz un -<lb/>richtig finden. Umso gewisser hoffe ich in<lb/>nicht allzu ferner Zeit mit irgend etwas<lb/>Nicht fragmentarischem zur Verfügung stehen zu<lb/>können, bitte Sie sehr mein Fernbleiben von der<lb/>mir gewidmeten Mummer entschuldigen zu wollen,<lb/>und bin mit den verbindlichsten Grüssen<lb/>Ihr sehr ergbener<lb/>Herrn Dr. Rudolf Kayer,redakteur der Neuen<lb/>Deutschen bundschau,Berlin.</p></div>
+    </body>
+  </text>
+</TEI>

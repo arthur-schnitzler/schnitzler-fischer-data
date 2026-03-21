@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11285">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1927-02-28 Arthur Schnitzler (Wien) an Samuel Fischer / Paul Eipper (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">63828UWX</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30051" source="https://pmb.acdh.oeaw.ac.at/entity/30051/">
+            <title>Der Geist im Wort und der Geist in der Tat</title>
+          </bibl>
+          <bibl ref="#pmb32131" source="https://pmb.acdh.oeaw.ac.at/entity/32131/">
+            <title>Spiel im Morgengrauen</title>
+          </bibl>
+          <bibl type="journal" ref="#pmb47979" source="https://pmb.acdh.oeaw.ac.at/entity/47979/">
+            <title>Börsenblatt für den Deutschen Buchhandel</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite</note>
+        <note type="type">Typoskript</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1927-02-28.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1927-02-28" n="01">1927-02-28</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Eipper, Paul</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Buchgestaltung/Buchschmuck/Umschlag/Einband</term>
+          <term>Freiexemplar</term>
+          <term>Photographie</term>
+          <term>Porträt</term>
+          <term>Verlagswerbung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb9881" source="https://pmb.acdh.oeaw.ac.at/entity/9881/">
+          <persName>Setzer, Franz Xaver</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416740_0106.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite</p>
+      </div>
+          <div type="OCR"><p>G.h)her, Salast<lb/>28.2.1927.<lb/>Verehrter Herr Eipper.<lb/>Beigeschlossen, ein wenig verän-<lb/>dert die Ankündigung für die Börsenblatt-<lb/>Anzeige, die wohl in ungefähr in gleicher<lb/>Art für den Schutzumschlag zu verwenden wä-<lb/>fd. Halten sie es Tur notwendig da oder<lb/>dort noch hinzuzufügen, dass die Novelle<lb/>spannend oder gar - „meisterhaft erzählt<lb/>ist, so steht das bei Ihnen. Mir bliebe es<lb/>nach wie vor am sympathischesten,wenn der<lb/>Schutzumschlag nichts anderes besagte als:<lb/>„Eine neue Nevelle von A.S.<lb/>Ich sende zugleich eine Ansichts-<lb/>karte mit meinem Pontrait, doch glaube ich,<lb/>dass Sie von Photographen Setzer das Ver<lb/>vielfältigungsrecht vorerst erbitten müs-<lb/>sen.<lb/>Verbindlichst grüssend<lb/>Ihr sehr ergebener<lb/>Darf ich um gelegentliche weitere<lb/>Einsendung von 10 Exemplaren.Der Geist im<lb/>Wort etc.ersuchen?<lb/>Herum Paul E<lb/>pper,<lb/>S.Fischer,Verlag.<lb/>perlin.</p></div>
+    </body>
+  </text>
+</TEI>

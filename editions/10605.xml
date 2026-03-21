@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10605">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1917-03-13 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">SU9LJNIT</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29985" source="https://pmb.acdh.oeaw.ac.at/entity/29985/">
+            <title>Der einsame Weg</title>
+          </bibl>
+          <bibl type="journal">
+            <title>Bücher der Morgenröte (projektierte Buchreihe, Hg. Anton Karl Martin)</title>
+          </bibl>
+          <bibl type="third_party">
+            <title>Anton Karl Martin (Hg.): Der klingende Garten</title>
+          </bibl>
+          <bibl type="third_party">
+            <title>Anton Karl Martin (Hg.): Deutscher Dichtergarten</title>
+          </bibl>
+          <bibl type="third_party" ref="#pmb77831" source="https://pmb.acdh.oeaw.ac.at/entity/77831/">
+            <title>Gabriela Zapolska: Die Warschauer Zitadelle (Tamten, dt.)</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="16344373-7" source="https://d-nb.info/gnd/16344373-7">
+            <orgName>Buchhandlung Carl Fr. Fleischer (Leipzig)</orgName>
+          </org>
+          <org type="publisher">
+            <orgName>Verlag der Bücher der Morgenröte (Berlin)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blätter, 2 Seiten
+Anlage: 1917-03-02 Fleischer, Carl (Leipzig) an SF (Berlin), 1 Blatt
+
+Beantwortet in: <ref target="10606">1917-03-19 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1917-03-13.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1917-03-13" n="01">1917-03-13</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Verlagswerbung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
+          <persName>Barnowsky, Victor</persName>
+        </person>
+        <person>
+          <persName>Fleischer (Inhaber gleichnamiger Verlagsbuchhandlung)</persName>
+        </person>
+        <person ref="116802529" source="https://d-nb.info/gnd/116802529">
+          <persName>Martin, Anton Karl</persName>
+        </person>
+        <person ref="#pmb12537" source="https://pmb.acdh.oeaw.ac.at/entity/12537/">
+          <persName>Robert, Eugen</persName>
+        </person>
+        <person ref="#pmb12551" source="https://pmb.acdh.oeaw.ac.at/entity/12551/">
+          <persName>Rosegger, Peter</persName>
+        </person>
+        <person ref="11880829X" source="https://d-nb.info/gnd/11880829X">
+          <persName>Zapolska, Gabriela</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
+          <placeName ref="#pmb168">Berlin</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="7659602-3" source="https://d-nb.info/gnd/7659602-3">
+          <orgName>Hebbeltheater (Theater in der Königgrätzer Straße) Berlin</orgName>
+        </org>
+        <org ref="#pmb42626" source="https://pmb.acdh.oeaw.ac.at/entity/42626/">
+          <orgName>Residenztheater Berlin</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0056.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blätter, 2 Seiten
+Anlage: 1917-03-02 Fleischer, Carl (Leipzig) an SF (Berlin), 1 Blatt
+
+Beantwortet in: <ref target="10606">1917-03-19 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>S. Fischer. Verlag. Berlin<lb/>Amt Lützow 1662 u. 6162 Theaterabteilung postscheckkonto Nr. 16692<lb/>Berlin W 57, Bülowstraße Nr. 90<lb/>F.F.<lb/>Den 13. März 1917<lb/>Herrn<lb/>Dr. Arthur Schnitzler,<lb/>wien<lb/>̃ ̃̃'̃-̃=-<lb/>Lieber Freund,<lb/>das Berliner Residenztheater möch-<lb/>te den "Einsamen Weg" Spielen und hat dabei den<lb/>Wunsch ausgesprochen, auch Ihre älteren Stücke<lb/>G.C.H.<lb/>ins Repertoir einzubeziehen. Das Residenztheater<lb/>wird jetzt von Direktor Eugen Robert geleitet zum<lb/>A.W.S.<lb/>ersten Male in dieser Saison. Früher hat das Thea<lb/>ter hauptsächlich das französische Drana und Lust-<lb/>spiel kultiviert. Robert war vor Jahren Direktor<lb/>der Berliner Hebbeltheaters, hat dort keine über-<lb/>mässige Begabung entwickelt, aber immerhin ge-<lb/>zeigt, dass er als Bühnenleiter auch in künstle-<lb/>rischer und literarischer Hinsicht ernst zu neh-<lb/>men ist. In diesem Jahr hat er mit der. Warschau-<lb/>er Zitadelle "einen grossen Erfolg gehabt. Das</p></div>
+    </body>
+  </text>
+</TEI>

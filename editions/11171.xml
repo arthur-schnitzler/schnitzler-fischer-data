@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11171">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1925-03-03 Arthur Schnitzler (Wien) an Samuel Fischer / Konrad Maril (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">BJD6E5FT</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30205" source="https://pmb.acdh.oeaw.ac.at/entity/30205/">
+            <title>Komödie der Verführung</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Antwort auf: <ref target="11169">1925-02-27 SF (Berlin) an AS (Wien)</ref>
+Beantwortet in: <ref target="11172">1925-03-06 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1925-03-03.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1925-03-03" n="01">1925-03-03</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Bühnenexemplar</term>
+          <term>Überweisung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416740_0053.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Antwort auf: <ref target="11169">1925-02-27 SF (Berlin) an AS (Wien)</ref>
+Beantwortet in: <ref target="11172">1925-03-06 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>Fischer<lb/>le reste de ses<lb/>G.C.F.P.<lb/>3.3.1925.<lb/>Verehrteter Herr Doktor.<lb/>In der Aufatellung der Auslands-<lb/>tum<lb/>einnahmen hat sich ein beträchtlicher Irr<lb/>vorgefunden. Ich habe im Dezember nicht 347<lb/>Millionen österr. Kronen, sondern - wenn ich<lb/>nicht irre für Bühnenexemplare - nur 347.000<lb/>Kr. erhalten. Darf ich um eine richtig gestell-<lb/>te Aufstellung ersuchen? Sie würden mich da-<lb/>durch sehr verbinden.<lb/>Was die Bühnenexemplare<lb/>anbelangt, so würde ich eben darum<lb/>bitten, dass der Bühnenvertrieb vom Verlag<lb/>eben nur dann ein Exemplar, wann er es für ir<lb/>gedd eine Bühne direkt braucht. Dass ohne<lb/>Aufforderung zirka 25 Exemplare an die Bühnen<lb/>verschickt worden sind, finde ich gerade in die<lb/>sem Falle nicht richtig— Ich habe ja eben sohm<lb/>seinerzeit ausdrücklich darum ersucht, dass<lb/>nur über Aufforderung garakx eine solche<lb/>Versendung erfolge. Wenn eine ernst zu nehmende<lb/>Bühne sich für ein Stück von mir interessiert,<lb/>so soll sich die Direktion eben an den Verlag<lb/>wenden.<lb/>Mit verbindlichem Gruss<lb/>Ihr sehr ergebener<lb/>Herrn Dr. Maril,<lb/>S.Fischer, Verlag,<lb/>Berlin,</p></div>
+    </body>
+  </text>
+</TEI>

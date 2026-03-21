@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11562">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1930-04-03 Arthur Schnitzler (Wien) an Samuel Fischer / Konrad Maril (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">FLPIYVBV</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Beantwortet in: <ref target="11564">1930-04-07 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1930-04-03.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1930-04-03" n="01">1930-04-03</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Klage/Gerichtliche Verfolgung/Prozess</term>
+          <term>Tantiemen</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
+          <persName>Barnowsky, Victor</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416741_0129.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Beantwortet in: <ref target="11564">1930-04-07 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>Tischer<lb/>3.4.1930.<lb/>Lieber Doktor Maril,<lb/>Darf ich Sie bitten mir mit aller<lb/>möglichen Präzision zu sagen,wie die Angelegenheit<lb/>Barnowsky eigentlich steht?<lb/>1. Kann ich, wenn schon nicht sofort<lb/>auf den ganzen Betrag doch die Vor-<lb/>lage einer genauen Abrechnung über die einzel-<lb/>nen Aufführungen erwarten?<lb/>Zu welchem Termin wird die Auszah-<lb/>lung der gesamten Summe erfolgen?<lb/>Welche Machtmittel besitzen Sie<lb/>um die Gesamtsumme derxxx zum Teil veruntreuten<lb/>Tantièmen für uns herein zu bringen?<lb/>G.F.P.<lb/>4. Kann ich darauf rechnen, dass Sie alle<lb/>gesetzlichen Mittel rücksichtslos anwenden<lb/>werden, um die Direktion zur Erfüllung einer Zahlungs-<lb/>pflicht zu bewegen, das sie sich vom ersten<lb/>Tage des laufenden Kontraktes an in unverantwortli-<lb/>cher Weise zu entziehen gewusst hat?<lb/>Mit verbindlichen Grüssen<lb/>Ihr<lb/>Herrn Dr. Konrad Maril,<lb/>S. Fischer, Verlag.<lb/>Berlin.</p></div>
+    </body>
+  </text>
+</TEI>

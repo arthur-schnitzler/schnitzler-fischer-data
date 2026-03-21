@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10143">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1904-03-28 Samuel Fischer / Lothar Schmidt (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">YT3QVTKF</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 114</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29985" source="https://pmb.acdh.oeaw.ac.at/entity/29985/">
+            <title>Der einsame Weg</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">3 Blatt, 3 Seiten beschrieben
+Anlage: 1904-03-28 Lindemann an SF (Karte; nicht überliefert)
+
+Antwort auf: <ref target="10142">1904-03-26 AS an SF/LS</ref></note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1904-03-28.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Schmidt, Lothar</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1904-03-28" n="01">1904-03-28</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführung</term>
+          <term>Aufführungsrecht</term>
+          <term>Aufführungstermin</term>
+          <term>Garantiesumme</term>
+          <term>Tournee</term>
+          <term>Uraufführung</term>
+          <term>Vertrag</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb6651" source="https://pmb.acdh.oeaw.ac.at/entity/6651/">
+          <persName>Claar, Emil</persName>
+        </person>
+        <person ref="#pmb156405" source="https://pmb.acdh.oeaw.ac.at/entity/156405/">
+          <persName>Hartmann, Anton</persName>
+        </person>
+        <person ref="#pmb20466" source="https://pmb.acdh.oeaw.ac.at/entity/20466/">
+          <persName>Lindemann, Gustav</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
+          <placeName ref="#pmb168">Berlin</placeName>
+        </place>
+        <place ref="#pmb677" source="https://pmb.acdh.oeaw.ac.at/entity/677/">
+          <placeName>Breslau</placeName>
+        </place>
+        <place ref="#pmb903" source="https://pmb.acdh.oeaw.ac.at/entity/903/">
+          <placeName>Elberfeld</placeName>
+        </place>
+        <place ref="#pmb146" source="https://pmb.acdh.oeaw.ac.at/entity/146/">
+          <placeName>Frankfurt am Main</placeName>
+        </place>
+        <place ref="#pmb890" source="https://pmb.acdh.oeaw.ac.at/entity/890/">
+          <placeName>Hannover</placeName>
+        </place>
+        <place ref="#pmb869" source="https://pmb.acdh.oeaw.ac.at/entity/869/">
+          <placeName>Moskau</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="#pmb57303" source="https://pmb.acdh.oeaw.ac.at/entity/57303/">
+          <orgName>Deutsches Theater Hannover</orgName>
+        </org>
+        <org ref="5129244-0" source="https://d-nb.info/gnd/5129244-0">
+          <orgName>Elberfelder Stadttheater</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0188.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>3 Blatt, 3 Seiten beschrieben
+Anlage: 1904-03-28 Lindemann an SF (Karte; nicht überliefert)
+
+Antwort auf: <ref target="10142">1904-03-26 AS an SF/LS</ref></p>
+      </div>
+          <div type="OCR"><p>114<lb/>S. FISCHER, VERLAG<lb/>Zu Anbetracht der provinzialen Verhältnisse, des schönen Wetters und<lb/>BERene W., DEN 28/3. 1904<lb/>TELEPHONS<lb/>zwischen xxx<lb/>Kontia künstlerischen Charakte BÜLowSTRASSE 90/91<lb/>AMT VI, 1662<lb/>stattgeben zu müssen geglaubt, unter der Bedingung, dass das Deutsche<lb/>werdings beabsich<lb/>Theater in Hannover den „Einsamen Weg“ nicht<lb/>Igt, erst im Herrn Dr. Arthur Schnitzler xxxndern in der xxx<lb/>G.H.F.P.<lb/>Wien XVIII<lb/>15. Oktober bis 18. November 1884. Die Direktion h;i;e: _:a<lb/>rauf<lb/>ligen,<lb/>G.H.F.P.<lb/>Jahrwar als<lb/>des<lb/>nochmals dring<lb/>Sehr geehrter Herr Doktor!<lb/>an bei der Forderung<lb/>wir jedoch nicht einge<lb/>Zunächst was die angebliche Moskauer Aufführung des Einsamen Weges“<lb/>anbetrifft, haben wir uns direkt an Herrn Lindemann um Aufklärung ge-<lb/>wandt und erhalten heute beiliegenden Bescheid. Es ist wahrscheinlich,<lb/>dass die Sache sich so verhält, wie Lindemann auf beiliegender Karte<lb/>schreibt. Trotzdem wenden wir uns heute behufs genauer Feststellung<lb/>der Angelegenheit gleichzeitig an 3 verschiedenen Moskauer Buchhandlungs-<lb/>Firmen, mit der Bitte um Auskunft.<lb/>Sie haben vollständig recht, wenn Sie meinen, dass eigentlich<lb/>eine Garantie-Summe sofort bar hinterlegt werden müsse. Leider entschei-<lb/>det bei derartigen Verträgen oft weniger der gesunde Menschenverstand,<lb/>als die Usance, und wir können Ihnen versichern, dass es, mit geringen<lb/>Ausnahmen allgemein üblich ist, dass eine Garantie nicht sofort bar be-<lb/>zahlt wird. zu leisten pflegt.<lb/>Wir beehren uns Ihnen heute genauere Daten der Aufführung Ihres<lb/>„Einsamen Weges“ mitzuteilen. verfügung). Aufführunga-Termin 1/1. 1905.<lb/>Hannover, Deutschen Theater, 10 % von der Bruttosinnahme,<lb/>500 Mark Mindestgarantie (bereits gezahlt und schon jetzt zu Ihrer<lb/>Verfügung. Aufführung-Termin 1. April 1904, Conventionalstrafe<lb/>1000 Mark. Die Direktion ersucht uns um Prolongation des Fertrages,<lb/>unter Hinweis darauf, dass, da die Barzutie bereits bezahlt sei, dem<lb/>den nicht erwachse. Wir habe</p></div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11432">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1928-07-14 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">SLVN4P3B</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl>
+            <title>Die Alternden (Novellensammlung)</title>
+          </bibl>
+          <bibl ref="#pmb168310" source="https://pmb.acdh.oeaw.ac.at/entity/168310/">
+            <title>Die Erwachenden (Novellensammlung)</title>
+          </bibl>
+          <bibl ref="#pmb30486" source="https://pmb.acdh.oeaw.ac.at/entity/30486/">
+            <title>Frau Bertha Garlan</title>
+          </bibl>
+          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
+            <title>Reigen</title>
+          </bibl>
+          <bibl ref="#pmb30117" source="https://pmb.acdh.oeaw.ac.at/entity/30117/">
+            <title>Sterben</title>
+          </bibl>
+          <bibl ref="#pmb30817" source="https://pmb.acdh.oeaw.ac.at/entity/30817/">
+            <title>Therese. Chronik eines Frauenlebens</title>
+          </bibl>
+          <bibl type="journal" ref="#pmb36156" source="https://pmb.acdh.oeaw.ac.at/entity/36156/">
+            <title>Die neue Rundschau</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb146179" source="https://pmb.acdh.oeaw.ac.at/entity/146179/">
+            <orgName>Benjamin Harz Verlag (Berlin, Wien)</orgName>
+          </org>
+          <org type="publisher" ref="2077527-1" source="https://d-nb.info/gnd/2077527-1">
+            <orgName>Querido's Uitgeverij (Amsterdam)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 2 Seiten
+Antwort auf: <ref target="11430">1928-07-11 SF (Berlin) an AS (Wien)</ref>, <ref target="11431">1928-07-12 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1928-07-14.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1928-07-14" n="01">1928-07-14</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Auflage/Neuauflage/Neuausgabe</term>
+          <term>Einzelausgabe</term>
+          <term>Entscheidung</term>
+          <term>Ergänzungsband</term>
+          <term>Gesamtausgabe</term>
+          <term>Korrespondenz</term>
+          <term>Kritik</term>
+          <term>niederländisch</term>
+          <term>Novellenband</term>
+          <term>Presse/Feuilleton</term>
+          <term>Titel/Werktitel</term>
+          <term>Vereinbarung</term>
+          <term>Vergleich</term>
+          <term>Verhandlung</term>
+          <term>Vertrag</term>
+          <term>Vorschuss</term>
+          <term>Übersetzung</term>
+          <term>Übersetzungsrecht</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb7000" source="https://pmb.acdh.oeaw.ac.at/entity/7000/">
+          <persName>Engel, Fritz</persName>
+        </person>
+        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
+          <persName>Harz, Benjamin</persName>
+        </person>
+        <person ref="#pmb11679" source="https://pmb.acdh.oeaw.ac.at/entity/11679/">
+          <persName>Hesse, Hermann</persName>
+        </person>
+        <person ref="#pmb12176" source="https://pmb.acdh.oeaw.ac.at/entity/12176/">
+          <persName>Mann, Thomas</persName>
+        </person>
+        <person ref="#pmb291990" source="https://pmb.acdh.oeaw.ac.at/entity/291990/">
+          <persName>Nahuys, Alice van</persName>
+        </person>
+        <person ref="#pmb13055" source="https://pmb.acdh.oeaw.ac.at/entity/13055/">
+          <persName>Wassermann, Jakob</persName>
+        </person>
+        <person ref="#pmb54787" source="https://pmb.acdh.oeaw.ac.at/entity/54787/">
+          <persName>Zuckerkandl, Victor</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
+          <placeName>Niederlande</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416741_0061.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 2 Seiten
+Antwort auf: <ref target="11430">1928-07-11 SF (Berlin) an AS (Wien)</ref>, <ref target="11431">1928-07-12 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>20 14/7<lb/>14.7.1928.<lb/>Tischer<lb/>to the<lb/>Dr. Gerle<lb/>Lieber Freund.<lb/>Esq<lb/>Hax<lb/>G.C.H.F.P<lb/>Somit, denke ich, sind wir über die Neu¬<lb/>ausgabe der Gesamelten Werke doch wohl einig:<lb/>Novellen in vier Bänden! I. Band: Sterben und<lb/>andere Novellen (eventuell und 9 andere Novel-<lb/>len),2.Band: Bertha Garlan (und 10 andere Novel.<lb/>len). 3.Band: Die Alternden, 3 Novellen u.zw.<lb/>sto.etc. 4.Band: Die Erwachenden, nämitskr 3<lb/>Novellen u.zw. etc.) D<lb/>Dass bei den Gesamtausgaben von Hesse,<lb/>Mann und Wassermann die Verhältnisse insoferne<lb/>günstiger xxx liegen, als fast nur abgeschlos-<lb/>sene Bände in Frage kommen, günstiger.d.h. eben<lb/>einfacher zur Titelgebung, das ist es ja, was ich<lb/>selbst gesagt habe. Im übrigen habe ich nicht<lb/>im Entferntesten gedacht die Sache persönlich<lb/>zu nehmen. Wie aber steht es nun mit den Neu-<lb/>auflagen der Theaterstücke als Gesamtausgabe?<lb/>Da ich Sie mit meinem Entwurf mei-<lb/>nes Briefes an Harz einverstanden weiss, will<lb/>ich ihn nun absenden. Die beigeschlossenen<lb/>Briefe habe ich dieser Tage wieder vorge-<lb/>funden, sie werden vielleicht im gegenwärtigen<lb/>Stadium Interesse für Sie haben. Die Gutachten.<lb/>von denen in dem Brief vom 12. Jänner 1920 die<lb/>Rede ist, habe ich ihnen schon im Herbst in Ab-<lb/>schrift zugesandt und ich hoffe, sie befinden<lb/>sich noch bei den Akten; wir werden sie mögli-<lb/>cherweise brauchen können. Im übrigen werde<lb/>ich, auch, Ihrem Rate folgend, an Fritz Engel<lb/>in der Sache schreiben.<lb/>Meine Antwort hinsichtlich Querido in den<lb/>stand in einem meiner letzten Briefe.<lb/>en</p></div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10252">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1908-12-23 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">ELCAE7J7</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29843" source="https://pmb.acdh.oeaw.ac.at/entity/29843/">
+            <title>Der grüne Kakadu</title>
+          </bibl>
+          <bibl ref="#pmb29873" source="https://pmb.acdh.oeaw.ac.at/entity/29873/">
+            <title>Der Puppenspieler</title>
+          </bibl>
+          <bibl ref="#pmb30217" source="https://pmb.acdh.oeaw.ac.at/entity/30217/">
+            <title>Der tapfere Cassian</title>
+          </bibl>
+          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
+            <title>Liebelei</title>
+          </bibl>
+          <bibl ref="#pmb29859" source="https://pmb.acdh.oeaw.ac.at/entity/29859/">
+            <title>Marionetten</title>
+          </bibl>
+          <bibl ref="#pmb29951" source="https://pmb.acdh.oeaw.ac.at/entity/29951/">
+            <title>Zum großen Wurstel</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 2 Seiten beschrieben
+Anlagen: Postkarte Emil Lind an AS (nicht überliefert); Brief Stephenson an Eirich (nicht überliefert)
+
+Antwort auf: <ref target="10251">1908-12-21 SF an AS</ref></note>
+        <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1908-12-23.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1908-12-23" n="01">1908-12-23</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführung</term>
+          <term>Aufführungsrecht</term>
+          <term>Aufführungstermin</term>
+          <term>Vertrag</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb10998" source="https://pmb.acdh.oeaw.ac.at/entity/10998/">
+          <persName>Brann, Paul</persName>
+        </person>
+        <person ref="#pmb2874" source="https://pmb.acdh.oeaw.ac.at/entity/2874/">
+          <persName>Eirich, Oskar Friedrich</persName>
+        </person>
+        <person ref="#pmb8654" source="https://pmb.acdh.oeaw.ac.at/entity/8654/">
+          <persName>Lind, Emil</persName>
+        </person>
+        <person>
+          <persName>Stephenson (unbekannter Korrespondenz von Oskar Eirich)</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
+          <placeName>München</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="#pmb186212" source="https://pmb.acdh.oeaw.ac.at/entity/186212/">
+          <orgName>Marionettentheater Münchner Künstler</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://dl.ub.uni-freiburg.de/diglit/1908-12-23_AS_Wien_an_SF_Berlin"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 2 Seiten beschrieben
+Anlagen: Postkarte Emil Lind an AS (nicht überliefert); Brief Stephenson an Eirich (nicht überliefert)
+
+Antwort auf: <ref target="10251">1908-12-21 SF an AS</ref></p>
+      </div>
+    </body>
+  </text>
+</TEI>

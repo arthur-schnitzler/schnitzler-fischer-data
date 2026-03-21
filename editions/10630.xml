@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10630">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1917-10-22 Arthur Schnitzler (Wien) an Samuel Fischer / Leo Greiner (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">2XTZ39I8</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30881" source="https://pmb.acdh.oeaw.ac.at/entity/30881/">
+            <title>Fink und Fliederbusch</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten
+Antwort auf: <ref target="10628">1917-10-17 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1917-10-22.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1917-10-22" n="01">1917-10-22</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Greiner, Leo</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Rücktritt/Rücktrittsrecht</term>
+          <term>Vertrag</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb7777" source="https://pmb.acdh.oeaw.ac.at/entity/7777/">
+          <persName>Hellmer, Arthur</persName>
+        </person>
+      </listPerson>
+      <listOrg type="theaters">
+        <org ref="#pmb36430" source="https://pmb.acdh.oeaw.ac.at/entity/36430/">
+          <orgName>Volkstheater Wien</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416739_0041.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten
+Antwort auf: <ref target="10628">1917-10-17 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>a<lb/>F.T.<lb/>22.10.1917.<lb/>Klein<lb/>Sehr verehrter Herr Greiner.<lb/>Für Ihr freundliches Schreibensage ich<lb/>Ihnen besten Dank. Ich teile vollkommen Ihre Auf-<lb/>fassung, dass der Brief Hellmers eher einem Bet-<lb/>tel als einem Geschäftsbrief ähnlich sah, darum<lb/>war er mir eben so zuwider, weil xx zu einem<lb/>solchen wahrhaftig kein Anlass verlag und so<lb/>bleibt meine Ansicht, dass zu einer Befürwortung<lb/>von Hellmers Essuchen doch eigentlich auch kein<lb/>Grund vorhanden war. Indess hat sich H. natürlich<lb/>schon an mich mit der Bitte gewandt, ich möchte<lb/>auf meinen wunsch nach Annulierung des Vertrags<lb/>kann ich nicht umhin<lb/>nicht bestehen und, ebenso natürlich,kabaxish die-<lb/>sen Wunsch, nachdem ich ich H. meine Meinung im<lb/>übrigen nicht vorenthalten, zu erfüllen.<lb/>Sollten vielleicht einige Bürstenabzüge<lb/>des „Fliederbusch“ an sie zurückgelangt oder gar<lb/>einige geheftete Exemplare vorhanden sein, so er-<lb/>bitte ich recht sehr drei Stück an das Deutsche</p></div>
+    </body>
+  </text>
+</TEI>

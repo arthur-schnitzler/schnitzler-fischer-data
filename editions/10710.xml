@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10710">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1919-07-22 Samuel Fischer / NN (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">G8K2MALU</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
+            <title>Anatol</title>
+          </bibl>
+          <bibl ref="#pmb31429" source="https://pmb.acdh.oeaw.ac.at/entity/31429/">
+            <title>Große Szene</title>
+          </bibl>
+          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
+            <title>Liebelei</title>
+          </bibl>
+          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
+            <title>Professor Bernhardi</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">3 Blatt, 3 Seiten
+Antwort auf: <ref target="10709">1919-07-18 AS (Wien) an SF (Berlin)</ref>, <ref target="10709">1919-07-18 AS (Wien) an SF (Berlin)</ref> (Postkarte, erschlossen)
+Anlage: Quartalsabrechnung (erschlossen) und Abschrift Vertrag zwischen S. Fischer Verlag und Kramer, Leopold (erschlossen)</note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1919-07-22.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">NN, </persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1919-07-22" n="01">1919-07-22</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Abonnement</term>
+          <term>Abrechnung</term>
+          <term>amerikanisch</term>
+          <term>Aufführungsrecht</term>
+          <term>Erster Weltkrieg</term>
+          <term>Mahnung</term>
+          <term>Tantiemen</term>
+          <term>Vertrag</term>
+          <term>Vertreter/Vertretung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb11981" source="https://pmb.acdh.oeaw.ac.at/entity/11981/">
+          <persName>Kramer, Leopold</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
+          <placeName ref="#pmb168">Berlin</placeName>
+        </place>
+        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
+          <placeName>Prag</placeName>
+        </place>
+        <place ref="#pmb46637" source="https://pmb.acdh.oeaw.ac.at/entity/46637/">
+          <placeName>Riga</placeName>
+        </place>
+        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
+          <placeName>Russland</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="#pmb45430" source="https://pmb.acdh.oeaw.ac.at/entity/45430/">
+          <orgName>Kleines Theater Berlin</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0174.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>3 Blatt, 3 Seiten
+Antwort auf: <ref target="10709">1919-07-18 AS (Wien) an SF (Berlin)</ref>, <ref target="10709">1919-07-18 AS (Wien) an SF (Berlin)</ref> (Postkarte, erschlossen)
+Anlage: Quartalsabrechnung (erschlossen) und Abschrift Vertrag zwischen S. Fischer Verlag und Kramer, Leopold (erschlossen)</p>
+      </div>
+          <div type="OCR"><p>soe<lb/>Esq<lb/>S. Fischer. Verlag. Berlin<lb/>wenn<lb/>Amt Lützow 1662 u. 6162 Theaterabteilung postscheckkonto Nr. 16692<lb/>Berlin W 57, Bülowstraße Nr. 90<lb/>So/söhtatstav Jnedtsz.v.w.22.<lb/>mi Jdoin oale,s3tk mf mjem.iroV mabelsam saamu pb.s. nogasfra<lb/>meh nedostwe gnubnidreV eib bau Jndow b###faam neaeitjsegte<lb/>nenomnev. Jei asnootereimi gihnädaffev dasfeauwasoxo hos mukidimae<lb/>— ete Herrn<lb/>obnadostgstev gfolxn xxxnagn! aniex atmäwnegen tiw<lb/>nelle xxxo LgöM sret. Dr. Arthur Sonnitzler!<lb/>v. mets ogav mrt.t. og. mviiif.<lb/>x*a *a * * * t * * x *<lb/>tgelf Istrauf eislei aan heil gemeinsxom öterdwartestrasse 71<lb/>mesetb nov., asr4 zedü senschag nous eik medeere reaeib aus, ied<lb/>sehr geehrter Herr evlassen J. A. ente nöflührte bitw meisen?<lb/>me but<lb/>vom 18. ds.<lb/>in Beantwortung Ihres Schreiben<lb/>Mts. teilen wir Ihnen ergebenat mit: „telsdell.“ IosamA,<lb/>a5s<lb/>Das kleine Theater hat „Liebelei“ ver -<lb/>Ausi<lb/>(v.t.)<lb/>stellungen, opwohl es das Stück<lb/>für Nachmittagsvore<lb/>tragsmässig nur<lb/>Arb fødsh<lb/>W. OYtw jen-<lb/>pielt hat. Der Vertrag betont nicht<lb/>aber<lb/>als ges<lb/>auch hier un<lb/>3w1 rt.<lb/>if euch Tods befä.Jielmglkei<lb/>einige Aufführungsrecht<lb/>dem Theater dar<lb/>alle<lb/>ausdrücklich<lb/>J<lb/>Tien Jsn o<lb/>Ibtschreiß<lb/>drückt aber auch das Gegenteill nicht aus.<lb/>für Berlin zusteht<lb/>décis bien. J'HÉEXYOM. hoffes<lb/>Inds résultat<lb/>JUBIOM<lb/>Ob die von Ihnen erwähnte grosse Berliner<lb/>ich nu<lb/>Es fragt<lb/>xxx. Ibesaeg gehöhevheggen heb iiw<lb/>a<lb/>selbst Anspruch auf das alleinige Aufführungsrecht für<lb/>Bünn<lb/>R.<lb/>auf der Todesstrafe.<lb/>S.H.S.Röe S.W. 1er.<lb/>a my<lb/>all sein<lb/>so müsste der Vertrag<lb/>de<lb/>Be<lb/>xxI.<lb/>erlin erhabt sollte dies<lb/>Otat<lb/>Diew Reasolko<lb/>a a sine<lb/>red<lb/>der Frist gekündigt werden.<lb/>einmonat:<lb/>mit dem kleinen<lb/>Theater mit un¬<lb/>P.S<lb/>- a j neme<lb/>xxe 1e<lb/>liesse sich evtl. ein<lb/>gütliches<lb/>pa¬<lb/>toutes les<lb/>sollte es nicht der 11.<lb/>l. sein ä tnodegaleskrevio<lb/>die Aufführung zusteht.<lb/>men<lb/>Abkommen treffen. Vonach beiden<lb/>ée, et à ceux qui se<lb/>Bum<lb/>dem kleinen Theater im<lb/>wir die Tantieme von 7% peruht auf dem mit xxx schreiben<lb/>Jahre 1915 abgeschlossenen Vertrag<lb/>anbetrifft,<lb/>Koffnung durchst. ### 2 ### die russischen Aufführungen<lb/>Jellä<lb/>Die oben genannten Bedingungen haben Sältigkeit bis zum „ Soliten wir an diesem Tag noch keine<lb/>entscheidende Antwort erhalten haben, so nehmen wir an, daß wir über das in Frage stehende Werk anderweitig verfügen können<lb/>O.M.</p></div>
+    </body>
+  </text>
+</TEI>

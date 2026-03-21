@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10591">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1916-01-15 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">NAHVXRFZ</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl type="journal" ref="#pmb36156" source="https://pmb.acdh.oeaw.ac.at/entity/36156/">
+            <title>Die neue Rundschau</title>
+          </bibl>
+          <bibl type="third_party">
+            <title>Moritz Heimann: Oesterreich in der Welt</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 2 Seiten
+Antwort auf: <ref target="10585">1915-11-13 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in: 1916-02-03 MH (Berlin) an AS (Wien)</note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1916-01-15.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1916-01-15" n="01">1916-01-15</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Empfehlung</term>
+          <term>Manuskript</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb2914" source="https://pmb.acdh.oeaw.ac.at/entity/2914/">
+          <persName>Bie, Oskar</persName>
+        </person>
+        <person ref="#pmb11632" source="https://pmb.acdh.oeaw.ac.at/entity/11632/">
+          <persName>Heimann, Moritz</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416739_0003.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 2 Seiten
+Antwort auf: <ref target="10585">1915-11-13 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in: 1916-02-03 MH (Berlin) an AS (Wien)</p>
+      </div>
+          <div type="OCR"><p>15.1.1916<lb/>Frescher<lb/>Lieber Freund.<lb/>Darf ich Sie nochmals an das Manuscript<lb/>von Avicenna „Oesterreich in der Welt“ erinnern.<lb/>das Ihnen Mitte November durch meine Sekretärin<lb/>zugesandt wurde und über das ich mich in einem<lb/>Brief an Sie vom 13. November näher ausgesprochen<lb/>habe. Der Empfang wurde pünktlich bestätigt und<lb/>ich hatte ein paar Wochen später noch Gelegen-<lb/>heit Sie zu bitten die meiner Ansicht nach höchst<lb/>interessante Arbeit,die ein Kapitel eines grös-<lb/>ser angelegten Buches vorstellt,ausserhalb der<lb/>Reihenfolge des Einlaufs einer Prüfung zu unter-<lb/>ziehen, sowie auch Sie und eventuell Heymann da-<lb/>rauf gütigst aufmerksam machen zu wollen. Der<lb/>Ueberfluss an temperamentvollen und zugleich<lb/>ehrlichen und zugb ich anregenden Schriftstellem<lb/>auf politischem Gebiete ist nicht so gross, dass<lb/>Sie die auf die Lektüre des Essays verwendete<lb/>Zeit bereuen werden, selbst den Fall gesetzt, dass</p></div>
+    </body>
+  </text>
+</TEI>

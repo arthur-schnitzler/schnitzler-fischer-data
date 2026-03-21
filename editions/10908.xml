@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10908">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1922-04-18 Samuel Fischer (Baden-Baden) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">LJ6Z6MUM</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listOrg>
+          <org type="publisher" ref="#pmb146179" source="https://pmb.acdh.oeaw.ac.at/entity/146179/">
+            <orgName>Benjamin Harz Verlag (Berlin, Wien)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 3 Seiten</note>
+        <note type="type">Handschrift, Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-04-18.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName>Baden-Baden</placeName>
+          <date when="1922-04-18" n="02">1922-04-18</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Auflage/Neuauflage/Neuausgabe</term>
+          <term>Ergänzungsband</term>
+          <term>Gesamtausgabe</term>
+          <term>Honorar</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
+          <persName>Harz, Benjamin</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0489.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 3 Seiten</p>
+      </div>
+          <div type="OCR"><p>a 557<lb/>S. FISCHER/VERLAG<lb/>Bankkonto: Deutsche Bank. Depositenkasse P Berlin / Postschschkonto; Berlin 16692<lb/>BERene W 57 / BÜLowSTRASSE 90<lb/>Fernruf: Lützow 1662. 6162 und 9292<lb/>z. Z. Baden - Baden, Hotel Bellevue.<lb/>18. April 1922<lb/>Lieber Freund!<lb/>Ich bin hier mit der kalkulatorischen Durch-<lb/>arbeitung Ihres Oeuvre beschäftigt. Wir drucken die<lb/>beiden Gesamtausgaben, die beiden Ergänzungsbände<lb/>und eine ganze Reihe von Er<lb/>einzelwerken, die wir nur<lb/>G.C.F.P.<lb/>bei den geringen Auflagen gelegentlich des Neudrucks<lb/>der Gesamtausgaben mitdrucken können, auch als Vor¬<lb/>rat für später, da sich wahrscheinlich so bald nicht<lb/>wieder Gelegenheit zum Neudruck kleiner Auflagen<lb/>bietet. Bevor ich Ihnen meine Vorschläge schriftlich<lb/>unterbreite, möchte ich wissen, wann Sie nach Berli<lb/>kommen, da es für beide Teile leichter ist, die An-<lb/>gelegenheit persönlich zu besprechen.<lb/>Inzwischen viele Grüsse aus meinem verschneiten<lb/>Winterdyll von mir und den Meinen,<lb/>th<lb/>Sffischer<lb/>das wesentliche: die<lb/>Hauptfrage kann ich schon<lb/>vorwegnehmen. Das höchste</p></div>
+    </body>
+  </text>
+</TEI>

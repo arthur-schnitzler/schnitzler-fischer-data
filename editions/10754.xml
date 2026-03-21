@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10754">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1920-05-10 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">JV7L25W3</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30971" source="https://pmb.acdh.oeaw.ac.at/entity/30971/">
+            <title>Casanovas Heimfahrt</title>
+          </bibl>
+          <bibl ref="#pmb30717" source="https://pmb.acdh.oeaw.ac.at/entity/30717/">
+            <title>Komödie der Worte</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="1087495962" source="https://d-nb.info/gnd/1087495962">
+            <orgName>Athenaeum (Budapest)</orgName>
+          </org>
+          <org type="institution" ref="5191163-2" source="https://d-nb.info/gnd/5191163-2">
+            <orgName>Verband Deutscher Filmautoren</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 4 Seiten
+Antwort auf: 1919-04-20 SF (Berlin) an AS (Wien), 1919-05-04 SF (Berlin) an AS (Wien)
+Beantwortet in: <ref target="10757">1920-05-19 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1920-05-10.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1920-05-10" n="01">1920-05-10</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Absatz/Verkauf</term>
+          <term>amerikanisch</term>
+          <term>Auflage/Neuauflage/Neuausgabe</term>
+          <term>Erscheinungstermin</term>
+          <term>Film/Verfilmung</term>
+          <term>Garantiesumme</term>
+          <term>Gesamtausgabe</term>
+          <term>Honorar</term>
+          <term>Provision</term>
+          <term>spanisch</term>
+          <term>ungarisch</term>
+          <term>Verhandlung</term>
+          <term>Verkaufspreis/Ladenpreis</term>
+          <term>Vertrag</term>
+          <term>Zeitung</term>
+          <term>Übersetzung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
+          <persName>Bartsch, Rudolf Hans</persName>
+        </person>
+        <person ref="#pmb20142" source="https://pmb.acdh.oeaw.ac.at/entity/20142/">
+          <persName>Lasswitz, Koloman</persName>
+        </person>
+        <person ref="#pmb27362" source="https://pmb.acdh.oeaw.ac.at/entity/27362/">
+          <persName>Wunderlich, Ernst Rainer</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb388" source="https://pmb.acdh.oeaw.ac.at/entity/388/">
+          <placeName>Spanien</placeName>
+        </place>
+        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
+          <placeName>USA</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416739_0147.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 4 Seiten
+Antwort auf: 1919-04-20 SF (Berlin) an AS (Wien), 1919-05-04 SF (Berlin) an AS (Wien)
+Beantwortet in: <ref target="10757">1920-05-19 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>wert in Kronen ausbezahlt erhalten sollen.<lb/>Es scheint sich hier um irgend eine natio-<lb/>nalökonomisch wichtige Abmachung zwischen<lb/>Oesterreich und Deutschland zu handeln, von<lb/>der ich übrigens, die Wahrheit zu sagen, nicht<lb/>das Geringste verstehe.<lb/>Leider habe ich mir neulich auf einem<lb/>Spaziergang durch einen Sturz Schulter und<lb/>Oberarm so erheblich verletzt, dass ich noch<lb/>für einige Wochen in der Gebrauchsfähigkeit<lb/>des rechten Arms nemlich gehindert sein<lb/>dürfte und sogar bitten muss für diesmal auf<lb/>meine eigenhändige Unterschrift zu verzichten.<lb/>Mit den herzlichsten Grüssen<lb/>Ihr<lb/>Arthur Schnitzler.<lb/>Fischer<lb/>10. Mai 1920.<lb/>Lieber Freund.<lb/>Zu dem amerikapischen Antrag die<lb/>G.C.F.P.<lb/>Herausgabe meiner Gesammelten Warkenbetreffend.<lb/>noch einige Worte. Man müsste sich vor allem<lb/>über folgende Punkte vergewissern.<lb/>1. Ruf und Zahlungsfähigkeit des Verle-<lb/>gers.<lb/>2. Name und Ruf der nabersetzer.<lb/>3. Insbesondere war übersetzt die versifi-<lb/>-zierten Werke?<lb/>4. In welcher Reihenfolge soll die Heraus-<lb/>gabe der Werke erfolgen.<lb/>5. Entspräche die amerikanische Ausgabe<lb/>der deutschen? Oder sollen auch die seither er-<lb/>schienen Einzelwerke miteinbezogen werden?<lb/>6. In welchn Zwischenräumen sollten die<lb/>einzelnen Bände erscheinen?<lb/>7. Bis zu welchem Termin sollte das Gan-<lb/>ze erschienen sein?<lb/>8. Sollen die einzelnen Bände einzeln</p></div>
+    </body>
+  </text>
+</TEI>

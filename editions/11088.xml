@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11088">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1924-05-22 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">DI6ZSZWI</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Beantwortet in: <ref target="11090">1924-05-26 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Unterschrift, eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-05-22.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1924-05-22" n="01">1924-05-22</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Abrechnung</term>
+          <term>Drama</term>
+          <term>Überweisung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb13346" source="https://pmb.acdh.oeaw.ac.at/entity/13346/">
+          <persName>Altmann, George</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
+          <placeName>USA</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org>
+          <orgName>Rotter-Bühnen Berlin</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0746.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Beantwortet in: <ref target="11090">1924-05-26 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>lin<lb/>er /<lb/>Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto; Berlin Nr. 10.<lb/>Fernsprechanschlüsse: Amt Lützow Nr. 6162 bis 6.<lb/>Sälswstraße oo<lb/>Herrn Dr. Arthur Schnitzler<lb/>Lieber Freund,<lb/>gestern war Herr Dr. Altmann, der Direktor der Rotter-Bühnen<lb/>bei mir; er ist aus Amerika zurückgekehrt und er is t der Meinung, dass<lb/>er in Amerika für Ihre Stücke etwas tun könnte. Da wir mit ihm wegen<lb/>unserer Vertretung für Amerika verhandeln, so ist es uns wichtig<lb/>festzustellen, ob Sie Ihrerseits den Vertrieb Ihres Stüske in Amerika<lb/>selbst weiterführen sollen oder ob wir Herrn Altmann eventuell auch<lb/>die Vertretung Ihrer Stücke von uns aus geben könnten.<lb/>Über die geträge der letzten Abrechnung von 14. Mai haben Sie<lb/>noch nicht verfügt. Wünschen Sie eine grössere Vorauszahlung a Konto<lb/>der weiteren Honorarverrechnungen, so stehen wir damit gern zur Ver-<lb/>fügung.<lb/>W5.9.4<lb/>1er ses<lb/>Mit besten Grüssen<lb/>Ihr<lb/>Fische<lb/>zum Breit. Herr H. zu gestellen ich mein bei<lb/>Aber<lb/>onhause.<lb/>derselben bleibt davon<lb/>Opt N.P.<lb/>wch sein.</p></div>
+    </body>
+  </text>
+</TEI>

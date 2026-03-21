@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11048">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1924-01-05 Samuel Fischer / Regina Rosenbaum / Otto Rublack (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">5YGXFELE</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Anlage: Abrechnung</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-01-05.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Rosenbaum, Regina</persName>
+          <persName type="coworker">Rublack, Otto</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1924-01-05" n="01">1924-01-05</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Abrechnung</term>
+          <term>Honorar</term>
+          <term>Theater</term>
+          <term>Überweisung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb12968" source="https://pmb.acdh.oeaw.ac.at/entity/12968/">
+          <persName>Trebitsch, Siegfried</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0693.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Anlage: Abrechnung</p>
+      </div>
+          <div type="OCR"><p>1r<lb/>647<lb/>cher/Verlag/Berlin M 57 / Bülowstraße go<lb/>Baukkonto: Deutsche Bank. Depositenkasse P in Berlin / Postscheckkonto: Berlin Nr. 16892<lb/>Fernsprechanschlüsse: Amt Lützow Nr.<lb/>6162-6164<lb/>dan 5. 1. 1924.<lb/>Ro./Re.<lb/>Herrn Dr. Arthur Schnitzler,<lb/>W i e n XVIII<lb/>Sternwartestr. 71<lb/>Sehr geehrter Herr Doktor!<lb/>Bevor wir weitere Ueberweisungen für Theater-Tantiemen<lb/>nder Honorare an die Bank für auswärtigen Handel vornehmen,<lb/>möchten wir bei Ihnen anfragen, ob es jetzt, wo die Mark stabil<lb/>ist, nicht zweckmässig wäre, anstatt der Ueberweisungen an das<lb/>Berliner Bankhaus, Ihnen die entfallenden Beträge nach Wien zu<lb/>(wie früher)<lb/>senden, und zwar entweder auf Ihr Wiener Bankkonto, oder direkt<lb/>durch Markscheck (wie wir es beispielsweise neuerdings mit Herrn<lb/>Trebitsch vereinbart haben), die Einwechslung dieser Marküberwei-<lb/>sungen gegen Kronen würde für Sie weder mit Schwiegigkeiten, noch<lb/>Kursverlusten verbunden sein.Und, wie gesagt, im Vertrauen<lb/>darauf, dass die Mark stabil bleibt, wäre es vielleicht für Sie<lb/>vorteilhafter, die Beträge immer gleich nach Wien zu bekommen.<lb/>m m m m r r og a<lb/>G.C.F.P<lb/>Bitte lassen Sie uns Ihre Entschliessung wissen.<lb/>Mit vorzüglicher Hochachtung<lb/>S. Fischer / Verlag, a.-G<lb/>Ppa. Rosenbein Juffelat<lb/>G.H.F.P.P<lb/>1<lb/>a<lb/>b)<lb/>a<lb/>schw.<lb/>id</p></div>
+    </body>
+  </text>
+</TEI>

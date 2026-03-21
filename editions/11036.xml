@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11036">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1923-11-07 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">2TB9XLL5</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listOrg>
+          <org type="institution" ref="63980-1" source="https://d-nb.info/gnd/63980-1">
+            <orgName>Deutsche Bank (Berlin)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Batt, 1 Seite</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-11-07.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1923-11-07" n="01">1923-11-07</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Überweisung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb16125" source="https://pmb.acdh.oeaw.ac.at/entity/16125/">
+          <persName>Feilchenfeld, Franz Karl</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0671.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Batt, 1 Seite</p>
+      </div>
+          <div type="OCR"><p>64.<lb/>MITTEILUNG<lb/>Von der<lb/>An<lb/>DEUTSCHEN B alle<lb/>Fa. S. Fischer Verlag A.G.<lb/>nauauauaauauaauaarauaaraas<lb/>Depositenkasse P.,<lb/>Potsdamer Strasse 96.<lb/>En-<lb/>Berlin W., Bülowstr. 90<lb/>Muster 3501<lb/>.P.<lb/>Postscheckkonto Berlin 1016<lb/>..v.<lb/>111 21623<lb/>Berlin, den 7. November 1933<lb/>Wir empfingen Ihr gefl. Schreiben vom 5.11.er, und überwiesen<lb/>Ihrem Auftrage gemäss an die Bank für auswärtigen Handel A.G.,z.H.d.<lb/>Herrn Direktors Feilchenfeld, Berlin W., Budapesterstr. 2/3,<lb/>M 148.000 M.Mk.<lb/>zu Gunsten des Herrn Dr. Arthur Schnitzler, Wien, wofür wir Sie wie<lb/>vorstehend Val.7.cr. auf Depositen-Conto belasteten.<lb/>In diesem Zusammenhange gestatten wird und zu bemerken, dass<lb/>von genannter Bank wiederholt erst um Verwendungsaufsabe für die ihr<lb/>von uns überwiesenen Beträge ersucht wird, trotzdem wir derselben ste-<lb/>pünktlich die Avise übermittelten.<lb/>de la riviere de lʼadresse.<lb/>G.C.H.<lb/>Hochachtungsvoll<lb/>Deutsche Bank,<lb/>Kasso<lb/>As### Berlin W.St, Potsdamerstr. 9</p></div>
+    </body>
+  </text>
+</TEI>

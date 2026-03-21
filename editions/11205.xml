@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11205">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1925-11-27 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">IY68TNN3</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listOrg>
+          <org type="institution" ref="2007813-4" source="https://d-nb.info/gnd/2007813-4">
+            <orgName>Deutsche Buch-Gemeinschaft</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Antwort auf: <ref target="11204">1925-11-26 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in: <ref target="11206">1925-11-30 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1925-11-27.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1925-11-27" n="01">1925-11-27</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Drama</term>
+          <term>Korrektur</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0842.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Antwort auf: <ref target="11204">1925-11-26 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in: <ref target="11206">1925-11-30 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>Fischer / Verlag / A.=G. Berlin W 57.<lb/>Bankkonto: Deutsche Bank, Depositenkause P in Berlin / Postscheckkonto: Berlin Nr. 1669a<lb/>Fernsprechanschlüsse: Amt Lützow Nr. 6162 bis 6164<lb/>Sülowstraße 00<lb/>27. Nov. 25<lb/>F/si.<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>G.F.P.<lb/>Lieber Freund,<lb/>G.F.P.<lb/>G.F.P.<lb/>ich würde Ihnen nicht raten, der deutschen Buchgemeinschaft<lb/>irgend ein Werk zu geben. Diese Organisation kann die Bücher<lb/>Ihren Mitgliedern zu einem billigen Preis liefern, weil sie das<lb/>Sortiment umgeht, also keinen Rabatt zu gewähren braucht. Dass<lb/>daneben eine normale Ausgabe im Buchhandel sich nicht geltend<lb/>machen kann, liegt auf der Hand. Der Buchhandel befasst sich auch<lb/>nicht mit Büchern, die in der Buchgemeinschaft erscheinen, ja<lb/>er nimmt zu Autoren, die in der Buchgemeinschat ein Buch haben,<lb/>die Stellung einer passiven Resistenz ein, was eine grosse Schädi<lb/>gung mit sich bringt.<lb/>Die Korrekturen des ersten Aktes Ihres neuen Dramas haben<lb/>wir Ihnen gestern zugehen lassen; die weiteren Akte werden jetzt<lb/>schneller folgen können.<lb/>Mit herzlichen Grüssen<lb/>S. FISCHER.VERLAG<lb/>###TIENGESELISCHAFT<lb/>Efischer</p></div>
+    </body>
+  </text>
+</TEI>

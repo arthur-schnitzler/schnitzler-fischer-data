@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11701">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1931-09-07 Samuel Fischer / Konrad Maril (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">7BSDBXDL</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30863" source="https://pmb.acdh.oeaw.ac.at/entity/30863/">
+            <title>Flucht in die Finsternis</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Beantwortet in: <ref target="11705">1931-09-12 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1931-09-07.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1931-09-07" n="01">1931-09-07</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Ausland</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416744_0162.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Beantwortet in: <ref target="11705">1931-09-12 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>1059<lb/>Flurff<lb/>31<lb/>S. Fischer Verlag/ Berlin Wör7 Bülowstrasse 90<lb/>AKTIENSESELISCHAFT<lb/>Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto Berlin Nr. 16692<lb/>N Fernsprechanschlüsse: Amt Lützow Nr. 6162 bis 6164<lb/>Telegramm-Adresse: Fischerverlag 6162 Berlinlützow<lb/>Berlin,7.September 1931<lb/>Herrn Dr. Arthur Schnitzler<lb/>Sternwartestr.71<lb/>W i e n XVIII<lb/>Sehr geehrter Herr Doktor!<lb/>Wir würden sehr gerne auch die Plazierung in anderen Ländern<lb/>von "Flucht in die Finsternis" übernehmen und bitten Sie uns<lb/>wissen zu lassen,ob Sie hiermit einverstanden wären. In die-<lb/>sem Fall bitten wir um Mitteilung, ob und nach welchen Län-<lb/>dern Sie die Movelle sohon vergeben haben.<lb/>Mit ergebensten Grüssen<lb/>S. FISCHER. VERLAG<lb/>AKTRENGESEL LSCHAF7<lb/>AUSLANDSARTEILUNG<lb/>22.30 20000 V. S.</p></div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10700">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1919-04-29 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">GZQXSG9D</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
+            <title>Reigen</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb10186309-3" source="https://pmb.acdh.oeaw.ac.at/entity/10186309-3/">
+            <orgName>Theaterverlag Eduard Bloch</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 2 Seiten
+Antwort auf: <ref target="10699">1919-04-18 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in: <ref target="10702">1919-05-10 AS (Wien) an SF (Berlin)</ref>
+Anlage: Abschrift Gutachten zum "Reigen" (erschlossen)</note>
+        <note type="published_in">Rodewald, 124-125 [Nr. 162]</note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1919-04-29.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1919-04-29" n="01">1919-04-29</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Abschrift</term>
+          <term>Aufführung</term>
+          <term>Erster Weltkrieg</term>
+          <term>Filiale</term>
+          <term>Gutachten</term>
+          <term>Tantiemen</term>
+          <term>Vertreter/Vertretung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="135572533" source="https://d-nb.info/gnd/135572533">
+          <persName>Neldner, Paul</persName>
+        </person>
+        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
+          <persName>Reinhardt, Max</persName>
+        </person>
+        <person ref="#pmb12556" source="https://pmb.acdh.oeaw.ac.at/entity/12556/">
+          <persName>Rosenbaum, Richard</persName>
+        </person>
+        <person ref="#pmb162348" source="https://pmb.acdh.oeaw.ac.at/entity/162348/">
+          <persName>Stanislawski, Konstantin Sergejwitsch</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb869" source="https://pmb.acdh.oeaw.ac.at/entity/869/">
+          <placeName>Moskau</placeName>
+        </place>
+        <place ref="#pmb46637" source="https://pmb.acdh.oeaw.ac.at/entity/46637/">
+          <placeName>Riga</placeName>
+        </place>
+        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
+          <placeName>Russland</placeName>
+        </place>
+        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
+          <placeName ref="#pmb50">Wien</placeName>
+        </place>
+        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
+          <placeName>Österreich</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="#pmb37177" source="https://pmb.acdh.oeaw.ac.at/entity/37177/">
+          <orgName>Kammerspiele Berlin</orgName>
+        </org>
+        <org ref="1023075059" source="https://d-nb.info/gnd/1023075059">
+          <orgName>Kleines Schauspielhaus Berlin</orgName>
+        </org>
+        <org ref="#pmb61673" source="https://pmb.acdh.oeaw.ac.at/entity/61673/">
+          <orgName>Trianon-Theater Berlin</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0169.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 2 Seiten
+Antwort auf: <ref target="10699">1919-04-18 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in: <ref target="10702">1919-05-10 AS (Wien) an SF (Berlin)</ref>
+Anlage: Abschrift Gutachten zum "Reigen" (erschlossen)</p>
+      </div>
+          <div type="OCR"><p>426<lb/>S. FISCHER/VERLAG<lb/>Bankkonto: Deutsche Bank, Depositenkasse P. Berlin / Postscheckkonto. Berlin 16692<lb/>BERLIN W 57 / BULowSTRASSE 90<lb/>Ferneuf: Lützow 1662, 6162 und 9292<lb/>29/4. 1919<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Lieber Freund,<lb/>Sie scheinen meinen letzten Brief nicht bekommen zu haben, in<lb/>welchem ich geraten habe, dem Ansturm auf den „Reigen“ folge zu geben.<lb/>vermeinte<lb/>Sie bekennen sich dazu, und die<lb/>Sie haben ja dieses Werk geschriebe<lb/>(votre amitiété).<lb/>äusseren Zeichen deuten darauf hin, dass die früheren Bedenken jetzt<lb/>doch wohl nicht mehr zutreffen. In Berlin würde ich empfehlen, das<lb/>Trianon-Thoater möglichst zu vermoiden; die Nähe der leichtsinnigen<lb/>Pariser Schwänke würde Ihnen gewiss für den "Reigen" nicht angenehm<lb/>sein. Wenn es irgendwie geht, sollte Reinhardt den "Reigen "in den<lb/>t&amp;&amp;n<lb/>u<lb/>G.C.P.<lb/>Kammerspielen (nicht etwa im Kleinen Schauspielhaus) spielen, und da<lb/>m m m m r jusqu'au moins de nouvelle.<lb/>3 1/3<lb/>ouvertieux<lb/>die Theatersaison schon vorgeschritten ist, würde es vielleicht am<lb/>besten sein, wenn Reinhardt und alle nachfolgenden Theater es erst<lb/>in der nächsten Saison aufführen.<lb/>Ich habe neulich mit einem Russen gesprochen. Er bezweifelt, dass<lb/>stanislawski den "Reigen" in Moskau gespielt hat, meint aber auch,<lb/>G.C.F.P<lb/>dass der Zyklus in Russland vielfach aufgeführt wurde. Ein Verkehr<lb/>mit Russland ist zur Zeit nicht möglich, ich glaube auch nicht, ob Bloch<lb/>ihn unterhält. Wenn Ihnen Bloch neulich aus Moskau Tantiemen bezahlt<lb/>hat, so bewoist das noch nicht, dass er jetzt imstande wäre, für Sie<lb/>in Russland etwas auszurichten. Aber immerhin, ich kann nichts dagegen</p></div>
+    </body>
+  </text>
+</TEI>

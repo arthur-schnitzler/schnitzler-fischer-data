@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10524">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1914-03-04 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">88BV6KQG</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 336</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30649" source="https://pmb.acdh.oeaw.ac.at/entity/30649/">
+            <title>Der blinde Geronimo und sein Bruder</title>
+          </bibl>
+          <bibl ref="#pmb30167" source="https://pmb.acdh.oeaw.ac.at/entity/30167/">
+            <title>Die griechische Tänzerin</title>
+          </bibl>
+          <bibl ref="#pmb30486" source="https://pmb.acdh.oeaw.ac.at/entity/30486/">
+            <title>Frau Bertha Garlan</title>
+          </bibl>
+          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
+            <title>Professor Bernhardi</title>
+          </bibl>
+          <bibl type="journal" ref="#pmb36156" source="https://pmb.acdh.oeaw.ac.at/entity/36156/">
+            <title>Die neue Rundschau</title>
+          </bibl>
+          <bibl type="journal">
+            <title>Neue Romanreihe (Buchreihe, S. Fischer?)</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="institution" ref="128103-3" source="https://d-nb.info/gnd/128103-3">
+            <orgName>Deutscher Verlegerverein</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 2 Seiten beschrieben
+
+Bezug auf: <ref target="10509">1913-06-16 SF an AS</ref>
+Antwort auf: <ref target="10523">1914-03-02 AS an SF</ref>
+Beantwortet in: <ref target="10526">1914-03-07 AS an SF</ref></note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1914-03-04.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1914-03-04" n="01">1914-03-04</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Freiexemplar</term>
+          <term>Gesamtausgabe</term>
+          <term>Übersetzungsrecht</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb2914" source="https://pmb.acdh.oeaw.ac.at/entity/2914/">
+          <persName>Bie, Oskar</persName>
+        </person>
+        <person ref="#pmb116076" source="https://pmb.acdh.oeaw.ac.at/entity/116076/">
+          <persName>Goschen, William Edward (?)</persName>
+        </person>
+        <person ref="#pmb12081" source="https://pmb.acdh.oeaw.ac.at/entity/12081/">
+          <persName>Lindner, Anton</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
+          <placeName>England</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0656.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 2 Seiten beschrieben
+
+Bezug auf: <ref target="10509">1913-06-16 SF an AS</ref>
+Antwort auf: <ref target="10523">1914-03-02 AS an SF</ref>
+Beantwortet in: <ref target="10526">1914-03-07 AS an SF</ref></p>
+      </div>
+          <div type="OCR"><p>636<lb/>S. Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>4. März 1914<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Lieber Freund,<lb/>ich habe Ihnen im Juni v. J. ein Rechtsgutachten des Syndikus<lb/>des Deutschen Verlegervereins über den Schutz von Werken in England<lb/>Mais elle lui ai leur vrai ai-<lb/>Ce nouvelle de mouveau<lb/>geschickt, bitte schicken Sie mir dieses Gutachten zurück. Soviel<lb/>ich weiss, handelte es sich in diesem Gutachten nur um den Schutz von<lb/>Dramen in England; ich muss mich darüber unterrichten, ob dieser<lb/>Schutz sich auch auf erzählende Schriften bezieht. Da „Bertha Garlan“<lb/>1901 erschienen ist, wäre es immerhin möglich, dass nach 10 Jahren<lb/>der Schutz für dieses Werk erloschen ist. Für alle Fälle habe ich aber<lb/>Goschen aufgefordert, sich zu rechtfertigen.<lb/>Die gewünschten Freiexemplare gehen Ihnen gleichzeitig zu.<lb/>findet in Ihrem Fall nicht statt,<lb/>Eine Berechnung der Freiexempla<lb/>G.C.H.F.P.PT.<lb/>weil sie durch die Höhe der Auflagen Ihrer Bücher sich von selbst<lb/>cʼest avec lʼautre ses mêmes.<lb/>erledigt. Die Rechnungen, die Ihnen zugegangen sind, wollen Sie ver-<lb/>nichten.<lb/>Prof. Bie hat Ihnen schon früher einmal geschrieben, dass er mit<lb/>Anton Lindner die Besprechung Ihrer letzten Werke in der Rundschau<lb/>vereinbart hat, wobei auch der „Bernhardi“ zu seinem Recht kommen soll.<lb/>Bie sagt mir, dass Lindner wiederholt um Aufschub gebeten hat und dass<lb/>er ihm jetzt ein Ultimatum stellt, um die Besprechung eventl. in<lb/>andere Hände zu legen.</p></div>
+    </body>
+  </text>
+</TEI>

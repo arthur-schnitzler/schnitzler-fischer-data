@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11570">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1930-05-17 Samuel Fischer / Konrad Maril (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">TDWH39UP</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Beantwortet in: <ref target="11574">1930-05-28 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1930-05-17.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1930-05-17" n="01">1930-05-17</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Klage/Gerichtliche Verfolgung/Prozess</term>
+          <term>Vergleich</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
+          <persName>Barnowsky, Victor</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416744_0040.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Beantwortet in: <ref target="11574">1930-05-28 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>969<lb/>S. FISCHERVERLAG A.-G. / BERLIN W 57<lb/>Theaterabteilung<lb/>Telegramm-Adresse: Fischerverlag 6162 Berlinlützow<lb/>Fernsprecher: Lützow Nr. 6162=6164<lb/>Postscheckkonto: Berlin Nr. 16629<lb/>Bankkonto; Deutsche Bank, Depositenkasse P in Berlin<lb/>Bülowstraße 90<lb/>Ma/Hb.<lb/>Berlin, den 17.5.30.<lb/>V.<lb/>Herrn<lb/>Dr. Arthur Schnitzler,<lb/>Wien XVIII<lb/>sternwartestr.71<lb/>Sehr verehrter Herr Doktor,<lb/>zu der heute beiliegenden Abrechnung be-<lb/>merken wir, dass Barnowsky die Berufung gegen das erste Urteil<lb/>de la nouvelle sont le même estime<lb/>zurückgezogen hat. Allerdings hat er wieder einen Vergleichvor-<lb/>3 1/2<lb/>schlag gemacht, in dem er den Rest der noch ausstehenden schuld<lb/>G.C.W.F.F<lb/>In täglichen Ratenzahlungen abtragen will. Wir haben die Zentral-<lb/>stelle angewiesen, auf diesen Vorschlag nicht einzugehen sondern<lb/>zu vollstrecken.<lb/>Mit vorzüglicher Hochachtung<lb/>S. FISCHER VERLAG<lb/>AKTRENGESEL I SCHAFT<lb/>THEATERABTEILUNG<lb/>10.000.8.30. V.<lb/>2.<lb/>wohl das Recht einräumen<lb/>G.C.R.S.<lb/>in den Nachfolge Stadt<lb/>Vorrat</p></div>
+    </body>
+  </text>
+</TEI>

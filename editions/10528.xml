@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10528">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1914-03-13 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">IXNGGWB8</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30453" source="https://pmb.acdh.oeaw.ac.at/entity/30453/">
+            <title>Blumen</title>
+          </bibl>
+          <bibl ref="#pmb30655" source="https://pmb.acdh.oeaw.ac.at/entity/30655/">
+            <title>Das neue Lied</title>
+          </bibl>
+          <bibl ref="#pmb30649" source="https://pmb.acdh.oeaw.ac.at/entity/30649/">
+            <title>Der blinde Geronimo und sein Bruder</title>
+          </bibl>
+          <bibl ref="#pmb30167" source="https://pmb.acdh.oeaw.ac.at/entity/30167/">
+            <title>Die griechische Tänzerin</title>
+          </bibl>
+          <bibl ref="#pmb29833" source="https://pmb.acdh.oeaw.ac.at/entity/29833/">
+            <title>Die Toten schweigen</title>
+          </bibl>
+          <bibl ref="#pmb30683" source="https://pmb.acdh.oeaw.ac.at/entity/30683/">
+            <title>Die Weissagung</title>
+          </bibl>
+          <bibl type="journal" ref="282035-3" source="https://ld.zdb-services.de/resource/282035-3">
+            <title>Corriere della Sera</title>
+          </bibl>
+          <bibl type="journal">
+            <title>Neue Romanreihe (Buchreihe, S. Fischer?)</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="institution" ref="128103-3" source="https://d-nb.info/gnd/128103-3">
+            <orgName>Deutscher Verlegerverein</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten beschrieben
+Anlage: 1914-03-11ante Goschen an SF (nicht überliefert)
+
+Antwort auf: 1914-03-11 SF as AS</note>
+        <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1914-03-13.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1914-03-13" n="01">1914-03-13</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführung</term>
+          <term>Titel/Werktitel</term>
+          <term>Urheberrecht/Copyright</term>
+          <term>Übersetzung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb116076" source="https://pmb.acdh.oeaw.ac.at/entity/116076/">
+          <persName>Goschen, William Edward (?)</persName>
+        </person>
+        <person ref="#pmb17355" source="https://pmb.acdh.oeaw.ac.at/entity/17355/">
+          <persName>Grein, Jack Thomas</persName>
+        </person>
+        <person ref="#pmb11904" source="https://pmb.acdh.oeaw.ac.at/entity/11904/">
+          <persName>Kellner, Leon</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb374" source="https://pmb.acdh.oeaw.ac.at/entity/374/">
+          <placeName>Gardone</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://dl.ub.uni-freiburg.de/diglit/1914-03-13_AS_Wien_an_SF_Berlin"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten beschrieben
+Anlage: 1914-03-11ante Goschen an SF (nicht überliefert)
+
+Antwort auf: 1914-03-11 SF as AS</p>
+      </div>
+    </body>
+  </text>
+</TEI>

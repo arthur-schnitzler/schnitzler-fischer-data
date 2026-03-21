@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10583">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1915-11-04 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">48UFIYKY</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30649" source="https://pmb.acdh.oeaw.ac.at/entity/30649/">
+            <title>Der blinde Geronimo und sein Bruder</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Beantwortet in: <ref target="10584">1915-11-08 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1915-11-04.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1915-11-04" n="01">1915-11-04</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Abrechnung</term>
+          <term>Armee</term>
+          <term>Spende</term>
+        </keywords>
+      </textClass>
+      <listPlace>
+        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
+          <placeName>Deutschland</placeName>
+        </place>
+        <place ref="#pmb687" source="https://pmb.acdh.oeaw.ac.at/entity/687/">
+          <placeName>Österreich-Ungarn</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0035.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Beantwortet in: <ref target="10584">1915-11-08 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>liche<lb/>S. Fischer Verlag, Berlin M., Bülowstrasse 9o<lb/>4. Nov. 1915<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Lieber Freund,<lb/>wir haben Ihre Abrechnung für den "Blinden Geronimo"<lb/>-. -. - -.. r...<lb/>bekommen und das Konto' für die Kosten der gelieferten Stiche<lb/>mit 371 Kronen 14 Heller belastet, andererseits den Betrag von<lb/>360 Kronen für die verkauften 72 Stück der Vorzugsausgabe å 5 Kr.<lb/>dem Konto gutgeschrieben. In die anliegende Abrechnung, die per<lb/>1. Oktober abgeschlossen ist, haben wir die von Ihnen verrechneten<lb/>Beträge mit eingestellt. Der Reingewinn stellt sich demnach im<lb/>ganzen per 1. Oktober auf M. 2168.- Hiervon überweisen wir die<lb/>Hälfte - M. 1084.- zu Gunsten der im Feld Erblindeten der<lb/>österreichisch-ungarischen Armee an die Neue Freie Presse zur<lb/>weiteren Verwendung. Den gleichen Betrag stellen wir für die<lb/>Erblindeten der deutschen Armee der Deutscher Kriegsblinden<lb/>stiftung für Landwehr und Flotte zur Verfügung.<lb/>Mit herzlichen Grüssen<lb/>Ihr<lb/>S. Fischer</p></div>
+    </body>
+  </text>
+</TEI>

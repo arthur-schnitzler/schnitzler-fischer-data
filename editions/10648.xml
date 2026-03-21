@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10648">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1918-03-07 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">P2PKDHIP</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30971" source="https://pmb.acdh.oeaw.ac.at/entity/30971/">
+            <title>Casanovas Heimfahrt</title>
+          </bibl>
+          <bibl ref="#pmb29923" source="https://pmb.acdh.oeaw.ac.at/entity/29923/">
+            <title>Der Weg ins Freie</title>
+          </bibl>
+          <bibl ref="#pmb30819" source="https://pmb.acdh.oeaw.ac.at/entity/30819/">
+            <title>Die Schwestern oder Casanova in Spa</title>
+          </bibl>
+          <bibl ref="#pmb31429" source="https://pmb.acdh.oeaw.ac.at/entity/31429/">
+            <title>Große Szene</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="institution">
+            <orgName>Kriegwirtschaftsstelle (Berlin)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">3 Blatt, 3 Seiten
+Antwort auf: <ref target="10646">1918-03-04 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in: <ref target="10649">1918-03-11 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="published_in">Rodewald, 117-119 [Nr. 155]</note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1918-03-07.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1918-03-07" n="01">1918-03-07</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführung</term>
+          <term>Auflage/Neuauflage/Neuausgabe</term>
+          <term>Buchillustration</term>
+          <term>Depesche/Telegramm</term>
+          <term>deutsch</term>
+          <term>Druckprobe/Probedruck</term>
+          <term>Erster Weltkrieg</term>
+          <term>Fronttheater</term>
+          <term>Gesamtausgabe</term>
+          <term>Graphiker</term>
+          <term>Luxusausgabe</term>
+          <term>Novelle</term>
+          <term>Papiernot</term>
+          <term>Verkaufspreis/Ladenpreis</term>
+          <term>österreichisch</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb10863" source="https://pmb.acdh.oeaw.ac.at/entity/10863/">
+          <persName>Beer-Hofmann, Richard</persName>
+        </person>
+        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
+          <persName>Hauptmann, Gerhart</persName>
+        </person>
+        <person ref="#pmb13055" source="https://pmb.acdh.oeaw.ac.at/entity/13055/">
+          <persName>Wassermann, Jakob</persName>
+        </person>
+        <person ref="#pmb5156" source="https://pmb.acdh.oeaw.ac.at/entity/5156/">
+          <persName>Zifferer, Paul</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb210" source="https://pmb.acdh.oeaw.ac.at/entity/210/">
+          <placeName>Colmar</placeName>
+        </place>
+        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
+          <placeName ref="#pmb50">Wien</placeName>
+        </place>
+        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
+          <placeName>Österreich</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0107.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>3 Blatt, 3 Seiten
+Antwort auf: <ref target="10646">1918-03-04 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in: <ref target="10649">1918-03-11 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>402<lb/>S. FISCHER / VerLAG<lb/>ankkonto: Deutsche Bank, Depositenkasse P Berlin / Postscheckkonto: Berlin 1662<lb/>BERLIN W 57 / BÜLowSTRASSE 90<lb/>Fernruf: Lützow 1662, étée und 9292 7/3. 1918<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Lieber Freund!<lb/>Ihre Befürchtung ist ganz ungerechtfertigt. Selbstverständlich<lb/>von vollkommen gleichge<lb/>An Auto<lb/>Eche<lb/>Gouvernement.<lb/>deut<lb/>G.C.F.P.<lb/>sind die österreichisehen und<lb/>iM~i.uM~tM~M~<lb/>(ouvretrement).<lb/>stellt. Ich habe ja in meinem Brief vom 26. Februar ausdrücklich<lb/>bemerkt, dass ich sämtliche Gesamtausgaben meines Verlages nur dann<lb/>werde neu drucken können, wenn mir ein entsprechendes Papierquantum<lb/>von der Kriegswirtschaftsstelle dazu bewilligt wird.. Im Vertrauen<lb/>gesagt: Hauptmann bemüht sich darum, für seine Gesamtausgabe von der<lb/>lauvaa<lb/>Kriegswirtschaftsstelle das erforderliche Quantum bewilligt zu be-<lb/>kommen. Da Sie aus Oesterreich ein solches Gesuch hier nicht stellen<lb/>G.C.H.F.S.<lb/>können, so habe ich daran denken müssen, Ihre Gesamtausgabe eventl.<lb/>in Wien zu drucken, wie ja überhaupt die Wiener Papierbelieferung<lb/>den Zweck hätte, die österreichischen Autoren sicherzustellen. So<lb/>glatt wird aber ein Strich zwischen deutschen und österreichischen<lb/>Autoren in Wien nicht gemacht werden können, weil mir nachträglich<lb/>die technischen Schwierigkeiten einfielen, die Platten eines Werkes<lb/>von dem Umfang Ihrer Gesamtausgabe nach Wien zu transportieren.<lb/>Die Bleiausfuhr würde nicht erlaubt werden, und wenn ich die Matrizen<lb/>in Wien neu giessen lassen würde, so würden daraus überflüssiger Weise<lb/>sehr grosse Kosten entstehen. Bekomme ich also Papier in Wien, so</p></div>
+    </body>
+  </text>
+</TEI>

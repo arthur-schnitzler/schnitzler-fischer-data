@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10940">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1922-10-11 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">SSQWPTQ7</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listOrg>
+          <org type="publisher" ref="#pmb29643" source="https://pmb.acdh.oeaw.ac.at/entity/29643/">
+            <orgName>Donauverlag (Wien)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite,
+Schreiben vom Donau Verlag Wien, das an AS gerichtet ist.</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-10-11.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1922-10-11" n="01">1922-10-11</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Bestellung</term>
+          <term>Gesamtausgabe</term>
+          <term>Rechnung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0541.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite,
+Schreiben vom Donau Verlag Wien, das an AS gerichtet ist.</p>
+      </div>
+          <div type="OCR"><p>WIEN, 11.X.1922. 1920<lb/>receu<lb/>FERNSPR. 17461 u. 18324<lb/>E<lb/>Mein verehrtester Herr Doktor Schnitzler,<lb/>VIII. Piaristengasse 43.<lb/>anbei die versprochenen Angaben:<lb/>30.Juni 1922 6 Expl. Gesamm. Werke SCHNITZIER bestellt.<lb/>O<lb/>18. August Rechnung darüber erhalten.<lb/>18. August<lb/>sofort beglichen.<lb/>Länistä<lb/>25. August<lb/>Sendung erhalten.<lb/>L<lb/>18. August 1922 1 weiteres Expl. Ges. Werke SCHNITZIER bestellt.<lb/>18. August<lb/>sofort im voraus bezahlt.<lb/>Bis 11. Oktober<lb/>weder eine Antwort noch die Sendung erhalten.<lb/>Herzlichst, höflichst, verehrungsvoll<lb/>immer ganz der Ihrige treu ergebene<lb/>Richard Rosenlein</p></div>
+    </body>
+  </text>
+</TEI>

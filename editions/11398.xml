@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11398">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1928-03-19 Samuel Fischer / Konrad Maril (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">UIQ8MSZ4</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30817" source="https://pmb.acdh.oeaw.ac.at/entity/30817/">
+            <title>Therese. Chronik eines Frauenlebens</title>
+          </bibl>
+          <bibl type="third_party" ref="#pmb29841" source="https://pmb.acdh.oeaw.ac.at/entity/29841/">
+            <title>George Bernard Shaw: Der Mann des Schicksals oder Der Schlachtenlenker (The Man od Destiny, engl.)</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb146179" source="https://pmb.acdh.oeaw.ac.at/entity/146179/">
+            <orgName>Benjamin Harz Verlag (Berlin, Wien)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 2 Seiten</note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift, eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1928-03-19.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1928-03-19" n="01">1928-03-19</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführung</term>
+          <term>Aufführungsrecht</term>
+          <term>Freiexemplar</term>
+          <term>Honorar</term>
+          <term>Korrespondenz</term>
+          <term>Missverständnis</term>
+          <term>Tantiemen</term>
+          <term>Vertrag</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
+          <persName>Harz, Benjamin</persName>
+        </person>
+        <person ref="#pmb8112" source="https://pmb.acdh.oeaw.ac.at/entity/8112/">
+          <persName>Karlweis, Oskar</persName>
+        </person>
+        <person ref="nm0886327" source="https://www.imdb.com/name/nm0886327/">
+          <persName>Lugt Melsert, Cor van der</persName>
+        </person>
+        <person ref="#pmb2381" source="https://pmb.acdh.oeaw.ac.at/entity/2381/">
+          <persName>Shaw, George Bernard</persName>
+        </person>
+        <person ref="#pmb24941" source="https://pmb.acdh.oeaw.ac.at/entity/24941/">
+          <persName>Sima, Oskar</persName>
+        </person>
+        <person ref="#pmb9935" source="https://pmb.acdh.oeaw.ac.at/entity/9935/">
+          <persName>Sonja, Magda</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
+          <placeName ref="#pmb168">Berlin</placeName>
+        </place>
+        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
+          <placeName>Niederlande</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="#pmb61746" source="https://pmb.acdh.oeaw.ac.at/entity/61746/">
+          <orgName>Komödienhaus Berlin</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_1013.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 2 Seiten</p>
+      </div>
+          <div type="OCR"><p>856<lb/>S. Fischer / Verlag / A.=G. Berlin W57<lb/>Theaterabteilung<lb/>Bankkonto: „Deutsche Bank, Depositenkasse P in Berlin / Postscheokkonto; Berlin Nr. 16692<lb/>Fernsprechanschlüsse: Amt Lützow Nr. 6162 bis 6164<lb/>Telegramm-Adresse: Fischerverlag 6162, Berlinlützow<lb/>Bülowstraße 90.<lb/>Har Berlin, den 19.3.28.<lb/>Ma/Hb.<lb/>Madam<lb/>mon ami a été<lb/>De'<lb/>e de ces<lb/>dans mesme dernier,<lb/>Herrn<lb/>Dr. Arthur Schnitzler,<lb/>XVIII<lb/>Wien<lb/>alb dollgst de an<lb/>Sternwartestr. 70.<lb/>G.C.H.F.P<lb/>eVelt ab, hoe auch dagevasikt sie bef aM.<lb/>wir so xxx.<lb/>Verehrter Herr Doktor!<lb/>Ich danke Ihnen sehr für Ihr Schreiben vom 15.ds.,<lb/>sowie die Uebersendung der Korrespondenz H a r z. Ich habe<lb/>das ganze Material Herrn Fischer zugesandt und werde Ihnen so-<lb/>fort von seiner Antwort Kenntnis geben.<lb/>In der holländischen Angelegenheit hat mir der<lb/>Vertreter schon geschrieben, dass er versuchen wird, auf die<lb/>Direktion van der Lugt einen Druck auszuüben, um sie doch zur<lb/>Bezahlung der Tantieme zu veranlassen. Ich werde Ihnen auch<lb/>von diesem Ergebnis Xn Kenntnis geben.<lb/>Von der Angelegenheit Magda Sonja habe ich nichts<lb/>andere<lb/>mehr gehört, dagegen ist die Angelegenheit, wegen der ich<lb/>Ihnen telegraphierte,aktuell geworden und zwar so aktuell,<lb/>dass ich ausnahmeweise auf eigene Verantwortung handeln musste.<lb/>Ich hatte Frau Friedländer-Fuld, die eine Nachtvorstellung in<lb/>A.<lb/>der Komödie veranstalten wollte, in der Frau Goldschmidt-Roth-<lb/>schild auftreten soll, seinerzeit versprochen, dass ich Ihre<lb/>Einwilligung zur Aufführung der "literatur" einholen würde.<lb/>Ich sagte damals allerdings, der Vertrag müsste mit dem Theater<lb/>abgeschlossen werden. Ich hörte dann in der Folge, dass das<lb/>b.w.</p></div>
+    </body>
+  </text>
+</TEI>

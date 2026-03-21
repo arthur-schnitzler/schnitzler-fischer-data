@@ -1,0 +1,141 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10852">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1921-09-19 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">P57J3Y58</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
+            <title>Reigen</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb118088" source="https://pmb.acdh.oeaw.ac.at/entity/118088/">
+            <orgName>Karczag-Verlag (Wien)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1921-09-19.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1921-09-19" n="01">1921-09-19</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführungsrecht</term>
+          <term>Honorar</term>
+          <term>Überweisung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="1064903746" source="https://d-nb.info/gnd/1064903746">
+          <persName>Demetz, Hans</persName>
+        </person>
+        <person ref="#pmb17547" source="https://pmb.acdh.oeaw.ac.at/entity/17547/">
+          <persName>Gurevich, Boris</persName>
+        </person>
+        <person ref="#pmb11981" source="https://pmb.acdh.oeaw.ac.at/entity/11981/">
+          <persName>Kramer, Leopold</persName>
+        </person>
+        <person ref="#pmb21647" source="https://pmb.acdh.oeaw.ac.at/entity/21647/">
+          <persName>Marx, Paul</persName>
+        </person>
+        <person ref="#pmb3213" source="https://pmb.acdh.oeaw.ac.at/entity/3213/">
+          <persName>Münz, Siegmund</persName>
+        </person>
+        <person ref="#pmb12368" source="https://pmb.acdh.oeaw.ac.at/entity/12368/">
+          <persName>Nowotny, Aurel</persName>
+        </person>
+        <person ref="#pmb142471" source="https://pmb.acdh.oeaw.ac.at/entity/142471/">
+          <persName>Ziegel, Erich</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
+          <placeName>Italien</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="#pmb250435" source="https://pmb.acdh.oeaw.ac.at/entity/250435/">
+          <orgName>Hamburger Kammerspiele</orgName>
+        </org>
+        <org>
+          <orgName>Revoluční scéna Prag</orgName>
+        </org>
+        <org ref="1242764-0" source="https://d-nb.info/gnd/1242764-0">
+          <orgName>Stavovské divadlo Prag</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416739_0193.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten</p>
+      </div>
+          <div type="OCR"><p>19.9.1921.<lb/>Fischer<lb/>Geduld zu haben. Wenn er nicht unverzüglich<lb/>Liebe F Freund.<lb/>zahlt, entziehen sie ihm doch alle Stücke, even<lb/>tuell wäre auch ein allgemeiner Boykott durch<lb/>ein Telegramm bezüglich Ziegels haben<lb/>zusetzen. Nachsicht absolut nicht am Platz.<lb/>Sie emalten.Zur Unterstützung seines Ansuchens<lb/>habe ich mich neben anderen Gründen auch auf<lb/>6. Von Dr. Marton ist mir die Summe von<lb/>Fürsprache meines bei Ziegels engaierten<lb/>zugekommen, ich nehme an<lb/>5000 Kronen (ung.<lb/>Freundes Paul Marx berufen. Doch ha be ich aus<lb/>dass sie sich auf das Aufführungsrecht für die<lb/>drücklich betont, dass ich di Verpflichtungen<lb/>digen schon<lb/>schwestern bezieht.<lb/>der Kammeriele bezüglich des „Rei<lb/>G.C.<lb/>darum für eine allen andern v oran ehende hal¬<lb/>Wie steht die Angelegenheit der<lb/>te,, weil es ja gerade der „Reigen war, der da s<lb/>schwdischen (oder auch dänischen?) "Parazel¬<lb/>Theater aus einer sehr prekären Lage gerettet<lb/>sus-Aufführungen mit Moiss?<lb/>hat. Es ersch iene mir also etwas lacherlich,<lb/>wenn die nichtgezahlten Reinen-Tanniemen dazu<lb/>8. Ist die Angelegenheit "Berta Carlan"<lb/>benützt würden,um an andere Autoren Tantiemen<lb/>Spanien we tergediehen!<lb/>le feuilleur de ses<lb/>auszuzahlen.<lb/>9. Wie steht es mit dem Gastspiel „Rei-<lb/>Mein verstümmeltes Telegramm enthielt<lb/>gen" in Holland? resp. mit der gleichzeitigenxxx<lb/>die Verständigung, dass Krauer die Reigen-Tan<lb/>Aufführung eines andern Stücks voh mir durch<lb/>xxx irrtümlich an den Verlag Karczag ausbe-<lb/>das gleiche Ensemble.<lb/>tie<lb/>zahlt habe. Ich habe dafür Sorge getragen, dass<lb/>Prag auch vom Verlag Kalczag aus verstandigt<lb/>10. Beiliegend ein Brief des Dir Arnim.<lb/>4.<lb/>werde, xxxx as seien die Tantiemenzahlung<lb/>Ich habe ihm geschrieben, dass ich dag en bin.<lb/>direkt an mein Konto der Zivnostenska Banka<lb/>zu entrichten und die Abrechnungen an Sie, Ver-<lb/>11. Unberechtigte Aufführungen und ins-<lb/>lag Fischer, zu senden. Ich bitte Sie also,falls<lb/>Reigen, bitte<lb/>sondere auch Vorlesungen des<lb/>diese Abrechnung noch nicht an Sie gelangt<lb/>auch weiterhin unnachsichtige zu verfolgen.<lb/>sein sollte, die Direktion um eine solche zu<lb/>erstchen. Denn auch bei Karczag ist meines Wi¬<lb/>visionen<lb/>12. Ich xxx hme an, dass die Provi¬<lb/>sens keinerlei Abrechnung eingelangt. sondern<lb/>Ce n e<lb/>von den direkt an mich gelangten Honoral<lb/>nur eine Verständigung des Prager Vertreters von<lb/>immer genau nach dem Stand der Valuta berechnet<lb/>Karczag, dass Krmmer für den „Reigen“ einen Be<lb/>werden, der dem Tag entspricht.an welchem die<lb/>trag. (Ich glaube 15.00 c. Kr.) bezahlt habe.<lb/>direkten Honorare an mich ausgezahlt wurden.<lb/>Es liegt mir ferner ein Brief des Herrn<lb/>13. Hat sich Herz Harz schon mit Ihnen<lb/>an den Verlag Karczag vor,in dem es<lb/>in Verbindung gesetzt?<lb/>ow<lb/>heisst, dass der Dramaturg des Deutschen Landes<lb/>theaters, Herr Hans Desez, der Revoluchi Scena<lb/>14. Haben sie die Angelegenheit mit Ri-<lb/>das Aufführungsrecht des „Reigen überlassen<lb/>chard Specht im Auge behalten?<lb/>habe. Darf ich bitten sich mit Herrn Deren wegen<lb/>w-<lb/>Mit herzlichen Grüssen<lb/>Ihr</p></div>
+    </body>
+  </text>
+</TEI>

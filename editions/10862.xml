@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10862">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1921-10-31 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">E6HJXGEQ</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listOrg>
+          <org type="institution" ref="2070231-0" source="https://d-nb.info/gnd/2070231-0">
+            <orgName>Kunstgewerbemuseum Berlin</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Anlage: Telegramm bezüglich des "Reigen" (Holland) ##oder eigene Mitteilung, evt. auf 1922 zu datieren?##</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1921-10-31.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1921-10-31" n="02">1921-10-31</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Ausstellung</term>
+          <term>Porträt</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0430.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Anlage: Telegramm bezüglich des "Reigen" (Holland) ##oder eigene Mitteilung, evt. auf 1922 zu datieren?##</p>
+      </div>
+          <div type="OCR"><p>.— 26<lb/>Fischer/Verlag/Berlin W 57/Bülowstraße 9o<lb/>Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto; Berlin Nr. 16692<lb/>Fernsprechanschlüsse: Amt Lützow Nr. 1662, 6162 und 9292<lb/>P.S.<lb/>Den 31. Oktober 1921.<lb/>Ky/Pr.<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Sehr geehrter Herr!<lb/>Im staatlichen Kunstgewerbemuseum zu Berlin findet<lb/>am 12. November die Eröffnung einer grosszügigen Ausstellung "Buch<lb/>und Bildm statt. Unser Verlag, der sich ein eigenes Zimmer reser-<lb/>viert hat, will hier eine besonders würdige Ausstellung seiner<lb/>Verlagswerke schaffen, die ja die Literatur der letzten dreissig<lb/>Jahre in repräsentativer Weise zusammenfassen. Wir möchten den Raum<lb/>selbst mit wertvollen Bildnissen unserer bedeutendsten Autoren<lb/>schmücken und erlauben uns die Anfrage, ob Sie uns ein Oelbildnis<lb/>zur Verfügung stellen könnten.. Wir würden es in der von Ihnen ge-<lb/>wünschten Höhe versichern und übernehmen selbstverständlich alle<lb/>Kosten. Da die Angelegenheit sehr eilt, bitten wir Sie freundlichst<lb/>um Ihren umgehenden Bescheid.<lb/>Mit vorzüglicher Hochachtung<lb/>ppa. S. Fischer, Verlag<lb/>¬</p></div>
+    </body>
+  </text>
+</TEI>

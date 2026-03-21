@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10961">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1923-01-08 Arthur Schnitzler (Wien) an Samuel Fischer / Leo Greiner (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">LLX7SWYH</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
+            <title>Anatol</title>
+          </bibl>
+          <bibl ref="#pmb29873" source="https://pmb.acdh.oeaw.ac.at/entity/29873/">
+            <title>Der Puppenspieler</title>
+          </bibl>
+          <bibl ref="#pmb30215" source="https://pmb.acdh.oeaw.ac.at/entity/30215/">
+            <title>Der Schleier der Pierrette</title>
+          </bibl>
+          <bibl ref="#pmb30819" source="https://pmb.acdh.oeaw.ac.at/entity/30819/">
+            <title>Die Schwestern oder Casanova in Spa</title>
+          </bibl>
+          <bibl ref="#pmb33806" source="https://pmb.acdh.oeaw.ac.at/entity/33806/">
+            <title>Ein Abschied</title>
+          </bibl>
+          <bibl ref="#pmb29899" source="https://pmb.acdh.oeaw.ac.at/entity/29899/">
+            <title>Freiwild</title>
+          </bibl>
+          <bibl ref="#pmb30717" source="https://pmb.acdh.oeaw.ac.at/entity/30717/">
+            <title>Komödie der Worte</title>
+          </bibl>
+          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
+            <title>Reigen</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="institution" ref="#pmb29747" source="https://pmb.acdh.oeaw.ac.at/entity/29747/">
+            <orgName>Hugo Heller &amp; Cie (Buchhandel)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten
+Antwort auf: 1923-01-03 SF (Berlin) a AS (Wien)</note>
+        <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-01-08.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1923-01-08" n="01">1923-01-08</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Greiner, Leo</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführung</term>
+          <term>Honorar</term>
+          <term>Novelle</term>
+          <term>Verhandlung</term>
+          <term>Übersetzung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb11646" source="https://pmb.acdh.oeaw.ac.at/entity/11646/">
+          <persName>Heller, Hugo</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
+          <placeName>Polen</placeName>
+        </place>
+        <place ref="#pmb388" source="https://pmb.acdh.oeaw.ac.at/entity/388/">
+          <placeName>Spanien</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416739_0260.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten
+Antwort auf: 1923-01-03 SF (Berlin) a AS (Wien)</p>
+      </div>
+          <div type="OCR"><p>2 k -9 m<lb/>— 80<lb/>tsch=<lb/>— P: P:<lb/>Tewailem-<lb/>Pötä.<lb/>Päiwä<lb/>Οονου<lb/>T3<lb/>ger.<lb/>K. O.<lb/>! — » — »<lb/>+ r<lb/>Wm<lb/>no<lb/>&amp; a<lb/>ad<lb/>edee<lb/>W „ O<lb/>a 0<lb/>Päivä<lb/>a<lb/>H O<lb/>to —<lb/>H O u<lb/>auch<lb/>T<lb/>am<lb/>T3H<lb/>000 r:<lb/>H O<lb/>itsi-<lb/>Titä<lb/>—.—<lb/>Zw.<lb/>e en<lb/>W I3<lb/>B +<lb/>Kirje,<lb/>09<lb/>nde<lb/>T &amp; M<lb/>&amp; ry<lb/>0 &amp; 2-<lb/>R4<lb/>B + 0 0<lb/>O H<lb/>W J r<lb/>q. O. H.<lb/>ah<lb/>&amp; oc=<lb/>etz<lb/>» — »<lb/>ambassadeur<lb/>Lesungs-<lb/>+ —.—<lb/>P3 rue<lb/>B n<lb/>Tämpöthä<lb/>+ + *<lb/>m a<lb/>a<lb/>(2H)2<lb/>et e<lb/>[+]<lb/>1.<lb/>O »<lb/>T3 »<lb/>Töhälle<lb/>22a<lb/>nda<lb/>a 0<lb/>on<lb/>iento<lb/>aanwalta.<lb/>w3<lb/>P.O.<lb/>XV<lb/>[illegible]<lb/>en —4»—<lb/>—<lb/>es tn<lb/>n ou<lb/>to H<lb/>Or,<lb/>frühle.<lb/>Peltällehtä<lb/>8 „<lb/>Votre<lb/>parle.<lb/>0 o<lb/>4<lb/>B &amp; F<lb/>!<lb/>-1-10<lb/>+<lb/>mpä=<lb/>T.H.<lb/>» »».<lb/>in a<lb/>ing -<lb/>O O +<lb/>P —<lb/>proche<lb/>O-H<lb/>g r2<lb/>0 0<lb/>EN S<lb/>Q.P.<lb/>Kirjeihja.<lb/>ah<lb/>P+r<lb/>aren<lb/>M »»<lb/>10 » —<lb/>e a. p.<lb/>Mein<lb/>QP.<lb/>de la<lb/>1<lb/>W. S. A.<lb/>3-4-24<lb/>₤41<lb/>⊃ t: S4 — L0.—<lb/>R<lb/>—.— » — »<lb/>korttia järjestelykselä.<lb/>kään ai- ja jauhokortteja neläi-<lb/>urent<lb/>Vuoden määrätä siiä aikä ia<lb/>Kedäärä saakkaisesti O.<lb/>määrätä sii uyttäisestä oleisesti oli ole-<lb/>tä wätä sis että tähän ai-<lb/>a. p. a. v., O. O.O.T.V.<lb/>Vuodentulksen määränä.<lb/>lääneissä on ole näärän oleensä.<lb/>Mikkelin lääneissä sekä yleisestä.<lb/>* &amp; C) &amp;D+9 »<lb/>B &amp; J n O O O D O O 2 n<lb/>W &amp; 8*—<lb/>ΟυνΟΕΙΟῃ<lb/>Vuodentulksen määrätä.<lb/>määrän läänissä sekä tämän ai-<lb/>O3 m<lb/>Vuodentulksen määrän ai-<lb/>e<lb/>OLELOOS+2 +3<lb/>määrätä sämän aikaisemmin. Oulun<lb/>O+-O! ̃<lb/>0x0w0<lb/>lääneissä nykyään ai- ja määrätä.<lb/>r.- : - L &amp; L 0<lb/>K &amp; 3 —<lb/>lääneissä sekä sii uudestettuksen mikä<lb/>täin, että oli nykyään ryksyttävän<lb/>+.. r., -<lb/>Hämeen ei-<lb/>„S.S. N — HEN-T-O -O-O-<lb/>Kotuja ja Oulunen ai-<lb/>r.- S.- H - - - 0<lb/>määrä säätä siiä aikaisesti ai-<lb/>määrään. Oulun lääneissä asi-<lb/>:ed 2 0 0 —0 &amp;0<lb/>O!-<lb/>K. N. O. U. S. &amp; C.<lb/>FJ<lb/>nen 3 3<lb/>Kirjelyksi aswäksi. Uudestä-<lb/>tää- ja Oulun lääneissä sekä<lb/>K &amp; B &amp; C - H â¢ N<lb/>Q LYntiO<lb/>Pf2<lb/>näyttää läänissä asi-<lb/>«* » » »<lb/>- S. S. A.<lb/>4<lb/>kortteja vähän oli nykyään.<lb/>- ̃ —  — —„ „ — —<lb/>Vuodentuja nykyään ai-<lb/>mit että,<lb/>et<lb/>„- + 3 &amp; 0 0 —<lb/>näyttäävätä nykyään ai-<lb/>F.T.F.K.<lb/>Vuodentulksen määrätä.<lb/>C.O.M. &amp; O -O.<lb/>„ — — —<lb/>„ — „<lb/>räänissä sekä nykyäärän.<lb/>0t<lb/>O L a<lb/>läänissä sekä seurä sämätän ai-<lb/>Köystä Oulun lääneissä yleisesti-<lb/>—<lb/>Kirjoja ja Oulun lääneissä asi<lb/>Vuodentuksi määrä. » — 0<lb/>⊃ⵔⵥ »ⱥ* S<lb/>Oertert as „<lb/>näyttävä ai- ai ia- ja w â<lb/>lääneissä seurä sekä säkä ai-<lb/>„<lb/>määräinen määtä sääställä ai-<lb/>näyttää, että nykyäärät järjestät<lb/>O.L.I.S.O.F.C.H.P.S..<lb/>Höyttämään L o--<lb/>määrätä aikaisestä, jotka nykyään ai-</p></div>
+    </body>
+  </text>
+</TEI>

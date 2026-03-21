@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10527">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1914-03-11 Samuel Fischer (Berlin) as Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">W5HFI6VF</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 338</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30453" source="https://pmb.acdh.oeaw.ac.at/entity/30453/">
+            <title>Blumen</title>
+          </bibl>
+          <bibl ref="#pmb30649" source="https://pmb.acdh.oeaw.ac.at/entity/30649/">
+            <title>Der blinde Geronimo und sein Bruder</title>
+          </bibl>
+          <bibl ref="#pmb30167" source="https://pmb.acdh.oeaw.ac.at/entity/30167/">
+            <title>Die griechische Tänzerin</title>
+          </bibl>
+          <bibl ref="#pmb29833" source="https://pmb.acdh.oeaw.ac.at/entity/29833/">
+            <title>Die Toten schweigen</title>
+          </bibl>
+          <bibl ref="#pmb30683" source="https://pmb.acdh.oeaw.ac.at/entity/30683/">
+            <title>Die Weissagung</title>
+          </bibl>
+          <bibl ref="#pmb30486" source="https://pmb.acdh.oeaw.ac.at/entity/30486/">
+            <title>Frau Bertha Garlan</title>
+          </bibl>
+          <bibl type="journal">
+            <title>Neue Romanreihe (Buchreihe, S. Fischer?)</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="institution" ref="128103-3" source="https://d-nb.info/gnd/128103-3">
+            <orgName>Deutscher Verlegerverein</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 2 Seiten beschrieben
+Anlage: 1914-03-11ante Goschen an SF (nicht überliefert)
+
+Antwort auf: <ref target="10526">1914-03-07 AS an SF</ref>
+Beantwortet in: <ref target="10528">1914-03-13 AS an SF</ref></note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm)) (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1914-03-11.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1914-03-11" n="01">1914-03-11</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Berner Konvention</term>
+          <term>Honorar</term>
+          <term>Titel/Werktitel</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb116076" source="https://pmb.acdh.oeaw.ac.at/entity/116076/">
+          <persName>Goschen, William Edward (?)</persName>
+        </person>
+        <person ref="#pmb2173" source="https://pmb.acdh.oeaw.ac.at/entity/2173/">
+          <persName>Schnitzler, Olga</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb374" source="https://pmb.acdh.oeaw.ac.at/entity/374/">
+          <placeName>Gardone</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0660.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 2 Seiten beschrieben
+Anlage: 1914-03-11ante Goschen an SF (nicht überliefert)
+
+Antwort auf: <ref target="10526">1914-03-07 AS an SF</ref>
+Beantwortet in: <ref target="10528">1914-03-13 AS an SF</ref></p>
+      </div>
+          <div type="OCR"><p>Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>11/3. 1914<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Lieber Freund,<lb/>aus dem anliegenden Briefe von Goschen werden Sie ersehen, dass<lb/>er sich darauf erätet, dass "Bertha Garlan" frei ist. Ich werde der<lb/>verüffet<lb/>Sicherheit halber noch einmal beim Deutschen Verlegerverein ein<lb/>Gutachten darüber einfordern, ob sich der weitergehende Schutz, der<lb/>sich auf Art. 7 der revidierten Berner Uebereinkunft stützt, auf<lb/>nicht dramatische Werke erstreckt, und danach die weiteren Massnahmen<lb/>treffen. Den Brief Goschens bitte ich mir wieder zurückzusenden.<lb/>Für den Novellenband in der Romanbibliothek würde ich vorschlagen.<lb/>ausser der "Griechischen Tänzerin" unddem "Blinden Geronimo" noch etwa<lb/>"Die Weissagung", „Die Toten schweigen“ und, falls es dem Raum nach not-<lb/>wendig sein sollte, auch noch die kleine Novellette "Blumen" aufzunehmen.<lb/>Der Titel des Buches bleibt dann am besten der schon bekannte Titel<lb/>Grischische Jängerin (2)<lb/>eines vergriffenen Buches, damit nach aussen hin nicht etwa der Anschein<lb/>erweckt wird, als ob es sich um ein neues Buch handelte. Wir würden<lb/>20 000 Exemplare drucken und Ihnen das Honorar von 10 % (das ausnahmslos<lb/>nicht überschritten werden kann) mit 2000 Mark im vorhinein bezahlen.<lb/>Ich wäre Ihnen sehr verbunden, wenn Sie sich darüber gleich äussern<lb/>wollten, weil wir das Buch evtl. schon im Mai oder Juni herausbringen</p></div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10757">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1920-05-19 Samuel Fischer / NN (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">2HBEIPCJ</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30971" source="https://pmb.acdh.oeaw.ac.at/entity/30971/">
+            <title>Casanovas Heimfahrt</title>
+          </bibl>
+          <bibl ref="#pmb30819" source="https://pmb.acdh.oeaw.ac.at/entity/30819/">
+            <title>Die Schwestern oder Casanova in Spa</title>
+          </bibl>
+          <bibl ref="#pmb30717" source="https://pmb.acdh.oeaw.ac.at/entity/30717/">
+            <title>Komödie der Worte</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="1087495962" source="https://d-nb.info/gnd/1087495962">
+            <orgName>Athenaeum (Budapest)</orgName>
+          </org>
+          <org type="institution">
+            <orgName>Deutsches Konsulat Madrid</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">5 Baltt, 5 Seiten
+Antwort auf: <ref target="10754">1920-05-10 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1920-05-19.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">NN, </persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1920-05-19" n="01">1920-05-19</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>amerikanisch</term>
+          <term>Auflage/Neuauflage/Neuausgabe</term>
+          <term>Berner Konvention</term>
+          <term>Einzelausgabe</term>
+          <term>englisch</term>
+          <term>Garantiesumme</term>
+          <term>Gesamtausgabe</term>
+          <term>Honorar</term>
+          <term>spanisch</term>
+          <term>Tantiemen</term>
+          <term>ungarisch</term>
+          <term>Verkaufspreis/Ladenpreis</term>
+          <term>Vorschuss</term>
+          <term>Übersetzung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
+          <persName>Bartsch, Rudolf Hans</persName>
+        </person>
+        <person ref="#pmb58067" source="https://pmb.acdh.oeaw.ac.at/entity/58067/">
+          <persName>Kosztolányi, Dezső</persName>
+        </person>
+        <person ref="#pmb20142" source="https://pmb.acdh.oeaw.ac.at/entity/20142/">
+          <persName>Lasswitz, Koloman</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb43471" source="https://pmb.acdh.oeaw.ac.at/entity/43471/">
+          <placeName>Budapest</placeName>
+        </place>
+        <place ref="#pmb914" source="https://pmb.acdh.oeaw.ac.at/entity/914/">
+          <placeName>Madrid</placeName>
+        </place>
+        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
+          <placeName>New York</placeName>
+        </place>
+        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
+          <placeName>Ungarn</placeName>
+        </place>
+        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
+          <placeName>USA</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0264.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>5 Baltt, 5 Seiten
+Antwort auf: <ref target="10754">1920-05-10 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>sehr geehrter Herr<lb/>erichtet<lb/>in Beantwortung Ihres an Herrn Fischer<lb/>Sr Wer<lb/>Gesamtausgabe Ihr<lb/>Juni, die Angelegenheit<lb/>10.<lb/>Ihnen folgendes mitzuteilen<lb/>betreffend, erlauben wir uns<lb/>inzwischen noch mehrfach mit<lb/>Wir haben in dieser Sache<lb/>amerikanischen Mittelsmann, der selbst Verleger in New-Y<lb/>neuerlich vernandelt und darauf hingedrängt, um tunlichst<lb/>gung der ganzen Angelegenheit zu erwirken. Nun ist die Sache<lb/>vorläufig nicht ein einzelner Verlag, sondern eine grössere<lb/>G.F.P<lb/>G.P.<lb/>sowohl amerikanischer, als auch englischer Verleger für diese<lb/>Ausgabe in Betracht kommt und zwar hat unser Mittelsma<lb/>New-York mit verschiedenen Firmen auf eigene Faustunve<lb/>spreshungen gepflogen, die erwiesen haben, dass für<lb/>in Amerika gute Aussichten bestehen. Immerhi<lb/>heit doch noch nicht so fundiert, dass un<lb/>dass<lb/>Gang,<lb/>Mittelsmann gestellte<lb/>weitere Abschlüsse<lb/>Firmen</p></div>
+    </body>
+  </text>
+</TEI>

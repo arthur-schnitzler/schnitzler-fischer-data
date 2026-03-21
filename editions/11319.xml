@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11319">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1927-06-16 Samuel Fischer / Konrad Maril (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">TFMZQPNU</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Beantwortet in: <ref target="11320">1927-06-18 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1927-06-16.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1927-06-16" n="01">1927-06-16</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Ablehnung/Absage</term>
+          <term>Gastspiel</term>
+          <term>Tantiemen</term>
+          <term>Tournee</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb8288" source="https://pmb.acdh.oeaw.ac.at/entity/8288/">
+          <persName>Konstantin, Leopoldine</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0947.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Beantwortet in: <ref target="11320">1927-06-18 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>S. Fischer. Verlag. Berlin<lb/>Amt Lützow 1662, 6162 u. 9292 Theaterabteilung postscheckkonto Nr. 16692<lb/>Berlin W 57, Bülowstraße Nr. 90<lb/>Ma/Ro.<lb/>Den 16. Juni 17<lb/>Herrn<lb/>Dr. Arthur Schnitzler,<lb/>Wien<lb/>Sehr verehrter Herr Doktor!<lb/>Ich bekomme heute von Frau Konstantin<lb/>ein Schreiben, aus dem ich Ihnen das Nachstehende<lb/>mitteile:<lb/>„Ich komme erst heute dazu, Ihnen Ihren Brief<lb/>vom 28.Mai zu beantworten. Ich habe auf mei-<lb/>ner Gastspielreise leider keine Stücke von<lb/>Arthur Schnitzler gespielt. Ich habe tatsäch-<lb/>lich die Absicht gehabt, die auch jetzt noch<lb/>nicht fallen gelassen wurde, Stücke von<lb/>Schnitzler zu spielen, in meiner letzten<lb/>Tournée konnte ich aber das nicht durchführen.<lb/>Seinen Sie übrigens versichert und versichern<lb/>Sie davon auch Herrn Dr. Schnitzler, dass ich<lb/>meine Tantiemeverbindlichkeiten derart präzis<lb/>und korrekt erledige, dass die Verleger lieber<lb/>mit mir abschliessen als mit Theaterdirektio-<lb/>nen. Hätte ich irgendwo oder irgendeinne<lb/>Schnitzler gespielt, hätte ich mich bestimmt<lb/>bei Ihnen gemeldet.„<lb/>Mit ergebensten Grüssen<lb/>König</p></div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11566">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1930-04-15 Samuel Fischer / Konrad Maril (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">MUTG8G3X</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
+            <title>Professor Bernhardi</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Antwort auf: <ref target="11565">1930-04-14 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1930-04-15.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1930-04-15" n="01">1930-04-15</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführung</term>
+          <term>Aufführungsrecht</term>
+          <term>Inszenierung</term>
+          <term>Klage/Gerichtliche Verfolgung/Prozess</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
+          <persName>Barnowsky, Victor</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416744_0031.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Antwort auf: <ref target="11565">1930-04-14 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>0/<lb/>am 10.80<lb/>966<lb/>S. FISCHER VERLAG A.-G..‘ BERLIN W 57<lb/>Theaterabteilung<lb/>tzow<lb/>16629<lb/>Fernsprecher: Lützow Nr. 6162-6164 Telegramm=Adresse: Fischerverlag 6162 Berlinlützów<lb/>Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto; Berlin Nr. 16892<lb/>Bülowstraße 90<lb/>Berlin, den 15.4.1930<lb/>L.<lb/>Herrn<lb/>Dr. Arthur Schnitzler<lb/>W i e n<lb/>Sehr geehrter Herr Doktor,<lb/>untenstehendes Schreiben erhielten<lb/>wir heute von der Zentralstelle, und bitten wir Sie davon<lb/>Kenntnis zu nehmen;<lb/>betr. Direktor Barnowsky, Berlin<lb/>Inkasso " Professor Bernhardi "<lb/>" In obengenannter Sache teilen<lb/>wir Ihnen ergebenst mit, dass wir heute eine weitere Akonte-<lb/>Zahlung von Mk. 1000.- aus den Aufführungen von " Professor<lb/>Bernhardi " per Scheck kassiert haben.<lb/>Mit vorzüglicher Hochachtung<lb/>S FISCHER, VerlaG<lb/>AKTRENGESELLShaber<lb/>THEATERABTEILUNG<lb/>men<lb/>den<lb/>einen<lb/>sten,<lb/>stelle<lb/>at<lb/>ersuche<lb/>Oke</p></div>
+    </body>
+  </text>
+</TEI>

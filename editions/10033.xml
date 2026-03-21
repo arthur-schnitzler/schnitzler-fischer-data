@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10033">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1895-07-31 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">G536FHSB</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 21</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29823" source="https://pmb.acdh.oeaw.ac.at/entity/29823/">
+            <title>Das Märchen</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite beschrieben
+
+Antwort auf: 1895-07-20post/1895-07-31ante AS an SF (nicht sicher zu erschließen, wohl Nachfrage zu Konditionen Verlagsübernahme 'Anatol'; nicht überliefert)
+Beantwortet in: 1895-08-08 AS an SF (Konditionen Verlagsübernahme 'Anatol'; nicht überliefert, erwähnt in 1895-09-04)</note>
+        <note type="type">Handschrift (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1895-07-31.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1895-07-31" n="01">1895-07-31</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass/>
+      <listPerson>
+        <person ref="#pmb2595" source="https://pmb.acdh.oeaw.ac.at/entity/2595/">
+          <persName>Pierson, Edgar</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0039.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite beschrieben
+
+Antwort auf: 1895-07-20post/1895-07-31ante AS an SF (nicht sicher zu erschließen, wohl Nachfrage zu Konditionen Verlagsübernahme 'Anatol'; nicht überliefert)
+Beantwortet in: 1895-08-08 AS an SF (Konditionen Verlagsübernahme 'Anatol'; nicht überliefert, erwähnt in 1895-09-04)</p>
+      </div>
+          <div type="OCR"><p>S. FISCHER, VerLAG 21<lb/>Hofbuchhandlung.<lb/>Berlin, den 31/7<lb/>BEBLIX W.,<lb/>49. Steglitzer Strasse 49.<lb/>G.<lb/>Lieber Herr Doctor,<lb/>bieten Sie Herrn<lb/>Pierson für die<lb/>350 Capl. 70 Mtr<lb/>be<lb/>(20 d pro Exemplar)<lb/>tollte Herr P. dieses<lb/>Auerbieten annehmen<lb/>so bin ich bereit<lb/>von Betrag zu<lb/>bezahlen. Mit<lb/>erge<lb/>Vetten Grüßen<lb/>furke</p></div>
+    </body>
+  </text>
+</TEI>

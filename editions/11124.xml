@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11124">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1924-09-20 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">W9NL2VZR</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30205" source="https://pmb.acdh.oeaw.ac.at/entity/30205/">
+            <title>Komödie der Verführung</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher">
+            <orgName>Centrum-Verlag (Prag)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Beantwortet in: <ref target="11126">1924-09-26 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-09-20.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1924-09-20" n="01">1924-09-20</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Drama</term>
+          <term>Freiexemplar</term>
+          <term>tschechisch</term>
+          <term>Uraufführung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb19016" source="https://pmb.acdh.oeaw.ac.at/entity/19016/">
+          <persName>Kalckar, Marc</persName>
+        </person>
+        <person ref="172206383" source="https://d-nb.info/gnd/172206383">
+          <persName>Khol, František</persName>
+        </person>
+        <person>
+          <persName>Norris, William (Theaterdirektor, Kopenhagen)</persName>
+        </person>
+        <person ref="#pmb26030" source="https://pmb.acdh.oeaw.ac.at/entity/26030/">
+          <persName>Thomsen, Niels Thingberg</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb36300" source="https://pmb.acdh.oeaw.ac.at/entity/36300/">
+          <placeName>Kopenhagen</placeName>
+        </place>
+        <place ref="#pmb145" source="https://pmb.acdh.oeaw.ac.at/entity/145/">
+          <placeName>Köln</placeName>
+        </place>
+        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
+          <placeName>Prag</placeName>
+        </place>
+        <place ref="#pmb43430" source="https://pmb.acdh.oeaw.ac.at/entity/43430/">
+          <placeName>Tschechien</placeName>
+        </place>
+        <place ref="#pmb38444" source="https://pmb.acdh.oeaw.ac.at/entity/38444/">
+          <placeName>Tschechoslowakei</placeName>
+        </place>
+        <place ref="#pmb883" source="https://pmb.acdh.oeaw.ac.at/entity/883/">
+          <placeName>Wiesbaden</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="1215174-9" source="https://d-nb.info/gnd/1215174-9">
+          <orgName>Det Kongelige Teater Kopenhagen</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416740_0038.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Beantwortet in: <ref target="11126">1924-09-26 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>20.9.1924.<lb/>Fischer<lb/>Wann wird die K.d.V. zur Versend<lb/>Votre ami-<lb/>bereit sein, resp.zum Verkauf. Ich Wunschte<lb/>jedesfalls, dass man das Buch schon vor dem<lb/>Lieber Freund.<lb/>3. Oktober, insbesondere in Wien zu kaufen be-<lb/>kommt, lieber ein paar sage früher als später.<lb/>Beiliegend die K Liste für die Freiexempla-<lb/>re etc. Ich habe die Ihre abschreiben lassen, Ie-<lb/>Es wäre mir sehr lieb, wenn Sie im<lb/>ge auch das Original bei. An die mit *<lb/>bezeich-<lb/>Sinne Ihres freundlichen Anerbietens der<lb/>neten Adressen bitte den Zettel beilegen zu las-<lb/>neuen Akontozahlung von 1000 Mark für Bücher<lb/>sen: Im Auftrage des Autors.<lb/>en lies-<lb/>gleich eine zweite von 1000 Mark fo<lb/>ou les<lb/>sen. Die Spärlichkeit der Eingänge in Neutsch¬<lb/>Ausserdem habe ich eine Ergänzungsliste<lb/>land hat sich bei gleichzeitiger Steigerung<lb/>für Freiexemplare beigefügt, der wohl noch eine<lb/>der Ausgaben in der letzten Zeit recht fühl-<lb/>zweite f lgen wird. Ich nehme an, dass diese Bü-<lb/>bar gemacht. Hoffentlich erhöht sich wenig<lb/>cher alle Anfang Oktober in den Händen der<lb/>stens der Tantiemeneinlauf bald, so dass ein<lb/>Adressaten sein können.<lb/>Ausgleich nicht lange auf sich warten lassen<lb/>Was Kopenhagen anbelangt,so zeigt sich<lb/>wird.<lb/>Herr Kalokar bereit für diesmal auf sein Erst<lb/>Woticky hat sich we en der neuen V<lb/>recht zu verzichten, bemerkt aber zugleich<lb/>keit<lb/>dass sich der Direktor des Kgl.Theaters William<lb/>Outes L<lb/>längerung der Optionsfrist für „<lb/>Habe die vorderung<lb/>Norris wegen meines xxx neuen otückes sich schon<lb/>an mich gewandt. le<lb/>stellt, dass er bei weiterr Verlängerung vom<lb/>an ihn gewendet habe. Gleiches behauptet Herr<lb/>1. Jänner-80. Juni 1925 250, für das nächste<lb/>Niels Thomsen. Wäre es nicht das Richtigste wir<lb/>sendeten ein Exemplar xxx einfach an die Direk-<lb/>Halbjahr weitere 250 Dollars, diesmal nicht<lb/>als Options-sondern als Garantiesumme (also<lb/>tion und überliessen es dieser sich zu entschei-<lb/>von den ersten Hinnahmen abziehbar) einzusxxx-<lb/>den? Ich erbitte hierüber so rasch wie möglich<lb/>zahlen hätte.<lb/>Ihre Ansicht.<lb/>„Das Zentrum“,Herr Dr.R F.r vhol,Prag,In<lb/>Meinem Ontionsvortrag mit den nnited<lb/>Plays entsprechend habe die Ich die K.d.I.<lb/>haber des einzigen czechischen Bühnenvertriebs,<lb/>zugleich Dramaturg des Nationaltheaters, er-<lb/>an diese Firma nach Amerika geschickt.<lb/>sucht mich um die Vertretung meiner Werke für<lb/>lands.<lb/>die czechischen Theater der Czechoslowakei. Ich<lb/>Karazag habe ich angewiesen Auszug u.<lb/>anträge direkt an mich zu überweisen. Ich<lb/>hielte das für vorteilhaft. Der Brief liegt bei<lb/>werde sie Imm Allgemeinen sofort an ole wei-<lb/>bitte sehr um Rücksendung und umgefällige Aeus-<lb/>terleiten. Auch der urkomische Hans Bartsch<lb/>serung.<lb/>hat sich wieder gemeldet.<lb/>nie eben angelangte Rez:Expl:L<lb/>Ist die sache mit Wiesbaden und Cöln<lb/>folgt mit einigen Ergänzungen baldigst zurück.<lb/>gung) geordnet?<lb/>(deutsche Frauffühge,<lb/>Mit herzlichen Grüssen<lb/>Mit herzlichem Gruss<lb/>Ihr</p></div>
+    </body>
+  </text>
+</TEI>

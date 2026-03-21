@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10875">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1922-01-07 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">NXSEXBAK</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29903" source="https://pmb.acdh.oeaw.ac.at/entity/29903/">
+            <title>Zwischenspiel</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher">
+            <orgName>Edward B. Marks Music &amp; Co. (New York)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-01-07.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1922-01-07" n="01">1922-01-07</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>amerikanisch</term>
+          <term>Aufführungsrecht</term>
+          <term>englisch</term>
+          <term>Vertrag</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb3283" source="https://pmb.acdh.oeaw.ac.at/entity/3283/">
+          <persName>Björkman, Edwin</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
+          <placeName>New York</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0450.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite</p>
+      </div>
+          <div type="OCR"><p>537<lb/>S. Fischer/Verlag/Berlin M 57/Bülowstraße 90<lb/>Postscheckkonto Nr. 16 692<lb/>Amt Lützow 1662, 6162, 9292<lb/>Theaterabteilung<lb/>Am 7. Januar 192 2<lb/>Herrn<lb/>Dr. Arthur Schnitzler<lb/>W i en<lb/>Sehr geehrter Herr Doktor,<lb/>wir haben einen Bewerber um das<lb/>amerikanische Aufführungsrecht von 2 Zwischenspiel " in<lb/>G.F.P.<lb/>englischer Sprache Edw. B. Marks Mÿsic Co., New York. Wie<lb/>G.H.<lb/>Sie wissen besteht über dieses Stück ein Vertrag mit Björkmann,<lb/>der aber, da Sie daraus keinerlei Honorar empfangen zu haben<lb/>scheinen, wohl als hinfällig betrachtet werden kann. Immerhin<lb/>möchten wir vorsichtshalber bei Ihnen anfragen und Sie höflichst<lb/>ersuchen uns mitzuteilen, was Ihnen über diesen Vertrag und seine<lb/>G.C.H.F.P.<lb/>Ausführung bekannt ist. - Gleichzeitig bitten wir Sie uns zu<lb/>verständigen, welche Minimalbedingungen Sie stellen würden.<lb/>Für eine umgehende Antwort wären wir sehr verbunden.<lb/>G.F.P.<lb/>Ihre letzten Briefe werden wir in den<lb/>allernächsten Tagen beantworten können.<lb/>des<lb/>Mit vorzüglicher Hochachtung<lb/>erst der besten Neujahräusölln<lb/>gebührter Grund</p></div>
+    </body>
+  </text>
+</TEI>

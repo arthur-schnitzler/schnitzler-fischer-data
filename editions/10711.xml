@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10711">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1919-07-23 Samuel Fischer (Glücksburg) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">WUM3T7IG</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30207" source="https://pmb.acdh.oeaw.ac.at/entity/30207/">
+            <title>Das weite Land</title>
+          </bibl>
+          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
+            <title>Professor Bernhardi</title>
+          </bibl>
+          <bibl type="journal">
+            <title>Markbibliothek (wohl Buchreihe)</title>
+          </bibl>
+          <bibl type="journal">
+            <title>Neue Romanreihe (Buchreihe, S. Fischer?)</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="institution" ref="1072959488" source="https://d-nb.info/gnd/1072959488">
+            <orgName>Friese &amp; Lang (Buchhandel, Wien)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 4 Seiten
+Antwort auf: 1919-06-06 AS (Wien) an SF (Berlin)
+Beantwortet in: <ref target="10714">1919-08-20 AS (Wien) an SF (Berlin)</ref>
+Anlage: Abschrift 1919-07-22 SF (Leipzig) an Friese &amp; Lang (Wien) (in Teilen nicht lesbar)</note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1919-07-23.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName>Glücksburg</placeName>
+          <date when="1919-07-23" n="01">1919-07-23</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Abschrift</term>
+          <term>Auflage/Neuauflage/Neuausgabe</term>
+          <term>Beschwerde</term>
+          <term>Buchhandel/Buchhandlung</term>
+          <term>Depesche/Telegramm</term>
+          <term>Erster Weltkrieg</term>
+          <term>Filiale</term>
+          <term>Gründung</term>
+          <term>Preiserhöhung</term>
+          <term>Verkaufspreis/Ladenpreis</term>
+          <term>Versand</term>
+          <term>Vertreter/Vertretung</term>
+          <term>österreichisch</term>
+        </keywords>
+      </textClass>
+      <listPlace>
+        <place ref="#pmb864" source="https://pmb.acdh.oeaw.ac.at/entity/864/">
+          <placeName>Leipzig</placeName>
+        </place>
+        <place ref="#pmb44599" source="https://pmb.acdh.oeaw.ac.at/entity/44599/">
+          <placeName>Ostsee</placeName>
+        </place>
+        <place ref="#pmb113376" source="https://pmb.acdh.oeaw.ac.at/entity/113376/">
+          <placeName>Schleswig</placeName>
+        </place>
+        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
+          <placeName ref="#pmb50">Wien</placeName>
+        </place>
+        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
+          <placeName>Österreich</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0177.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 4 Seiten
+Antwort auf: 1919-06-06 AS (Wien) an SF (Berlin)
+Beantwortet in: <ref target="10714">1919-08-20 AS (Wien) an SF (Berlin)</ref>
+Anlage: Abschrift 1919-07-22 SF (Leipzig) an Friese &amp; Lang (Wien) (in Teilen nicht lesbar)</p>
+      </div>
+          <div type="OCR"><p>430<lb/>S. FISCHER / VerLAG<lb/>Bankkonto: Deutsche Bank, Depositenkasse P Berlin / Postscheckkonto. Berlin 1662<lb/>BERLIN W 57 BULÖWSTRASSE 90<lb/>Ferneuf: Lützow 1662, 6162 und 9292<lb/>z.Z. Glücksburg (Ostsee) 23/7. 1919.<lb/>Strandhotel<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Lieber Freund,<lb/>ich lasse Ihnen eine Abschrift des Briefes zugehen, den meine<lb/>übermittelt. Es ist das Ein¬<lb/>Leipziger Expedition an Friese &amp; Lang<lb/>fachste, Sie lesen den Brief.<lb/>Sie haben vielleicht Herrn Friese nicht richtig verstanden,<lb/>vielleicht hat er sich auch nicht klar ausgedrückt. Es handelt sich<lb/>in der Hauptsache darum, dass Herr Friese, offenbar ein junger uner-<lb/>fahrener Mann, das alte Verhältnis, dass wir mit Friese &amp; Lang seit<lb/>über zwanzig Jahren haben, grundsätzlich geändert sehen möchte. Er<lb/>will ein grosses Lager des gesamten Verlags haben, um die Bestellungen<lb/>der österreichischen Buchhandlungen an seine Auslieferungsstelle zu<lb/>leiten. Er könnte das auf Grund der ihm gewährten Bedingungen mit<lb/>Erfolg tun und uns vollkommen vom Verkehr mit dem österreichischen<lb/>Sortiment ausschalten, und zwar dadurch, dass er den österreichischen<lb/>Buchhändlern frachtfrei liefert, ein Vorzug, den wir Friese selbst<lb/>nur deshalb eingeräumt haben, damit er in der Lage ist, dem öster-<lb/>auf Lager fehlende,<lb/>reichischen Sortiment xxx fehlende Bücher schnell zu<lb/>liefern. Das war der Sinn und der Zweck der Barauslieferung, wie sie<lb/>auch an andern Orten besteht. Im vorigen Jahr, als ich die Wiener</p></div>
+    </body>
+  </text>
+</TEI>

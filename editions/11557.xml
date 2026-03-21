@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11557">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1930-03-07 Samuel Fischer / Konrad Maril (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">K6NR86QT</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 3 Seiten
+Anwort auf: <ref target="11555">1930-03-05 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in: <ref target="11559">1930-03-20 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1930-03-07.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1930-03-07" n="01">1930-03-07</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Bühnenverein</term>
+          <term>Klage/Gerichtliche Verfolgung/Prozess</term>
+          <term>Tantiemen</term>
+          <term>Vertrag</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
+          <persName>Barnowsky, Victor</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416744_0025.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 3 Seiten
+Anwort auf: <ref target="11555">1930-03-05 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in: <ref target="11559">1930-03-20 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>962<lb/>S. FISCHER VERLAG A.-G.. BERene W 57<lb/>Theaterabteilung<lb/>Fernsprecher: Lützow Nr. 6162-6161 / Telegramm=Adresse: Fischerverlag 6162 Berlinlützov<lb/>Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto; Berlin Nr. 16892<lb/>Ma/Hb. Bülowstraße 90<lb/>Berlin, den 7.3.30.<lb/>Herrn<lb/>Dr.Arthur Schnitzler,<lb/>Wvi e n XVIII<lb/>Lieber Herr Doktor,<lb/>ich habe mich sehr über Ihren heutigen<lb/>Brief in der Angelegenheit Bannowsky gefreut, weil er fast<lb/>wörtlich alle jene Argumente wiederholt, die ich selbst als<lb/>Ihre wahrscheinliche Stellungnahme bereits ins Treffen geführt<lb/>habe.<lb/>Ich möchte Ihnen zur Aufklärung nur sagen,<lb/>dass die Klage lediglich aus dem Grunde angestrengt wurde, um<lb/>einen Titel zur Vollstreckung gegen Barnowsky in der Hand zu<lb/>haben. —.<lb/>Der Vergleich, der dann in der Verhandlung<lb/>Über diese Klage vorgdschlagen wurde, sah vor, dass Barnowsky<lb/>ab 15.2. täglich abrechnen, den Tantiemenrückstand in wöchent-<lb/>lichen Raten von je RM 500.- und ab 31. März in wöchentlichen<lb/>Raten von je RM 1000.- zahlen sollte<lb/>Wir haben nunmehr auch den Vertrag gekündigt<lb/>b.w.<lb/>1000.</p></div>
+    </body>
+  </text>
+</TEI>

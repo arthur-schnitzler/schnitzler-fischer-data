@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10184">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1907-05-29 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">5BWTQ38K</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 148</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29843" source="https://pmb.acdh.oeaw.ac.at/entity/29843/">
+            <title>Der grüne Kakadu</title>
+          </bibl>
+          <bibl ref="#pmb29863" source="https://pmb.acdh.oeaw.ac.at/entity/29863/">
+            <title>Lebendige Stunden</title>
+          </bibl>
+          <bibl ref="#pmb30403" source="https://pmb.acdh.oeaw.ac.at/entity/30403/">
+            <title>Paracelsus</title>
+          </bibl>
+          <bibl type="third_party" ref="#pmb76460" source="https://pmb.acdh.oeaw.ac.at/entity/76460/">
+            <title>Frank Wedekind: Der Kammersänger</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Doppelblatt, 3 Seiten beschrieben</note>
+        <note type="type">Typoskript (Unterschrift-Stempel)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1907-05-29.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1907-05-29" n="01">1907-05-29</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführungsrecht</term>
+          <term>Übersetzung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person>
+          <persName>Allan, Grant (Theaterleiter, England)</persName>
+        </person>
+        <person ref="#pmb5369" source="https://pmb.acdh.oeaw.ac.at/entity/5369/">
+          <persName>Granville-Barker, Harley</persName>
+        </person>
+        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
+          <persName>Reinhardt, Max</persName>
+        </person>
+        <person ref="124540449" source="https://d-nb.info/gnd/124540449">
+          <persName>Shaw, Charlotte Frances Payne-Townshend</persName>
+        </person>
+        <person ref="#pmb2381" source="https://pmb.acdh.oeaw.ac.at/entity/2381/">
+          <persName>Shaw, George Bernard</persName>
+        </person>
+        <person ref="#pmb28152" source="https://pmb.acdh.oeaw.ac.at/entity/28152/">
+          <persName>Tree Beerbohm, Herbert</persName>
+        </person>
+        <person ref="#pmb89676" source="https://pmb.acdh.oeaw.ac.at/entity/89676/">
+          <persName>Vedrenne, John Eugene</persName>
+        </person>
+        <person ref="#pmb13068" source="https://pmb.acdh.oeaw.ac.at/entity/13068/">
+          <persName>Wedekind, Frank</persName>
+        </person>
+        <person ref="E39PBJwMDbY6kcTDrmB9QkqPcP" source="https://id.oclc.org/worldcat/entity/E39PBJwMDbY6kcTDrmB9QkqPcP">
+          <persName>Whelen, Frederick</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
+          <placeName>England</placeName>
+        </place>
+        <place ref="#pmb224" source="https://pmb.acdh.oeaw.ac.at/entity/224/">
+          <placeName>London</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="16050750-9" source="https://d-nb.info/gnd/16050750-9">
+          <orgName>Incorporated Stage Society</orgName>
+        </org>
+        <org ref="#pmb89673" source="https://pmb.acdh.oeaw.ac.at/entity/89673/">
+          <orgName>Royal Court Theatre London</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0275.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Doppelblatt, 3 Seiten beschrieben</p>
+      </div>
+          <div type="OCR"><p>148<lb/>S. FISCHER, VERLAG,’ BERLIN W.,„ BÜLowSTR. 90<lb/>29. Mai 07<lb/>BERLIN W., DEN<lb/>G.C.F.P<lb/>Herrn Dr. Arthur Schaitzler<lb/>Tien IVIII<lb/>Spöttelkasse 7<lb/>Lieber Herr Doktoe.<lb/>mein englischer Vertreter schreibt mir Fol-<lb/>Seades;<lb/>„Das eine literarische Thaster, das Coart<lb/>der Berren Vedroche und Secker, ist für xxxei<lb/>Makinairek<lb/>S.<lb/>Jahre blaaus schon genügend versehen, aber ein<lb/>Mr. Great Alian besinnt is konsendan Herbst<lb/>eine Art Hamerspielsaison nach Reinhardt'schen<lb/>Muster, dann wollen einide andere nassaars,<lb/>daruster soch Herr Trea, sagen, litt. Matinées<lb/>verapstalten, und schliesslich sucht die Strafe<lb/>Society immer nach Wertvollen für ihre 5 Abende.<lb/>Und diese Stasse Society, deren führende Mit-<lb/>P.S.<lb/>glieder ich gut kanne, wird sich allmählich zu<lb/>G.F.P.<lb/>einen literarischen Theater anwachsen, wofür<lb/>schon eine Reibe von reichen Interessenten die<lb/>nötige Unterstützung sagesast haben. So ist es<lb/>wohl gerade die rechts Zeit, mit in die Bewe-<lb/>und hineinzukommen. Wir versuchen s. B. jetzt</p></div>
+    </body>
+  </text>
+</TEI>

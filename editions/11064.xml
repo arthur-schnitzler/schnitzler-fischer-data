@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11064">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1924-02-26 Samuel Fischer / Leo Greiner (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">C5VLHYBZ</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Antwort auf: <ref target="11063">1924-02-23 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in: <ref target="11065">1924-03-01 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-02-26.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Greiner, Leo</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1924-02-26" n="01">1924-02-26</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Abrechnung</term>
+          <term>Vertrag</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
+          <persName>Bartsch, Rudolf Hans</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0715.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Antwort auf: <ref target="11063">1924-02-23 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in: <ref target="11065">1924-03-01 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>857<lb/>S. Fischer/Verlag/Berlin W. 57/Bülowstraße 9o.<lb/>###e: Amt Lützow Nr. 1662. 6162 und 9292 / Postscheckkonto: Berlin Nr.. 1<lb/>prechance<lb/>THEATERABTEILUNG<lb/>Berlin, den 26. Februar 1924.<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Sehr verehrter Herr Doktor,<lb/>ich bin gern bereit Ihnen Material<lb/>in der Angelegenheit des Treuhänders zur erfügung zu stellen.<lb/>Bartsch<lb/>Sie können unseren jetzt annullierten Vertrag mit Hans<lb/>aie<lb/>im Original, ferner die Abrechnung von Bartsch in einer Ab-<lb/>schrift (Original beim Bund der Auslandsdeutschen), endlich<lb/>eine Abschrift unseres Vertrages mit dem Bund der Auslands<lb/>deutschen haben. Das Original diæses Vertrages kann ich aus<lb/>naheliegenden Gründen nicht aus den Händen geben. Sollte Ihnen<lb/>eine einfache Abschrift nicht genügen, so könnte ich diese hier<lb/>für Sie notariell beglaubigen lassen. Sobald ich weiss, dass ob<lb/>Sie dies für notwendig halten, lasse ich Ihnen die Papiere zu -<lb/>gehen. Mit dem Bund der Auslandsdeutschen liege ich wegen der<lb/>sichtlichen Lässigkeit mit der die Leute arbeiten, schon seit<lb/>langem in Konflikt.<lb/>Es ist mir sehr angenehm zu hören, dass Ihre<lb/>Differenzen mit dem Herlage jetzt ausgeglichen sind und doppelt<lb/>erfreulich war es mir, dass auch ich einiges Wenige dazu bei<lb/>tragen konnte. Ich gedenke mit Vergnügen xxx Tage, die ich<lb/>te Ihnen noch nachträglich für die<lb/>in Wien verbracht habe und dann<lb/>ich.<lb/>freundliche gasstliche Aufnahme.<lb/>Les Gerni</p></div>
+    </body>
+  </text>
+</TEI>

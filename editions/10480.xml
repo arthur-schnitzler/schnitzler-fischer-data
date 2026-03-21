@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10480">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1912-12-20 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">NGQR2BDH</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 307</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
+            <title>Anatol</title>
+          </bibl>
+          <bibl ref="#pmb30649" source="https://pmb.acdh.oeaw.ac.at/entity/30649/">
+            <title>Der blinde Geronimo und sein Bruder</title>
+          </bibl>
+          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
+            <title>Professor Bernhardi</title>
+          </bibl>
+          <bibl type="journal" ref="981067-5" source="https://ld.zdb-services.de/resource/981067-5">
+            <title>Wiesbadener Volksbücher</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">3 Blatt, 3 Seiten beschrieben
+Anlage: 1912-12-03 Alice Kauser (New York) an SF (1 Blatt, 2 Seiten beschrieben; ehU und ehN); Anfrage aus Frankreich (nicht überliefert)
+
+Antwort auf: <ref target="10479">1912-12-16 AS an SF</ref></note>
+        <note type="type">Typoskript (Unterschrift-Stempel)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1912-12-20.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1912-12-20" n="01">1912-12-20</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Honorar</term>
+          <term>spanisch</term>
+          <term>Vertrag</term>
+          <term>Übersetzungsrecht</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="116298065" source="https://d-nb.info/gnd/116298065">
+          <persName>Ames, Winthrop</persName>
+        </person>
+        <person ref="#pmb3283" source="https://pmb.acdh.oeaw.ac.at/entity/3283/">
+          <persName>Björkman, Edwin</persName>
+        </person>
+        <person ref="#pmb5369" source="https://pmb.acdh.oeaw.ac.at/entity/5369/">
+          <persName>Granville-Barker, Harley</persName>
+        </person>
+        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
+          <persName>Kauser, Alice</persName>
+        </person>
+        <person ref="#pmb23787" source="https://pmb.acdh.oeaw.ac.at/entity/23787/">
+          <persName>Rémon, Maurice</persName>
+        </person>
+        <person ref="#pmb26414" source="https://pmb.acdh.oeaw.ac.at/entity/26414/">
+          <persName>Vaucaire, Maurice</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
+          <placeName>Frankreich</placeName>
+        </place>
+        <place ref="#pmb388" source="https://pmb.acdh.oeaw.ac.at/entity/388/">
+          <placeName>Spanien</placeName>
+        </place>
+        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
+          <placeName>USA</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0601.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>3 Blatt, 3 Seiten beschrieben
+Anlage: 1912-12-03 Alice Kauser (New York) an SF (1 Blatt, 2 Seiten beschrieben; ehU und ehN); Anfrage aus Frankreich (nicht überliefert)
+
+Antwort auf: <ref target="10479">1912-12-16 AS an SF</ref></p>
+      </div>
+          <div type="OCR"><p>307<lb/>S. Fischer, Verlag, Berlin M., Bülowstrasse 90<lb/>20/12. 1912<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Lieber Herr Doktor,<lb/>D'<lb/>die heitere Gefasstheit, mit der Sie nunmehr den auswärtigen<lb/>Angelegenheiten gegenüber stehen, steht im glücklichen Verhältnis<lb/>dʼavoir lʼhonneur les mêmes.<lb/>ouvrage<lb/>zu der beginnenden Ausbreitung Ihres geistigen Gutes im Ausland.<lb/>Aus all den Correspondenzen, die zu grossen Resultaten noch nicht<lb/>geführt haben, ist das eine ersichtlich: dass sich Ihr Werk in Amerika<lb/>und in Frankreich zu konsolidieren beginnt. Aus diesem Grunde wäre<lb/>doch wohl das Anerbieten Björkmans nicht ohne weiteres abzuweisen.<lb/>Was uns in Amerika bisher fehlte, ist ein guter Verlag, der an dem<lb/>systematischen Aufbau Ihres Werkes ein Interesse hat. Hier wäre viel-<lb/>leicht ein Weg dazu. Mit einigen Kautelen wie solchen, die sich darauf<lb/>beziehen, dass das Uebersetzungsrecht für die Bühnenaufführungen uns<lb/>zufällt, wenn innerhalb einer gewissen Zeit keine Aufführung erfolgt,<lb/>liesse sich doch immerhin wirtschaften. Auch über die 150 Dollars,<lb/>die der Uebersetzer voraushaben will, wird vielleicht zu reden sein.<lb/>Die Schwierigkeit ist nur die, dass Uebersetzungen schon existieren.<lb/>Auf alle Fälle will ich versuchen, ob sich eine Grundlage zu einem<lb/>Vertrag finden lässt.<lb/>Ich schicke Ihnen den eben eingetroffenen Brief von Miss Kaiser<lb/>(der Check über 300 Dollars ist noch nicht eingegangen).<lb/>Die Auskunft, dass Mr. Ames direkt an Mr. Barker Tantiemen<lb/>bezahlt, gibt Ihnen doch das Recht, bei Mr. Barker anzufragen, wieviel</p></div>
+    </body>
+  </text>
+</TEI>

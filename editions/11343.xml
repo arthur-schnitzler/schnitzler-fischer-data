@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11343">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1927-10-17 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">I6BP7NG9</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30775" source="https://pmb.acdh.oeaw.ac.at/entity/30775/">
+            <title>Der Gang zum Weiher</title>
+          </bibl>
+          <bibl ref="#pmb30751" source="https://pmb.acdh.oeaw.ac.at/entity/30751/">
+            <title>Die Frau des Richters</title>
+          </bibl>
+          <bibl ref="#pmb29941" source="https://pmb.acdh.oeaw.ac.at/entity/29941/">
+            <title>Fräulein Else</title>
+          </bibl>
+          <bibl ref="#pmb30205" source="https://pmb.acdh.oeaw.ac.at/entity/30205/">
+            <title>Komödie der Verführung</title>
+          </bibl>
+          <bibl ref="#pmb30817" source="https://pmb.acdh.oeaw.ac.at/entity/30817/">
+            <title>Therese. Chronik eines Frauenlebens</title>
+          </bibl>
+          <bibl ref="#pmb30851" source="https://pmb.acdh.oeaw.ac.at/entity/30851/">
+            <title>Traumnovelle</title>
+          </bibl>
+          <bibl type="journal" ref="#pmb167632" source="https://pmb.acdh.oeaw.ac.at/entity/167632/">
+            <title>Berliner Illustrirte Zeitung</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb36907" source="https://pmb.acdh.oeaw.ac.at/entity/36907/">
+            <orgName>Paul Zsolnay Verlag (Wien)</orgName>
+          </org>
+          <org type="publisher" ref="#pmb29681" source="https://pmb.acdh.oeaw.ac.at/entity/29681/">
+            <orgName>Ullstein Verlag (Berlin)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 2 Seiten
+Antwort auf: <ref target="11342">1927-10-13 SF (Berlin) an AS (Wien)</ref>
+Beantwortet in: <ref target="11347">1927-10-24 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1927-10-17.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1927-10-17" n="01">1927-10-17</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Auflage/Neuauflage/Neuausgabe</term>
+          <term>Buchbinderei/Buchbindung</term>
+          <term>Buchgestaltung/Buchschmuck/Umschlag/Einband</term>
+          <term>Ergänzungsband</term>
+          <term>Erscheinungstermin</term>
+          <term>Gesamtausgabe</term>
+          <term>Honorar</term>
+          <term>Novellenband</term>
+          <term>Verhandlung</term>
+          <term>Verkaufspreis/Ladenpreis</term>
+          <term>Vorabdruck</term>
+          <term>Vorschuss</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb4455" source="https://pmb.acdh.oeaw.ac.at/entity/4455/">
+          <persName>Zsolnay, Paul</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416740_0132.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 2 Seiten
+Antwort auf: <ref target="11342">1927-10-13 SF (Berlin) an AS (Wien)</ref>
+Beantwortet in: <ref target="11347">1927-10-24 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>Berlin<lb/>17.10.1927.<lb/>Fischer<lb/>anwabendes bei<lb/>inq<lb/>gevöd bis8<lb/>ndsifsres doch xxx<lb/>Lieber Freund.<lb/>Sie sehrei ben von Ergänzungsbänd<lb/>Ich denke wohl,es würde sich anlangs nur<lb/>einen handeln, nämlich den neuen Band der<lb/>bäulein<lb/>zählenden Schriften, enthaltend:<lb/>raum<lb/>Ise, „Frau des Richters und<lb/>zu einem neuen dramatischen Band, der vori<lb/>zur<lb/>nur „Komödie der Verführung“ und Gan<lb/>Weiher enthielte, ist es wohl noch zu<lb/>Was „Frau des Richters“ anbelangt,h<lb/>die<lb/>schon offizielle Bewilligung von Ullster<lb/>las<lb/>Novelle in einem Gesamtband erscheinen<lb/>sen. Hinsichtlich „Fräulein Else"<lb/>vortraglich berechtigt die Novelle<lb/>nuar 1928 an in einen Band der ges¬<lb/>may<lb/>25<lb/>Werke aufzunehmen; ich brauchte al<lb/>weiter nicht zu fragen. Fänden sie es aber<lb/>nicht in jedem Falle richtig, wenn ich Zso<lb/>nay fragte, wie die Chancen für die neuen Auf<lb/>lagen der „Else" stehen und wenn wir<lb/>Falle nahe bevorstehender neuer Aufhagen den<lb/>Ergänzungsband etwa auf das Frühjahr 1928<lb/>anzungsbände<lb/>aux hinauszögerten? Hie viel Brä<lb/>der gesammelten Werke würde der Vortag Fischer<lb/>a une autre seule vraie de ses<lb/>vorausbeschrien?<lb/>Was nun den Roman anbelangt, so<lb/>wollen wir uns doch auf halben Weg entgegen-<lb/>kommen. Ich sohlage Ihnen vor mittläufzugaux<lb/>dasshroschkeiten kaupkann mir 25 Eus<lb/>zum üblichen Satz. 25, Ladenpreis broschiertes<lb/>le vor¬<lb/>Exemplar, voraus zuzahlen. Nur im F<lb/>herigen Erscheinens in der Berliner-<lb/>trierten 20 Auflagen. Wie ist nun<lb/>nungsverhältnis im Freis des broschierten<lb/>und des gebundenen Exemplars? Ferner in<lb/>ehen Verhältnis gedenken Sie broschierte</p></div>
+    </body>
+  </text>
+</TEI>

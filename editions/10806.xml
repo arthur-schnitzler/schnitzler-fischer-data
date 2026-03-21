@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10806">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1921-03-17 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">7QHC4AUQ</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
+            <title>Anatol</title>
+          </bibl>
+          <bibl ref="#pmb29985" source="https://pmb.acdh.oeaw.ac.at/entity/29985/">
+            <title>Der einsame Weg</title>
+          </bibl>
+          <bibl ref="#pmb31429" source="https://pmb.acdh.oeaw.ac.at/entity/31429/">
+            <title>Große Szene</title>
+          </bibl>
+          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
+            <title>Reigen</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten
+Antwort auf: <ref target="10805">1921-03-16 SF (Berlin) an AS (Wien)</ref>
+Beantwortet in: <ref target="10808">1921-03-23 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1921-02-17.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1921-02-17" n="01">1921-02-17</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführungsrecht</term>
+          <term>Gastspiel</term>
+          <term>Gesamtausgabe</term>
+          <term>italienisch</term>
+          <term>Theater</term>
+          <term>Überweisung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb171521" source="https://pmb.acdh.oeaw.ac.at/entity/171521/">
+          <persName>Giovanardi, Dr.</persName>
+        </person>
+        <person ref="#pmb11981" source="https://pmb.acdh.oeaw.ac.at/entity/11981/">
+          <persName>Kramer, Leopold</persName>
+        </person>
+        <person ref="#pmb301408" source="https://pmb.acdh.oeaw.ac.at/entity/301408/">
+          <persName>Münchheim, Ernestine</persName>
+        </person>
+        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
+          <persName>Reinhardt, Max</persName>
+        </person>
+        <person ref="#pmb4441" source="https://pmb.acdh.oeaw.ac.at/entity/4441/">
+          <persName>Sladek, Maximilian</persName>
+        </person>
+        <person ref="117428175" source="https://d-nb.info/gnd/117428175">
+          <persName>Wrede, Richard</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb866" source="https://pmb.acdh.oeaw.ac.at/entity/866/">
+          <placeName>Dresden</placeName>
+        </place>
+        <place ref="#pmb36300" source="https://pmb.acdh.oeaw.ac.at/entity/36300/">
+          <placeName>Kopenhagen</placeName>
+        </place>
+        <place ref="#pmb378" source="https://pmb.acdh.oeaw.ac.at/entity/378/">
+          <placeName>Rumänien</placeName>
+        </place>
+        <place ref="#pmb388" source="https://pmb.acdh.oeaw.ac.at/entity/388/">
+          <placeName>Spanien</placeName>
+        </place>
+        <place ref="#pmb1119" source="https://pmb.acdh.oeaw.ac.at/entity/1119/">
+          <placeName>Stockholm</placeName>
+        </place>
+        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
+          <placeName>Ungarn</placeName>
+        </place>
+        <place ref="#pmb197" source="https://pmb.acdh.oeaw.ac.at/entity/197/">
+          <placeName>Weimar</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416739_0175.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten
+Antwort auf: <ref target="10805">1921-03-16 SF (Berlin) an AS (Wien)</ref>
+Beantwortet in: <ref target="10808">1921-03-23 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>4. Die holländischen Gulden für „Doktor<lb/>(sie avislerten Sie mir am 28.1.21<lb/>Gr<lb/>sind mir noch nicht zugegangen.<lb/>5. Haben sich die englischen Angelegen-<lb/>heiten „Liebelei“ und „Bernhardi weiter ent-<lb/>1<lb/>wickelt?<lb/>e e e e m m m a e e<lb/>6. Auch die spanische Zahlung für „Grü-<lb/>ner Kakadu" und „Anatol" (siehe meinen Brief<lb/>vom 23.2.) ist noch nicht an mich gelangt.<lb/>Sie fragen mich, ob das Attentat auf<lb/>den „Reigen in Wßen nicht ebenso mit einem<lb/>em rgischen Triff abgewehrt werden könnte, wie<lb/>es Sladek in Berlin getan? Sie dürfen nicht<lb/>vergessen, dass wir in wien leben und dass hier<lb/>im Grossen und Ganzen auch die Leute,die sozu-<lb/>sagen auf meiner Seite standen, recht einvers<lb/>standen waren, dass er polizeilich verboten<lb/>Uebrigens ist die Sache noch nicht<lb/>wurde<lb/>endgültig erledigt. Jedenfalls sind bei uns<lb/>die Christlichsozialen noch immer stärker als<lb/>bei Ihnen die Deutschvölkischen und im Wesen<lb/>des polizeilichen Prinzips liegt es ja, dass<lb/>sie von ihrer Autorität und ihre Macht im -<lb/>mer nur in dem Masse Gebrauch macht, als es<lb/>gerade politisch geboten erscheint.<lb/>8. Sladek schreibt mir heute.dass er die<lb/>Gastspiele mit dem Reigen nicht vor dem<lb/>Herbste absolviere. Ich bin natürlich ganz da-<lb/>mit einverstanden. Er fügt auch die Warnung<lb/>bei nicht jedem Theater ohneweiteres die Auf-<lb/>führungserlaubnis zu geben und ganz bestimmte<lb/>Garantien hinsichtlich der künstlerischen<lb/>Möglichke iten zu verlangen. Auch das scheint<lb/>mir ganz richtig; vorläufig werden ja wohl<lb/>die kleineren Theater und auch die grösseren<lb/>nicht mehr so dringlich sein.<lb/>Mit herzlichem Gruss<lb/>Ihr<lb/>17.3.1921.<lb/>Fischer<lb/>Lieber Freund.<lb/>1. Dass eine Geldsendung in fremder<lb/>Valuta nicht durchgelassen wurde,war zu ver¬<lb/>guten. Schecks glaube ich gehen ohneweiteres<lb/>Im übrigen will ich mir nun von nun an alle<lb/>Auslandszahlungen an eine Bank in der Schweiz<lb/>überweisen lassen, worüber ich mir erlauben<lb/>werde Ihnen nächstens Näheres mitzuteilen.<lb/>2. Beigeschlossen zwei Anfragen<lb/>den „Reigen“ betreffend von Frau Münchhelm<lb/>Dresden, von Dr.Wrde, Weimar Beiden habe ich<lb/>mitgeteilt, dass ich die Briefe Ihnen überwei¬<lb/>se und ihnen im übrigen wenig Hoffnungen ge<lb/>macht, Vielleicht wird es sich empfehlen mit<lb/>Rücksicht auf Sladeks Gastspielpläne in sol-<lb/>chen Fällen gelegentlich Sladek unverbindlich<lb/>zu Rate zu ziehen. Doch überlasse ich das ganz<lb/>Ihnen<lb/>Haben Sie eine regulläre und<lb/>verläs sliche Vertretung in Rumänien? Ich habe<lb/>bezüglich des „Reigen einen mir nicht sehr<lb/>aussichtsreich erscheinenden Antrag eines in<lb/>Ungarn lebenden Schriftstellers erhalten Brief<lb/>liegt bei, bitte um Rücksendung nach Finsicht-<lb/>4. Die Verhandlungen hinsichtlich<lb/>nahme.<lb/>des Aufführungsrechtes „Anatol", Spanien führe<lb/>ich also selbständig weiter.<lb/>5. Entwickeln sich die itali<lb/>schen Angelegenheiten durchaus nicht weiter<lb/>Hierüber möchte ich gern orientiert sein, da<lb/>ich in den nächsten Tagen den Besuch des Herrn</p></div>
+    </body>
+  </text>
+</TEI>

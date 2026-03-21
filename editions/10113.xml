@@ -1,0 +1,136 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10113">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1901-06-22 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">AJVKJA54</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121. Nr. 88</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29823" source="https://pmb.acdh.oeaw.ac.at/entity/29823/">
+            <title>Das Märchen</title>
+          </bibl>
+          <bibl ref="#pmb29843" source="https://pmb.acdh.oeaw.ac.at/entity/29843/">
+            <title>Der grüne Kakadu</title>
+          </bibl>
+          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
+            <title>Liebelei</title>
+          </bibl>
+          <bibl ref="#pmb29853" source="https://pmb.acdh.oeaw.ac.at/entity/29853/">
+            <title>Lieutenant Gustl</title>
+          </bibl>
+          <bibl type="journal" ref="#pmb41560" source="https://pmb.acdh.oeaw.ac.at/entity/41560/">
+            <title>Der Tag</title>
+          </bibl>
+          <bibl type="third_party">
+            <title>Otto Julius Bierbaum (Hg.): Deutsche Chansons</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten beschrieben
+Beilage: Paul Roland an AS 1901-06-22 (offener Brief in 'Der Tag'). Vgl. ZA A_10_Leutnant-Gustl_76.
+
+Wohl Antwort auf: 1901-05-20post/1901-06-22ante AS an SF (Drucklegung 'Märchen', Absatz und Illustrationen 'Gustl'; nicht überliefert)
+Beantwortet in: 1901-07-05 AS an SF (erwähnt in Folgebrief; nicht überliefert)</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1901-06-22.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1901-06-22" n="01">1901-06-22</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Armee</term>
+          <term>Buchgestaltung/Buchschmuck/Umschlag/Einband</term>
+          <term>Buchillustration</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb10928" source="https://pmb.acdh.oeaw.ac.at/entity/10928/">
+          <persName>Bierbaum, Otto Julius</persName>
+        </person>
+        <person ref="#pmb28645" source="https://pmb.acdh.oeaw.ac.at/entity/28645/">
+          <persName>Coschell, Moritz</persName>
+        </person>
+        <person ref="116600446" source="https://d-nb.info/gnd/116600446">
+          <persName>Roland, Paul</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
+          <placeName ref="#pmb50">Wien</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0148.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten beschrieben
+Beilage: Paul Roland an AS 1901-06-22 (offener Brief in 'Der Tag'). Vgl. ZA A_10_Leutnant-Gustl_76.
+
+Wohl Antwort auf: 1901-05-20post/1901-06-22ante AS an SF (Drucklegung 'Märchen', Absatz und Illustrationen 'Gustl'; nicht überliefert)
+Beantwortet in: 1901-07-05 AS an SF (erwähnt in Folgebrief; nicht überliefert)</p>
+      </div>
+          <div type="OCR"><p>ERL/<lb/>S. FIS<lb/>Fredürab 618 nachneb elv.nehrew niea Jnnaded Jdolellelv nendl elb<lb/>BERene W., DEN 22. Juni 1901<lb/>LOMSPRASSE gl. fin<lb/>TELEPHON: AMT VI, No. 1662.<lb/>Herrn Dr. Arthur Schnitzler<lb/>wien.<lb/>von Ihnen des Empfang<lb/>G.C.F.P<lb/>nigung xxx ein xxx<lb/>P.P.<lb/>Lieber Herr Doktor!<lb/>Soeben habe ich „Das Märchen“ bekommen. Sie können mir dieéerecturen<lb/>ruhig überlassen, das Buch wird sehr aufmerksam gelesen werden und stö-<lb/>ber 20<lb/>rende Fehler sollen auch ganz gewiss nicht vorkommen. Ich denke den Satz<lb/>dans les<lb/>e zu bringen mit Ihren andern Dramen, wie „Lie-<lb/>mein lassen wir vielleicht am besten über-<lb/>belei- und „kakâstimmy“<lb/>haupt weg, denn die Regiebemerkungen unterscheiden sich in dem kleineren<lb/>Satz schon deutlich genug vom Dialog. Es liest sich dann auch viel besser<lb/>und ich mache das jetzt bei allen Dramen so. xxx bis 10. Juli in###<lb/>Inzwischen hat der „Leutnant Gustel durch Ihre Affaire einen<lb/>starken Anstoss bekommen; das Buch beginnt besonders in Wien guten Ab-<lb/>satz zu finden. Ich glaube mit Paul Rotand, dessen heute im „Tag" ab-<lb/>gedruckten Brief ich beilage, dass Ihnen die Lösung Ihrew Verhältnisses<lb/>zur österreichischen Armee keine sonderlichen Schmerzen bereitet. Wäre<lb/>bei diesem Buch aber sehr leid thut, das sind die gänzlich missglückten<lb/>Illustrationen von Coschall. Sollte die Nachfrage nach „Leutnant Gustel“<lb/>anhalten, so hätte ich fast Last, die noch auf Lager befindlich<lb/>tausend Exemplare einzustampfen und das Buch in kleinen Format und hüb-<lb/>schen Druck ohne Illustrationen herauszugeben. Ich dachte dabei an etwas<lb/>Ausstattung ähnlich der von Bierbaum habe.</p></div>
+    </body>
+  </text>
+</TEI>

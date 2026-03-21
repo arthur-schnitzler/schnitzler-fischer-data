@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11500">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1929-08-28 Samuel Fischer / Rudolf Kayser (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">6P6YU925</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl type="journal" ref="#pmb36156" source="https://pmb.acdh.oeaw.ac.at/entity/36156/">
+            <title>Die neue Rundschau</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Beantwortet in: <ref target="11502">1929-09-10 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift, eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1929-08-28.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Kayser, Rudolf</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1929-08-28" n="02">1929-08-28</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Verhandlung</term>
+          <term>Zeitschrift</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb2292" source="https://pmb.acdh.oeaw.ac.at/entity/2292/">
+          <persName>Hofmannsthal, Gertrude von</persName>
+        </person>
+        <person ref="#pmb11740" source="https://pmb.acdh.oeaw.ac.at/entity/11740/">
+          <persName>Hofmannsthal, Hugo von</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_1116.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Beantwortet in: <ref target="11502">1929-09-10 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>LE NEUE RUNDSCHAU<lb/>den 28. Augt<lb/>S. FISCHER VerlaG, BERLIN W 57.<lb/>BÜL à WSTRASSE 90<lb/>VERNSPRECHER: L'ÜTZOM GIGS REDAKITION<lb/>TELEGRAMM-ADRESSE RUNDSCHAU<lb/>FISCHERVERLAG OIGS BEBLINLÜTZÜW<lb/>Hopmelke<lb/>May/Mey.<lb/>Herrn<lb/>Dr. Arthur Schnitzler<lb/>Wien<lb/>G.F.P.<lb/>Sehr verehrter Herr Doktor Schnitzler,<lb/>G.H.F.S<lb/>ich fürchte fast, dass mein aus Kloster an Sie ge-<lb/>-nos einmal<lb/>sandter Brief Sie nicht erreicht hat. Ich möchte mir deshalb heute<lb/>die Anfrage gestatten, ob Sie nicht doch die grosse Freundlichkeit<lb/>haben würden, einen Beitrag für unser Hofmanssthal-Gedächtnisheft<lb/>beizusteuern. Ich weiss, dass auch Die Familie Hofmannsthal es mit<lb/>herzlicher Dankbarkeit begrüssen würde, wenn Sie an unserem Gedächt-<lb/>nishaft mitarbeiten würden.<lb/>Bitte haben Sie die Freundlichkeit, mir recht bald<lb/>mitzuteilen, ob ich auf eine positive Nachricht rechnen kann.<lb/>Mit herzlichen Grüssen Ihr<lb/>sehr ergeben<lb/>Rudolf Kagen</p></div>
+    </body>
+  </text>
+</TEI>

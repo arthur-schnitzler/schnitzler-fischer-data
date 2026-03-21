@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11370">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1928-02-08 Samuel Fischer / Konrad Maril (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">6PUQY962</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30649" source="https://pmb.acdh.oeaw.ac.at/entity/30649/">
+            <title>Der blinde Geronimo und sein Bruder</title>
+          </bibl>
+          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
+            <title>Reigen</title>
+          </bibl>
+          <bibl type="journal" ref="981067-5" source="https://ld.zdb-services.de/resource/981067-5">
+            <title>Wiesbadener Volksbücher</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb146179" source="https://pmb.acdh.oeaw.ac.at/entity/146179/">
+            <orgName>Benjamin Harz Verlag (Berlin, Wien)</orgName>
+          </org>
+          <org type="institution" ref="4484113-9" source="https://d-nb.info/gnd/4484113-9">
+            <orgName>Volksbildungsverein Wiesbaden</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 2 Seiten
+Antwort auf: <ref target="11364">1927-12-23 AS (Wien) an SF (Berlin)</ref>
+Beilage: Abschrift einer Verlagsanfrage an SF</note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1928-02-08.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1928-02-08" n="01">1928-02-08</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Auflage/Neuauflage/Neuausgabe</term>
+          <term>Entscheidung</term>
+          <term>Frist</term>
+          <term>Honorar</term>
+          <term>Nachdruck</term>
+          <term>Sammelband</term>
+          <term>Vereinbarung</term>
+          <term>Verhandlung</term>
+          <term>Vertrag</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
+          <persName>Harz, Benjamin</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
+          <placeName ref="#pmb168">Berlin</placeName>
+        </place>
+        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
+          <placeName>Deutschland</placeName>
+        </place>
+        <place ref="#pmb883" source="https://pmb.acdh.oeaw.ac.at/entity/883/">
+          <placeName>Wiesbaden</placeName>
+        </place>
+        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
+          <placeName>Österreich</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0989.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 2 Seiten
+Antwort auf: <ref target="11364">1927-12-23 AS (Wien) an SF (Berlin)</ref>
+Beilage: Abschrift einer Verlagsanfrage an SF</p>
+      </div>
+          <div type="OCR"><p>Berlin M.<lb/>Fischer / Verlag<lb/>nkkonto: Deutsche Bank, Depositenkasse P in Berlin/Postscheckkonto: Berlin Nr.<lb/>Fernsprechanschlüsse: Amt Lützow Nr. 6162 bis 616.<lb/>Bülowstraße 90<lb/>elegramm.Adresse: Fischerverlag 6162 Berlinlützow<lb/>den 8. Februar<lb/>G.C.F.P<lb/>Herrn Dr. Arthur S<lb/>n n<lb/>G.C.P.<lb/>G.C.H.F.P.<lb/>gefahren wiederholt sehr<lb/>G.C.H.F.P.<lb/>G.F.P.<lb/>Sehr verehrter Herr Doktor!<lb/>neusbau Hodellerei<lb/>Ihr letztes Schreiben hat Herr Fischer noch von seinem Ur-<lb/>G.C.F.F:F:S<lb/>G.C.F.P.<lb/>laubsort selbst zu beantworten sich vorbehalten, Sie dürften also in<lb/>den nächsten Tagen von ihm Nachricht erhalten. Herr Harz soll Ende der<lb/>Woche in xxx eintreffen, wo er mir versprochen hat, das Belegmate-<lb/>uns<lb/>rial der zwischen Ihnen schwebenden Fragen zu unterbreiten.<lb/>Ich schreibe Ihnen heute nochmals in der Angelegenheit des<lb/>Volksbildungsvereines zu Niesbaden, der die von uns vorgeschlagene<lb/>Terminierung des Abdrucksrechtes auf 10 Jahre nicht wagt, seinem Aus-<lb/>schuss zu unterbreiten, weil er fürchtet, dass sonst die ganze Angele-<lb/>genheit scheitern könnte. Er meint, es wäre ihm mit grosser Mühe ge-<lb/>lungen, das aussergewöhnlich hohe Hehorar zu bewilligen; der Vere<lb/>würde nur darauf eingehen, wenn er gegen Konkurrenz sicher geste<lb/>wäre. Er bittet mich, eine Fassung des § 4 vorzuschlagen, die<lb/>gleicht<lb/>vertragsschliessenden Parteien genehm<lb/>Fassung vorschlagen, wonach das Recht<lb/>wird, dass aber der Verein des Re-<lb/>Ablauf dieser Zeit keine Vorräte<lb/>Minimal-Auflagenzahl nicht ern<lb/>sterreich und Deutschland</p></div>
+    </body>
+  </text>
+</TEI>

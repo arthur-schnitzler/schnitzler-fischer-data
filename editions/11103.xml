@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11103">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1924-07-23 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">UHW99KAV</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Antwort auf: <ref target="11102">1924-07-21 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-07-23.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1924-07-23" n="01">1924-07-23</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Abrechnung</term>
+          <term>Aufführung</term>
+          <term>Drama</term>
+          <term>Gastspiel</term>
+          <term>Korrektur</term>
+          <term>Manuskript</term>
+          <term>Novelle</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb10844" source="https://pmb.acdh.oeaw.ac.at/entity/10844/">
+          <persName>Bassermann, Albert</persName>
+        </person>
+        <person ref="#pmb11891" source="https://pmb.acdh.oeaw.ac.at/entity/11891/">
+          <persName>Kayser, Rudolf</persName>
+        </person>
+      </listPerson>
+      <listOrg type="theaters">
+        <org ref="#pmb300058" source="https://pmb.acdh.oeaw.ac.at/entity/300058/">
+          <orgName>Neues Theater Frankfurt am Main</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0758.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Antwort auf: <ref target="11102">1924-07-21 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>Fischer / Verlag / A.=G. Berlin W 52.<lb/>Lankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto. Berlin Nr. 16<lb/>Fernsprechanschlüsse: Amt Lützow Nr. 6162 bis 616.<lb/>Alowstraße 90<lb/>rrn Dr. Arthur<lb/>Lieber Freund,<lb/>soeben ist das Manuskript Ihrer Novelle eingetroffen; ich<lb/>werde es ohne Zeitverlust Herrn Dr. Kayser schicken, der gegenwärtig<lb/>auf Urlaub ist. Ich hoffe sehr, dass sich die Raumfrage für das<lb/>Oktoberheft sehr bald entscheidet.<lb/>Ich habe Kenntnis von Ihren Wünschen bezüglich der Vergebung<lb/>G.H.F.P<lb/>Ihrer Stücke genommen.<lb/>Die Abrechnung über die Aufführungen des Frankfurten Neuen<lb/>ist<lb/>Theaters wegen des Wassermann-Gastspiels sind erst am 9. Juli einge-<lb/>troffen, wird also in der nächsten Abrechnung figurieren.<lb/>Die Korrekturbogen Ihres Stückes sind heute an die Druckerei<lb/>gegangen und werden bald zu Ihrer Verfügung stehen.<lb/>Wir werden am 2. August in Flims eintreffen und uns sehr freuen,<lb/>Sie dort zu sehen.<lb/>Mit herzlichen Grüssen<lb/>hich.</p></div>
+    </body>
+  </text>
+</TEI>

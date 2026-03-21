@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10327">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1910-06-21 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">652XIS3Y</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 219</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29903" source="https://pmb.acdh.oeaw.ac.at/entity/29903/">
+            <title>Zwischenspiel</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten beschrieben
+
+Antwort auf: <ref target="10326">1910-06-19 AS an SF</ref></note>
+        <note type="type">Typoskript (Unterschrift-Stempel)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1910-06-21.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1910-06-21" n="01">1910-06-21</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführung</term>
+          <term>Aufführungsrecht</term>
+          <term>Garantiesumme</term>
+        </keywords>
+      </textClass>
+      <listPlace>
+        <place ref="#pmb49803" source="https://pmb.acdh.oeaw.ac.at/entity/49803/">
+          <placeName>Milwaukee</placeName>
+        </place>
+        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
+          <placeName>USA</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org>
+          <orgName>Pabst-Theater Milwaukee</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0432.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten beschrieben
+
+Antwort auf: <ref target="10326">1910-06-19 AS an SF</ref></p>
+      </div>
+          <div type="OCR"><p>1er<lb/>:1:1<lb/>209<lb/>S. FISCHER, VERLAG,’ BERLIN W., BÜLowSTR. 90<lb/>THEATERABTEILUNG<lb/>BERene W., DEN 21/6. 1910.<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien XVIII<lb/>Spöttelgasse 7<lb/>Lieber Herr Doktor,<lb/>wir müssen uns hier rein an die ju-<lb/>ristische Seite der Sache halten. Das Papst-<lb/>Theater behauptet diese Summe irrtümlich aus-<lb/>gezahlt zu haben. Ich glaube nicht, ob wir<lb/>das Recht haben, eine Summe, die uns irrtüm-<lb/>lich überwiesen wurde, zu behalten. Ein Ge¬<lb/>schenk wird mit Bewusstsein, freiwillig gege-<lb/>ben; wir würden also nichts ausrichten, uns<lb/>darauf zu berufen, dass auch ein Geschenk<lb/>nicht zurückgefordert werden kann.<lb/>Ich will, wie Sie vorschlagen, von dem<lb/>Papst-Theater 500 Mark als Garantie für</p></div>
+    </body>
+  </text>
+</TEI>

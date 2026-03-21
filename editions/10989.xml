@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10989">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1923-03-29 Samuel Fischer / Leo Greiner (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">9K8DW4KP</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30207" source="https://pmb.acdh.oeaw.ac.at/entity/30207/">
+            <title>Das weite Land</title>
+          </bibl>
+          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
+            <title>Liebelei</title>
+          </bibl>
+          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
+            <title>Professor Bernhardi</title>
+          </bibl>
+          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
+            <title>Reigen</title>
+          </bibl>
+          <bibl type="third_party" ref="#pmb78902" source="https://pmb.acdh.oeaw.ac.at/entity/78902/">
+            <title>Bernhard Kellermann: Der Tunnel</title>
+          </bibl>
+          <bibl type="third_party" ref="#pmb78498" source="https://pmb.acdh.oeaw.ac.at/entity/78498/">
+            <title>Hermann Hesse: Demian</title>
+          </bibl>
+          <bibl type="third_party" ref="#pmb33187" source="https://pmb.acdh.oeaw.ac.at/entity/33187/">
+            <title>Thomas Mann: Buddenbrooks</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb29586" source="https://pmb.acdh.oeaw.ac.at/entity/29586/">
+            <orgName>Brandt &amp; Kirkpatrick (New York)</orgName>
+          </org>
+          <org type="institution" ref="#pmb148317" source="https://pmb.acdh.oeaw.ac.at/entity/148317/">
+            <orgName>Foreign Press Service</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">3 Blatt, 6 Seiten
+Antwort auf: <ref target="10985">1923-03-15 AS (Wien) an SF (Berlin)</ref>, <ref target="10986">1923-03-19 AS (Wien) an SF (Berlin)</ref>
+Anlage: Richtlinien für die Honorierung schönwissenschaftlicher Bücher</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-03-29.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Greiner, Leo</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1923-03-29" n="01">1923-03-29</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Abrechnung</term>
+          <term>Aufführung</term>
+          <term>Aufführungsrecht</term>
+          <term>englisch</term>
+          <term>Missverständnis</term>
+          <term>Theater</term>
+          <term>Übersetzung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb11679" source="https://pmb.acdh.oeaw.ac.at/entity/11679/">
+          <persName>Hesse, Hermann</persName>
+        </person>
+        <person ref="#pmb11900" source="https://pmb.acdh.oeaw.ac.at/entity/11900/">
+          <persName>Kellermann, Bernhard</persName>
+        </person>
+        <person ref="#pmb4423" source="https://pmb.acdh.oeaw.ac.at/entity/4423/">
+          <persName>Knopf, Alfred</persName>
+        </person>
+        <person ref="#pmb12176" source="https://pmb.acdh.oeaw.ac.at/entity/12176/">
+          <persName>Mann, Thomas</persName>
+        </person>
+        <person ref="#pmb23320" source="https://pmb.acdh.oeaw.ac.at/entity/23320/">
+          <persName>Reyding, August</persName>
+        </person>
+        <person ref="#pmb23675" source="https://pmb.acdh.oeaw.ac.at/entity/23675/">
+          <persName>Rotter, Alfred</persName>
+        </person>
+        <person ref="#pmb3876" source="https://pmb.acdh.oeaw.ac.at/entity/3876/">
+          <persName>Rotter, Fritz</persName>
+        </person>
+        <person ref="#pmb5031" source="https://pmb.acdh.oeaw.ac.at/entity/5031/">
+          <persName>Samuel, Horace Barnett</persName>
+        </person>
+        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
+          <persName>Woticky, Edward</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
+          <placeName ref="#pmb168">Berlin</placeName>
+        </place>
+        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
+          <placeName>USA</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org>
+          <orgName>Rotter-Bühnen Berlin</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0609.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>3 Blatt, 6 Seiten
+Antwort auf: <ref target="10985">1923-03-15 AS (Wien) an SF (Berlin)</ref>, <ref target="10986">1923-03-19 AS (Wien) an SF (Berlin)</ref>
+Anlage: Richtlinien für die Honorierung schönwissenschaftlicher Bücher</p>
+      </div>
+          <div type="OCR"><p>G12.<lb/>S. Fischer/Verlag/ Berlin W 57/Bülowstraße 90<lb/>Fernsprechanschlüsse: Amt Lützow Nr. 1662. 6162 und 9292 / Postecheckkonto: Berlin Nr 16892<lb/>THEATERABTEILUNG<lb/>Berlin, den 29. März 1923<lb/>G.H.F.P<lb/>Herrn<lb/>Dr. Arthur Schnitzler<lb/>P.<lb/>Wien<lb/>Sehr gerehrter Herr Doktor,<lb/>in der Angelegenheit Wotitzky er -<lb/>laube ich mir darauf hinzuweisen, dass eine Bewerbung seitens<lb/>des Foreig, Press Service nicht notwenig auszuschliessen braucht,<lb/>dass jemand in Amerika, mit Woditzkys Uebersetzung in der Hand,<lb/>im Trüben fischt. Die betreffenden Kreise arbeiten da sehr<lb/>energisch Hand in Hand und Sie können nicht wissem, wer das<lb/>Poreign Press Service von Amerika aus aufgefordert hat, sich hier<lb/>bei Ihnen um das Aufführungsrecht zu bewerben. Im übrigen be-<lb/>steht in dieser Angelegenheit zwischen uns wohl insofern ein<lb/>Missverständnis, xxx als ich ja nicht gesagt, noch auch gedacht<lb/>habe, Sie hätten in Amerika irgend jemand ausser Woditzky be-<lb/>rechtigt, das Aufführungsrecht von "Weites Land " zu vergeben.<lb/>Vielmehr nahm ich an, dass irgendwer in Amerika an Sie ge<lb/>dung der Angelegen¬<lb/>schrieben habe und Ihnen deshalb nun die Erledi,<lb/>heit Wohitzky dringlich geworden sei, da Sie negativenfalls dann<lb/>jene andere Person evtl. ermächtigen würden. Jedenfalls danke ich<lb/>Eine befristete Verlängerung</p></div>
+    </body>
+  </text>
+</TEI>

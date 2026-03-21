@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10533">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1914-06-11 Samuel Fischer / Ernst Peter Tal (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">XNS5IQCG</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 341</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten beschrieben</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1914-06-11.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Tal, Ernst Peter</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1914-06-11" n="01">1914-06-11</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Vertrag</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
+          <persName>Barnowsky, Victor</persName>
+        </person>
+        <person ref="119714746" source="https://d-nb.info/gnd/119714746">
+          <persName>Zavrel, Franz</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
+          <placeName ref="#pmb50">Wien</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="#pmb37076" source="https://pmb.acdh.oeaw.ac.at/entity/37076/">
+          <orgName>Deutsches Künstlertheater Berlin</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0664.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten beschrieben</p>
+      </div>
+          <div type="OCR"><p>341<lb/>FISCHER/VERLAG/BERLIN·THEATERABTEILUNG.<lb/>W57·BÜLÖWSTR90<lb/>AMT: LUTZÖW 1662 &amp; 6162<lb/>den 11. Juni 1914.<lb/>T/K.<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Sehr geehrter Herr Doktor!<lb/>Das Deutsche Kunstlertheater in Berlin<lb/>—  — ̃<lb/>wendet sich an uns mit der Bitte, Ihnen folgenden<lb/>Vorschlag zu unterbreiten.<lb/>Das Deutsche Kunstlertheater möchte gern<lb/>mit Ihnen eine prinzipielle Verständigung über<lb/>Ihre zukünftigen dramatischen Werke dergestalt<lb/>treffen, dass das Theater sich verpflichtet.<lb/>zu jedem neuen Stück, dass Sie ihm überlassen.<lb/>Vahl in der gleichen<lb/>inre-<lb/>G.C.H.P.<lb/>ein älteres werk nach<lb/>Saison zu spielen. Dieser Vorschlag soll die<lb/>Basis eines Vertragessein, über dessen Einzel-<lb/>heiten Herr Zavrel mit Ihnen persönlich in Wien<lb/>konferieren möchte.<lb/>Da wir nicht wissen, wie Ihre Verbindung</p></div>
+    </body>
+  </text>
+</TEI>

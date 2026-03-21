@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11474">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1929-04-11 Arthur Schnitzler (Wien) an Samuel Fischer / Konrad Maril (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">8FLRCKT3</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30486" source="https://pmb.acdh.oeaw.ac.at/entity/30486/">
+            <title>Frau Bertha Garlan</title>
+          </bibl>
+          <bibl ref="#pmb30817" source="https://pmb.acdh.oeaw.ac.at/entity/30817/">
+            <title>Therese. Chronik eines Frauenlebens</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="1186419687" source="https://d-nb.info/gnd/1186419687">
+            <orgName>European Books Limited (London)</orgName>
+          </org>
+          <org type="institution">
+            <orgName>The International Literary Agency (T.I.L.A.; auch: Agence littéraire Internationale)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Beantwortet in: <ref target="11476">1929-04-15 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1929-04-11.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1929-04-11" n="01">1929-04-11</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Verhandlung</term>
+          <term>Vertrag</term>
+          <term>Übersetzung</term>
+          <term>Übersetzungsrecht</term>
+        </keywords>
+      </textClass>
+      <listPlace>
+        <place ref="#pmb864" source="https://pmb.acdh.oeaw.ac.at/entity/864/">
+          <placeName>Leipzig</placeName>
+        </place>
+        <place ref="#pmb224" source="https://pmb.acdh.oeaw.ac.at/entity/224/">
+          <placeName>London</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416741_0083.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Beantwortet in: <ref target="11476">1929-04-15 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>J. Fisper<lb/>11.4.1929.<lb/>Lieber Herr Doktor Maril.<lb/>Sie mit<lb/>Ich weiss nicht, ob xxx der T.I.L.A.<lb/>über die „Therese“ schon abgeschlossen haben.<lb/>Nun w endet sich E. Alexander, Leipzig N 22.<lb/>European Books Ltd. Dondon W0 2 wegen "Berta<lb/>Garlan an mich. Nicht unmöglich, dass wieder mit<lb/>der<lb/>der T.I.L.A. in Verbindung steht. Jedesfalls wäre<lb/>mir eine freundliche Mitteilung,ob und in Hin-<lb/>sicht welcher Werke Sie mit der T.I.L.A. in Ver-<lb/>bindung stehen sehr willkommen.<lb/>Mit herzlichem Gruss<lb/>Ihr sehr ergebener<lb/>Herrn Konrad Maril,<lb/>Fischer.Verlag.<lb/>Berlin.</p></div>
+    </body>
+  </text>
+</TEI>

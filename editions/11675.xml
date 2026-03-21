@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11675">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1931-05-19 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">MSKCIHCT</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Beantwortet in: <ref target="11676">1931-05-21 AS (Wien) an SF (Berlin)</ref>
+Unbekannter Verfasser</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1931-05-19.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1931-05-19" n="01">1931-05-19</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Buchgestaltung/Buchschmuck/Umschlag/Einband</term>
+          <term>Buchillustration</term>
+          <term>Novelle</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb8885" source="https://pmb.acdh.oeaw.ac.at/entity/8885/">
+          <persName>Meid, Hans</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416744_0136.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Beantwortet in: <ref target="11676">1931-05-21 AS (Wien) an SF (Berlin)</ref>
+Unbekannter Verfasser</p>
+      </div>
+          <div type="OCR"><p>1039 Fl p terbres<lb/>S. FISCHERVERLAG / BERLIN W 57 / BÜL àWSTR. 90<lb/>AKTHINGESELESCHAFT<lb/>TELEGRAMM.ADRESSE: FISCHERVERLAG 6102 BERLINLÜTZÖW<lb/>PERNSPRECHER: LÜTZÖW 6162<lb/>He/Vo<lb/>den 19.V.31<lb/>Herrn<lb/>Dr. Arthur Schnitzler<lb/>Wien XVIII<lb/>c.u. märän järjestän oli<lb/>Sternwartestr.71<lb/>Sehr geehrter Herr Doktor!<lb/>Es wäre uns sehr erwünscht, wenn wir<lb/>jetzt eine Satzvorlage für Ihre neue Novelle<lb/>bekommen könnten, damit wir in aller Ruhe den<lb/>Satz herstellen und den Einband vorbereiten<lb/>lassen können. Besonders das letztere bedingt<lb/>Arbeiten,<lb/>ein frühzeitiges Beg<lb/>nen mit deutschen<lb/>mmmeWmme<lb/>aie<lb/>damit wir etwas Hübsches aus dem Bande machen<lb/>können. Voraussichtlich wird wieder Herr Pro¬<lb/>fessor Hans Meid mit der Einbandgestaltung<lb/>beauftragt werden.<lb/>Wir begrüssen Sie, sehr geehrter<lb/>Herr Doktor, mit ausgezeichneter Hochachtung<lb/>S.Fischer Verlag A.-G.<lb/>ppa.<lb/>nunauv.<lb/>Dr. Khaier<lb/>4000. 3. 30. V.<lb/>0000. 3. 30. V.<lb/>Et au soir r. 3.</p></div>
+    </body>
+  </text>
+</TEI>

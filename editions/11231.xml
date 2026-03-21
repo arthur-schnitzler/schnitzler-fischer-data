@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11231">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1926-02-27 Samuel Fischer / Konrad Maril (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">FL4V6UZM</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30775" source="https://pmb.acdh.oeaw.ac.at/entity/30775/">
+            <title>Der Gang zum Weiher</title>
+          </bibl>
+          <bibl ref="#pmb29905" source="https://pmb.acdh.oeaw.ac.at/entity/29905/">
+            <title>Der Ruf des Lebens</title>
+          </bibl>
+          <bibl type="third_party" ref="#pmb77100" source="https://pmb.acdh.oeaw.ac.at/entity/77100/">
+            <title>Georg Bernard Shaw: Die heilige Johanna (Saint Joan, dt.)</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 2 Seiten
+Antwort auf: <ref target="11230">1926-02-25 AS (Wien) an SF (Berlin)</ref>
+Anhang: SF an Direktion Dresden 1926-02-15</note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1926-02-27.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1926-02-27" n="01">1926-02-27</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Absatz/Verkauf</term>
+          <term>Aufführungsrecht</term>
+          <term>Freiexemplar</term>
+          <term>Uraufführung</term>
+          <term>Verhandlung</term>
+          <term>Übersetzung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
+          <persName>Barnowsky, Victor</persName>
+        </person>
+        <person ref="#pmb10886" source="https://pmb.acdh.oeaw.ac.at/entity/10886/">
+          <persName>Bergner, Elisabeth</persName>
+        </person>
+        <person ref="#pmb6715" source="https://pmb.acdh.oeaw.ac.at/entity/6715/">
+          <persName>Courths-Mahler, Hedwig</persName>
+        </person>
+        <person ref="#pmb15449" source="https://pmb.acdh.oeaw.ac.at/entity/15449/">
+          <persName>Dorsch, Käthe</persName>
+        </person>
+        <person ref="#pmb18607" source="https://pmb.acdh.oeaw.ac.at/entity/18607/">
+          <persName>Huebsch, Benjamin W.</persName>
+        </person>
+        <person ref="#pmb8201" source="https://pmb.acdh.oeaw.ac.at/entity/8201/">
+          <persName>Kinz, Franziska</persName>
+        </person>
+        <person ref="#pmb23921" source="https://pmb.acdh.oeaw.ac.at/entity/23921/">
+          <persName>Saltenburg, Heinz</persName>
+        </person>
+        <person ref="#pmb2381" source="https://pmb.acdh.oeaw.ac.at/entity/2381/">
+          <persName>Shaw, George Bernard</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb91564" source="https://pmb.acdh.oeaw.ac.at/entity/91564/">
+          <placeName>Rapallo</placeName>
+        </place>
+        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
+          <placeName>Ungarn</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="#pmb45530" source="https://pmb.acdh.oeaw.ac.at/entity/45530/">
+          <orgName>Deutsches Schauspielhaus in Hamburg</orgName>
+        </org>
+        <org ref="1252345240" source="https://d-nb.info/gnd/1252345240">
+          <orgName>Saltenburg-Bühnen Berlin</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0871.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 2 Seiten
+Antwort auf: <ref target="11230">1926-02-25 AS (Wien) an SF (Berlin)</ref>
+Anhang: SF an Direktion Dresden 1926-02-15</p>
+      </div>
+          <div type="OCR"><p>761<lb/>S. Fischer. Derlag. Berlin<lb/>Amt Lützow 1662 u. 6162 Theaterabteilung postscheckkonto Nr. 16692<lb/>Bankkonto: Deutsche Bank Depositenkasse P in Berlin<lb/>27. 2. 19 1 26<lb/>Berlin W, Bülowstraße 90, den<lb/>G.C.H.F.F:F.P:F:H:S<lb/>gio17e Teasorg nie elb,Teidam adisoo Teaaus,nedan neb<lb/>aet etsigmexelei iEi ejat! e¬<lb/>Te Bnehmb Hof - und "fehle"<lb/>Herrn###ev annie me¬ndl ni mehjenoam. Aban elz ehrew bnb neulen<lb/>Dr. Arthur Schnitzler<lb/>F.A.F.P.<lb/>meas<lb/>W i e n<lb/>Sehr verehrter Herr Doktor,<lb/>vielen Dank für Ihre Nachrichten über<lb/>Ihre Verhandlungen mit Barnowsky, die meine Vermutung bestätigt<lb/>cʼest eu dʼune autre beaucoup de lʼannée, mais elle<lb/>habe Ich möchte Ihnen noch mitteilen, dass die Saltenburg-Bühnen<lb/>̃ ̃̃<lb/>gleichfalls ihr Interesse an der Aufführung ausgesprochen haben,<lb/>ebenso das namburger Schauspielhaus. Den Saltenburgbühnen, die wie<lb/>3 rueux ou trois ou nouveaux.<lb/>immer eine Rolle für die Dorsch suchen, habe ich "Ruf des Lebens<lb/>Herrn<lb/>empfohlen. Saltenburg liest das Stück jetzt, nachdem es ihm von<lb/>Fischelscher sehr lebhaft empfohlen wurde. Ich habe die Heute an -<lb/>gewiesen, sich wegen eines Abschlusses an Sie zu wenden.<lb/>Was Franz betrifft, so halte ich sie für<lb/>eine sehr begabte Schauspielerin, die mir für die Rolle der Leonilda<lb/>durchaus geeignet erscheint. Sie hat hier in "Sechs Personen suchen<lb/>einen Autor" und in Stellvertretung der Bergner als "Heilige Johanna"<lb/>sehr gefallen<lb/>erreichen Sie gegen Mitte der nächsten<lb/>[ob] so<lb/>Herrn H<lb/>G. A. M.<lb/>G.C.H.F.P.<lb/>(ouvrage).<lb/>Woche in Rapallo, poste restante.<lb/>Wegen der Absatzziffer in Ungarn kann ich leider<lb/>keine Auskunft geben. Es ist ein begrenztes Absatzgebiet, in dem</p></div>
+    </body>
+  </text>
+</TEI>

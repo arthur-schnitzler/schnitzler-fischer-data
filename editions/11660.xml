@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11660">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1931-04-15 Samuel Fischer / NN (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">W63UY8ST</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
+            <title>Reigen</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Beantwortet in: <ref target="11662">1931-04-18 AS (Wien) an SF (Berlin)</ref>
+Unbekannter Verfasser</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1931-04-15.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">NN, </persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1931-04-15" n="01">1931-04-15</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Auflage/Neuauflage/Neuausgabe</term>
+          <term>Buchgestaltung/Buchschmuck/Umschlag/Einband</term>
+          <term>Buchillustration</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb2167" source="https://pmb.acdh.oeaw.ac.at/entity/2167/">
+          <persName>Salten, Felix</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416744_0122.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Beantwortet in: <ref target="11662">1931-04-18 AS (Wien) an SF (Berlin)</ref>
+Unbekannter Verfasser</p>
+      </div>
+          <div type="OCR"><p>1029 Reise Aussin<lb/>1:1:4:<lb/>P:<lb/>S. Fischer Verlag / Berlin W57 Bülowstratze 90<lb/>AKTIINGESELISCHAFT<lb/>Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto Berlin Nr. 16692<lb/>Sch/Fürnsprechanschlüsse: Amt Lützow Nr. 6162 bis 6164<lb/>Telegramm-Adresse: Fischerverlag 6162 Berlinlützow<lb/>Berlin,15. April 1931.<lb/>Herrn Dr. Arthur Schnitzler<lb/>Sternwartestrasse 71<lb/>W i e n<lb/>Sehr verehrter Herr Doktor!<lb/>Hiermit bringen wir Ihnen die vorgesehene Ausstattung der<lb/>Neuausgabe des "Reigen" zur Kenntnis. Die Druckfarben<lb/>sind noch nicht als endgültig zu betrachten. Es kommt uns<lb/>vor allem darauf an, dass Sie die Beschriftung des Schutz-<lb/>Umschlages und die Art des Einbandes kennenlernen. Herr<lb/>Felix Salten hat uns die Verwendung seiner früheren<lb/>Aeusserung über den"Reigen" ausdrücklich genehmigt.<lb/>Wir würden es sehr begrüssen, wenn Sie sich bald zu den<lb/>Entwürfen äussern würden.<lb/>Mit vorzüglicher Hochachtung<lb/>S. FISCHER, VerLAG A.-G.<lb/>DERLIN W.. BOL0W-STR. 90<lb/>W. C. Marier<lb/>Anlagen, die wir zurückerbitten.</p></div>
+    </body>
+  </text>
+</TEI>

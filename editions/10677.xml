@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10677">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1918-10-24 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">4QIIN969</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite</note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1918-10-24.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1918-10-24" n="01">1918-10-24</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Gesamtausgabe</term>
+          <term>Tantiemen</term>
+          <term>Verkaufspreis/Ladenpreis</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb12170" source="https://pmb.acdh.oeaw.ac.at/entity/12170/">
+          <persName>Mann, Heinrich</persName>
+        </person>
+        <person ref="#pmb12248" source="https://pmb.acdh.oeaw.ac.at/entity/12248/">
+          <persName>Meyrink, Gustav</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0147.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite</p>
+      </div>
+          <div type="OCR"><p>a<lb/>JER / VerLA<lb/>Ankbonto: Deutsche Bank, Depositenkasse P. Berlin / Postscheckkonto: Berlin 16892<lb/>BERLIN W 57 / BÜLowSTRASSE 9<lb/>Fernruf: Lützow 1662, 6162 und 9292<lb/>24/X. 1918<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Lieber Freund,<lb/>meinem gestrigen Brief möchte ich noch einen zweiten Vorschlag folgen<lb/>( wesenkammen maa rn<lb/>lassen, für den Fall, dass Ihnen daran liegt, die Ladenpreise der Gesammel-<lb/>ten Werke bis an die äusserste Grenze des Möglichen herabzusetzen. Ich würde<lb/>in einem solchen Fall den Preis des dreibändigen Werks gebunden billigst<lb/>auf 18 Mark, des vierbändigen auf 24 Mark festsetzen (also 6 Mark pro Band<lb/>gebunden).<lb/>Ihre Tantieme würde sich dann für das dreibändige Werk auf 3 Mark,<lb/>für das vierbändige Werk auf 4 Mark ermässigen müssen.<lb/>Wollen Sie einen Massstab für die heutigen Preise von Gesamtwerken<lb/>haben, so möchte ich darauf aufmerksam machen, dass Heinrich Manns Gesam-<lb/>melte Werke in 10 Bänden 75 Mk. gebunden kosten (M. 7,50 pro Band), Meyrinka<lb/>Gesammelte Romane in 6 Bänden 42 Mk. (7 Mk. pro Band). Die gestern vorge-<lb/>schlagenen Preise wären also keineswegs zu teuer.<lb/>Ich wäre Ihnen sehr verbunden, wenn Sie mich von Ihren Emtschluss tele-<lb/>graphisch verständigen wollten, da wir wegen der Versendung alles vorbereiten<lb/>müssen.<lb/>Mit besten Grüssen<lb/>fischer.</p></div>
+    </body>
+  </text>
+</TEI>

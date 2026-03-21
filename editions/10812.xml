@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10812">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1921-04-14 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">NKWBYFBY</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30971" source="https://pmb.acdh.oeaw.ac.at/entity/30971/">
+            <title>Casanovas Heimfahrt</title>
+          </bibl>
+          <bibl ref="#pmb31429" source="https://pmb.acdh.oeaw.ac.at/entity/31429/">
+            <title>Große Szene</title>
+          </bibl>
+          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
+            <title>Reigen</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb118088" source="https://pmb.acdh.oeaw.ac.at/entity/118088/">
+            <orgName>Karczag-Verlag (Wien)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten
+Antwort auf: <ref target="10810">1921-04-06 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1921-04-14.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1921-04-14" n="01">1921-04-14</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>amerikanisch</term>
+          <term>Amerikanische Gesamtausgabe</term>
+          <term>Aufführung</term>
+          <term>Gastspiel</term>
+          <term>Gesamtausgabe</term>
+          <term>skandinavisch</term>
+          <term>Theater</term>
+          <term>Tournee</term>
+          <term>Übersetzung</term>
+          <term>Überweisung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb10863" source="https://pmb.acdh.oeaw.ac.at/entity/10863/">
+          <persName>Beer-Hofmann, Richard</persName>
+        </person>
+        <person ref="#pmb22388" source="https://pmb.acdh.oeaw.ac.at/entity/22388/">
+          <persName>Paukner, Grete</persName>
+        </person>
+        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
+          <persName>Reinhardt, Max</persName>
+        </person>
+        <person ref="#pmb24825" source="https://pmb.acdh.oeaw.ac.at/entity/24825/">
+          <persName>Seltzer, Thomas</persName>
+        </person>
+        <person ref="#pmb4441" source="https://pmb.acdh.oeaw.ac.at/entity/4441/">
+          <persName>Sladek, Maximilian</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
+          <placeName>Deutschland</placeName>
+        </place>
+        <place ref="#pmb146" source="https://pmb.acdh.oeaw.ac.at/entity/146/">
+          <placeName>Frankfurt am Main</placeName>
+        </place>
+        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
+          <placeName>Italien</placeName>
+        </place>
+        <place ref="#pmb745" source="https://pmb.acdh.oeaw.ac.at/entity/745/">
+          <placeName>Skandinavien</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416739_0181.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten
+Antwort auf: <ref target="10810">1921-04-06 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>Fall die für mich bestimmten Beträge an eine<lb/>München überweisen zu lassen?<lb/>Bank in<lb/>Herzlichst grüssend<lb/>Herrn S.Fischer,Verlag,<lb/>Berlin.<lb/>Tascher.<lb/>14.4.1921.<lb/>G.C.H.S.<lb/>Lieber Freund.<lb/>Ich bin völlig damit einverstanden,<lb/>wenn Sie nun, nachdem Sladek vorläufig von<lb/>absieht, was ich sehr be¬<lb/>seiner tourné<lb/>greiflich finde) die von einzelnen Theatern<lb/>kommenden Anfragen in Deutschland nach eige-<lb/>genem Ermessen behandeln, und bin davon über-<lb/>zeugt, dass Sie gerade in dieser Angelegenheit<lb/>auch weiterhin mit der gebotenen Vorsicht<lb/>vorgehen werden.<lb/>Dass Halmer, Frankfurt, von der Auf¬<lb/>aus den bekannten Gründen<lb/>führung des „Reise“<lb/>Abstand nehmen will, ist natürlich ohneweiters<lb/>zu akzeptieren.<lb/>anische Verleger, der sich<lb/>Der amerik<lb/>für eine Gesamtausgabe meiner Werke zu interes<lb/>sieren scheint, ist Thomas Selzer. Es ist der-<lb/>selbe, bei dem „Casanovas Heimfahrt“ in engli-<lb/>sche sprache erscheint. Ich höre das Beste<lb/>von ihm. Eine Dame, die eben aus Amerika kommt<lb/>Frau Pankner,und die in einiger Zeit wieder<lb/>dahin zurückkehren wird, hatte Gelegenheit mit<lb/>Herrn Selzer persönlich in Verbindung zu tre-<lb/>ten. Frau Paukner wird auch Ihnen voraussicht<lb/>lich demnächst ihre Dienste für amerikanische<lb/>Uebersetzungsangelegenheiten antragen; ich<lb/>möchte Ihnen Frau P. aufs Allerwärmste empfeh-<lb/>len. Auch Beer-Hofmann wird gern als Referenz<lb/>dienen. Ueber Herrn Bartsch hört man immer<lb/>und immer wieder dasselbe.<lb/>ohne Garantie abzuschlies -.<lb/>Ita<lb/>sen empfiehlt sich absolut nicht. Ich habe</p></div>
+    </body>
+  </text>
+</TEI>

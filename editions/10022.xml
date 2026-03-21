@@ -1,0 +1,117 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10022">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1894-10-29 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">6RCV2NZG</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 10</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30117" source="https://pmb.acdh.oeaw.ac.at/entity/30117/">
+            <title>Sterben</title>
+          </bibl>
+          <bibl type="journal" ref="#pmb36166" source="https://pmb.acdh.oeaw.ac.at/entity/36166/">
+            <title>Freie Bühne</title>
+          </bibl>
+          <bibl type="journal" ref="#pmb36152" source="https://pmb.acdh.oeaw.ac.at/entity/36152/">
+            <title>Neue Deutsche Rundschau</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten beschrieben
+
+Antwort auf: 1894-10-29ante AS an SF (Erscheinungstermin und Freiexemplare 'Sterben'; nicht überliefert)</note>
+        <note type="published_in">Rodewald, 53 [Nr. 76]</note>
+        <note type="type">Handschrift (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1894-10-29.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1894-10-29" n="01">1894-10-29</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Freiexemplar</term>
+          <term>Porträt</term>
+          <term>Rabatt</term>
+          <term>Verkaufspreis/Ladenpreis</term>
+          <term>Verlagswerbung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0011.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten beschrieben
+
+Antwort auf: 1894-10-29ante AS an SF (Erscheinungstermin und Freiexemplare 'Sterben'; nicht überliefert)</p>
+      </div>
+          <div type="OCR"><p>FICQUER<lb/>MEMORANDUM.<lb/>BERene den 29/10 1894<lb/>S. FISCHER, VerlaG<lb/>Herrn Dr Arthur Schnitzler<lb/>VERLAGSBURCHHANDLUNG<lb/>BERene W., STEGLITZER STRASSE 49 I.<lb/>Wien<lb/>TELEPHON VI Xl. 1662.<lb/>or<lb/>Sehr geehrter Herr Doct<lb/>revenu.<lb/>Sy denke mit Ihrem Buch, allerspätestens am<lb/>November zu erscheinen; die Freie Bühne wird im<lb/>Novemberheft den größten Theil veröffentlichen, im<lb/>Dezember nur, etwa o seiten Schluss.<lb/>Von 50 freiexempl. kann gar keine Rei¬<lb/>sein; die wenigen Büsterkäufer die für<lb/>ein Buch Auferesse haben, mögen es kaufen<lb/>darauf ist der Verlag angewiesen. Wird<lb/>das Buch gut gegen umsöbesser für uns<lb/>beide. Wenn sie eine größere Ausahl von<lb/>Capl. wünschen, so will ich Ihnen dieselben<lb/>zung<lb/>entre<lb/>voe</p></div>
+    </body>
+  </text>
+</TEI>

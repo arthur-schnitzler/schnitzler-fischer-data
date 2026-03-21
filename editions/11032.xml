@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11032">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1923-10-29 Arthur Schnitzler (Wien) an Samuel Fischer / Hans Jacob (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">7S8D297A</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Antwort auf: <ref target="11030">1923-10-27 SF (Berlin) an AS (Wien)</ref>
+Beantwortet in: <ref target="11033">1923-11-01 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-10-29.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1923-10-29" n="02">1923-10-29</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Jacob, Hans</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Ermächtigung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb4374" source="https://pmb.acdh.oeaw.ac.at/entity/4374/">
+          <persName>Maril, Konrad</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416739_0294.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Antwort auf: <ref target="11030">1923-10-27 SF (Berlin) an AS (Wien)</ref>
+Beantwortet in: <ref target="11033">1923-11-01 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>(R d 29) 10. 1923.<lb/>sacot.<lb/>.S.<lb/>Lieber und verehrter Herr Dr.Jacob.<lb/>Ich bedle mich Ihnen hezlich ihnenxx<lb/>für Ihren eben angekommenen Brief zu danken und<lb/>erfülle selbstverständlich nicht nur Ihren, son<lb/>dern auch meinen Wunsch,wenn ich Sie ermächtige<lb/>im Sinne der einzelnen Punkte Ihres Briefes<lb/>mit S. Fischer definitiv alles so zu regelh, dass<lb/>nicht immer neue Differenzen hinter her kommen.<lb/>Damit erübrigt es sich für heute auf die xxxx<lb/>von Ihnen so präzis gefassten Einzelheiten Ihrer<lb/>Verhandlungen mit Fischer und Dr.Marill einzu¬<lb/>gehen. Mein Gewissen ist etwas bedrückt, dass ich<lb/>Ihnen so viele Mühe mache, aber da es imGanzen<lb/>doch den Anschein hat, als wenn Sie sich mit<lb/>Fischer leidlich verstehen würden, so kann ich<lb/>mir vorstellen, dass sich hier ein Verhältnis<lb/>ans inntt, das nicht nur für mich, sondern auch für<lb/>Sie in irgend einer Weise günstige Folgen zelti<lb/>gen wird.<lb/>Dass Ihre liebe Gattin so rasch und<lb/>unerwartet ab, ereist ist, hat mir und meinen Kin-<lb/>dern sehr leid getan. Sie hat uns alleerebert<lb/>und wir hoffen sehr Sie Feide bald wieder zu<lb/>sehen.<lb/>Mit vielen Grüssen für sie Beide<lb/>und wiederholtem aufrichtigen Dank<lb/>Ihi<lb/>Herrn Dr.Hans Jacob,<lb/>Berlin.</p></div>
+    </body>
+  </text>
+</TEI>

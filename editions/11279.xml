@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11279">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1927-02-03 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">SBJM5T4E</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30971" source="https://pmb.acdh.oeaw.ac.at/entity/30971/">
+            <title>Casanovas Heimfahrt</title>
+          </bibl>
+          <bibl ref="#pmb30051" source="https://pmb.acdh.oeaw.ac.at/entity/30051/">
+            <title>Der Geist im Wort und der Geist in der Tat</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Antwort auf: <ref target="11278">1927-01-29 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1927-02-03.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1927-02-03" n="01">1927-02-03</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Absatz/Verkauf</term>
+          <term>Auflage/Neuauflage/Neuausgabe</term>
+          <term>Freiexemplar</term>
+          <term>Honorar</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb4374" source="https://pmb.acdh.oeaw.ac.at/entity/4374/">
+          <persName>Maril, Konrad</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416740_0103.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Antwort auf: <ref target="11278">1927-01-29 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>ischer Verlag<lb/>3.2.1927.<lb/>P.<lb/>Lieber Freund.<lb/>Ich sende hier noch eine weitere<lb/>nach trageliste mit Adressen für die Versen¬<lb/>ein mit der Bitte um Erle¬<lb/>dung des „G.<lb/>digung.<lb/>Mit Ihrem Vorschlag den Verkauf<lb/>der alten „Casanova - Auflagen zu dem genann-<lb/>ten pamschpratse und der von Ihnen vorge-<lb/>schlagenen Zahlung an mich betreffend wäre<lb/>ich einverstanden, wenn Sie nicht glauben<lb/>dass das Erscheinen der Novelle auf dem Bü-<lb/>chormarkte zu dem biligen Preise den spä<lb/>teren Verkaufschancen und dem Buch über-<lb/>haupt schädlich sein xxx dürfte.<lb/>Bitte lassen Sie mir senden, was<lb/>über das Diogramm erscheinen sollte.<lb/>Mit Herrn Dr.Maril habe ich mich<lb/>ausführlich und angenehm über den Bühnen<lb/>vertrieb meiner neuen Werke unterhalten.<lb/>Mit herzlio vom Gruss<lb/>Ihr<lb/>Herrn S.Fischer,Verlag,<lb/>Berlin.</p></div>
+    </body>
+  </text>
+</TEI>

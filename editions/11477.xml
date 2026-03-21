@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11477">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1929-04-24 Arthur Schnitzler (Wien) an Samuel Fischer / Konrad Maril (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">FCJWMXQ8</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30649" source="https://pmb.acdh.oeaw.ac.at/entity/30649/">
+            <title>Der blinde Geronimo und sein Bruder</title>
+          </bibl>
+          <bibl ref="#pmb33061" source="https://pmb.acdh.oeaw.ac.at/entity/33061/">
+            <title>Die dreifache Warnung</title>
+          </bibl>
+          <bibl ref="#pmb30201" source="https://pmb.acdh.oeaw.ac.at/entity/30201/">
+            <title>Doktor Gräsler, Badearzt</title>
+          </bibl>
+          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
+            <title>Liebelei</title>
+          </bibl>
+          <bibl ref="#pmb29903" source="https://pmb.acdh.oeaw.ac.at/entity/29903/">
+            <title>Zwischenspiel</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb48752" source="https://pmb.acdh.oeaw.ac.at/entity/48752/">
+            <orgName>Phaidon-Verlag (Wien)</orgName>
+          </org>
+          <org type="publisher">
+            <orgName>Strom-Verlag (Wien)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Antwort auf: <ref target="11475">1929-04-11 SF (Berlin) an AS (Wien)</ref>
+Beantwortet in: <ref target="11478">1929-04-29 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1929-04-24.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1929-04-24" n="01">1929-04-24</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Abrechnung</term>
+          <term>Aufführung</term>
+          <term>Auflage/Neuauflage/Neuausgabe</term>
+          <term>deutsch</term>
+          <term>Esperanto-Sprache</term>
+          <term>Honorar</term>
+          <term>Schulausgabe</term>
+          <term>Spende</term>
+          <term>Übersetzung</term>
+        </keywords>
+      </textClass>
+      <listPlace>
+        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
+          <placeName ref="#pmb168">Berlin</placeName>
+        </place>
+        <place ref="#pmb862" source="https://pmb.acdh.oeaw.ac.at/entity/862/">
+          <placeName>Brüssel</placeName>
+        </place>
+        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
+          <placeName>Niederlande</placeName>
+        </place>
+        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
+          <placeName>USA</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416741_0084.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Antwort auf: <ref target="11475">1929-04-11 SF (Berlin) an AS (Wien)</ref>
+Beantwortet in: <ref target="11478">1929-04-29 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>Holland Zweck<lb/>S. Fischer<lb/>Espe¬ 24.4.1929.<lb/>Sham The dor<lb/>Lieber Herr Doktor Maril.<lb/>Anläselich der eben angelangten<lb/>Märs-Verrechnung erlaube ich mir die Frage,ob<lb/>Holland, "Zwischenspiel", noch nicht abgerechnet<lb/>hat. Ferner ob Ihnen von einer Aufführung der "Lie-<lb/>belei" in Brüssel etwas bekannt geworden ist.<lb/>(Beigeschlossen ein bezüglicher Ausschnitt.<lb/>zur<lb/>Als ich letzt in Berlin war, schon bei<lb/>Gelegenheit meines ersten Besuches im Bureau,<lb/>teilte man mir mit, dass aus Amerika ein Scheck<lb/>über einige hundert Dollars eingetroffen sei (ir-<lb/>gend eine deutsche Schulausgabe eines meiner Wer-<lb/>ke), den man mir separat verrechnen wollte, doch<lb/>verschob man das mit meiner Zustimmung bis zu<lb/>genauerer Information. Wie steht es mit dieser<lb/>Sache?<lb/>Die 15 Mark für die Esperantoübersetzung<lb/>der "Dreifachen Warnung" xxx<lb/>kan bitte für eine gelegentliche Spende reserviert<lb/>zu halten, worüber ich mir erlauben werde Auftrag<lb/>zu erteilen.<lb/>Den Betrag für den Abdruck von "Gräsler"<lb/>und "Geronimo" habe ich erhalten. Ist der "Strom".<lb/>Verlag mit dem Phaidon-Verlag identisch?<lb/>Ich hoffe, Sie haben sich schon ganz er-<lb/>holt und bin mit herzlichen Grüssen<lb/>Ihr ganz ergebener<lb/>Herrn Dr. Konrad Maril,<lb/>S.Fischer,Verlag.<lb/>Berlin.</p></div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10425">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1912-03-15 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">UN5JK2N8</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 272</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite beschrieben
+
+Bezug auf: <ref target="10421">1912-03-06 AS an SF</ref>
+Beantwortet in: <ref target="10427">1912-03-20 AS an SF</ref></note>
+        <note type="published_in">Rodewald, 95-96 [Nr. 131; fälschlich datiert auf 16.3.1912]</note>
+        <note type="type">Typoskript (Unterschrift-Stempel)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1912-03-15.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1912-03-15" n="02">1912-03-15</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Buchillustration</term>
+          <term>Gesamtausgabe</term>
+          <term>Honorar</term>
+          <term>Photographie</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb2327" source="https://pmb.acdh.oeaw.ac.at/entity/2327/">
+          <persName>Löwenstamm, Emma</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0535.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite beschrieben
+
+Bezug auf: <ref target="10421">1912-03-06 AS an SF</ref>
+Beantwortet in: <ref target="10427">1912-03-20 AS an SF</ref></p>
+      </div>
+          <div type="OCR"><p>275.<lb/>S. Fischer, Verlag, Berlin Wi., Bülowstrasse 90<lb/>15/3. 1912<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Lieber Herr Doktor,<lb/>Fräulein Löwenstamm fragt an, welches Honorar sie für die Re-<lb/>produktion des Porträts bekommen soll. Hätte ich annehmen können,<lb/>dass Frl. Löwenstamm für den Abdruck ein Honorar wünscht, so hätte<lb/>ich Ihnen gleich geschrieben, dass dafür in meiner Kalkulation kein<lb/>Raum ist. Die Kalkulation ist aufs allerknappste festgestellt und<lb/>ich könnte Fräulein Löwenstamm höchstens 50 Mark anbieten. Da ich<lb/>nicht weiss, ob ich sie mit einem solchen Honoraranerbieten nicht<lb/>enttäuschen würde, möchte ich von Ihnen wissen, ob Sie dieses Honorar<lb/>für ausreichend halten oder ob wir lieber auf die Reproduktion<lb/>verzichten wollen.<lb/>Es handelt sich doch hier um eine billige Ausgabe Ihrer Werke,<lb/>die Reproduktion nach einer Photographie wäre also durchaus ge-<lb/>rechtfertigt. Allen Gesamtausgaben meines Verlages sind denn auch<lb/>Porträts nur nach Originalphotographien beigegeben.<lb/>Mit herzlichen Grüssen<lb/>bieten<lb/>F.Fische</p></div>
+    </body>
+  </text>
+</TEI>

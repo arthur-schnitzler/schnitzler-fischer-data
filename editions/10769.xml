@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10769">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1920-07-20 Samuel Fischer / Rudolf Kayser (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">FIGSGHBT</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30486" source="https://pmb.acdh.oeaw.ac.at/entity/30486/">
+            <title>Frau Bertha Garlan</title>
+          </bibl>
+          <bibl ref="#pmb30117" source="https://pmb.acdh.oeaw.ac.at/entity/30117/">
+            <title>Sterben</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="16075869-5" source="https://d-nb.info/gnd/16075869-5">
+            <orgName>Biblioteca Nueva (Madrid)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite</note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1920-07-20.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Kayser, Rudolf</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1920-07-20" n="01">1920-07-20</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Gesamtausgabe</term>
+          <term>Novelle</term>
+          <term>Übersetzungsrecht</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person>
+          <persName>Mingarro Sanmartín, José (Übersetzer, Spanien)</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0291.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite</p>
+      </div>
+          <div type="OCR"><p>1468<lb/>N 57<lb/>Derlag/ Berli<lb/>Fischer/<lb/>Nr. 1669<lb/>Depositenkasse P in Berlin / Postecheckkonto:<lb/>Lützow Nr. 1662. 6162 und 9292<lb/>sere: Amt:<lb/>20. Juli 1920<lb/>Ka/si.<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Sehr geehrter Herr Doktor,<lb/>soeben teilt uns die "Bibliotheka nueva", vertreten durch<lb/>Herrn Kingarro San Martin, Madrid, mit, dass sie<lb/>„ Frau Berta Garlan" und<lb/>„ Sterben „<lb/>mit zwei oder drei kleinen Novellen aus dem ersten Band Ihrer<lb/>Gesammelten Schriften erwerben möchte. Wir mochten Sie bitten,<lb/>uns mitzuteilen, welche Novellen Sie mit "Sterben " zusammen<lb/>übersetzen lassen möchten und zu welchen Bedingungen wir abschliessen<lb/>sollen. Für möglichst umgehende Nachricht wären wir Ihnen sehr<lb/>dankbar.<lb/>Mit vorzüglicher Hochachtung<lb/>" 8. FISCHER. VerlaG<lb/>Rayne</p></div>
+    </body>
+  </text>
+</TEI>

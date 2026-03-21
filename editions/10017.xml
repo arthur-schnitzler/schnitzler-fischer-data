@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10017">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1894-09-11 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">KXQBLT8M</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 9</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30117" source="https://pmb.acdh.oeaw.ac.at/entity/30117/">
+            <title>Sterben</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten beschrieben
+
+Antwort auf: 1894-09-11ante AS an SF (Erscheinen 'Sterben' im Herbst 1894; nicht überliefert)</note>
+        <note type="published_in">Rodewald, 52 [Nr. 75]</note>
+        <note type="type">Handschrift (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1894-09-11.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1894-09-11" n="01">1894-09-11</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Erscheinungstermin</term>
+          <term>Roman</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0010.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten beschrieben
+
+Antwort auf: 1894-09-11ante AS an SF (Erscheinen 'Sterben' im Herbst 1894; nicht überliefert)</p>
+      </div>
+          <div type="OCR"><p>Een<lb/>MEMORANDUM.<lb/>BERLIN, den 11/9<lb/>S. Fischer, Verlag<lb/>Herrn Nr Arthur Schnitzler<lb/>Hofbuchhandlung<lb/>BERene. W., Köthener-Str. No. 44<lb/>Wien<lb/>....<lb/>ouvrire<lb/>Telephon VI No. 1662<lb/>Sehr geehrter Herr!<lb/>Wenn Ihnen wirklich so sehr viel daran, liegt<lb/>Dass das Buch bis 30. November d. S. erscheint<lb/>so will ich gern Ihren Wunsch erfüllen, obgleich<lb/>Dieser termin der Denkbar unglücklichste ist, da<lb/>in der Fülle der Weihnachtst Geschenkhücher<lb/>eine solche Erscheinung nicht aufkomt. Kein<lb/>Ruchhändler nimmt zu dieser Zeit für einen Koman¬<lb/>Suferesse und der Schaden ist für uns Feide der<lb/>Gleiche. Nur deshalb wollte ich Ihr Buch im<lb/>Januar Wingen- Schreiben sie etwas neues?<lb/>Ihrergebenster Stische<lb/>am</p></div>
+    </body>
+  </text>
+</TEI>

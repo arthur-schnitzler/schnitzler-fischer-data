@@ -1,0 +1,161 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10939">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1922-10-06 Arthur Schnitzler (Wien) an Samuel Fischer / Leo Greiner (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">57UM5SN2</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30971" source="https://pmb.acdh.oeaw.ac.at/entity/30971/">
+            <title>Casanovas Heimfahrt</title>
+          </bibl>
+          <bibl ref="#pmb33760" source="https://pmb.acdh.oeaw.ac.at/entity/33760/">
+            <title>Der tote Gabriel</title>
+          </bibl>
+          <bibl ref="#pmb30167" source="https://pmb.acdh.oeaw.ac.at/entity/30167/">
+            <title>Die griechische Tänzerin</title>
+          </bibl>
+          <bibl ref="#pmb30717" source="https://pmb.acdh.oeaw.ac.at/entity/30717/">
+            <title>Komödie der Worte</title>
+          </bibl>
+          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
+            <title>Reigen</title>
+          </bibl>
+          <bibl ref="#pmb29903" source="https://pmb.acdh.oeaw.ac.at/entity/29903/">
+            <title>Zwischenspiel</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb29586" source="https://pmb.acdh.oeaw.ac.at/entity/29586/">
+            <orgName>Brandt &amp; Kirkpatrick (New York)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten</note>
+        <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-10-06.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1922-10-06" n="02">1922-10-06</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Greiner, Leo</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführungsrecht</term>
+          <term>Luxusausgabe</term>
+          <term>ungarisch</term>
+          <term>Vertrag</term>
+          <term>Übersetzung</term>
+          <term>Übersetzungsrecht</term>
+          <term>Überweisung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb19016" source="https://pmb.acdh.oeaw.ac.at/entity/19016/">
+          <persName>Kalckar, Marc</persName>
+        </person>
+        <person ref="#pmb19026" source="https://pmb.acdh.oeaw.ac.at/entity/19026/">
+          <persName>Kalisch, Emilie</persName>
+        </person>
+        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
+          <persName>Kauser, Alice</persName>
+        </person>
+        <person ref="#pmb25150" source="https://pmb.acdh.oeaw.ac.at/entity/25150/">
+          <persName>Spachner, Leopold</persName>
+        </person>
+        <person ref="#pmb26030" source="https://pmb.acdh.oeaw.ac.at/entity/26030/">
+          <persName>Thomsen, Niels Thingberg</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb36300" source="https://pmb.acdh.oeaw.ac.at/entity/36300/">
+          <placeName>Kopenhagen</placeName>
+        </place>
+        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
+          <placeName>Polen</placeName>
+        </place>
+        <place ref="#pmb388" source="https://pmb.acdh.oeaw.ac.at/entity/388/">
+          <placeName>Spanien</placeName>
+        </place>
+        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
+          <placeName>Ungarn</placeName>
+        </place>
+        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
+          <placeName>USA</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="#pmb58660" source="https://pmb.acdh.oeaw.ac.at/entity/58660/">
+          <orgName>Betty Nansen-Teatret Kopenhagen</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416739_0245.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten</p>
+      </div>
+          <div type="OCR"><p>mich voraussichtlich auf eine Vortragsreisein<lb/>die Cechoslowakei, Brünn, Prag, wahrscheinIch<lb/>Teplitz, Aussig, Reichenberg. Hoffentlich sind<lb/>die Buchhändler in den grösseren cechoslowa<lb/>kischen Städten mit meinen Büchernleidlich<lb/>versorgt.<lb/>Mit herzlichen Grüssen<lb/>v. Th. S.Fischer,<lb/>Berlin.<lb/>"<lb/>toutes<lb/>6.10.1 &amp; 2.<lb/>Verehrtester Herr Greiner.<lb/>1. Aus Kopenhagen erhalte ich (durch<lb/>den Schriftsteller Thomsen) die Nachricht,das<lb/>das Betti-Nansen -Theater den „reigen vor-<lb/>bereits. Ist Ihnen davon etwas bekannt? Ist<lb/>vielleicht durch Herrn Kalckar ein Vertrag<lb/>geschl a sen worden? Ich habe keinerlei Auto-<lb/>riation erteilt.<lb/>2. Haben Sie aus Spanien hinsichtlich<lb/>„Komödie der Worte etwas Neues gehört? Hät-<lb/>ten wir nun das Recht, da nach der Zahlung von<lb/>300 Pesos für Buch-und Aufführungsgarantie<lb/>koine weiters Nachricht an mich gelangt ist,<lb/>frei zu verfügen? Ist ein bestimmter Ter<lb/>min festgesetzt gewesen?<lb/>3. Wenn die Zahlung für die jüdische<lb/>ebersetzung des „Toten Gabriel noch nicht<lb/>der Deutschen Bank überweisen sein sollte,<lb/>so bitte diesbezüglichen Auftrag zu erteilen.<lb/>stehe ich<lb/>4. Ueber.Zwischenspiel<lb/>für Amerika in Unterhandlung mit Herrn Spach¬<lb/>dessen Frau Mrs. Kalisch es spielen will,<lb/>diese Verhandlungen dürften in Kürze zu einem<lb/>Resultat führen. Bei dieser Gelegenheit er<lb/>fuhr ich, dass Alice Kaiser sich nach wie<lb/>vor als Vertrerin des Verlages Fischer ge<lb/>riert und in dieser usurpierten Eigenschaft<lb/>ablehnte das Aufführungsrecht.Zwischen<lb/>spiel zu vergeben.<lb/>5. Ich wiederhole meine Anfrage, ob<lb/>Kirpatrik &amp; Brandt schon irgend einen nennen?<lb/>Werten Abschluss für irgend einen Autor in<lb/>ihrer Vertretung gemacht haben und wäre für</p></div>
+    </body>
+  </text>
+</TEI>

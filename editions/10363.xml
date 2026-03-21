@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10363">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1911-01-16 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">C2PJGXPX</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 238</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
+            <title>Anatol</title>
+          </bibl>
+          <bibl ref="#pmb30005" source="https://pmb.acdh.oeaw.ac.at/entity/30005/">
+            <title>Anatol: Abschiedssouper</title>
+          </bibl>
+          <bibl ref="#pmb30749" source="https://pmb.acdh.oeaw.ac.at/entity/30749/">
+            <title>Anatol: Die Frage an das Schicksal</title>
+          </bibl>
+          <bibl ref="#pmb30207" source="https://pmb.acdh.oeaw.ac.at/entity/30207/">
+            <title>Das weite Land</title>
+          </bibl>
+          <bibl ref="#pmb29877" source="https://pmb.acdh.oeaw.ac.at/entity/29877/">
+            <title>Die letzten Masken</title>
+          </bibl>
+          <bibl ref="#pmb29931" source="https://pmb.acdh.oeaw.ac.at/entity/29931/">
+            <title>Komtesse Mizzi</title>
+          </bibl>
+          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
+            <title>Liebelei</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 2 Seiten beschrieben
+
+Antwort auf: <ref target="10362">1911-01-14 AS an SF</ref>
+Beantwortet in: <ref target="10364">1911-01-23 AS an SF</ref></note>
+        <note type="type">Typoskript (Unterschrift-Stempel)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1911-01-16.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1911-01-16" n="01">1911-01-16</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb12438" source="https://pmb.acdh.oeaw.ac.at/entity/12438/">
+          <persName>Adam, Robert</persName>
+        </person>
+        <person ref="#pmb14344" source="https://pmb.acdh.oeaw.ac.at/entity/14344/">
+          <persName>Bock, Philipp</persName>
+        </person>
+        <person ref="#pmb2229" source="https://pmb.acdh.oeaw.ac.at/entity/2229/">
+          <persName>Handl, Willi</persName>
+        </person>
+        <person ref="#pmb24477" source="https://pmb.acdh.oeaw.ac.at/entity/24477/">
+          <persName>Schott, Richard</persName>
+        </person>
+        <person ref="#pmb3365" source="https://pmb.acdh.oeaw.ac.at/entity/3365/">
+          <persName>Stollberg, Ignaz Georg</persName>
+        </person>
+      </listPerson>
+      <listOrg type="theaters">
+        <org ref="#pmb29265" source="https://pmb.acdh.oeaw.ac.at/entity/29265/">
+          <orgName>Akademisch-dramatischer Verein (Neuer Verein) München</orgName>
+        </org>
+        <org ref="63304-5" source="https://d-nb.info/gnd/63304-5">
+          <orgName>Königlich Württembergisches Hof-Theater Stuttgart</orgName>
+        </org>
+        <org ref="44467-4" source="https://d-nb.info/gnd/44467-4">
+          <orgName>Münchner Schauspielhaus</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0470.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 2 Seiten beschrieben
+
+Antwort auf: <ref target="10362">1911-01-14 AS an SF</ref>
+Beantwortet in: <ref target="10364">1911-01-23 AS an SF</ref></p>
+      </div>
+          <div type="OCR"><p>238.<lb/>S. Fischer, Verlag, Berlin W., Bülowstraße 90<lb/>den 16/1. 1911<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Lieber Herr Doktor,<lb/>die Arbeiten von Robert Adam sollen sorgfältig geprüft werden.<lb/>Bock zahlt in der Regel 4 % Tantieme. Er hat sich heute mit uns<lb/>in Verbindung gesetzt, wir haben ihm gesagt, dass er das "Weite Land"<lb/>erst im Herbst, nach der Uraufführung im Lessing-Theater spielen dürfte.<lb/>Die Verhandlungen haben sich sofort zerschlagen, weil ihm darum zu tun<lb/>war, Ihr Stück im März zu spielen.<lb/>Sie wissen, dass wir die Textbücher von "Liebelei" für den Verleger<lb/>Schott in Mainz drucken. Der Vertrieb der Textbücher liegt demnach nicht<lb/>in unserer Hand, wir führen nur die Aufträge aus, die Schott uns aufgibt.<lb/>Mag sein, dass er noch von den früher gelieferten Exemplaren Vorräte hat<lb/>und darum jetzt nur 1000 bestellt hat.<lb/>Das Münchner Schauspialhaus spielt, wie Sie aus den Abrechnungen ge-<lb/>sehen haben, noch immer "Abschiedssouper" mit "Masken" und "Komtess Mizzi",<lb/>Die "Frage an das Schicksal" hat das Hoftheater, von dort wird es gegebe-<lb/>nen Falls freizubekommen sein. Wir haben Herrn Stolberg angefragt, ob er<lb/>den Anatol-Zyklus Spielen will und anstatt des „Abschiedssouper“ einen<lb/>andern Einakter aus dem Zyklus einfügen will. Die Aufführung des Neuen<lb/>Vereins in München hat keinen Zweck und müsste jedenfalls abgelehnt werden.<lb/>Ausser den Ihnen neulich aufgegebenen Bühnen, die den Anatol-zyklus<lb/>aufgenommen haben, schweben neuerdings auch noch Verhandlungen mit dem</p></div>
+    </body>
+  </text>
+</TEI>

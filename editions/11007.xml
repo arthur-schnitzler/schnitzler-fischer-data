@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11007">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1923-07-30 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">J9VB6YWZ</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Antwort auf: <ref target="11005">1923-07-23 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in: <ref target="11010">1923-08-28 AS (Celerina) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-07-30.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1923-07-30" n="01">1923-07-30</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Abrechnung</term>
+          <term>Überweisung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb2334" source="https://pmb.acdh.oeaw.ac.at/entity/2334/">
+          <persName>Langmann, Philipp</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0637.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Antwort auf: <ref target="11005">1923-07-23 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in: <ref target="11010">1923-08-28 AS (Celerina) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>624<lb/>Fischer/Verlag/Berlin M 57/Bülowstraffe 9o<lb/>to: Deutsche Bank. Depositenkasse P in Berlin / Postscheckkonto: Berlin Nr. 16699<lb/>küsse: Amt Lützow Nr.<lb/>Fernspre-<lb/>6162-6164<lb/>Berlin, den 30. Juli 1923<lb/>Fl/Ml.<lb/>Herrn<lb/>Dr. Arthur Schnitzler<lb/>d e n<lb/>Lieber Freund!<lb/>Wir stellen Ihnen a-Conto der laufenden Verrechnung<lb/>weitere 8 Millionen zur Verfügung und überweisen die Summe<lb/>gleichzeitig an die Bank für Auswärtigen Handel. Vertrags-<lb/>gemäss hatten wir die nächste Abrechnung im November Zu<lb/>leisten, aber ich hoffe, es wird gelingen, Ihnen schon im<lb/>September eine weitere vierteljährliche Abrechnung zu geben.<lb/>Von Langmann kann ich zu meinem Bedauern nichts<lb/>drucken.Die Produktionsverhältnisse werden immer schwieriger<lb/>und da muss ich mich in der Hauptsache auf meine Autoren be-<lb/>schränken.<lb/>Wir gehen im Laufe dieser Woche nach dem Schwarzwald,<lb/>Feldberger HoffFeldberg 1500 m hoch). Das ist garnicht weit<lb/>von Baden-Baden. Wie wäre es, wenn Sie auf einen Sprung zu uns<lb/>kommen. Vielleicht würde es Ihnen dort gefallen.<lb/>Für alle Fälle wüschen wir Ihnen gute und schöne<lb/>Sommertage.<lb/>Mit herzlichen Grüssen<lb/>this<lb/>Effische</p></div>
+    </body>
+  </text>
+</TEI>

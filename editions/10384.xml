@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10384">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1911-06-02 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">U95NTT69</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 251</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29985" source="https://pmb.acdh.oeaw.ac.at/entity/29985/">
+            <title>Der einsame Weg</title>
+          </bibl>
+          <bibl ref="#pmb29937" source="https://pmb.acdh.oeaw.ac.at/entity/29937/">
+            <title>Der junge Medardus</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 2 Seiten beschrieben
+
+Antwort auf: <ref target="10383">1911-06-01 AS an SF</ref>
+Beantwortet in: <ref target="10385">1911-06-06 AS an SF</ref></note>
+        <note type="published_in">Buohler 2011, 172 (Auszug)</note>
+        <note type="type">Typoskript (Unterschrift-Stempel)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1911-06-02.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1911-06-02" n="01">1911-06-02</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Ablehnung/Absage</term>
+          <term>Aufführung</term>
+          <term>Garantiesumme</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb10896" source="https://pmb.acdh.oeaw.ac.at/entity/10896/">
+          <persName>Bernauer, Rudolf</persName>
+        </person>
+        <person ref="#pmb11198" source="https://pmb.acdh.oeaw.ac.at/entity/11198/">
+          <persName>Durieux, Tilla</persName>
+        </person>
+        <person ref="11674748X" source="https://d-nb.info/gnd/11674748X">
+          <persName>Fred, Alfred W.</persName>
+        </person>
+        <person ref="#pmb2229" source="https://pmb.acdh.oeaw.ac.at/entity/2229/">
+          <persName>Handl, Willi</persName>
+        </person>
+        <person ref="#pmb12078" source="https://pmb.acdh.oeaw.ac.at/entity/12078/">
+          <persName>Lindau, Paul</persName>
+        </person>
+        <person ref="#pmb12081" source="https://pmb.acdh.oeaw.ac.at/entity/12081/">
+          <persName>Lindner, Anton</persName>
+        </person>
+        <person ref="#pmb8889" source="https://pmb.acdh.oeaw.ac.at/entity/8889/">
+          <persName>Meinhard, Carl</persName>
+        </person>
+        <person ref="#pmb12813" source="https://pmb.acdh.oeaw.ac.at/entity/12813/">
+          <persName>Speidel, Albert von</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
+          <placeName>München</placeName>
+        </place>
+        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
+          <placeName>Prag</placeName>
+        </place>
+        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
+          <placeName ref="#pmb50">Wien</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="#pmb29380" source="https://pmb.acdh.oeaw.ac.at/entity/29380/">
+          <orgName>Berliner Theater</orgName>
+        </org>
+        <org ref="#pmb44112" source="https://pmb.acdh.oeaw.ac.at/entity/44112/">
+          <orgName>Nationaltheater München</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0495.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 2 Seiten beschrieben
+
+Antwort auf: <ref target="10383">1911-06-01 AS an SF</ref>
+Beantwortet in: <ref target="10385">1911-06-06 AS an SF</ref></p>
+      </div>
+          <div type="OCR"><p>251<lb/>S. Fischer, Verlag, Berlin W., Bülowstraße 90<lb/>den 2. Juni 1911<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Lieber Herr Doktor,<lb/>mit Robert haben wir abgeschlossen, weil sich für den "Einsamen<lb/>Weg" in München keine Bühne gefunden hat. Der Termin für die Auf-<lb/>führung läuft bis 1912, inzwischen soll das Theater für Robert um-<lb/>gebaut werden. Wir haben uns eine Garantie von 200 Mark gesichert<lb/>(mehr war nicht zu erzielen), die Summe ist zahlbar nach Freigabe<lb/>des Stückes durch die Zensur.<lb/>Ueber den Erfolg des "Medardus" in Prag bin ich unterrichtet. Es<lb/>wird nichts anderes übrig bleiben, als abzuwarten, der Medardus wird<lb/>sich schon durchsetzen.<lb/>Die Durieux hat nicht ganz unrecht, das Berliner Theater kommt<lb/>vielleicht für Ihr Stück in Betracht. Wir müssen aber erst noch ab-<lb/>warten, wie sich das Ensemble des Berliner Theaters gestaltet. Die<lb/>Direktoren Meinhard und Bernauer haben noch ein zweites Theater ge-<lb/>pachtet, sie haben grosse Ambitionen und ich vermute, dass auch die<lb/>Durieux dort spielen wird.<lb/>Dass Lindau für das Kgl. Schauspielhaus abgelehnt hat, habe ich<lb/>Ihnen ja schon geschrieben; er hat die Absage sehr richtig damit mo-<lb/>tiviert, dass das Schauspielhaus Ihnen eine Aufführung, mit der es<lb/>sich sehen lassen könnte, nicht bieten kann. Um Deutschland für den<lb/>"Medardus" zu erobern, käme ausser Berlin in erster Linie München in<lb/>Betracht. Das Hoftheater hat abgelehnt. Wenn sich der Intendant</p></div>
+    </body>
+  </text>
+</TEI>

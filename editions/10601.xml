@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10601">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1917-01-18 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">IIZUW6CV</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
+            <title>Anatol</title>
+          </bibl>
+          <bibl ref="#pmb29985" source="https://pmb.acdh.oeaw.ac.at/entity/29985/">
+            <title>Der einsame Weg</title>
+          </bibl>
+          <bibl ref="#pmb30167" source="https://pmb.acdh.oeaw.ac.at/entity/30167/">
+            <title>Die griechische Tänzerin</title>
+          </bibl>
+          <bibl ref="#pmb30486" source="https://pmb.acdh.oeaw.ac.at/entity/30486/">
+            <title>Frau Bertha Garlan</title>
+          </bibl>
+          <bibl ref="#pmb30717" source="https://pmb.acdh.oeaw.ac.at/entity/30717/">
+            <title>Komödie der Worte</title>
+          </bibl>
+          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
+            <title>Liebelei</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="107307059X" source="https://d-nb.info/gnd/107307059X">
+            <orgName>Tempel-Verlag (Leipzig)</orgName>
+          </org>
+          <org type="publisher" ref="#pmb29681" source="https://pmb.acdh.oeaw.ac.at/entity/29681/">
+            <orgName>Ullstein Verlag (Berlin)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blätter, 4 Seiten
+Antwort auf: <ref target="10600">1916-12-30 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in: <ref target="10602">1917-02-19 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="published_in">Rodewald, 112-114 [Nr. 151]</note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift, eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1917-01-18.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1917-01-18" n="01">1917-01-18</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführung</term>
+          <term>Gesamtausgabe</term>
+          <term>Honorar</term>
+          <term>Novelle</term>
+          <term>polnisches Theater</term>
+          <term>Verlagswerbung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb9999" source="https://pmb.acdh.oeaw.ac.at/entity/9999/">
+          <persName>Stehr, Hermann</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb915" source="https://pmb.acdh.oeaw.ac.at/entity/915/">
+          <placeName>Dortmund</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="#pmb37035" source="https://pmb.acdh.oeaw.ac.at/entity/37035/">
+          <orgName>Städtische Bühnen Dortmund</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0050.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blätter, 4 Seiten
+Antwort auf: <ref target="10600">1916-12-30 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in: <ref target="10602">1917-02-19 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>377<lb/>S. Fischer Verlag Berlin M., Bülowstrasse 90<lb/>18/1. 1917<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Lieber Freund,<lb/>vielen Dank für Ihre freundlichen Nachrichten. Wir hatten<lb/>gedacht, dass Sie uns eine Novalle anwie ten könnten im Umfang von<lb/>etwa 30-40 Rundschauseiten, die in einem, höchstens in zwei Heften<lb/>abgedruckt werden kann. Wir haben mit dem Abdruck eines neuen (übri-<lb/>gens prachtvollen) Romans von Hermann Stehr begonnen; er wird durch<lb/>mindestens zehn Hefte gehen, und daneben können wir nur Novellen<lb/>bringen, die in einem, höchstens in zwei Heften unterzubringen sind.<lb/>Eine grössere Novelle könnte also, wenn Sie sie in diesem Jahr als<lb/>Buch nicht herausgeben, eventl. nur fürs nächste Jahr in Betracht<lb/>kommen, eine kürzere in dem hier genannten Umfang ist uns jederzeit<lb/>sehr willkommen.<lb/>An eine Veröffentlichung neuer Arbeiten von Ihnen in meiner<lb/>Mark-Bibliothek habe ich natürlich nicht gedacht, denn die Verwertung<lb/>Ihrer Arbeiten ist selbstverständlich zunächst vorteilhafter ausser-<lb/>halb dieser Sammlung, und es ist ja überhaupt auch so gedacht, dass<lb/>die Bibliothek eine neue Verwertungsmöglichkeit für solche Arbeiten<lb/>der Autoren meines Verlages bietet, die in der ersten teuren Ausgabe<lb/>nicht mehr verbreitungskräftig genug sind. Unter diesem Gesichtspunkt<lb/>können Sie nach meiner Meinung mit den Resultaten für "Bertha Garlan"<lb/>und "Die "griechisch ###nzerin" sehr zufrieden sein; Sie haben für<lb/>"Bertha Garlan" bisher für 43 000 Exemplare M. 4300<lb/>F. 276</p></div>
+    </body>
+  </text>
+</TEI>

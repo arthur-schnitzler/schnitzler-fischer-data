@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11365">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1927-XX-XX Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">P9LMHABW</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Unbekannter Absender
+Undatierter Brief: keine Indizien auf Datum
+Brief zwischen <ref target="11290">1927-03-22 SF (Berlin) an AS (Wien)</ref> und <ref target="11293">1927-03-31 SF (Berlin) an AS (Wien)</ref> eingereiht
+Brief Nr. 792
+wohl ein Rundschreiben SF, das auch an AS ging, wohl zu 1927-04-23 (dort als Beilage verzeichnen)?</note>
+        <note type="type">Typoskript</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date notBefore="1927-01-01" notAfter="1927-12-31" n="01">1927-XX-XX</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Absatz/Verkauf</term>
+          <term>Film/Verfilmung</term>
+          <term>Filmrecht</term>
+          <term>Verhandlung</term>
+          <term>Vertrag</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0917.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Unbekannter Absender
+Undatierter Brief: keine Indizien auf Datum
+Brief zwischen <ref target="11290">1927-03-22 SF (Berlin) an AS (Wien)</ref> und <ref target="11293">1927-03-31 SF (Berlin) an AS (Wien)</ref> eingereiht
+Brief Nr. 792
+wohl ein Rundschreiben SF, das auch an AS ging, wohl zu 1927-04-23 (dort als Beilage verzeichnen)?</p>
+      </div>
+          <div type="OCR"><p>Fischer. Verlag. Berlin<lb/>Aktien=Gesellschaft<lb/>Amt Lützow Nummer 6162 Theaterabteilung postscheckkonto Nr. 16692<lb/>Bankkonto: Deutsche Bank Depositenkasse P in Berlin<lb/>Berlin W, Bülowstraße 90, den<lb/>192<lb/>Sehr geehrter Herr!<lb/>Innerhalb der Schriftstellerverbände machen sich Be-<lb/>strebungen bemerkbar, einen Zusammenschluss der an dem Verkauf von<lb/>Filmen interessierten Autoren und Verleger hervorzurufen, um gegen-<lb/>über den Filmgesellschaften günstigere Bedingungen beim Verkauf von<lb/>Filmrechten zu erzielen. Obwohl wir diesen Bestrebungen sympathisch<lb/>gegenüberstehen, würden wir Ihnen doch empfehlen, etwa in der näch-<lb/>sten Zeit an Sie gelangende Zuschriften nur insofern zustimmend zu<lb/>beantworten, als sie eine prinzipielle Stellungnahme zu dieser Frage<lb/>bedeuten. Sofern es sich aber um eine Uebertragung Ihrer Filmrechte<lb/>handelt. bitten wir Sie, vorläufig keine Dispositionen zu treffen.<lb/>sondern sich zunächst mit uns in Verbindung zu setzen, mit Rücksicht<lb/>auf die zwischen uns schon bestehenden oder noch zu treffenden Ver-<lb/>einbarungen.<lb/>Mit vorzüglicher Hochachtung<lb/>S. FISCHER VERLAG  A.-G.</p></div>
+    </body>
+  </text>
+</TEI>

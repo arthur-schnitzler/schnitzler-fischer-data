@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11572">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1930-05-24 Arthur Schnitzler (Wien) in Samuel Fischer / Norbert Hoffmann (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">WSZT9CKC</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
+            <title>Reigen</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb146179" source="https://pmb.acdh.oeaw.ac.at/entity/146179/">
+            <orgName>Benjamin Harz Verlag (Berlin, Wien)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Beantwortet in: <ref target="11576">1930-06-02 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1930-05-24.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1930-05-24" n="02">1930-05-24</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Hoffmann, Norbert</persName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Klage/Gerichtliche Verfolgung/Prozess</term>
+          <term>Urheberrecht/Copyright</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
+          <persName>Harz, Benjamin</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416741_0133.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Beantwortet in: <ref target="11576">1930-06-02 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>T. Fischer<lb/>24.5.1930.<lb/>Fischer-Harz,<lb/>Für Dr. Norbert Hofmann.<lb/>1. Ich bin nach wie vor bereit von den 4000 Mark,<lb/>die Harz für xxxx die noch bei ihm erlie-<lb/>genden Hestexemplare fordert die Hälfte d.i.<lb/>Mk. 2000.- zu zahlen.<lb/>2. Nach Empfang der 4000 Mark hat Harz eine Er-<lb/>klärung auszustellen, dass (wie übrigensaus un-<lb/>serem Vertrag hervorgeht, nach dem von der 101.<lb/>Auflage an das Verlagsrecht "Reigen" uneinge-<lb/>schränkt an mich zurückfällt) das Urheberrecht nun-<lb/>mehr sich in meinem ausschliesslichen Besitze<lb/>sich befindet.<lb/>3. Die neue Ausgabe bei Fischer hat spätestens<lb/>30. September d.J. zu erscheinen.<lb/>4 Es bleibt vorbehalten,ob er zu dieser Jusgabe die<lb/>noch vorhandenen Exemplare Harz nach ausgewech¬<lb/>seltem Titelblatt, Verlag Fischer verwenden will,<lb/>oder ob die ganzen Exemplare einfach vernichtet<lb/>werden sollen.<lb/>5. Die Bedingungen für die Herausgabe des "Rei:<lb/>gen bei Fischer sind konform mit den Bedingungen<lb/>über meine anderen bei Fischer erschienenen Wer-<lb/>ke.</p></div>
+    </body>
+  </text>
+</TEI>

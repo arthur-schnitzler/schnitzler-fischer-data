@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10478">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1912-12-12 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">8TINFW43</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 306</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30649" source="https://pmb.acdh.oeaw.ac.at/entity/30649/">
+            <title>Der blinde Geronimo und sein Bruder</title>
+          </bibl>
+          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
+            <title>Professor Bernhardi</title>
+          </bibl>
+          <bibl type="journal" ref="981067-5" source="https://ld.zdb-services.de/resource/981067-5">
+            <title>Wiesbadener Volksbücher</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 2 Seiten beschrieben
+Anlage: "Notiz des Bühnenvereins" (nicht überliefert); Anfrage aus USA (nicht überliefert); Anfrage aus Spanien (vgl. <ref target="10479">1912-12-16 AS an SF</ref>; nicht überliefert)
+
+Antwort auf: <ref target="10475">1912-12-05 AS an SF</ref>; 1912-12-07 AS an SF (referiert bei Rodewald, 869 [Anm. zu Nr. 137]; in den von AS verwahrten Durchschlägen nicht vorhanden) 
+Beantwortet in: <ref target="10479">1912-12-16 AS an SF</ref></note>
+        <note type="published_in">Rodewald, 99-100 [Nr. 138]</note>
+        <note type="type">Typoskript (Unterschrift-Stempel)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1912-12-12.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1912-12-12" n="01">1912-12-12</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Erfolg</term>
+          <term>Garantiesumme</term>
+          <term>niederländisch</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="116298065" source="https://d-nb.info/gnd/116298065">
+          <persName>Ames, Winthrop</persName>
+        </person>
+        <person ref="#pmb3283" source="https://pmb.acdh.oeaw.ac.at/entity/3283/">
+          <persName>Björkman, Edwin</persName>
+        </person>
+        <person ref="#pmb11749" source="https://pmb.acdh.oeaw.ac.at/entity/11749/">
+          <persName>Holitscher, Arthur</persName>
+        </person>
+        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
+          <persName>Kauser, Alice</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
+          <placeName>Niederlande</placeName>
+        </place>
+        <place ref="#pmb388" source="https://pmb.acdh.oeaw.ac.at/entity/388/">
+          <placeName>Spanien</placeName>
+        </place>
+        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
+          <placeName>USA</placeName>
+        </place>
+        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
+          <placeName>Österreich</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="#pmb45430" source="https://pmb.acdh.oeaw.ac.at/entity/45430/">
+          <orgName>Kleines Theater Berlin</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0599.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 2 Seiten beschrieben
+Anlage: "Notiz des Bühnenvereins" (nicht überliefert); Anfrage aus USA (nicht überliefert); Anfrage aus Spanien (vgl. <ref target="10479">1912-12-16 AS an SF</ref>; nicht überliefert)
+
+Antwort auf: <ref target="10475">1912-12-05 AS an SF</ref>; 1912-12-07 AS an SF (referiert bei Rodewald, 869 [Anm. zu Nr. 137]; in den von AS verwahrten Durchschlägen nicht vorhanden) 
+Beantwortet in: <ref target="10479">1912-12-16 AS an SF</ref></p>
+      </div>
+          <div type="OCR"><p>306<lb/>S. Fischer, Verlag, Berlin M., Bülowstrasse 90<lb/>12/12. 1912<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Lieber Herr Doktor,<lb/>von der Kaiser habe ich noch nichts gehört, das ist allerdings<lb/>sehr verdächtig. Ich habe ihr heute gekabelt und wenn bis Montag<lb/>keine Antwort eintrifft, werde ich Amen depeschieren, dass er<lb/>alle Tantiemen für die Kaiser zurückhält. Hoffentlich wird das<lb/>etwas nützen.<lb/>Ueber den gegenwärtigen Stand von "Professor Bernhardi" lege<lb/>ich eine Notiz des Bühnenvertriebs bei. Viel hat sich, wie Sie<lb/>sehen, noch nicht ereignet, aber ich denke, wenn der Erfolg im<lb/>Kleinen Theater weiter so stark bleibt wie bisher, so werden sich<lb/>die Provinzbühnen auch noch einfinden.<lb/>Die Buchausgabe von "Professor Bernhardi" geht in Oesterreich<lb/>viel besser wie bei uns, einstweilen liegt noch keine Veranlassung<lb/>vor, neu zu drucken.<lb/>Ich kann nicht recht den Wert einsehen, den Wiesbadener<lb/>Volksbüchern eine Hovelle zum Abdruck zu geben; es kommt dabei<lb/>doch immer wieder eine Konkurrenz unsern eigenen Ausgaben gegen-<lb/>über heraus.<lb/>Das holländische Zirkular behalte ich noch eine Weile</p></div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10863">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1921-11-08 Samuel Fischer / Leo Greiner (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">72H3JT28</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30403" source="https://pmb.acdh.oeaw.ac.at/entity/30403/">
+            <title>Paracelsus</title>
+          </bibl>
+          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
+            <title>Reigen</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 4 Seiten
+Antwort auf: <ref target="10861">1921-10-31 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1921-11-08.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Greiner, Leo</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1921-11-08" n="01">1921-11-08</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführung</term>
+          <term>Aufführungsrecht</term>
+          <term>Gastspiel</term>
+          <term>Konfiskation/Verbot/Zensur</term>
+          <term>Rechnung</term>
+          <term>Überweisung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb12274" source="https://pmb.acdh.oeaw.ac.at/entity/12274/">
+          <persName>Moissi, Alexander</persName>
+        </person>
+        <person ref="#pmb23675" source="https://pmb.acdh.oeaw.ac.at/entity/23675/">
+          <persName>Rotter, Alfred</persName>
+        </person>
+        <person ref="#pmb3876" source="https://pmb.acdh.oeaw.ac.at/entity/3876/">
+          <persName>Rotter, Fritz</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb40709" source="https://pmb.acdh.oeaw.ac.at/entity/40709/">
+          <placeName>Amsterdam</placeName>
+        </place>
+        <place ref="#pmb677" source="https://pmb.acdh.oeaw.ac.at/entity/677/">
+          <placeName>Breslau</placeName>
+        </place>
+        <place ref="#pmb49582" source="https://pmb.acdh.oeaw.ac.at/entity/49582/">
+          <placeName>Chemnitz</placeName>
+        </place>
+        <place ref="#pmb49108" source="https://pmb.acdh.oeaw.ac.at/entity/49108/">
+          <placeName>Krietern (bei Breslau)</placeName>
+        </place>
+        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
+          <placeName>Niederlande</placeName>
+        </place>
+        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
+          <placeName>Schweden</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="#pmb57262" source="https://pmb.acdh.oeaw.ac.at/entity/57262/">
+          <orgName>Kleines Theater Leipzig</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0432.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 4 Seiten
+Antwort auf: <ref target="10861">1921-10-31 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>5,28<lb/>S. Fischer/Verlag/Berlin W 57/Bülowstraße 9o.<lb/>Postscheckkonto Nr. 16 692<lb/>Amt Lützow 1662, 6162, 9292 Theaterabteilung<lb/>Jlsdoalleaegnereimdoa Tenie weaass wasged eidmeand nied melbäß<lb/>Am 8. Nov. 192 1<lb/>mebsdorf ober Hol. Jsdennemmaals stiftmak venies aus doin eib<lb/>edonsam heieb, helei 18 meHositma###erp nenies nov Jglolæv<lb/>G:C:H:S:<lb/>Herrn geb,nelendnie ogst nenbielz me meiech b### melews os gillew<lb/>Dr. Arthur Schnitzler¬<lb/>Ja abnehnebedebnim lewa nie Wxxnensgnxxnflück aab.Ihve mdi<lb/>edselfeldanum ebnedolepana Te allki, selben xx mdi mu mesaslvedb<lb/>des Heidsre<lb/>Sehrverehrter Herr Doktor,<lb/>. D.F.P.F:F.<lb/>G.H.F.P.<lb/>G.C.H.F.S.<lb/>G.H.<lb/>dieser Tage ist von Samst augh an Herrn<lb/>G.C.H.F.S<lb/>Fischer ein langwieriger Brief gelangt, der über die Behandlung die<lb/>G.C.F.P.<lb/>Samst zuteil geworden sei lebhafte Klage führt. Es scheint mir<lb/>ihm<lb/>daher endlich doch notwendig, Ihnen diesen leidigen Fall von mir<lb/>persönlich darzustellen und Sie zu bitten, mir behilflich zu sein<lb/>damit ein Ende zu machen. Ich habe Samst seinerzeit das Aufführungs-<lb/>recht des xxx für Chemnitz gegeben, weil ich durch das Gast-<lb/>spiel des Kleinen Theaters in Leipzig, das für diese Aufführungen<lb/>vorgesehen war,, trotz des an sich minderwertigen Charakters der Samst<lb/>schen Bühne die Sicherheit einer anständigen Bühnen besass. Samst hat<lb/>aber nicht nur die Aufführungen zu einer Reklame für eine Paradien<lb/>bettenfabrik benutzt, sondern, wie ich seit langem gerüchtweise hörte<lb/>und nun ausdrücklich bestätigt bekommen habe, nachdem er einige Zeit<lb/>vertragemässig gespielt hatte, eine Aufführung des Reigen in einem<lb/>grossen Saal» verbunden mit Konzertvorträgen bei Tabak und Bier gegen<lb/>ein Eintrittsgeld aufgeführt. In den Zwischenpausen wurde serviert.<lb/>Ferner war mir bekannt, dass Samst für fernere Aufführungen in anderen<lb/>ein diesders modom xxxn Jnieden siiänredoloe<lb/>G.H.F.P.<lb/>GedT seb schreibe seiknub dann neacltsmedeixo<lb/>R. 1000.0.20.</p></div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11595">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1930-10-28 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">66ITMKHI</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
+            <title>Reigen</title>
+          </bibl>
+          <bibl ref="#pmb30817" source="https://pmb.acdh.oeaw.ac.at/entity/30817/">
+            <title>Therese. Chronik eines Frauenlebens</title>
+          </bibl>
+          <bibl type="journal" ref="#pmb36156" source="https://pmb.acdh.oeaw.ac.at/entity/36156/">
+            <title>Die neue Rundschau</title>
+          </bibl>
+          <bibl type="third_party" ref="#pmb81305" source="https://pmb.acdh.oeaw.ac.at/entity/81305/">
+            <title>Carlo di Sforza: Gestalten und Gestalter des heutigen Europa</title>
+          </bibl>
+          <bibl type="third_party" ref="#pmb30899" source="https://pmb.acdh.oeaw.ac.at/entity/30899/">
+            <title>Jakob Wassermann: Das Gänsemännchen</title>
+          </bibl>
+          <bibl type="third_party" ref="#pmb33187" source="https://pmb.acdh.oeaw.ac.at/entity/33187/">
+            <title>Thomas Mann: Buddenbrooks</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb146179" source="https://pmb.acdh.oeaw.ac.at/entity/146179/">
+            <orgName>Benjamin Harz Verlag (Berlin, Wien)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten
+Antwort auf: <ref target="11594">1930-10-25 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1930-10-28.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1930-10-28" n="01">1930-10-28</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Manuskript</term>
+          <term>Novellenband</term>
+          <term>Sammelband</term>
+          <term>Vorabdruck</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
+          <persName>Harz, Benjamin</persName>
+        </person>
+        <person ref="#pmb12176" source="https://pmb.acdh.oeaw.ac.at/entity/12176/">
+          <persName>Mann, Thomas</persName>
+        </person>
+        <person ref="#pmb4412" source="https://pmb.acdh.oeaw.ac.at/entity/4412/">
+          <persName>Schinnerer, Otto Paul</persName>
+        </person>
+        <person ref="#pmb24856" source="https://pmb.acdh.oeaw.ac.at/entity/24856/">
+          <persName>Sforza, Carlo di</persName>
+        </person>
+        <person>
+          <persName>Sforza, Liliane (Professorin?)</persName>
+        </person>
+        <person ref="#pmb13055" source="https://pmb.acdh.oeaw.ac.at/entity/13055/">
+          <persName>Wassermann, Jakob</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416744_0062.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten
+Antwort auf: <ref target="11594">1930-10-25 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>95 Royer Schömer<lb/>S. Fischer Verlag / Berlin W57 Bülowstratze 90<lb/>AKTIEGESESLLSCHAFT<lb/>Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto Berlin Nr. 16692<lb/>Fernsprechanschlüsse: Amt Lützow Nr. 6162 bis 6164<lb/>Telegramm-Adresse: Fischerverlag 6162 Berlinlützow<lb/>28. Oktober 1930<lb/>F/si.<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Lieber Freund,<lb/>vielen Dank für Ihren Brief und für die soeben eingetroffene<lb/>Einleitung von SCHINNERER. Ich lasse zunächst das Manuskript<lb/>ins Deutsche übersetzen und ich denke diese Arbeit wird als eine<lb/>gute Grundlage für eine eventuelle Bearbeitung der Einleitung<lb/>dienen. Jedenfalls hoffe ich Ihnen bald die Uebersetzung zusenden<lb/>zu können.<lb/>Den " Reigen " können wir Ende Januar herausbringen, wenn es<lb/>sein muss auch etwas früher. Vor 1. Januar dürfen wir laut Verein-<lb/>barung mit HARZ den "Reigen" nicht veröffentlichen.<lb/>Ich glaube wir werden am besten einen Sammelband Ihrer Novellen<lb/>bringen. Wenn wir einen Roman bringen wollen, dann käme in erster<lb/>Linie " Therese " in Frage. Das wäre aber nicht zweckmässig, weil<lb/>wir damit die Ausgabe zum jetzigen Preis von N 5,50 (für das gehef-<lb/>tete Exemplar) ungangbar machen. Ich habe diese Erfahrungen bei<lb/>den „Buddenbrooksw und beim „Gänsemännchen“ machen müssen und rate<lb/>daher zu einem Novellenband, dessen Auswahl so gewählt sein müsste,<lb/>dass er keinen selbständigen Band ungangbar macht. Ich werde Ihnen<lb/>nächstens Vorschläge für die Auswahl machen. Wir müssen die besten<lb/>Novellen heraussuchen, denn der Auswahlband soll ja in erster Linie<lb/>propagandistisch wirken.<lb/>Besprechungen<lb/>Wenn Sie mir gelegentlich die ausländischen Zeitungen über<lb/>000 V. S.</p></div>
+    </body>
+  </text>
+</TEI>

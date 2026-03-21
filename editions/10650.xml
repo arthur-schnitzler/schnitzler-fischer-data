@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10650">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1918-03-16 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">V6N7RY7N</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listOrg>
+          <org type="institution">
+            <orgName>Kriegwirtschaftsstelle (Berlin)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Antwort auf: <ref target="10649">1918-03-11 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1918-03-16.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1918-03-16" n="01">1918-03-16</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Erster Weltkrieg</term>
+          <term>Papiernot</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0110.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Antwort auf: <ref target="10649">1918-03-11 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>̃ 4031<lb/>/VERLAG<lb/>FISCHEN<lb/>Bankkonto! Deutsche Bank, Depositenkasse P Berlin / Postschedkonto: Berlin 1662<lb/>BERLIN W 57 / BULowSTRASSE 90<lb/>Fernruf: Lützow 1662, 6162 und 9292<lb/>16. März 1918<lb/>F/si.<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Lieber Freund!<lb/>Es ist vollkommen ausgeschlossen, dass die Kriegswirtschafts-<lb/>stelle eine Extrazuweisung von Papier für Ihre Werke bewilligen<lb/>G.C.F.P.<lb/>Unrecht auf den Standpunkt stellen,<lb/>würde. Sie würde sich nicht mi<lb/>dass in einer Zeit wo die Papierausfuhr in Oesterreich verboten ist,<lb/>die Bewirtschaftung der eigenen unzulänglichen Vorräte auf das eigene<lb/>Land beschränkt bleiben muss. Vergessen Sie nicht, dass es mit dem<lb/>e<lb/>Papier nicht anders steht, wie etwa mit den kontingentierten Lebens-<lb/>mitteln. Daran würde auch die Tatsache nichts ändern, dass Sie für<lb/>die deutschen Kriegsfürsorgezwecke Gutes getan haben.<lb/>Mit herzlichen Grüssen<lb/>Ihr<lb/>J. Fischer</p></div>
+    </body>
+  </text>
+</TEI>

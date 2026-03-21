@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10338">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1910-10-06 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">V3URILLM</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 227</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30033" source="https://pmb.acdh.oeaw.ac.at/entity/30033/">
+            <title>Anatol: Anatols Hochzeitsmorgen</title>
+          </bibl>
+          <bibl ref="#pmb29823" source="https://pmb.acdh.oeaw.ac.at/entity/29823/">
+            <title>Das Märchen</title>
+          </bibl>
+          <bibl ref="#pmb29937" source="https://pmb.acdh.oeaw.ac.at/entity/29937/">
+            <title>Der junge Medardus</title>
+          </bibl>
+          <bibl type="third_party" ref="#pmb32444" source="https://pmb.acdh.oeaw.ac.at/entity/32444/">
+            <title>Ferdinand Raimund: Der Alpenkönig und der Menschenfeind</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten beschrieben
+Anlagen: Kritiken und Bericht von Alice Kauser über 'Märchen' in USA (nicht überliefert); Anlage: 1910-10-04 Julius Hertzka (Brünn) an SF, 1 Blatt, 1 Seite
+
+Bezug auf: <ref target="10336">1910-09-20 SF/CS an AS</ref>
+Beantwortet in: <ref target="10339">1910-10-08 AS an SF</ref></note>
+        <note type="published_in">Buohler 2011, 147 (Auszug)</note>
+        <note type="type">Typoskript (Unterschrift-Stempel)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1910-10-06.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1910-10-06" n="02">1910-10-06</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführung</term>
+          <term>Aufführungsrecht</term>
+          <term>Garantiesumme</term>
+          <term>Honorar</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb11670" source="https://pmb.acdh.oeaw.ac.at/entity/11670/">
+          <persName>Herzka, Julius</persName>
+        </person>
+        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
+          <persName>Kauser, Alice</persName>
+        </person>
+        <person ref="116691484" source="https://d-nb.info/gnd/116691484">
+          <persName>Maixdorff, Karl von</persName>
+        </person>
+        <person ref="#pmb12468" source="https://pmb.acdh.oeaw.ac.at/entity/12468/">
+          <persName>Raimund, Ferdinand</persName>
+        </person>
+        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
+          <persName>Reinhardt, Max</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
+          <placeName ref="#pmb168">Berlin</placeName>
+        </place>
+        <place ref="#pmb833" source="https://pmb.acdh.oeaw.ac.at/entity/833/">
+          <placeName>Brünn</placeName>
+        </place>
+        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
+          <placeName>USA</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="#pmb37078" source="https://pmb.acdh.oeaw.ac.at/entity/37078/">
+          <orgName>Deutsches Theater Brünn</orgName>
+        </org>
+        <org ref="#pmb57124" source="https://pmb.acdh.oeaw.ac.at/entity/57124/">
+          <orgName>Schiller-Theater Berlin</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0448.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten beschrieben
+Anlagen: Kritiken und Bericht von Alice Kauser über 'Märchen' in USA (nicht überliefert); Anlage: 1910-10-04 Julius Hertzka (Brünn) an SF, 1 Blatt, 1 Seite
+
+Bezug auf: <ref target="10336">1910-09-20 SF/CS an AS</ref>
+Beantwortet in: <ref target="10339">1910-10-08 AS an SF</ref></p>
+      </div>
+          <div type="OCR"><p>227<lb/>S. FISCHER,VERLAG, BERLIN W., BÜLowSTR. 90<lb/>BERene W., DENG. Okt. 1910<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien XVIII<lb/>Lieber Herr Doktor,<lb/>anliegend erhalten Sie die Kritiken<lb/>über die Aufführung des "Märchen" in Ameri-<lb/>Mais lʼhonneur a luis<lb/>ka sowie einen Bericht von Miss Kaiser.<lb/>G.C.H.<lb/>Soeben hat das Berliner Theater bei mir<lb/>angefragt, ob "Der junge Medardus" für Berlin<lb/>noch frei wäre. Das Berliner Theater hat ein<lb/>ganz gut eingespieltes Ensemble, darunter<lb/>einige Kräfte von besonderer Qualität. Im<lb/>vorigen Jahre ist dort Raimunde "Alpenkönig<lb/>und Menschenfeind" sehr gut gespielt worden.<lb/>Das Theater hat ausserdem eine Drehbühne, so<lb/>dass szenische Schwierigkeiten nicht beste-<lb/>hen würden. Dennoch kommt dieses Theater<lb/>natürlich nur dann in Betracht, wenn Rein-</p></div>
+    </body>
+  </text>
+</TEI>

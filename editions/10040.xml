@@ -1,0 +1,156 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10040">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1895-11-13 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">ITAF7PD3</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 28</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
+            <title>Anatol</title>
+          </bibl>
+          <bibl ref="#pmb29823" source="https://pmb.acdh.oeaw.ac.at/entity/29823/">
+            <title>Das Märchen</title>
+          </bibl>
+          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
+            <title>Liebelei</title>
+          </bibl>
+          <bibl ref="#pmb30117" source="https://pmb.acdh.oeaw.ac.at/entity/30117/">
+            <title>Sterben</title>
+          </bibl>
+          <bibl type="journal" ref="569190-4" source="https://ld.zdb-services.de/resource/569190-4">
+            <title>Charivari für Theater, Musik und dramatische Literatur</title>
+          </bibl>
+          <bibl type="journal">
+            <title>Der Bühnencircular (Berlin, Eduard Bloch, Theaterzeitschrift)</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb29215" source="https://pmb.acdh.oeaw.ac.at/entity/29215/">
+            <orgName>J.G. Cotta’sche Buchhandlung Nachfolger (Stuttgart)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 3 Seiten beschrieben
+
+Antwort auf: 1895-10-24post/1895-11-13 AS an SF (Zusendung von Rezensionen, Absatz der Werke; nicht überliefert)
+Beantwortet in: 1895-11-13post/1895-11-20ante AS an SF (Zusage 'Liebelei' bei SF; nicht überliefert)</note>
+        <note type="published_in">Rodewald, 57-58 [Nr. 83]</note>
+        <note type="type">Handschrift (eigenhändige Unterschrift) (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm)) (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1895-11-13.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1895-11-13" n="01">1895-11-13</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Buchhandel/Buchhandlung</term>
+          <term>Drama</term>
+          <term>Gesamtausgabe</term>
+          <term>Rezension</term>
+          <term>Vertrag</term>
+          <term>Vertrieb</term>
+          <term>Zeitung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb178500" source="https://pmb.acdh.oeaw.ac.at/entity/178500/">
+          <persName>Bloch, Eduard</persName>
+        </person>
+        <person ref="116590416" source="https://d-nb.info/gnd/116590416">
+          <persName>Entsch, Albert</persName>
+        </person>
+        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
+          <persName>Hauptmann, Gerhart</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
+          <placeName ref="#pmb50">Wien</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="#pmb35597" source="https://pmb.acdh.oeaw.ac.at/entity/35597/">
+          <orgName>Deutsches Theater Berlin</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0051.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 3 Seiten beschrieben
+
+Antwort auf: 1895-10-24post/1895-11-13 AS an SF (Zusendung von Rezensionen, Absatz der Werke; nicht überliefert)
+Beantwortet in: 1895-11-13post/1895-11-20ante AS an SF (Zusage 'Liebelei' bei SF; nicht überliefert)</p>
+      </div>
+          <div type="OCR"><p>33<lb/>28<lb/>S. FISCHER.VERLAG Bücher<lb/>was habe is<lb/>sind<lb/>will es bei Berlin W. den 13/11 1895<lb/>Steglitzer Strasse 49 I.<lb/>Fernsprecher: Amt VI, 1662.<lb/>Edele<lb/>Von<lb/>Herrn Dr. Arthur Schnitzler, wien¬<lb/>have<lb/>Antoren bei Geleveracht gelehrter Herr Doctor!<lb/>Mitfolgend sende ich Ihnen alle noch<lb/>in meinem Besitz befindlichen Regensionen<lb/>(mit Ausnahme der Wiener) Sich bitte Sie<lb/>Dieselben zu verwahren, da ich Ihrem<lb/>nächsten Werke einen Auszug der charaten<lb/>ristischen Besprechungen beizugehen,<lb/>Thre. Bücher "Anatol"<lb/>gedenke.<lb/>"Märchen" und "Sterben" habe ich in<lb/>letzter Zeit in etwa je 100 laemplare<lb/>etwa<lb/>(in Comission) und in 30 - 40 Exumpte<lb/>har mach idien expedirt.<lb/>Vem Publikum durch Zeitungsinserste<lb/>von dem Verlagewechsel Kenntniß<lb/>zu geben, ist ganz unmöglich und<lb/>auch zwecklos das Publikum wendet,<lb/>um die fortiments.<lb/>sich im Besch.<lb/>es kommt ledig<lb/>huchhaut<lb/>all<lb/>darcunf xyz</p></div>
+    </body>
+  </text>
+</TEI>

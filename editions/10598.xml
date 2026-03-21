@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10598">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1916-06-07 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">5CDNT8XF</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30649" source="https://pmb.acdh.oeaw.ac.at/entity/30649/">
+            <title>Der blinde Geronimo und sein Bruder</title>
+          </bibl>
+          <bibl type="journal" ref="#pmb36374" source="https://pmb.acdh.oeaw.ac.at/entity/36374/">
+            <title>Neue Freie Presse</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="institution" ref="9839-5" source="https://d-nb.info/gnd/9839-5">
+            <orgName>The Ohio State University</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 3 Seiten</note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1916-06-07.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1916-06-07" n="01">1916-06-07</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Armee</term>
+          <term>jüdische Literatur</term>
+          <term>Luxusausgabe</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb10863" source="https://pmb.acdh.oeaw.ac.at/entity/10863/">
+          <persName>Beer-Hofmann, Richard</persName>
+        </person>
+        <person ref="#pmb157683" source="https://pmb.acdh.oeaw.ac.at/entity/157683/">
+          <persName>Belasco, David</persName>
+        </person>
+        <person ref="#pmb3283" source="https://pmb.acdh.oeaw.ac.at/entity/3283/">
+          <persName>Björkman, Edwin</persName>
+        </person>
+        <person ref="#pmb6902" source="https://pmb.acdh.oeaw.ac.at/entity/6902/">
+          <persName>Dymow, Ossip</persName>
+        </person>
+        <person ref="#pmb8612" source="https://pmb.acdh.oeaw.ac.at/entity/8612/">
+          <persName>Lewisohn, Ludwig</persName>
+        </person>
+        <person ref="E39PCjtrY68qyCQvhxyYRdGtmm" source="https://id.oclc.org/worldcat/entity/E39PCjtrY68qyCQvhxyYRdGtmm">
+          <persName>Rethy, Joseph Bernard (1894–1941; USA; Dichter und Literaturkritiker))</persName>
+        </person>
+        <person ref="#pmb12689" source="https://pmb.acdh.oeaw.ac.at/entity/12689/">
+          <persName>Schmutzer, Ferdinand</persName>
+        </person>
+        <person ref="118798286" source="https://d-nb.info/gnd/118798286">
+          <persName>Spingarn, Joel</persName>
+        </person>
+        <person>
+          <persName>Strauss, Dr. J. (Literaturwissenschaftler?, USA)</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb34401" source="https://pmb.acdh.oeaw.ac.at/entity/34401/">
+          <placeName>Alt-Aussee</placeName>
+        </place>
+        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
+          <placeName>New York</placeName>
+        </place>
+        <place ref="#pmb429" source="https://pmb.acdh.oeaw.ac.at/entity/429/">
+          <placeName>Salzkammergut</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416739_0010.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 3 Seiten</p>
+      </div>
+          <div type="OCR"><p>7.6.1916.<lb/>scher<lb/>Lieber Freund.<lb/>Ich bestätige hiemit dankend die letzte<lb/>Abrechnung des „Geronimo“. Von den bei uns befind-<lb/>G.T.H.M rn<lb/>lichen Luxusexemplaren sind diesmal nur 11<lb/>Stück à 5 Kr.d.i.55 Kr. dazuzurechnen.Es ver-<lb/>bleiben also noch weitere 27 Exemplare bei uns.<lb/>(bei Schmutzer und mir). Diese 58 Kr. ziehen<lb/>Sie mir gefälligst von der nächsten Tantiemen.<lb/>abrechnung ab. Die für die Kriegsblinden der<lb/>österr.ung.Armee entfallende Summe senden Sie<lb/>gütigst wieder mit der gleichen Formel wie das<lb/>letzte Mal an die Neue freie Presse, natürlich<lb/>mit dem Bemerken, dass es sich um eine zweite<lb/>Rate handelt.<lb/>Die Notizen über ein neues von mir<lb/>verfass tes und vom Burgtheater angenommenes<lb/>Bühnenwerk entsprechen nicht der Wahrheit. Ich<lb/>habe bisher für die nächste Saison nichts bühnen<lb/>fertig gemacht, und weiss auch nicht,ob ich es</p></div>
+    </body>
+  </text>
+</TEI>

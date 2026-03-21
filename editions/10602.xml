@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10602">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1917-02-19 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">KNZ3UJQI</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
+            <title>Anatol</title>
+          </bibl>
+          <bibl ref="#pmb30649" source="https://pmb.acdh.oeaw.ac.at/entity/30649/">
+            <title>Der blinde Geronimo und sein Bruder</title>
+          </bibl>
+          <bibl ref="#pmb29843" source="https://pmb.acdh.oeaw.ac.at/entity/29843/">
+            <title>Der grüne Kakadu</title>
+          </bibl>
+          <bibl ref="#pmb30717" source="https://pmb.acdh.oeaw.ac.at/entity/30717/">
+            <title>Komödie der Worte</title>
+          </bibl>
+          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
+            <title>Reigen</title>
+          </bibl>
+          <bibl type="journal" ref="#pmb41531" source="https://pmb.acdh.oeaw.ac.at/entity/41531/">
+            <title>Berliner Tageblatt</title>
+          </bibl>
+          <bibl type="journal" ref="#pmb36374" source="https://pmb.acdh.oeaw.ac.at/entity/36374/">
+            <title>Neue Freie Presse</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher">
+            <orgName>Verlag der Bücher der Morgenröte (Berlin)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">3 Blatt, 3 Seiten
+Antwort auf: <ref target="10601">1917-01-18 SF (Berlin) an AS (Wien)</ref>
+Beantwortet in: <ref target="10603">1917-03-01 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1917-02-19.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1917-02-19" n="01">1917-02-19</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Erster Weltkrieg</term>
+          <term>Honorar</term>
+          <term>Konfiskation/Verbot/Zensur</term>
+          <term>Luxusausgabe</term>
+          <term>Presse/Feuilleton</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
+          <persName>Barnowsky, Victor</persName>
+        </person>
+        <person ref="#pmb8076" source="https://pmb.acdh.oeaw.ac.at/entity/8076/">
+          <persName>Kainer, Ludwig</persName>
+        </person>
+        <person ref="#pmb20474" source="https://pmb.acdh.oeaw.ac.at/entity/20474/">
+          <persName>Linden, Gustaf</persName>
+        </person>
+        <person ref="116802529" source="https://d-nb.info/gnd/116802529">
+          <persName>Martin, Anton Karl</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
+          <placeName>München</placeName>
+        </place>
+        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
+          <placeName>Schweden</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="#pmb36247" source="https://pmb.acdh.oeaw.ac.at/entity/36247/">
+          <orgName>Burgtheater Wien</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416739_0019.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>3 Blatt, 3 Seiten
+Antwort auf: <ref target="10601">1917-01-18 SF (Berlin) an AS (Wien)</ref>
+Beantwortet in: <ref target="10603">1917-03-01 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>19.2.1917.<lb/>Fischer<lb/>Lieber Freund.<lb/>Vorerst eine vertrauliche Aufrage. Ist<lb/>Ihnen ein Verlag der Bücher der Morgenröte,<lb/>Excellencie avec les mêmes.<lb/>sowie dessen Leiter Herr Anton Karl Martin,<lb/>aieux<lb/>Berlin W.35,Potsdamerstrasse 45 bekannt; fer-<lb/>ner haben Sie Zeichnungen oder Gemälde von Lud-<lb/>wid Kainer gesehen? und wissen Sie etwas Nähe-<lb/>DATES DES ACTES<lb/>res über diesen Künstler? Es handelt sich um<lb/>den Antrag zu einer Luxusausgabe des „Reigen“,<lb/>der in mancher Hinsicht diskutabel wäre, gegen<lb/>den ich aber so lange bedenklich bleibe, als<lb/>ich über die mir völlig unbekannte und in sei-<lb/>nen Briefen sich nicht sehr herrlich darstel-<lb/>lende Persönlichkeit des Herrn Morgenrot nicht<lb/>näher orientiert bin.<lb/>Beiliegend sende ich mit Dank die Press-<lb/>hweden zurück.Von dem bedeutenden<lb/>auszüge aus Schloß<lb/>le dernier<lb/>Erfolg der K.d.W. hatte ich schon durch ein Te-<lb/>ausführlicheren<lb/>lgramm Lindens und durch den Privatbrief einer</p></div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10104">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1900-09-15 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">7Z539JX3</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 79</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29857" source="https://pmb.acdh.oeaw.ac.at/entity/29857/">
+            <title>Der Schleier der Beatrice</title>
+          </bibl>
+          <bibl type="third_party">
+            <title>Paul Heinze (Hg.): Deutsches Dichterheim</title>
+          </bibl>
+          <bibl type="third_party">
+            <title>Paul Heinze: Geschichte der deutschen Literatur von Goethes Tode bis zur Gegenwart</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb29661" source="https://pmb.acdh.oeaw.ac.at/entity/29661/">
+            <orgName>F. Fontane (Berlin)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite beschrieben
+Anlage: 1900-09-12 Fontane&amp;Co Verlag (Berlin) an SF (Berlin) (T, 1 Blatt, 2 Seiten) mit beigefügtem Zirkular von Paul Heinze (1 gedrucktes Blatt, 1 Seite)
+
+Antwort auf: 1900-09-15ante AS an SF (Freiexemplare an Heinze; nicht überliefert)</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift) (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1900-09-15.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1900-09-15" n="01">1900-09-15</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Freiexemplar</term>
+          <term>Literaturgeschichte</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb152033" source="https://pmb.acdh.oeaw.ac.at/entity/152033/">
+          <persName>Fontane, Friedrich</persName>
+        </person>
+        <person ref="116733446" source="https://d-nb.info/gnd/116733446">
+          <persName>Goette, Rudolf</persName>
+        </person>
+        <person ref="#pmb176307" source="https://pmb.acdh.oeaw.ac.at/entity/176307/">
+          <persName>Heinze, Paul</persName>
+        </person>
+        <person ref="#pmb12671" source="https://pmb.acdh.oeaw.ac.at/entity/12671/">
+          <persName>Schlenther, Paul</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
+          <placeName ref="#pmb168">Berlin</placeName>
+        </place>
+        <place ref="#pmb866" source="https://pmb.acdh.oeaw.ac.at/entity/866/">
+          <placeName>Dresden</placeName>
+        </place>
+        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
+          <placeName ref="#pmb50">Wien</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0127.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite beschrieben
+Anlage: 1900-09-12 Fontane&amp;Co Verlag (Berlin) an SF (Berlin) (T, 1 Blatt, 2 Seiten) mit beigefügtem Zirkular von Paul Heinze (1 gedrucktes Blatt, 1 Seite)
+
+Antwort auf: 1900-09-15ante AS an SF (Freiexemplare an Heinze; nicht überliefert)</p>
+      </div>
+          <div type="OCR"><p>7<lb/>VERLAG<lb/>S. FISCHER,<lb/>BERene W., DEN 15/9. 1900.<lb/>TELEPHON: AMT VI, No. 1662.<lb/>BÜLÖWSTRASSE 91.<lb/>G.C.H.F.P.<lb/>gehlehte<lb/>Schnitzler<lb/>Herrn Dr, Arthu<lb/>Wien.<lb/>Lieber Herr Doktor!<lb/>nun xxxmächst xxx<lb/>Ich erkläre mich gern bereit, dem Herrn Paul Heinze für seine<lb/>Is Freiexemplare zuzusen-<lb/>e a<lb/>lʼhonneur avec les<lb/>Geschichte der deutschen Litteratur Ihre We<lb/>G.H.F.P.<lb/>que les sommes sont<lb/>den; ich halte es indessen nicht für ratsam, die eigentümliche Art dieses<lb/>Herrn, Bücher zu machen, zu unterstützen. Herr Heinze ist schon durch ein<lb/>früheres Werk im Buchhandel unvorteilhaft bekannt und mir will scheinen,<lb/>es würde sich nicht empfehlen, die zumeist auf die Eitelkeit der schrift-<lb/>stellernden Dilettanten berechnete, litterarhistorisch nicht ernst zu<lb/>nehmende Arbeit Heinzes zu unterstützen. Ich habe mich darüber noch mal<lb/>bei Fontane &amp; Co. informiert und lege zu Ihrer Kenntnisnahme deren Antwort<lb/>persönlich<lb/>bei. Sollten Sie dennoch wünschen, dass ich Herrn Heinze Ihre Bücher<lb/>schicke, so erkläre ich mich dazu gern bereit.<lb/>chaffen betrachtet zu scherz<lb/>Ich lese in den Zeitungen, dass die Ablehnung Ihres „Schleier<lb/>G.C.F.S<lb/>der Beatrice“ von Schlenther zu einer Kundgebung der Wiener Kritiker<lb/>geführt hat. Sollten Sie die Absicht haben, dieses Buch zu veröffentlichen,<lb/>so scheint mir der gegenwärtige Zeitpunkt besonders geeignet das<lb/>M. rn<lb/>werk dem Sublikum der zu bieten<lb/>Mit besten Grüssen<lb/>Ihr ergebener<lb/>G.C.F.<lb/>H. W. &amp; M.</p></div>
+    </body>
+  </text>
+</TEI>

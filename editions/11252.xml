@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11252">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1926-07-26 Samuel Fischer / Konrad Maril (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">Y8QKEFG5</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
+            <title>Reigen</title>
+          </bibl>
+          <bibl type="journal" ref="#pmb41564" source="https://pmb.acdh.oeaw.ac.at/entity/41564/">
+            <title>Die Schaubühne (auch: Die Weltbühne)</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Antwort auf: <ref target="11250">1926-07-22 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1926-07-26.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1926-07-26" n="02">1926-07-26</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Abonnement</term>
+          <term>Aufführungsrecht</term>
+          <term>Kündigung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb4040" source="https://pmb.acdh.oeaw.ac.at/entity/4040/">
+          <persName>Bernau, Alfred</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0881.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Antwort auf: <ref target="11250">1926-07-22 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>Telegramm-Adresse<lb/>Fischerverlag 6162<lb/>Beflintützow<lb/>S. FISCHER :VERLAG A.-G. THEATERABTEILUNG<lb/>BERLIN W 57, BÜLowSTR. 90<lb/>Bankkonto: 1<lb/>tenkasse P in Berlin - Postscheckkonto: Berlin Nr. 16692 - Fernsprechanset<lb/>Nr. 6162 bis 6164<lb/>Juli1926.<lb/>erlin, den 2<lb/>Ma. /Ja.<lb/>Herrn<lb/>Dr. Arthur Schnitzler,<lb/>W i e n XVIII.<lb/>Sehr geehrter Herr Doktor!<lb/>Von den Bedingungen, unter denen Sie Herrn Direktor Bernau<lb/>das Aufführungsrecht am "Reigen" überlassen wollten, habe ich gern<lb/>(4)<lb/>Kenntnis genommen und werde in Ihrem Sinne abschliessen, wenn Herr Di-<lb/>rektor Bernau sich an uns wendet. Auch die Angelegenheit Weltbühne wird<lb/>in Ihrem Sinne erledigt werden.<lb/>S. FISCHER. Verlaßrüssen<lb/>Mit er<lb/>AKTRENGESELL SCHAFT<lb/>THEATERABTEILUNG<lb/>Domerne</p></div>
+    </body>
+  </text>
+</TEI>

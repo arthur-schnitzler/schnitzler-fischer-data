@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10594">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1916-02-12 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">3NKDYB5F</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29903" source="https://pmb.acdh.oeaw.ac.at/entity/29903/">
+            <title>Zwischenspiel</title>
+          </bibl>
+          <bibl type="third_party">
+            <title>Fritz Wittels: Ethischer Zweck des Kriegs</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Antwort auf: <ref target="10591">1916-01-15 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1916-02-12.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1916-02-12" n="01">1916-02-12</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Auflage/Neuauflage/Neuausgabe</term>
+          <term>Honorar</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb11632" source="https://pmb.acdh.oeaw.ac.at/entity/11632/">
+          <persName>Heimann, Moritz</persName>
+        </person>
+        <person ref="#pmb10574" source="https://pmb.acdh.oeaw.ac.at/entity/10574/">
+          <persName>Wittels, Fritz (Ps. Avicenna)</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0043.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Antwort auf: <ref target="10591">1916-01-15 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>Fischer, Verlag, Berlin Wa., Bülowstrasse<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Lieber Freund,<lb/>über Avicena hat Ihnen Heimann neulich geschrieben, ich<lb/>nehme an, dass Sie inzwischen den Brief bekommen haben. Die<lb/>Angelegenheit hat sich länger hingezogen, als ich es gewünscht<lb/>hätte, weil Herr Prof. Saenger mit der Sache beschäftigt war.<lb/>Bei dem grossen Eingang von politischen Arbeiten, nicht zum we-<lb/>nigsten über das österreichische Problem, hat Herr Professor Saen-<lb/>ger einen schweren Stand. Ich bin nicht dazu gekommen, die Arbeit<lb/>zu lesen, aber ich glaube, wir können uns beide bei dem Urteil<lb/>von Saenger und Heimann beruhigen.<lb/>Wir drucken von "Zwischenspiel" die fünfte Auflage (und 100<lb/>Bühnenexemplare). Das Honorar von M. 500.- überweisen wir gleich<lb/>zeitig Ihrem Conto bei der Allg. Oester. Bodenkreditanstalt in<lb/>Mit herzlichen Grüssen<lb/>Ihr<lb/>F. Tische<lb/>F. 208</p></div>
+    </body>
+  </text>
+</TEI>

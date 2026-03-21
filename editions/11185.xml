@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11185">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1925-06-11 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">ED4657H2</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30201" source="https://pmb.acdh.oeaw.ac.at/entity/30201/">
+            <title>Doktor Gräsler, Badearzt</title>
+          </bibl>
+          <bibl ref="#pmb30486" source="https://pmb.acdh.oeaw.ac.at/entity/30486/">
+            <title>Frau Bertha Garlan</title>
+          </bibl>
+          <bibl type="journal">
+            <title>Neue Romanreihe (Buchreihe, S. Fischer?)</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Antwort auf: <ref target="11184">1925-05-28 AS (Wien) an SF (Berlin)</ref></note>
+        <note type="type">Typoskript (eigenhändige Unterschrift, eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1925-06-11.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1925-06-11" n="01">1925-06-11</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Auflage/Neuauflage/Neuausgabe</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0824.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Antwort auf: <ref target="11184">1925-05-28 AS (Wien) an SF (Berlin)</ref></p>
+      </div>
+          <div type="OCR"><p>Mischer / Verlag / A.=G. Berlin W 52.<lb/>Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto; Berlin Nr. 1669a<lb/>Fernsprechanschlüsse: Amt Lützow Nr. 6162 bis 6164<lb/>Bülowstraße oo<lb/>11. Juni 25<lb/>F/Si.<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Lieber Freund,<lb/>wir haben von „Berta Garlan“ in der wohlfeilen Ausgabe noch<lb/>etwa 500 Exemplare auf Lager. Sobald dieser Rest verkauft ist,<lb/>was hoffentlich bald der Fall sein wird, werden wir dieses Buch<lb/>zwei<lb/>Ihrem Wunsche entsprechend in der grossen Ausgabe drucken. In beiden<lb/>Hein<lb/>Ausgaben kann ### Buch xxx auf den Mark bestehen und ich bin<lb/>auch der Meinung, dass es vielleicht bei diesem Buch zweckmässiger<lb/>ist, in Zukunft nur die grosse Ausgabe zu führen.<lb/>Für die wohlfeile Roman-Bibliothek würde " Doktor Grüsler "<lb/>sehr gut passen. Wir haben von diesem Buch aber noch etwa 1 800 Exen<lb/>plare auf Lager; der Neudruck steht also augenblicklich noch nicht<lb/>in Frage.<lb/>Mit herzlichen Grüssen<lb/>Ihr<lb/>S. FISCHER, VERLAG<lb/>AKTRENGESESLLSCHAFT<lb/>Fische<lb/>Wir wollen im August in Klims<lb/>uns<lb/>(Grambunden) sein, wir haben in<lb/>vorigen Jahr dort sehr wohl gefühlt<lb/>sollten Sie nach der Schweiz reisen<lb/>n wir uns sehr freuen Sie<lb/>nd</p></div>
+    </body>
+  </text>
+</TEI>

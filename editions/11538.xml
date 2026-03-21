@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11538">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1930-02-03 Arthur Schnitzler (Wien) an Samuel Fischer / Konrad Maril (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">5TQHJX9R</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30851" source="https://pmb.acdh.oeaw.ac.at/entity/30851/">
+            <title>Traumnovelle</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite 
+Antwort auf: <ref target="11536">1930-01-30 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1930-03-06.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1930-03-06" n="01">1930-03-06</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>rumänisch</term>
+          <term>Übersetzung</term>
+        </keywords>
+      </textClass>
+      <listPlace>
+        <place ref="#pmb378" source="https://pmb.acdh.oeaw.ac.at/entity/378/">
+          <placeName>Rumänien</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416741_0113.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite 
+Antwort auf: <ref target="11536">1930-01-30 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>J. Bscher<lb/>3.2.1930.<lb/>Zieber Herr Doktor Maril.<lb/>Ich glaube wir dürfen das klägliche<lb/>Kagebot für die rumänischen Rechte (Pauschal<lb/>von “Traumnovelle“ im Betrage von Nr.250.-)<lb/>absolut nicht annehmen, selbst auf die nahelie-<lb/>gende Gefahr hin, dass irgendwer dort das Buch<lb/>übersetzt und herausgibt, ohne auch nur einen<lb/>Heller zu zahlen. Verlangen Sie bitte der Ord-<lb/>nung halber 500 Mk. als Garantie für die 10%<lb/>igen Tantiemen vom Ladenpreis jedes Exemplares.<lb/>Haben wir übrigens schon jemals ein Honorar<lb/>für meine Bücher bekommen? von dort?<lb/>Mit herzlichem Gruss<lb/>Ihr sehr ergebener<lb/>Herrn Dr.Konrad Maril,<lb/>S.Fischer,Verlag,<lb/>Berlin.</p></div>
+    </body>
+  </text>
+</TEI>

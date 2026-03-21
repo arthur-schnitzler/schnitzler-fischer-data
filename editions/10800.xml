@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10800">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1921-02-21 Samuel Fischer / Leo Greiner (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">8EF5I9UU</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
+            <title>Anatol</title>
+          </bibl>
+          <bibl ref="#pmb30005" source="https://pmb.acdh.oeaw.ac.at/entity/30005/">
+            <title>Anatol: Abschiedssouper</title>
+          </bibl>
+          <bibl ref="#pmb29843" source="https://pmb.acdh.oeaw.ac.at/entity/29843/">
+            <title>Der grüne Kakadu</title>
+          </bibl>
+          <bibl ref="#pmb30819" source="https://pmb.acdh.oeaw.ac.at/entity/30819/">
+            <title>Die Schwestern oder Casanova in Spa</title>
+          </bibl>
+          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
+            <title>Reigen</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 4 Seiten,
+Antwort auf: <ref target="10799">1921-02-14 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in: <ref target="10801">1921-02-23 AS (Wien) an SF (Berlin)</ref>
+Anlage: Telegramm bezüglich der tschechischen Angelegenheit "Reigen"</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1921-02-21.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Greiner, Leo</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1921-02-21" n="01">1921-02-21</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführung</term>
+          <term>Aufführungsrecht</term>
+          <term>Uraufführung</term>
+          <term>Übersetzungsrecht</term>
+          <term>Überweisung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb4076" source="https://pmb.acdh.oeaw.ac.at/entity/4076/">
+          <persName>Eisenschitz, Otto</persName>
+        </person>
+        <person>
+          <persName>Giordani, Paolo (Präsident Società italiana del teatro drammatico, Rom)</persName>
+        </person>
+        <person>
+          <persName>Iban, Karl (Theaterleiter, Berlin)</persName>
+        </person>
+        <person ref="#pmb21445" source="https://pmb.acdh.oeaw.ac.at/entity/21445/">
+          <persName>Mijnssen, François Henri Jacques</persName>
+        </person>
+        <person ref="#pmb23675" source="https://pmb.acdh.oeaw.ac.at/entity/23675/">
+          <persName>Rotter, Alfred</persName>
+        </person>
+        <person ref="#pmb3876" source="https://pmb.acdh.oeaw.ac.at/entity/3876/">
+          <persName>Rotter, Fritz</persName>
+        </person>
+        <person ref="#pmb4441" source="https://pmb.acdh.oeaw.ac.at/entity/4441/">
+          <persName>Sladek, Maximilian</persName>
+        </person>
+        <person ref="#pmb142471" source="https://pmb.acdh.oeaw.ac.at/entity/142471/">
+          <persName>Ziegel, Erich</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
+          <placeName ref="#pmb168">Berlin</placeName>
+        </place>
+        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
+          <placeName>Hamburg</placeName>
+        </place>
+        <place ref="#pmb44172" source="https://pmb.acdh.oeaw.ac.at/entity/44172/">
+          <placeName>Nürnberg</placeName>
+        </place>
+        <place ref="#pmb388" source="https://pmb.acdh.oeaw.ac.at/entity/388/">
+          <placeName>Spanien</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="#pmb37177" source="https://pmb.acdh.oeaw.ac.at/entity/37177/">
+          <orgName>Kammerspiele Berlin</orgName>
+        </org>
+        <org>
+          <orgName>Rotter-Bühnen Berlin</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0335.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 4 Seiten,
+Antwort auf: <ref target="10799">1921-02-14 AS (Wien) an SF (Berlin)</ref>
+Beantwortet in: <ref target="10801">1921-02-23 AS (Wien) an SF (Berlin)</ref>
+Anlage: Telegramm bezüglich der tschechischen Angelegenheit "Reigen"</p>
+      </div>
+          <div type="OCR"><p>or7<lb/>S. Fischer. Verlag. Berlin<lb/>̃ ̃'̃ M=n<lb/>määrän<lb/>Amt Lützow 1662 u. 6162 Theaterabteilung postscheckkonto Nr. 16692<lb/>Berlin W 57, Bülowstraße Nr. 90<lb/>nerejäls neb han " TequosabeidosdA" nov ganzdällnÄ negizjets<lb/>— 6/Scha „ Dm. 21. Febr. an. 21<lb/>endl 1ra dous gauziwaik esalweg enie eilst mezeib ni tiw<lb/>danoss og.nedad indelegda Jdoin mediednegefegnÄ<lb/>Herrn<lb/>meidl si ausdohnb nejdsafg tiw eiw, selb<lb/>etxxiib ad.angerejal<lb/>Dr. Arthur Schnitzler<lb/>nötieddol imömed niedjim medolew Jim,nies Jnnskedau Jdain st mendl<lb/>W i e n<lb/>o—reb nev<lb/>ellst nedolom mente at dota adredo!<lb/>Sehr geehrter Herr Doktor,<lb/>xxx nach Ihrer heute hier eingetroffenen<lb/>Depesche in der Angelegenheit "Abschiedssouper", und "Anatol<lb/>scheinen Siedie Situation etwas anders zu verstehen, als sie<lb/>tatsächlich ist, Rotters verweigern uns nicht das Verfügungs-<lb/>recht über "Abschiedssouper", zumindest stand dies garnicht<lb/>G.H.F.P.<lb/>G.C.P.<lb/>in Frage. Vielmehr war die Sache so, dass wir uns bemühten<lb/>"Abschiedssouper" von Rotters wieder frei zu bekommen, weil<lb/>Rohert die Erwerbung des ganzen "Anatol- öykluses davon abhängig<lb/>gemacht hatte, dass "Abschiedssouper" jetzt nicht geapielt<lb/>wird. Diese Freigabe wurde von Rotter verweigert, da die<lb/>Proben bereits beendet und das Stück angesetzt war. Da aber<lb/>dadurch der Abschluss mit Robert ins Wasser fiel und Rotter die<lb/>G.C.H.<lb/>Absicht kund tat evtl, den ganzen "Anatol"-Zyklus zu enwerben,<lb/>ere.<lb/>so begrüssten wir diesen Entschluss, in der Annahme, dass er auch<lb/>Ihnen unter diesen Umständen willkommen sein würde, zumal die<lb/>Aufführung bei Rotterfinanziell weit günstiger wäre. Aller<lb/>dings stellten Rotters einen relativ späten Termin zur Be-<lb/>dingung,<lb/>der<lb/>ohtfertigter und xxx der<lb/>durch re-<lb/>im Gültigkeit bis dem<lb/>S.O.R.S.<lb/>Die oben genannten Bedingung<lb/>entscheidende Antwort erhalten haben, so nehmen wir an, daß wir über das in Frage stehende Werk anderweitig verfügen können<lb/>O.M.</p></div>
+    </body>
+  </text>
+</TEI>

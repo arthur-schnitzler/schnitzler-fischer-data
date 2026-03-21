@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11000">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1923-04-27 Arthur Schnitzler (Wien) an Samuel Fischer / Rudolf Kayser (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">T9NBMAYM</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl type="journal" ref="#pmb36156" source="https://pmb.acdh.oeaw.ac.at/entity/36156/">
+            <title>Die neue Rundschau</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite</note>
+        <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-04-27.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1923-04-27" n="02">1923-04-27</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Kayser, Rudolf</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Honorar</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416739_0276.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite</p>
+      </div>
+          <div type="OCR"><p>27.4.1923.<lb/>Sehr verehrter Herr Creiner<lb/>G.C.F.M<lb/>Aus dem letzten Brief von Wotitzky, den<lb/>cich ihnen zur genauen Orientierung beilage<lb/>glaube ich ersehen zu müssen, dass Kirpatrik<lb/>&amp; Brandt sich nicht nur für die Buchausgabe,son-<lb/>dern auch für den „Sühnenvertrieb<lb/>des „Weiten Lands interessieren. Miss Beecher<lb/>dat ole Schauspfelerin, von der ich Ihnen in ei<lb/>nem meiner letzten Briefe geschrieben,Gattin<lb/>des Dr. med. Hofmann, der mich persönlich besucht<lb/>hat. Mit dieser Sache hängi die Absicht Korfs zu<lb/>sammen, „Das weite „and im nächsten Herbst<lb/>lisch in Amerika zu spielen. Wie Sie wissen, ha<lb/>be ich alle Leute an Wotitzky gewiesen. Zwischen<lb/>7.und 10.Mai hoffe ich auf der Durchreise nach<lb/>Kopenhagen für einige Tage in Berlin zu sein,wo<lb/>wir diese und andere Angelegenheiten werdenbe-<lb/>sprechen können. Den Wotitzky-Brief bewahren<lb/>Sie bitte für mich auf.<lb/>Was Herrn Oskar Leonhard anbelangt,<lb/>so müsste man sich wohl in Amerika informieren,<lb/>ob er mit irgend welchen Theaterunternehmungen in<lb/>Verbindung steht.<lb/>„Die Schwestern“ sind, auch ohne Pause<lb/>gespielt ein abendfüffendes Stück und ich wüsste<lb/>nicht recht, welcher meiner Einakter sich diesem<lb/>Verslustspiel zugesellen könnte. Vielleicht macht<lb/>Ziegel selbst einen Vorschlag (durch den die<lb/>Rechte des Deutschen Schauspielhauses nicht tan¬<lb/>giert werden).<lb/>Bei Rotters habe ich vorläufig die<lb/>Kassenrapporte verlangt (natürlich mehr aus<lb/>Prinzip), denn diese Leute sind einem ja doch<lb/>über. Womit ich übrigens meine Ansprüche keines-</p></div>
+    </body>
+  </text>
+</TEI>

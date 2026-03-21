@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10210">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1908-03-04 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">SDAQV49B</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 164</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29923" source="https://pmb.acdh.oeaw.ac.at/entity/29923/">
+            <title>Der Weg ins Freie</title>
+          </bibl>
+          <bibl type="journal" ref="#pmb36156" source="https://pmb.acdh.oeaw.ac.at/entity/36156/">
+            <title>Die neue Rundschau</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten beschrieben
+
+Antwort auf: 1908-02-29post/1908-03-04ante AS an SF (Erscheinungstermin 'Weg ins Freie'; nicht überliefert)
+Beantwortet in: 1908-03-04post/1903-03-24ante AS an SF (nicht überliefert)</note>
+        <note type="type">Typoskript (Unterschrift-Stempel)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1908-03-04.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1908-03-04" n="01">1908-03-04</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass/>
+      <listPerson>
+        <person ref="#pmb2914" source="https://pmb.acdh.oeaw.ac.at/entity/2914/">
+          <persName>Bie, Oskar</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0317.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten beschrieben
+
+Antwort auf: 1908-02-29post/1908-03-04ante AS an SF (Erscheinungstermin 'Weg ins Freie'; nicht überliefert)
+Beantwortet in: 1908-03-04post/1903-03-24ante AS an SF (nicht überliefert)</p>
+      </div>
+          <div type="OCR"><p>22<lb/>164<lb/>S. FISCHER, VERLAG, BERLIN W., BÜLowSTR. 90<lb/>4. März 08<lb/>BERLIN W., DEN<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien XVIII<lb/>Spöttelgasse 7<lb/>Lieber Herr Doktor.<lb/>le précédé<lb/>wenn Sie sich wirklich davon so viel versprechen.<lb/>dass Ihr Roman schon Anfang Juni erscheint, so will<lb/>nurmmeuble<lb/>ichs unter allen Umständen möglich machen. Ich bin<lb/>ja nicht davon überzeugt, dass dieser Termin günstig<lb/>ist, denn bis das Buch sich so durchsetzt, dass<lb/>das Publikum von seiner Existenz Kenntnis bekommt.<lb/>versehen immerhin noch weitere 14 Tage, so dass wir<lb/>in die tote Saison mit dem Buch hineinkommen. Der<lb/>Eisenbahn-Buchhandel spielt nicht die Hauptrolle,<lb/>besonders bei dem verhältnismässig teuren Verkaufs-<lb/>preise von 5 Mark.<lb/>In der Rundschau werden wir unbedingt mit dem<lb/>Juniheft den Roman abschliessen. Sie hat ausgerecht<lb/>wargen<lb/>Für<lb/>men</p></div>
+    </body>
+  </text>
+</TEI>

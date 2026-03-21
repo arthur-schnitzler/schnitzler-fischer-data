@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10119">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1902-09-17 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">WKB7DBPC</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 94</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite beschrieben
+Anlage: Abrechnung und Honorar
+
+keine zwischenzeitliche Korrespondenz zu erschließen</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1902-09-17.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1902-09-17" n="01">1902-09-17</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Abrechnung</term>
+          <term>Vertrag</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0158.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite beschrieben
+Anlage: Abrechnung und Honorar
+
+keine zwischenzeitliche Korrespondenz zu erschließen</p>
+      </div>
+          <div type="OCR"><p>FISO<lb/>sept. 1908.<lb/>BERLIB W. Dr.<lb/>TELEPHON: AMT VI, No. 1662.<lb/>Bülow<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien IX<lb/>Frankgasse 1<lb/>Lieber Herr Doktor!<lb/>Ich sende Ihnen die diesjährige Abrechnung, die inclusive der<lb/>vergüteten Freiexemplare mit einem Saldo von Mk. 890.- zu Ihren<lb/>Gunsten abschliesst. Der Betrag folgt beigehend.<lb/>Bezüglich der Freiexemplare habe ich Authantisches nicht fest-<lb/>stellen können. Ich habe deshalb geglaubt, über unsern letzten Con-<lb/>tract hinausgehend, nur für die beiden ersten Auflagen je 150 Frei-<lb/>Exemplare in Anspruch zu nehmen, und von den folgenden Auflagen nur<lb/>100. Auf dieser Grundlage ist die anliegende Verrechnung erfolgt<lb/>bis Ende vorigen Jahres. In diesem Jahre habe ich im Interesse einer<lb/>Vereinfachung und um eine Gleichartigkeit in der Behandlung dieser<lb/>Angelegenheit herzustellen, auf Freiexemplare für den Buchhandel<lb/>überhaupt verzichtet und nur für Rezensionswecke für sie und gele-<lb/>gentliche Dedikationsexemplare Freiexemplare gedruckt. xxx Ihren<lb/>Mit besten Grüssen<lb/>nden<lb/>und Ihr ergebener Exemplare<lb/>Frischin<lb/>7<lb/>welche<lb/>erfahrte<lb/>Satz Platte</p></div>
+    </body>
+  </text>
+</TEI>

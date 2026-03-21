@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11023">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1923-10-15 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">7S6RY8U2</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite</note>
+        <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-10-15.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1923-10-15" n="01">1923-10-15</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Rechnung</term>
+          <term>Überweisung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416739_0287.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite</p>
+      </div>
+          <div type="OCR"><p>wenden und habe mich mit der vorgeschlagenen<lb/>Honorarzahlung vorerst für eine zahlenmässig<lb/>noch nicht bestimmte) Reihe von Auflageneinver-<lb/>standen erklärt. Auch über die Möglichkeit im<lb/>Hertz-Verlag eine Novells, eventuell,ein Apho-<lb/>rismenbuch herauszugeben, wurde gesprochen. Diese<lb/>Fragen sind noch nicht akut, da ich ja eine neue<lb/>Novelle jedenfalls unter den heutigen Verhältnissen<lb/>zuerst im Ausland zu verwerten suchen müsste, was<lb/>vorrespondenz und Zeitverlust mit sich bringt.<lb/>reçu<lb/>notre<lb/>herzlichem Gruss<lb/>Herrn S.Fischer, Verlag.<lb/>Berlin.<lb/>Fischer<lb/>15.10.1923.<lb/>Lieber Freund.<lb/>Die acht Millionen vom 30.7. sind also<lb/>niemals an die Bank für Auswärtigen Handel<lb/>gelangt. Bitte berechnen Sie selbst, was diese<lb/>willionen heute wert sind.<lb/>Die mir am 1. Oktober als Akontozahlung<lb/>für Bühnenvertrieb avisierten 860 Millionen<lb/>sind an die Bank für ausw.Handel am II.Okto-<lb/>ber gelangt.Die Bank f. ausw.Handel empfiehlt<lb/>mit ferner „meinen Schuldnern zu ersuchen<lb/>der Bank sofort auch schon anlässlich eines<lb/>zu erwartenden Erlagge den Auftrag zu geben<lb/>für den gegenwert Effekten zu kaufen. Dar:<lb/>ich Sie bitten davon Notiz zu nehmen?<lb/>Herzlichst grüssend<lb/>Ihr<lb/>Herrn s. Fischer, Verlag,<lb/>Berl in.</p></div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11233">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1926-03-05 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">H2PCESP4</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30775" source="https://pmb.acdh.oeaw.ac.at/entity/30775/">
+            <title>Der Gang zum Weiher</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Antwort auf: <ref target="11230">1926-02-25 AS (Wien) an SF (Berlin)</ref>
+Unbekannter Absender
+Brief Nr. 762</note>
+        <note type="type">Typoskript</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1926-03-05.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1926-03-05" n="01">1926-03-05</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Freiexemplar</term>
+          <term>Rezensionsexemplare</term>
+        </keywords>
+      </textClass>
+      <listPlace>
+        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
+          <placeName>München</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org>
+          <orgName>Rheinische Schaubühne (wohl irrtümlich genannt)</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0873.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Antwort auf: <ref target="11230">1926-02-25 AS (Wien) an SF (Berlin)</ref>
+Unbekannter Absender
+Brief Nr. 762</p>
+      </div>
+          <div type="OCR"><p>̃ ̃ 1<lb/>11<lb/>762<lb/>S.FISCHER-VERLAG A.-G. BERLIN W.BÜLÖWSTR. 90<lb/>FRNSPRECHER: LÜTZÖW 6162-64<lb/>5 - März 26<lb/>Si.<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Sehr geehrter Herr Doktor,<lb/>wir haben Ihre Listen für die Versendung<lb/>der Rezensions- und Freiexemplare erhalten<lb/>und die Exemplare zur Post gegeben, mit<lb/>Ausnahme der beiden Adressen, "Rhein. Schau<lb/>G.C.F.P.<lb/>bühne",München (?) und Dr. H. Hümmel er,<lb/>cʼest eu lu lʼautre et le même.<lb/>Wiesbaden, da wir hier keine näheren Adres-<lb/>décembre nouvelle.<lb/>sen ausfindig machen können.<lb/>Unser Leipziger Haus haben wir be¬<lb/>auftragt, Ihnen 20 gebundene Exemplare<lb/>vom "gang zum Weiher " zuzusenden.<lb/>Wir empfehlen uns Ihnen<lb/>mit vorzüglicher Hochachtung<lb/>S. FIS<lb/>VERLAG:<lb/>AKTENGE<lb/>P.S.C.H.A<lb/>Dr. Rubel.<lb/>Dyn<lb/>F. 145</p></div>
+    </body>
+  </text>
+</TEI>

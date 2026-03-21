@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11215">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1925-12-23 Samuel Fischer / Konrad Maril (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">FEIA54P7</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten
+Antwort auf: <ref target="11214">1925-12-21 AS (Wien) an SF (Berlin)</ref>
+Anlage: Tantiemenausrechnung</note>
+        <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1925-12-23.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1925-12-23" n="01">1925-12-23</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Honorar</term>
+          <term>Korrektur</term>
+          <term>Urheberrecht/Copyright</term>
+          <term>Vertrag</term>
+        </keywords>
+      </textClass>
+      <listPlace>
+        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
+          <placeName>Italien</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0849.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten
+Antwort auf: <ref target="11214">1925-12-21 AS (Wien) an SF (Berlin)</ref>
+Anlage: Tantiemenausrechnung</p>
+      </div>
+          <div type="OCR"><p>S. Fischer - Verlag = Berlin<lb/>Examinanten<lb/>Amt Lützow 1662 u. 6162 Theaterabteilung postscheckkonto Nr. 16692<lb/>Bankkonto: Deutsche Bank Depositenkasse P in Berlin<lb/>Berlin W, Bülowstraße 90, den 23.12.191 25<lb/>Herrn<lb/>Dr. Arthur Schnitzler<lb/>Wien<lb/>Sehr verehrter Herr Doktor,<lb/>aus Ihrem Schreiben vom 21. ds. Mts.<lb/>entnehme ich mit Dank Ihre Zustimmung zum Abschluss des General<lb/>vertrages mit Italien von dessen zustandekommen ich Ihnen noch<lb/>Mitteilung machen werde. Die Tantiemenausrechnung die versehentlich<lb/>DATES DES ACTES<lb/>dem Brief nicht beilag, finden Sie in der Anlage. - Was Sie über den<lb/>Urheberrechtschutz schreiben, ist aber doch längst Wirklichkeit ge<lb/>worden. Insofern ist doch das geistige Eigentum dem materiellen<lb/>Eigentum gleichgestellt, als das Stehlen auf geistigem Gebiet eben-<lb/>so strafrechtlich verfolgt wird, wie die Verletzung anderer Rechte.<lb/>Allerdings mit dem einem Unterschied, dass die Verletzungen nicht<lb/>von seiten des Staatsanwaltes verfolgt werden, sondern nur auf priva-<lb/>au moins de ses<lb/>ten Antrag.<lb/>Nach Ihrem entgiltigen Imprimatur werden noch drei<lb/>Wochen zur Fertigstellung des Buches benötigt.<lb/>Eintreffen der Korrektur abhängen, zu welchem Zeitpunkt das Stück<lb/>herauskommen kann.</p></div>
+    </body>
+  </text>
+</TEI>

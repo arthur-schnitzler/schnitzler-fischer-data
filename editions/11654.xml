@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11654">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1931-03-26 Arthur Schnitzler (Wien) an Samuel Fischer / Konrad Maril (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">7PACHQSW</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30717" source="https://pmb.acdh.oeaw.ac.at/entity/30717/">
+            <title>Komödie der Worte</title>
+          </bibl>
+          <bibl ref="#pmb32131" source="https://pmb.acdh.oeaw.ac.at/entity/32131/">
+            <title>Spiel im Morgengrauen</title>
+          </bibl>
+          <bibl ref="#pmb30817" source="https://pmb.acdh.oeaw.ac.at/entity/30817/">
+            <title>Therese. Chronik eines Frauenlebens</title>
+          </bibl>
+          <bibl ref="#pmb168328" source="https://pmb.acdh.oeaw.ac.at/entity/168328/">
+            <title>Traum und Schicksal (Novellensammlung)</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+Antwort auf: <ref target="11649">1931-03-19 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1931-03-26.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1931-03-26" n="01">1931-03-26</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>tschechisch</term>
+          <term>Übersetzung</term>
+        </keywords>
+      </textClass>
+      <listPlace>
+        <place ref="#pmb43430" source="https://pmb.acdh.oeaw.ac.at/entity/43430/">
+          <placeName>Tschechien</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416741_0165.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+Antwort auf: <ref target="11649">1931-03-19 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>26.3.1931.<lb/>S. Fischer<lb/>Lieber Herr Doktor Maril.<lb/>Soweit ich mich erinnern kann habe<lb/>ich niemals eine Autorisation zur Uebersetzung<lb/>von „Spiel im Morgengrauen“ ine Csechische er-<lb/>teilt, doch da es ja Immer wieder vorkommt, dass<lb/>Uebersetzungen von minder gewissenhaften Verle-<lb/>gern ohne jede Autorisation herausgegeben werden,<lb/>so würde ich raten den betreffenden Bewerber auf<lb/>eine solche Möglichkeit hinzuweisen und der Mann<lb/>im Lande selbst wird sich ja am besten informie-<lb/>bitten<lb/>ren können.<lb/>Darf ich bei dieser Gelegenheit mir<lb/>seche Exemplare von "Traum und Schicksal", drei<lb/>von "Therese" und drei Exemplare von "Komödie<lb/>der Worte“ gefälliget zusenden zu wollen.<lb/>Mit verbindlichen Grüssen<lb/>Ihr sehr ergebener<lb/>Herrn Dr. Konrad Maril<lb/>S. Fischer, Verlag.<lb/>Berlin.</p></div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11322">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1927-07-02 Arthur Schnitzler (Wien) an Samuel Fischer / Konrad Maril (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">RDQXG4AT</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30649" source="https://pmb.acdh.oeaw.ac.at/entity/30649/">
+            <title>Der blinde Geronimo und sein Bruder</title>
+          </bibl>
+          <bibl ref="#pmb29941" source="https://pmb.acdh.oeaw.ac.at/entity/29941/">
+            <title>Fräulein Else</title>
+          </bibl>
+          <bibl ref="#pmb29853" source="https://pmb.acdh.oeaw.ac.at/entity/29853/">
+            <title>Lieutenant Gustl</title>
+          </bibl>
+          <bibl type="journal" ref="981067-5" source="https://ld.zdb-services.de/resource/981067-5">
+            <title>Wiesbadener Volksbücher</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="institution" ref="#pmb29441" source="https://pmb.acdh.oeaw.ac.at/entity/29441/">
+            <orgName>Ravag (Radio-Verkehrs-Aktiengesellschaft)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 2 Seiten
+Beantwortet in: <ref target="11326">1927-07-12 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1927-07-02.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1927-07-02" n="01">1927-07-02</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Maril, Konrad</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Abrechnung</term>
+          <term>Aufführung</term>
+          <term>Honorar</term>
+          <term>Klage/Gerichtliche Verfolgung/Prozess</term>
+          <term>Nachdruck</term>
+          <term>Novelle</term>
+          <term>Rundfunk</term>
+          <term>Tantiemen</term>
+          <term>Vertrag</term>
+          <term>Vorlesung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb10886" source="https://pmb.acdh.oeaw.ac.at/entity/10886/">
+          <persName>Bergner, Elisabeth</persName>
+        </person>
+        <person ref="#pmb5217" source="https://pmb.acdh.oeaw.ac.at/entity/5217/">
+          <persName>Pranger, Paul</persName>
+        </person>
+        <person ref="#pmb20787" source="https://pmb.acdh.oeaw.ac.at/entity/20787/">
+          <persName>Reinhard (Löwy), Robert</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb866" source="https://pmb.acdh.oeaw.ac.at/entity/866/">
+          <placeName>Dresden</placeName>
+        </place>
+        <place ref="#pmb864" source="https://pmb.acdh.oeaw.ac.at/entity/864/">
+          <placeName>Leipzig</placeName>
+        </place>
+        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
+          <placeName>Prag</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416740_0123.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 2 Seiten
+Beantwortet in: <ref target="11326">1927-07-12 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>17<lb/>Fried Volle<lb/>7/7<lb/>l'un<lb/>—<lb/>A.T.K.M<lb/>2.7.1927.<lb/>Hischer<lb/>ou vous.<lb/>avec<lb/>Lieber Herr Doktor Maril.<lb/>Herr Dr.Robert Reinhardt, Prag<lb/>ersucht mich schon einigérale im Namen der<lb/>Iksbücher um die Bewilligung zum<lb/>No.<lb/>Wiesbadner<lb/>4.<lb/>Wiederabdruck des „Blinden Geronimo“. Ich<lb/>würde den Leuten ihren Wunsch ganz gern e<lb/>füllen,umso mehr als ja die Ausgabe eines<lb/>s lohen Wiesbadner Volksbüchleins in diesem<lb/>Fall dem Verlag Fischer keinerlei Schaden<lb/>zufügen könnte. Ich bitte also um Mittel-<lb/>lung,ob Sie Ihre Zustimmung zu erteilen ge-<lb/>neigt wären.<lb/>Ich bin genötigt, gegen die „Ra-<lb/>vag“ hier klagbar aufzutreten,wel sie sich<lb/>weigert für die Vorlesung einige meiner<lb/>Novellen durch Herrn Pranger Honorar zu zah-<lb/>len. Sehr wertvoll wiee mir eine Auskunft<lb/>Ihrerseits,ob die deutschen Hundfunkstellen<lb/>für Sendung von Vorlesungen resp.Vorträgen<lb/>zu zahden pflegen resp. bereits verpflichtet<lb/>sind. In Ihren Verrechnungen finde ich<lb/>eine bundfunksendung -Leutnant Gustl mit Ho-<lb/>norarzahlung verzeichnet und nehme daher<lb/>an,, dass solche Zahlungen auch in anderen<lb/>gleichartigen Fällen erfolgen.<lb/>Ich gehe auch gegen Leipzig und<lb/>Dreaden vor, wo Elisabeth Bergner „Fräulein<lb/>Elso (an Bühnen) vorgetragen hat und wo<lb/>die betreffenden Direktoren gleichfalls<lb/>nicht zahlen wollen. Hier ist die Sache da<lb/>durch kompliziert, dass Elisabeth Bergner<lb/>durch eine Abmachung mit mir verpflichtet<lb/>war die Tantiemenzahlungspflicht gegenüber<lb/>mir in den Verträgen mit den betreffenden</p></div>
+    </body>
+  </text>
+</TEI>

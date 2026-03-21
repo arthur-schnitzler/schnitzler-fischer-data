@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10924">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1922-07-27 Samuel Fischer / Leo Greiner (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">U5Y8GJZS</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listOrg>
+          <org type="publisher">
+            <orgName>Rimon-Verlag (Berlin)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-07-27.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Greiner, Leo</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1922-07-27" n="01">1922-07-27</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Zeitung</term>
+          <term>Überweisung</term>
+        </keywords>
+      </textClass>
+      <listPlace>
+        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
+          <placeName ref="#pmb168">Berlin</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0507.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite</p>
+      </div>
+          <div type="OCR"><p>wesen<lb/>dite<lb/>2/3<lb/>S. Fischer/Verlag/Berlin W 57/Bülowstrasse 90.<lb/>Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheekkonto; Berlin Nr. 16692<lb/>Fernsprechanschlüsse: An t Lützow Nr. 1662, 6162 und 9292<lb/>de tout fahre<lb/>Den 27. Juli 1922.<lb/>Gr/Pr.<lb/>sehr<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Sehr geehrter Herr Doktor!<lb/>Wir haben im Einvernehmen mit Ihnen dem Berliner Ver-<lb/>lage Rimon die Autorisation zur Veröffentlichung Ihrer Novelle "Der<lb/>tote Gabriel» in der jiddischen Zeitschrift des Verlages erteilt.<lb/>Die 3000,-- M Autorisationsgebühr sind bereits eingetroffen. Wir<lb/>haben den auf Sie entfallenden Anteil im Betrage von 2550,-- M Ihrem<lb/>Konto gutgeschrieben<lb/>Mit vorzüglicher Hochachtung<lb/>S. FISCHER, VERLAG<lb/>AUSLANDSABTEILUNG<lb/>Quin<lb/>R. 10000. 10. 21.<lb/>V.V.<lb/>Jegent in Scheeveningen, erhielt ich heute</p></div>
+    </body>
+  </text>
+</TEI>

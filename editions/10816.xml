@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10816">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1921-04-29 Samuel Fischer / Leo Greiner (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">CFK3KIXR</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
+            <title>Reigen</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb29586" source="https://pmb.acdh.oeaw.ac.at/entity/29586/">
+            <orgName>Brandt &amp; Kirkpatrick (New York)</orgName>
+          </org>
+          <org type="publisher" ref="#pmb118088" source="https://pmb.acdh.oeaw.ac.at/entity/118088/">
+            <orgName>Karczag-Verlag (Wien)</orgName>
+          </org>
+          <org type="publisher" ref="#pmb29336" source="https://pmb.acdh.oeaw.ac.at/entity/29336/">
+            <orgName>Thomas Seltzer, Inc. (New York)</orgName>
+          </org>
+          <org type="institution" ref="4515802-2" source="https://d-nb.info/gnd/4515802-2">
+            <orgName>Famous Players-Lasky Corporation</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 4 Seiten
+Antwort auf: <ref target="10815">1921-04-25 AS (Wien) an SF (Berlin)</ref>
+Anlage: Abschrift eines Briefes von Brandt &amp; Kirkpatrick an SF vom 1921-04-22</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1921-04-29.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Greiner, Leo</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1921-04-29" n="01">1921-04-29</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Amerikanische Gesamtausgabe</term>
+          <term>italienisch</term>
+          <term>Urheberrecht/Copyright</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person>
+          <persName>Giordani, Paolo (Präsident Società italiana del teatro drammatico, Rom)</persName>
+        </person>
+        <person ref="#pmb2242" source="https://pmb.acdh.oeaw.ac.at/entity/2242/">
+          <persName>Levi, Cesare</persName>
+        </person>
+        <person ref="#pmb22388" source="https://pmb.acdh.oeaw.ac.at/entity/22388/">
+          <persName>Paukner, Grete</persName>
+        </person>
+        <person ref="116324333" source="https://d-nb.info/gnd/116324333">
+          <persName>Raggio, Enrico</persName>
+        </person>
+        <person ref="#pmb24825" source="https://pmb.acdh.oeaw.ac.at/entity/24825/">
+          <persName>Seltzer, Thomas</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
+          <placeName>Italien</placeName>
+        </place>
+        <place ref="#pmb445" source="https://pmb.acdh.oeaw.ac.at/entity/445/">
+          <placeName>Rom</placeName>
+        </place>
+        <place ref="#pmb378" source="https://pmb.acdh.oeaw.ac.at/entity/378/">
+          <placeName>Rumänien</placeName>
+        </place>
+        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
+          <placeName>USA</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743_0359.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 4 Seiten
+Antwort auf: <ref target="10815">1921-04-25 AS (Wien) an SF (Berlin)</ref>
+Anlage: Abschrift eines Briefes von Brandt &amp; Kirkpatrick an SF vom 1921-04-22</p>
+      </div>
+          <div type="OCR"><p>36<lb/>Fischer/Verlag/Berlin M 57/Bülowstrasse 90.<lb/>Deutsche Bank, Depositenkasse P in Berlin / Postscheekkonto: Berlin Nr. 16692<lb/>Fernsprechanschlüsse: Amt Lützow Nr. 1662, 6162 und 9292<lb/>29. April 21<lb/>Gr/si<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien<lb/>Sehr geehrter Herr Doktor,<lb/>zu der Angelegenheit der amerikanischen Gesamtausgabe bemerken wir,<lb/>dass unsere diesbezüglichen Ausführungen und Vorschläge von Ihnen sicht-<lb/>lich missverstanden worden sind. Wir haben keineswegs in Anregung brin-<lb/>gen wollen, dass Sie wegen der durch die Firma Brandt &amp; Kirpatrick<lb/>bestehenden Aussichten mit andern amerikanischen Verlegern nicht in<lb/>Verkehr treten mögen. Wir hielten es lediglich auch in Ihrem Interesse<lb/>für wünschenswert, wenn Ihre direkten Verhandlungen die Sie, wie wir nach-<lb/>träglich hörten, durch Frau Paukner führen, so geleitet würden, dass Sie<lb/>sich Ihre Entschlüsse vorbehalten bis andererseits auch der angekündigte<lb/>definitive Vorschlag von seiten der Firma Brandt 4 Kirpatrick vorliegen<lb/>würde. Wir kennen nicht die Bedingungen, die der Verlag Selzer Ihnen gegen<lb/>über stellen wird, noch können wir heute beurteilen, was Brandt &amp; Kir-<lb/>Patrick in dieser Beziehung anbieten werden. Bei aller gebotenen Skepsis<lb/>scheint es uns jedoch einzig und allein Ihr Interesse, tunlichst auf Grund<lb/>zweier Angebote zu entscheiden, welches Sie wählen wollen. Wenn Brandt &amp;<lb/>Kirpatrick in Ihrem Briefe bemerken, dass sie auf diese Angelegenheit eine<lb/>erkleckliche Zeit verwendet haben, so haben wir in dieser Bemerkung keine<lb/>wegs die Anmeldung eines Anspruches erblickt (die Firma ist vielmehr<lb/>auf das Genaueste darüber orientiert, dass unsere Verhandlungen völl<lb/>unverbindlicher Art sind). Dass andererseits ein Kaufmann das Bestrebe</p></div>
+    </body>
+  </text>
+</TEI>

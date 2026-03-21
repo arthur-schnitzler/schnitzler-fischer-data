@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11128">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1924-10-09 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">ZY5J4TWX</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
+            <title>Anatol</title>
+          </bibl>
+          <bibl ref="#pmb30205" source="https://pmb.acdh.oeaw.ac.at/entity/30205/">
+            <title>Komödie der Verführung</title>
+          </bibl>
+          <bibl type="journal" ref="#pmb36156" source="https://pmb.acdh.oeaw.ac.at/entity/36156/">
+            <title>Die neue Rundschau</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="institution">
+            <orgName>How &amp; Raggio (Theateragentur, Rom)</orgName>
+          </org>
+          <org type="institution" ref="14184-7" source="https://d-nb.info/gnd/14184-7">
+            <orgName>Società italiana degli autori es editori (Rom)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 2 Seiten
+Beantwortet in: <ref target="11132">1924-10-18 SF (Berlin) an AS (Wien)</ref></note>
+        <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-10-09.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1924-10-09" n="01">1924-10-09</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>niederländisch</term>
+          <term>Vertrag</term>
+          <term>Übersetzung</term>
+          <term>Übersetzungsrecht</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb14543" source="https://pmb.acdh.oeaw.ac.at/entity/14543/">
+          <persName>Brevée, Bertha</persName>
+        </person>
+        <person ref="#pmb11090" source="https://pmb.acdh.oeaw.ac.at/entity/11090/">
+          <persName>Chapiro, Joseph</persName>
+        </person>
+        <person>
+          <persName>How, Louis (Theateragent, Rom)</persName>
+        </person>
+        <person ref="116324333" source="https://d-nb.info/gnd/116324333">
+          <persName>Raggio, Enrico</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
+          <placeName>Italien</placeName>
+        </place>
+        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
+          <placeName>Niederlande</placeName>
+        </place>
+        <place ref="#pmb386" source="https://pmb.acdh.oeaw.ac.at/entity/386/">
+          <placeName>Universität Wien</placeName>
+        </place>
+      </listPlace>
+      <listOrg type="theaters">
+        <org ref="#pmb36247" source="https://pmb.acdh.oeaw.ac.at/entity/36247/">
+          <orgName>Burgtheater Wien</orgName>
+        </org>
+      </listOrg>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416740_0040.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 2 Seiten
+Beantwortet in: <ref target="11132">1924-10-18 SF (Berlin) an AS (Wien)</ref></p>
+      </div>
+          <div type="OCR"><p>weitig verwendet. Und so lange die Autoren weiter<lb/>so machtlos sind wie jetzt und nicht automatisch<lb/>eine Sperrung des Theaters eintritt,das seine<lb/>Verpflichtungen gegen die Autoren nicht erfüllt,<lb/>und so lange die Unterschlagung der Autorantan<lb/>tiemen nicht durch eine diffamierende strafe<lb/>geahndet wird, (allerdings,was ist heute diffa-<lb/>mlerend?) kann es nicht besser werden. Denn vor<lb/>läufig ist es den Direktoren eben allzu leicht<lb/>gemacht vor allem und manchmal nur den Autor<lb/>den schlechten Geschäftsgang entgelten zu las-<lb/>Wie wird es denn mit den gebundenen<lb/>sen.<lb/>inrung stehen?<lb/>of the<lb/>von der „Komödie der Wir<lb/>Wenn es möglich ist möchte ich eine ganze Anzahl<lb/>der neulich notierten Freiexemplärlinge mit ge-<lb/>Exempla<lb/>bundenen Exemplaren versehen wissen,vor allem<lb/>die durch Kreuzel gekennzeichneten. Ebenso wür-<lb/>de ich bitten die für mich persönlich bestimmten<lb/>Exemplare gebunden abzusenden.<lb/>Mit verbindlichsten Grüssen<lb/>Ihr aufrichtig ergebener<lb/>Herrn Dr.K.Maril.S.Fischers,Verlag,<lb/>Berlin. W.<lb/>9.10.1924.<lb/>Fischer<lb/>Lieber Freund.<lb/>Sie erhalten heute ein Exemplar der<lb/>er Verführung“ mit den Burgtheater-<lb/>strichen. Wie schon neulich erwähnt bitte ich<lb/>„Komödie de<lb/>Sie mir recht bald dieses und ein zweites eben<lb/>so eingerichtetes freundlichst schicken zu wol-<lb/>len.<lb/>Könnten Sie mir von dem Neuen rundsohm<lb/>Heft, in dem „Fräulein Else“ erschienen ist,<lb/>noch zwei Exemplare schicken. Ich habe bis<lb/>her nur eines erhalten.<lb/>Ich habe das holländische Uebersetzung<lb/>recht der „Komödie der Verführung“ Frau Bertha<lb/>Brevée, Osterbeck,bei Arnheem,Bekof,erteilt.<lb/>Wird ein Vertrag durch den Verlag Fischer di-<lb/>rekt oder durch Ihren holländischen Vertreter<lb/>geschlossen? Garantie wird in diesem Fall keine<lb/>verlangt. Die vertigstellung der Uebersetzung<lb/>müsste spätestens 31.Januar?1925 erfolgen,wenn<lb/>keine veröffentlichung,resp. keine Aufführung<lb/>bis zum 30.Juni 1926 erfolgt ist, fiele die<lb/>Autorisation wieder an mich zurück.<lb/>Aus Italien haben sich wieder die<lb/>Herren Louis Now &amp; Eurico Raggio, Rom, via Mar<lb/>gutta 53 B,mit denen Sie seinerzeit über „Ana<lb/>ol verhandelten,wegen meines neuen etücks<lb/>(das sie nicht kennen) an mich gewendet. Sie<lb/>möchten macheter les droits pour 1 stalie et<lb/>encore plus conclure un contract pour toutes<lb/>les pieces pas encore représenter en Intalie<lb/>etc. Sie schliessen: „Nous pourrions établir<lb/>une chiffre a valoir a forfait pourvu qu elle<lb/>soit moderer. Haben Sie irgend welche Erfah<lb/>rung mit dieser Firma gemacht? Ich habe noch<lb/>nicht geantwortet. Vor wenigen Tagenwar auch</p></div>
+    </body>
+  </text>
+</TEI>

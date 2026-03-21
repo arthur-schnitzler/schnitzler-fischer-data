@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10330">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1910-07-11 Samuel Fischer / Regina Rosenbaum (Berlin) an Arthur Schnitzler (Territet)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">2KK3B3LU</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 221</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb29873" source="https://pmb.acdh.oeaw.ac.at/entity/29873/">
+            <title>Der Puppenspieler</title>
+          </bibl>
+          <bibl ref="#pmb30217" source="https://pmb.acdh.oeaw.ac.at/entity/30217/">
+            <title>Der tapfere Cassian</title>
+          </bibl>
+          <bibl ref="#pmb29859" source="https://pmb.acdh.oeaw.ac.at/entity/29859/">
+            <title>Marionetten</title>
+          </bibl>
+          <bibl ref="#pmb29951" source="https://pmb.acdh.oeaw.ac.at/entity/29951/">
+            <title>Zum großen Wurstel</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite beschrieben
+Anlage: 1910-07-09 Orth (Leipzig) an SF
+
+Beantwortet in: <ref target="10331">1910-08-10 AS an SF</ref>
+
+Ferner hier einsortiert ist Abschrift eines Schreibens 1910-07-13 Emanuel Stockhausen (Tremsbüttel) an SF (CUL: MS Schnitzler B121, Nr. 222), das als Anlage eines separaten, nicht überlieferten Schreibens (1910-07-13post) durch die Theaterabt. an AS gegangen sein dürfte.</note>
+        <note type="type">Typoskript (eigenhändige Unterschrift)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1910-07-11.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Rosenbaum, Regina</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1910-07-11" n="01">1910-07-11</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName>Territet</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführung</term>
+          <term>Aufführungsrecht</term>
+          <term>Urheberrecht/Copyright</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="1051305969" source="https://d-nb.info/gnd/1051305969">
+          <persName>Orth, Alexander</persName>
+        </person>
+        <person ref="#pmb12556" source="https://pmb.acdh.oeaw.ac.at/entity/12556/">
+          <persName>Rosenbaum, Richard</persName>
+        </person>
+        <person ref="#pmb35619" source="https://pmb.acdh.oeaw.ac.at/entity/35619/">
+          <persName>Stockhausen, Emanuel</persName>
+        </person>
+        <person>
+          <persName>Wilfferodt (Jurist, Leipzig)</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb43471" source="https://pmb.acdh.oeaw.ac.at/entity/43471/">
+          <placeName>Budapest</placeName>
+        </place>
+        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
+          <placeName>Hamburg</placeName>
+        </place>
+        <place ref="#pmb52051" source="https://pmb.acdh.oeaw.ac.at/entity/52051/">
+          <placeName>Territet</placeName>
+        </place>
+        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
+          <placeName>Ungarn</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0435.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite beschrieben
+Anlage: 1910-07-09 Orth (Leipzig) an SF
+
+Beantwortet in: <ref target="10331">1910-08-10 AS an SF</ref>
+
+Ferner hier einsortiert ist Abschrift eines Schreibens 1910-07-13 Emanuel Stockhausen (Tremsbüttel) an SF (CUL: MS Schnitzler B121, Nr. 222), das als Anlage eines separaten, nicht überlieferten Schreibens (1910-07-13post) durch die Theaterabt. an AS gegangen sein dürfte.</p>
+      </div>
+          <div type="OCR"><p>22)<lb/>S. FSCHER,VERLAG, BERLIN W., BÜLowSTR. 90<lb/>11/2. 10<lb/>BERcelN W., DEN<lb/>le reste de ses<lb/>Herrn Dr. Arthur Schnitsler<lb/>Terrttet<lb/>Sehr geehrter Herr!<lb/>Wir haben über die Frage des urheber-<lb/>rechtlichen Verhältnisses in Ungarn an auto-<lb/>ritativer Stelle Auskunft eingeholt, die<lb/>wir Ihnen anbet abschriftlich zur gefl. Kennt-<lb/>nisnahme ergebenst übersenden.<lb/>Hochachtungsvoll<lb/>ergebenst<lb/>S. FISCHER, VERLAG<lb/>i. V. Rosenbrunn<lb/>Verbindungen<lb/>nicht thuen.</p></div>
+    </body>
+  </text>
+</TEI>

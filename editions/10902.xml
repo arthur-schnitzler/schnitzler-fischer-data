@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10902">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1922-03-23 Arthur Schnitzler (Wien) an Samuel Fischer / Leo Greiner (Berlin)</title>
+        <author ref="#pmb2121">Schnitzler, Arthur</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6b</idno>
+                <idno type="zotero">P2SKK3JF</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30819" source="https://pmb.acdh.oeaw.ac.at/entity/30819/">
+            <title>Die Schwestern oder Casanova in Spa</title>
+          </bibl>
+        </listBibl>
+        <listOrg>
+          <org type="publisher" ref="#pmb29586" source="https://pmb.acdh.oeaw.ac.at/entity/29586/">
+            <orgName>Brandt &amp; Kirkpatrick (New York)</orgName>
+          </org>
+          <org type="publisher" ref="#pmb118088" source="https://pmb.acdh.oeaw.ac.at/entity/118088/">
+            <orgName>Karczag-Verlag (Wien)</orgName>
+          </org>
+          <org type="institution" ref="1086221605" source="https://d-nb.info/gnd/1086221605">
+            <orgName>Ladenburg, Thalmann &amp; Co. (Bankhaus, New York)</orgName>
+          </org>
+          <org type="institution" ref="69026-0" source="https://d-nb.info/gnd/69026-0">
+            <orgName>USA. Alien Property Custodian</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">2 Blatt, 3 Seiten</note>
+        <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-03-23.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+          <date when="1922-03-23" n="03">1922-03-23</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Greiner, Leo</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführung</term>
+          <term>Aufführungsrecht</term>
+          <term>Film/Verfilmung</term>
+          <term>Plagiat</term>
+          <term>Provision</term>
+          <term>Reise/Urlaub</term>
+          <term>Überweisung</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
+          <persName>Bartsch, Rudolf Hans</persName>
+        </person>
+        <person ref="#pmb22388" source="https://pmb.acdh.oeaw.ac.at/entity/22388/">
+          <persName>Paukner, Grete</persName>
+        </person>
+        <person ref="#pmb25499" source="https://pmb.acdh.oeaw.ac.at/entity/25499/">
+          <persName>Sternberg, Joseph von</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
+          <placeName ref="#pmb168">Berlin</placeName>
+        </place>
+        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
+          <placeName>Niederlande</placeName>
+        </place>
+        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
+          <placeName>Schweden</placeName>
+        </place>
+        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
+          <placeName>USA</placeName>
+        </place>
+      </listPlace>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416739_0225.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>2 Blatt, 3 Seiten</p>
+      </div>
+          <div type="OCR"><p>Hebernehme und wohlfeil rücksichtsloser Ab<lb/>schüttelung von Verpflichtungen durch unan<lb/>gebrachte Nachsicht zu unterstützen. Ich hoffe<lb/>Sie, verehrter Herr Greimer, und den Verlag<lb/>in dieser Auffassung auf meiner Seite zu fin-<lb/>den und bin mit den verbindlichsten Grüssen<lb/>Ihr sehr ergebener<lb/>Herrn Leo Greiner,S.Fischer.Verlag.<lb/>Berlin.<lb/>Sider<lb/>23.3.1922.<lb/>Sehr verehrter Herr Greiner<lb/>3m<lb/>Dass Herr Bartsch es abgelehnt<lb/>hat für uns die Gelder vom Alien Property Cu¬<lb/>stodian einzukassieren ist einigermassen auf-<lb/>falle nd. Felix Bleah Erben antwortete mir neu<lb/>lich auf meine die amerikanischen Gelder be-<lb/>treffenden Fragen folgendes: 1. Die bei dem<lb/>A.P.C. krkiega in Washington erliegenden Beträ-<lb/>ge sind noch nicht frei und daher nochnicht<lb/>ausgezahlt worden. 2. Wir haben unsere Ansprü<lb/>che durch anseren Vertreter in Amerika ordnung<lb/>gemäss angemeldet, 3.die Forderung auf Freigabe,<lb/>resp. Auszahlung der beim A.P.C. erliegenden<lb/>Beträge dürfte nur durch die Person möglich<lb/>sein, die sie hinterlegt hat.<lb/>Mir ist es natürlich immer lieb,wenn<lb/>Herr R. ausgeschaltet werden kann, aber wenn er<lb/>sich selbst ausschaltet werde ich bedenklich.<lb/>Jedesfalls haben Sie alen Grund die Angelegen-<lb/>heit den Herren Braudt &amp; Zirpatrik zu überge-<lb/>ben, die sichhoffentlich als verlässlicher er-<lb/>weisen werden und ich betone nochmals, dass<lb/>wenn die betreffenden Beträge frei werden soll<lb/>ten dass sie drüben in der Ihnen schon bkann-<lb/>ten Bank hinterlegt werden, ganz in Ihrem Sinn,<lb/>der auch Jn diesem Fall auch der meine ist,<lb/>werde ich die auf sie entfallende provision<lb/>in der Originalvaluta von Ladenburg Thalmann<lb/>&amp; Co. aus auf das Konto Verlag s.Fischer,Deut-<lb/>sche Bank, Berlin überweisen lassen,wenn Sie<lb/>mir nicht eine andere Adresse angeben. Sie in¬<lb/>formieren Brandt &amp; Kirpatrik wohl auch des Ge¬<lb/>nauern über die bei den A.P.C. erliegenden<lb/>Beträge und erwähnen bei dieser Gelegenheit<lb/>dass die Creenich-Plagers nach Herrn Bartsohs<lb/>ngaben ausser den 300 Dollar,die bei der A.<lb/>erliegen, noch eine weitere Summe von<lb/>gleichfalls mindestens 300 Dollar entweder</p></div>
+    </body>
+  </text>
+</TEI>

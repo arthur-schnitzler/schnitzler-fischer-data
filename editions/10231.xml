@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="10231">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1908-09-11 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">397WD2GP</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="3">
+            <msDesc>
+              <msIdentifier>
+                <repository>Nr. 176</repository>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listOrg>
+          <org type="publisher" ref="16344373-7" source="https://d-nb.info/gnd/16344373-7">
+            <orgName>Buchhandlung Carl Fr. Fleischer (Leipzig)</orgName>
+          </org>
+          <org type="publisher" ref="#pmb29369" source="https://pmb.acdh.oeaw.ac.at/entity/29369/">
+            <orgName>J. Singer &amp; Co. (Berlin)</orgName>
+          </org>
+        </listOrg>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite beschrieben
+Anlage: 1908-09-10 Carl Friedrich Fleischer (Leipzig) an SF (Berlin), 2 Blatt, 2 Seiten beschrieben
+
+Bezug auf: <ref target="10230">1908-09-09 SF an AS</ref> (Singer-Verlag)</note>
+        <note type="type">Typoskript (Unterschrift-Stempel)</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1908-09-11.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1908-09-11" n="01">1908-09-11</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Vertrag</term>
+        </keywords>
+      </textClass>
+      <listPerson>
+        <person ref="#pmb161144" source="https://pmb.acdh.oeaw.ac.at/entity/161144/">
+          <persName>Löwe, Theodor</persName>
+        </person>
+        <person ref="1073450619" source="https://d-nb.info/gnd/1073450619">
+          <persName>Singer, Josef</persName>
+        </person>
+      </listPerson>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0342.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite beschrieben
+Anlage: 1908-09-10 Carl Friedrich Fleischer (Leipzig) an SF (Berlin), 2 Blatt, 2 Seiten beschrieben
+
+Bezug auf: <ref target="10230">1908-09-09 SF an AS</ref> (Singer-Verlag)</p>
+      </div>
+          <div type="OCR"><p>176<lb/>S. FISCHER, VERLAG,’ BERLIN W., BÜLowSTR. 90<lb/>BERene W., DEN. 11. Sept. 08<lb/>Herrn Dr. Arthur Schnitzler<lb/>Wien XVI<lb/>Lieber Herr Doktor.<lb/>ich sende Ihnen heute die Information<lb/>MwS<lb/>über Singer. Ueber die Quelle der Information<lb/>können Sie ganz beruhigt sein, sie ist absolut<lb/>zuverlässig. Ich will aber sehen, dass ich hier<lb/>P.S<lb/>noch etwas über Sinzer erfahre. Seien Sie in Ihrem<lb/>Vertrag vorsichtig und bedingen Sie sich, dass Sie<lb/>Schludin<lb/>von dem Vertrag sofort zurücktreten können. wenn<lb/>gegen irgend einen Punkt des Vertrages verstossen<lb/>wird. Dann kann Ihnen richts Schlimmes geschehen.<lb/>Mit besten Grüssen<lb/>Ihr ergebener<lb/>F.fischer</p></div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="11532">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1930-01-24 Samuel Fischer / Gottfried Bermann (Berlin) an Arthur Schnitzler (Wien)</title>
+        <author ref="#pmb11324">Fischer, Samuel</author>
+        <editor>
+          <name>Aurnhammer, Achim</name>
+          <name>Martin, Dieter</name>
+          <name>Neubrand, Susanne</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>schnitzler-fischer</edition>
+        <respStmt>
+          <resp>Regestausgabe</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Arthur Schnitzler Archiv</publisher>
+        <pubPlace>Freiburg im Breisgau</pubPlace>
+        <date when="2026">2026</date>
+        <availability>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Q-1-6a</idno>
+                <idno type="zotero">RQUU9MBI</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness n="2">
+            <msDesc>
+              <msIdentifier>
+                <country>GB</country>
+                <settlement>Cambridge</settlement>
+                <repository>Cambridge University Library</repository>
+                <idno>MS Schnitzler B121</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
+            <title>Professor Bernhardi</title>
+          </bibl>
+        </listBibl>
+        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+      </sourceDesc>
+      <notesStmt>
+        <note type="description">1 Blatt, 1 Seite
+2 Telegramme?</note>
+        <note type="type">Typoskript</note>
+        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1930-01-24.html</note>
+      </notesStmt>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pmb11324">Fischer, Samuel</persName>
+          <persName type="coworker">Bermann, Gottfried</persName>
+          <placeName ref="#pmb168">Berlin</placeName>
+          <date when="1930-01-24" n="01">1930-01-24</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+          <placeName ref="#pmb50">Wien</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords>
+          <term>Aufführungsrecht</term>
+          <term>Erfolg</term>
+          <term>Inszenierung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416744_0008.html"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter">
+        <p>1 Blatt, 1 Seite
+2 Telegramme?</p>
+      </div>
+          <div type="OCR"><p>nt<lb/>Telegramm Eing.=Nr.<lb/>Dienstliche Angaben:<lb/>Gattung:<lb/>Die Telegraphenverwaltung übernimmt<lb/>hinsichtlich der ihr zur Beförderung oder<lb/>Bestellung übergebenen Telegramme keine<lb/>änigsten<lb/>wie immer geartete Verantwortung.<lb/>bewartest<lb/>ufgenommen von... Aus  bahin f :4489 13 23 2341<lb/>192....<lb/>Or M.<lb/>auf Ltg. Nr.<lb/>In mittels Typenbruckers ausgefertigten Telegrammen bedeuten vorstehende Angaben: 1. den Namen des Aufgabe¬<lb/>192. um Uhr M.<lb/>amtes, 2. dle Aufgabenummer, 3. die Wortzahl (allenfalls in Bruchform), 4. den Monatstag, 5. die Stande und<lb/>G.C.F.P.<lb/>Minute der Aufgabe.<lb/>durch:<lb/>le Dl<lb/>Hollandin<lb/>bue<lb/>vermischer erfolg wiederholt applaus bei offener<lb/>g¬<lb/>glueckwuensche<lb/>napil<lb/>..,.,,,,,,<lb/>le Dlle<lb/>cette lettre sontrès dans le<lb/>10. 29. 12000 V. S.</p></div>
+    </body>
+  </text>
+</TEI>
