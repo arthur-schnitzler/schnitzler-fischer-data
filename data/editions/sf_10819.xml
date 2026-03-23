@@ -50,14 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="#pmb146179" source="https://pmb.acdh.oeaw.ac.at/entity/146179/">
-            <orgName>Benjamin Harz Verlag (Berlin, Wien)</orgName>
-          </org>
-          <org type="publisher" ref="135161570X" source="https://d-nb.info/gnd/135161570X">
-            <orgName>Verlag Paul Knepler (Wien)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -84,6 +76,8 @@
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10819.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb33754">Der Mörder</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb146179">Benjamin Harz Verlag (Berlin, Wien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:135161570X">Verlag Paul Knepler (Wien)</ref>
         </note>
       </correspDesc>
       <textClass>

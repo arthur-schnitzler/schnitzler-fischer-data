@@ -50,17 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="institution" ref="#pmb29244" source="https://pmb.acdh.oeaw.ac.at/entity/29244/">
-            <orgName>Allgemeine Bodencreditanstalt</orgName>
-          </org>
-          <org type="institution" ref="63980-1" source="https://d-nb.info/gnd/63980-1">
-            <orgName>Deutsche Bank (Berlin)</orgName>
-          </org>
-          <org type="institution" ref="1072959488" source="https://d-nb.info/gnd/1072959488">
-            <orgName>Friese &amp; Lang (Buchhandel, Wien)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -86,6 +75,9 @@
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10679.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30971">Casanovas Heimfahrt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29244">Allgemeine Bodencreditanstalt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:63980-1">Deutsche Bank (Berlin)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:1072959488">Friese & Lang (Buchhandel, Wien)</ref>
         </note>
       </correspDesc>
       <textClass>

@@ -50,14 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="#pmb29586" source="https://pmb.acdh.oeaw.ac.at/entity/29586/">
-            <orgName>Brandt &amp; Kirkpatrick (New York)</orgName>
-          </org>
-          <org type="institution" ref="69026-0" source="https://d-nb.info/gnd/69026-0">
-            <orgName>USA. Alien Property Custodian</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -93,6 +85,8 @@ Anlage: 1921-12-22 Antwort der Alien Property Custodian in deutscher Übersetzun
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10878.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29935">Anatol</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29903">Zwischenspiel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29586">Brandt & Kirkpatrick (New York)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:69026-0">USA. Alien Property Custodian</ref>
         </note>
       </correspDesc>
       <textClass>

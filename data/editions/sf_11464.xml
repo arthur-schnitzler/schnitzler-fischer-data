@@ -50,11 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="252788-1" source="https://d-nb.info/gnd/252788-1">
-            <orgName>Nuova Casa Editore Licinio Cappelli (Bologna)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -83,6 +78,7 @@
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11464.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29917">Liebelei</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:252788-1">Nuova Casa Editore Licinio Cappelli (Bologna)</ref>
         </note>
       </correspDesc>
       <textClass>

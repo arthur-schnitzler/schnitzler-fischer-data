@@ -50,14 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="#pmb29648" source="https://pmb.acdh.oeaw.ac.at/entity/29648/">
-            <orgName>Simon &amp; Schuster (New York)</orgName>
-          </org>
-          <org type="institution">
-            <orgName>PMB:29748 Metro Goldwyn Mayer Filmgesellschaft</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -94,6 +86,8 @@
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11518.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30945">Im Spiel der Sommerlüfte</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32131">Spiel im Morgengrauen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29648">Simon & Schuster (New York)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">PMB:29748 Metro Goldwyn Mayer Filmgesellschaft</ref>
         </note>
       </correspDesc>
       <textClass>

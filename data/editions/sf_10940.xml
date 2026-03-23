@@ -49,11 +49,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="#pmb29643" source="https://pmb.acdh.oeaw.ac.at/entity/29643/">
-            <orgName>Donauverlag (Wien)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -74,6 +69,9 @@ Schreiben vom Donau Verlag Wien, das an AS gerichtet ist.</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29643">Donauverlag (Wien)</ref>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>

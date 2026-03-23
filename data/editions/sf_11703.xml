@@ -50,11 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="1073063208" source="https://d-nb.info/gnd/1073063208">
-            <orgName>Alois Srdce (Prag)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -81,6 +76,7 @@
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11703.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30817">Therese. Chronik eines Frauenlebens</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:1073063208">Alois Srdce (Prag)</ref>
         </note>
       </correspDesc>
       <textClass>

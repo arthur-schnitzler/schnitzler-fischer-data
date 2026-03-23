@@ -50,11 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="2020113-8" source="https://d-nb.info/gnd/2020113-8">
-            <orgName>Rudolf Lechner und Sohn (Wien)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -79,6 +74,7 @@ Anlage: Buchhändlerische Verhandlungen zu Schnitzlers neuem Novellenband inkl. 
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1073463559">Lechner, Oskar</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11626.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:2020113-8">Rudolf Lechner und Sohn (Wien)</ref>
         </note>
       </correspDesc>
       <textClass>

@@ -50,11 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="institution" ref="1072959488" source="https://d-nb.info/gnd/1072959488">
-            <orgName>Friese &amp; Lang (Buchhandel, Wien)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -83,6 +78,7 @@
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10707.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30207">Das weite Land</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30203">Professor Bernhardi</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:1072959488">Friese & Lang (Buchhandel, Wien)</ref>
         </note>
       </correspDesc>
       <textClass>

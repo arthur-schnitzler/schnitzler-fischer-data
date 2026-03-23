@@ -50,17 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher">
-            <orgName>Gowans and Gray, Ltd. (London, Glasgow)</orgName>
-          </org>
-          <org type="publisher">
-            <orgName>The German Publication Society (New York)</orgName>
-          </org>
-          <org type="institution" ref="1327992701" source="https://d-nb.info/gnd/1327992701">
-            <orgName>Allgemeiner Schriftstellerverein</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -90,6 +79,9 @@ Beantwortet in: <ref target="10534">1914-06-18 SF/LS an AS</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10532.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30391">Die überspannte Person</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb50245">Simplicissimus</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Gowans and Gray, Ltd. (London, Glasgow)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">The German Publication Society (New York)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:1327992701">Allgemeiner Schriftstellerverein</ref>
         </note>
       </correspDesc>
       <textClass/>

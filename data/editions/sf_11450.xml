@@ -50,14 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher">
-            <orgName>Anton Kodym (Prag)</orgName>
-          </org>
-          <org type="publisher" ref="#pmb36907" source="https://pmb.acdh.oeaw.ac.at/entity/36907/">
-            <orgName>Paul Zsolnay Verlag (Wien)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -88,6 +80,8 @@ Beantwortet in: 1928-11-14 AS (Wien) an SF (Berlin)</note>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11450.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30817">Therese. Chronik eines Frauenlebens</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Anton Kodym (Prag)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb36907">Paul Zsolnay Verlag (Wien)</ref>
         </note>
       </correspDesc>
       <textClass>

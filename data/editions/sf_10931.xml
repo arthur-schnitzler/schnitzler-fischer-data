@@ -50,14 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="institution">
-            <orgName>Internationales Büro für Aufführungs- und Urheberrecht (Amsterdam)</orgName>
-          </org>
-          <org type="institution" ref="81530-5" source="https://d-nb.info/gnd/81530-5">
-            <orgName>Rotterdamsche Bankvereeniging</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -83,6 +75,8 @@
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10931.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30819">Die Schwestern oder Casanova in Spa</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Internationales Büro für Aufführungs- und Urheberrecht (Amsterdam)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:81530-5">Rotterdamsche Bankvereeniging</ref>
         </note>
       </correspDesc>
       <textClass>

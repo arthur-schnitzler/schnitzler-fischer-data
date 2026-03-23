@@ -50,14 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="1186419687" source="https://d-nb.info/gnd/1186419687">
-            <orgName>European Books Limited (London)</orgName>
-          </org>
-          <org type="institution" ref="10291864-8" source="https://d-nb.info/gnd/10291864-8">
-            <orgName>Ente Italiano Audizione Radiofoniche (Rom)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -91,6 +83,8 @@ Beantwortet in: <ref target="11641">1931-03-02 SF (Berlin) an AS (Wien)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11639.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30775">Der Gang zum Weiher</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30945">Im Spiel der Sommerlüfte</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:1186419687">European Books Limited (London)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:10291864-8">Ente Italiano Audizione Radiofoniche (Rom)</ref>
         </note>
       </correspDesc>
       <textClass>

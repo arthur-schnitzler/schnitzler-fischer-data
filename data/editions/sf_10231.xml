@@ -57,14 +57,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="16344373-7" source="https://d-nb.info/gnd/16344373-7">
-            <orgName>Buchhandlung Carl Fr. Fleischer (Leipzig)</orgName>
-          </org>
-          <org type="publisher" ref="#pmb29369" source="https://pmb.acdh.oeaw.ac.at/entity/29369/">
-            <orgName>J. Singer &amp; Co. (Berlin)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -92,6 +84,8 @@ Bezug auf: <ref target="10230">1908-09-09 SF an AS</ref> (Singer-Verlag)</note>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1073450619">Singer, Josef</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10231.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:16344373-7">Buchhandlung Carl Fr. Fleischer (Leipzig)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29369">J. Singer & Co. (Berlin)</ref>
         </note>
       </correspDesc>
       <textClass>

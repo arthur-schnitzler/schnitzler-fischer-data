@@ -50,23 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher">
-            <orgName>Köbnerische Verlagsbuchhandlung (Breslau)</orgName>
-          </org>
-          <org type="institution" ref="63980-1" source="https://d-nb.info/gnd/63980-1">
-            <orgName>Deutsche Bank (Berlin)</orgName>
-          </org>
-          <org type="institution" ref="114278-1" source="https://d-nb.info/gnd/114278-1">
-            <orgName>Deutscher Lyceum-Club (Berlin)</orgName>
-          </org>
-          <org type="institution" ref="#pmb29694" source="https://pmb.acdh.oeaw.ac.at/entity/29694/">
-            <orgName>Spamersche Buchdruckerei (Leipzig)</orgName>
-          </org>
-          <org type="institution" ref="#pmb36964" source="https://pmb.acdh.oeaw.ac.at/entity/36964/">
-            <orgName>Verband deutscher Bühnenschriftsteller und Bühnenkomponisten (Berlin)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -111,6 +94,11 @@ Beantwortet in: <ref target="10560">1915-04-21 SF an AS</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30717">Komödie der Worte</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb80804">Clara Körber: Österreichs Geist und Schwert</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb336221">Monatsschrift für Geschichte und Wissenschaft des Judentums</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Köbnerische Verlagsbuchhandlung (Breslau)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:63980-1">Deutsche Bank (Berlin)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:114278-1">Deutscher Lyceum-Club (Berlin)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29694">Spamersche Buchdruckerei (Leipzig)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb36964">Verband deutscher Bühnenschriftsteller und Bühnenkomponisten (Berlin)</ref>
         </note>
       </correspDesc>
       <textClass>

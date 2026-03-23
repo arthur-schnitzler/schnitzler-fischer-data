@@ -50,14 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="#pmb29741" source="https://pmb.acdh.oeaw.ac.at/entity/29741/">
-            <orgName>Éditions Stock (Paris)</orgName>
-          </org>
-          <org type="institution" ref="#pmb29761" source="https://pmb.acdh.oeaw.ac.at/entity/29761/">
-            <orgName>Preußische Akademie der Künste (Sektion für Dichtkunst)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -85,6 +77,8 @@ Antwort auf: <ref target="11480">1929-05-13 AS (Wien) an SF (Berlin)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb58500">Harz</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11483.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29741">Éditions Stock (Paris)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29761">Preußische Akademie der Künste (Sektion für Dichtkunst)</ref>
         </note>
       </correspDesc>
       <textClass>

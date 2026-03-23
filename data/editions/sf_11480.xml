@@ -50,17 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="#pmb29741" source="https://pmb.acdh.oeaw.ac.at/entity/29741/">
-            <orgName>Éditions Stock (Paris)</orgName>
-          </org>
-          <org type="institution" ref="#pmb29761" source="https://pmb.acdh.oeaw.ac.at/entity/29761/">
-            <orgName>Preußische Akademie der Künste (Sektion für Dichtkunst)</orgName>
-          </org>
-          <org type="institution">
-            <orgName>The International Literary Agency (T.I.L.A.; auch: Agence littéraire Internationale)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -90,6 +79,9 @@ Beantwortet in: <ref target="11481">1929-05-14 SF (Berlin) an AS (Wien)</ref>, <
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11480.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29941">Fräulein Else</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30817">Therese. Chronik eines Frauenlebens</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29741">Éditions Stock (Paris)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29761">Preußische Akademie der Künste (Sektion für Dichtkunst)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">The International Literary Agency (T.I.L.A.; auch: Agence littéraire Internationale)</ref>
         </note>
       </correspDesc>
       <textClass>

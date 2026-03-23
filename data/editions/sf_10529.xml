@@ -50,11 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="institution" ref="128103-3" source="https://d-nb.info/gnd/128103-3">
-            <orgName>Deutscher Verlegerverein</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -81,6 +76,7 @@
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10529.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29843">Der grüne Kakadu</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30486">Frau Bertha Garlan</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:128103-3">Deutscher Verlegerverein</ref>
         </note>
       </correspDesc>
       <textClass>

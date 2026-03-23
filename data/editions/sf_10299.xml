@@ -50,14 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="1023843110" source="https://d-nb.info/gnd/1023843110">
-            <orgName>Globus-Verlag (Berlin)</orgName>
-          </org>
-          <org type="publisher" ref="#pmb29636" source="https://pmb.acdh.oeaw.ac.at/entity/29636/">
-            <orgName>Wiener Verlag (Wien, Leipzig)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -93,6 +85,8 @@ Beantwortet in: 1910-02-01post/1910-02-12ante SF an AS (Aufführungsanfrage 'Epi
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29905">Der Ruf des Lebens</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30167">Die griechische Tänzerin</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29893">Excentric</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:1023843110">Globus-Verlag (Berlin)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29636">Wiener Verlag (Wien, Leipzig)</ref>
         </note>
       </correspDesc>
       <textClass>

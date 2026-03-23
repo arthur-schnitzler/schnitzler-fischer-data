@@ -50,14 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="1360401458" source="https://d-nb.info/gnd/1360401458">
-            <orgName>Pantheon-Verlag (Berlin)</orgName>
-          </org>
-          <org type="publisher" ref="#pmb29681" source="https://pmb.acdh.oeaw.ac.at/entity/29681/">
-            <orgName>Ullstein Verlag (Berlin)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -94,6 +86,8 @@ Beantwortet in: <ref target="11217">1926-01-06 SF (Berlin) an AS (Wien)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29863">Lebendige Stunden</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30851">Traumnovelle</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb336189">Die Dame</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:1360401458">Pantheon-Verlag (Berlin)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29681">Ullstein Verlag (Berlin)</ref>
         </note>
       </correspDesc>
       <textClass>

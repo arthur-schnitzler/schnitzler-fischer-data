@@ -50,23 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="1087495962" source="https://d-nb.info/gnd/1087495962">
-            <orgName>Athenaeum (Budapest)</orgName>
-          </org>
-          <org type="publisher" ref="#pmb37231" source="https://pmb.acdh.oeaw.ac.at/entity/37231/">
-            <orgName>Melantrich Verlag (Prag)</orgName>
-          </org>
-          <org type="publisher" ref="1360401458" source="https://d-nb.info/gnd/1360401458">
-            <orgName>Pantheon-Verlag (Berlin)</orgName>
-          </org>
-          <org type="publisher" ref="2077527-1" source="https://d-nb.info/gnd/2077527-1">
-            <orgName>Querido's Uitgeverij (Amsterdam)</orgName>
-          </org>
-          <org type="institution" ref="16338874-X" source="https://d-nb.info/gnd/16338874-X">
-            <orgName>Bank für Auswärtigen Handel</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -111,6 +94,11 @@ Beantwortet in: <ref target="11409">1928-05-07 SF (Berlin) an AS (Wien)</ref>, <
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32131">Spiel im Morgengrauen</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30817">Therese. Chronik eines Frauenlebens</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30851">Traumnovelle</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:1087495962">Athenaeum (Budapest)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb37231">Melantrich Verlag (Prag)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:1360401458">Pantheon-Verlag (Berlin)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:2077527-1">Querido's Uitgeverij (Amsterdam)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:16338874-X">Bank für Auswärtigen Handel</ref>
         </note>
       </correspDesc>
       <textClass>

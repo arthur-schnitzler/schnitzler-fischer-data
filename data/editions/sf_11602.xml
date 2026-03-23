@@ -50,14 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="#pmb146179" source="https://pmb.acdh.oeaw.ac.at/entity/146179/">
-            <orgName>Benjamin Harz Verlag (Berlin, Wien)</orgName>
-          </org>
-          <org type="publisher" ref="4467659-1" source="https://d-nb.info/gnd/4467659-1">
-            <orgName>Heinrich Schmidt &amp; Carl Günther (Leipzig)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -86,6 +78,8 @@ Beantwortet in: <ref target="11603">1930-11-29 AS (Wien) an SF (Berlin)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11602.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb146179">Benjamin Harz Verlag (Berlin, Wien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:4467659-1">Heinrich Schmidt & Carl Günther (Leipzig)</ref>
         </note>
       </correspDesc>
       <textClass>

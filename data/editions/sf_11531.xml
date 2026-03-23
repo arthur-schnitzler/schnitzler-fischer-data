@@ -50,14 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher">
-            <orgName>A. J. G. Strengholt (Amsterdam)</orgName>
-          </org>
-          <org type="publisher" ref="2077527-1" source="https://d-nb.info/gnd/2077527-1">
-            <orgName>Querido's Uitgeverij (Amsterdam)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -88,6 +80,8 @@ Beantwortet in: <ref target="11534">1930-01-28 SF (Berlin) an AS (Wien)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11531.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29923">Der Weg ins Freie</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30945">Im Spiel der Sommerlüfte</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">A. J. G. Strengholt (Amsterdam)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:2077527-1">Querido's Uitgeverij (Amsterdam)</ref>
         </note>
       </correspDesc>
       <textClass>

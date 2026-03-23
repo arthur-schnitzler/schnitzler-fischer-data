@@ -50,14 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="#pmb29369" source="https://pmb.acdh.oeaw.ac.at/entity/29369/">
-            <orgName>J. Singer &amp; Co. (Berlin)</orgName>
-          </org>
-          <org type="publisher" ref="#pmb29636" source="https://pmb.acdh.oeaw.ac.at/entity/29636/">
-            <orgName>Wiener Verlag (Wien, Leipzig)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -89,6 +81,8 @@ Von AS erwähnte zwischenzeitliche Karte (bzgl. 'Reigen') nicht überliefert.</n
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10226.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29923">Der Weg ins Freie</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29369">J. Singer & Co. (Berlin)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29636">Wiener Verlag (Wien, Leipzig)</ref>
         </note>
       </correspDesc>
       <textClass>

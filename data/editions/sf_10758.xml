@@ -50,32 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="1087495962" source="https://d-nb.info/gnd/1087495962">
-            <orgName>Athenaeum (Budapest)</orgName>
-          </org>
-          <org type="publisher" ref="16075869-5" source="https://d-nb.info/gnd/16075869-5">
-            <orgName>Biblioteca Nueva (Madrid)</orgName>
-          </org>
-          <org type="publisher">
-            <orgName>Kazinszy (Budapest)</orgName>
-          </org>
-          <org type="publisher">
-            <orgName>Vilagirodalon/Verlag für Weltliteratur (Ackermann un Weiler, Ungarn)</orgName>
-          </org>
-          <org type="institution" ref="#pmb29337" source="https://pmb.acdh.oeaw.ac.at/entity/29337/">
-            <orgName>Schutzverband Deutscher Schriftsteller (Berlin)</orgName>
-          </org>
-          <org type="institution" ref="10350158-7" source="https://d-nb.info/gnd/10350158-7">
-            <orgName>Sociedad de Autores Españoles</orgName>
-          </org>
-          <org type="institution" ref="#pmb29397" source="https://pmb.acdh.oeaw.ac.at/entity/29397/">
-            <orgName>Société des Auteurs et Compositeurs Dramatiques (Paris)</orgName>
-          </org>
-          <org type="institution">
-            <orgName>Spanische Botschaft (Wien)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -126,6 +100,14 @@ Beantwortet in: <ref target="10759">1920-06-08 SF (Berlin) an AS (Wien)</ref>, <
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32816">Masken und Wunder</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb336191">El Sol (Madrid)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:1087495962">Athenaeum (Budapest)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:16075869-5">Biblioteca Nueva (Madrid)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Kazinszy (Budapest)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Vilagirodalon/Verlag für Weltliteratur (Ackermann un Weiler, Ungarn)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29337">Schutzverband Deutscher Schriftsteller (Berlin)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:10350158-7">Sociedad de Autores Españoles</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29397">Société des Auteurs et Compositeurs Dramatiques (Paris)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Spanische Botschaft (Wien)</ref>
         </note>
       </correspDesc>
       <textClass>

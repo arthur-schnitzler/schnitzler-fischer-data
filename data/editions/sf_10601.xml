@@ -50,14 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="107307059X" source="https://d-nb.info/gnd/107307059X">
-            <orgName>Tempel-Verlag (Leipzig)</orgName>
-          </org>
-          <org type="publisher" ref="#pmb29681" source="https://pmb.acdh.oeaw.ac.at/entity/29681/">
-            <orgName>Ullstein Verlag (Berlin)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -93,6 +85,8 @@ Beantwortet in: <ref target="10602">1917-02-19 AS (Wien) an SF (Berlin)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30486">Frau Bertha Garlan</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30717">Komödie der Worte</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29917">Liebelei</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:107307059X">Tempel-Verlag (Leipzig)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29681">Ullstein Verlag (Berlin)</ref>
         </note>
       </correspDesc>
       <textClass>

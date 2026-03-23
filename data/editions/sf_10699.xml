@@ -50,14 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="#pmb146179" source="https://pmb.acdh.oeaw.ac.at/entity/146179/">
-            <orgName>Benjamin Harz Verlag (Berlin, Wien)</orgName>
-          </org>
-          <org type="institution" ref="63980-1" source="https://d-nb.info/gnd/63980-1">
-            <orgName>Deutsche Bank (Berlin)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -95,6 +87,8 @@ Beantwortet in: <ref target="10700">1919-04-29 SF (Berlin) an AS (Wien)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10699.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30971">Casanovas Heimfahrt</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb146179">Benjamin Harz Verlag (Berlin, Wien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:63980-1">Deutsche Bank (Berlin)</ref>
         </note>
       </correspDesc>
       <textClass>

@@ -50,14 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="7688638-4" source="https://d-nb.info/gnd/7688638-4">
-            <orgName>Knorr &amp; Hirth (München)</orgName>
-          </org>
-          <org type="publisher" ref="#pmb29681" source="https://pmb.acdh.oeaw.ac.at/entity/29681/">
-            <orgName>Ullstein Verlag (Berlin)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -88,6 +80,8 @@ Antwort auf: <ref target="11358">1927-11-19 SF (Berlin) an AS (Wien)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11359.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30817">Therese. Chronik eines Frauenlebens</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb167632">Berliner Illustrirte Zeitung</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:7688638-4">Knorr & Hirth (München)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29681">Ullstein Verlag (Berlin)</ref>
         </note>
       </correspDesc>
       <textClass>

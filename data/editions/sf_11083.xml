@@ -50,14 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="#pmb29739" source="https://pmb.acdh.oeaw.ac.at/entity/29739/">
-            <orgName>Herz-Verlag (Wien)</orgName>
-          </org>
-          <org type="publisher" ref="#pmb29369" source="https://pmb.acdh.oeaw.ac.at/entity/29369/">
-            <orgName>J. Singer &amp; Co. (Berlin)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -88,6 +80,8 @@ Antwort auf: <ref target="11082">1924-04-28 AS (Wien) an SF (Berlin)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11083.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30649">Der blinde Geronimo und sein Bruder</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29923">Der Weg ins Freie</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29739">Herz-Verlag (Wien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29369">J. Singer & Co. (Berlin)</ref>
         </note>
       </correspDesc>
       <textClass>

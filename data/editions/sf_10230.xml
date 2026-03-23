@@ -57,11 +57,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="#pmb29369" source="https://pmb.acdh.oeaw.ac.at/entity/29369/">
-            <orgName>J. Singer &amp; Co. (Berlin)</orgName>
-          </org>
-        </listOrg>
         <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-09-12.html">Tgb 1908-09-12</ref>
       </sourceDesc>
       <notesStmt>
@@ -86,6 +81,7 @@
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10230.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29923">Der Weg ins Freie</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29369">J. Singer & Co. (Berlin)</ref>
         </note>
       </correspDesc>
       <textClass>

@@ -57,14 +57,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="#pmb48425" source="https://pmb.acdh.oeaw.ac.at/entity/48425/">
-            <orgName>Deutsch-Österreichischer Verlag (Wien)</orgName>
-          </org>
-          <org type="publisher" ref="5306734-4" source="https://d-nb.info/gnd/5306734-4">
-            <orgName>Julius-Bard-Verlag für Literatur und Kunst (Berlin)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -92,6 +84,8 @@ Antwort auf: 1911-10-14ante AS an SF</note>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10402.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30213">Die Hirtenflöte</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb48425">Deutsch-Österreichischer Verlag (Wien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:5306734-4">Julius-Bard-Verlag für Literatur und Kunst (Berlin)</ref>
         </note>
       </correspDesc>
       <textClass>

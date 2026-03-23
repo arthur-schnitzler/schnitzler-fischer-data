@@ -50,14 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="10102945-7" source="https://d-nb.info/gnd/10102945-7">
-            <orgName>Alfred A. Knopf, Inc. (New York)</orgName>
-          </org>
-          <org type="publisher" ref="127287-1" source="https://d-nb.info/gnd/127287-1">
-            <orgName>Prentice Hall (Englewood Cliffs, NJ)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -89,6 +81,8 @@ wohl Beilage zu einem der genannten Briefe</note>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11525.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb336256">Thomas Mann: Unordnung und frühes Leid</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:10102945-7">Alfred A. Knopf, Inc. (New York)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:127287-1">Prentice Hall (Englewood Cliffs, NJ)</ref>
         </note>
       </correspDesc>
       <textClass>

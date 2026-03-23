@@ -50,11 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="institution" ref="9839-5" source="https://d-nb.info/gnd/9839-5">
-            <orgName>The Ohio State University</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -91,6 +86,7 @@
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10598.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30649">Der blinde Geronimo und sein Bruder</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb36374">Neue Freie Presse</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:9839-5">The Ohio State University</ref>
         </note>
       </correspDesc>
       <textClass>

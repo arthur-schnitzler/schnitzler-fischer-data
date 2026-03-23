@@ -50,14 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="#pmb146179" source="https://pmb.acdh.oeaw.ac.at/entity/146179/">
-            <orgName>Benjamin Harz Verlag (Berlin, Wien)</orgName>
-          </org>
-          <org type="institution" ref="#pmb29337" source="https://pmb.acdh.oeaw.ac.at/entity/29337/">
-            <orgName>Schutzverband Deutscher Schriftsteller (Berlin)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -84,6 +76,8 @@ Antwort auf: 1918-XX-XX SF (XX) an AS (Wien) (erschlossen)</note>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10683.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30203">Professor Bernhardi</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb146179">Benjamin Harz Verlag (Berlin, Wien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29337">Schutzverband Deutscher Schriftsteller (Berlin)</ref>
         </note>
       </correspDesc>
       <textClass>

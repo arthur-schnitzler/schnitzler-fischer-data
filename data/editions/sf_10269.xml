@@ -50,11 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="#pmb185447" source="https://pmb.acdh.oeaw.ac.at/entity/185447/">
-            <orgName>Musikverlag Doblinger (Wien)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -88,6 +83,7 @@ kein direkter Bezug zu vorangehender Korrespondenz; möglicherweise weiteres zwi
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10269.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30215">Der Schleier der Pierrette</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb185447">Musikverlag Doblinger (Wien)</ref>
         </note>
       </correspDesc>
       <textClass>

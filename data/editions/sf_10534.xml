@@ -57,20 +57,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher">
-            <orgName>The German Publication Society (New York)</orgName>
-          </org>
-          <org type="institution" ref="#pmb29244" source="https://pmb.acdh.oeaw.ac.at/entity/29244/">
-            <orgName>Allgemeine Bodencreditanstalt</orgName>
-          </org>
-          <org type="institution" ref="1327992701" source="https://d-nb.info/gnd/1327992701">
-            <orgName>Allgemeiner Schriftstellerverein</orgName>
-          </org>
-          <org type="institution" ref="63980-1" source="https://d-nb.info/gnd/63980-1">
-            <orgName>Deutsche Bank (Berlin)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -100,6 +86,10 @@ Antwort auf: <ref target="10532">1914-06-10 AS an SF</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10534.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30167">Die griechische Tänzerin</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30391">Die überspannte Person</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">The German Publication Society (New York)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29244">Allgemeine Bodencreditanstalt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:1327992701">Allgemeiner Schriftstellerverein</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:63980-1">Deutsche Bank (Berlin)</ref>
         </note>
       </correspDesc>
       <textClass>

@@ -50,17 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="institution">
-            <orgName>Davidson-Film AG (Berlin)</orgName>
-          </org>
-          <org type="institution" ref="#pmb29409" source="https://pmb.acdh.oeaw.ac.at/entity/29409/">
-            <orgName>Nordisk Film (Kopenhagen)</orgName>
-          </org>
-          <org type="institution" ref="4762379-2" source="https://d-nb.info/gnd/4762379-2">
-            <orgName>Schlesische Funkstunde-AG (Breslau)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -87,6 +76,9 @@
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11176.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29917">Liebelei</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Davidson-Film AG (Berlin)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29409">Nordisk Film (Kopenhagen)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:4762379-2">Schlesische Funkstunde-AG (Breslau)</ref>
         </note>
       </correspDesc>
       <textClass>

@@ -50,14 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="#pmb146179" source="https://pmb.acdh.oeaw.ac.at/entity/146179/">
-            <orgName>Benjamin Harz Verlag (Berlin, Wien)</orgName>
-          </org>
-          <org type="publisher" ref="#pmb29369" source="https://pmb.acdh.oeaw.ac.at/entity/29369/">
-            <orgName>J. Singer &amp; Co. (Berlin)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -88,6 +80,8 @@ Anhang: 1928-03-28 AS an Harz</note>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11401.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30817">Therese. Chronik eines Frauenlebens</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb146179">Benjamin Harz Verlag (Berlin, Wien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29369">J. Singer & Co. (Berlin)</ref>
         </note>
       </correspDesc>
       <textClass>

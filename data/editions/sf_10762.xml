@@ -50,23 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="1087495962" source="https://d-nb.info/gnd/1087495962">
-            <orgName>Athenaeum (Budapest)</orgName>
-          </org>
-          <org type="publisher" ref="16075869-5" source="https://d-nb.info/gnd/16075869-5">
-            <orgName>Biblioteca Nueva (Madrid)</orgName>
-          </org>
-          <org type="publisher" ref="1360401458" source="https://d-nb.info/gnd/1360401458">
-            <orgName>Pantheon-Verlag (Berlin)</orgName>
-          </org>
-          <org type="publisher" ref="1237010950" source="https://d-nb.info/gnd/1237010950">
-            <orgName>Verlag Neues Vaterland E. Berger &amp; Co. (Berlin)</orgName>
-          </org>
-          <org type="institution">
-            <orgName>Deutsches Konsulat Madrid</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -106,6 +89,11 @@ Antwort auf: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30717">Komödie der Worte</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32816">Masken und Wunder</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30117">Sterben</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:1087495962">Athenaeum (Budapest)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:16075869-5">Biblioteca Nueva (Madrid)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:1360401458">Pantheon-Verlag (Berlin)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:1237010950">Verlag Neues Vaterland E. Berger & Co. (Berlin)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Deutsches Konsulat Madrid</ref>
         </note>
       </correspDesc>
       <textClass>

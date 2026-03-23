@@ -57,11 +57,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="#pmb29636" source="https://pmb.acdh.oeaw.ac.at/entity/29636/">
-            <orgName>Wiener Verlag (Wien, Leipzig)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -93,6 +88,7 @@ Antwort auf: 1900-01-09post/1900-02-12ante: AS an SF (Drucklegung und Titelillus
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10098.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29636">Wiener Verlag (Wien, Leipzig)</ref>
         </note>
       </correspDesc>
       <textClass>

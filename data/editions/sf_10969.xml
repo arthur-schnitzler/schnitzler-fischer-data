@@ -50,14 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="#pmb29586" source="https://pmb.acdh.oeaw.ac.at/entity/29586/">
-            <orgName>Brandt &amp; Kirkpatrick (New York)</orgName>
-          </org>
-          <org type="publisher" ref="7701946-5" source="https://d-nb.info/gnd/7701946-5">
-            <orgName>George Allen &amp; Unwin (London)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -90,6 +82,8 @@ Beantwortet in: <ref target="10970">1923-01-29 AS (Wien) an SF (Berlin)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10969.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29923">Der Weg ins Freie</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29586">Brandt & Kirkpatrick (New York)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:7701946-5">George Allen & Unwin (London)</ref>
         </note>
       </correspDesc>
       <textClass>

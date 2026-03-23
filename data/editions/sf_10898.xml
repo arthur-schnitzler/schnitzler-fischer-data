@@ -50,23 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="#pmb29586" source="https://pmb.acdh.oeaw.ac.at/entity/29586/">
-            <orgName>Brandt &amp; Kirkpatrick (New York)</orgName>
-          </org>
-          <org type="publisher" ref="#pmb118088" source="https://pmb.acdh.oeaw.ac.at/entity/118088/">
-            <orgName>Karczag-Verlag (Wien)</orgName>
-          </org>
-          <org type="institution" ref="74626-5" source="https://d-nb.info/gnd/74626-5">
-            <orgName>Eidgenössische Bank (Zürich)</orgName>
-          </org>
-          <org type="institution" ref="1086221605" source="https://d-nb.info/gnd/1086221605">
-            <orgName>Ladenburg, Thalmann &amp; Co. (Bankhaus, New York)</orgName>
-          </org>
-          <org type="institution" ref="69026-0" source="https://d-nb.info/gnd/69026-0">
-            <orgName>USA. Alien Property Custodian</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -111,6 +94,11 @@ Anlage: Rechnung der Bücherlieferung an den Karczag Verlag</note>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb336195">Groot-Nederland</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb336219">Maurice Wagenvoort: De Fortuintjes van Casanova</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29586">Brandt & Kirkpatrick (New York)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb118088">Karczag-Verlag (Wien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:74626-5">Eidgenössische Bank (Zürich)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:1086221605">Ladenburg, Thalmann & Co. (Bankhaus, New York)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:69026-0">USA. Alien Property Custodian</ref>
         </note>
       </correspDesc>
       <textClass>

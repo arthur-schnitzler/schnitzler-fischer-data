@@ -63,17 +63,6 @@
             <title>Reigen</title>
           </bibl>
         </listBibl>
-        <listOrg>
-          <org type="publisher" ref="#pmb146179" source="https://pmb.acdh.oeaw.ac.at/entity/146179/">
-            <orgName>Benjamin Harz Verlag (Berlin, Wien)</orgName>
-          </org>
-          <org type="publisher" ref="#pmb118088" source="https://pmb.acdh.oeaw.ac.at/entity/118088/">
-            <orgName>Karczag-Verlag (Wien)</orgName>
-          </org>
-          <org type="institution" ref="14184-7" source="https://d-nb.info/gnd/14184-7">
-            <orgName>Società italiana degli autori es editori (Rom)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -95,6 +84,11 @@ Beantwortet in: <ref target="10878">1922-01-16 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb146179">Benjamin Harz Verlag (Berlin, Wien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb118088">Karczag-Verlag (Wien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:14184-7">Società italiana degli autori es editori (Rom)</ref>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>

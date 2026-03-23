@@ -57,11 +57,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="institution" ref="#pmb41852" source="https://pmb.acdh.oeaw.ac.at/entity/41852/">
-            <orgName>Deutsche Schillerstiftung (Weimar)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -90,6 +85,7 @@ Anlage: Unterstützungsgesuch an Schiller-Stiftung zugunsten Peter Altenberg (ni
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb197">Weimar</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10153.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb41852">Deutsche Schillerstiftung (Weimar)</ref>
         </note>
       </correspDesc>
       <textClass/>

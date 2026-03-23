@@ -57,14 +57,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="#pmb29557" source="https://pmb.acdh.oeaw.ac.at/entity/29557/">
-            <orgName>A. Entsch (Wien)</orgName>
-          </org>
-          <org type="institution" ref="#pmb59074" source="https://pmb.acdh.oeaw.ac.at/entity/59074/">
-            <orgName>Genossenschaft deutscher Bühnen-Angehöriger</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -102,6 +94,8 @@ Beantwortet in: <ref target="10242">1908-10-26 AS an SF</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10241.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29935">Anatol</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29917">Liebelei</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29557">A. Entsch (Wien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb59074">Genossenschaft deutscher Bühnen-Angehöriger</ref>
         </note>
       </correspDesc>
       <textClass>

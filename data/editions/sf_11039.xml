@@ -50,11 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="16105018-9" source="https://d-nb.info/gnd/16105018-9">
-            <orgName>Gustav-Kiepenheuer-Verlag (Potsdam)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -83,6 +78,7 @@ Anlage: Brief oder Rückseite: Handschriftliche Notiz von AS</note>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11039.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:16105018-9">Gustav-Kiepenheuer-Verlag (Potsdam)</ref>
         </note>
       </correspDesc>
       <textClass>

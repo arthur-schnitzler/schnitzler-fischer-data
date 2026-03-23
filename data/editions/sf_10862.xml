@@ -49,11 +49,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="institution" ref="2070231-0" source="https://d-nb.info/gnd/2070231-0">
-            <orgName>Kunstgewerbemuseum Berlin</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -74,6 +69,9 @@ Anlage: Telegramm bezüglich des "Reigen" (Holland) ##oder eigene Mitteilung, ev
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:2070231-0">Kunstgewerbemuseum Berlin</ref>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>

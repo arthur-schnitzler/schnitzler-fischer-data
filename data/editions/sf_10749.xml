@@ -50,17 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="1087495962" source="https://d-nb.info/gnd/1087495962">
-            <orgName>Athenaeum (Budapest)</orgName>
-          </org>
-          <org type="publisher" ref="#pmb29584" source="https://pmb.acdh.oeaw.ac.at/entity/29584/">
-            <orgName>Georg Müller Verlag (Leipzig, München)</orgName>
-          </org>
-          <org type="publisher" ref="35739-X" source="https://d-nb.info/gnd/35739-X">
-            <orgName>Kurt Wolff Verlag (Leipzig, München)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -103,6 +92,9 @@ Beantwortet in: <ref target="10751">1920-05-01 AS (Wien) an SF (Berlin)</ref> un
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29899">Freiwild</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29859">Marionetten</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32816">Masken und Wunder</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:1087495962">Athenaeum (Budapest)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29584">Georg Müller Verlag (Leipzig, München)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:35739-X">Kurt Wolff Verlag (Leipzig, München)</ref>
         </note>
       </correspDesc>
       <textClass>

@@ -50,23 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="6120859-0" source="https://d-nb.info/gnd/6120859-0">
-            <orgName>Boni &amp; Liveright (New York)</orgName>
-          </org>
-          <org type="publisher" ref="#pmb29586" source="https://pmb.acdh.oeaw.ac.at/entity/29586/">
-            <orgName>Brandt &amp; Kirkpatrick (New York)</orgName>
-          </org>
-          <org type="publisher" ref="#pmb61831" source="https://pmb.acdh.oeaw.ac.at/entity/61831/">
-            <orgName>Frisch &amp; Co. (Wien)</orgName>
-          </org>
-          <org type="institution" ref="4515802-2" source="https://d-nb.info/gnd/4515802-2">
-            <orgName>Famous Players-Lasky Corporation</orgName>
-          </org>
-          <org type="institution" ref="69026-0" source="https://d-nb.info/gnd/69026-0">
-            <orgName>USA. Alien Property Custodian</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -104,6 +87,11 @@ Anlage: 1922-01-19 Bestätigung auf Recht einer englischen Buchausgabe und engli
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30207">Das weite Land</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30819">Die Schwestern oder Casanova in Spa</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:6120859-0">Boni & Liveright (New York)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29586">Brandt & Kirkpatrick (New York)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb61831">Frisch & Co. (Wien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:4515802-2">Famous Players-Lasky Corporation</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:69026-0">USA. Alien Property Custodian</ref>
         </note>
       </correspDesc>
       <textClass>

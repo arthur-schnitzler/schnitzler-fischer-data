@@ -50,14 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="1087495962" source="https://d-nb.info/gnd/1087495962">
-            <orgName>Athenaeum (Budapest)</orgName>
-          </org>
-          <org type="institution" ref="5191163-2" source="https://d-nb.info/gnd/5191163-2">
-            <orgName>Verband Deutscher Filmautoren</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -90,6 +82,8 @@ Beantwortet in: <ref target="10757">1920-05-19 SF (Berlin) an AS (Wien)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10754.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30971">Casanovas Heimfahrt</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30717">Komödie der Worte</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:1087495962">Athenaeum (Budapest)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:5191163-2">Verband Deutscher Filmautoren</ref>
         </note>
       </correspDesc>
       <textClass>

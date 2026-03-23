@@ -50,14 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listOrg>
-          <org type="publisher" ref="31430-4" source="https://d-nb.info/gnd/31430-4">
-            <orgName>Albert Bonniers Förlag (Stockholm)</orgName>
-          </org>
-          <org type="publisher" ref="#pmb48425" source="https://pmb.acdh.oeaw.ac.at/entity/48425/">
-            <orgName>Deutsch-Österreichischer Verlag (Wien)</orgName>
-          </org>
-        </listOrg>
         
       </sourceDesc>
       <notesStmt>
@@ -95,6 +87,8 @@ Beantwortet in: <ref target="10438">1912-05-09 SF an AS</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10436.xml"/>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30213">Die Hirtenflöte</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32816">Masken und Wunder</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="gnd:31430-4">Albert Bonniers Förlag (Stockholm)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb48425">Deutsch-Österreichischer Verlag (Wien)</ref>
         </note>
       </correspDesc>
       <textClass>
