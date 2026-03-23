@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -71,7 +72,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
 Antwort auf: <ref target="10588">1915-12-20 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10590">1915-12-29 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10590">1915-12-29 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1915-12-23.html</note>
       </notesStmt>
@@ -87,6 +89,15 @@ Beantwortet in: <ref target="10590">1915-12-29 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13777">Bartels, Wolfgang von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb15764">Eirich, Otto</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb152033">Fontane, Friedrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb146243">Marton, Alexander</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10589.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -99,25 +110,6 @@ Beantwortet in: <ref target="10590">1915-12-29 SF (Berlin) an AS (Wien)</ref></n
           <term>ungarisch</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb13777" source="https://pmb.acdh.oeaw.ac.at/entity/13777/">
-          <persName>Bartels, Wolfgang von</persName>
-        </person>
-        <person ref="#pmb15764" source="https://pmb.acdh.oeaw.ac.at/entity/15764/">
-          <persName>Eirich, Otto</persName>
-        </person>
-        <person ref="#pmb152033" source="https://pmb.acdh.oeaw.ac.at/entity/152033/">
-          <persName>Fontane, Friedrich</persName>
-        </person>
-        <person ref="#pmb146243" source="https://pmb.acdh.oeaw.ac.at/entity/146243/">
-          <persName>Marton, Alexander</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -128,7 +120,8 @@ Beantwortet in: <ref target="10590">1915-12-29 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>2 Blatt, 4 Seiten
 Antwort auf: <ref target="10588">1915-12-20 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10590">1915-12-29 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10590">1915-12-29 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
     </body>
   </text>

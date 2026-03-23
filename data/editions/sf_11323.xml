@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -69,7 +70,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
-Beantwortet in: <ref target="11324">1927-07-09 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="11324">1927-07-09 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1927-07-06.html</note>
       </notesStmt>
@@ -86,6 +88,19 @@ Beantwortet in: <ref target="11324">1927-07-09 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10844">Bassermann, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb6169">Baumbach, Rudolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10886">Bergner, Elisabeth</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7713">Hartung, Gustav</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8201">Kinz, Franziska</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12176">Mann, Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11323.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -103,37 +118,6 @@ Beantwortet in: <ref target="11324">1927-07-09 AS (Wien) an SF (Berlin)</ref></n
           <term>Vorlesung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10844" source="https://pmb.acdh.oeaw.ac.at/entity/10844/">
-          <persName>Bassermann, Albert</persName>
-        </person>
-        <person ref="#pmb6169" source="https://pmb.acdh.oeaw.ac.at/entity/6169/">
-          <persName>Baumbach, Rudolf</persName>
-        </person>
-        <person ref="#pmb10886" source="https://pmb.acdh.oeaw.ac.at/entity/10886/">
-          <persName>Bergner, Elisabeth</persName>
-        </person>
-        <person ref="#pmb7713" source="https://pmb.acdh.oeaw.ac.at/entity/7713/">
-          <persName>Hartung, Gustav</persName>
-        </person>
-        <person ref="#pmb8201" source="https://pmb.acdh.oeaw.ac.at/entity/8201/">
-          <persName>Kinz, Franziska</persName>
-        </person>
-        <person ref="#pmb12176" source="https://pmb.acdh.oeaw.ac.at/entity/12176/">
-          <persName>Mann, Thomas</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -143,10 +127,12 @@ Beantwortet in: <ref target="11324">1927-07-09 AS (Wien) an SF (Berlin)</ref></n
     <body>
       <div type="letter">
         <p>2 Blatt, 2 Seiten
-Beantwortet in: <ref target="11324">1927-07-09 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="11324">1927-07-09 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0949"/>815<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0949"/>815<lb/>
 Rauckreit<lb/>
 the<lb/>
 P. Fischer/ Verlag / A.=G. Berlin W 57.<lb/>
@@ -188,7 +174,8 @@ len Gründen wäre es empfehlenswert, wenn Sie<lb/>
 gegen die Raven-Ravachen gegenommen sei.<lb/>
 klagbar vorgehen wollten. Aus Deutschland bekommen Sie natürlich<lb/>
 alle Vorlesungen berechnet.</p>
-        <p><pb facs="1416743_0950"/>Fortsetzung Brief.<lb/>
+        <p>
+          <pb facs="1416743_0950"/>Fortsetzung Brief.<lb/>
 Dagegen sind auch nach deutschem Recht Vorlesungen von<lb/>
 Publikum frei. Vertragsmässig kann man natürlich eine Zahlung veran-<lb/>
 einbaren, Sie können aber gegen die Direktion nicht vorgehen, wenn<lb/>

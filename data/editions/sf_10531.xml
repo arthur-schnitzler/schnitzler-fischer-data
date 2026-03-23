@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10531">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -83,17 +84,17 @@ Von AS hs. dem "April 914" zugeordnet. Hs. Notiz AS: "Olden". Bie bezieht sich a
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12374">Olden, Rudolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10531.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Novelle</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb12374" source="https://pmb.acdh.oeaw.ac.at/entity/12374/">
-          <persName>Olden, Rudolf</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -106,8 +107,9 @@ Von AS hs. dem "April 914" zugeordnet. Hs. Notiz AS: "Olden". Bie bezieht sich a
 
 Von AS hs. dem "April 914" zugeordnet. Hs. Notiz AS: "Olden". Bie bezieht sich auf eine Novelle von Rudolf Olden, die AS lt. Tgb 1913-11-17 gelesen, lt. Tgb 1914-03-15 "flüchtig 'corrigirt'" und lt. Tgb 1914-04-27 an Bie gesandt hatte (Brief nicht überliefert).</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0663"/>340<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0663"/>340<lb/>
 Fischer Verlag, Berlin W., Bülowstrasse 90.<lb/>
 16/5. 1914<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>

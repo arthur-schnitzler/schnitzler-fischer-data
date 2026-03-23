@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -67,7 +68,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
-Antwort auf: <ref target="10720">1919-10-20  AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="10720">1919-10-20  AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1919-11-01.html</note>
       </notesStmt>
@@ -84,6 +86,14 @@ Antwort auf: <ref target="10720">1919-10-20  AS (Wien) an SF (Berlin)</ref></not
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="116328-0">Badisches Landestheater Karlsruhe</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="4562254-1">Koninklijke Schouwburg Den Haag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="1231430-4">Königliches Deutsches Landestheater Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10722.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,22 +110,6 @@ Antwort auf: <ref target="10720">1919-10-20  AS (Wien) an SF (Berlin)</ref></not
           <term>Vertreter/Vertretung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="116328-0" source="https://d-nb.info/gnd/116328-0">
-          <orgName>Badisches Landestheater Karlsruhe</orgName>
-        </org>
-        <org ref="4562254-1" source="https://d-nb.info/gnd/4562254-1">
-          <orgName>Koninklijke Schouwburg Den Haag</orgName>
-        </org>
-        <org ref="1231430-4" source="https://d-nb.info/gnd/1231430-4">
-          <orgName>Königliches Deutsches Landestheater Prag</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -125,10 +119,12 @@ Antwort auf: <ref target="10720">1919-10-20  AS (Wien) an SF (Berlin)</ref></not
     <body>
       <div type="letter">
         <p>2 Blatt, 2 Seiten
-Antwort auf: <ref target="10720">1919-10-20  AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="10720">1919-10-20  AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0196"/>S. Fischer - Verlag = Berlin<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0196"/>S. Fischer - Verlag = Berlin<lb/>
 Amt Lützow 1662 u. 6162 Theaterabteilung postscheckkonto Nr. 16892<lb/>
 Berlin W 57, Bülowstraße Nr. 90<lb/>
 obTUw e11m3T80 entz. ies nebröw undütigtus essers duu mukildus led<lb/>
@@ -167,7 +163,8 @@ wolle<lb/>
 Die oben genannten Bedingungen haben Sältigkeit bis zum. Sollten wir an diesem Tag noch keine<lb/>
 entscheidende Antwort erhalten haben, so nehmen wir an, daß wir über das in Frage stehende Werk anderweitig verfügen können<lb/>
 O. M.</p>
-        <p><pb facs="1416743_0197"/>rechte<lb/>
+        <p>
+          <pb facs="1416743_0197"/>rechte<lb/>
 milze<lb/>
 e votre<lb/>
 auch<lb/>

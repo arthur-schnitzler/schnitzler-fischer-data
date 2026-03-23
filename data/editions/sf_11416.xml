@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,7 +71,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
 Antwort auf: <ref target="11415">1928-05-21 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11420">1928-06-11 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11420">1928-06-11 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1928-05-31.html</note>
       </notesStmt>
@@ -86,6 +88,12 @@ Beantwortet in: <ref target="11420">1928-06-11 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4374">Maril, Konrad</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11416.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -109,14 +117,6 @@ Beantwortet in: <ref target="11420">1928-06-11 SF (Berlin) an AS (Wien)</ref></n
           <term>Vorschuss</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb4374" source="https://pmb.acdh.oeaw.ac.at/entity/4374/">
-          <persName>Maril, Konrad</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -127,10 +127,12 @@ Beantwortet in: <ref target="11420">1928-06-11 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>2 Blatt, 2 Seiten
 Antwort auf: <ref target="11415">1928-05-21 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11420">1928-06-11 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11420">1928-06-11 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0047"/>at<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0047"/>at<lb/>
 Fischer<lb/>
 31.5.1928.<lb/>
 von der Stadt zu verständen<lb/>
@@ -182,7 +184,8 @@ nicht. Ich halte den Betrag, den wir für diesen<lb/>
 auf aufwenden wollen, keineswegs für ganz verloren,<lb/>
 als xix Sie diese Restvorräte zu einem kleineren<lb/>
 Preis verkaufen können. Aber auch die Einstampfung</p>
-        <p><pb facs="1416741_0048"/>schiene mir kein starkes geschäftliches Risiko, denn<lb/>
+        <p>
+          <pb facs="1416741_0048"/>schiene mir kein starkes geschäftliches Risiko, denn<lb/>
 zweifellos würde eine neue und vornehm ausgestatte-<lb/>
 te Ausgabe des „Reigen“ im Verlag Fischer sich in<lb/>
 einer nicht allzu Ternen Zeit rentieren. Lasse ich<lb/>

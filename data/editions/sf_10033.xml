@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10033">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -83,13 +84,13 @@ Beantwortet in: 1895-08-08 AS an SF (Konditionen Verlagsübernahme 'Anatol'; nic
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2595">Pierson, Edgar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10033.xml"/>
+        </note>
       </correspDesc>
       <textClass/>
-      <listPerson>
-        <person ref="#pmb2595" source="https://pmb.acdh.oeaw.ac.at/entity/2595/">
-          <persName>Pierson, Edgar</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -103,8 +104,9 @@ Beantwortet in: 1895-08-08 AS an SF (Konditionen Verlagsübernahme 'Anatol'; nic
 Antwort auf: 1895-07-20post/1895-07-31ante AS an SF (nicht sicher zu erschließen, wohl Nachfrage zu Konditionen Verlagsübernahme 'Anatol'; nicht überliefert)
 Beantwortet in: 1895-08-08 AS an SF (Konditionen Verlagsübernahme 'Anatol'; nicht überliefert, erwähnt in 1895-09-04)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0039"/>S. FISCHER, VerLAG 21<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0039"/>S. FISCHER, VerLAG 21<lb/>
 Hofbuchhandlung.<lb/>
 Berlin, den 31/7<lb/>
 BEBLIX W.,<lb/>

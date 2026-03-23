@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -81,7 +82,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten beschrieben
 
-Antwort auf: <ref target="10285">1909-11-04 AS an SF</ref></note>
+Antwort auf: <ref target="10285">1909-11-04 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1909-11-08.html</note>
       </notesStmt>
@@ -97,6 +99,11 @@ Antwort auf: <ref target="10285">1909-11-04 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10998">Brann, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10286.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -105,11 +112,6 @@ Antwort auf: <ref target="10285">1909-11-04 AS an SF</ref></note>
           <term>Buchillustration</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10998" source="https://pmb.acdh.oeaw.ac.at/entity/10998/">
-          <persName>Brann, Paul</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -120,10 +122,12 @@ Antwort auf: <ref target="10285">1909-11-04 AS an SF</ref></note>
       <div type="letter">
         <p>1 Blatt, 2 Seiten beschrieben
 
-Antwort auf: <ref target="10285">1909-11-04 AS an SF</ref></p>
+Antwort auf: <ref target="10285">1909-11-04 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0397"/>212<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0397"/>212<lb/>
 Nov. '09<lb/>
 W., DEN.<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -147,7 +151,8 @@ wenn sie wollen,<lb/>
 Ihre Interessen nach<lb/>
 achtung hin durch<lb/>
 einen Anwalt zu xxx</p>
-        <p><pb facs="1416742_0398"/>von Herrn Braun haben wir das Titelbild für<lb/>
+        <p>
+          <pb facs="1416742_0398"/>von Herrn Braun haben wir das Titelbild für<lb/>
 den Umschlag sehen bekommen, die Separatabzüge<lb/>
 werden rechtzeitig fertig.<lb/>
 Wenn Sie die Verrechnung des Bühnenvertriebs<lb/>

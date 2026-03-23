@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -102,6 +103,22 @@ Anlage: Richtlinien für die Honorierung schönwissenschaftlicher Bücher</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11679">Hesse, Hermann</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11900">Kellermann, Bernhard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4423">Knopf, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12176">Mann, Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23320">Reyding, August</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23675">Rotter, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3876">Rotter, Fritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5031">Samuel, Horace Barnett</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb92768">Woticky, Edward</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Rotter-Bühnen Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10989.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -114,48 +131,6 @@ Anlage: Richtlinien für die Honorierung schönwissenschaftlicher Bücher</note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11679" source="https://pmb.acdh.oeaw.ac.at/entity/11679/">
-          <persName>Hesse, Hermann</persName>
-        </person>
-        <person ref="#pmb11900" source="https://pmb.acdh.oeaw.ac.at/entity/11900/">
-          <persName>Kellermann, Bernhard</persName>
-        </person>
-        <person ref="#pmb4423" source="https://pmb.acdh.oeaw.ac.at/entity/4423/">
-          <persName>Knopf, Alfred</persName>
-        </person>
-        <person ref="#pmb12176" source="https://pmb.acdh.oeaw.ac.at/entity/12176/">
-          <persName>Mann, Thomas</persName>
-        </person>
-        <person ref="#pmb23320" source="https://pmb.acdh.oeaw.ac.at/entity/23320/">
-          <persName>Reyding, August</persName>
-        </person>
-        <person ref="#pmb23675" source="https://pmb.acdh.oeaw.ac.at/entity/23675/">
-          <persName>Rotter, Alfred</persName>
-        </person>
-        <person ref="#pmb3876" source="https://pmb.acdh.oeaw.ac.at/entity/3876/">
-          <persName>Rotter, Fritz</persName>
-        </person>
-        <person ref="#pmb5031" source="https://pmb.acdh.oeaw.ac.at/entity/5031/">
-          <persName>Samuel, Horace Barnett</persName>
-        </person>
-        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
-          <persName>Woticky, Edward</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org>
-          <orgName>Rotter-Bühnen Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -168,8 +143,9 @@ Anlage: Richtlinien für die Honorierung schönwissenschaftlicher Bücher</note>
 Antwort auf: <ref target="10985">1923-03-15 AS (Wien) an SF (Berlin)</ref>, <ref target="10986">1923-03-19 AS (Wien) an SF (Berlin)</ref>
 Anlage: Richtlinien für die Honorierung schönwissenschaftlicher Bücher</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0609"/>G12.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0609"/>G12.<lb/>
 S. Fischer/Verlag/ Berlin W 57/Bülowstraße 90<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 1662. 6162 und 9292 / Postecheckkonto: Berlin Nr 16892<lb/>
 THEATERABTEILUNG<lb/>
@@ -198,7 +174,8 @@ schrieben habe und Ihnen deshalb nun die Erledi,<lb/>
 heit Wohitzky dringlich geworden sei, da Sie negativenfalls dann<lb/>
 jene andere Person evtl. ermächtigen würden. Jedenfalls danke ich<lb/>
 Eine befristete Verlängerung</p>
-        <p><pb facs="1416743_0610"/>peine<lb/>
+        <p>
+          <pb facs="1416743_0610"/>peine<lb/>
 auf wolmäß xxx<lb/>
 31. rt. sind wirckanndsamtt gege bis 2.10. Löbl.m.I. m.A. wenbildern<lb/>
 O0 3<lb/>
@@ -234,7 +211,8 @@ zu verhindern,<lb/>
 van<lb/>
 aute<lb/>
 dieses Herrn</p>
-        <p><pb facs="1416743_0611"/>S. Fischer/Verlag/Berlin M 57/Bülowstraße 90<lb/>
+        <p>
+          <pb facs="1416743_0611"/>S. Fischer/Verlag/Berlin M 57/Bülowstraße 90<lb/>
 anschlüsse: Amt Lützow Nr. 1662. 6162 und 9292 / Portscheckkonto: Berlin Nrr. 166<lb/>
 THEATERABTEILUNG<lb/>
 G.H.F.P.<lb/>
@@ -267,7 +245,8 @@ Leistung an. Ich gestehe<lb/>
 handel scheint.<lb/>
 reichen werden,<lb/>
 mit Ihnen ein -</p>
-        <p><pb facs="1416743_0612"/>se D nimtt pahu<lb/>
+        <p>
+          <pb facs="1416743_0612"/>se D nimtt pahu<lb/>
 dafoli.<lb/>
 op 3érie<lb/>
 Zehl seit und schmordung und 2519.863!.M werden wir anlichtenden<lb/>
@@ -305,7 +284,8 @@ handele. Ich nehme<lb/>
 Loy<lb/>
 sse aber noch eine Antwort da<lb/>
 frei betrachten,</p>
-        <p><pb facs="1416743_0613"/>S. Fischer/Verlag/Berlin M 57/Bülowstraffe 90<lb/>
+        <p>
+          <pb facs="1416743_0613"/>S. Fischer/Verlag/Berlin M 57/Bülowstraffe 90<lb/>
 blüsse: Amt Lützow Nr. 1662, 6162 und 9292 / Postscheekkonto: Berlin M<lb/>
 THEATERABTEILUNG<lb/>
 be<lb/>
@@ -332,7 +312,8 @@ welche Durchschnittssummen Ihnen<lb/>
 rechnet worden sind. Ich werde mir dann auf Grund des hier liegen-<lb/>
 den Material ein Urteil bilden können. Die (nicht tantiemenpflich-<lb/>
 keuer beträgt in Berlin z, Zt. 15 % der Brutto-</p>
-        <p><pb facs="1416743_0614"/>a une même pehro<lb/>
+        <p>
+          <pb facs="1416743_0614"/>a une même pehro<lb/>
 Titafoli<lb/>
 3o 35<lb/>
 dans M.<lb/>

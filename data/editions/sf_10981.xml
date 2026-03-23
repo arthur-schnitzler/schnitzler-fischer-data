@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -58,7 +59,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Antwort auf: <ref target="10978">1923-03-02 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="10978">1923-03-02 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-03-05.html</note>
       </notesStmt>
@@ -75,6 +77,18 @@ Antwort auf: <ref target="10978">1923-03-02 SF (Berlin) an AS (Wien)</ref></note
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19016">Kalckar, Marc</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb28839">Verkade, Eduard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40700">Göteborg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb335756">Kopenhagen-Christiania</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb117961">Le Chat Noir Paris</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10981.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -82,36 +96,6 @@ Antwort auf: <ref target="10978">1923-03-02 SF (Berlin) an AS (Wien)</ref></note
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb19016" source="https://pmb.acdh.oeaw.ac.at/entity/19016/">
-          <persName>Kalckar, Marc</persName>
-        </person>
-        <person ref="#pmb28839" source="https://pmb.acdh.oeaw.ac.at/entity/28839/">
-          <persName>Verkade, Eduard</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb40700" source="https://pmb.acdh.oeaw.ac.at/entity/40700/">
-          <placeName>Göteborg</placeName>
-        </place>
-        <place ref="#pmb335756" source="https://d-nb.info/gnd/4096769-4">
-          <placeName>Kopenhagen-Christiania</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb117961" source="https://pmb.acdh.oeaw.ac.at/entity/117961/">
-          <orgName>Le Chat Noir Paris</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -121,10 +105,12 @@ Antwort auf: <ref target="10978">1923-03-02 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Antwort auf: <ref target="10978">1923-03-02 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="10978">1923-03-02 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0272"/>Ficher<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0272"/>Ficher<lb/>
 1<lb/>
 rih.<lb/>
 e e e e<lb/>

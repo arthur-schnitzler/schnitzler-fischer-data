@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,7 +77,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
 Bezug auf: <ref target="11219">1926-01-12 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11231">1926-02-27 SF (Berlin) an AS (Wien)</ref>, <ref target="11233">1926-03-05 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11231">1926-02-27 SF (Berlin) an AS (Wien)</ref>, <ref target="11233">1926-03-05 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1926-02-25.html</note>
       </notesStmt>
@@ -93,6 +95,22 @@ Beantwortet in: <ref target="11231">1926-02-27 SF (Berlin) an AS (Wien)</ref>, <
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10886">Bergner, Elisabeth</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb14674">Budzyński, Franz von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb18607">Huebsch, Benjamin W.</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8201">Kinz, Franziska</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23046">Ranschburg, Viktor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb313">Polen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb36247">Burgtheater Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11230.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -108,48 +126,6 @@ Beantwortet in: <ref target="11231">1926-02-27 SF (Berlin) an AS (Wien)</ref>, <
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb10886" source="https://pmb.acdh.oeaw.ac.at/entity/10886/">
-          <persName>Bergner, Elisabeth</persName>
-        </person>
-        <person ref="#pmb14674" source="https://pmb.acdh.oeaw.ac.at/entity/14674/">
-          <persName>Budzyński, Franz von</persName>
-        </person>
-        <person ref="#pmb18607" source="https://pmb.acdh.oeaw.ac.at/entity/18607/">
-          <persName>Huebsch, Benjamin W.</persName>
-        </person>
-        <person ref="#pmb8201" source="https://pmb.acdh.oeaw.ac.at/entity/8201/">
-          <persName>Kinz, Franziska</persName>
-        </person>
-        <person ref="#pmb23046" source="https://pmb.acdh.oeaw.ac.at/entity/23046/">
-          <persName>Ranschburg, Viktor</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
-          <placeName>Polen</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb36247" source="https://pmb.acdh.oeaw.ac.at/entity/36247/">
-          <orgName>Burgtheater Wien</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -160,10 +136,12 @@ Beantwortet in: <ref target="11231">1926-02-27 SF (Berlin) an AS (Wien)</ref>, <
       <div type="letter">
         <p>2 Blatt, 2 Seiten
 Bezug auf: <ref target="11219">1926-01-12 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11231">1926-02-27 SF (Berlin) an AS (Wien)</ref>, <ref target="11233">1926-03-05 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11231">1926-02-27 SF (Berlin) an AS (Wien)</ref>, <ref target="11233">1926-03-05 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0077"/>25.2.1926.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0077"/>25.2.1926.<lb/>
 Maise<lb/>
 Verehrter Herr Dr.Maril.<lb/>
 G.C.F.F:F:S<lb/>
@@ -204,7 +182,8 @@ habe mit ihm wegen der polnIhr<lb/>
 resp. Aufführung von.m<lb/>
 belei“ und „Reigen verhandelt und<lb/>
 Do IHHH</p>
-        <p><pb facs="1416740_0078"/>noch nähere Mitteilungen von ihm.<lb/>
+        <p>
+          <pb facs="1416740_0078"/>noch nähere Mitteilungen von ihm.<lb/>
 Sie schrieben mir neulich, dass ein zu<lb/>
 frühes Ersohei nen einer ungarischenusgabe<lb/>
 den Verkäuf des deutschen Originalbuchs<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -100,6 +101,17 @@ Beantwortet in: 1906-11-14post/1906-11-30ante AS an SF (Sendung fünf Novellen e
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb14328">Blumenthal, Oskar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2871">Entsch, Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12899">Sudermann, Hermann</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10169.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -109,31 +121,6 @@ Beantwortet in: 1906-11-14post/1906-11-30ante AS an SF (Sendung fünf Novellen e
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb14328" source="https://pmb.acdh.oeaw.ac.at/entity/14328/">
-          <persName>Blumenthal, Oskar</persName>
-        </person>
-        <person ref="#pmb2871" source="https://pmb.acdh.oeaw.ac.at/entity/2871/">
-          <persName>Entsch, Theodor</persName>
-        </person>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-        <person ref="#pmb12899" source="https://pmb.acdh.oeaw.ac.at/entity/12899/">
-          <persName>Sudermann, Hermann</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -147,8 +134,9 @@ Beantwortet in: 1906-11-14post/1906-11-30ante AS an SF (Sendung fünf Novellen e
 Antwort auf: <ref target="10168">1906-11-12 AS an SF</ref>
 Beantwortet in: 1906-11-14post/1906-11-30ante AS an SF (Sendung fünf Novellen erwähnt Tgb 1906-11-26; Anfrage Copyright Frankreich und USA; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0247"/>1906<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0247"/>1906<lb/>
 S. FISCHER, VERLAG,’ BERLIN W., BÜLowSTR. 90<lb/>
 Monsieur M r de<lb/>
 BERLIN W., DEN 14. Nov. 06<lb/>
@@ -183,7 +171,8 @@ die Zuecke des Copyright als Bähnensxemplar dort<lb/>
 drucken zu lassen. Die betreffende Agentur er¬<lb/>
 bietet sich, die Drucklegung auf eigene Kosten<lb/>
 xyz xxx</p>
-        <p><pb facs="1416742_0248"/>zu übernehmen. Das könnte man ja der Sicherheit wegen<lb/>
+        <p>
+          <pb facs="1416742_0248"/>zu übernehmen. Das könnte man ja der Sicherheit wegen<lb/>
 auch für Ihr nächstes Drama ins Auge fassen. Aber ich<lb/>
 mache Sie darauf aufmerksam, dass diese Leute dann ei-<lb/>
 nen erheblichen Anteil am Gewinn als Aequivalent ver-<lb/>
@@ -215,7 +204,8 @@ Jahre nach dem Tode.<lb/>
 Ihren Novellenband noch vor Nethnachten, d. h. in<lb/>
 14 Tagen herzustellen, ist ganz unmöglich. Nünschen<lb/>
 Sie, dass das Buch Anfang Februar erscheint, so müss¬</p>
-        <p><pb facs="1416742_0249"/>te ich um baldige Zusendung des Manusortwts bitten.<lb/>
+        <p>
+          <pb facs="1416742_0249"/>te ich um baldige Zusendung des Manusortwts bitten.<lb/>
 Töl rö! xxxo<lb/>
 sos red! Jnsszot<lb/>
 Mit besten Grüssen<lb/>

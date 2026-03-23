@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10974">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -74,22 +75,18 @@ Weitergeleiteter Brief, aber nicht von SF! Bezug/Beilage zu einem der umliegende
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10114">Strobl, Karl Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10974.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Spende</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10114" source="https://pmb.acdh.oeaw.ac.at/entity/10114/">
-          <persName>Strobl, Karl Hans</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -101,8 +98,9 @@ Weitergeleiteter Brief, aber nicht von SF! Bezug/Beilage zu einem der umliegende
         <p>1 Blatt, 1 Seite
 Weitergeleiteter Brief, aber nicht von SF! Bezug/Beilage zu einem der umliegenden Briefe?</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0595"/>603<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0595"/>603<lb/>
 „WIENER KÜNSTLER-SIEDLUNG“<lb/>
 W. K. S. :<lb/>
 GEMEINNÜTZIGE REGISTR.GENOSSENSCHAFT M. B. H.<lb/>

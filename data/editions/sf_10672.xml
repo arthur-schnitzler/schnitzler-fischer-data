@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -61,7 +62,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">3 Blatt, 5 Seiten
-Beantwortet in: <ref target="10676">1918-10-23 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10676">1918-10-23 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1918-09-23.html</note>
       </notesStmt>
@@ -77,6 +79,16 @@ Beantwortet in: <ref target="10676">1918-10-23 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb22886">Prinzhorn, Ernst</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12556">Rosenbaum, Richard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb36247">Burgtheater Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10672.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -96,30 +108,6 @@ Beantwortet in: <ref target="10676">1918-10-23 SF (Berlin) an AS (Wien)</ref></n
           <term>österreichisch</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb22886" source="https://pmb.acdh.oeaw.ac.at/entity/22886/">
-          <persName>Prinzhorn, Ernst</persName>
-        </person>
-        <person ref="#pmb12556" source="https://pmb.acdh.oeaw.ac.at/entity/12556/">
-          <persName>Rosenbaum, Richard</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb36247" source="https://pmb.acdh.oeaw.ac.at/entity/36247/">
-          <orgName>Burgtheater Wien</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -129,10 +117,12 @@ Beantwortet in: <ref target="10676">1918-10-23 SF (Berlin) an AS (Wien)</ref></n
     <body>
       <div type="letter">
         <p>3 Blatt, 5 Seiten
-Beantwortet in: <ref target="10676">1918-10-23 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10676">1918-10-23 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0067"/>nerlässlichen Notwendigkeit der einen oder der<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0067"/>nerlässlichen Notwendigkeit der einen oder der<lb/>
 anderen Verfügung von<lb/>
 zubringen, die Sie für ange-<lb/>
 ssen erachten<lb/>
@@ -182,7 +172,8 @@ zu danken. Selbstverständlich habe ich ihm<lb/>
 nichts von Ihren Bedenken mitgeteilt, wie<lb/>
 ich ihn überhaupt seit vielen Wochen<lb/>
 wodann gesehen noch gesprochen haben. Doch</p>
-        <p><pb facs="1416739_0068"/>ein höherer mit absinkenden Perzenten. Doch<lb/>
+        <p>
+          <pb facs="1416739_0068"/>ein höherer mit absinkenden Perzenten. Doch<lb/>
 glaube und hoffe ich, dass Ihre Bedenken sich<lb/>
 als gegenstandslos herausstellen werden,da sie<lb/>
 bleibt mir natürlich nichts übrig als mich,<lb/>
@@ -228,7 +219,8 @@ wäre ein billigerer Preis meiner Bücher mit<lb/>
 vermöchte; - hier irrt S. Fischer, mein Freund<lb/>
 25% Tantieme in jedem Falle sympathischer als<lb/>
 und Verleger. Ost genug haben Er mir je</p>
-        <p><pb facs="1416739_0069"/>vor Gründung Ihrer Filiale erklärt, dass Sie<lb/>
+        <p>
+          <pb facs="1416739_0069"/>vor Gründung Ihrer Filiale erklärt, dass Sie<lb/>
 die deutschen und die österreichischen Auto-<lb/>
 ren in -vollkommen gleicher Weise behandeln.<lb/>
 Mangelte es Ihnen also an Papier,so mussten<lb/>
@@ -275,7 +267,8 @@ das Papier ist vorhanden;-also woran fehlt.'s?<lb/>
 Somit wäre die Saison begonnen<lb/>
 „Herzlichst<lb/>
 Ihr</p>
-        <p><pb facs="1416739_0070"/>V.C.V....<lb/>
+        <p>
+          <pb facs="1416739_0070"/>V.C.V....<lb/>
 11.10.1918.<lb/>
 Fischer<lb/>
 Lieber Freund<lb/>
@@ -296,7 +289,8 @@ stellung so sehr als möglich zu beschleunigen,<lb/>
 ebenso das Erscheinen des Buchs, das am Tag der<lb/>
 Uraufführung zum Verkaufe bereit sein sollte.<lb/>
 Ich bitte, sehr auf dem Titelblatt des Stücks</p>
-        <p><pb facs="1416739_0071"/>vermerkte Aenderung vorzunehmen. Der Titel lau-<lb/>
+        <p>
+          <pb facs="1416739_0071"/>vermerkte Aenderung vorzunehmen. Der Titel lau-<lb/>
 tet also:<lb/>
 Die Schwestern<lb/>
 oder<lb/>

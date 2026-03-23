@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10638">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -84,6 +85,18 @@ Antwort auf: 1917-12-12: SF (Berlin) an AS (Wien)</note>
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb260034">Chamberlain, Neville</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Pahl, Rosa (Literaturagentin?, Übersetzerin?, Szeged)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb25896">Techet, Carl Franz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb2318">Partenkirchen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43435">Schweiz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb423">Tirol</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10638.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -106,34 +119,6 @@ Antwort auf: 1917-12-12: SF (Berlin) an AS (Wien)</note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb260034" source="https://pmb.acdh.oeaw.ac.at/entity/260034/">
-          <persName>Chamberlain, Neville</persName>
-        </person>
-        <person>
-          <persName>Pahl, Rosa (Literaturagentin?, Übersetzerin?, Szeged)</persName>
-        </person>
-        <person ref="#pmb25896" source="https://pmb.acdh.oeaw.ac.at/entity/25896/">
-          <persName>Techet, Carl Franz</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb2318" source="https://pmb.acdh.oeaw.ac.at/entity/2318/">
-          <placeName>Partenkirchen</placeName>
-        </place>
-        <place ref="#pmb43435" source="https://pmb.acdh.oeaw.ac.at/entity/43435/">
-          <placeName>Schweiz</placeName>
-        </place>
-        <place ref="#pmb423" source="https://pmb.acdh.oeaw.ac.at/entity/423/">
-          <placeName>Tirol</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -145,8 +130,9 @@ Antwort auf: 1917-12-12: SF (Berlin) an AS (Wien)</note>
         <p>3 Blatt, 5 Seiten
 Antwort auf: 1917-12-12: SF (Berlin) an AS (Wien)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0043"/>Absurdum sein mag, endgiltig begraben wollen.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0043"/>Absurdum sein mag, endgiltig begraben wollen.<lb/>
 Dass Sie morgen noch nicht da sein kön-<lb/>
 nen tut mir recht, umso mehr freue ich mich auf<lb/>
 die Aussicht Sie doch noch im Laufe dieses<lb/>
@@ -176,7 +162,8 @@ hört<lb/>
 In diesen Tagen wird Herr Prof. Karl<lb/>
 Techet die Anfrage an Sie stellen, ob Sie geneigt<lb/>
 wären in neues Buch von ihm in Verlag zu nehmen.</p>
-        <p><pb facs="1416739_0044"/>Ich glaube, er wäre sogar in derLage Ihnen das<lb/>
+        <p>
+          <pb facs="1416739_0044"/>Ich glaube, er wäre sogar in derLage Ihnen das<lb/>
 hiezu notwendige Papier zur Verfügung zu stellen<lb/>
 Falls Sie seinen Namen noch nicht kennen<lb/>
 sollten, darf ich Sie vielleicht auf seine bis¬<lb/>
@@ -221,7 +208,8 @@ sein, so mögen sie freundlichst auf die Auffüh-<lb/>
 rung meiner stücke verzichten<lb/>
 Wegen des schwedischen Honorars war<lb/>
 ich natürlich im Irrtum. Ich hatte nur an das</p>
-        <p><pb facs="1416739_0045"/>Von<lb/>
+        <p>
+          <pb facs="1416739_0045"/>Von<lb/>
 Zeitungshonorar für den Vorabdruck und nicht<lb/>
 an das Buchhonorar gedacht.<lb/>
 Aus Ungarn lag betreffs „Graesler“ schon<lb/>
@@ -257,7 +245,8 @@ will<lb/>
 Mit den herzlichsten Weihnachts- und Neu<lb/>
 jahresgrüssen für sie und die Ihrigen<lb/>
 Ihr</p>
-        <p><pb facs="1416739_0046"/>er<lb/>
+        <p>
+          <pb facs="1416739_0046"/>er<lb/>
 7<lb/>
 Gld 17<lb/>
 fischer<lb/>
@@ -281,7 +270,8 @@ Gruss<lb/>
 Schnitzler.<lb/>
 Abs.Dr.Arthur Schnitzle<lb/>
 Wien XVIII.Sternwartestr. 71.</p>
-        <p><pb facs="1416739_0047"/>9.1.1918.<lb/>
+        <p>
+          <pb facs="1416739_0047"/>9.1.1918.<lb/>
 Fischer<lb/>
 Lieber Freund.<lb/>
 Sie erhalten dieser Tage vom Deutschen<lb/>

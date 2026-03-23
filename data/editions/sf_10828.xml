@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -75,7 +76,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="10823">1921-05-17 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="10823">1921-05-17 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="published_in">Rodewald, 129 [Nr. 165]</note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1921-06-04.html</note>
@@ -92,6 +94,11 @@ Antwort auf: <ref target="10823">1921-05-17 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10828.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -99,11 +106,6 @@ Antwort auf: <ref target="10823">1921-05-17 AS (Wien) an SF (Berlin)</ref></note
           <term>Reise/Urlaub</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -113,10 +115,12 @@ Antwort auf: <ref target="10823">1921-05-17 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="10823">1921-05-17 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="10823">1921-05-17 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0383"/>irr<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0383"/>irr<lb/>
 S. Fischer/Verlag/Berlin W 57/Bülowstraße 9o<lb/>
 Bankkonto: Deutsche Bank. Depositenkasse P in Berlin / Postscheckkonto; Berlin Nr. 16692<lb/>
 Fernoprechanschlüsse: Amt Lützow Nr. 1662, 6162 und 9292<lb/>
@@ -150,7 +154,8 @@ produktion stellt sich ja auch noch die Schwierigkeit des Absatzes; wür-<lb/>
 de beides in ein gewisses Gleichgewicht kommen, dann wären ja die<lb/>
 hohen Herstellungskosten an sich kein Hindernis selbst schwächer gehende<lb/>
 0000. 1. 21.</p>
-        <p><pb facs="1416743_0384"/>S. Fischer/Verlag/Berlin W 57/Bülowstraße 9o<lb/>
+        <p>
+          <pb facs="1416743_0384"/>S. Fischer/Verlag/Berlin W 57/Bülowstraße 9o<lb/>
 Bankkonto: Deutsche Bank. Depositenkasse P in Berlin / Postscheckkonto; Berlin Nr. 16692<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 1662, 6162 und 9292<lb/>
 Dr. Schnitzler 4/6. 21<lb/>

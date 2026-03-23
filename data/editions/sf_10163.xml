@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10163">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -92,34 +93,22 @@ Bezug auf: 1906-01-20 SF (Berlin) an AS (Wien) (nicht überliefert)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2874">Eirich, Oskar Friedrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb833">Brünn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb61125">Eger</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb875">Klagenfurt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb553">Pilsen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10163.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Aufführungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2874" source="https://pmb.acdh.oeaw.ac.at/entity/2874/">
-          <persName>Eirich, Oskar Friedrich</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb833" source="https://pmb.acdh.oeaw.ac.at/entity/833/">
-          <placeName>Brünn</placeName>
-        </place>
-        <place ref="#pmb61125" source="https://pmb.acdh.oeaw.ac.at/entity/61125/">
-          <placeName>Eger</placeName>
-        </place>
-        <place ref="#pmb875" source="https://pmb.acdh.oeaw.ac.at/entity/875/">
-          <placeName>Klagenfurt</placeName>
-        </place>
-        <place ref="#pmb553" source="https://pmb.acdh.oeaw.ac.at/entity/553/">
-          <placeName>Pilsen</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -133,8 +122,9 @@ Anlage: 1906-01-25 Oscar Friedrich Eirich (Wien) an SF (1 Blatt, 1 Seite beschri
 
 Bezug auf: 1906-01-20 SF (Berlin) an AS (Wien) (nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0234"/>133<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0234"/>133<lb/>
 Chter, VERLAG, BERLIN W., BÜLowSTR. 91<lb/>
 THEATERABTEILUNG<lb/>
 BERene W., DEN 27/1. 66.<lb/>

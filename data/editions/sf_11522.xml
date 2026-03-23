@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -58,7 +59,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Antwort auf: <ref target="11521">1929-12-12 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="11521">1929-12-12 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1929-12-14.html</note>
       </notesStmt>
@@ -75,6 +77,15 @@ Antwort auf: <ref target="11521">1929-12-12 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb6280">Berstl, Julius</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19421">Klein, Robert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12537">Robert, Eugen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11522.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -87,25 +98,6 @@ Antwort auf: <ref target="11521">1929-12-12 AS (Wien) an SF (Berlin)</ref></note
           <term>Verhandlung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb6280" source="https://pmb.acdh.oeaw.ac.at/entity/6280/">
-          <persName>Berstl, Julius</persName>
-        </person>
-        <person ref="#pmb19421" source="https://pmb.acdh.oeaw.ac.at/entity/19421/">
-          <persName>Klein, Robert</persName>
-        </person>
-        <person ref="#pmb12537" source="https://pmb.acdh.oeaw.ac.at/entity/12537/">
-          <persName>Robert, Eugen</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -115,10 +107,12 @@ Antwort auf: <ref target="11521">1929-12-12 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Antwort auf: <ref target="11521">1929-12-12 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="11521">1929-12-12 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_1134"/>FISCHERVERLAG A.=G. BERLIN W 57<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_1134"/>FISCHERVERLAG A.=G. BERLIN W 57<lb/>
 Theaterabteilung<lb/>
 Ferusprecher: Lützow Nr. 6162-6164 / Telegramm=Adresse: Fischerverlag 6162 Berlinlützov<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto; Berlin Nr. 16892<lb/>

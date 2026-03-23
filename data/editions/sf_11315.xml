@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -88,7 +89,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
 Antwort auf: <ref target="11312">1927-06-04 SF (Berlin) an AS (Wien)</ref>, <ref target="11316">1927-06-11 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11318">1927-06-13 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11318">1927-06-13 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1927-06-11.html</note>
       </notesStmt>
@@ -105,6 +107,20 @@ Beantwortet in: <ref target="11318">1927-06-13 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb15434">Donath, Stanley F.</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7713">Hartung, Gustav</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23675">Rotter, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3876">Rotter, Fritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23921">Saltenburg, Heinz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45530">Deutsches Schauspielhaus in Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb35597">Deutsches Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Rotter-Bühnen Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="1252345240">Saltenburg-Bühnen Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11315.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -120,42 +136,6 @@ Beantwortet in: <ref target="11318">1927-06-13 SF (Berlin) an AS (Wien)</ref></n
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb15434" source="https://pmb.acdh.oeaw.ac.at/entity/15434/">
-          <persName>Donath, Stanley F.</persName>
-        </person>
-        <person ref="#pmb7713" source="https://pmb.acdh.oeaw.ac.at/entity/7713/">
-          <persName>Hartung, Gustav</persName>
-        </person>
-        <person ref="#pmb23675" source="https://pmb.acdh.oeaw.ac.at/entity/23675/">
-          <persName>Rotter, Alfred</persName>
-        </person>
-        <person ref="#pmb3876" source="https://pmb.acdh.oeaw.ac.at/entity/3876/">
-          <persName>Rotter, Fritz</persName>
-        </person>
-        <person ref="#pmb23921" source="https://pmb.acdh.oeaw.ac.at/entity/23921/">
-          <persName>Saltenburg, Heinz</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb45530" source="https://pmb.acdh.oeaw.ac.at/entity/45530/">
-          <orgName>Deutsches Schauspielhaus in Hamburg</orgName>
-        </org>
-        <org ref="#pmb35597" source="https://pmb.acdh.oeaw.ac.at/entity/35597/">
-          <orgName>Deutsches Theater Berlin</orgName>
-        </org>
-        <org>
-          <orgName>Rotter-Bühnen Berlin</orgName>
-        </org>
-        <org ref="1252345240" source="https://d-nb.info/gnd/1252345240">
-          <orgName>Saltenburg-Bühnen Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -166,10 +146,12 @@ Beantwortet in: <ref target="11318">1927-06-13 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>2 Blatt, 2 Seiten
 Antwort auf: <ref target="11312">1927-06-04 SF (Berlin) an AS (Wien)</ref>, <ref target="11316">1927-06-11 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11318">1927-06-13 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11318">1927-06-13 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0121"/>Paul, Fischer<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0121"/>Paul, Fischer<lb/>
 11.6.1927.<lb/>
 Rey<lb/>
 Lieber Herr Doktor.<lb/>
@@ -208,7 +190,8 @@ neue Auflage des nichtillustrierten Casano-<lb/>
 va erst zu Beginn das nächsten Jahres auf da<lb/>
 varkt kommt, fürohte allerdings,dass die zi<lb/>
 Vorräte der nun verrauschten alten Ausgabe</p>
-        <p><pb facs="1416740_0122"/>diesen warkt einigermassen verstopfen war-<lb/>
+        <p>
+          <pb facs="1416740_0122"/>diesen warkt einigermassen verstopfen war-<lb/>
 den und es wäre vielleicht doch geschäft-<lb/>
 lich aussichtsvoller gewesen den übel aus-<lb/>
 sehenden Kriegsausgabenrest einzustampfen,<lb/>

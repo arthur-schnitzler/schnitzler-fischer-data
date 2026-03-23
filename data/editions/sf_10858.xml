@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10858">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,30 +80,20 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10998">Brann, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3105">Karczag, Wilhelm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb186212">Marionettentheater Münchner Künstler</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10858.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Aufführungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10998" source="https://pmb.acdh.oeaw.ac.at/entity/10998/">
-          <persName>Brann, Paul</persName>
-        </person>
-        <person ref="#pmb3105" source="https://pmb.acdh.oeaw.ac.at/entity/3105/">
-          <persName>Karczag, Wilhelm</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb186212" source="https://pmb.acdh.oeaw.ac.at/entity/186212/">
-          <orgName>Marionettentheater Münchner Künstler</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -113,8 +104,9 @@
       <div type="letter">
         <p>1 Blatt, 1 Seite</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0424"/>58<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0424"/>58<lb/>
 „ 524<lb/>
 S. Fischer/Verlag/Berlin W 57/Bülowstrasse go<lb/>
 Bankkonto: Deutsche Bank. Depositenkasse P in Berlin / Postscheckkonto; Berlin Nr. 16692<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,6 +80,11 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb53150">Feldafing</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10929.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -88,11 +94,6 @@
           <term>Provision</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -103,8 +104,9 @@
       <div type="letter">
         <p>1 Blatt, 1 Seite</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0525"/>573<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0525"/>573<lb/>
 S. Fischer/Verlag/Berlin W 57/Bülowstrasse 90<lb/>
 hanschlüsse: Amt Lützow Nr. 1662. 6162 und 9292 / Postscheckkonto: Berlin Nr, 1669.<lb/>
 THEATERABTEILUNG<lb/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11459">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -80,6 +81,13 @@ Anlage: zwei Briefe, 1928-12-24 Ela Steinberg (Prag) an SF/KM (Berlin), 1 Blatt,
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Steinberg, Ela (Literaturagentin, Prag)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb245">Hotel Esplanade (Berlin)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11459.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -93,19 +101,6 @@ Anlage: zwei Briefe, 1928-12-24 Ela Steinberg (Prag) an SF/KM (Berlin), 1 Blatt,
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person>
-          <persName>Steinberg, Ela (Literaturagentin, Prag)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb245" source="https://pmb.acdh.oeaw.ac.at/entity/245/">
-          <placeName>Hotel Esplanade (Berlin)</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -117,8 +112,9 @@ Anlage: zwei Briefe, 1928-12-24 Ela Steinberg (Prag) an SF/KM (Berlin), 1 Blatt,
         <p>1 Blatt, 1 Seite
 Anlage: zwei Briefe, 1928-12-24 Ela Steinberg (Prag) an SF/KM (Berlin), 1 Blatt, 1 Seite; und 1929-01-01 Ela Steinberg (Prag) an SF/KM (Berlin), 1 Blatt, 1 Seite</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_1079"/>11<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_1079"/>11<lb/>
 and only<lb/>
 4<lb/>
 I<lb/>

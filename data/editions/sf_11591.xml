@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -72,7 +73,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Antwort auf: <ref target="11590">1930-09-30 SF (Berlin) an AS (Wien)</ref>, <ref target="11589">1930-09-29 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11590">1930-09-30 SF (Berlin) an AS (Wien)</ref>, <ref target="11589">1930-09-29 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1930-10-02.html</note>
       </notesStmt>
@@ -89,6 +91,11 @@ Antwort auf: <ref target="11590">1930-09-30 SF (Berlin) an AS (Wien)</ref>, <ref
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11591.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -99,11 +106,6 @@ Antwort auf: <ref target="11590">1930-09-30 SF (Berlin) an AS (Wien)</ref>, <ref
           <term>Tantiemen</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -113,10 +115,12 @@ Antwort auf: <ref target="11590">1930-09-30 SF (Berlin) an AS (Wien)</ref>, <ref
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Antwort auf: <ref target="11590">1930-09-30 SF (Berlin) an AS (Wien)</ref>, <ref target="11589">1930-09-29 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11590">1930-09-30 SF (Berlin) an AS (Wien)</ref>, <ref target="11589">1930-09-29 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0137"/>Gelegentliche Einzahlung der für die<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0137"/>Gelegentliche Einzahlung der für die<lb/>
 Neuauflagen "Therese" mir freundlichst zur<lb/>
 Verfügung gestellten Summe an meine Bank<lb/>
 wäre mir recht erwünecht.<lb/>

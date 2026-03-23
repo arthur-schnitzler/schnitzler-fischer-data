@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10610">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -77,6 +78,15 @@ ist hier das verlinkte Telegramm gemeint, oder anderer Brief?</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10896">Bernauer, Rudolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8889">Meinhard, Carl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb9158">Orska, Maria</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12977">Triesch, Irene</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="7659602-3">Hebbeltheater (Theater in der Königgrätzer Straße) Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10610.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -85,25 +95,6 @@ ist hier das verlinkte Telegramm gemeint, oder anderer Brief?</note>
           <term>Schnitzler-Abend</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10896" source="https://pmb.acdh.oeaw.ac.at/entity/10896/">
-          <persName>Bernauer, Rudolf</persName>
-        </person>
-        <person ref="#pmb8889" source="https://pmb.acdh.oeaw.ac.at/entity/8889/">
-          <persName>Meinhard, Carl</persName>
-        </person>
-        <person ref="#pmb9158" source="https://pmb.acdh.oeaw.ac.at/entity/9158/">
-          <persName>Orska, Maria</persName>
-        </person>
-        <person ref="#pmb12977" source="https://pmb.acdh.oeaw.ac.at/entity/12977/">
-          <persName>Triesch, Irene</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="7659602-3" source="https://d-nb.info/gnd/7659602-3">
-          <orgName>Hebbeltheater (Theater in der Königgrätzer Straße) Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -115,8 +106,9 @@ ist hier das verlinkte Telegramm gemeint, oder anderer Brief?</note>
         <p>1 Blatt, 1 Seite
 ist hier das verlinkte Telegramm gemeint, oder anderer Brief?</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0062"/>ass.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0062"/>ass.<lb/>
 ouvrage.<lb/>
 104 berlin 866 39/36 5/4 4.44 s ctr bUn =<lb/>
 meinhard und bernauer wollen im Theater in der<lb/>

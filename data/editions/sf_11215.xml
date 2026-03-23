@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -71,6 +72,11 @@ Anlage: Tantiemenausrechnung</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11215.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -80,11 +86,6 @@ Anlage: Tantiemenausrechnung</note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -97,8 +98,9 @@ Anlage: Tantiemenausrechnung</note>
 Antwort auf: <ref target="11214">1925-12-21 AS (Wien) an SF (Berlin)</ref>
 Anlage: Tantiemenausrechnung</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0849"/>S. Fischer - Verlag = Berlin<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0849"/>S. Fischer - Verlag = Berlin<lb/>
 Examinanten<lb/>
 Amt Lützow 1662 u. 6162 Theaterabteilung postscheckkonto Nr. 16692<lb/>
 Bankkonto: Deutsche Bank Depositenkasse P in Berlin<lb/>
@@ -125,7 +127,8 @@ Nach Ihrem entgiltigen Imprimatur werden noch drei<lb/>
 Wochen zur Fertigstellung des Buches benötigt.<lb/>
 Eintreffen der Korrektur abhängen, zu welchem Zeitpunkt das Stück<lb/>
 herauskommen kann.</p>
-        <p><pb facs="1416743_0850"/>O 11<lb/>
+        <p>
+          <pb facs="1416743_0850"/>O 11<lb/>
 der Fischer aufs herzlich¬<lb/>
 He<lb/>
 Weihnachtsgrüsse<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,6 +80,11 @@ Beantwortet in: 1907-04-24post/1907-05-16ante AS an SF (Rechte England; nicht ü
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10182.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -86,11 +92,6 @@ Beantwortet in: 1907-04-24post/1907-05-16ante AS an SF (Rechte England; nicht ü
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -104,8 +105,9 @@ Beantwortet in: 1907-04-24post/1907-05-16ante AS an SF (Rechte England; nicht ü
 Antwort auf: <ref target="10180">1907-04-17 AS an SF</ref>
 Beantwortet in: 1907-04-24post/1907-05-16ante AS an SF (Rechte England; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0271"/>147<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0271"/>147<lb/>
 146<lb/>
 S. FISCHER, VERLAG,’ BERLIN W., BÜLOUSTR. 90<lb/>
 Abt BÈKÎN W,  DEN 24. April 87<lb/>
@@ -127,7 +129,8 @@ er Waschzettel ist ein beikles Kapitel.<lb/>
 G.F.P<lb/>
 Die sittieren Zeitungen leisten sich in den<lb/>
 meisten Fällen nicht den Laxus eines eigenen</p>
-        <p><pb facs="1416742_0272"/>I am<lb/>
+        <p>
+          <pb facs="1416742_0272"/>I am<lb/>
 Bücherreferats, in manchen Fällen wird ein Be-<lb/>
 gleitzettel zum Buch direkt verlangt. Das Fehlen<lb/>
 des Begleitzettels hat zur Folge, dass viele<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -73,7 +74,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
 Antwort auf: <ref target="10813">1921-04-14 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10816">1921-04-29 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10816">1921-04-29 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1921-04-25.html</note>
       </notesStmt>
@@ -89,6 +91,22 @@ Beantwortet in: <ref target="10816">1921-04-29 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19465">Knepler, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11981">Kramer, Leopold</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb22388">Paukner, Grete</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb9756">Scholz, Wilhelm von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4441">Sladek, Maximilian</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb652">Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb378">Rumänien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb250435">Hamburger Kammerspiele</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10815.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -105,48 +123,6 @@ Beantwortet in: <ref target="10816">1921-04-29 SF (Berlin) an AS (Wien)</ref></n
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb19465" source="https://pmb.acdh.oeaw.ac.at/entity/19465/">
-          <persName>Knepler, Paul</persName>
-        </person>
-        <person ref="#pmb11981" source="https://pmb.acdh.oeaw.ac.at/entity/11981/">
-          <persName>Kramer, Leopold</persName>
-        </person>
-        <person ref="#pmb22388" source="https://pmb.acdh.oeaw.ac.at/entity/22388/">
-          <persName>Paukner, Grete</persName>
-        </person>
-        <person ref="#pmb9756" source="https://pmb.acdh.oeaw.ac.at/entity/9756/">
-          <persName>Scholz, Wilhelm von</persName>
-        </person>
-        <person ref="#pmb4441" source="https://pmb.acdh.oeaw.ac.at/entity/4441/">
-          <persName>Sladek, Maximilian</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
-          <placeName>Prag</placeName>
-        </place>
-        <place ref="#pmb378" source="https://pmb.acdh.oeaw.ac.at/entity/378/">
-          <placeName>Rumänien</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb250435" source="https://pmb.acdh.oeaw.ac.at/entity/250435/">
-          <orgName>Hamburger Kammerspiele</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -157,10 +133,12 @@ Beantwortet in: <ref target="10816">1921-04-29 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>2 Blatt, 4 Seiten
 Antwort auf: <ref target="10813">1921-04-14 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10816">1921-04-29 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10816">1921-04-29 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0179"/>25.4.1921.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0179"/>25.4.1921.<lb/>
 Fischer.<lb/>
 Lieber Freund.<lb/>
 1. Wenn cladek vorläufig lieber Ein-<lb/>
@@ -198,7 +176,8 @@ Uebersetzung als solo he ist copy-righted<lb/>
 Wie das urheberrechtlich zu verstehen ist,<lb/>
 bleibt vorläufig unfassbar. Es wäre damit<lb/>
 eigentlich der Tächerliche Zustand gegeben,</p>
-        <p><pb facs="1416739_0180"/>dass zwar der nichtautorisierte Uebersetzer<lb/>
+        <p>
+          <pb facs="1416739_0180"/>dass zwar der nichtautorisierte Uebersetzer<lb/>
 des „Reigens“,ich aber nicht in Amerika<lb/>
 gegen weitere Gebersetzungen des „Reigen<lb/>
 und deren Verwertung geschützt wäre. Natür-<lb/>
@@ -271,7 +250,8 @@ worden.<lb/>
 rechnung Bühnenvertrieb bitte ich noch eine<lb/>
 Weile zurückzuhalten. Es würde Ihnen wohl<lb/>
 keine Schwierigkeiten machen, von Fall zu</p>
-        <p><pb facs="1416739_0181"/>Fall die für mich bestimmten Beträge an eine<lb/>
+        <p>
+          <pb facs="1416739_0181"/>Fall die für mich bestimmten Beträge an eine<lb/>
 München überweisen zu lassen?<lb/>
 Bank in<lb/>
 Herzlichst grüssend<lb/>
@@ -316,7 +296,8 @@ und immer wieder dasselbe.<lb/>
 ohne Garantie abzuschlies -.<lb/>
 Ita<lb/>
 sen empfiehlt sich absolut nicht. Ich habe</p>
-        <p><pb facs="1416739_0182"/>Ihnen vor einiger Zeit eine Aufstellung meiner<lb/>
+        <p>
+          <pb facs="1416739_0182"/>Ihnen vor einiger Zeit eine Aufstellung meiner<lb/>
 dortigen (durchaus durch Ihren Verlag einkas-<lb/>
 sierten) Tantiemen zugesandt. Diese Liste sagt<lb/>
 genug. Ohne im Vorhinein von dem Erfolg über-<lb/>

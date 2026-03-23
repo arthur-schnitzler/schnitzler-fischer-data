@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -68,7 +69,8 @@
       <notesStmt>
         <note type="description">3 Blatt, 4 Seiten
 Antwort auf: <ref target="11505">1929-10-03 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11510">1929-10-10 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11510">1929-10-10 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1929-10-05.html</note>
       </notesStmt>
@@ -85,6 +87,17 @@ Beantwortet in: <ref target="11510">1929-10-10 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8201">Kinz, Franziska</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23303">Reucker, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb35597">Deutsches Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb39689">Theater in der Josefstadt Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11506.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,33 +113,6 @@ Beantwortet in: <ref target="11510">1929-10-10 SF (Berlin) an AS (Wien)</ref></n
           <term>Zeitung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb8201" source="https://pmb.acdh.oeaw.ac.at/entity/8201/">
-          <persName>Kinz, Franziska</persName>
-        </person>
-        <person ref="#pmb23303" source="https://pmb.acdh.oeaw.ac.at/entity/23303/">
-          <persName>Reucker, Alfred</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb35597" source="https://pmb.acdh.oeaw.ac.at/entity/35597/">
-          <orgName>Deutsches Theater Berlin</orgName>
-        </org>
-        <org ref="#pmb39689" source="https://pmb.acdh.oeaw.ac.at/entity/39689/">
-          <orgName>Theater in der Josefstadt Wien</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -137,10 +123,12 @@ Beantwortet in: <ref target="11510">1929-10-10 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>3 Blatt, 4 Seiten
 Antwort auf: <ref target="11505">1929-10-03 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11510">1929-10-10 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11510">1929-10-10 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0095"/>S. Fischer<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0095"/>S. Fischer<lb/>
 Roßin<lb/>
 5.10.1929.<lb/>
 Marffi<lb/>
@@ -179,7 +167,8 @@ also<lb/>
 lüfte“ interessiert sich neben anderen/ auch das<lb/>
 Deutsche Theaterhat sich schon dafür interes-<lb/>
 siert ehe es vollendet war,-seit einigen Tagen</p>
-        <p><pb facs="1416741_0096"/>F.T.<lb/>
+        <p>
+          <pb facs="1416741_0096"/>F.T.<lb/>
 scher<lb/>
 Können<lb/>
 5.10.1929.<lb/>
@@ -219,7 +208,8 @@ talso<lb/>
 lüfte“ interessiert sich neben anderen/ nach das<lb/>
 Deutsche Theaterhat sich schon dafür interes-<lb/>
 siert ehe es vollendet war,-seit einigen Tagen</p>
-        <p><pb facs="1416741_0097"/>Pr.<lb/>
+        <p>
+          <pb facs="1416741_0097"/>Pr.<lb/>
 G. A.<lb/>
 5.10.1929,<lb/>
 S.Fischer,Bl.2.<lb/>
@@ -303,7 +293,8 @@ Angelegenheit<lb/>
 wie ein Satz Ihr's Briefes leider anzudeuten scheint<lb/>
 Mit Prestige aber hat die ganze<lb/>
 nicht das Geringste zu tun; wir wollen sie wei-</p>
-        <p><pb facs="1416741_0098"/>P.S.<lb/>
+        <p>
+          <pb facs="1416741_0098"/>P.S.<lb/>
 S. Fischer<lb/>
 de<lb/>
 5.10.1929.<lb/>

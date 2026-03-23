@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -65,7 +66,8 @@
       <notesStmt>
         <note type="description">3 Blatt, 5 Seiten beschrieben
 
-Antwort auf: <ref target="10388">1911-06-20 SF an AS</ref></note>
+Antwort auf: <ref target="10388">1911-06-20 SF an AS</ref>
+        </note>
         <note type="published_in">Schnitzler B I, 666-668</note>
         <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1911-06-24.html</note>
@@ -82,6 +84,14 @@ Antwort auf: <ref target="10388">1911-06-20 SF an AS</ref></note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2677">Lehner, Gilbert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2242">Levi, Cesare</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb25995">Thieben, Emil</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb36247">Burgtheater Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10389.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,22 +101,6 @@ Antwort auf: <ref target="10388">1911-06-20 SF an AS</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2677" source="https://pmb.acdh.oeaw.ac.at/entity/2677/">
-          <persName>Lehner, Gilbert</persName>
-        </person>
-        <person ref="#pmb2242" source="https://pmb.acdh.oeaw.ac.at/entity/2242/">
-          <persName>Levi, Cesare</persName>
-        </person>
-        <person ref="#pmb25995" source="https://pmb.acdh.oeaw.ac.at/entity/25995/">
-          <persName>Thieben, Emil</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="#pmb36247" source="https://pmb.acdh.oeaw.ac.at/entity/36247/">
-          <orgName>Burgtheater Wien</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -117,7 +111,8 @@ Antwort auf: <ref target="10388">1911-06-20 SF an AS</ref></note>
       <div type="letter">
         <p>3 Blatt, 5 Seiten beschrieben
 
-Antwort auf: <ref target="10388">1911-06-20 SF an AS</ref></p>
+Antwort auf: <ref target="10388">1911-06-20 SF an AS</ref>
+        </p>
       </div>
     </body>
   </text>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,7 +71,8 @@
         <note type="description">2 Blatt, 2 Seiten beschrieben
 
 Antwort auf: <ref target="10383">1911-06-01 AS an SF</ref>
-Beantwortet in: <ref target="10385">1911-06-06 AS an SF</ref></note>
+Beantwortet in: <ref target="10385">1911-06-06 AS an SF</ref>
+        </note>
         <note type="published_in">Buohler 2011, 172 (Auszug)</note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1911-06-02.html</note>
@@ -87,6 +89,23 @@ Beantwortet in: <ref target="10385">1911-06-06 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10896">Bernauer, Rudolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11198">Durieux, Tilla</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="11674748X">Fred, Alfred W.</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2229">Handl, Willi</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12078">Lindau, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12081">Lindner, Anton</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8889">Meinhard, Carl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12813">Speidel, Albert von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb652">Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29380">Berliner Theater</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb44112">Nationaltheater München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10384.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -95,51 +114,6 @@ Beantwortet in: <ref target="10385">1911-06-06 AS an SF</ref></note>
           <term>Garantiesumme</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10896" source="https://pmb.acdh.oeaw.ac.at/entity/10896/">
-          <persName>Bernauer, Rudolf</persName>
-        </person>
-        <person ref="#pmb11198" source="https://pmb.acdh.oeaw.ac.at/entity/11198/">
-          <persName>Durieux, Tilla</persName>
-        </person>
-        <person ref="11674748X" source="https://d-nb.info/gnd/11674748X">
-          <persName>Fred, Alfred W.</persName>
-        </person>
-        <person ref="#pmb2229" source="https://pmb.acdh.oeaw.ac.at/entity/2229/">
-          <persName>Handl, Willi</persName>
-        </person>
-        <person ref="#pmb12078" source="https://pmb.acdh.oeaw.ac.at/entity/12078/">
-          <persName>Lindau, Paul</persName>
-        </person>
-        <person ref="#pmb12081" source="https://pmb.acdh.oeaw.ac.at/entity/12081/">
-          <persName>Lindner, Anton</persName>
-        </person>
-        <person ref="#pmb8889" source="https://pmb.acdh.oeaw.ac.at/entity/8889/">
-          <persName>Meinhard, Carl</persName>
-        </person>
-        <person ref="#pmb12813" source="https://pmb.acdh.oeaw.ac.at/entity/12813/">
-          <persName>Speidel, Albert von</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
-          <placeName>Prag</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb29380" source="https://pmb.acdh.oeaw.ac.at/entity/29380/">
-          <orgName>Berliner Theater</orgName>
-        </org>
-        <org ref="#pmb44112" source="https://pmb.acdh.oeaw.ac.at/entity/44112/">
-          <orgName>Nationaltheater München</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -151,10 +125,12 @@ Beantwortet in: <ref target="10385">1911-06-06 AS an SF</ref></note>
         <p>2 Blatt, 2 Seiten beschrieben
 
 Antwort auf: <ref target="10383">1911-06-01 AS an SF</ref>
-Beantwortet in: <ref target="10385">1911-06-06 AS an SF</ref></p>
+Beantwortet in: <ref target="10385">1911-06-06 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0495"/>251<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0495"/>251<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstraße 90<lb/>
 den 2. Juni 1911<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -181,7 +157,8 @@ tiviert, dass das Schauspielhaus Ihnen eine Aufführung, mit der es<lb/>
 sich sehen lassen könnte, nicht bieten kann. Um Deutschland für den<lb/>
 "Medardus" zu erobern, käme ausser Berlin in erster Linie München in<lb/>
 Betracht. Das Hoftheater hat abgelehnt. Wenn sich der Intendant</p>
-        <p><pb facs="1416742_0496"/>Blatt 2<lb/>
+        <p>
+          <pb facs="1416742_0496"/>Blatt 2<lb/>
 190<lb/>
 S. Fischer, Verlag, Berlin,<lb/>
 Speidel entschliessen könnte, den "Medardus" in Wien anzusehen, wäre<lb/>

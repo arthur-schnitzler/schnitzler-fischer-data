@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11464">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,6 +80,14 @@
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1246393654">Cappelli, Licinio</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12537">Robert, Eugen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb896">Bologna</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11464.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,22 +100,6 @@
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="1246393654" source="https://d-nb.info/gnd/1246393654">
-          <persName>Cappelli, Licinio</persName>
-        </person>
-        <person ref="#pmb12537" source="https://pmb.acdh.oeaw.ac.at/entity/12537/">
-          <persName>Robert, Eugen</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb896" source="https://pmb.acdh.oeaw.ac.at/entity/896/">
-          <placeName>Bologna</placeName>
-        </place>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -117,8 +110,9 @@
       <div type="letter">
         <p>1 Blatt, 1 Seite</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0079"/>that were<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0079"/>that were<lb/>
 S. Fischer<lb/>
 2.2.1929<lb/>
 Rath<lb/>

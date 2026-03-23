@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -88,6 +89,24 @@ Zur Datierung vgl. die Erwähnungen des Vertragsabschlusses zwischen Schnitzler 
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116298065">Ames, Winthrop</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb14739">Bárd, Franz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11454">Glücksmann, Heinrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5369">Granville-Barker, Harley</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb290650">Révész, Andor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb26937">Vengerova, Zinaida A.</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb26880">Weisse, Adolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="44467-4">Münchner Schauspielhaus</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb44112">Nationaltheater München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10466.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -98,54 +117,6 @@ Zur Datierung vgl. die Erwähnungen des Vertragsabschlusses zwischen Schnitzler 
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="116298065" source="https://d-nb.info/gnd/116298065">
-          <persName>Ames, Winthrop</persName>
-        </person>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb14739" source="https://pmb.acdh.oeaw.ac.at/entity/14739/">
-          <persName>Bárd, Franz</persName>
-        </person>
-        <person ref="#pmb11454" source="https://pmb.acdh.oeaw.ac.at/entity/11454/">
-          <persName>Glücksmann, Heinrich</persName>
-        </person>
-        <person ref="#pmb5369" source="https://pmb.acdh.oeaw.ac.at/entity/5369/">
-          <persName>Granville-Barker, Harley</persName>
-        </person>
-        <person ref="#pmb290650" source="https://pmb.acdh.oeaw.ac.at/entity/290650/">
-          <persName>Révész, Andor</persName>
-        </person>
-        <person ref="#pmb26937" source="https://pmb.acdh.oeaw.ac.at/entity/26937/">
-          <persName>Vengerova, Zinaida A.</persName>
-        </person>
-        <person ref="#pmb26880" source="https://pmb.acdh.oeaw.ac.at/entity/26880/">
-          <persName>Weisse, Adolf</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="44467-4" source="https://d-nb.info/gnd/44467-4">
-          <orgName>Münchner Schauspielhaus</orgName>
-        </org>
-        <org ref="#pmb44112" source="https://pmb.acdh.oeaw.ac.at/entity/44112/">
-          <orgName>Nationaltheater München</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <text>

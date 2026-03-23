@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10944">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -73,6 +74,15 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2312">Zuckerkandl, Berta</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb872">Stuttgart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43430">Tschechien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb38444">Tschechoslowakei</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10944.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -85,25 +95,6 @@
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2312" source="https://pmb.acdh.oeaw.ac.at/entity/2312/">
-          <persName>Zuckerkandl, Berta</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb872" source="https://pmb.acdh.oeaw.ac.at/entity/872/">
-          <placeName>Stuttgart</placeName>
-        </place>
-        <place ref="#pmb43430" source="https://pmb.acdh.oeaw.ac.at/entity/43430/">
-          <placeName>Tschechien</placeName>
-        </place>
-        <place ref="#pmb38444" source="https://pmb.acdh.oeaw.ac.at/entity/38444/">
-          <placeName>Tschechoslowakei</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -114,8 +105,9 @@
       <div type="letter">
         <p>2 Blatt, 3 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0552"/>O85<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0552"/>O85<lb/>
 S. Fischer/Verlag/Berlin W 57/Bülowstraße 9o<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto; Berlin Nr. 16692<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 1662, 6162 und 9292<lb/>
@@ -159,7 +151,8 @@ jeder Verlag, der auf Ordnung hält, früher oder später aufnehmen muss.<lb/>
 Es handelt sich prinzipiell um die prozentuale Honorierung vom xxx<lb/>
 anstatt vom Ladenpreis. In dem Erlös sind sämtliche Einnahmen, also<lb/>
 votre</p>
-        <p><pb facs="1416743_0553"/>P. FISCHER /VERLAG.<lb/>
+        <p>
+          <pb facs="1416743_0553"/>P. FISCHER /VERLAG.<lb/>
 2. Blatt<lb/>
 Dr.A. Schnitzler 30/10. 1922<lb/>
 a eu de<lb/>
@@ -197,7 +190,8 @@ H. Fische<lb/>
 N.B. Ich kann nicht sagen, ob die tashechisch-elowakischen Hartinnater<lb/>
 industriell genug sind, sich Ihre Bücher aus Anlass dieses Vortrages auf<lb/>
 Lager zu legen. Die Andrésche Buchhandlung in Prag, die grösste in der</p>
-        <p><pb facs="1416743_0554"/>G.C.F.P.<lb/>
+        <p>
+          <pb facs="1416743_0554"/>G.C.F.P.<lb/>
 tscheches Blowakei hat jedenfalls von uns grössere Sendungen bestellt<lb/>
 reich das Hälfnis<lb/>
 und auch bekommen. Leider ist der Verkehr mit den österreichischen Buch-<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -67,7 +68,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Antwort auf: <ref target="11222">1926-01-16 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="11222">1926-01-16 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1926-01-18.html</note>
       </notesStmt>
@@ -84,6 +86,16 @@ Antwort auf: <ref target="11222">1926-01-16 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="117441376">Wollf, Karl Joseph</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb866">Dresden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb36247">Burgtheater Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb37041">Staatstheater Dresden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11223.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -95,30 +107,6 @@ Antwort auf: <ref target="11222">1926-01-16 AS (Wien) an SF (Berlin)</ref></note
           <term>Uraufführung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="117441376" source="https://d-nb.info/gnd/117441376">
-          <persName>Wollf, Karl Joseph</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb866" source="https://pmb.acdh.oeaw.ac.at/entity/866/">
-          <placeName>Dresden</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb36247" source="https://pmb.acdh.oeaw.ac.at/entity/36247/">
-          <orgName>Burgtheater Wien</orgName>
-        </org>
-        <org ref="#pmb37041" source="https://pmb.acdh.oeaw.ac.at/entity/37041/">
-          <orgName>Staatstheater Dresden</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -128,10 +116,12 @@ Antwort auf: <ref target="11222">1926-01-16 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Antwort auf: <ref target="11222">1926-01-16 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="11222">1926-01-16 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0858"/>156<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0858"/>156<lb/>
 S. Fischer. Verlag. Berlin<lb/>
 1 ̄ ̃<lb/>
 auch<lb/>

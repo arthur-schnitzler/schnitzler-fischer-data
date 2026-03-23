@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -66,7 +67,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="10647">1918-03-06 SF (Berlin) an AS (Wien)</ref>, <ref target="10648">1918-03-07 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="10647">1918-03-06 SF (Berlin) an AS (Wien)</ref>, <ref target="10648">1918-03-07 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1918-03-11.html</note>
       </notesStmt>
@@ -82,6 +84,14 @@ Antwort auf: <ref target="10647">1918-03-06 SF (Berlin) an AS (Wien)</ref>, <ref
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10649.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -93,22 +103,6 @@ Antwort auf: <ref target="10647">1918-03-06 SF (Berlin) an AS (Wien)</ref>, <ref
           <term>Treffen</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -118,10 +112,12 @@ Antwort auf: <ref target="10647">1918-03-06 SF (Berlin) an AS (Wien)</ref>, <ref
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="10647">1918-03-06 SF (Berlin) an AS (Wien)</ref>, <ref target="10648">1918-03-07 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="10647">1918-03-06 SF (Berlin) an AS (Wien)</ref>, <ref target="10648">1918-03-07 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0053"/>Chacuniergeoge<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0053"/>Chacuniergeoge<lb/>
 11.3.1918.<lb/>
 Ttremèt<lb/>
 Lieber Freund.<lb/>
@@ -146,7 +142,8 @@ gemacht habe und kann mich der Ansicht nicht<lb/>
 verschliessen, dass die Kriegswirtschaftsstel-<lb/>
 le mir gegenüber zu demselben Entgegenkommen<lb/>
 verpflichtet wäre als deutschen Autoren gegen</p>
-        <p><pb facs="1416739_0054"/>Aufgenommen werden.<lb/>
+        <p>
+          <pb facs="1416739_0054"/>Aufgenommen werden.<lb/>
 Von<lb/>
 über. Tielleicht informieren Sie sich doch<lb/>
 an massgebender Stelle, wie man darüber denkt.<lb/>

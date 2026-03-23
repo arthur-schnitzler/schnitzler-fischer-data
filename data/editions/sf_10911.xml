@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10911">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -80,6 +81,11 @@ Anlage: Liste und Stand von Schnitzlers Angelegenheiten in Amerika</note>
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10911.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -87,11 +93,6 @@ Anlage: Liste und Stand von Schnitzlers Angelegenheiten in Amerika</note>
           <term>Zeitung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -103,8 +104,9 @@ Anlage: Liste und Stand von Schnitzlers Angelegenheiten in Amerika</note>
         <p>1 Blatt, 1 Seite
 Anlage: Liste und Stand von Schnitzlers Angelegenheiten in Amerika</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0236"/>Pecher<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0236"/>Pecher<lb/>
 26.5.1922.<lb/>
 Verehrter Herr Greiner.<lb/>
 Im Sinne unserer Unterredung erkläre ich<lb/>

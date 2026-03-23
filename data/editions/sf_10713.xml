@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -69,7 +70,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">3 Blatt, 3 Seiten
-Antwort auf: <ref target="10712">1919-07-28 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="10712">1919-07-28 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1919-08-07.html</note>
       </notesStmt>
@@ -86,6 +88,13 @@ Antwort auf: <ref target="10712">1919-07-28 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45430">Kleines Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="1231430-4">Königliches Deutsches Landestheater Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10713.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -99,19 +108,6 @@ Antwort auf: <ref target="10712">1919-07-28 AS (Wien) an SF (Berlin)</ref></note
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb45430" source="https://pmb.acdh.oeaw.ac.at/entity/45430/">
-          <orgName>Kleines Theater Berlin</orgName>
-        </org>
-        <org ref="1231430-4" source="https://d-nb.info/gnd/1231430-4">
-          <orgName>Königliches Deutsches Landestheater Prag</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -121,10 +117,12 @@ Antwort auf: <ref target="10712">1919-07-28 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>3 Blatt, 3 Seiten
-Antwort auf: <ref target="10712">1919-07-28 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="10712">1919-07-28 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0186"/>731.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0186"/>731.<lb/>
 S. Fischer. Verlag. Berlin<lb/>
 auch<lb/>
 Auf Lügen 1662 u. Theaterabteilung postscheckkonts Nr. 1669.<lb/>
@@ -173,7 +171,8 @@ Die oben genannten Bedingungen haben Sältigkeit bis zum<lb/>
 Sollten wir an diesem Tag noch keine<lb/>
 entscheidende Antwort erhalten haben, so nehmen wir an, daß wir über das in Frage frehende Werk anderweitig verfolgen können<lb/>
 O. 22».</p>
-        <p><pb facs="1416743_0187"/>Kreisämtlz<lb/>
+        <p>
+          <pb facs="1416743_0187"/>Kreisämtlz<lb/>
 wenn xxx<lb/>
 tion in Prag bereits erfolgt ist. Um Ihnen einen besseren Ueberblick<lb/>
 zu bieten, haben wir die Prager Gesamttantiemen in der beiliegenden<lb/>
@@ -218,7 +217,8 @@ Differenzbeträge von Nr. 154.48 für „Liebelei“.xx 22.07 für<lb/>
 Kreisä aa-t rusfait un rien usilloé<lb/>
 nur sich xxx nachricht abgenommen werden.<lb/>
 wenn eselben gebetrübtenen Graffte aufgelegt worden, ob sich wie nie dass man noch nach der nämden neuerlich abgebrachten</p>
-        <p><pb facs="1416743_0188"/>FISCHER, VERLAG, BERLIN, en Dr. Arthur Schnitzler v.. 7.8. Blatt 2<lb/>
+        <p>
+          <pb facs="1416743_0188"/>FISCHER, VERLAG, BERLIN, en Dr. Arthur Schnitzler v.. 7.8. Blatt 2<lb/>
 Theaterabteilung<lb/>
 reklamierten Betrag für „Anatol“ 1t. früherer Abrechnung in Höhe<lb/>
 von Nr. 25.95 der immer noch nicht bei uns angelangt ist, der Sendung<lb/>

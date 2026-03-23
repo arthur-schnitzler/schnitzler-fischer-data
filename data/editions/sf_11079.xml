@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11079">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -69,6 +70,14 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11515">Greiner, Leo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb47927">Washington</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Greenwich Village Theatre New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11079.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -76,24 +85,6 @@
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11515" source="https://pmb.acdh.oeaw.ac.at/entity/11515/">
-          <persName>Greiner, Leo</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb47927" source="https://pmb.acdh.oeaw.ac.at/entity/47927/">
-          <placeName>Washington</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org>
-          <orgName>Greenwich Village Theatre New York</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -104,8 +95,9 @@
       <div type="letter">
         <p>1 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0733"/>567<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0733"/>567<lb/>
 Derlag / Berlin W 57 / Rthl<lb/>
 B. Fischer/<lb/>
 prechanschlüsse: Amt Lützow Nr. 1662. 6162 und 9292 / Postscheckkonto: Berlin Nr 1668<lb/>
@@ -139,7 +131,8 @@ wollen.<lb/>
 Lar von den Greenvich Village Player<lb/>
 sind in dem hier ge¬<lb/>
 ge nicht enthalten, also von diesem</p>
-        <p><pb facs="1416743_0734"/>197<lb/>
+        <p>
+          <pb facs="1416743_0734"/>197<lb/>
 wie wir längstlvermuteten auch nicht bezahlt worden. Die Möglich -<lb/>
 keit, sie nachträglich herauszubekommen, scheint mir allerdings<lb/>
 gleich Hall. Eine Detaillierung des angegebenen Betrages wird<lb/>

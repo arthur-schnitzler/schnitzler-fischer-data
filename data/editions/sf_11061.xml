@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11061">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -74,6 +75,12 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb49137">Kattowitz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Vereinigte Städtische Theater Kattowitz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11061.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -81,16 +88,6 @@
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb49137" source="https://pmb.acdh.oeaw.ac.at/entity/49137/">
-          <placeName>Kattowitz</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org>
-          <orgName>Vereinigte Städtische Theater Kattowitz</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -101,8 +98,9 @@
       <div type="letter">
         <p>1 Blatt, 1 Seite</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0712"/>1654<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0712"/>1654<lb/>
 S'FISCHER/VERLAG* THEATERABTEILUNG·BERLIN<lb/>
 STR90<lb/>
 Herrn Dr. Arthur Schnitzier, Wien<lb/>

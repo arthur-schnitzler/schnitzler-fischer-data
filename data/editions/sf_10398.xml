@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10398">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -86,6 +87,12 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5031">Samuel, Horace Barnett</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10398.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -93,16 +100,6 @@
           <term>englisches Journal</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb5031" source="https://pmb.acdh.oeaw.ac.at/entity/5031/">
-          <persName>Samuel, Horace Barnett</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -113,8 +110,9 @@
       <div type="letter">
         <p>1 Blatt, 2 Seiten beschrieben</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0508"/>258<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0508"/>258<lb/>
 257<lb/>
 S. FISCHER, VERLAG,’ BERLIN W., BÜLOUSTR. 90<lb/>
 BERene W., DEN 5/X.11<lb/>
@@ -136,7 +134,8 @@ in einem englischen Journal, abzudrucken, uns<lb/>
 aber dabet die Aufführungsrechte ausdrücklich<lb/>
 vorbehalten. Wir bitten nun um gefl. Nachricht.<lb/>
 ob Sie inwischen auch über dieses Verk für xxx</p>
-        <p><pb facs="1416742_0509"/>land anderweitig verfügt haben oder ob wir die<lb/>
+        <p>
+          <pb facs="1416742_0509"/>land anderweitig verfügt haben oder ob wir die<lb/>
 Firma Felix Bloch Erben autorisieren sollen,<lb/>
 wegen der Aufführung in englischer Sprache zu<lb/>
 verhandeln.<lb/>

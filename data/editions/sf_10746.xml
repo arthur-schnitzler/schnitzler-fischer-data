@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10746">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -80,6 +81,17 @@ Beantwortet in: 1919-04-18 SF (Berlin) an AS (Wien)</note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20624">Loving, Edward Pierre</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb27362">Wunderlich, Ernst Rainer</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb864">Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43435">Schweiz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10746.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -98,31 +110,6 @@ Beantwortet in: 1919-04-18 SF (Berlin) an AS (Wien)</note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb20624" source="https://pmb.acdh.oeaw.ac.at/entity/20624/">
-          <persName>Loving, Edward Pierre</persName>
-        </person>
-        <person ref="#pmb27362" source="https://pmb.acdh.oeaw.ac.at/entity/27362/">
-          <persName>Wunderlich, Ernst Rainer</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb864" source="https://pmb.acdh.oeaw.ac.at/entity/864/">
-          <placeName>Leipzig</placeName>
-        </place>
-        <place ref="#pmb43435" source="https://pmb.acdh.oeaw.ac.at/entity/43435/">
-          <placeName>Schweiz</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -135,8 +122,9 @@ Beantwortet in: 1919-04-18 SF (Berlin) an AS (Wien)</note>
 Antwort auf: 1919-02-19 SF (Berlin) an AS (Wien)
 Beantwortet in: 1919-04-18 SF (Berlin) an AS (Wien)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0136"/>rekt das betreffende Stück von mir erwerben wol-<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0136"/>rekt das betreffende Stück von mir erwerben wol-<lb/>
 len, so werde ich natürlich gerne durch Sie resp.<lb/>
 Ihren Wertreter abschliessen lassen. Vielleicht<lb/>
 können sie mir mitteilen, welches Pauschale für ch,<lb/>
@@ -164,7 +152,8 @@ Wie steht es nun eigentlich mit dem Schutz<lb/>
 reichsdeutscher Autoren in Ungann? Und ferner<lb/>
 Geniessen nichtösterreichische Autoren, wenn<lb/>
 ihre Werke in einem reichsdeutschen Verlag</p>
-        <p><pb facs="1416739_0137"/>nicht.<lb/>
+        <p>
+          <pb facs="1416739_0137"/>nicht.<lb/>
 erscheinen/des gleichen Schutzes wie die<lb/>
 reichsdeutschen Autoren selbst? Gibt es hie-<lb/>
 rüber besondere oder allgemeine Entscheidun-<lb/>
@@ -208,7 +197,8 @@ seine Aeusserungen an sie weiter zu leiten,<lb/>
 er erklärte sich ohneweiters damit einver-<lb/>
 standen und zugleich gern bereit Ihnen sämmt<lb/>
 liche für sie eventuell zweckdienliche Anga-</p>
-        <p><pb facs="1416739_0138"/>gaben zu übermitteln,resp. die Offerten an Sie<lb/>
+        <p>
+          <pb facs="1416739_0138"/>gaben zu übermitteln,resp. die Offerten an Sie<lb/>
 weiter zu leiten. Nochmals möchte ich erwähnen,<lb/>
 dass diese Wendung des Gesprächs sich ganz unge-<lb/>
 zwungen ergab, dass ich mich aber nicht nur be-<lb/>
@@ -251,7 +241,8 @@ Rechnung zu tragen. Warum Sie diese Wiener Fi-<lb/>
 liale wieder aufgelöst haben ist mir völlig un-<lb/>
 erfindlich geblieben. Wenn ich mir auch keines-<lb/>
 wegs das Recht arrogieren möchte in die Interna</p>
-        <p><pb facs="1416739_0139"/>Ihres Geschäftsbetriebes Einsprüche zu erheben,<lb/>
+        <p>
+          <pb facs="1416739_0139"/>Ihres Geschäftsbetriebes Einsprüche zu erheben,<lb/>
 so darf ich es doch wohl innerhalb desjenigen<lb/>
 indem<lb/>
 Masses wagen, xxxn Ich meine eigenen<lb/>
@@ -296,7 +287,8 @@ persönlich sich so wohl befinden als es in<lb/>
 diesen Zeiten beschieden sein kann und hin mit<lb/>
 herzlichsten Grüssen<lb/>
 Ihr</p>
-        <p><pb facs="1416739_0140"/>2511<lb/>
+        <p>
+          <pb facs="1416739_0140"/>2511<lb/>
 29.3.1920.<lb/>
 An den<lb/>
 Theatervertrieb<lb/>
@@ -316,7 +308,8 @@ Im übrigen erinnere ich aber neuerings, dass<lb/>
 das Verfügungsrecht fürs Ausland mir allein<lb/>
 zusteht resp. dass Sie sich im Falle von an<lb/>
 Sie gelangenden Anträgen meines Einverständ</p>
-        <p><pb facs="1416739_0141"/>nisses freundlichst zu versichern haben, das<lb/>
+        <p>
+          <pb facs="1416739_0141"/>nisses freundlichst zu versichern haben, das<lb/>
 ich Ihnen bekanntlich noch selten versagte.<lb/>
 Ebenso selbstverständlich bleibt es mir im<lb/>
 Sinne unseres Vertrages unbenommen pasönlich<lb/>
@@ -361,7 +354,8 @@ sen auch die andern wühnen die Aufführung hi-<lb/>
 nausschieben. Wer weiss, für wie lange nun der<lb/>
 richtige Zeitpunkt verpasst ist.<lb/>
 Hochachtungsvoll</p>
-        <p><pb facs="1416739_0142"/>1. Mai 1920.<lb/>
+        <p>
+          <pb facs="1416739_0142"/>1. Mai 1920.<lb/>
 Fischer<lb/>
 Ihnen zu übermitteln.<lb/>
 Lieber Freund.<lb/>

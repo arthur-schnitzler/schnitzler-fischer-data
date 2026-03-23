@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -44,7 +45,8 @@
       <notesStmt>
         <note type="description">1 Doppelblatt, 3 Seiten beschrieben
 
-wohl zeitlich überlappend mit <ref target="10056">1896-09-24 SF/OB an AS</ref></note>
+wohl zeitlich überlappend mit <ref target="10056">1896-09-24 SF/OB an AS</ref>
+        </note>
         <note type="type">Handschrift (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1896-09-25.html</note>
       </notesStmt>
@@ -60,6 +62,12 @@ wohl zeitlich überlappend mit <ref target="10056">1896-09-24 SF/OB an AS</ref><
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11910">Kerr, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb40665">Vallette, Gaspard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10057.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -68,14 +76,6 @@ wohl zeitlich überlappend mit <ref target="10056">1896-09-24 SF/OB an AS</ref><
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11910" source="https://pmb.acdh.oeaw.ac.at/entity/11910/">
-          <persName>Kerr, Alfred</persName>
-        </person>
-        <person ref="#pmb40665" source="https://pmb.acdh.oeaw.ac.at/entity/40665/">
-          <persName>Vallette, Gaspard</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -86,7 +86,8 @@ wohl zeitlich überlappend mit <ref target="10056">1896-09-24 SF/OB an AS</ref><
       <div type="letter">
         <p>1 Doppelblatt, 3 Seiten beschrieben
 
-wohl zeitlich überlappend mit <ref target="10056">1896-09-24 SF/OB an AS</ref></p>
+wohl zeitlich überlappend mit <ref target="10056">1896-09-24 SF/OB an AS</ref>
+        </p>
       </div>
     </body>
   </text>

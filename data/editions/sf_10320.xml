@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -66,7 +67,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten beschrieben
 
-Antwort auf: <ref target="10319">1910-05-17 AS an SF</ref></note>
+Antwort auf: <ref target="10319">1910-05-17 AS an SF</ref>
+        </note>
         <note type="published_in">Buohler 2011, 144 (Auszug)</note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1910-05-19.html</note>
@@ -83,6 +85,18 @@ Antwort auf: <ref target="10319">1910-05-17 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb967">Luzern</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3960">Monnard, Heinz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb834">Darmstadt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44172">Nürnberg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb872">Stuttgart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="7590354-4">Lessing-Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29569">Wiener Freie Volksbühne</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10320.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -94,36 +108,6 @@ Antwort auf: <ref target="10319">1910-05-17 AS an SF</ref></note>
           <term>Honorar</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb3960" source="https://pmb.acdh.oeaw.ac.at/entity/3960/">
-          <persName>Monnard, Heinz</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb834" source="https://pmb.acdh.oeaw.ac.at/entity/834/">
-          <placeName>Darmstadt</placeName>
-        </place>
-        <place ref="#pmb44172" source="https://pmb.acdh.oeaw.ac.at/entity/44172/">
-          <placeName>Nürnberg</placeName>
-        </place>
-        <place ref="#pmb872" source="https://pmb.acdh.oeaw.ac.at/entity/872/">
-          <placeName>Stuttgart</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="7590354-4" source="https://d-nb.info/gnd/7590354-4">
-          <orgName>Lessing-Theater Berlin</orgName>
-        </org>
-        <org ref="#pmb29569" source="https://pmb.acdh.oeaw.ac.at/entity/29569/">
-          <orgName>Wiener Freie Volksbühne</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -134,10 +118,12 @@ Antwort auf: <ref target="10319">1910-05-17 AS an SF</ref></note>
       <div type="letter">
         <p>2 Blatt, 2 Seiten beschrieben
 
-Antwort auf: <ref target="10319">1910-05-17 AS an SF</ref></p>
+Antwort auf: <ref target="10319">1910-05-17 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0422"/>214.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0422"/>214.<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstraße 90<lb/>
 Berlin, den 19. Mai 1910<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -166,7 +152,8 @@ Herr Monnard die in Frage stehende einmalige Aufführung in Nürnberg,<lb/>
 über die er eine Abrechnung trotz wiederholter (viermaliger) Mahnung<lb/>
 nicht erteilt hat. Da indessen auch durch die Nürnberger Aufführung<lb/>
 die gezahlte Garantie von 200 Mark jedenfalls nicht erreicht worden</p>
-        <p><pb facs="1416742_0423"/>Blatt 2<lb/>
+        <p>
+          <pb facs="1416742_0423"/>Blatt 2<lb/>
 190<lb/>
 S. Fischer, Verlag, Berlin,<lb/>
 ist, so dürfte auf die Abrechnung wohl kein Gewicht zu legen sein.<lb/>

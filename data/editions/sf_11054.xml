@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -58,7 +59,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten
-Beantwortet in: <ref target="11057">1924-02-05 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="11057">1924-02-05 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="published_in">Rodewald, 137-139 [Nr. 174]</note>
         <note type="type">Typoskript (eigenhändige Unterschrift, eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-01-30.html</note>
@@ -75,6 +77,12 @@ Beantwortet in: <ref target="11057">1924-02-05 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb9434">Reclam, Ernst</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11054.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -86,16 +94,6 @@ Beantwortet in: <ref target="11057">1924-02-05 AS (Wien) an SF (Berlin)</ref></n
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb9434" source="https://pmb.acdh.oeaw.ac.at/entity/9434/">
-          <persName>Reclam, Ernst</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -105,10 +103,12 @@ Beantwortet in: <ref target="11057">1924-02-05 AS (Wien) an SF (Berlin)</ref></n
     <body>
       <div type="letter">
         <p>2 Blatt, 3 Seiten
-Beantwortet in: <ref target="11057">1924-02-05 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="11057">1924-02-05 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0702"/>scher/Verlag/Berlin M 57/Bülowstraße 9o<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0702"/>scher/Verlag/Berlin M 57/Bülowstraße 9o<lb/>
 Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto: Berlin Nr. 16892<lb/>
 P0: J<lb/>
 chanschlüsse: Amt Lützow N.<lb/>
@@ -139,7 +139,8 @@ ab 1.Januar ds. J. unter zugrundelegung der am 1. Januar vorrütigen<lb/>
 Exemplare Ihrer Bücher Auflagenteile voraus honorieren; sagen wir<lb/>
 also mindestens 100 Exemplare von jeden Buch. Von gangbaren Büchern<lb/>
 eventuell 3 - 400 Exemplare. Das gibt eine glatte Abrechnung, die auch</p>
-        <p><pb facs="1416743_0703"/>VE<lb/>
+        <p>
+          <pb facs="1416743_0703"/>VE<lb/>
 A. Schnitzler 30/1.2<lb/>
 erhalte xxx<lb/>
 durch unsere vierteljährliche Lageraufnahme schnell aufzustellen ist.<lb/>
@@ -205,7 +206,8 @@ Schweizer Franken<lb/>
 1424.07 verrechneten<lb/>
 etwa 17 ½ Million<lb/>
 sterr. Kronen</p>
-        <p><pb facs="1416743_0704"/>ergeben, wobei wir Ihnen die Umrechnung nach den Wiener kurs anheim-<lb/>
+        <p>
+          <pb facs="1416743_0704"/>ergeben, wobei wir Ihnen die Umrechnung nach den Wiener kurs anheim-<lb/>
 stellen würden.<lb/>
 xxx xxx<lb/>
 wenn ich das Mass von Arbeit bedenke, das, wie ich glaube, noch<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,6 +80,12 @@ Beantwortet in: 1931-09-09 SF (Berlin) an AS (Wien)</note>
           <persName type="coworker">Bermann, Gottfried</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7141">Firner, Walter</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8885">Meid, Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11700.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -92,14 +99,6 @@ Beantwortet in: 1931-09-09 SF (Berlin) an AS (Wien)</note>
           <term>Zeichnung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb7141" source="https://pmb.acdh.oeaw.ac.at/entity/7141/">
-          <persName>Firner, Walter</persName>
-        </person>
-        <person ref="#pmb8885" source="https://pmb.acdh.oeaw.ac.at/entity/8885/">
-          <persName>Meid, Hans</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -112,8 +111,9 @@ Beantwortet in: 1931-09-09 SF (Berlin) an AS (Wien)</note>
 Antwort auf: <ref target="11697">1931-08-31 SF (Berlin) an AS (Wien)</ref>, <ref target="11698">1931-09-01 SF (Berlin) an AS (Wien)</ref>
 Beantwortet in: 1931-09-09 SF (Berlin) an AS (Wien)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0183"/>Tischer<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0183"/>Tischer<lb/>
 5.9.1931.<lb/>
 Lieber Herr Doktor.<lb/>
 Sie wissen, wie sehr mir die Zeichnungen<lb/>
@@ -151,7 +151,9 @@ Mit der von Ihnen vorgeschlagenen Rege-<lb/>
 lung. Druck von 15000 Exemplaren stat: der früher<lb/>
 vorgeschlagenen 20.000 der neuen Hovelle, bin ich na-<lb/>
 türlich einverstanden.</p>
-        <p><pb facs="1416741_0184"/></p>
+        <p>
+          <pb facs="1416741_0184"/>
+        </p>
       </div>
     </body>
   </text>

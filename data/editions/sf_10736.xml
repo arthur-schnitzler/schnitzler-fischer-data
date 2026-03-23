@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -85,6 +86,13 @@ Beantwortet in: 1919-01-23 AS (Wien) an SF (Berlin)
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20474">Linden, Gustaf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10736.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -98,19 +106,6 @@ Beantwortet in: 1919-01-23 AS (Wien) an SF (Berlin)
           <term>Vertreter/Vertretung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb20474" source="https://pmb.acdh.oeaw.ac.at/entity/20474/">
-          <persName>Linden, Gustaf</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -124,8 +119,9 @@ Antwort auf: <ref target="10730">1919-12-19 AS (Wien) an SF (Berlin)</ref>
 Beantwortet in: 1919-01-23 AS (Wien) an SF (Berlin)
 ##in CUL falsch einsortiert (unter 1921)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0320"/>481<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0320"/>481<lb/>
 S. FISCHER / VerLAG<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P. Berlin / Postscheckkonte: Berlin 1669a<lb/>
 BERene W 57, BÜLowSTRASSE 90<lb/>
@@ -149,7 +145,8 @@ vollständig, da die Papierfabriken keine Kohlenhaben.<lb/>
 Mit herzlichen Grüssen<lb/>
 Ihr<lb/>
 of fische.</p>
-        <p><pb facs="1416743_0321"/>4821<lb/>
+        <p>
+          <pb facs="1416743_0321"/>4821<lb/>
 28th:-<lb/>
 = Blatt 2<lb/>
 würde bekommen<lb/>
@@ -183,7 +180,8 @@ verbindlichsten Empfehlungen<lb/>
 Jhr<lb/>
 sehr ergebener<lb/>
 Otto Greiß</p>
-        <p><pb facs="1416743_0322"/>48a<lb/>
+        <p>
+          <pb facs="1416743_0322"/>48a<lb/>
 S. Fischer/Verlag/Berlin W 57/Bülowstrasse 9o.<lb/>
 Bankkonto: Deutsche Bank. Depositenkasse P in Berlin / Postscheckkonto; Berlin Nr: 16692<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 1662. 6162 und 9292<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,6 +77,14 @@ Beilage: Intendanz Köln 1926-11-2 bzgl. Werfel hierher?</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb166">Frankreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb145">Köln</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb182">Paris</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="5038293-7">Schauspielhaus Köln</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11269.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -88,22 +97,6 @@ Beilage: Intendanz Köln 1926-11-2 bzgl. Werfel hierher?</note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
-          <placeName>Frankreich</placeName>
-        </place>
-        <place ref="#pmb145" source="https://pmb.acdh.oeaw.ac.at/entity/145/">
-          <placeName>Köln</placeName>
-        </place>
-        <place ref="#pmb182" source="https://pmb.acdh.oeaw.ac.at/entity/182/">
-          <placeName>Paris</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="5038293-7" source="https://d-nb.info/gnd/5038293-7">
-          <orgName>Schauspielhaus Köln</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -116,8 +109,9 @@ Beilage: Intendanz Köln 1926-11-2 bzgl. Werfel hierher?</note>
 Beantwortet in: <ref target="11270">1926-12-20 AS (Wien) an SF (Berlin)</ref>
 Beilage: Intendanz Köln 1926-11-2 bzgl. Werfel hierher?</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0902"/>1782<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0902"/>1782<lb/>
 Verlaten<lb/>
 Aktien-Gesellschaft<lb/>
 Amt Lühzow Nummer 6162 Theaterabteilung postscheckkonto Nr. 1669<lb/>

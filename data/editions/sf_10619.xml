@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10619">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -69,6 +70,14 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10896">Bernauer, Rudolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1025363396">Hesse, Lo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8889">Meinhard, Carl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="141224924">Seewitz, Joachim von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10619.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -76,20 +85,6 @@
           <term>Schnitzler-Abend</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10896" source="https://pmb.acdh.oeaw.ac.at/entity/10896/">
-          <persName>Bernauer, Rudolf</persName>
-        </person>
-        <person ref="1025363396" source="https://d-nb.info/gnd/1025363396">
-          <persName>Hesse, Lo</persName>
-        </person>
-        <person ref="#pmb8889" source="https://pmb.acdh.oeaw.ac.at/entity/8889/">
-          <persName>Meinhard, Carl</persName>
-        </person>
-        <person ref="141224924" source="https://d-nb.info/gnd/141224924">
-          <persName>Seewitz, Joachim von</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -100,8 +95,9 @@
       <div type="letter">
         <p>2 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0071"/>.VERLAC<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0071"/>.VERLAC<lb/>
 ISCHE<lb/>
 RlÈBci Am L'OROT Nr. 1662 und 6162<lb/>
 ur<lb/>
@@ -133,7 +129,8 @@ te selbstverständlich nicht berechtigt ist. Ande-<lb/>
 rerseits macht die Direktion geltend, dass es ihr<lb/>
 nur durch die Verbindung Ihrer Einakter mit den<lb/>
 Tänzen von Kurt von Seewitz und Lo Hesse, gegen die</p>
-        <p><pb facs="1416743_0072"/>liche<lb/>
+        <p>
+          <pb facs="1416743_0072"/>liche<lb/>
 ERLAC<lb/>
 ISCHER<lb/>
 Anschlüsse: Amt Lüttow Nr. 1662 und 6152<lb/>

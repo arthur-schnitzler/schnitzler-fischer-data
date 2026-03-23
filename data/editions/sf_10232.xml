@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10232">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -93,6 +94,14 @@ Evtl. Antwort auf Anfrage AS zu 'Komtesse Mizzi' und zu amerik. Übersetzung 'We
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2871">Entsch, Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10232.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,22 +109,6 @@ Evtl. Antwort auf Anfrage AS zu 'Komtesse Mizzi' und zu amerik. Übersetzung 'We
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2871" source="https://pmb.acdh.oeaw.ac.at/entity/2871/">
-          <persName>Entsch, Theodor</persName>
-        </person>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -128,8 +121,9 @@ Evtl. Antwort auf Anfrage AS zu 'Komtesse Mizzi' und zu amerik. Übersetzung 'We
 
 Evtl. Antwort auf Anfrage AS zu 'Komtesse Mizzi' und zu amerik. Übersetzung 'Weg ins Freie'; zwischenzeitliche Korrespondenz aber nicht sicher zu erschließen</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0345"/>Arthur Schnitz,<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0345"/>Arthur Schnitz,<lb/>
 wieber Herr Doktor.<lb/>
 wir haben in unserm neuen Theaterprospekt<lb/>
 „Komtesse. Mizzi“ schon angezeigt und es wäre mir<lb/>
@@ -146,7 +140,8 @@ aufe der Zeit<lb/>
 eingeben wird. Sollte<lb/>
 erst<lb/>
 sakelt</p>
-        <p><pb facs="1416742_0346"/>Amerika bemüht<lb/>
+        <p>
+          <pb facs="1416742_0346"/>Amerika bemüht<lb/>
 unterzubringen. Ich habe neulich auch an<lb/>
 gew Kerker Staatszeitung geschrieben, ich mache<lb/>
 mir aber nicht viel Illusionen. Alle derartigen<lb/>

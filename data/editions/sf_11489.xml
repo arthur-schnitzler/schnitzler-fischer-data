@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -61,7 +62,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
-Beantwortet in: <ref target="11490">1929-07-29 SF (Berlin) an AS (Wien)</ref>, <ref target="11495">1929-08-20 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11490">1929-07-29 SF (Berlin) an AS (Wien)</ref>, <ref target="11495">1929-08-20 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1929-07-27.html</note>
       </notesStmt>
@@ -78,6 +80,13 @@ Beantwortet in: <ref target="11490">1929-07-29 SF (Berlin) an AS (Wien)</ref>, <
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb15764">Eirich, Otto</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11489.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -99,19 +108,6 @@ Beantwortet in: <ref target="11490">1929-07-29 SF (Berlin) an AS (Wien)</ref>, <
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb15764" source="https://pmb.acdh.oeaw.ac.at/entity/15764/">
-          <persName>Eirich, Otto</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -121,10 +117,12 @@ Beantwortet in: <ref target="11490">1929-07-29 SF (Berlin) an AS (Wien)</ref>, <
     <body>
       <div type="letter">
         <p>2 Blatt, 2 Seiten
-Beantwortet in: <ref target="11490">1929-07-29 SF (Berlin) an AS (Wien)</ref>, <ref target="11495">1929-08-20 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11490">1929-07-29 SF (Berlin) an AS (Wien)</ref>, <ref target="11495">1929-08-20 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0088"/>Tischer<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0088"/>Tischer<lb/>
 27.7.1929.<lb/>
 Lieber Herr Doktor Maril.<lb/>
 Im Laufe der nächsten Woche möchte<lb/>
@@ -160,7 +158,8 @@ Ebenso wie es schon beim "Gang zum Wei<lb/>
 her" der Fall war, soll auch fürs Erste keineswegs<lb/>
 sogenannte Bühnenexemplare auf meine Kosten ge-<lb/>
 druckt werden. Das Stück sollte gleich für die</p>
-        <p><pb facs="1416741_0089"/>Buchausgabe vorbereitet werden, die Feststekungg<lb/>
+        <p>
+          <pb facs="1416741_0089"/>Buchausgabe vorbereitet werden, die Feststekungg<lb/>
 des Erscheinungstermine aber mir vorbehalten<lb/>
 bleiben, Zusendungen dieser Exemplare an die<lb/>
 Sühnen dürften bis auf weiteres erst mit mei-<lb/>

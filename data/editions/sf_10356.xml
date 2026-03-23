@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,7 +71,8 @@
         <note type="description">1 Blatt, 1 Seite
 Anlage: 2 Briefe von Vojtech Brecka an SF (nicht überliefert)
 
-Antwort auf: <ref target="10352">1910-12-17 AS an SF</ref></note>
+Antwort auf: <ref target="10352">1910-12-17 AS an SF</ref>
+        </note>
         <note type="published_in">Buohler 2011, 158 (Auszug)</note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1910-12-20.html</note>
@@ -87,6 +89,15 @@ Antwort auf: <ref target="10352">1910-12-17 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10815">Bahr, Hermann</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Břečka, Vojtěch (Übersetzer, Prag)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2229">Handl, Willi</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb652">Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43430">Tschechien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10356.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -96,25 +107,6 @@ Antwort auf: <ref target="10352">1910-12-17 AS an SF</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10815" source="https://pmb.acdh.oeaw.ac.at/entity/10815/">
-          <persName>Bahr, Hermann</persName>
-        </person>
-        <person>
-          <persName>Břečka, Vojtěch (Übersetzer, Prag)</persName>
-        </person>
-        <person ref="#pmb2229" source="https://pmb.acdh.oeaw.ac.at/entity/2229/">
-          <persName>Handl, Willi</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
-          <placeName>Prag</placeName>
-        </place>
-        <place ref="#pmb43430" source="https://pmb.acdh.oeaw.ac.at/entity/43430/">
-          <placeName>Tschechien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -126,10 +118,12 @@ Antwort auf: <ref target="10352">1910-12-17 AS an SF</ref></note>
         <p>1 Blatt, 1 Seite
 Anlage: 2 Briefe von Vojtech Brecka an SF (nicht überliefert)
 
-Antwort auf: <ref target="10352">1910-12-17 AS an SF</ref></p>
+Antwort auf: <ref target="10352">1910-12-17 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0463"/>235<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0463"/>235<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstraße 90<lb/>
 den 20/12. 1910<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>

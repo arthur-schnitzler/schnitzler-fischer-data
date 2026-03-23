@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -109,7 +110,8 @@
 Anlagen: 1907-03-23 Alice Kauser an SF (Brief, Vertragsentwurf, Übersetzung; nur tw. überliefert); Ausschnitt Ztg. St. Petersburg (nicht überliefert); weiterer Ztg.ausschnitt (nicht überliefert)
 
 Antwort auf: <ref target="10179">1907-04-13 SF an AS</ref>
-Beantwortet in: <ref target="10182">1907-04-24 SF an AS</ref></note>
+Beantwortet in: <ref target="10182">1907-04-24 SF an AS</ref>
+        </note>
         <note type="published_in">Schnitzler B I, 555-559</note>
         <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1907-04-17.html</note>
@@ -126,6 +128,23 @@ Beantwortet in: <ref target="10182">1907-04-24 SF an AS</ref></note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb15048">Colbron, Grace Isabel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11740">Hofmannsthal, Hugo von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Hunter, Robert (Theaterunternehmer, USA)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12428">Poe, Edgar Allan</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb166">Frankreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb182">Paris</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb433">St. Petersburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Berkeley Lyceum New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10180.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -138,51 +157,6 @@ Beantwortet in: <ref target="10182">1907-04-24 SF an AS</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb15048" source="https://pmb.acdh.oeaw.ac.at/entity/15048/">
-          <persName>Colbron, Grace Isabel</persName>
-        </person>
-        <person ref="#pmb11740" source="https://pmb.acdh.oeaw.ac.at/entity/11740/">
-          <persName>Hofmannsthal, Hugo von</persName>
-        </person>
-        <person>
-          <persName>Hunter, Robert (Theaterunternehmer, USA)</persName>
-        </person>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-        <person ref="#pmb12428" source="https://pmb.acdh.oeaw.ac.at/entity/12428/">
-          <persName>Poe, Edgar Allan</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
-          <placeName>Frankreich</placeName>
-        </place>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb182" source="https://pmb.acdh.oeaw.ac.at/entity/182/">
-          <placeName>Paris</placeName>
-        </place>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-        <place ref="#pmb433" source="https://pmb.acdh.oeaw.ac.at/entity/433/">
-          <placeName>St. Petersburg</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org>
-          <orgName>Berkeley Lyceum New York</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -195,7 +169,8 @@ Beantwortet in: <ref target="10182">1907-04-24 SF an AS</ref></note>
 Anlagen: 1907-03-23 Alice Kauser an SF (Brief, Vertragsentwurf, Übersetzung; nur tw. überliefert); Ausschnitt Ztg. St. Petersburg (nicht überliefert); weiterer Ztg.ausschnitt (nicht überliefert)
 
 Antwort auf: <ref target="10179">1907-04-13 SF an AS</ref>
-Beantwortet in: <ref target="10182">1907-04-24 SF an AS</ref></p>
+Beantwortet in: <ref target="10182">1907-04-24 SF an AS</ref>
+        </p>
       </div>
     </body>
   </text>

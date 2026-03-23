@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -88,6 +89,16 @@ Beilage (hierher?): SF an Linden (Stockholm) 1928-03-28</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12537">Robert, Eugen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb182">Paris</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb61746">Komödienhaus Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11400.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -104,30 +115,6 @@ Beilage (hierher?): SF an Linden (Stockholm) 1928-03-28</note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb12537" source="https://pmb.acdh.oeaw.ac.at/entity/12537/">
-          <persName>Robert, Eugen</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb182" source="https://pmb.acdh.oeaw.ac.at/entity/182/">
-          <placeName>Paris</placeName>
-        </place>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb61746" source="https://pmb.acdh.oeaw.ac.at/entity/61746/">
-          <orgName>Komödienhaus Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -141,8 +128,9 @@ Antwort auf: <ref target="11395">1928-03-15 AS (Wien) an SF (Berlin)</ref>
 Beantwortet in: <ref target="11401">1928-03-29 AS (Wien) an SF (Berlin)</ref>
 Beilage (hierher?): SF an Linden (Stockholm) 1928-03-28</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_1016"/>858<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_1016"/>858<lb/>
 S. Fischer / Verlag / A.=G. Berlin W 57<lb/>
 Theaterabteilung<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto. Berlin Nr. 166 92<lb/>
@@ -180,7 +168,8 @@ noch einmal angesehen und fände die Ausgabe technisch so wenig<lb/>
 reizvoll, dass ihm als beste Lösung erschiene, wenn Harz sein<lb/>
 Bestände verkaufe, und wir dann eine neue gut und modern ge-<lb/>
 druckte Ausgabe - mit Benutzung des historisch-kritischen Material</p>
-        <p><pb facs="1416743_1017"/>schlich<lb/>
+        <p>
+          <pb facs="1416743_1017"/>schlich<lb/>
 Emilrag. Ds. R. Van<lb/>
 gnulisdemxx<lb/>
 Rédo### hilreft einudondoslso 4 atl###ad af 7 xxxdöslisagad Aoaß sdsstosd :o/<lb/>

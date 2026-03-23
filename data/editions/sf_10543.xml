@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -88,6 +89,12 @@ AS und SF trafen sich, wie von SF erhofft, anlässlich der Premiere des 'Medardu
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb687">Österreich-Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10543.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -95,14 +102,6 @@ AS und SF trafen sich, wie von SF erhofft, anlässlich der Premiere des 'Medardu
           <term>Erster Weltkrieg</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-        <place ref="#pmb687" source="https://pmb.acdh.oeaw.ac.at/entity/687/">
-          <placeName>Österreich-Ungarn</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -117,8 +116,9 @@ Anlage: Theaterabrechnung (nicht überliefert)
 Antwort auf: <ref target="10542">1914-09-30 AS an SF</ref>
 AS und SF trafen sich, wie von SF erhofft, anlässlich der Premiere des 'Medardus' in Berlin und sprachen dabei "Über Deutschland – Oesterreich, – eine künftige nähere Verbindung" (Tgb 1914-10-23); von "politischen Gesprächen" zeugt auch Tgb 1914-10-25.</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0670"/>2,10<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0670"/>2,10<lb/>
 846<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstrasse 90.<lb/>
 15/X. 1914<lb/>

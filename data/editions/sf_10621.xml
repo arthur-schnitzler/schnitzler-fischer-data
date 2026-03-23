@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,71 +77,31 @@ Beantwortet in: <ref target="10622">1917-10-01 AS (Wien) an SF</ref> (Berlin</no
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2874">Eirich, Oskar Friedrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb57240">Schindler, Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb677">Breslau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb860">Graz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb145">Köln</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb864">Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb852">Würzburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45530">Deutsches Schauspielhaus in Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Kammerspiele Nürnberg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb288834">Königlich Sächsisches Hoftheater zu Dresden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="1231430-4">Königliches Deutsches Landestheater Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb44112">Nationaltheater München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb300058">Neues Theater Frankfurt am Main</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="7626923-1">Residenztheater Wiesbaden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="507255-4">Schauspielhaus Bremen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb57345">Schauspielhaus Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="10358564-3">Städtische Bühnen Graz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb37019">Thaliatheater Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb56911">Vereinigte Stadt-Theater zu Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10621.xml"/>
+        </note>
       </correspDesc>
       <textClass/>
-      <listPerson>
-        <person ref="#pmb2874" source="https://pmb.acdh.oeaw.ac.at/entity/2874/">
-          <persName>Eirich, Oskar Friedrich</persName>
-        </person>
-        <person ref="#pmb57240" source="https://pmb.acdh.oeaw.ac.at/entity/57240/">
-          <persName>Schindler, Hans</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb677" source="https://pmb.acdh.oeaw.ac.at/entity/677/">
-          <placeName>Breslau</placeName>
-        </place>
-        <place ref="#pmb860" source="https://pmb.acdh.oeaw.ac.at/entity/860/">
-          <placeName>Graz</placeName>
-        </place>
-        <place ref="#pmb145" source="https://pmb.acdh.oeaw.ac.at/entity/145/">
-          <placeName>Köln</placeName>
-        </place>
-        <place ref="#pmb864" source="https://pmb.acdh.oeaw.ac.at/entity/864/">
-          <placeName>Leipzig</placeName>
-        </place>
-        <place ref="#pmb852" source="https://pmb.acdh.oeaw.ac.at/entity/852/">
-          <placeName>Würzburg</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb45530" source="https://pmb.acdh.oeaw.ac.at/entity/45530/">
-          <orgName>Deutsches Schauspielhaus in Hamburg</orgName>
-        </org>
-        <org>
-          <orgName>Kammerspiele Nürnberg</orgName>
-        </org>
-        <org ref="#pmb288834" source="https://pmb.acdh.oeaw.ac.at/entity/288834/">
-          <orgName>Königlich Sächsisches Hoftheater zu Dresden</orgName>
-        </org>
-        <org ref="1231430-4" source="https://d-nb.info/gnd/1231430-4">
-          <orgName>Königliches Deutsches Landestheater Prag</orgName>
-        </org>
-        <org ref="#pmb44112" source="https://pmb.acdh.oeaw.ac.at/entity/44112/">
-          <orgName>Nationaltheater München</orgName>
-        </org>
-        <org ref="#pmb300058" source="https://pmb.acdh.oeaw.ac.at/entity/300058/">
-          <orgName>Neues Theater Frankfurt am Main</orgName>
-        </org>
-        <org ref="7626923-1" source="https://d-nb.info/gnd/7626923-1">
-          <orgName>Residenztheater Wiesbaden</orgName>
-        </org>
-        <org ref="507255-4" source="https://d-nb.info/gnd/507255-4">
-          <orgName>Schauspielhaus Bremen</orgName>
-        </org>
-        <org ref="#pmb57345" source="https://pmb.acdh.oeaw.ac.at/entity/57345/">
-          <orgName>Schauspielhaus Leipzig</orgName>
-        </org>
-        <org ref="10358564-3" source="https://d-nb.info/gnd/10358564-3">
-          <orgName>Städtische Bühnen Graz</orgName>
-        </org>
-        <org ref="#pmb37019" source="https://pmb.acdh.oeaw.ac.at/entity/37019/">
-          <orgName>Thaliatheater Hamburg</orgName>
-        </org>
-        <org ref="#pmb56911" source="https://pmb.acdh.oeaw.ac.at/entity/56911/">
-          <orgName>Vereinigte Stadt-Theater zu Leipzig</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -153,8 +114,9 @@ Beantwortet in: <ref target="10622">1917-10-01 AS (Wien) an SF</ref> (Berlin</no
 Antwort auf: 1917-XX-XX AS (XX) an SF (Berlin) (erschlossen)
 Beantwortet in: <ref target="10622">1917-10-01 AS (Wien) an SF</ref> (Berlin</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0076"/>38y<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0076"/>38y<lb/>
 Fischer. Verlag. Berlin<lb/>
 ###stützow 1662 u. 6162 Theaterabteilung postscheckkonto Nr. 16692<lb/>
 Berlin W 57, Bülowstraße Nr. 90<lb/>
@@ -181,7 +143,8 @@ bereits in unserem Besitz. Wir müssen daher den<lb/>
 Bühnen gegenüber irgendwie Stellung nehmen. Aus<lb/>
 praktischen Gründen wird es undurchführbar sein<lb/>
 den Versuch zu unternehmen, die</p>
-        <p><pb facs="1416743_0077"/>201<lb/>
+        <p>
+          <pb facs="1416743_0077"/>201<lb/>
 in jedem einzelnen Falle bei Ihnen anzufragen<lb/>
 ob wir ein Buch versenden können oder nicht.<lb/>
 Vorläufig senden wir Ihnen in der Anlage eine<lb/>
@@ -193,7 +156,8 @@ S. FISCHL.. VERLAO<lb/>
 THEATERABTEILUNG<lb/>
 les mêmes<lb/>
 den Versuch zu unternehmen, die neue Rank</p>
-        <p><pb facs="1416743_0078"/>Breslau, Hadttheater<lb/>
+        <p>
+          <pb facs="1416743_0078"/>Breslau, Hadttheater<lb/>
 Bremen, franspiellians<lb/>
 Dvesden, Hoftlicater,<lb/>
 Frankfurt Neues Theater<lb/>

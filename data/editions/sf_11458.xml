@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11458">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -119,6 +120,18 @@ Anlage: Karte Ela Steinberg an SF</note>
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb60636">Bournac, Olivier</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb18065">Hella, Alzir</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Schierning, Maria (Übersetzerin, Helsingør)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Steinberg, Ela (Literaturagentin, Prag)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3739">Tolstoi, Lew Nikolajewitsch</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43570">Dänemark</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb863">Düsseldorf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb182">Paris</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11458.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -136,34 +149,6 @@ Anlage: Karte Ela Steinberg an SF</note>
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb60636" source="https://pmb.acdh.oeaw.ac.at/entity/60636/">
-          <persName>Bournac, Olivier</persName>
-        </person>
-        <person ref="#pmb18065" source="https://pmb.acdh.oeaw.ac.at/entity/18065/">
-          <persName>Hella, Alzir</persName>
-        </person>
-        <person>
-          <persName>Schierning, Maria (Übersetzerin, Helsingør)</persName>
-        </person>
-        <person>
-          <persName>Steinberg, Ela (Literaturagentin, Prag)</persName>
-        </person>
-        <person ref="#pmb3739" source="https://pmb.acdh.oeaw.ac.at/entity/3739/">
-          <persName>Tolstoi, Lew Nikolajewitsch</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43570" source="https://pmb.acdh.oeaw.ac.at/entity/43570/">
-          <placeName>Dänemark</placeName>
-        </place>
-        <place ref="#pmb863" source="https://pmb.acdh.oeaw.ac.at/entity/863/">
-          <placeName>Düsseldorf</placeName>
-        </place>
-        <place ref="#pmb182" source="https://pmb.acdh.oeaw.ac.at/entity/182/">
-          <placeName>Paris</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -175,8 +160,9 @@ Anlage: Karte Ela Steinberg an SF</note>
         <p>2 Blatt, 2 Seiten beschrieben
 Anlage: Karte Ela Steinberg an SF</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0077"/>ist keinerlei Zahlung erfolgt.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0077"/>ist keinerlei Zahlung erfolgt.<lb/>
 Und Herr. Rokk Richter?<lb/>
 Für Italien sind (wie Sie ja nach Ihrer<lb/>
 Liste konstatieren können) die meisten meiner<lb/>
@@ -229,7 +215,8 @@ und bitte zugleich mir 3 Exemplare "Einsamer Weg<lb/>
 und 2 Exemplare „Gang zum Weiher“ und 6 Exemplare<lb/>
 „Geist im Wort“ freundlichst zusenden zu lassen;<lb/>
 auch 2 Exemplare "Medardus" und 2 Exemplare "Schwes-</p>
-        <p><pb facs="1416741_0078"/>stern".<lb/>
+        <p>
+          <pb facs="1416741_0078"/>stern".<lb/>
 Für Ihre Liste: „Beate und Ihr Sohn“ ist<lb/>
 in Fortsetzungen, übersetzt von Hella und Bournac<lb/>
 in der "Humanité" erschienen (autorisiert, Buchaus-<lb/>

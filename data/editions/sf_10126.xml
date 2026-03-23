@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10126">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -92,6 +93,11 @@ Beantwortet in: 1903-11-02 AS an SF (Ms. 'Der einsame Weg'; vgl. Tgb 1903-11-03,
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10126.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -102,11 +108,6 @@ Beantwortet in: 1903-11-02 AS an SF (Ms. 'Der einsame Weg'; vgl. Tgb 1903-11-03,
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -120,8 +121,9 @@ Beantwortet in: 1903-11-02 AS an SF (Ms. 'Der einsame Weg'; vgl. Tgb 1903-11-03,
 Antwort auf: 1903-10-07post/1903-10-15ante AS an SF (Konditionen Bühnenvertrieb, v.a. Russland, Neuauflagen früherer Werke; nicht überliefert)
 Beantwortet in: 1903-11-02 AS an SF (Ms. 'Der einsame Weg'; vgl. Tgb 1903-11-03, nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0168"/>101<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0168"/>101<lb/>
 S. FISCHER, VERLAG<lb/>
 BERLIN W., DEN 15. Okt. 1903<lb/>
 (9) Benutzung desse<lb/>
@@ -179,7 +181,8 @@ Den Vertrag für den Bühnenvertrieb werde ich demnächst folgen<lb/>
 lassen.<lb/>
 Der Satz eines Theater-Manuscripts kann, wenn Sie wünschen,<lb/>
 3 Monate und auch noch länger stehen bleiben. Wobei ich freilich</p>
-        <p><pb facs="1416742_0169"/>11/10 63<lb/>
+        <p>
+          <pb facs="1416742_0169"/>11/10 63<lb/>
 an die Benutzung desselben Satzes für Bühnenmanuscript und Buch-<lb/>
 ausgabe denke. Der Satz des Bühnenmanuscripts kann stehen bleiben<lb/>
 nach erfolgter Aufführung und nachdem die Buchausgabe erschienen ist.<lb/>

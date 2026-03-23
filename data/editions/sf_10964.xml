@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10964">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -74,6 +75,13 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11515">Greiner, Leo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23320">Reyding, August</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40709">Amsterdam</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10964.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -81,19 +89,6 @@
           <term>Aufführungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11515" source="https://pmb.acdh.oeaw.ac.at/entity/11515/">
-          <persName>Greiner, Leo</persName>
-        </person>
-        <person ref="#pmb23320" source="https://pmb.acdh.oeaw.ac.at/entity/23320/">
-          <persName>Reyding, August</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb40709" source="https://pmb.acdh.oeaw.ac.at/entity/40709/">
-          <placeName>Amsterdam</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -104,8 +99,9 @@
       <div type="letter">
         <p>1 Blatt, 1 Seite</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0579"/>S·FISCHER/VERLAC’ THEATERABTEILUNG’BERLIN<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0579"/>S·FISCHER/VERLAC’ THEATERABTEILUNG’BERLIN<lb/>
 BUL0WSTR90<lb/>
 en<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>

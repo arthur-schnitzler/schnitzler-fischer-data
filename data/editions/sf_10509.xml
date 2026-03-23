@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,7 +77,8 @@
 Anlage: 1913-05-02 und 1913-05-28 Rechtsgutachten des Syndikus des Deutschen Verlegervereins (nicht überliefert); Information von Paul Neldner (Riga; nicht überliefert); auf 'Reigen' bzgl. Schreiben (nicht überliefert)
 
 Antwort auf: <ref target="10507">1913-06-02 AS an SF</ref>
-Beantwortet in: <ref target="10511">1913-06-20 AS an SF</ref></note>
+Beantwortet in: <ref target="10511">1913-06-20 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1913-06-16.html</note>
       </notesStmt>
@@ -92,6 +94,15 @@ Beantwortet in: <ref target="10511">1913-06-20 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="135572533">Neldner, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12495">Reik, Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb46637">Riga</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10509.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,25 +111,6 @@ Beantwortet in: <ref target="10511">1913-06-20 AS an SF</ref></note>
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="135572533" source="https://d-nb.info/gnd/135572533">
-          <persName>Neldner, Paul</persName>
-        </person>
-        <person ref="#pmb12495" source="https://pmb.acdh.oeaw.ac.at/entity/12495/">
-          <persName>Reik, Theodor</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb46637" source="https://pmb.acdh.oeaw.ac.at/entity/46637/">
-          <placeName>Riga</placeName>
-        </place>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -131,10 +123,12 @@ Beantwortet in: <ref target="10511">1913-06-20 AS an SF</ref></note>
 Anlage: 1913-05-02 und 1913-05-28 Rechtsgutachten des Syndikus des Deutschen Verlegervereins (nicht überliefert); Information von Paul Neldner (Riga; nicht überliefert); auf 'Reigen' bzgl. Schreiben (nicht überliefert)
 
 Antwort auf: <ref target="10507">1913-06-02 AS an SF</ref>
-Beantwortet in: <ref target="10511">1913-06-20 AS an SF</ref></p>
+Beantwortet in: <ref target="10511">1913-06-20 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0642"/>32.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0642"/>32.<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
 16/6. 1913<lb/>
 Herrn Dr. Arthur Schnitsler<lb/>
@@ -161,7 +155,8 @@ aus den Aufführungen in russischer Sprache zu bekommen, in die an-<lb/>
 dern 45 % teilen sich die russische Autorengesellschaft, der Ueber-<lb/>
 setzer und Neldner. Wir würden Ihnen nur denselben Satz wie in<lb/>
 Deutschland für die Einnahmen berechnen. Die deutsch-russische</p>
-        <p><pb facs="1416742_0643"/>Blatt 2<lb/>
+        <p>
+          <pb facs="1416742_0643"/>Blatt 2<lb/>
 FISCHER,VERLAG, BERLIN,<lb/>
 Convention tritt sehr bald in Kraft, bitte lassen Sie mich wissen,<lb/>
 ob Sie uns den Vertrieb Ihrer Bühnenwerke auch für Russland übergeben.<lb/>

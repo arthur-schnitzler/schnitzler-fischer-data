@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10134">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -83,6 +84,12 @@ Beantwortet in: 1903-12-15post/1903-12-21ante AS an SF (Bühnenexemplare 'Der ei
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb35597">Deutsches Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10134.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,16 +98,6 @@ Beantwortet in: 1903-12-15post/1903-12-21ante AS an SF (Bühnenexemplare 'Der ei
           <term>Uraufführung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb35597" source="https://pmb.acdh.oeaw.ac.at/entity/35597/">
-          <orgName>Deutsches Theater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -114,8 +111,9 @@ Beantwortet in: 1903-12-15post/1903-12-21ante AS an SF (Bühnenexemplare 'Der ei
 Antwort auf: 1903-12-07post/1903-12-15ante AS an SF (Bühnenexemplare 'Der einsame Weg', Neuauflage 'Frau Bertha Garlan'; nicht überliefert)
 Beantwortet in: 1903-12-15post/1903-12-21ante AS an SF (Bühnenexemplare 'Der einsame Weg'; nicht überliefert. ehN AS dafür auf vorliegendem Brief)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0177"/>ERLAO<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0177"/>ERLAO<lb/>
 BERLIN W, DEN 15/12.<lb/>
 BÜLOWSTRASSE 90/91.<lb/>
 TELEPHON:<lb/>

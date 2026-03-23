@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10818">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,6 +77,18 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13091">Wenzler, Franz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb854">Basel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb1223">Bern</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb892">Davos</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43435">Schweiz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40655">St. Gallen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44374">St. Moritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb484">Zürich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10818.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -85,34 +98,6 @@
           <term>Vorschuss</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb13091" source="https://pmb.acdh.oeaw.ac.at/entity/13091/">
-          <persName>Wenzler, Franz</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb854" source="https://pmb.acdh.oeaw.ac.at/entity/854/">
-          <placeName>Basel</placeName>
-        </place>
-        <place ref="#pmb1223" source="https://pmb.acdh.oeaw.ac.at/entity/1223/">
-          <placeName>Bern</placeName>
-        </place>
-        <place ref="#pmb892" source="https://pmb.acdh.oeaw.ac.at/entity/892/">
-          <placeName>Davos</placeName>
-        </place>
-        <place ref="#pmb43435" source="https://pmb.acdh.oeaw.ac.at/entity/43435/">
-          <placeName>Schweiz</placeName>
-        </place>
-        <place ref="#pmb40655" source="https://pmb.acdh.oeaw.ac.at/entity/40655/">
-          <placeName>St. Gallen</placeName>
-        </place>
-        <place ref="#pmb44374" source="https://pmb.acdh.oeaw.ac.at/entity/44374/">
-          <placeName>St. Moritz</placeName>
-        </place>
-        <place ref="#pmb484" source="https://pmb.acdh.oeaw.ac.at/entity/484/">
-          <placeName>Zürich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -123,8 +108,9 @@
       <div type="letter">
         <p>1 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0369"/>3. Fischer - Verlag<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0369"/>3. Fischer - Verlag<lb/>
 Berlin<lb/>
 Amt Lüzow 1662 u. 6162 Theaterabteilung postscheckkonto Nr. 16692<lb/>
 Berlin W 57, Bülowstraße Nr. 90<lb/>
@@ -174,7 +160,8 @@ der deutschen wie der französischen nicht mehr zulässt und die<lb/>
 Einreiseerlaubnis all<lb/>
 tigen Ensembles grundsätzlich ver-<lb/>
 Tag noch keine</p>
-        <p><pb facs="1416743_0370"/>1138<lb/>
+        <p>
+          <pb facs="1416743_0370"/>1138<lb/>
 me<lb/>
 rechirte<lb/>
 de Votre<lb/>

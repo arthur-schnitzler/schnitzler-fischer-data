@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10075">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -93,6 +94,12 @@ Beantwortet in: 1898-01-25 AS an SF (Telegramm bzgl. 'Freiwild'; nicht überlief
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11643">Heine, Thomas Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="117176230">Osterrieth, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10075.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -107,14 +114,6 @@ Beantwortet in: 1898-01-25 AS an SF (Telegramm bzgl. 'Freiwild'; nicht überlief
           <term>Rezensionsexemplare</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11643" source="https://pmb.acdh.oeaw.ac.at/entity/11643/">
-          <persName>Heine, Thomas Theodor</persName>
-        </person>
-        <person ref="117176230" source="https://d-nb.info/gnd/117176230">
-          <persName>Osterrieth, Albert</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -128,8 +127,9 @@ Beantwortet in: 1898-01-25 AS an SF (Telegramm bzgl. 'Freiwild'; nicht überlief
 Antwort auf: 1897-12-18post/1898-01-11ante AS an SF (Ms. 'Reigen', Druck 'Anatol' und 'Freiwild'; nicht überliefert)
 Beantwortet in: 1898-01-25 AS an SF (Telegramm bzgl. 'Freiwild'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0084"/>53<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0084"/>53<lb/>
 51<lb/>
 S. FISCHER,VERLAG.<lb/>
 H.<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,7 +71,8 @@
       <notesStmt>
         <note type="description">3 Blatt, 6 Seiten
 Antwort auf: <ref target="10967">1923-01-22 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="10975">1923-02-19 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="10975">1923-02-19 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-01-31.html</note>
       </notesStmt>
@@ -87,6 +89,23 @@ Beantwortet in: <ref target="10975">1923-02-19 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb18065">Hella, Alzir</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11679">Hesse, Hermann</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19016">Kalckar, Marc</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11900">Kellermann, Bernhard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4423">Knopf, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12176">Mann, Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23320">Reyding, August</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5031">Samuel, Horace Barnett</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb92768">Woticky, Edward</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb64465">Norwegen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb745">Skandinavien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10971.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,49 +119,6 @@ Beantwortet in: <ref target="10975">1923-02-19 AS (Wien) an SF (Berlin)</ref></n
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-        <person ref="#pmb18065" source="https://pmb.acdh.oeaw.ac.at/entity/18065/">
-          <persName>Hella, Alzir</persName>
-        </person>
-        <person ref="#pmb11679" source="https://pmb.acdh.oeaw.ac.at/entity/11679/">
-          <persName>Hesse, Hermann</persName>
-        </person>
-        <person ref="#pmb19016" source="https://pmb.acdh.oeaw.ac.at/entity/19016/">
-          <persName>Kalckar, Marc</persName>
-        </person>
-        <person ref="#pmb11900" source="https://pmb.acdh.oeaw.ac.at/entity/11900/">
-          <persName>Kellermann, Bernhard</persName>
-        </person>
-        <person ref="#pmb4423" source="https://pmb.acdh.oeaw.ac.at/entity/4423/">
-          <persName>Knopf, Alfred</persName>
-        </person>
-        <person ref="#pmb12176" source="https://pmb.acdh.oeaw.ac.at/entity/12176/">
-          <persName>Mann, Thomas</persName>
-        </person>
-        <person ref="#pmb23320" source="https://pmb.acdh.oeaw.ac.at/entity/23320/">
-          <persName>Reyding, August</persName>
-        </person>
-        <person ref="#pmb5031" source="https://pmb.acdh.oeaw.ac.at/entity/5031/">
-          <persName>Samuel, Horace Barnett</persName>
-        </person>
-        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
-          <persName>Woticky, Edward</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb64465" source="https://pmb.acdh.oeaw.ac.at/entity/64465/">
-          <placeName>Norwegen</placeName>
-        </place>
-        <place ref="#pmb745" source="https://pmb.acdh.oeaw.ac.at/entity/745/">
-          <placeName>Skandinavien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -153,10 +129,12 @@ Beantwortet in: <ref target="10975">1923-02-19 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>3 Blatt, 6 Seiten
 Antwort auf: <ref target="10967">1923-01-22 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="10975">1923-02-19 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="10975">1923-02-19 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0586"/>scher/Verlag/Berlin M 57/Bülowstrasse 9o.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0586"/>scher/Verlag/Berlin M 57/Bülowstrasse 9o.<lb/>
 Düsse: Amt Lützow Nr. 1662. 6162 und 9292 / Postscheckkonto: Berlin Nr.)<lb/>
 THEATERABTEILUNG<lb/>
 Berlin, den 31. Januar 1923<lb/>
@@ -203,7 +181,8 @@ ist<lb/>
 der bestehenden internation<lb/>
 etz—<lb/>
 bedauerlich, unmöglich</p>
-        <p><pb facs="1416743_0587"/>Der / Verlag / Berlin W 57/Bülow<lb/>
+        <p>
+          <pb facs="1416743_0587"/>Der / Verlag / Berlin W 57/Bülow<lb/>
 Amt Lützow Nr. 1669. 6162 und 9292 / Postscheckkonto: Berlin Nr 1669<lb/>
 THEATERABTEILUNG<lb/>
 Berlin, den 31. Januar 1923<lb/>
@@ -245,7 +224,8 @@ ist<lb/>
 der bestehenden internationalen<lb/>
 unmöglich.<lb/>
 bedauerlich.</p>
-        <p><pb facs="1416743_0588"/>2.3.<lb/>
+        <p>
+          <pb facs="1416743_0588"/>2.3.<lb/>
 ###nachsassen ###<lb/>
 0 W0 UJISTASSTAIH<lb/>
 gutem Gewissen sagen, dass ich in jener Sache alle irgend ver-<lb/>
@@ -275,7 +255,8 @@ bei irgend einem<lb/>
 Provisionssätze weit billiger gearbeitet wir<lb/>
 anderen mir bekannten deutschen<lb/>
 er nie</p>
-        <p><pb facs="1416743_0589"/>licher / Verlag/Berlin W 57/Bülle.<lb/>
+        <p>
+          <pb facs="1416743_0589"/>licher / Verlag/Berlin W 57/Bülle.<lb/>
 ###e: Amt Lützow Nr. 1662. 6162 und 9292 / Postscheckkonto: Berlin Nrl. 1665<lb/>
 THEATERABTEILUNG<lb/>
 G.H.F.P.<lb/>
@@ -303,7 +284,8 @@ freundliche Zukunftsmöglichkeit in<lb/>
 anbetrifft<lb/>
 haben. Was die übrigen laufenden<lb/>
 möchte ich der</p>
-        <p><pb facs="1416743_0590"/>1<lb/>
+        <p>
+          <pb facs="1416743_0590"/>1<lb/>
 reich nur vermildenden<lb/>
 Décembre<lb/>
 OMUUISTHASSTAHT.<lb/>
@@ -334,7 +316,8 @@ aber, sehr vereh<lb/>
 Sack<lb/>
 tighin in seiner<lb/>
 Mitzky mitt</p>
-        <p><pb facs="1416743_0591"/>scher/Verlag/Berlin W 57/Bülowstraße 9o.<lb/>
+        <p>
+          <pb facs="1416743_0591"/>scher/Verlag/Berlin W 57/Bülowstraße 9o.<lb/>
 schlüsse: Amt Lützow Nr. 1662. 6162 und 9292 / Postscheckkonto: Berlin<lb/>
 THEATERABTEILUNG<lb/>
 III.<lb/>

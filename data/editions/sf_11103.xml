@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -53,7 +54,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Antwort auf: <ref target="11102">1924-07-21 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="11102">1924-07-21 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-07-23.html</note>
       </notesStmt>
@@ -69,6 +71,13 @@ Antwort auf: <ref target="11102">1924-07-21 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10844">Bassermann, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11891">Kayser, Rudolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb300058">Neues Theater Frankfurt am Main</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11103.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -81,19 +90,6 @@ Antwort auf: <ref target="11102">1924-07-21 AS (Wien) an SF (Berlin)</ref></note
           <term>Novelle</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10844" source="https://pmb.acdh.oeaw.ac.at/entity/10844/">
-          <persName>Bassermann, Albert</persName>
-        </person>
-        <person ref="#pmb11891" source="https://pmb.acdh.oeaw.ac.at/entity/11891/">
-          <persName>Kayser, Rudolf</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="#pmb300058" source="https://pmb.acdh.oeaw.ac.at/entity/300058/">
-          <orgName>Neues Theater Frankfurt am Main</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -103,10 +99,12 @@ Antwort auf: <ref target="11102">1924-07-21 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Antwort auf: <ref target="11102">1924-07-21 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="11102">1924-07-21 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0758"/>Fischer / Verlag / A.=G. Berlin W 52.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0758"/>Fischer / Verlag / A.=G. Berlin W 52.<lb/>
 Lankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto. Berlin Nr. 16<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 6162 bis 616.<lb/>
 Alowstraße 90<lb/>

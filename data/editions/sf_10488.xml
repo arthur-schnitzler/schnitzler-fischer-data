@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10488">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -84,6 +85,16 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="107348842X">Hennings, Henrik</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb36300">Kopenhagen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="10139779-3">Dagmarteatret Kopenhagen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="1215174-9">Det Kongelige Teater Kopenhagen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45530">Deutsches Schauspielhaus in Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10488.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,30 +102,6 @@
           <term>Garantiesumme</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="107348842X" source="https://d-nb.info/gnd/107348842X">
-          <persName>Hennings, Henrik</persName>
-        </person>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb36300" source="https://pmb.acdh.oeaw.ac.at/entity/36300/">
-          <placeName>Kopenhagen</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="10139779-3" source="https://d-nb.info/gnd/10139779-3">
-          <orgName>Dagmarteatret Kopenhagen</orgName>
-        </org>
-        <org ref="1215174-9" source="https://d-nb.info/gnd/1215174-9">
-          <orgName>Det Kongelige Teater Kopenhagen</orgName>
-        </org>
-        <org ref="#pmb45530" source="https://pmb.acdh.oeaw.ac.at/entity/45530/">
-          <orgName>Deutsches Schauspielhaus in Hamburg</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -125,8 +112,9 @@
       <div type="letter">
         <p>1 Blatt, 2 Seiten beschrieben</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0615"/>luin<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0615"/>luin<lb/>
 S'FISCHER/VERLAG/BERLIN'THEATERABTEILUNG<lb/>
 W 57. BÜLÖWSTR90<lb/>
 AMT: LUTZÖW 1662 &amp; 6162<lb/>
@@ -151,7 +139,8 @@ r Stænrik Hennings. Charlotten-<lb/>
 In Kopenhagen<lb/>
 lund, Auch von der Studentenvorstellung wissen<lb/>
 wir. Diese darf jedoch nur stattfinden, wenn</p>
-        <p><pb facs="1416742_0616"/>en<lb/>
+        <p>
+          <pb facs="1416742_0616"/>en<lb/>
 sich ein Theater, entweder das Dagwartheater<lb/>
 oder das Königliche Theater, zur Annahme des<lb/>
 Verkes bereit erklärt hat und auch seiner-<lb/>

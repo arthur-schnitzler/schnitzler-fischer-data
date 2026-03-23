@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -85,7 +86,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
 Antwort auf: <ref target="11342">1927-10-13 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11347">1927-10-24 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11347">1927-10-24 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1927-10-17.html</note>
       </notesStmt>
@@ -101,6 +103,11 @@ Beantwortet in: <ref target="11347">1927-10-24 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4455">Zsolnay, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11343.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -118,11 +125,6 @@ Beantwortet in: <ref target="11347">1927-10-24 SF (Berlin) an AS (Wien)</ref></n
           <term>Vorschuss</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4455" source="https://pmb.acdh.oeaw.ac.at/entity/4455/">
-          <persName>Zsolnay, Paul</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -133,10 +135,12 @@ Beantwortet in: <ref target="11347">1927-10-24 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>2 Blatt, 2 Seiten
 Antwort auf: <ref target="11342">1927-10-13 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11347">1927-10-24 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11347">1927-10-24 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0132"/>Berlin<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0132"/>Berlin<lb/>
 17.10.1927.<lb/>
 Fischer<lb/>
 anwabendes bei<lb/>
@@ -189,7 +193,8 @@ trierten 20 Auflagen. Wie ist nun<lb/>
 nungsverhältnis im Freis des broschierten<lb/>
 und des gebundenen Exemplars? Ferner in<lb/>
 ehen Verhältnis gedenken Sie broschierte</p>
-        <p><pb facs="1416740_0133"/>und gebundene herzustellen?<lb/>
+        <p>
+          <pb facs="1416740_0133"/>und gebundene herzustellen?<lb/>
 Bald hören sie mehr von mir, für heute<lb/>
 nur noch herzliche Grüsse.<lb/>
 Ihr<lb/>

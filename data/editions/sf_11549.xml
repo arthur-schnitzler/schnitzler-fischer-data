@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -53,7 +54,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Seite, 1 Blatt
-Antwort auf: <ref target="11532">1930-01-24 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11532">1930-01-24 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1930-02-26.html</note>
       </notesStmt>
@@ -70,16 +72,14 @@ Antwort auf: <ref target="11532">1930-01-24 SF (Berlin) an AS (Wien)</ref></note
           <persName type="coworker">Kayser, Rudolf</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2404">Hebbel, Friedrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11740">Hofmannsthal, Hugo von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11549.xml"/>
+        </note>
       </correspDesc>
       <textClass/>
-      <listPerson>
-        <person ref="#pmb2404" source="https://pmb.acdh.oeaw.ac.at/entity/2404/">
-          <persName>Hebbel, Friedrich</persName>
-        </person>
-        <person ref="#pmb11740" source="https://pmb.acdh.oeaw.ac.at/entity/11740/">
-          <persName>Hofmannsthal, Hugo von</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -89,10 +89,12 @@ Antwort auf: <ref target="11532">1930-01-24 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>1 Seite, 1 Blatt
-Antwort auf: <ref target="11532">1930-01-24 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11532">1930-01-24 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0117"/>L. Tischer<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0117"/>L. Tischer<lb/>
 26.2.1930.<lb/>
 Verehrter Herr Doktor Kayser.<lb/>
 Ich hatte nicht den Wunsch ausgedrückt<lb/>

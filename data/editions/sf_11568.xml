@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,6 +77,13 @@ Anlage: Aufstellung der Einnahmen für "Professor Bernhardi" im Theater in der K
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8396">Körner, Josef</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="7659602-3">Hebbeltheater (Theater in der Königgrätzer Straße) Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11568.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -84,19 +92,6 @@ Anlage: Aufstellung der Einnahmen für "Professor Bernhardi" im Theater in der K
           <term>Inszenierung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb8396" source="https://pmb.acdh.oeaw.ac.at/entity/8396/">
-          <persName>Körner, Josef</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="7659602-3" source="https://d-nb.info/gnd/7659602-3">
-          <orgName>Hebbeltheater (Theater in der Königgrätzer Straße) Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -109,8 +104,9 @@ Anlage: Aufstellung der Einnahmen für "Professor Bernhardi" im Theater in der K
 Antwort auf: <ref target="11565">1930-04-14 AS (Wien) an SF (Berlin)</ref>
 Anlage: Aufstellung der Einnahmen für "Professor Bernhardi" im Theater in der Königgrätzstraße vom 1931-04-23, 4 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416744_0034"/>968<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416744_0034"/>968<lb/>
 Bau<lb/>
 BERLIN W 57<lb/>
 FISCHER VERLAG A.=G.<lb/>
@@ -155,7 +151,8 @@ b.w.<lb/>
 10....<lb/>
 men.<lb/>
 Vorräfe</p>
-        <p><pb facs="1416744_0035"/>naa<lb/>
+        <p>
+          <pb facs="1416744_0035"/>naa<lb/>
 Verleger.<lb/>
 M1L1undi. D-A-ÀJ-ÏW, r2H3R1/2<lb/>
 nisten että oli tämärä tähän.<lb/>

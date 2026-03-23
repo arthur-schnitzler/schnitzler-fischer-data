@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10160">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -82,20 +83,18 @@ zwischenzeitliche persönliche Treffen in Berlin/Grunewald anlässlich Premiere 
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10160.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Honorar</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -108,8 +107,9 @@ zwischenzeitliche persönliche Treffen in Berlin/Grunewald anlässlich Premiere 
 
 zwischenzeitliche persönliche Treffen in Berlin/Grunewald anlässlich Premiere 'Zwischenspiel' (Tgb 1905-11-22, 1905-11-24)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0232"/>132<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0232"/>132<lb/>
 S. FISCHER,VERLAG, BERLIN W., BÜLowSTR. 91<lb/>
 BERene W., DEN...2». Dez. 05<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -130,7 +130,8 @@ Ihnen gewünschten Correcturen enthalten werden.<lb/>
 Der Theaterbericht mit den Kritiken aus<lb/>
 Berlin und Wien gelangt heute an die Bühnen<lb/>
 zur Versendung. Bis jetzt hat noch keine Bühne</p>
-        <p><pb facs="1416742_0233"/>etwas von sich hören lassen, und ich fürchte<lb/>
+        <p>
+          <pb facs="1416742_0233"/>etwas von sich hören lassen, und ich fürchte<lb/>
 fast, dass die Provinzbühnen schwer anbeis-<lb/>
 zegr<lb/>
 sen werden.<lb/>

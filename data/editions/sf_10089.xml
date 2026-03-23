@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10089">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -83,6 +84,12 @@ Beantwortet in: 1899-08-30post/1899-10-13ante AS an SF (Drucklegung 'Reigen'; ni
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10089.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -93,14 +100,6 @@ Beantwortet in: 1899-08-30post/1899-10-13ante AS an SF (Drucklegung 'Reigen'; ni
           <term>Rechtsanwalt</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -114,8 +113,9 @@ Beantwortet in: 1899-08-30post/1899-10-13ante AS an SF (Drucklegung 'Reigen'; ni
 keine zwischenzeitliche Korrespondenz zu erschließen, persönliches Treffen in Igls (Tgb 1899-08-14)
 Beantwortet in: 1899-08-30post/1899-10-13ante AS an SF (Drucklegung 'Reigen'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0102"/>64<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0102"/>64<lb/>
 S. FISCHER. VERLAG<lb/>
 BERLIN W., DEN 30. August 1899<lb/>
 TELEPHON: AMT VI, No. 1662.<lb/>
@@ -166,7 +166,8 @@ kung „Als Manuscript gedruckt.“ versehen. Da dort jedes Produkt der<lb/>
 Druckerpresse obligatorisch der Censur eingereicht werden muss, so<lb/>
 sind Sie, im Falle das Buch die Censur passiert, unbedingt ausser<lb/>
 Obligo. In sexuellen Dingen herrscht in Oesterreich ein grösseres</p>
-        <p><pb facs="1416742_0103"/>30/8<lb/>
+        <p>
+          <pb facs="1416742_0103"/>30/8<lb/>
 Maass von liberalität wie bei uns und es ist durchaus nicht unmöglich.<lb/>
 dass das Buch die Censur unbeanstandet passiert. Von Oesterreich aus<lb/>
 könnten Sie das Buch an Ihre Freunde ruhig versenden. Sie sind Oester¬<lb/>

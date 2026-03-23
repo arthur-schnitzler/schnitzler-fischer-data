@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10500">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -81,21 +82,15 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2959">Lantz, Adolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45530">Deutsches Schauspielhaus in Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="7590354-4">Lessing-Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10500.xml"/>
+        </note>
       </correspDesc>
       <textClass/>
-      <listPerson>
-        <person ref="#pmb2959" source="https://pmb.acdh.oeaw.ac.at/entity/2959/">
-          <persName>Lantz, Adolf</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="#pmb45530" source="https://pmb.acdh.oeaw.ac.at/entity/45530/">
-          <orgName>Deutsches Schauspielhaus in Hamburg</orgName>
-        </org>
-        <org ref="7590354-4" source="https://d-nb.info/gnd/7590354-4">
-          <orgName>Lessing-Theater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -106,8 +101,9 @@
       <div type="letter">
         <p>1 Blatt, 2 Seiten beschrieben</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0631"/>321<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0631"/>321<lb/>
 SCHER/VERLAG’BERLIN’ THEATERABTE<lb/>
 S.<lb/>
 W57-BÜLÖWSTR.90<lb/>
@@ -130,7 +126,8 @@ sprachen ihm, da wir selbst die Originalab-<lb/>
 rechnungen nicht haben, diese Angaben von<lb/>
 Ihnen zu erlangen.<lb/>
 Nun sind wir aber der Meinung, dass die</p>
-        <p><pb facs="1416742_0632"/>Tantiemenbeträge bei den letzten Aufführungen<lb/>
+        <p>
+          <pb facs="1416742_0632"/>Tantiemenbeträge bei den letzten Aufführungen<lb/>
 nicht sonderlich hoch gewesen sein können, da<lb/>
 die Durchschnittseinnahmen des lessingtheaters<lb/>
 überhaupt ziemlich nachgelassen haben. Vielleicht<lb/>

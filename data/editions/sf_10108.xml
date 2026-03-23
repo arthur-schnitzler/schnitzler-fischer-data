@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10108">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -83,6 +84,14 @@ Beantwortet in: 1900-12-18post/1900-12-28ante AS an SF (Druck 'Beatrice'; nicht 
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb28645">Coschell, Moritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11740">Hofmannsthal, Hugo von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13055">Wassermann, Jakob</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10108.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -94,22 +103,6 @@ Beantwortet in: 1900-12-18post/1900-12-28ante AS an SF (Druck 'Beatrice'; nicht 
           <term>Vorlesung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb28645" source="https://pmb.acdh.oeaw.ac.at/entity/28645/">
-          <persName>Coschell, Moritz</persName>
-        </person>
-        <person ref="#pmb11740" source="https://pmb.acdh.oeaw.ac.at/entity/11740/">
-          <persName>Hofmannsthal, Hugo von</persName>
-        </person>
-        <person ref="#pmb13055" source="https://pmb.acdh.oeaw.ac.at/entity/13055/">
-          <persName>Wassermann, Jakob</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -123,8 +116,9 @@ Beantwortet in: 1900-12-18post/1900-12-28ante AS an SF (Druck 'Beatrice'; nicht 
 Antwort auf: 1900-12-14post/1900-12-18ante AS an SF (Druck 'Beatrice', Vorlesung AS in Berlin; nicht überliefert, wohl Telegramm)
 Beantwortet in: 1900-12-18post/1900-12-28ante AS an SF (Druck 'Beatrice'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0138"/>83<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0138"/>83<lb/>
 VERLAG<lb/>
 S. FISCHER,<lb/>
 einem Honorar<lb/>
@@ -163,7 +157,8 @@ lesung doch noch, wie ursprünglich projectirt, am 17. Januar abzuhal-<lb/>
 ten. Die Herren legen auf den Wiener Abend grosses Gewicht und ver¬<lb/>
 sprechen sich davon sehr viel Erfolg. Ich meinerseits kann diesen Wunsch<lb/>
 nur unterstützen und Sie bitten, mit den Herren Hofmannsthal und Wasser</p>
-        <p><pb facs="1416742_0139"/>hier<lb/>
+        <p>
+          <pb facs="1416742_0139"/>hier<lb/>
 mann noch einmal darüber zu sprechen. Sie haben ja nach einem Honorar<lb/>
 garnicht gefragt, ich nehme also an, dass Sie den im Interesse der<lb/>
 Unterstützungskasse veranstalteten Vorträgen Ihre Kraft ohne Entschä-<lb/>

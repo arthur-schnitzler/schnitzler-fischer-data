@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -85,6 +86,11 @@ Antwort auf: 1918-XX-XX SF (XX) an AS (Wien) (erschlossen)</note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10683.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -97,11 +103,6 @@ Antwort auf: 1918-XX-XX SF (XX) an AS (Wien) (erschlossen)</note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -113,8 +114,9 @@ Antwort auf: 1918-XX-XX SF (XX) an AS (Wien) (erschlossen)</note>
         <p>2 Blatt, 4 Seiten
 Antwort auf: 1918-XX-XX SF (XX) an AS (Wien) (erschlossen)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0077"/>30.12.1918.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0077"/>30.12.1918.<lb/>
 Et sché<lb/>
 P.S.<lb/>
 Lieber Freund.<lb/>
@@ -136,7 +138,8 @@ Die 47. und 48. Auflage xxx resp. das Verlags-<lb/>
 recht hiefür ist im Besitze des Herrn Harz,er<lb/>
 hat einen vorschuss auf das Honorar und all-<lb/>
 mählich das ganze unter der voraussetzung</p>
-        <p><pb facs="1416739_0078"/>eines La enpreises gezahlt, der in der Folge<lb/>
+        <p>
+          <pb facs="1416739_0078"/>eines La enpreises gezahlt, der in der Folge<lb/>
 nicht eingehalten worden durfte. Ob diese<lb/>
 Auflagen überhaupt existieren ist mir nicht<lb/>
 bekannt. Jedenfalls habe ich mir ein Er<lb/>
@@ -179,7 +182,8 @@ so wäre ich natürlich bereit im Falle sie<lb/>
 noch nicht gedruckt sein sollten, das Honorar<lb/>
 an Herrn Harz zurückzuzahlen;falls die Bücher<lb/>
 schon vorhanden wären, könnten Sie wohl von</p>
-        <p><pb facs="1416739_0079"/>P.<lb/>
+        <p>
+          <pb facs="1416739_0079"/>P.<lb/>
 dem neuen Verleger übernommen werden. Hinzu-<lb/>
 fügen möchte ich noch - wenn das auch bei dem<lb/>
 heutigen Stahd der Dinge xxxx bedeutungslos<lb/>
@@ -218,7 +222,8 @@ restierenden Exemplare zum Buchhändlerpreise<lb/>
 übernimmt, weiter überlassen kann. Ueberdies<lb/>
 habe ich mir kontraktlich das weitestgehende<lb/>
 Kontrollrecht gesichert.</p>
-        <p><pb facs="1416739_0080"/>Indess gehen immer weitere Anfragen<lb/>
+        <p>
+          <pb facs="1416739_0080"/>Indess gehen immer weitere Anfragen<lb/>
 zu telegraphieren wusste. Von den xxxigxx Auf-<lb/>
 und Anbote betreffs einer Aufführung des mei¬<lb/>
 führungen - des „Reigen“ in Russland habe ich ih-<lb/>

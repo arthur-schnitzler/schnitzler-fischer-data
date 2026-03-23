@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,7 +77,8 @@
       <notesStmt>
         <note type="description">3 Blatt, 3 Seiten
 Antwort auf: <ref target="10652">1918-04-05 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="10654">1918-04-17 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="10654">1918-04-17 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1918-04-10.html</note>
       </notesStmt>
@@ -92,6 +94,15 @@ Beantwortet in: <ref target="10654">1918-04-17 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb22886">Prinzhorn, Ernst</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5156">Zifferer, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10653.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -105,25 +116,6 @@ Beantwortet in: <ref target="10654">1918-04-17 AS (Wien) an SF (Berlin)</ref></n
           <term>österreichisch</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-        <person ref="#pmb22886" source="https://pmb.acdh.oeaw.ac.at/entity/22886/">
-          <persName>Prinzhorn, Ernst</persName>
-        </person>
-        <person ref="#pmb5156" source="https://pmb.acdh.oeaw.ac.at/entity/5156/">
-          <persName>Zifferer, Paul</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -134,10 +126,12 @@ Beantwortet in: <ref target="10654">1918-04-17 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>3 Blatt, 3 Seiten
 Antwort auf: <ref target="10652">1918-04-05 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="10654">1918-04-17 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="10654">1918-04-17 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0115"/>zes<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0115"/>zes<lb/>
 S. FISCHER / VerLAG<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse, P Berlin, Postscheckkonto. Berlin 16 j^2<lb/>
 BERLIN W 57, BÜLÖWSTRASSE 90<lb/>
@@ -168,7 +162,8 @@ werden. Diese Bemerkung stand in meinem Brief, der an Zifferer, be-<lb/>
 ziehungsweise an die Adresse Prinzhorns gerichtet war. Eine perzen-<lb/>
 tuelle Verteilung des Papiers war im Verhältnis zum Verbrauch des<lb/>
 vorigen Jahrs für die einzelnen Autoren zu verstehen, das regelt sich</p>
-        <p><pb facs="1416743_0116"/>S. FISCHER / VerLAG<lb/>
+        <p>
+          <pb facs="1416743_0116"/>S. FISCHER / VerLAG<lb/>
 2. Blatt<lb/>
 durch die Tatsache des Bedarfs von Neuauflagen und Neudrucken von<lb/>
 selbst.<lb/>
@@ -198,7 +193,8 @@ Kriegswirtschaftsstelle darüber befragen wird, und ich brauche nicht zu<lb/>
 sagen, dass ich meinerseits alles tun werde, um Ihren Antrag gegebe-<lb/>
 nenfalls zu unterstützen.<lb/>
 Ich bin selbstverständlich jederzeit bereit, nach Wien zu kommen,</p>
-        <p><pb facs="1416743_0117"/>S. FISCHER / VerLAG<lb/>
+        <p>
+          <pb facs="1416743_0117"/>S. FISCHER / VerLAG<lb/>
 Blatt<lb/>
 wenn sich die Möglichkeit der Papierbeschaffung ergibt. Wenn die<lb/>
 österreichischen Autoren Herrn Prinzhorn die Erklärung abgeben, dass<lb/>

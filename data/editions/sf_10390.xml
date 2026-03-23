@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10390">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,20 +80,18 @@ Die Datierung auf 1911-07-27 ist auch deshalb ganz unwahrscheinlich, weil SF und
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11941">Klimt, Gustav</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb117167">Windhager, Franz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10390.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Buchillustration</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11941" source="https://pmb.acdh.oeaw.ac.at/entity/11941/">
-          <persName>Klimt, Gustav</persName>
-        </person>
-        <person ref="#pmb117167" source="https://pmb.acdh.oeaw.ac.at/entity/117167/">
-          <persName>Windhager, Franz</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -107,8 +106,9 @@ Der Brief ist ziemlich sicher falsch datiert, richtig wäre wohl "27. Juni 1911"
 
 Die Datierung auf 1911-07-27 ist auch deshalb ganz unwahrscheinlich, weil SF und AS an diesem Tag an Schnitzles Urlaubsort St. Gilgen zusammengetroffen sind (Tgb 1911-07-27).</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0501"/>21<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0501"/>21<lb/>
 "<lb/>
 253<lb/>
 S. FISCHER, VERLAG,’ BERLIN W., BÜLowSTR. 90<lb/>

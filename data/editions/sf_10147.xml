@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10147">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -86,6 +87,13 @@ Beantwortet in: 1904-08-29post/1904-09-03ante AS an SF (Copyright USA; nicht üb
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20466">Lindemann, Gustav</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb47927">Washington</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10147.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -97,19 +105,6 @@ Beantwortet in: 1904-08-29post/1904-09-03ante AS an SF (Copyright USA; nicht üb
           <term>Urheberrecht/Copyright</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb20466" source="https://pmb.acdh.oeaw.ac.at/entity/20466/">
-          <persName>Lindemann, Gustav</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb47927" source="https://pmb.acdh.oeaw.ac.at/entity/47927/">
-          <placeName>Washington</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -123,8 +118,9 @@ Beantwortet in: 1904-08-29post/1904-09-03ante AS an SF (Copyright USA; nicht üb
 Antwort auf: 1904-08-20post/1904-08-29ante AS an SF (Lindemann, Aufführung 'Einsamer Weg' in Amerika; nicht überliefert)
 Beantwortet in: 1904-08-29post/1904-09-03ante AS an SF (Copyright USA; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0191"/>SCHER<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0191"/>SCHER<lb/>
 VERLAC<lb/>
 BERene W., DEN 29/8. 1904<lb/>
 TELEPHON:<lb/>
@@ -169,7 +165,8 @@ worden. Sollten Sie von einer unbefugten Aufführung Nachricht bekom-<lb/>
 men, so werde ich dagegen Einspruch erheben. Ich würde Sie bitten,<lb/>
 wenn es aus der Notiz in der mZeit hervorgeht, mir mitzuteilen, von<lb/>
 li</p>
-        <p><pb facs="1416742_0192"/>116<lb/>
+        <p>
+          <pb facs="1416742_0192"/>116<lb/>
 FISCHER<lb/>
 VERLAG<lb/>
 19<lb/>

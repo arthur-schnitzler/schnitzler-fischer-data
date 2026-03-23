@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -87,7 +88,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">3 Blatt, 6 Seiten
-Antwort auf: <ref target="10827">1921-06-01 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="10827">1921-06-01 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1921-06-09.html</note>
       </notesStmt>
@@ -103,6 +105,17 @@ Antwort auf: <ref target="10827">1921-06-01 SF (Berlin) an AS (Wien)</ref></note
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10836">Bartsch, Rudolf Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11981">Kramer, Leopold</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb22388">Paukner, Grete</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb24825">Seltzer, Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10830.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -120,31 +133,6 @@ Antwort auf: <ref target="10827">1921-06-01 SF (Berlin) an AS (Wien)</ref></note
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
-          <persName>Bartsch, Rudolf Hans</persName>
-        </person>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb11981" source="https://pmb.acdh.oeaw.ac.at/entity/11981/">
-          <persName>Kramer, Leopold</persName>
-        </person>
-        <person ref="#pmb22388" source="https://pmb.acdh.oeaw.ac.at/entity/22388/">
-          <persName>Paukner, Grete</persName>
-        </person>
-        <person ref="#pmb24825" source="https://pmb.acdh.oeaw.ac.at/entity/24825/">
-          <persName>Seltzer, Thomas</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -154,10 +142,12 @@ Antwort auf: <ref target="10827">1921-06-01 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>3 Blatt, 6 Seiten
-Antwort auf: <ref target="10827">1921-06-01 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="10827">1921-06-01 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0186"/>Fällen ein Termin bestimt<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0186"/>Fällen ein Termin bestimt<lb/>
 immer in solche<lb/>
 wer en, zu dem die Rechte wieder an uns zu<lb/>
 fallen.<lb/>
@@ -197,7 +187,8 @@ u.a. heisst:<lb/>
 Für die 49-63. Aufl.gelten die<lb/>
 gleichen perzentuellen Bedingungen, wie sie<lb/>
 im Vertragsbrief vom 16. Jänner 1919 abge-</p>
-        <p><pb facs="1416739_0187"/>maht wurden; es gelten durchaus die Bestim-<lb/>
+        <p>
+          <pb facs="1416739_0187"/>maht wurden; es gelten durchaus die Bestim-<lb/>
 mungen des Vertragsbriefes vom 16. Jänauar 19<lb/>
 murdass für 49.-68. Aufl 69.-73 einzusetzen<lb/>
 Ich erklärte mich in diesem Brief fer-<lb/>
@@ -282,7 +273,8 @@ Ausgabe (schon mit Rücksicht darauf, dass die<lb/>
 Gesammtausgabe ja nur gebunden in den Handel<lb/>
 kommt) wegen des Honorarsatzes gewisse Abma¬<lb/>
 chungen treffen sollten, die das Verhältnis</p>
-        <p><pb facs="1416739_0188"/>9/6.45<lb/>
+        <p>
+          <pb facs="1416739_0188"/>9/6.45<lb/>
 richtig stellen? Und nun noch eine Frage<lb/>
 begreiflicherweise ganz unverbindlich, die<lb/>
 lem aber müssteman an Boni &amp; Liveright d'<lb/>
@@ -362,7 +354,8 @@ Alles das scheint mir so vage, dass man gar<lb/>
 ich ganz dilatorisch geantwortet. Die Herren<lb/>
 nicht recht darüber dickutieren kann. Vor<lb/>
 Boni &amp; [L]iveright müsste man mindestens wissen</p>
-        <p><pb facs="1416739_0189"/>lassen, dass man sich für eine geringfügige<lb/>
+        <p>
+          <pb facs="1416739_0189"/>lassen, dass man sich für eine geringfügige<lb/>
 Summe unter keiner Bedingung zu binden ge-<lb/>
 denkt und ihn geradeheraus fragen, war die<lb/>
 Leute sind., die in Amerika für den Verkauf<lb/>
@@ -426,7 +419,8 @@ vier Jahreszeiten treffen. Am 28. denke ich<lb/>
 wieder in Wien zu sein.<lb/>
 Mit herzlichem Gruss<lb/>
 Ihr</p>
-        <p><pb facs="1416739_0190"/>Läänistä<lb/>
+        <p>
+          <pb facs="1416739_0190"/>Läänistä<lb/>
 ...<lb/>
 Fait P.<lb/>
 G &amp; P4<lb/>
@@ -607,7 +601,8 @@ On<lb/>
 Prillakt.<lb/>
 «* w<lb/>
 â¢ à w, w, &amp; w,</p>
-        <p><pb facs="1416739_0191"/>0 à 4 a 2,2,2 s. p. a.<lb/>
+        <p>
+          <pb facs="1416739_0191"/>0 à 4 a 2,2,2 s. p. a.<lb/>
 Hämeen ja Oulun lääneissä sekä se<lb/>
 † ̃ —<lb/>
 O H<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -66,7 +67,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten
-Beantwortet in: <ref target="10842">1921-08-09 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10842">1921-08-09 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1921-08-08.html</note>
       </notesStmt>
@@ -82,6 +84,15 @@ Beantwortet in: <ref target="10842">1921-08-09 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1064903746">Demetz, Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2874">Eirich, Oskar Friedrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb15764">Eirich, Otto</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3105">Karczag, Wilhelm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11981">Kramer, Leopold</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10840.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -90,23 +101,6 @@ Beantwortet in: <ref target="10842">1921-08-09 SF (Berlin) an AS (Wien)</ref></n
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="1064903746" source="https://d-nb.info/gnd/1064903746">
-          <persName>Demetz, Hans</persName>
-        </person>
-        <person ref="#pmb2874" source="https://pmb.acdh.oeaw.ac.at/entity/2874/">
-          <persName>Eirich, Oskar Friedrich</persName>
-        </person>
-        <person ref="#pmb15764" source="https://pmb.acdh.oeaw.ac.at/entity/15764/">
-          <persName>Eirich, Otto</persName>
-        </person>
-        <person ref="#pmb3105" source="https://pmb.acdh.oeaw.ac.at/entity/3105/">
-          <persName>Karczag, Wilhelm</persName>
-        </person>
-        <person ref="#pmb11981" source="https://pmb.acdh.oeaw.ac.at/entity/11981/">
-          <persName>Kramer, Leopold</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -116,10 +110,12 @@ Beantwortet in: <ref target="10842">1921-08-09 SF (Berlin) an AS (Wien)</ref></n
     <body>
       <div type="letter">
         <p>2 Blatt, 3 Seiten
-Beantwortet in: <ref target="10842">1921-08-09 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10842">1921-08-09 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0196"/>auch aus sämtlichen Kritiken hervorgeht, bejammernawürdig<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0196"/>auch aus sämtlichen Kritiken hervorgeht, bejammernawürdig<lb/>
 schlecht gespielt worden.<lb/>
 6. Die Theatervertriebssumme für das zweite<lb/>
 Quartal bitte an mein Honto Daulache Bank, Berlin, Depositen<lb/>
@@ -180,7 +176,8 @@ zu den von mir gewünschten Besiegungen abgeschlossen.<lb/>
 Nun habe ich knapp vor meiner Abreise FrlöHers pro<lb/>
 beweise fur Italien und Spanien auf eine ganz be<lb/>
 schränkte Zeit den Vertrieb einiger meiner Stücke</p>
-        <p><pb facs="1416739_0197"/>Überlassen, die Liste habe ich nicht zur Hand, Sie er<lb/>
+        <p>
+          <pb facs="1416739_0197"/>Überlassen, die Liste habe ich nicht zur Hand, Sie er<lb/>
 halten Sie demnächst. Von der Schweiz war zwischen<lb/>
 mir und FrlöHerz überhaupt nicht die Rede, vielmehr<lb/>
 ich habe es ausdrücklich abgelehnt den Verlag Karesag<lb/>
@@ -261,7 +258,8 @@ nung am Quartalschluss wegfallen könnte' Auch aus Valu<lb/>
 tagründen schiene es mir sowohl in Ihrem als in meinem<lb/>
 Interesse am richtigsten.<lb/>
 Ich sende hier eine Notiz ein, die Sie interes</p>
-        <p><pb facs="1416739_0198"/>26.9.1921.<lb/>
+        <p>
+          <pb facs="1416739_0198"/>26.9.1921.<lb/>
 uscher<lb/>
 Lieber Freund.<lb/>
 1. Beste, dank fü ichrichten über<lb/>

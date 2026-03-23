@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10139">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -85,6 +86,14 @@ Zwischenzeitliche Treffen in Berlin anlässlich UA 'Der einsame Weg'</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10795">Avenarius, Ferdinand</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10986">Brahm, Otto</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20466">Lindemann, Gustav</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb866">Dresden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10139.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -96,22 +105,6 @@ Zwischenzeitliche Treffen in Berlin anlässlich UA 'Der einsame Weg'</note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10795" source="https://pmb.acdh.oeaw.ac.at/entity/10795/">
-          <persName>Avenarius, Ferdinand</persName>
-        </person>
-        <person ref="#pmb10986" source="https://pmb.acdh.oeaw.ac.at/entity/10986/">
-          <persName>Brahm, Otto</persName>
-        </person>
-        <person ref="#pmb20466" source="https://pmb.acdh.oeaw.ac.at/entity/20466/">
-          <persName>Lindemann, Gustav</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb866" source="https://pmb.acdh.oeaw.ac.at/entity/866/">
-          <placeName>Dresden</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -124,8 +117,9 @@ Zwischenzeitliche Treffen in Berlin anlässlich UA 'Der einsame Weg'</note>
 
 Zwischenzeitliche Treffen in Berlin anlässlich UA 'Der einsame Weg'</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0184"/>S. FISCHER, VERLAG<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0184"/>S. FISCHER, VERLAG<lb/>
 Ce Votre<lb/>
 können ihm das<lb/>
 habe<lb/>
@@ -167,7 +161,8 @@ der Bühnen, für die er den „Einsamen Weg“ erwerben will, eine<lb/>
 bestimmte Garantie zu leisten hätte. Dieser Weg scheint mir em-<lb/>
 pfehlenswerter. Im Laufe des Monat März kehrt Lindemann von seiner<lb/>
 Tournee zurück, die Bühnen, die bis dahin nicht Ihr Verk erworben</p>
-        <p><pb facs="1416742_0185"/>114<lb/>
+        <p>
+          <pb facs="1416742_0185"/>114<lb/>
 of<lb/>
 FISCHER,VERLAG<lb/>
 haben, können ihm dann unter dieser Voraussetzung übergeben werden.<lb/>

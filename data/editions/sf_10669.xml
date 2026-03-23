@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -75,6 +76,16 @@ Antwort auf: <ref target="10667">1918-08-12 AS (Wien) an SF</ref> (Travemünde)<
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb22886">Prinzhorn, Ernst</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12556">Rosenbaum, Richard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5598">Weber, Hans von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5156">Zifferer, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10669.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -88,28 +99,6 @@ Antwort auf: <ref target="10667">1918-08-12 AS (Wien) an SF</ref> (Travemünde)<
           <term>Versand</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb22886" source="https://pmb.acdh.oeaw.ac.at/entity/22886/">
-          <persName>Prinzhorn, Ernst</persName>
-        </person>
-        <person ref="#pmb12556" source="https://pmb.acdh.oeaw.ac.at/entity/12556/">
-          <persName>Rosenbaum, Richard</persName>
-        </person>
-        <person ref="#pmb5598" source="https://pmb.acdh.oeaw.ac.at/entity/5598/">
-          <persName>Weber, Hans von</persName>
-        </person>
-        <person ref="#pmb5156" source="https://pmb.acdh.oeaw.ac.at/entity/5156/">
-          <persName>Zifferer, Paul</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -122,8 +111,9 @@ Antwort auf: <ref target="10667">1918-08-12 AS (Wien) an SF</ref> (Travemünde)<
 (in großen Teilen unlesbar)
 Antwort auf: <ref target="10667">1918-08-12 AS (Wien) an SF</ref> (Travemünde)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0136"/>411<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0136"/>411<lb/>
 S. FISCHER/VERLAG<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P Berlin, Postscheckkonto=Berlin 1662<lb/>
 BERLIN W 57 / BÜLowSTRASSE 90<lb/>
@@ -156,7 +146,8 @@ Schnell bekannt zu machen. Ich habe einen mir sehr gut empfohlenen<lb/>
 das Technische gelernt hat, namens Brettschneider in Aussicht, bekomme<lb/>
 ich ihn, dann würde ich, ihn vorziehen.<lb/>
 Mit Rosenbaum habe ich eine vierteljährliche Probezeit vereinbart;</p>
-        <p><pb facs="1416743_0137"/>S. FISCHER / VerLAG<lb/>
+        <p>
+          <pb facs="1416743_0137"/>S. FISCHER / VerLAG<lb/>
 2. Blatt<lb/>
 G.C.P<lb/>
 ich würde sie einhalten, ohne grosse Hoffnungen an seine Entwicklungs<lb/>

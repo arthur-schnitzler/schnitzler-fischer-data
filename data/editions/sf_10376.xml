@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10376">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -91,6 +92,12 @@ Bezug auf: 1911-02-## AS an SF (Anfrage Gebers; nicht überliefert); 1911-03-27 
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb166">Frankreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10376.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,14 +107,6 @@ Bezug auf: 1911-02-## AS an SF (Anfrage Gebers; nicht überliefert); 1911-03-27 
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
-          <placeName>Frankreich</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -121,8 +120,9 @@ Anlagen: 1911-04-08 Hugo Gebers Verlag (Stockholm) an SF (Berlin), mit 1908-12-2
 
 Bezug auf: 1911-02-## AS an SF (Anfrage Gebers; nicht überliefert); 1911-03-27 SF an AS (Abrechnung; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0483"/>246<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0483"/>246<lb/>
 S. JCHER,VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
 11/4. 11<lb/>
 BERLIN W., DEN<lb/>
@@ -141,7 +141,8 @@ Betrag von M. 300.- bezahlt hat. Diese Summe<lb/>
 haben wir laut unserem Briefe vom 27. März. cr.,<lb/>
 mit dem wir Ihnen auch den Originalbrief der<lb/>
 Firma sandten, auf Ihr Bankkonto überwiesen.</p>
-        <p><pb facs="1416742_0484"/>Nun erhalten wir heute von Hugo Gebers-Förlag<lb/>
+        <p>
+          <pb facs="1416742_0484"/>Nun erhalten wir heute von Hugo Gebers-Förlag<lb/>
 die anliegenden Zuschriften, aus denen hervor-<lb/>
 geht, dass Sie das Uebersetzungsrecht für<lb/>
 Schweden bereits im Jahre 1908 an Gyldendal<lb/>

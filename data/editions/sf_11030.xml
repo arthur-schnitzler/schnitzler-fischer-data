@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -73,6 +74,12 @@ Rückseite: Handschriftliche Notiz von AS
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4374">Maril, Konrad</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11030.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -82,16 +89,6 @@ Rückseite: Handschriftliche Notiz von AS
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4374" source="https://pmb.acdh.oeaw.ac.at/entity/4374/">
-          <persName>Maril, Konrad</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -106,8 +103,9 @@ Beantwortet in: <ref target="11031">1923-10-29 AS (Wien) an SF (Berlin)</ref>, <
 Rückseite: Handschriftliche Notiz von AS
 ##kein SF-Brief i.e.S., als Beilage befördert?</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0660"/>2m<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0660"/>2m<lb/>
 636.<lb/>
 Berlin W. 30., den 27. Oktober 1923.<lb/>
 J a c ob<lb/>
@@ -165,7 +163,8 @@ geluten.<lb/>
 sand strikt darauf<lb/>
 olgendes ist fest<lb/>
 22</p>
-        <p><pb facs="1416743_0661"/>127<lb/>
+        <p>
+          <pb facs="1416743_0661"/>127<lb/>
 Bl. L.<lb/>
 M. 1. Januar 1923 wurde im allgemeinen in Deutschland<lb/>
 G.C.F.P<lb/>
@@ -205,7 +204,8 @@ für den Verlag<lb/>
 schnisch sehr schwer, diese Bedingung zu erfüllen,<lb/>
 eits ist en<lb/>
 an</p>
-        <p><pb facs="1416743_0662"/>637.<lb/>
+        <p>
+          <pb facs="1416743_0662"/>637.<lb/>
 3.<lb/>
 weil die Banken sich auch Zeit lassen. Um diese Schwierigkeiten<lb/>
 und liebe<lb/>
@@ -247,7 +247,8 @@ seinen Zweck, wenn ich Ihnen endlich die leidenen Geschichten<lb/>
 vom Halse schaffen kann.<lb/>
 Hier sieht es sehr unangenehm aus, und man ist sehr<lb/>
 bedrückt. Deswegen kann ich Ihnen auch nur diesen Bericht senden</p>
-        <p><pb facs="1416743_0663"/>637.<lb/>
+        <p>
+          <pb facs="1416743_0663"/>637.<lb/>
 G.S.<lb/>
 te<lb/>
 und nochmals von Herzen für die freundliche Aufnahme meiner<lb/>

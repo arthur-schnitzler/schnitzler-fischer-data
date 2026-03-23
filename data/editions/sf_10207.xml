@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -100,6 +101,13 @@ Die von AS erbetenen Antworten sind nicht überliefert</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4087">Freund, Frank E. Washburn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13055">Wassermann, Jakob</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10207.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -107,19 +115,6 @@ Die von AS erbetenen Antworten sind nicht überliefert</note>
           <term>Honorar</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4087" source="https://pmb.acdh.oeaw.ac.at/entity/4087/">
-          <persName>Freund, Frank E. Washburn</persName>
-        </person>
-        <person ref="#pmb13055" source="https://pmb.acdh.oeaw.ac.at/entity/13055/">
-          <persName>Wassermann, Jakob</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -133,8 +128,9 @@ Anlagen: Frank Washburn an SF (nicht überliefert); weiterer Brief aus England a
 
 Die von AS erbetenen Antworten sind nicht überliefert</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0311"/>212<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0311"/>212<lb/>
 162<lb/>
 S. FISCHER, VERLAG,’ BERLIN W., BÜLowSTR. 90<lb/>
 BERene W., DEN 14. Dez. 07<lb/>
@@ -160,7 +156,8 @@ wir zwei verschiedene Einbände herstellen müssen.<lb/>
 I have to get<lb/>
 HJfir<lb/>
 min</p>
-        <p><pb facs="1416742_0312"/>212<lb/>
+        <p>
+          <pb facs="1416742_0312"/>212<lb/>
 einen Leinenband, der nicht mehr wie eine Mark<lb/>
 kosten darf, können wir nicht entbehren. Daneben<lb/>
 bin ich gern bereit, einen Lederband, wie den für<lb/>

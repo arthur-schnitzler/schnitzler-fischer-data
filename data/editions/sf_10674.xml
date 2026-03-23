@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10674">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -74,6 +75,14 @@ Antwort auf: 1918-10-08 XX (Berlin) an AS (Wien)</note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb6960">Eipper, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12504">Reinhardt, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb36430">Volkstheater Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10674.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -83,24 +92,6 @@ Antwort auf: 1918-10-08 XX (Berlin) an AS (Wien)</note>
           <term>Uraufführung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb6960" source="https://pmb.acdh.oeaw.ac.at/entity/6960/">
-          <persName>Eipper, Paul</persName>
-        </person>
-        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
-          <persName>Reinhardt, Max</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb36430" source="https://pmb.acdh.oeaw.ac.at/entity/36430/">
-          <orgName>Volkstheater Wien</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -112,8 +103,9 @@ Antwort auf: 1918-10-08 XX (Berlin) an AS (Wien)</note>
         <p>1 Blatt, 2 Seiten
 Antwort auf: 1918-10-08 XX (Berlin) an AS (Wien)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0070"/>V.C.V....<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0070"/>V.C.V....<lb/>
 11.10.1918.<lb/>
 Fischer<lb/>
 Lieber Freund<lb/>
@@ -134,7 +126,8 @@ stellung so sehr als möglich zu beschleunigen,<lb/>
 ebenso das Erscheinen des Buchs, das am Tag der<lb/>
 Uraufführung zum Verkaufe bereit sein sollte.<lb/>
 Ich bitte, sehr auf dem Titelblatt des Stücks</p>
-        <p><pb facs="1416739_0071"/>vermerkte Aenderung vorzunehmen. Der Titel lau-<lb/>
+        <p>
+          <pb facs="1416739_0071"/>vermerkte Aenderung vorzunehmen. Der Titel lau-<lb/>
 tet also:<lb/>
 Die Schwestern<lb/>
 oder<lb/>

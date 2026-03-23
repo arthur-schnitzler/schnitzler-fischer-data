@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -68,7 +69,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten beschrieben
 
-Antwort auf: <ref target="10282">1909-10-21 AS an SF</ref></note>
+Antwort auf: <ref target="10282">1909-10-21 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1909-10-25.html</note>
       </notesStmt>
@@ -84,6 +86,13 @@ Antwort auf: <ref target="10282">1909-10-21 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10998">Brann, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb186212">Marionettentheater Münchner Künstler</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10283.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -92,21 +101,6 @@ Antwort auf: <ref target="10282">1909-10-21 AS an SF</ref></note>
           <term>Druckauftrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10998" source="https://pmb.acdh.oeaw.ac.at/entity/10998/">
-          <persName>Brann, Paul</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb186212" source="https://pmb.acdh.oeaw.ac.at/entity/186212/">
-          <orgName>Marionettentheater Münchner Künstler</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -117,10 +111,12 @@ Antwort auf: <ref target="10282">1909-10-21 AS an SF</ref></note>
       <div type="letter">
         <p>1 Blatt, 2 Seiten beschrieben
 
-Antwort auf: <ref target="10282">1909-10-21 AS an SF</ref></p>
+Antwort auf: <ref target="10282">1909-10-21 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0393"/>212<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0393"/>212<lb/>
 20k<lb/>
 201<lb/>
 S. FISCHER,VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
@@ -144,7 +140,8 @@ lichkeit bei den Gesuchern des Theaters erheblich<lb/>
 grösser, wenn das Buch nur 50 -: 60 Pfennig kostet.<lb/>
 Bitte lassen Sie sich Ihre Meinung wissen, ich kann<lb/>
 dann mit dem Druck des Textbuches gleich beginnen.</p>
-        <p><pb facs="1416742_0394"/>212<lb/>
+        <p>
+          <pb facs="1416742_0394"/>212<lb/>
 204<lb/>
 Der Satz steht ja, bis Mitte November können<lb/>
 wir fertig sein.<lb/>

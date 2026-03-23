@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,7 +71,8 @@
         <note type="description">1 Doppelblatt (?), 3 Seiten beschrieben (letzte Seite nicht digitalisiert)
 Anlage: Abrechnung Bloch zu Konkurs Entsch (nicht überliefert)
 
-Beantwortet in: <ref target="10246">1908-11-17 AS an SF</ref></note>
+Beantwortet in: <ref target="10246">1908-11-17 AS an SF</ref>
+        </note>
         <note type="type">Typoskript</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1908-11-07.html</note>
       </notesStmt>
@@ -86,6 +88,13 @@ Beantwortet in: <ref target="10246">1908-11-17 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb178500">Bloch, Eduard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2871">Entsch, Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10245.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -93,19 +102,6 @@ Beantwortet in: <ref target="10246">1908-11-17 AS an SF</ref></note>
           <term>Aufführung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb178500" source="https://pmb.acdh.oeaw.ac.at/entity/178500/">
-          <persName>Bloch, Eduard</persName>
-        </person>
-        <person ref="#pmb2871" source="https://pmb.acdh.oeaw.ac.at/entity/2871/">
-          <persName>Entsch, Theodor</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -117,10 +113,12 @@ Beantwortet in: <ref target="10246">1908-11-17 AS an SF</ref></note>
         <p>1 Doppelblatt (?), 3 Seiten beschrieben (letzte Seite nicht digitalisiert)
 Anlage: Abrechnung Bloch zu Konkurs Entsch (nicht überliefert)
 
-Beantwortet in: <ref target="10246">1908-11-17 AS an SF</ref></p>
+Beantwortet in: <ref target="10246">1908-11-17 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0363"/>187<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0363"/>187<lb/>
 S. FISCHER, VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
 THEATERABTEILUNG<lb/>
 BERene W., DEN... 7. Nov. 08<lb/>
@@ -141,7 +139,8 @@ September 1908 an e entgingen, dem Datum, von welchem<lb/>
 ab die Verhandlungen gestatteten, die Beträge für<lb/>
 die Autoren zurückzubehalten. Diese letzteren Be¬<lb/>
 träge stehen zur Verfügung.</p>
-        <p><pb facs="1416742_0364"/>Herr Bloch hat uns die nach der zweiten Abrechnung<lb/>
+        <p>
+          <pb facs="1416742_0364"/>Herr Bloch hat uns die nach der zweiten Abrechnung<lb/>
 dans les mêmes ou de<lb/>
 man<lb/>
 sich ergebenden K.75,11 zur Verfügung gestellt. Die<lb/>
@@ -165,7 +164,8 @@ stehenden Betrages meine Provision für die neu über¬<lb/>
 nommenen Werke nicht in Anrechnung bringen werde.<lb/>
 Die Originalabrechnung von Bloch lassen Sie mir<lb/>
 bitte wieder zugehen, damit ich sie bei weiteren Re-</p>
-        <p><pb facs="1416742_0365"/>188<lb/>
+        <p>
+          <pb facs="1416742_0365"/>188<lb/>
 S. FISCHER, VERLAG,’ BERLIN W., BÜLowSTR. 90<lb/>
 THEATERABTEILUNG<lb/>
 BERene W., DEN. 25. Nov. 93<lb/>

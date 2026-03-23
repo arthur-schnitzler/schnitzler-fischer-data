@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -91,6 +92,19 @@ Anlage: Briefe von Benjamin Harz an AS und von AS an Benjamin Harz</note>
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10788">Auernheimer, Raoul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb21710">Lothar, Ernst</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23586">Rosenberger, Arthur</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb38839">Schlesinger, Viola Gabriele</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb9935">Sonja, Magda</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb54787">Zuckerkandl, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11395.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -116,37 +130,6 @@ Anlage: Briefe von Benjamin Harz an AS und von AS an Benjamin Harz</note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10788" source="https://pmb.acdh.oeaw.ac.at/entity/10788/">
-          <persName>Auernheimer, Raoul</persName>
-        </person>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb21710" source="https://pmb.acdh.oeaw.ac.at/entity/21710/">
-          <persName>Lothar, Ernst</persName>
-        </person>
-        <person ref="#pmb23586" source="https://pmb.acdh.oeaw.ac.at/entity/23586/">
-          <persName>Rosenberger, Arthur</persName>
-        </person>
-        <person ref="#pmb38839" source="https://pmb.acdh.oeaw.ac.at/entity/38839/">
-          <persName>Schlesinger, Viola Gabriele</persName>
-        </person>
-        <person ref="#pmb9935" source="https://pmb.acdh.oeaw.ac.at/entity/9935/">
-          <persName>Sonja, Magda</persName>
-        </person>
-        <person ref="#pmb54787" source="https://pmb.acdh.oeaw.ac.at/entity/54787/">
-          <persName>Zuckerkandl, Victor</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -160,8 +143,9 @@ Antwort auf: <ref target="11393">1928-03-13 SF (Berlin) an AS (Wien)</ref>
 Beantwortet in: <ref target="11400">1928-03-28 SF (Berlin) an AS (Wien)</ref>
 Anlage: Briefe von Benjamin Harz an AS und von AS an Benjamin Harz</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0033"/>E.fe. xxx<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0033"/>E.fe. xxx<lb/>
 denn Janshredä ei- heb, nulwe- und.ammehme hebege¬<lb/>
 assioné aan deindreV megetrew meu aus neufesced feo<lb/>
 ein sass.gizülgnirss ca. nenam sonsgemi meisisme um<lb/>
@@ -226,7 +210,8 @@ Bände zu einem weit höheren Betrag verkauft werden.<lb/>
 könnten als zu dem um den wir die Bücher von Harz zu-<lb/>
 rückgekauft haben.<lb/>
 Ich glaube, dass in 1-2 Jahren diese</p>
-        <p><pb facs="1416741_0034"/>G.F.P.<lb/>
+        <p>
+          <pb facs="1416741_0034"/>G.F.P.<lb/>
 Restbestand verkauft wäre und Neudruck erfolgen<lb/>
 könnte.<lb/>
 d.h.<lb/>
@@ -288,7 +273,8 @@ Ihr<lb/>
 Herrn Dr. Konrad Maril,<lb/>
 Fischer,Verlag.<lb/>
 Berlin.</p>
-        <p><pb facs="1416741_0035"/>S. Fischer<lb/>
+        <p>
+          <pb facs="1416741_0035"/>S. Fischer<lb/>
 P.S.<lb/>
 17.3.1928.<lb/>
 Verehrter Herr Eipper.<lb/>

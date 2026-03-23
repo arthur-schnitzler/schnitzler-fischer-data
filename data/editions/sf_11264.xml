@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -81,6 +82,24 @@ Bezug prüfen</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="118509683">Bermann, Gottfried</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11198">Durieux, Tilla</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11842">Jordan, Egon von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb114855">Kampers, Fritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4374">Maril, Konrad</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb117068764">Modes, Theo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb9539">Roberts, Ralph Arthur</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb9632">Salfner, Heinz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb915">Dortmund</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb866">Dresden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb36247">Burgtheater Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11264.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -99,54 +118,6 @@ Bezug prüfen</note>
           <term>Vorlesung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="118509683" source="https://d-nb.info/gnd/118509683">
-          <persName>Bermann, Gottfried</persName>
-        </person>
-        <person ref="#pmb11198" source="https://pmb.acdh.oeaw.ac.at/entity/11198/">
-          <persName>Durieux, Tilla</persName>
-        </person>
-        <person ref="#pmb11842" source="https://pmb.acdh.oeaw.ac.at/entity/11842/">
-          <persName>Jordan, Egon von</persName>
-        </person>
-        <person ref="#pmb114855" source="https://pmb.acdh.oeaw.ac.at/entity/114855/">
-          <persName>Kampers, Fritz</persName>
-        </person>
-        <person ref="#pmb4374" source="https://pmb.acdh.oeaw.ac.at/entity/4374/">
-          <persName>Maril, Konrad</persName>
-        </person>
-        <person ref="#pmb117068764" source="https://pmb.acdh.oeaw.ac.at/entity/117068764/">
-          <persName>Modes, Theo</persName>
-        </person>
-        <person ref="#pmb9539" source="https://pmb.acdh.oeaw.ac.at/entity/9539/">
-          <persName>Roberts, Ralph Arthur</persName>
-        </person>
-        <person ref="#pmb9632" source="https://pmb.acdh.oeaw.ac.at/entity/9632/">
-          <persName>Salfner, Heinz</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb915" source="https://pmb.acdh.oeaw.ac.at/entity/915/">
-          <placeName>Dortmund</placeName>
-        </place>
-        <place ref="#pmb866" source="https://pmb.acdh.oeaw.ac.at/entity/866/">
-          <placeName>Dresden</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb36247" source="https://pmb.acdh.oeaw.ac.at/entity/36247/">
-          <orgName>Burgtheater Wien</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -161,8 +132,9 @@ Beantwortet in: <ref target="11266">1926-11-25 AS (Wien) an SF (Berlin)</ref>
 Anlage: Telegramm?; Intendanz Köln 1926-11-2 bzgl. Werfel; Shaw an SF 1926-11-03
 Bezug prüfen</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0899"/>1780<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0899"/>1780<lb/>
 S. Fischer Verlag Berlin<lb/>
 ʼos<lb/>
 Aktien-Gesellschaft<lb/>
@@ -208,7 +180,8 @@ vinztheater zu vergleichen ist, wo die Unaufführung mindestens ein<lb/>
 ebenso grosses Escho hervorrufen würde, wenn nicht ein grösseres. - In<lb/>
 Berlin selbst fehlt es Ihnen an dem lebendigen Konnex mit den Theater-<lb/>
 kanzleien und infolgedessen können Sie etwaige Chancen nicht so rasch</p>
-        <p><pb facs="1416743_0900"/>.... 4.<lb/>
+        <p>
+          <pb facs="1416743_0900"/>.... 4.<lb/>
 *<lb/>
 (v.t) â¢ r; j r; w<lb/>
 G. H. D. M. d I<lb/>

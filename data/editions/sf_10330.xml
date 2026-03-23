@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -95,6 +96,18 @@ Ferner hier einsortiert ist Abschrift eines Schreibens 1910-07-13 Emanuel Stockh
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb52051">Territet</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1051305969">Orth, Alexander</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12556">Rosenbaum, Richard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb35619">Stockhausen, Emanuel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Wilfferodt (Jurist, Leipzig)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43471">Budapest</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb52051">Territet</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10330.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -103,34 +116,6 @@ Ferner hier einsortiert ist Abschrift eines Schreibens 1910-07-13 Emanuel Stockh
           <term>Urheberrecht/Copyright</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="1051305969" source="https://d-nb.info/gnd/1051305969">
-          <persName>Orth, Alexander</persName>
-        </person>
-        <person ref="#pmb12556" source="https://pmb.acdh.oeaw.ac.at/entity/12556/">
-          <persName>Rosenbaum, Richard</persName>
-        </person>
-        <person ref="#pmb35619" source="https://pmb.acdh.oeaw.ac.at/entity/35619/">
-          <persName>Stockhausen, Emanuel</persName>
-        </person>
-        <person>
-          <persName>Wilfferodt (Jurist, Leipzig)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43471" source="https://pmb.acdh.oeaw.ac.at/entity/43471/">
-          <placeName>Budapest</placeName>
-        </place>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-        <place ref="#pmb52051" source="https://pmb.acdh.oeaw.ac.at/entity/52051/">
-          <placeName>Territet</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -146,8 +131,9 @@ Beantwortet in: <ref target="10331">1910-08-10 AS an SF</ref>
 
 Ferner hier einsortiert ist Abschrift eines Schreibens 1910-07-13 Emanuel Stockhausen (Tremsbüttel) an SF (CUL: MS Schnitzler B121, Nr. 222), das als Anlage eines separaten, nicht überlieferten Schreibens (1910-07-13post) durch die Theaterabt. an AS gegangen sein dürfte.</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0435"/>22)<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0435"/>22)<lb/>
 S. FSCHER,VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
 11/2. 10<lb/>
 BERcelN W., DEN<lb/>

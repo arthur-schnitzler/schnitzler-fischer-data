@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -53,7 +54,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="11022">1923-10-13 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11022">1923-10-13 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="published_in">Rodewald, 134-136 [Nr. 171]</note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-10-18.html</note>
@@ -70,6 +72,13 @@ Antwort auf: <ref target="11022">1923-10-13 SF (Berlin) an AS (Wien)</ref></note
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11515">Greiner, Leo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23307">Reusch, Hubert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11024.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -81,19 +90,6 @@ Antwort auf: <ref target="11022">1923-10-13 SF (Berlin) an AS (Wien)</ref></note
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11515" source="https://pmb.acdh.oeaw.ac.at/entity/11515/">
-          <persName>Greiner, Leo</persName>
-        </person>
-        <person ref="#pmb23307" source="https://pmb.acdh.oeaw.ac.at/entity/23307/">
-          <persName>Reusch, Hubert</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -103,10 +99,12 @@ Antwort auf: <ref target="11022">1923-10-13 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="11022">1923-10-13 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11022">1923-10-13 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0288"/>18.10.1923.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0288"/>18.10.1923.<lb/>
 mer<lb/>
 Lieber Freund.<lb/>
 Als die wesentlichste Frage scheint mir<lb/>
@@ -148,7 +146,8 @@ noch keine 500 Goldmark betragen. Und da sollen<lb/>
 nun die Einnahmen für meine im Ausland verkauften<lb/>
 Bücher auch schon dabei sein. Somit erscheint es<lb/>
 vollkommnunerläglich durch eine genaue Aufstel-</p>
-        <p><pb facs="1416739_0289"/>G.O.I.<lb/>
+        <p>
+          <pb facs="1416739_0289"/>G.O.I.<lb/>
 lung die Sachlage vollkommen zu klären. Insbesondere<lb/>
 aber bitte ich von nun ab die auf mich entfallen-<lb/>
 den Perzente von den im Ausland verkauftenBüchern<lb/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10677">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -68,6 +69,12 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12170">Mann, Heinrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12248">Meyrink, Gustav</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10677.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -76,14 +83,6 @@
           <term>Verkaufspreis/Ladenpreis</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb12170" source="https://pmb.acdh.oeaw.ac.at/entity/12170/">
-          <persName>Mann, Heinrich</persName>
-        </person>
-        <person ref="#pmb12248" source="https://pmb.acdh.oeaw.ac.at/entity/12248/">
-          <persName>Meyrink, Gustav</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -94,8 +93,9 @@
       <div type="letter">
         <p>1 Blatt, 1 Seite</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0147"/>a<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0147"/>a<lb/>
 JER / VerLA<lb/>
 Ankbonto: Deutsche Bank, Depositenkasse P. Berlin / Postscheckkonto: Berlin 16892<lb/>
 BERLIN W 57 / BÜLowSTRASSE 9<lb/>

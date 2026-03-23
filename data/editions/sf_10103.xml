@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10103">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -85,6 +86,13 @@ Antwort auf: 1900-07-13post/1900-07-19ante AS an SF (Honorar 'Bertha Garlan'; ni
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13055">Wassermann, Jakob</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40474">Gossensass</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb969">Südtirol</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10103.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -92,19 +100,6 @@ Antwort auf: 1900-07-13post/1900-07-19ante AS an SF (Honorar 'Bertha Garlan'; ni
           <term>Reise/Urlaub</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb13055" source="https://pmb.acdh.oeaw.ac.at/entity/13055/">
-          <persName>Wassermann, Jakob</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb40474" source="https://pmb.acdh.oeaw.ac.at/entity/40474/">
-          <placeName>Gossensass</placeName>
-        </place>
-        <place ref="#pmb969" source="https://pmb.acdh.oeaw.ac.at/entity/969/">
-          <placeName>Südtirol</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -117,8 +112,9 @@ Antwort auf: 1900-07-13post/1900-07-19ante AS an SF (Honorar 'Bertha Garlan'; ni
 
 Antwort auf: 1900-07-13post/1900-07-19ante AS an SF (Honorar 'Bertha Garlan'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0126"/>78<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0126"/>78<lb/>
 S. FISCHER, VERLAG<lb/>
 3/3.<lb/>
 BERLIN W., DEN 19/7. 1900.<lb/>

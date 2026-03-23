@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,7 +77,8 @@
       <notesStmt>
         <note type="description">3 Blatt, 3 Seiten
 Antwort auf: <ref target="11427">1928-07-02 AS (Wien) an SF (Berlin)</ref>, <ref target="11429">1928-07-07 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11432">1928-07-14 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="11432">1928-07-14 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift, eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1928-07-11.html</note>
       </notesStmt>
@@ -92,6 +94,15 @@ Beantwortet in: <ref target="11432">1928-07-14 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7000">Engel, Fritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11679">Hesse, Hermann</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12176">Mann, Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13055">Wassermann, Jakob</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11430.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -111,23 +122,6 @@ Beantwortet in: <ref target="11432">1928-07-14 AS (Wien) an SF (Berlin)</ref></n
           <term>Verhandlung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb7000" source="https://pmb.acdh.oeaw.ac.at/entity/7000/">
-          <persName>Engel, Fritz</persName>
-        </person>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb11679" source="https://pmb.acdh.oeaw.ac.at/entity/11679/">
-          <persName>Hesse, Hermann</persName>
-        </person>
-        <person ref="#pmb12176" source="https://pmb.acdh.oeaw.ac.at/entity/12176/">
-          <persName>Mann, Thomas</persName>
-        </person>
-        <person ref="#pmb13055" source="https://pmb.acdh.oeaw.ac.at/entity/13055/">
-          <persName>Wassermann, Jakob</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -138,10 +132,12 @@ Beantwortet in: <ref target="11432">1928-07-14 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>3 Blatt, 3 Seiten
 Antwort auf: <ref target="11427">1928-07-02 AS (Wien) an SF (Berlin)</ref>, <ref target="11429">1928-07-07 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11432">1928-07-14 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="11432">1928-07-14 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_1043"/>876<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_1043"/>876<lb/>
 S. Fischer/Verlag / A.-G. Berlin W 57<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P in Berlin/Potscheckkonte: Berlin Nr. 16692<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 6162 bis 6164<lb/>
@@ -174,7 +170,8 @@ da war eine besondere Titelgebung nicht unbedingt notwendig, obgleich<lb/>
 wir sehr wohl im Absatz den Unterschied zwischen den geschlossenen<lb/>
 Romanbänden und den beiden Novellen-Sammelbäuden spüren. Bei andern<lb/>
 Gesamtausgaben wird diese Frage erst akut werden, wenn Neuauflagen</p>
-        <p><pb facs="1416743_1044"/>S. FISCHER : VerLAG A.G. : BERLIN W. 57.<lb/>
+        <p>
+          <pb facs="1416743_1044"/>S. FISCHER : VerLAG A.G. : BERLIN W. 57.<lb/>
 Dr. Schnitzler 11/7. 28<lb/>
 2<lb/>
 nelievon k - E et 4nd obald neuste hebled eib medleldsnä.8.9<lb/>
@@ -206,7 +203,8 @@ Mit herzlichen Grüssen<lb/>
 recr<lb/>
 F. Tischer<lb/>
 b.w.</p>
-        <p><pb facs="1416743_1045"/>1585<lb/>
+        <p>
+          <pb facs="1416743_1045"/>1585<lb/>
 Récembre<lb/>
 siss.<lb/>
 P.S. Inthielten die beiden ersten Bände nur 3 - 4 Novellen,<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -86,6 +87,13 @@ Antwort auf: <ref target="10892">1922-02-28 SF (Berlin) an AS (Wien)</ref>, 1922
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10895.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -97,17 +105,6 @@ Antwort auf: <ref target="10892">1922-02-28 SF (Berlin) an AS (Wien)</ref>, 1922
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -119,8 +116,9 @@ Antwort auf: <ref target="10892">1922-02-28 SF (Berlin) an AS (Wien)</ref>, 1922
         <p>1 Blatt, 2 Seiten
 Antwort auf: <ref target="10892">1922-02-28 SF (Berlin) an AS (Wien)</ref>, 1922-03-06 SF (Berlin) an SF (Wien)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0222"/>Päivä, Läherytä,<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0222"/>Päivä, Läherytä,<lb/>
 w — —<lb/>
 D &amp; C &amp; D<lb/>
 100<lb/>
@@ -348,7 +346,8 @@ K.S.<lb/>
 D ou 4<lb/>
 beinahe immer verzögert.<lb/>
 „ „</p>
-        <p><pb facs="1416739_0223"/>Haben Sie noch die Liste aller derjeni<lb/>
+        <p>
+          <pb facs="1416739_0223"/>Haben Sie noch die Liste aller derjeni<lb/>
 ger Personen,en die seinerzeit Frei- und Wid-<lb/>
 are meiner Gesammelten Werke abge-<lb/>
 mungsexem<lb/>

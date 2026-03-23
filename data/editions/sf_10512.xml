@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -89,6 +90,11 @@ Es folgt eine längere, wohl überlieferungsbedingte Lücke in der Korrespondenz
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11165">Dohnányi, Ernst von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10512.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -97,11 +103,6 @@ Es folgt eine längere, wohl überlieferungsbedingte Lücke in der Korrespondenz
           <term>Garantiesumme</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11165" source="https://pmb.acdh.oeaw.ac.at/entity/11165/">
-          <persName>Dohnányi, Ernst von</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -115,8 +116,9 @@ Es folgt eine längere, wohl überlieferungsbedingte Lücke in der Korrespondenz
 Antwort auf: <ref target="10511">1913-06-20 AS an SF</ref>
 Es folgt eine längere, wohl überlieferungsbedingte Lücke in der Korrespondenz; in diese Zeit fallen persönliche Treffen von AS und SF in Venedig, bei denen auch "amerikanische Vertragssachen" besprochen wurden (Tgb 1913-08-23 und -24)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0647"/>329<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0647"/>329<lb/>
 1913<lb/>
 ISCHER-VERLAG’BERLIN ’ THEATERABTEILUN’<lb/>
 W57-BULÖWSTR90<lb/>
@@ -141,7 +143,8 @@ wolle den Schleier der Pierette verfilmen<lb/>
 lassen. Er sagte, Sie wüssten bereits um<lb/>
 diesen Plan und wären auch damit einverstan-<lb/>
 den, nur hätten Sie beide Bedenken, ob Ihr</p>
-        <p><pb facs="1416742_0648"/>Verleger, der das Aufführungsrecht besitzt,<lb/>
+        <p>
+          <pb facs="1416742_0648"/>Verleger, der das Aufführungsrecht besitzt,<lb/>
 irgend ein Recht auf diese Verfilwung hat<lb/>
 de la rivière ses ai-<lb/>
 Watürlich besitzt der Verleger keines, da es<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -77,6 +78,12 @@ Anlage: Brief oder Rückseite: Handschriftliche Notiz von AS</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="120786974">Kiepenheuer, Gustav</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11039.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -88,16 +95,6 @@ Anlage: Brief oder Rückseite: Handschriftliche Notiz von AS</note>
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="120786974" source="https://d-nb.info/gnd/120786974">
-          <persName>Kiepenheuer, Gustav</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -111,8 +108,9 @@ Antwort auf: 1923-11-08 SF (Berlin) an AS (Wien)
 Beantwortet in: <ref target="11041">1923-11-19 AS (Wien) an SF (Berlin)</ref>
 Anlage: Brief oder Rückseite: Handschriftliche Notiz von AS</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0672"/>lin<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0672"/>lin<lb/>
 Berlin, den 12. November 1923.<lb/>
 G.C.H.P.<lb/>
 G.C.F.P.<lb/>
@@ -190,7 +188,8 @@ Zahlung in Buchma<lb/>
 dte<lb/>
 vei<lb/>
 plaren gemessen.</p>
-        <p><pb facs="1416743_0673"/>12.11.1923.<lb/>
+        <p>
+          <pb facs="1416743_0673"/>12.11.1923.<lb/>
 Blatt 2<lb/>
 nitzler.<lb/>
 Herr<lb/>

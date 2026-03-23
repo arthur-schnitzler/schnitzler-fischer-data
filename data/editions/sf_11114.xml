@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11114">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -75,6 +76,13 @@ dazu gehört wohl Hartungs Brief 1924-08-20, hier als Beilage verzeichnen</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb12589">Celerina</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7713">Hartung, Gustav</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="5038293-7">Schauspielhaus Köln</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11114.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -83,21 +91,6 @@ dazu gehört wohl Hartungs Brief 1924-08-20, hier als Beilage verzeichnen</note>
           <term>Uraufführung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb7713" source="https://pmb.acdh.oeaw.ac.at/entity/7713/">
-          <persName>Hartung, Gustav</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="5038293-7" source="https://d-nb.info/gnd/5038293-7">
-          <orgName>Schauspielhaus Köln</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -109,8 +102,9 @@ dazu gehört wohl Hartungs Brief 1924-08-20, hier als Beilage verzeichnen</note>
         <p>1 Blatt, 1 Seite
 dazu gehört wohl Hartungs Brief 1924-08-20, hier als Beilage verzeichnen</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0769"/>Fischer/Verlag/Berl.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0769"/>Fischer/Verlag/Berl.<lb/>
 Das<lb/>
 Wstraße<lb/>
 se: Amt Lützow Nr. 1662. 6162 und 9292 / Postscheckkont<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -75,7 +76,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
-Antwort auf: <ref target="10854">1921-09-22 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="10854">1921-09-22 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1921-09-26.html</note>
       </notesStmt>
@@ -91,6 +93,24 @@ Antwort auf: <ref target="10854">1921-09-22 SF (Berlin) an AS (Wien)</ref></note
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1064903746">Demetz, Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb15764">Eirich, Otto</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11981">Kramer, Leopold</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3213">Münz, Siegmund</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116324333">Raggio, Enrico</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2456">Specht, Richard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb25499">Sternberg, Joseph von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb52390">Weiss, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb27126">Wilhartitz, Ernst</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb652">Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb378">Rumänien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10855.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -105,52 +125,6 @@ Antwort auf: <ref target="10854">1921-09-22 SF (Berlin) an AS (Wien)</ref></note
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="1064903746" source="https://d-nb.info/gnd/1064903746">
-          <persName>Demetz, Hans</persName>
-        </person>
-        <person ref="#pmb15764" source="https://pmb.acdh.oeaw.ac.at/entity/15764/">
-          <persName>Eirich, Otto</persName>
-        </person>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb11981" source="https://pmb.acdh.oeaw.ac.at/entity/11981/">
-          <persName>Kramer, Leopold</persName>
-        </person>
-        <person ref="#pmb3213" source="https://pmb.acdh.oeaw.ac.at/entity/3213/">
-          <persName>Münz, Siegmund</persName>
-        </person>
-        <person ref="116324333" source="https://d-nb.info/gnd/116324333">
-          <persName>Raggio, Enrico</persName>
-        </person>
-        <person ref="#pmb2456" source="https://pmb.acdh.oeaw.ac.at/entity/2456/">
-          <persName>Specht, Richard</persName>
-        </person>
-        <person ref="#pmb25499" source="https://pmb.acdh.oeaw.ac.at/entity/25499/">
-          <persName>Sternberg, Joseph von</persName>
-        </person>
-        <person ref="#pmb52390" source="https://pmb.acdh.oeaw.ac.at/entity/52390/">
-          <persName>Weiss, Alfred</persName>
-        </person>
-        <person ref="#pmb27126" source="https://pmb.acdh.oeaw.ac.at/entity/27126/">
-          <persName>Wilhartitz, Ernst</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
-          <placeName>Prag</placeName>
-        </place>
-        <place ref="#pmb378" source="https://pmb.acdh.oeaw.ac.at/entity/378/">
-          <placeName>Rumänien</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -160,10 +134,12 @@ Antwort auf: <ref target="10854">1921-09-22 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 4 Seiten
-Antwort auf: <ref target="10854">1921-09-22 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="10854">1921-09-22 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0198"/>26.9.1921.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0198"/>26.9.1921.<lb/>
 uscher<lb/>
 Lieber Freund.<lb/>
 1. Beste, dank fü ichrichten über<lb/>
@@ -206,7 +182,8 @@ digen, hat sich auf meine Veranlassung schon<lb/>
 vor Monaten an Sie gewandt. Ich ha be Ihnen da¬<lb/>
 mals auch seine an mich gerichteten Briefe über<lb/>
 sandt. Er erhielt von Ihnen,wie er mir schrieb,</p>
-        <p><pb facs="1416739_0199"/>in<lb/>
+        <p>
+          <pb facs="1416739_0199"/>in<lb/>
 keie rlei Antwort. Ich lies dann durch Karczag<lb/>
 mit ihm unterhandeln, es wurde ein Präliminarver<lb/>
 trag mit festem Termin geschla sen.an dem eine<lb/>
@@ -295,7 +272,8 @@ den könnte und dass daher keinesweses ein Grund<lb/>
 bestünde einen Antrag,wie den von Boni &amp; Liverigh<lb/>
 (die er übrigens gle ichfalls als höchst angese<lb/>
 hehen Verlag bezeichnete) anzunehmen. Herr S.</p>
-        <p><pb facs="1416739_0200"/>behauptet auch, dass man auch die nichtcopyrigh-<lb/>
+        <p>
+          <pb facs="1416739_0200"/>behauptet auch, dass man auch die nichtcopyrigh-<lb/>
 teten Bücher noch jetzt nachträglich schützen<lb/>
 könnte,durch Einsendung je eines Exemplars nach<lb/>
 Washington und Wäreeventu 11 bereit,diese Ange-<lb/>
@@ -372,7 +350,8 @@ st ande kommen, so bitte Ich recht sehr eine even-<lb/>
 tuell auf mich entfallende Summe in New-York bei<lb/>
 Ladenburg Thalmann &amp; Co. einzahlen zu lassen, aber<lb/>
 jedenfalls vorher die auf Sie entfallende Pro</p>
-        <p><pb facs="1416739_0201"/>G.C.F.P.<lb/>
+        <p>
+          <pb facs="1416739_0201"/>G.C.F.P.<lb/>
 vision in Abzug zu bringen, wenn Sie nicht vor-<lb/>
 ziehen, dass ich diese Provision auf Ihr Kontp<lb/>
 in der Originalvaluta, sei es nun gleichfalls in<lb/>

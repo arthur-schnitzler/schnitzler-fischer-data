@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -85,6 +86,12 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="135725976">Davidson, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11176.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -93,16 +100,6 @@
           <term>Rundfunk</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="135725976" source="https://d-nb.info/gnd/135725976">
-          <persName>Davidson, Paul</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -113,8 +110,9 @@
       <div type="letter">
         <p>1 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0816"/>Nr. 1662. 6163 und 9292<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0816"/>Nr. 1662. 6163 und 9292<lb/>
 RABTEK<lb/>
 Durch Eilboten zu beste<lb/>
 G.C.F.P.<lb/>
@@ -141,7 +139,8 @@ und in welcher Weise dies vorsichgehen könnte.<lb/>
 Der Breslauer Rundfunk hat auf meine Mahnung sofort<lb/>
 ich auf die von<lb/>
 Sie Mk. 75. — eingesandt und dabei gesagt,</p>
-        <p><pb facs="1416743_0817"/>uns einmal erteilte Genehmigung, er könne das Stück nicht mehr ab-<lb/>
+        <p>
+          <pb facs="1416743_0817"/>uns einmal erteilte Genehmigung, er könne das Stück nicht mehr ab-<lb/>
 setzen, da es durch alle Programme bereits verbreitet sei. - Wir<lb/>
 bitten Sie noch um Weisung was wir tun sollen, oder ob Sie sich<lb/>
 für diesmal einverstanden erklären wollen.<lb/>

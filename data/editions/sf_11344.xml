@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -64,7 +65,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
-Beantwortet in: <ref target="11346">1927-10-22 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="11346">1927-10-22 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1927-10-20.html</note>
       </notesStmt>
@@ -81,6 +83,14 @@ Beantwortet in: <ref target="11346">1927-10-22 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb6931">Eger, Rudolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4374">Maril, Konrad</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb37007">Theater am Zoo Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11344.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,24 +101,6 @@ Beantwortet in: <ref target="11346">1927-10-22 AS (Wien) an SF (Berlin)</ref></n
           <term>Verlagswerbung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb6931" source="https://pmb.acdh.oeaw.ac.at/entity/6931/">
-          <persName>Eger, Rudolf</persName>
-        </person>
-        <person ref="#pmb4374" source="https://pmb.acdh.oeaw.ac.at/entity/4374/">
-          <persName>Maril, Konrad</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb37007" source="https://pmb.acdh.oeaw.ac.at/entity/37007/">
-          <orgName>Theater am Zoo Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -118,10 +110,12 @@ Beantwortet in: <ref target="11346">1927-10-22 AS (Wien) an SF (Berlin)</ref></n
     <body>
       <div type="letter">
         <p>2 Blatt, 2 Seiten
-Beantwortet in: <ref target="11346">1927-10-22 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="11346">1927-10-22 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0973"/>Krlag<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0973"/>Krlag<lb/>
 Fischer<lb/>
 Amt Lützow 1662, 6162 u. 9292 Theaterabteilung postscheckkonto Nr.<lb/>
 Berlin W 57, Bülowstraße Nr. 90<lb/>
@@ -149,7 +143,8 @@ unter diesen Umständen wohl kaum genehmigen würden,<lb/>
 eher noch, wenn es sich um eine ganz geschlossene<lb/>
 Erstellung ohne Presse handeln sollte. Jedenfalls<lb/>
 ###itte ich um freundliche umgehende Antwort,</p>
-        <p><pb facs="1416743_0974"/>er seinen Prospekt drucken will<lb/>
+        <p>
+          <pb facs="1416743_0974"/>er seinen Prospekt drucken will<lb/>
 Mit ergebensten Grüsse<lb/>
 D klever</p>
       </div>

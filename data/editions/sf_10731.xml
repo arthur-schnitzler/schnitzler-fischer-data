@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10731">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -67,6 +68,11 @@
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7700">Hartlieb, Wladimir von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10731.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -74,11 +80,6 @@
           <term>Manuskript</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb7700" source="https://pmb.acdh.oeaw.ac.at/entity/7700/">
-          <persName>Hartlieb, Wladimir von</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -89,8 +90,9 @@
       <div type="letter">
         <p>1 Blatt, 1 Seite</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0122"/>der Weg ins Freie" im Zunehmen ist. Wie däch -<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0122"/>der Weg ins Freie" im Zunehmen ist. Wie däch -<lb/>
 ten sie darüber das Buch danächst in Ihrer<lb/>
 Folge von grossen pomanen aufzunehmen.<lb/>
 Mit herzlichen Grüssen<lb/>

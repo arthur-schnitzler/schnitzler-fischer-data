@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,6 +80,12 @@ Antwort auf: 1918-10-30 AS (Wien) an SF (Berlin) (erschlossen)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb864">Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10678.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,14 +98,6 @@ Antwort auf: 1918-10-30 AS (Wien) an SF (Berlin) (erschlossen)</note>
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb864" source="https://pmb.acdh.oeaw.ac.at/entity/864/">
-          <placeName>Leipzig</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -110,8 +109,9 @@ Antwort auf: 1918-10-30 AS (Wien) an SF (Berlin) (erschlossen)</note>
         <p>3 Blatt, 3 Seiten
 Antwort auf: 1918-10-30 AS (Wien) an SF (Berlin) (erschlossen)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0148"/>415<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0148"/>415<lb/>
 ISCHER / VerLAG<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P. Berlin / Postscheckkonto. Berlin 16692<lb/>
 BERLIN W57 / BULowSTRASSE 90<lb/>
@@ -140,7 +140,8 @@ demnächst das Honorar für die ersten 20 000 Exemplare von "Casanovas"<lb/>
 Heimfahrt" mit M. 22500.- fällig sein. Ich habe Ihnen durch Beer-Hofmann<lb/>
 sagen lassen, dass ich, falls Sie es für ratsam halten, ein Markkonto<lb/>
 hier für Sie bei der Deutschen Bank errichten könnte, da möglicher</p>
-        <p><pb facs="1416743_0149"/>Blatt<lb/>
+        <p>
+          <pb facs="1416743_0149"/>Blatt<lb/>
 ISCHER /VERLAGT.<lb/>
 Weise die Ueberweisung nach Oesterreich auf Schwierigkeiten stossen<lb/>
 könnte. Ich war aber heute bei der Reichsbank und habe dort erfahren,<lb/>
@@ -170,7 +171,8 @@ ein Konto für Sie eröffnet werden, für diejenigen Summen, die ich nach<lb/>
 Ihrem Wunsch hier einzahlen soll. Legen wir gewisse Summen auf mehrere<lb/>
 Monate fest, so bekommen Sie voraussichtlich eine Zinsvergütung von<lb/>
 4 %. Bitte schicken Sie uns das Formular mit Ihrer von einem Notar</p>
-        <p><pb facs="1416743_0150"/>716<lb/>
+        <p>
+          <pb facs="1416743_0150"/>716<lb/>
 DER / VerLAGt<lb/>
 Sankkonto: Deutsche Bank, Depositenkasse P. Berlin / Postscheckkonto. Berlin 1669a<lb/>
 BERLIN W 57 BULowSTRASSE 90<lb/>

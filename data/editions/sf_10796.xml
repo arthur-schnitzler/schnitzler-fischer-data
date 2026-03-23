@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,7 +77,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
-Beantwortet in: <ref target="10797">1921-02-11 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10797">1921-02-11 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1921-02-04.html</note>
       </notesStmt>
@@ -92,6 +94,30 @@ Beantwortet in: <ref target="10797">1921-02-11 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4040">Bernau, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb6997">Engel, Erich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Giordani, Paolo (Präsident Società italiana del teatro drammatico, Rom)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11981">Kramer, Leopold</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2242">Levi, Cesare</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20474">Linden, Gustaf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4441">Sladek, Maximilian</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb25813">Szyfman, Arnold</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb677">Breslau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb313">Polen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb652">Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43435">Schweiz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb1119">Stockholm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45417">Reinhardt-Bühnen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10796.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -106,72 +132,6 @@ Beantwortet in: <ref target="10797">1921-02-11 SF (Berlin) an AS (Wien)</ref></n
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4040" source="https://pmb.acdh.oeaw.ac.at/entity/4040/">
-          <persName>Bernau, Alfred</persName>
-        </person>
-        <person ref="#pmb6997" source="https://pmb.acdh.oeaw.ac.at/entity/6997/">
-          <persName>Engel, Erich</persName>
-        </person>
-        <person>
-          <persName>Giordani, Paolo (Präsident Società italiana del teatro drammatico, Rom)</persName>
-        </person>
-        <person ref="#pmb11981" source="https://pmb.acdh.oeaw.ac.at/entity/11981/">
-          <persName>Kramer, Leopold</persName>
-        </person>
-        <person ref="#pmb2242" source="https://pmb.acdh.oeaw.ac.at/entity/2242/">
-          <persName>Levi, Cesare</persName>
-        </person>
-        <person ref="#pmb20474" source="https://pmb.acdh.oeaw.ac.at/entity/20474/">
-          <persName>Linden, Gustaf</persName>
-        </person>
-        <person ref="#pmb4441" source="https://pmb.acdh.oeaw.ac.at/entity/4441/">
-          <persName>Sladek, Maximilian</persName>
-        </person>
-        <person ref="#pmb25813" source="https://pmb.acdh.oeaw.ac.at/entity/25813/">
-          <persName>Szyfman, Arnold</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb677" source="https://pmb.acdh.oeaw.ac.at/entity/677/">
-          <placeName>Breslau</placeName>
-        </place>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
-          <placeName>Polen</placeName>
-        </place>
-        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
-          <placeName>Prag</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-        <place ref="#pmb43435" source="https://pmb.acdh.oeaw.ac.at/entity/43435/">
-          <placeName>Schweiz</placeName>
-        </place>
-        <place ref="#pmb1119" source="https://pmb.acdh.oeaw.ac.at/entity/1119/">
-          <placeName>Stockholm</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb45417" source="https://pmb.acdh.oeaw.ac.at/entity/45417/">
-          <orgName>Reinhardt-Bühnen</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -181,10 +141,12 @@ Beantwortet in: <ref target="10797">1921-02-11 SF (Berlin) an AS (Wien)</ref></n
     <body>
       <div type="letter">
         <p>2 Blatt, 4 Seiten
-Beantwortet in: <ref target="10797">1921-02-11 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10797">1921-02-11 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0173"/>Tantiemen abzüglich der auf Sie entfallen-<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0173"/>Tantiemen abzüglich der auf Sie entfallen-<lb/>
 den Provision und zwar pünktlich zu leiten<lb/>
 an die Zivnostenska Banka, Prag, zu Gunsten<lb/>
 der Bodenkreditanstalt, Wien, Konto Dr.Arthur<lb/>
@@ -360,7 +322,8 @@ darauf, dass<lb/>
 u. (Sein<lb/>
 eventuellen verjährten Rechte können natür<lb/>
 lich unser Recht über den Anatol-Zyklus</p>
-        <p><pb facs="1416739_0174"/>Sr<lb/>
+        <p>
+          <pb facs="1416739_0174"/>Sr<lb/>
 Als Ganzes abzuschliessen, absolut nicht tan-<lb/>
 gieren.)<lb/>
 Herrn Direktor Kramer den.Reiger<lb/>
@@ -437,7 +400,8 @@ wegen einer Uebersetzung des „Weg ins Freie<lb/>
 ins Spanische. Sie schlossen gegen eine Garan<lb/>
 (oder Pauschall) Summe von 4-0 Pesos ab.<lb/>
 sind diese schon an Sie gelangt?</p>
-        <p><pb facs="1416739_0175"/>4. Die holländischen Gulden für „Doktor<lb/>
+        <p>
+          <pb facs="1416739_0175"/>4. Die holländischen Gulden für „Doktor<lb/>
 (sie avislerten Sie mir am 28.1.21<lb/>
 Gr<lb/>
 sind mir noch nicht zugegangen.<lb/>
@@ -513,7 +477,8 @@ ich also selbständig weiter.<lb/>
 schen Angelegenheiten durchaus nicht weiter<lb/>
 Hierüber möchte ich gern orientiert sein, da<lb/>
 ich in den nächsten Tagen den Besuch des Herrn</p>
-        <p><pb facs="1416739_0176"/>Giovanardi, Pressechefs der hessigen italieni-<lb/>
+        <p>
+          <pb facs="1416739_0176"/>Giovanardi, Pressechefs der hessigen italieni-<lb/>
 schen Gesandtschaft, erwarte,der in diesen An<lb/>
 gelegenheiten gewissermassen literarisch-poli<lb/>
 tisch interessiert scheint.<lb/>

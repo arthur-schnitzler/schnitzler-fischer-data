@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -60,7 +61,8 @@
         <note type="description">3 Blatt, 5 Seiten beschrieben
 
 Antwort auf: <ref target="10541">1914-09-25 SF an AS</ref>
-Beantwortet in: <ref target="10543">1914-10-15 SF an AS</ref></note>
+Beantwortet in: <ref target="10543">1914-10-15 SF an AS</ref>
+        </note>
         <note type="published_in">Rodewald, 104-106 [Nr. 145]; Schnitzler B II, 45-47; Buohler 2011, 188-189 (Auszug)</note>
         <note type="type">Typoskript (Durchschlag, ohne Unterschrift) (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm) AS)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1914-09-30.html</note>
@@ -77,6 +79,16 @@ Beantwortet in: <ref target="10543">1914-10-15 SF an AS</ref></note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11250">Eloesser, Arthur</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb687">Österreich-Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10542.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -84,28 +96,6 @@ Beantwortet in: <ref target="10543">1914-10-15 SF an AS</ref></note>
           <term>Erster Weltkrieg</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11250" source="https://pmb.acdh.oeaw.ac.at/entity/11250/">
-          <persName>Eloesser, Arthur</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-        <place ref="#pmb687" source="https://pmb.acdh.oeaw.ac.at/entity/687/">
-          <placeName>Österreich-Ungarn</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -117,7 +107,8 @@ Beantwortet in: <ref target="10543">1914-10-15 SF an AS</ref></note>
         <p>3 Blatt, 5 Seiten beschrieben
 
 Antwort auf: <ref target="10541">1914-09-25 SF an AS</ref>
-Beantwortet in: <ref target="10543">1914-10-15 SF an AS</ref></p>
+Beantwortet in: <ref target="10543">1914-10-15 SF an AS</ref>
+        </p>
       </div>
     </body>
   </text>

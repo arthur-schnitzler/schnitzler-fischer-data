@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -83,6 +84,12 @@ Beantwortet in: <ref target="10129">1903-11-14 AS an SF</ref> (Notizen dafür au
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10815">Bahr, Hermann</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb28645">Coschell, Moritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10128.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,14 +98,6 @@ Beantwortet in: <ref target="10129">1903-11-14 AS an SF</ref> (Notizen dafür au
           <term>Dialoge</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10815" source="https://pmb.acdh.oeaw.ac.at/entity/10815/">
-          <persName>Bahr, Hermann</persName>
-        </person>
-        <person ref="#pmb28645" source="https://pmb.acdh.oeaw.ac.at/entity/28645/">
-          <persName>Coschell, Moritz</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -111,8 +110,9 @@ Beantwortet in: <ref target="10129">1903-11-14 AS an SF</ref> (Notizen dafür au
 
 Beantwortet in: <ref target="10129">1903-11-14 AS an SF</ref> (Notizen dafür auf vorliegendem Brief und auf 1903-11-06)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0172"/>103<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0172"/>103<lb/>
 S. FISCHER,<lb/>
 VERLAG<lb/>
 TELEPHON:<lb/>

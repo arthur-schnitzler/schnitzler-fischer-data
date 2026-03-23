@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10782">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -77,6 +78,19 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11798">Ibsen, Henrik</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12877">Strindberg, August</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="118620312">Synge, Millington John</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb166">Frankreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb562">Genf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb562">Genève</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43435">Schweiz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Théâtre Pitoëff Genf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10782.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -86,39 +100,6 @@
           <term>Vertreter/Vertretung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11798" source="https://pmb.acdh.oeaw.ac.at/entity/11798/">
-          <persName>Ibsen, Henrik</persName>
-        </person>
-        <person ref="#pmb12877" source="https://pmb.acdh.oeaw.ac.at/entity/12877/">
-          <persName>Strindberg, August</persName>
-        </person>
-        <person ref="118620312" source="https://d-nb.info/gnd/118620312">
-          <persName>Synge, Millington John</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
-          <placeName>Frankreich</placeName>
-        </place>
-        <place ref="#pmb562" source="https://pmb.acdh.oeaw.ac.at/entity/562/">
-          <placeName>Genf</placeName>
-        </place>
-        <place ref="#pmb562" source="https://pmb.acdh.oeaw.ac.at/entity/562/">
-          <placeName>Genève</placeName>
-        </place>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-        <place ref="#pmb43435" source="https://pmb.acdh.oeaw.ac.at/entity/43435/">
-          <placeName>Schweiz</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org>
-          <orgName>Théâtre Pitoëff Genf</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -129,8 +110,9 @@
       <div type="letter">
         <p>1 Blatt, 1 Seite</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0304"/>1-10<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0304"/>1-10<lb/>
 q7e<lb/>
 S. Fischer. Verlag. Berlin<lb/>
 auch<lb/>

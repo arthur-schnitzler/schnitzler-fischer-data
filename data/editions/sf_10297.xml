@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -63,7 +64,8 @@
         <note type="description">2 Blatt, 2 Seiten beschrieben
 
 Antwort auf: 1910-01-18post/1910-01-23ante SF an AS (Aufführungsrecht 'Liebelei'; nicht überliefert)
-Beantwortet in: <ref target="10298">1910-01-26 SF an AS</ref></note>
+Beantwortet in: <ref target="10298">1910-01-26 SF an AS</ref>
+        </note>
         <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1910-01-23.html</note>
       </notesStmt>
@@ -79,6 +81,14 @@ Beantwortet in: <ref target="10298">1910-01-26 SF an AS</ref></note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12504">Reinhardt, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43471">Budapest</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10297.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -89,22 +99,6 @@ Beantwortet in: <ref target="10298">1910-01-26 SF an AS</ref></note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
-          <persName>Reinhardt, Max</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb43471" source="https://pmb.acdh.oeaw.ac.at/entity/43471/">
-          <placeName>Budapest</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -116,7 +110,8 @@ Beantwortet in: <ref target="10298">1910-01-26 SF an AS</ref></note>
         <p>2 Blatt, 2 Seiten beschrieben
 
 Antwort auf: 1910-01-18post/1910-01-23ante SF an AS (Aufführungsrecht 'Liebelei'; nicht überliefert)
-Beantwortet in: <ref target="10298">1910-01-26 SF an AS</ref></p>
+Beantwortet in: <ref target="10298">1910-01-26 SF an AS</ref>
+        </p>
       </div>
     </body>
   </text>

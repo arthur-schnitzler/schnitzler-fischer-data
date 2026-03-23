@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10055">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -78,6 +79,12 @@ Antwort auf: 1896-08-28post/1896-09-04ante AS an SF (wohl Anforderung Honoraraus
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb112447">Forain, Jean-Louis</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11485">Goldmann, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10055.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -85,14 +92,6 @@ Antwort auf: 1896-08-28post/1896-09-04ante AS an SF (wohl Anforderung Honoraraus
           <term>Zeichnung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb112447" source="https://pmb.acdh.oeaw.ac.at/entity/112447/">
-          <persName>Forain, Jean-Louis</persName>
-        </person>
-        <person ref="#pmb11485" source="https://pmb.acdh.oeaw.ac.at/entity/11485/">
-          <persName>Goldmann, Paul</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -106,8 +105,9 @@ Anlage: 200 Mark Honorar
 
 Antwort auf: 1896-08-28post/1896-09-04ante AS an SF (wohl Anforderung Honorarauszahlung; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0067"/>Berlin W., den 4./9. 1896<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0067"/>Berlin W., den 4./9. 1896<lb/>
 Steglitzer Strasse 49 I.<lb/>
 Telephon: Amt VI, 1662.<lb/>
 Herrn Dr. Ritter Schnitzler<lb/>

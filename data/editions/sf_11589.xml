@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -64,7 +65,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
 Antwort auf: <ref target="11550">1930-03-01 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11591">1930-10-02 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="11591">1930-10-02 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1930-09-29.html</note>
       </notesStmt>
@@ -81,6 +83,15 @@ Beantwortet in: <ref target="11591">1930-10-02 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="123488729">Araquistáin, Luis</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb54042">Buenos Aires</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb914">Madrid</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Teatro de Cámara Buenos Aires</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11589.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -90,27 +101,6 @@ Beantwortet in: <ref target="11591">1930-10-02 AS (Wien) an SF (Berlin)</ref></n
           <term>Verhandlung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="123488729" source="https://d-nb.info/gnd/123488729">
-          <persName>Araquistáin, Luis</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb54042" source="https://pmb.acdh.oeaw.ac.at/entity/54042/">
-          <placeName>Buenos Aires</placeName>
-        </place>
-        <place ref="#pmb914" source="https://pmb.acdh.oeaw.ac.at/entity/914/">
-          <placeName>Madrid</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org>
-          <orgName>Teatro de Cámara Buenos Aires</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -121,10 +111,12 @@ Beantwortet in: <ref target="11591">1930-10-02 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>1 Blatt, 1 Seite
 Antwort auf: <ref target="11550">1930-03-01 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11591">1930-10-02 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="11591">1930-10-02 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416744_0058"/>982 Marich,<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416744_0058"/>982 Marich,<lb/>
 to be<lb/>
 S. FISCHER VERLAG A.-G. /  BERene W 57<lb/>
 le<lb/>

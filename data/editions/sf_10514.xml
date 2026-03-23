@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -55,7 +56,8 @@
         <note type="description">1 Blatt, 2 Seiten beschrieben
 Anlage: Aufstellung der von AS autorisierten Übersetzungen seiner Werke (zwei Exemplare; nicht überliefert); Verzeichnis nicht verrechneter Bühnenaufführungen (nicht überliefert); 1913-11-29 ante Grein an AS (nicht überliefert)
 
-Beantwortet in: <ref target="10515">1913-12-04 SF an AS</ref></note>
+Beantwortet in: <ref target="10515">1913-12-04 SF an AS</ref>
+        </note>
         <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1913-11-29.html</note>
       </notesStmt>
@@ -71,6 +73,14 @@ Beantwortet in: <ref target="10515">1913-12-04 SF an AS</ref></note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17355">Grein, Jack Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb22520">Picard, André</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb166">Frankreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10514.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -80,22 +90,6 @@ Beantwortet in: <ref target="10515">1913-12-04 SF an AS</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb17355" source="https://pmb.acdh.oeaw.ac.at/entity/17355/">
-          <persName>Grein, Jack Thomas</persName>
-        </person>
-        <person ref="#pmb22520" source="https://pmb.acdh.oeaw.ac.at/entity/22520/">
-          <persName>Picard, André</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
-          <placeName>Frankreich</placeName>
-        </place>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -107,7 +101,8 @@ Beantwortet in: <ref target="10515">1913-12-04 SF an AS</ref></note>
         <p>1 Blatt, 2 Seiten beschrieben
 Anlage: Aufstellung der von AS autorisierten Übersetzungen seiner Werke (zwei Exemplare; nicht überliefert); Verzeichnis nicht verrechneter Bühnenaufführungen (nicht überliefert); 1913-11-29 ante Grein an AS (nicht überliefert)
 
-Beantwortet in: <ref target="10515">1913-12-04 SF an AS</ref></p>
+Beantwortet in: <ref target="10515">1913-12-04 SF an AS</ref>
+        </p>
       </div>
     </body>
   </text>

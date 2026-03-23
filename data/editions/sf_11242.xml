@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -63,7 +64,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Antwort auf: <ref target="11240">1926-05-31 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="11240">1926-05-31 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1926-06-04.html</note>
       </notesStmt>
@@ -80,6 +82,12 @@ Antwort auf: <ref target="11240">1926-05-31 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Meyerhold, Thaddäus (Übersetzer 'Traumnovelle'?)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11242.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -87,16 +95,6 @@ Antwort auf: <ref target="11240">1926-05-31 AS (Wien) an SF (Berlin)</ref></note
           <term>Rundfunkrecht/Senderecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person>
-          <persName>Meyerhold, Thaddäus (Übersetzer 'Traumnovelle'?)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -106,10 +104,12 @@ Antwort auf: <ref target="11240">1926-05-31 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Antwort auf: <ref target="11240">1926-05-31 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="11240">1926-05-31 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0877"/>19:7:9:<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0877"/>19:7:9:<lb/>
 V. U. R.C.R.<lb/>
 S. FISCHER.VERLAG A.-G. THEATERABTEILUNG<lb/>
 BERLIN W 57, BÜLowSTR. 90<lb/>

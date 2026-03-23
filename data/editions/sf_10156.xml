@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10156">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -80,6 +81,14 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb864">Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb433">St. Petersburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb57345">Schauspielhaus Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10156.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -88,22 +97,6 @@
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb864" source="https://pmb.acdh.oeaw.ac.at/entity/864/">
-          <placeName>Leipzig</placeName>
-        </place>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-        <place ref="#pmb433" source="https://pmb.acdh.oeaw.ac.at/entity/433/">
-          <placeName>St. Petersburg</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb57345" source="https://pmb.acdh.oeaw.ac.at/entity/57345/">
-          <orgName>Schauspielhaus Leipzig</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -114,8 +107,9 @@
       <div type="letter">
         <p>1 Blatt, 2 Seiten beschrieben</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0224"/>128<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0224"/>128<lb/>
 S. FISCHER, VERLAG, BERLIN W., BÜLowSTR. 91<lb/>
 THEATERABTEILUNG<lb/>
 BERene W., DEN 25. Sept. 1905<lb/>
@@ -134,7 +128,8 @@ auf die deutschen Bühnen in Russland, die nach Em¬<lb/>
 pfang des Prospekts doch sicher Exemplare der deut-<lb/>
 schen Ausgabe verlangen werden. Ich nehme doch als<lb/>
 selbstverständlich an, dass die deutschen Bühnen in</p>
-        <p><pb facs="1416742_0225"/>Russland zur Kompetenz meines Bühnenvertriebs ge-<lb/>
+        <p>
+          <pb facs="1416742_0225"/>Russland zur Kompetenz meines Bühnenvertriebs ge-<lb/>
 hören. Ich schlage also vor, dass wir in Ihrem Inte-<lb/>
 7 resse mit der Versendung der Bühnentexte nach Russ-<lb/>
 land warten, bis die Erstaufführung in russischer<lb/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11653">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,6 +80,12 @@ Brief von Paul Zsolnay Verlag weitergeleitet von Fischer an Schnitzler</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4455">Zsolnay, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb46644">Estland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11653.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -87,16 +94,6 @@ Brief von Paul Zsolnay Verlag weitergeleitet von Fischer an Schnitzler</note>
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4455" source="https://pmb.acdh.oeaw.ac.at/entity/4455/">
-          <persName>Zsolnay, Paul</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb46644" source="https://pmb.acdh.oeaw.ac.at/entity/46644/">
-          <placeName>Estland</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -108,8 +105,9 @@ Brief von Paul Zsolnay Verlag weitergeleitet von Fischer an Schnitzler</note>
         <p>1 Blatt, 1 Seite
 Brief von Paul Zsolnay Verlag weitergeleitet von Fischer an Schnitzler</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416744_0115"/>1024<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416744_0115"/>1024<lb/>
 selber<lb/>
 1,7br<lb/>
 PAUL ZSOLNAY VerLAG<lb/>

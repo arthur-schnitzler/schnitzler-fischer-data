@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -72,7 +73,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Beantwortet in: <ref target="10989">1923-03-29 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10989">1923-03-29 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-03-15.html</note>
       </notesStmt>
@@ -89,6 +91,18 @@ Beantwortet in: <ref target="10989">1923-03-29 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb18383">Hoffmann, Rudolf Stephan</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2249">Korff, Arnold</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb92768">Woticky, Edward</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43570">Dänemark</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb335756">Kopenhagen-Christiania</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29380">Berliner Theater</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10985.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -98,36 +112,6 @@ Beantwortet in: <ref target="10989">1923-03-29 SF (Berlin) an AS (Wien)</ref></n
           <term>Klage/Gerichtliche Verfolgung/Prozess</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb18383" source="https://pmb.acdh.oeaw.ac.at/entity/18383/">
-          <persName>Hoffmann, Rudolf Stephan</persName>
-        </person>
-        <person ref="#pmb2249" source="https://pmb.acdh.oeaw.ac.at/entity/2249/">
-          <persName>Korff, Arnold</persName>
-        </person>
-        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
-          <persName>Woticky, Edward</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43570" source="https://pmb.acdh.oeaw.ac.at/entity/43570/">
-          <placeName>Dänemark</placeName>
-        </place>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-        <place ref="#pmb335756" source="https://d-nb.info/gnd/4096769-4">
-          <placeName>Kopenhagen-Christiania</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb29380" source="https://pmb.acdh.oeaw.ac.at/entity/29380/">
-          <orgName>Berliner Theater</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -137,10 +121,12 @@ Beantwortet in: <ref target="10989">1923-03-29 SF (Berlin) an AS (Wien)</ref></n
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Beantwortet in: <ref target="10989">1923-03-29 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10989">1923-03-29 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0252"/>1<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0252"/>1<lb/>
 steller selbst bei vorheriger Bezahlung auf xxx<lb/>
 tuierung vergeblich warten mussten, so ist hiefür<lb/>
 Ihr und des Herrn Greiss Misstrauen gegenüber ein¬<lb/>
@@ -209,7 +195,8 @@ in diesem Augenblick keinen Menschen in Amerika,<lb/>
 der auch nur das leineste Recht hätte über das<lb/>
 „Weite Land“ mit Umgehung von Wotitzky zu ver<lb/>
 handeln. Vor allem sollte doch W. uns den Kon¬</p>
-        <p><pb facs="1416739_0253"/>kurrenten nennen, den er in Verdacht hat. Und da<lb/>
+        <p>
+          <pb facs="1416739_0253"/>kurrenten nennen, den er in Verdacht hat. Und da<lb/>
 doch sie von Anfang an diese Angelegenheit voll<lb/>
 kommen unbeirrt von mir führen, und ich jeden Be-<lb/>
 werber immer wieder an W. gewiesen habe, so wäre<lb/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10571">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,6 +77,14 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3283">Björkman, Edwin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb864">Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10571.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -84,22 +93,6 @@
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb3283" source="https://pmb.acdh.oeaw.ac.at/entity/3283/">
-          <persName>Björkman, Edwin</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb864" source="https://pmb.acdh.oeaw.ac.at/entity/864/">
-          <placeName>Leipzig</placeName>
-        </place>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -110,8 +103,9 @@
       <div type="letter">
         <p>1 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0015"/>358<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0015"/>358<lb/>
 S. Fischer Verlag, Berlin Wi., Bülowstrasse 90<lb/>
 8. Juli 1915<lb/>
 Mnad<lb/>
@@ -150,7 +144,8 @@ vielleicht findet er die Uebersetzungen gut und vielleich kann er<lb/>
 sie für seine Ausgabe Ihrer Werke verwenden, wodurch wir uns den<lb/>
 Vorteil sichern würden, dass die Verwertung Ihrer Werke unter der<lb/>
 F. 208</p>
-        <p><pb facs="1416743_0016"/>Blatt 2<lb/>
+        <p>
+          <pb facs="1416743_0016"/>Blatt 2<lb/>
 FISCHER, VerlaG, BERLIN.<lb/>
 Aufsicht Björkmans in einer Hand bleibt, denn auf Björkman, glaube ich,<lb/>
 können wir uns verlassen und wir müssten bei allen zukünftigen Anfra-<lb/>

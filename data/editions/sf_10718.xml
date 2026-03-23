@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10718">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -91,6 +92,18 @@
           <persName type="coworker">NN, </persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10836">Bartsch, Rudolf Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb120662">Knudsen, Poul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43471">Budapest</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb36300">Kopenhagen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10718.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -104,34 +117,6 @@
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
-          <persName>Bartsch, Rudolf Hans</persName>
-        </person>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb120662" source="https://pmb.acdh.oeaw.ac.at/entity/120662/">
-          <persName>Knudsen, Poul</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43471" source="https://pmb.acdh.oeaw.ac.at/entity/43471/">
-          <placeName>Budapest</placeName>
-        </place>
-        <place ref="#pmb36300" source="https://pmb.acdh.oeaw.ac.at/entity/36300/">
-          <placeName>Kopenhagen</placeName>
-        </place>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -142,8 +127,9 @@
       <div type="letter">
         <p>1 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0114"/>1.10.1919.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0114"/>1.10.1919.<lb/>
 Herrn S.Fischen,Verlag,<lb/>
 G.C.H.F.S<lb/>
 Berlin.<lb/>
@@ -164,7 +150,8 @@ ich wegen der Uebersetzungsrechte für „Rekten“<lb/>
 G.C.F.P<lb/>
 (erschienen bei Harz) direkt telegraphiert.<lb/>
 4. Ich erhielt eine Art Geschäftsan¬</p>
-        <p><pb facs="1416739_0115"/>2<lb/>
+        <p>
+          <pb facs="1416739_0115"/>2<lb/>
 zeige von Hans Bartsch in New York, der ja wie<lb/>
 Gouillez lʼhonneur dʼêtre<lb/>
 G.C.H.F.P<lb/>

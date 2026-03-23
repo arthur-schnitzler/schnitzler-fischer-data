@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -68,7 +69,8 @@
       <notesStmt>
         <note type="description">5 Blatt, 5 Seiten beschrieben
 
-Antwort auf: <ref target="10351">1910-12-15 SF an AS</ref></note>
+Antwort auf: <ref target="10351">1910-12-15 SF an AS</ref>
+        </note>
         <note type="published_in">Rodewald, 87-89 [Nr. 123]; Schnitzler B I, 642-645; Buohler 2011, 157-158 (Auszug)</note>
         <note type="type">Typoskript</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1910-12-17.html</note>
@@ -85,6 +87,21 @@ Antwort auf: <ref target="10351">1910-12-15 SF an AS</ref></note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10815">Bahr, Hermann</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10986">Brahm, Otto</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2989">Polgar, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12504">Reinhardt, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb36247">Burgtheater Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb35597">Deutsches Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb118599">Schall und Rauch Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10352.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -95,45 +112,6 @@ Antwort auf: <ref target="10351">1910-12-15 SF an AS</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10815" source="https://pmb.acdh.oeaw.ac.at/entity/10815/">
-          <persName>Bahr, Hermann</persName>
-        </person>
-        <person ref="#pmb10986" source="https://pmb.acdh.oeaw.ac.at/entity/10986/">
-          <persName>Brahm, Otto</persName>
-        </person>
-        <person ref="#pmb2989" source="https://pmb.acdh.oeaw.ac.at/entity/2989/">
-          <persName>Polgar, Alfred</persName>
-        </person>
-        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
-          <persName>Reinhardt, Max</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb36247" source="https://pmb.acdh.oeaw.ac.at/entity/36247/">
-          <orgName>Burgtheater Wien</orgName>
-        </org>
-        <org ref="#pmb35597" source="https://pmb.acdh.oeaw.ac.at/entity/35597/">
-          <orgName>Deutsches Theater Berlin</orgName>
-        </org>
-        <org ref="#pmb118599" source="https://pmb.acdh.oeaw.ac.at/entity/118599/">
-          <orgName>Schall und Rauch Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -144,7 +122,8 @@ Antwort auf: <ref target="10351">1910-12-15 SF an AS</ref></note>
       <div type="letter">
         <p>5 Blatt, 5 Seiten beschrieben
 
-Antwort auf: <ref target="10351">1910-12-15 SF an AS</ref></p>
+Antwort auf: <ref target="10351">1910-12-15 SF an AS</ref>
+        </p>
       </div>
     </body>
   </text>

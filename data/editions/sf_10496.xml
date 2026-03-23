@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10496">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -85,6 +86,14 @@ Anlage: 1913-04-11ante Moderwell an AS (nicht überliefert)</note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Gabrielli, Ehepaar (Präsident Schriftstellerverein, Rom)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb21510">Moderwell, Hiram Kelly</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Schaaf (Übersetzer, USA)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Sessa, Dr. P. (Übersetzer, Italien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10496.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -95,20 +104,6 @@ Anlage: 1913-04-11ante Moderwell an AS (nicht überliefert)</note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person>
-          <persName>Gabrielli, Ehepaar (Präsident Schriftstellerverein, Rom)</persName>
-        </person>
-        <person ref="#pmb21510" source="https://pmb.acdh.oeaw.ac.at/entity/21510/">
-          <persName>Moderwell, Hiram Kelly</persName>
-        </person>
-        <person>
-          <persName>Schaaf (Übersetzer, USA)</persName>
-        </person>
-        <person>
-          <persName>Sessa, Dr. P. (Übersetzer, Italien)</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>

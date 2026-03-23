@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10530">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -85,6 +86,11 @@ Bezug auf: nicht überlieferte zwischenzeitliche Korrespondenz zu von Heinrich G
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb22001">Noren, Heinrich G.</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10530.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -92,11 +98,6 @@ Bezug auf: nicht überlieferte zwischenzeitliche Korrespondenz zu von Heinrich G
           <term>Oper</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb22001" source="https://pmb.acdh.oeaw.ac.at/entity/22001/">
-          <persName>Noren, Heinrich G.</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -109,8 +110,9 @@ Bezug auf: nicht überlieferte zwischenzeitliche Korrespondenz zu von Heinrich G
 
 Bezug auf: nicht überlieferte zwischenzeitliche Korrespondenz zu von Heinrich G. Noren seit etwa Anfang 1914 verfolgten Plan (vgl. Tgb 1914-02-25 und 1914-03-04), den 'Schleier der Betarice' als Oper zu komponieren (vollendet 1919/20).</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0662"/>S. Fischer, Verlag, Berlin M., Bülowstrasse 90<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0662"/>S. Fischer, Verlag, Berlin M., Bülowstrasse 90<lb/>
 5. 1914<lb/>
 Fischer, Verlag<lb/>
 Berlin<lb/>

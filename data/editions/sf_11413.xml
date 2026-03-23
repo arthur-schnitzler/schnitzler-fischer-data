@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,7 +71,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
 Antwort auf: <ref target="11403">1928-04-07 AS (Wien) an SF (Berlin)</ref>, <ref target="11401">1928-03-29 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11414">1928-05-19 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="11414">1928-05-19 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1928-05-16.html</note>
       </notesStmt>
@@ -86,6 +88,13 @@ Beantwortet in: <ref target="11414">1928-05-19 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb224">London</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11413.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -103,19 +112,6 @@ Beantwortet in: <ref target="11414">1928-05-19 AS (Wien) an SF (Berlin)</ref></n
           <term>Zeitung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb224" source="https://pmb.acdh.oeaw.ac.at/entity/224/">
-          <placeName>London</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -126,10 +122,12 @@ Beantwortet in: <ref target="11414">1928-05-19 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>2 Blatt, 2 Seiten
 Antwort auf: <ref target="11403">1928-04-07 AS (Wien) an SF (Berlin)</ref>, <ref target="11401">1928-03-29 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11414">1928-05-19 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="11414">1928-05-19 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_1027"/>soo<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_1027"/>soo<lb/>
 867<lb/>
 S. Fischer/Verlag/A.-G. Berlin W 57.<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P in Berlin/Postscheckkonto; Berlin Nr. 1669a<lb/>
@@ -168,7 +166,8 @@ er das Verfügungsrecht über die Vorräte besitzt, so ist nicht einzu-<lb/>
 sehen warum er die Bücher nicht verkauft. Tatsächlich kann man ja<lb/>
 jedes bestellte Exemplar von Harz bekommen, es scheint, als ob er<lb/>
 die Vorräte nicht verkaufen kann. Ist das der Fall, so müssten die</p>
-        <p><pb facs="1416743_1028"/>0c<lb/>
+        <p>
+          <pb facs="1416743_1028"/>0c<lb/>
 S. FISCHER VERLAG A.G. :: BERLIN W. 57<lb/>
 Dr. Schnitzler 16/5. 28<lb/>
 Vorräte viel billiger an uns abgegeben werden, da wir doch eine<lb/>

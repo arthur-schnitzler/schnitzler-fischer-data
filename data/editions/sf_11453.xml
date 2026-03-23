@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11453">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,6 +80,11 @@ Antwort auf: 1928-11-14 AS (Wien) an SF (Berlin)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11453.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,11 +97,6 @@ Antwort auf: 1928-11-14 AS (Wien) an SF (Berlin)</note>
           <term>Vereinbarung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -107,8 +108,9 @@ Antwort auf: 1928-11-14 AS (Wien) an SF (Berlin)</note>
         <p>1 Blatt, 1 Seite
 Antwort auf: 1928-11-14 AS (Wien) an SF (Berlin)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_1071"/>893.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_1071"/>893.<lb/>
 S. Fischer/Verlag / A.=G. Berlin W 57<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P in Berlin/Postscheckkonto; Berlin Nr. 1669.<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 6162 bis 6164<lb/>

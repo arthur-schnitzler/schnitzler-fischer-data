@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10040">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -104,6 +105,15 @@ Beantwortet in: 1895-11-13post/1895-11-20ante AS an SF (Zusage 'Liebelei' bei SF
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb178500">Bloch, Eduard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116590416">Entsch, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb35597">Deutsches Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10040.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -116,27 +126,6 @@ Beantwortet in: 1895-11-13post/1895-11-20ante AS an SF (Zusage 'Liebelei' bei SF
           <term>Zeitung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb178500" source="https://pmb.acdh.oeaw.ac.at/entity/178500/">
-          <persName>Bloch, Eduard</persName>
-        </person>
-        <person ref="116590416" source="https://d-nb.info/gnd/116590416">
-          <persName>Entsch, Albert</persName>
-        </person>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb35597" source="https://pmb.acdh.oeaw.ac.at/entity/35597/">
-          <orgName>Deutsches Theater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -150,8 +139,9 @@ Beantwortet in: 1895-11-13post/1895-11-20ante AS an SF (Zusage 'Liebelei' bei SF
 Antwort auf: 1895-10-24post/1895-11-13 AS an SF (Zusendung von Rezensionen, Absatz der Werke; nicht überliefert)
 Beantwortet in: 1895-11-13post/1895-11-20ante AS an SF (Zusage 'Liebelei' bei SF; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0051"/>33<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0051"/>33<lb/>
 28<lb/>
 S. FISCHER.VERLAG Bücher<lb/>
 was habe is<lb/>
@@ -187,7 +177,8 @@ es kommt ledig<lb/>
 huchhaut<lb/>
 all<lb/>
 darcunf xyz</p>
-        <p><pb facs="1416742_0052"/>33<lb/>
+        <p>
+          <pb facs="1416742_0052"/>33<lb/>
 3/4<lb/>
 G.<lb/>
 unterrichten dem Ihre Bücher bei mir<lb/>
@@ -216,7 +207,8 @@ Retrieb führen und nicht jeden Autor<lb/>
 (so wie ich) individuell behandeln<lb/>
 resp. nach seiner Eigenart in diejenigen<lb/>
 Kreise einzuführen suchen in die er zunächst</p>
-        <p><pb facs="1416742_0053"/>33<lb/>
+        <p>
+          <pb facs="1416742_0053"/>33<lb/>
 t.<lb/>
 13/10<lb/>
 9<lb/>

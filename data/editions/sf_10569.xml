@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -75,6 +76,18 @@ Anlage: Aufstellung Erfolg Pygmalion - Professor Bernhardi, 1 Blatt, 1 Seite</no
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10844">Bassermann, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116110627">Behrend, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7777">Hellmer, Arthur</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb88756">Frankfurter Schauspielhaus</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb300058">Neues Theater Frankfurt am Main</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10569.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -82,36 +95,6 @@ Anlage: Aufstellung Erfolg Pygmalion - Professor Bernhardi, 1 Blatt, 1 Seite</no
           <term>Uraufführung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb10844" source="https://pmb.acdh.oeaw.ac.at/entity/10844/">
-          <persName>Bassermann, Albert</persName>
-        </person>
-        <person ref="116110627" source="https://d-nb.info/gnd/116110627">
-          <persName>Behrend, Max</persName>
-        </person>
-        <person ref="#pmb7777" source="https://pmb.acdh.oeaw.ac.at/entity/7777/">
-          <persName>Hellmer, Arthur</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb88756" source="https://pmb.acdh.oeaw.ac.at/entity/88756/">
-          <orgName>Frankfurter Schauspielhaus</orgName>
-        </org>
-        <org ref="#pmb300058" source="https://pmb.acdh.oeaw.ac.at/entity/300058/">
-          <orgName>Neues Theater Frankfurt am Main</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -124,8 +107,9 @@ Anlage: Aufstellung Erfolg Pygmalion - Professor Bernhardi, 1 Blatt, 1 Seite</no
 Antwort auf: <ref target="10566">1915-06-04 AS (Wien) an SF (Berlin)</ref>
 Anlage: Aufstellung Erfolg Pygmalion - Professor Bernhardi, 1 Blatt, 1 Seite</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0011"/>356<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0011"/>356<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
 9. Juni 1915<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -155,7 +139,8 @@ gegenwärtigen Zeitumstände gebeten hat, von einer Garantieforderung<lb/>
 Prené<lb/>
 abzusehen.<lb/>
 F. 121</p>
-        <p><pb facs="1416743_0012"/>Schnitzler, Komödie der Worte<lb/>
+        <p>
+          <pb facs="1416743_0012"/>Schnitzler, Komödie der Worte<lb/>
 Frankfu<lb/>
 ter (Dir, Hellmer)<lb/>
 elhä<lb/>

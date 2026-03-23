@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -93,6 +94,16 @@ Beantwortet in: 1910-02-01post/1910-02-12ante SF an AS (Aufführungsanfrage 'Epi
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb14182">Beöthy, Laszlo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb38269">Geiringer, Josef Eduard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4532">Jonas, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43471">Budapest</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10299.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -102,28 +113,6 @@ Beantwortet in: 1910-02-01post/1910-02-12ante SF an AS (Aufführungsanfrage 'Epi
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb14182" source="https://pmb.acdh.oeaw.ac.at/entity/14182/">
-          <persName>Beöthy, Laszlo</persName>
-        </person>
-        <person ref="#pmb38269" source="https://pmb.acdh.oeaw.ac.at/entity/38269/">
-          <persName>Geiringer, Josef Eduard</persName>
-        </person>
-        <person ref="#pmb4532" source="https://pmb.acdh.oeaw.ac.at/entity/4532/">
-          <persName>Jonas, Paul</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43471" source="https://pmb.acdh.oeaw.ac.at/entity/43471/">
-          <placeName>Budapest</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>

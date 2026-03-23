@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,6 +77,14 @@ Antwort auf: 1918-XX-XX AS (Wien) an SF (Loschwitz)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5156">Zifferer, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10662.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -93,22 +102,6 @@ Antwort auf: 1918-XX-XX AS (Wien) an SF (Loschwitz)</note>
           <term>Verkaufspreis/Ladenpreis</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb5156" source="https://pmb.acdh.oeaw.ac.at/entity/5156/">
-          <persName>Zifferer, Paul</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -122,8 +115,9 @@ Anlage: Abschrift von 1918-05-02 SF (Loschwitz) an Zifferer, Paul (Wien)
 Antwort auf: <ref target="10661">1918-05-07 AS (Wien) an SF (Loschwitz)</ref>
 Antwort auf: 1918-XX-XX AS (Wien) an SF (Loschwitz)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0127"/>E<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0127"/>E<lb/>
 In Berlin / Postscheckkonto Berlin Nr. 16622 — — — Ferasprech-Anschlüsse: Amt Lützow Nr* 16<lb/>
 Berlin W 57, Bülowstraße 90<lb/>
 z.Zt. Losowitz b. Dresden, den 17.<lb/>
@@ -163,7 +157,8 @@ Vermutung wegen der<lb/>
 Piessary<lb/>
 gleich<lb/>
 bei Ihnen is.</p>
-        <p><pb facs="1416743_0128"/>neb.neb###xC.d stiwdosoJ.1S.»<lb/>
+        <p>
+          <pb facs="1416743_0128"/>neb.neb###xC.d stiwdosoJ.1S.»<lb/>
 CH<lb/>
 en ist i a r o m a r r og a. r. m.<lb/>
 gelegenheit ist im Schweber und etwas<lb/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10575">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -68,6 +69,19 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb213">Bad Ischl</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb149241">Oberstdorf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45530">Deutsches Schauspielhaus in Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="44467-4">Münchner Schauspielhaus</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb44112">Nationaltheater München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="5038293-7">Schauspielhaus Köln</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb56911">Vereinigte Stadt-Theater zu Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10575.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -75,37 +89,6 @@
           <term>Uraufführung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-        <place ref="#pmb149241" source="https://pmb.acdh.oeaw.ac.at/entity/149241/">
-          <placeName>Oberstdorf</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb45530" source="https://pmb.acdh.oeaw.ac.at/entity/45530/">
-          <orgName>Deutsches Schauspielhaus in Hamburg</orgName>
-        </org>
-        <org ref="44467-4" source="https://d-nb.info/gnd/44467-4">
-          <orgName>Münchner Schauspielhaus</orgName>
-        </org>
-        <org ref="#pmb44112" source="https://pmb.acdh.oeaw.ac.at/entity/44112/">
-          <orgName>Nationaltheater München</orgName>
-        </org>
-        <org ref="5038293-7" source="https://d-nb.info/gnd/5038293-7">
-          <orgName>Schauspielhaus Köln</orgName>
-        </org>
-        <org ref="#pmb56911" source="https://pmb.acdh.oeaw.ac.at/entity/56911/">
-          <orgName>Vereinigte Stadt-Theater zu Leipzig</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -116,8 +99,9 @@
       <div type="letter">
         <p>1 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0021"/>361<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0021"/>361<lb/>
 S. Fischer, Verlag, Berlin M., Bülowstrasse 90<lb/>
 24/8. 1915<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -151,7 +135,8 @@ Weitere Verhandlungen schweben. Da es indessen schwer fällt. Ga-<lb/>
 rantiesummen zu erzielen, wird es zweckmässiger sein, weitere Ab-<lb/>
 schlüsse nicht zu forcieren, weil sich nach einer erfolgreichen<lb/>
 F. 208</p>
-        <p><pb facs="1416743_0022"/>Blatt2<lb/>
+        <p>
+          <pb facs="1416743_0022"/>Blatt2<lb/>
 FISCHER,VERLAG, BERLIN,<lb/>
 Aufführung in, Wien und Berlin leichter Garantien erzielen<lb/>
 lassen werden.<lb/>

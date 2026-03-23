@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -54,7 +55,8 @@
       <notesStmt>
         <note type="description">5 Blatt, 8 Seiten
 Antwort auf: <ref target="10653">1918-04-10 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10655">1918-04-23 SF (Loschwitz) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10655">1918-04-23 SF (Loschwitz) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1918-04-17.html</note>
       </notesStmt>
@@ -70,6 +72,15 @@ Beantwortet in: <ref target="10655">1918-04-23 SF (Loschwitz) an AS (Wien)</ref>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb22886">Prinzhorn, Ernst</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5156">Zifferer, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10654.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -83,25 +94,6 @@ Beantwortet in: <ref target="10655">1918-04-23 SF (Loschwitz) an AS (Wien)</ref>
           <term>österreichisch</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb22886" source="https://pmb.acdh.oeaw.ac.at/entity/22886/">
-          <persName>Prinzhorn, Ernst</persName>
-        </person>
-        <person ref="#pmb5156" source="https://pmb.acdh.oeaw.ac.at/entity/5156/">
-          <persName>Zifferer, Paul</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -112,10 +104,12 @@ Beantwortet in: <ref target="10655">1918-04-23 SF (Loschwitz) an AS (Wien)</ref>
       <div type="letter">
         <p>5 Blatt, 8 Seiten
 Antwort auf: <ref target="10653">1918-04-10 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10655">1918-04-23 SF (Loschwitz) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10655">1918-04-23 SF (Loschwitz) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0058"/>Meinung über all dies hören;eh dies geschehen<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0058"/>Meinung über all dies hören;eh dies geschehen<lb/>
 ist gedenke ich selbstverständlich nichts zu<lb/>
 unternehmen. Wäre Aussicht vorhanden, dass<lb/>
 die Papiernot bald schwände, so hätte ich über<lb/>
@@ -156,7 +150,8 @@ verboten ist, dass Sie in Wien drucken. Und zu<lb/>
 diesem Zwecke - eine rein formale Angelegenheit<lb/>
 eine Filiale Ihres Verlags gründen. Sie schie-<lb/>
 nen gegen Schluss des vorigen Jahres vollkommen</p>
-        <p><pb facs="1416739_0059"/>.1<lb/>
+        <p>
+          <pb facs="1416739_0059"/>.1<lb/>
 37<lb/>
 bereit darauf einzugehen und es ist mir nach<lb/>
 wie vor unklar, durch welche wirklichen oder<lb/>
@@ -200,7 +195,8 @@ zur Verfügung hätte und Sie nicht. Und welche Art<lb/>
 von Druck sollte denn auf Prinzhorn ausgeübt<lb/>
 werden? Er hat sich ja nicht geweigert Ihnen<lb/>
 das Papier zu überlassen, das Sie benötigen,</p>
-        <p><pb facs="1416739_0060"/>Votre amie.<lb/>
+        <p>
+          <pb facs="1416739_0060"/>Votre amie.<lb/>
 0<lb/>
 sondern er hat es Ihnen zur Verfügung gestellt.<lb/>
 Sie wurden zu einer letzten endgiltigen Bespre-<lb/>
@@ -246,7 +242,8 @@ ein Verleger<lb/>
 mit der Ihren. Das was xxx einen geringen Ge-<lb/>
 winn nennen kann für einen Autor schon eine ge-<lb/>
 wisse Rolle spielen und bei der ganz besonders</p>
-        <p><pb facs="1416739_0061"/>Ce qui nʼavoir vous ai- xxx<lb/>
+        <p>
+          <pb facs="1416739_0061"/>Ce qui nʼavoir vous ai- xxx<lb/>
 A.<lb/>
 G.C.P.<lb/>
 starken Nachfrage nach meinen Gesammelten Wer-<lb/>
@@ -293,7 +290,8 @@ für mich, nur für Sie, lieber Freund, der obennur<lb/>
 tragsteller bisher nicht geantwortet und werde<lb/>
 ein bestimmtes Quantum von Papier für mich auf-<lb/>
 auch selbstverständlich nichts irgendwie Ver-</p>
-        <p><pb facs="1416739_0062"/>8bre<lb/>
+        <p>
+          <pb facs="1416739_0062"/>8bre<lb/>
 pflichtendes unternehmen, ehe ich Ihre Meinung<lb/>
 gehört habe. Denn Sie wissen, wie ich zu Ihnen<lb/>
 stehe, und wie leid es mir täte, ich sagte es<lb/>
@@ -339,7 +337,8 @@ mir vielleicht einen Vorschlag hinsichtlich<lb/>
 Weiterführung der Angelegenheit.<lb/>
 Mein Telegramm haben sie wohl erhal¬<lb/>
 ten. Sie nehmen also wohl einen Ladenpreis von</p>
-        <p><pb facs="1416739_0063"/>4 Mark für die Hovelle in Aussicht. Wann soll<lb/>
+        <p>
+          <pb facs="1416739_0063"/>4 Mark für die Hovelle in Aussicht. Wann soll<lb/>
 die Hovelle in der N.R. erscheinen? Bie tele-<lb/>
 graphierte mir frühestens Juli; das schiebe<lb/>
 sich also dann auch weiter hinaus als wir<lb/>
@@ -372,7 +371,8 @@ rionetten“-Zyklus als solcher..Puppenspieler<lb/>
 ringere Erfolgdehancen als eine andere Zusammen<lb/>
 stellung, für die etwa „Kakadu“, „Grosse Szene<lb/>
 " Frau mit dem Dolch",, Literatur" u.a. in Be¬</p>
-        <p><pb facs="1416739_0064"/>tracht kämen.<lb/>
+        <p>
+          <pb facs="1416739_0064"/>tracht kämen.<lb/>
 Wie steht es denn nun eigentlich mit<lb/>
 Neuauflagen meiner Werke? Am wichtigsten wäre<lb/>
 mir der nun schon so lange vergriffene „Weg<lb/>
@@ -410,7 +410,8 @@ Werke ihre Radierung fehlt. Wenn das stimmen<lb/>
 recht<lb/>
 sollte, was ich eigentlich gar nicht glauben kann,<lb/>
 so ersuche ich das Porträt den künftigen Auflagen</p>
-        <p><pb facs="1416739_0065"/>wieder beigeben zu wollen.<lb/>
+        <p>
+          <pb facs="1416739_0065"/>wieder beigeben zu wollen.<lb/>
 4) Ich erbitte freundliche Zusendung von<lb/>
 (alles womöglich gebunden): 3 Exemplare „Gräs-<lb/>
 1er",2 Exemplare „Einsamer Weg“, 2 Exemplare<lb/>

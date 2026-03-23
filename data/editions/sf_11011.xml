@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11011">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -74,22 +75,18 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19016">Kalckar, Marc</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb64465">Norwegen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11011.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb19016" source="https://pmb.acdh.oeaw.ac.at/entity/19016/">
-          <persName>Kalckar, Marc</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb64465" source="https://pmb.acdh.oeaw.ac.at/entity/64465/">
-          <placeName>Norwegen</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -100,8 +97,9 @@
       <div type="letter">
         <p>1 Blatt, 1 Seite</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0640"/>1627<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0640"/>1627<lb/>
 scher/Verlag/Berlin M 57/Bülowstraße 90<lb/>
 2: Amt Lützow Nr. 1662. 6162 und 9292 / Postscheckkonto: Berlin Nr 16692<lb/>
 THEATERABTEILUNG<lb/>

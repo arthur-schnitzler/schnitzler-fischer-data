@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -97,6 +98,13 @@ Antwort auf: nicht überliefertes Dankesschreiben AS an SF nach seinem 50. Gebur
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb267651">Schmitt, Peter Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1073352463">Schur, Carl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="127688366">Sós, Edmund</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10440.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -108,17 +116,6 @@ Antwort auf: nicht überliefertes Dankesschreiben AS an SF nach seinem 50. Gebur
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb267651" source="https://pmb.acdh.oeaw.ac.at/entity/267651/">
-          <persName>Schmitt, Peter Paul</persName>
-        </person>
-        <person ref="1073352463" source="https://d-nb.info/gnd/1073352463">
-          <persName>Schur, Carl</persName>
-        </person>
-        <person ref="127688366" source="https://d-nb.info/gnd/127688366">
-          <persName>Sós, Edmund</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -132,8 +129,9 @@ Antwort auf: nicht überliefertes Dankesschreiben AS an SF nach seinem 50. Gebur
 Bezug auf: <ref target="10437">1912-05-08 AS an SF</ref> und <ref target="10438">1912-05-09 SF an AS</ref>
 Antwort auf: nicht überliefertes Dankesschreiben AS an SF nach seinem 50. Geburtstag (1912-05-15).</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0553"/>281<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0553"/>281<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
 30/5. 1912<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -161,7 +159,8 @@ Sie wollten Herrn Schur und Schmitt Ihre Gesammelten Werke mit<lb/>
 einer Dedikation zuschicken. Es ist Ihnen doch recht, wenn ich Sie<lb/>
 daran erinnere. Brauchen Sie dazu Exemplare, so stehen sie natürlich<lb/>
 zu Ihrer Verfügung.</p>
-        <p><pb facs="1416742_0554"/>Es hat mich sehr gefreut, dass die Ausgabe Ihren Beifall ge-<lb/>
+        <p>
+          <pb facs="1416742_0554"/>Es hat mich sehr gefreut, dass die Ausgabe Ihren Beifall ge-<lb/>
 funden hat. Lassen Sie mich Ihnen zugleich herzlichst für Ihre<lb/>
 lieben und guten Worte danken.<lb/>
 Mit herzlichen Grüssen<lb/>

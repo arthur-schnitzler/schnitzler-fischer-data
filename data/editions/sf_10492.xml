@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,7 +71,8 @@
         <note type="description">1 Blatt, 1 Seite beschrieben
 Anlagen: Anfrage engl. Übersetzungsrechte 'Weg ins Freie' (nicht überliefert); Anfrage einer (nicht identifizierten) "Dame" aus San Francisco, 'Professor Bernhardi' betreffend  (nicht überliefert).
 
-Beantwortet in: <ref target="10493">1913-03-28 AS an SF</ref></note>
+Beantwortet in: <ref target="10493">1913-03-28 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1913-03-25.html</note>
       </notesStmt>
@@ -86,6 +88,12 @@ Beantwortet in: <ref target="10493">1913-03-28 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb38216">San Francisco</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10492.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -94,14 +102,6 @@ Beantwortet in: <ref target="10493">1913-03-28 AS an SF</ref></note>
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb38216" source="https://pmb.acdh.oeaw.ac.at/entity/38216/">
-          <placeName>San Francisco</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -113,10 +113,12 @@ Beantwortet in: <ref target="10493">1913-03-28 AS an SF</ref></note>
         <p>1 Blatt, 1 Seite beschrieben
 Anlagen: Anfrage engl. Übersetzungsrechte 'Weg ins Freie' (nicht überliefert); Anfrage einer (nicht identifizierten) "Dame" aus San Francisco, 'Professor Bernhardi' betreffend  (nicht überliefert).
 
-Beantwortet in: <ref target="10493">1913-03-28 AS an SF</ref></p>
+Beantwortet in: <ref target="10493">1913-03-28 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0622"/>hi7<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0622"/>hi7<lb/>
 S. Fischer, Verlag, Berlin M., Bülowstrasse 90<lb/>
 25/3.13<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>

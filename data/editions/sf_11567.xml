@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -53,7 +54,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="11565">1930-04-14 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="11565">1930-04-14 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1930-04-17.html</note>
       </notesStmt>
@@ -70,6 +72,12 @@ Antwort auf: <ref target="11565">1930-04-14 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb21142">Massary, Fritzi</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11567.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -78,14 +86,6 @@ Antwort auf: <ref target="11565">1930-04-14 AS (Wien) an SF (Berlin)</ref></note
           <term>Tantiemen</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb21142" source="https://pmb.acdh.oeaw.ac.at/entity/21142/">
-          <persName>Massary, Fritzi</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -95,10 +95,12 @@ Antwort auf: <ref target="11565">1930-04-14 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="11565">1930-04-14 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="11565">1930-04-14 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416744_0032"/>967.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416744_0032"/>967.<lb/>
 Barquorts tant<lb/>
 ILIN W 57<lb/>
 VERLAG A.-G.<lb/>
@@ -147,7 +149,8 @@ Die Einnahmen von Stücken in denen Frau Massary spielt mit Stücke<lb/>
 in denen Kortner auftritt nicht zu vergleichen Es kommt sehr<lb/>
 oft in Berlin vor, dass Stücke hohe Aufführungsserien erreichen,<lb/>
 ohne dass ihre finanziellen Erträgnisse diese Anzahl von Auf-</p>
-        <p><pb facs="1416744_0033"/>P.<lb/>
+        <p>
+          <pb facs="1416744_0033"/>P.<lb/>
 TÄ W VILCHA<lb/>
 L.D.A.DA.INBV ZHORH a<lb/>
 G.C.H. G. GEd. M. R. B. J.<lb/>

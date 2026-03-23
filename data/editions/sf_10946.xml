@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -78,7 +79,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten
-Antwort auf: <ref target="10943">1922-10-24 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="10943">1922-10-24 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-11-07.html</note>
       </notesStmt>
@@ -95,6 +97,14 @@ Antwort auf: <ref target="10943">1922-10-24 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10836">Bartsch, Rudolf Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb92768">Woticky, Edward</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb313">Polen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Greenwich Village Theatre New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10946.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -105,24 +115,6 @@ Antwort auf: <ref target="10943">1922-10-24 AS (Wien) an SF (Berlin)</ref></note
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
-          <persName>Bartsch, Rudolf Hans</persName>
-        </person>
-        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
-          <persName>Woticky, Edward</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
-          <placeName>Polen</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org>
-          <orgName>Greenwich Village Theatre New York</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -132,10 +124,12 @@ Antwort auf: <ref target="10943">1922-10-24 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 3 Seiten
-Antwort auf: <ref target="10943">1922-10-24 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="10943">1922-10-24 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0556"/>ius,<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0556"/>ius,<lb/>
 Fischer/Verlag/Berlin M 57/Bülowstrasse 90<lb/>
 prechanschlüsse: Amt Lützow Nr. 1662. 6162 und 9292 / Postecheckkonto: Berlin Nr 16692<lb/>
 THEATERABTEILUNG<lb/>
@@ -210,7 +204,8 @@ en. Auch<lb/>
 können. xxx<lb/>
 re<lb/>
 erhalten</p>
-        <p><pb facs="1416743_0557"/>mitmäß gehalt.<lb/>
+        <p>
+          <pb facs="1416743_0557"/>mitmäß gehalt.<lb/>
 votre très bien<lb/>
 N. mihall :amodindnisset 20.20 baa 2.9.14.2631.M. wortud tusA..nachid.<lb/>
 HUJISTAASSTASHT.<lb/>
@@ -278,7 +273,8 @@ and<lb/>
 handen wäre. Ich hätte dann wohl<lb/>
 tionen re<lb/>
 à seranvert</p>
-        <p><pb facs="1416743_0558"/>fischer/Verlag/Berlin M 57/Bülowstrasse<lb/>
+        <p>
+          <pb facs="1416743_0558"/>fischer/Verlag/Berlin M 57/Bülowstrasse<lb/>
 anschlüsse: Amt Lützow Nr. 1662. 6162 und 9292 / Postscheekkonto: Berlin Nr.. 16892<lb/>
 THEATERABTEILUNG<lb/>
 eine gute Gelegenheit, unautorisierte Uebersetzungen zu ver-<lb/>

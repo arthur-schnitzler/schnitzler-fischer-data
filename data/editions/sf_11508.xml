@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -84,6 +85,14 @@ Anlage: Abschrift von Übersetzungsanfrage durch Henry Sternberg, Hasefer Verlag
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4374">Maril, Konrad</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Sternberg, Henry (Literaturagent, Bukarest)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb993">Bukarest</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb378">Rumänien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11508.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -95,22 +104,6 @@ Anlage: Abschrift von Übersetzungsanfrage durch Henry Sternberg, Hasefer Verlag
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4374" source="https://pmb.acdh.oeaw.ac.at/entity/4374/">
-          <persName>Maril, Konrad</persName>
-        </person>
-        <person>
-          <persName>Sternberg, Henry (Literaturagent, Bukarest)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb993" source="https://pmb.acdh.oeaw.ac.at/entity/993/">
-          <placeName>Bukarest</placeName>
-        </place>
-        <place ref="#pmb378" source="https://pmb.acdh.oeaw.ac.at/entity/378/">
-          <placeName>Rumänien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -123,8 +116,9 @@ Anlage: Abschrift von Übersetzungsanfrage durch Henry Sternberg, Hasefer Verlag
 Beantwortet in: <ref target="11512">1929-10-19 AS (Wien) an SF (Berlin)</ref>
 Anlage: Abschrift von Übersetzungsanfrage durch Henry Sternberg, Hasefer Verlag, Bukarest</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_1121"/>S. Fischer Verlag / Berlin W57 Bülowstraße 90<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_1121"/>S. Fischer Verlag / Berlin W57 Bülowstraße 90<lb/>
 AKTIENSESELISCHAFT<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto Berlin Nr. 16692<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 6162 bis 6164<lb/>

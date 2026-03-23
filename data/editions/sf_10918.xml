@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,7 +71,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
 Antwort auf: <ref target="10914">1922-06-01 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10920">1922-07-04 SF (Berlin) an AS (Wien)</ref>, <ref target="10923">1922-07-20 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10920">1922-07-04 SF (Berlin) an AS (Wien)</ref>, <ref target="10923">1922-07-20 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="published_in">Buohler 2011, 195 (Auszug)</note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-06-26.html</note>
@@ -87,6 +89,18 @@ Beantwortet in: <ref target="10920">1922-07-04 SF (Berlin) an AS (Wien)</ref>, <
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11646">Heller, Hugo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7914">Horovitz, Armin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2276">Thayer, Scofield</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10918.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,34 +114,6 @@ Beantwortet in: <ref target="10920">1922-07-04 SF (Berlin) an AS (Wien)</ref>, <
           <term>vergriffen</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-        <person ref="#pmb11646" source="https://pmb.acdh.oeaw.ac.at/entity/11646/">
-          <persName>Heller, Hugo</persName>
-        </person>
-        <person ref="#pmb7914" source="https://pmb.acdh.oeaw.ac.at/entity/7914/">
-          <persName>Horovitz, Armin</persName>
-        </person>
-        <person ref="#pmb2276" source="https://pmb.acdh.oeaw.ac.at/entity/2276/">
-          <persName>Thayer, Scofield</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -138,10 +124,12 @@ Beantwortet in: <ref target="10920">1922-07-04 SF (Berlin) an AS (Wien)</ref>, <
       <div type="letter">
         <p>1 Blatt, 2 Seiten
 Antwort auf: <ref target="10914">1922-06-01 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10920">1922-07-04 SF (Berlin) an AS (Wien)</ref>, <ref target="10923">1922-07-20 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10920">1922-07-04 SF (Berlin) an AS (Wien)</ref>, <ref target="10923">1922-07-20 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0242"/>man,<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0242"/>man,<lb/>
 -n<lb/>
 26.6.1922.<lb/>
 Fischer<lb/>
@@ -200,7 +188,8 @@ ausübt, als wie sie mir neulich in einem Briefe<lb/>
 andeuten liessen, die.Reigen - Aufführungen, die<lb/>
 aller menschlichen Berechnung nach doch eher<lb/>
 günstig auf den Verkauf meiner Bücher einwirken</p>
-        <p><pb facs="1416739_0243"/>müssten.<lb/>
+        <p>
+          <pb facs="1416739_0243"/>müssten.<lb/>
 Wegen der Verrechnung der Einzelausgaben nach<lb/>
 Absatz noch ein Wort. Soli das ungefähr so viel<lb/>
 heissen, als dass immer eine Auflage nach voll-<lb/>

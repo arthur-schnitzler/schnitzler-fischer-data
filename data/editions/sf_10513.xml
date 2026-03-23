@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -67,7 +68,8 @@
         <note type="description">1 Blatt, 1 Seite beschrieben
 Anlage: Vollmacht mit Liste der Werke AS, die ein russ. Händler in Berlin in unautorisierter Übersetzung verkauft (nicht überliefert)
 
-Beantwortet in: <ref target="10514">1913-11-29 AS an SF</ref></note>
+Beantwortet in: <ref target="10514">1913-11-29 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1913-10-01.html</note>
       </notesStmt>
@@ -84,6 +86,15 @@ Beantwortet in: <ref target="10514">1913-11-29 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43435">Schweiz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb687">Österreich-Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10513.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -92,23 +103,6 @@ Beantwortet in: <ref target="10514">1913-11-29 AS an SF</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-        <place ref="#pmb43435" source="https://pmb.acdh.oeaw.ac.at/entity/43435/">
-          <placeName>Schweiz</placeName>
-        </place>
-        <place ref="#pmb687" source="https://pmb.acdh.oeaw.ac.at/entity/687/">
-          <placeName>Österreich-Ungarn</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -120,10 +114,12 @@ Beantwortet in: <ref target="10514">1913-11-29 AS an SF</ref></note>
         <p>1 Blatt, 1 Seite beschrieben
 Anlage: Vollmacht mit Liste der Werke AS, die ein russ. Händler in Berlin in unautorisierter Übersetzung verkauft (nicht überliefert)
 
-Beantwortet in: <ref target="10514">1913-11-29 AS an SF</ref></p>
+Beantwortet in: <ref target="10514">1913-11-29 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0649"/>330<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0649"/>330<lb/>
 4.<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
 Den 1. Oktober 1913.<lb/>

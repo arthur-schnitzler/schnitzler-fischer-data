@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10451">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -84,22 +85,18 @@ Antwort auf: 1912-07-19ante AS an SF/EPT (Antwort auf Anfrage Baumfeld)</note>
           <persName type="coworker">Tal, Ernst Peter</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116089962">Baumfeld, Maurice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Deutsches Theater New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10451.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Garantiesumme</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="116089962" source="https://d-nb.info/gnd/116089962">
-          <persName>Baumfeld, Maurice</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org>
-          <orgName>Deutsches Theater New York</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -113,8 +110,9 @@ Anlagen: 1912-07-19 SF/EPT an Maurice Baumfeld (1 Blatt, 1 Seite beschrieben); 1
 
 Antwort auf: 1912-07-19ante AS an SF/EPT (Antwort auf Anfrage Baumfeld)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0564"/>288<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0564"/>288<lb/>
 S. FISCHER, VERLAG,’ BERLIN W., BÜLowSTR. 90<lb/>
 THEATERABTEILUNG<lb/>
 BERene W., DEN 29. Juli 18.<lb/>

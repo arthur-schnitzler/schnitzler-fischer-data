@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10116">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -102,6 +103,12 @@ keine zwischenzeitliche Korrespondenz zu erschließen</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb28645">Coschell, Moritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10116.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -112,16 +119,6 @@ keine zwischenzeitliche Korrespondenz zu erschließen</note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb28645" source="https://pmb.acdh.oeaw.ac.at/entity/28645/">
-          <persName>Coschell, Moritz</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -135,8 +132,9 @@ Beilage: Abrechnung
 
 keine zwischenzeitliche Korrespondenz zu erschließen</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0152"/>g.m..<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0152"/>g.m..<lb/>
 S. FISCHE<lb/>
 17/9, 1901<lb/>
 BERLIN W., DEN<lb/>

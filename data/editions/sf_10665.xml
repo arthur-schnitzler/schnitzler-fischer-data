@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -94,6 +95,17 @@
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10896">Bernauer, Rudolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2327">Löwenstamm, Emma</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8889">Meinhard, Carl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb24477">Schott, Richard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb162688">Wagner (Justizrat, Hermsdorf)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb348">Hermsdorf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb36247">Burgtheater Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10665.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -104,33 +116,6 @@
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10896" source="https://pmb.acdh.oeaw.ac.at/entity/10896/">
-          <persName>Bernauer, Rudolf</persName>
-        </person>
-        <person ref="#pmb2327" source="https://pmb.acdh.oeaw.ac.at/entity/2327/">
-          <persName>Löwenstamm, Emma</persName>
-        </person>
-        <person ref="#pmb8889" source="https://pmb.acdh.oeaw.ac.at/entity/8889/">
-          <persName>Meinhard, Carl</persName>
-        </person>
-        <person ref="#pmb24477" source="https://pmb.acdh.oeaw.ac.at/entity/24477/">
-          <persName>Schott, Richard</persName>
-        </person>
-        <person ref="#pmb162688" source="https://pmb.acdh.oeaw.ac.at/entity/162688/">
-          <persName>Wagner (Justizrat, Hermsdorf)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb348" source="https://pmb.acdh.oeaw.ac.at/entity/348/">
-          <placeName>Hermsdorf</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb36247" source="https://pmb.acdh.oeaw.ac.at/entity/36247/">
-          <orgName>Burgtheater Wien</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -141,8 +126,9 @@
       <div type="letter">
         <p>1 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0064"/>tracht kämen.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0064"/>tracht kämen.<lb/>
 Wie steht es denn nun eigentlich mit<lb/>
 Neuauflagen meiner Werke? Am wichtigsten wäre<lb/>
 mir der nun schon so lange vergriffene „Weg<lb/>
@@ -180,7 +166,8 @@ Werke ihre Radierung fehlt. Wenn das stimmen<lb/>
 recht<lb/>
 sollte, was ich eigentlich gar nicht glauben kann,<lb/>
 so ersuche ich das Porträt den künftigen Auflagen</p>
-        <p><pb facs="1416739_0065"/>wieder beigeben zu wollen.<lb/>
+        <p>
+          <pb facs="1416739_0065"/>wieder beigeben zu wollen.<lb/>
 4) Ich erbitte freundliche Zusendung von<lb/>
 (alles womöglich gebunden): 3 Exemplare „Gräs-<lb/>
 1er",2 Exemplare „Einsamer Weg“, 2 Exemplare<lb/>

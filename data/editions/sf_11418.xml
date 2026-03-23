@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -73,7 +74,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
 Antwort auf: <ref target="11414">1928-05-19 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11419">1928-06-09 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="11419">1928-06-09 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1928-06-07.html</note>
       </notesStmt>
@@ -90,6 +92,25 @@ Beantwortet in: <ref target="11419">1928-06-09 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Koller, Paul (Literaturagent?, Wien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20474">Linden, Gustaf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="nm0886327">Lugt Melsert, Cor van der</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116907940">Merwin, Bertold</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Rosenzweig, Helene (Literaturagentin? Übersetzerin?, Krakau)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Rökk-Richter, Stefano (Theateragent und Schriftsteller, Italien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb166">Frankreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb737">Krakau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43430">Tschechien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb888">Warschau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11418.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -117,55 +138,6 @@ Beantwortet in: <ref target="11419">1928-06-09 AS (Wien) an SF (Berlin)</ref></n
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person>
-          <persName>Koller, Paul (Literaturagent?, Wien)</persName>
-        </person>
-        <person ref="#pmb20474" source="https://pmb.acdh.oeaw.ac.at/entity/20474/">
-          <persName>Linden, Gustaf</persName>
-        </person>
-        <person ref="nm0886327" source="https://www.imdb.com/name/nm0886327/">
-          <persName>Lugt Melsert, Cor van der</persName>
-        </person>
-        <person ref="116907940" source="https://d-nb.info/gnd/116907940">
-          <persName>Merwin, Bertold</persName>
-        </person>
-        <person>
-          <persName>Rosenzweig, Helene (Literaturagentin? Übersetzerin?, Krakau)</persName>
-        </person>
-        <person>
-          <persName>Rökk-Richter, Stefano (Theateragent und Schriftsteller, Italien)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
-          <placeName>Frankreich</placeName>
-        </place>
-        <place ref="#pmb737" source="https://pmb.acdh.oeaw.ac.at/entity/737/">
-          <placeName>Krakau</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-        <place ref="#pmb43430" source="https://pmb.acdh.oeaw.ac.at/entity/43430/">
-          <placeName>Tschechien</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-        <place ref="#pmb888" source="https://pmb.acdh.oeaw.ac.at/entity/888/">
-          <placeName>Warschau</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -176,10 +148,12 @@ Beantwortet in: <ref target="11419">1928-06-09 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>2 Blatt, 2 Seiten
 Antwort auf: <ref target="11414">1928-05-19 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11419">1928-06-09 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="11419">1928-06-09 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_1032"/>aac<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_1032"/>aac<lb/>
 Kerne Kolland, Polen.<lb/>
 869 Stalin (Pr. 1.)<lb/>
 S. Fischer/Verlag / A.=G. Berlin B57<lb/>
@@ -216,7 +190,8 @@ Tantiemenverrechnung akzeptieren würden.<lb/>
 mitgeteilt.<lb/>
 b.w.<lb/>
 +aus der Tschechoslowakei</p>
-        <p><pb facs="1416743_1033"/>noch<lb/>
+        <p>
+          <pb facs="1416743_1033"/>noch<lb/>
 Vällt.<lb/>
 nunlich sein Hn.<lb/>
 Kritall nr 7 xxx kamtsgeld „Anaxk rdastusd rotuodäuad<lb/>

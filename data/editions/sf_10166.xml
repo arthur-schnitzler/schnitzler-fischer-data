@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10166">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -93,6 +94,17 @@ Anlage: 1906-04-19 Alice Kauser (New York) an SF (Berlin), Abschrift, 1 Blatt, 1
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10998">Brann, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1050467396">Fangor, Siegmund Oscar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb46224">Lemberg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb313">Polen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb186212">Marionettentheater Münchner Künstler</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10166.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,33 +112,6 @@ Anlage: 1906-04-19 Alice Kauser (New York) an SF (Berlin), Abschrift, 1 Blatt, 1
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10998" source="https://pmb.acdh.oeaw.ac.at/entity/10998/">
-          <persName>Brann, Paul</persName>
-        </person>
-        <person ref="1050467396" source="https://d-nb.info/gnd/1050467396">
-          <persName>Fangor, Siegmund Oscar</persName>
-        </person>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb46224" source="https://pmb.acdh.oeaw.ac.at/entity/46224/">
-          <placeName>Lemberg</placeName>
-        </place>
-        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
-          <placeName>Polen</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb186212" source="https://pmb.acdh.oeaw.ac.at/entity/186212/">
-          <orgName>Marionettentheater Münchner Künstler</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -138,8 +123,9 @@ Anlage: 1906-04-19 Alice Kauser (New York) an SF (Berlin), Abschrift, 1 Blatt, 1
         <p>1 Blatt, 2 Seiten beschrieben
 Anlage: 1906-04-19 Alice Kauser (New York) an SF (Berlin), Abschrift, 1 Blatt, 1 Seite beschrieben</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0238"/>135<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0238"/>135<lb/>
 FISCHER, VERLAG, BERLIN W. BÜLowSTR. 91<lb/>
 THEATERABTEILUNG<lb/>
 8. Mai os<lb/>
@@ -163,7 +149,8 @@ ten Bedingungen jetzt perfekt ist.<lb/>
 Schliesslich bitten wir noch gefl.<lb/>
 Kenntnis zu nehmen, dass sich Herr Siegmund<lb/>
 Oswald Fangor, Lemberg um die polnische</p>
-        <p><pb facs="1416742_0239"/>Uebersetzung von „Zwischenspiel“ bewirbt.<lb/>
+        <p>
+          <pb facs="1416742_0239"/>Uebersetzung von „Zwischenspiel“ bewirbt.<lb/>
 Wir haben diesen Herrn direkt an Ihre<lb/>
 Adresse verwiesen.<lb/>
 Hochachtungsvoll<lb/>

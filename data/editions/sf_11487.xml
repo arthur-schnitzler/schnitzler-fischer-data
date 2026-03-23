@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11487">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -71,6 +72,13 @@ in Kurrentschrift geschrieben</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11740">Hofmannsthal, Hugo von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11487.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -78,19 +86,6 @@ in Kurrentschrift geschrieben</note>
           <term>Reise/Urlaub</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11740" source="https://pmb.acdh.oeaw.ac.at/entity/11740/">
-          <persName>Hofmannsthal, Hugo von</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -102,8 +97,9 @@ in Kurrentschrift geschrieben</note>
         <p>3 Blatt, 4 Seiten
 in Kurrentschrift geschrieben</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_1101"/>918<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_1101"/>918<lb/>
 DIE NEUE RUNDSCHAU<lb/>
 S. FISCHER VerLAG 26. Juli<lb/>
 BERLIN W 57. Rlll.<lb/>
@@ -123,7 +119,8 @@ Wir wollten Ihnen schon vor¬<lb/>
 her Grüße um hier schicken,<lb/>
 Aber nur müßten nicht, wo<lb/>
 Sie seien, wo unsere Gedanken</p>
-        <p><pb facs="1416743_1102"/>918<lb/>
+        <p>
+          <pb facs="1416743_1102"/>918<lb/>
 DIE NEUE RUNDSCHAU<lb/>
 S. FISCHER VE<lb/>
 DERLIN W 57. R.D<lb/>
@@ -168,7 +165,8 @@ Wir wollten Ihnen schon vor<lb/>
 hier Grüße von hier schicken<lb/>
 über nur müssten nicht, wo<lb/>
 Sie seien, wo unsern Gedanken</p>
-        <p><pb facs="1416743_1103"/>DIE NEUE RUNDSCHAU<lb/>
+        <p>
+          <pb facs="1416743_1103"/>DIE NEUE RUNDSCHAU<lb/>
 S. FISCHER Verla<lb/>
 DAKTIO<lb/>
 BERLIN W S. R.D.<lb/>
@@ -204,7 +202,8 @@ als wir schon die Todesmahnicht hatten,<lb/>
 mich einen sehr lieben, freundschaftliche<lb/>
 Brief vom 12ten dutiert von Flofe<lb/>
 mansthal erhielt in dem er</p>
-        <p><pb facs="1416743_1104"/>18<lb/>
+        <p>
+          <pb facs="1416743_1104"/>18<lb/>
 S. FISCHERVERLAO<lb/>
 DIE NEUE RUNDSCHAU<lb/>
 26. Juli 192<lb/>

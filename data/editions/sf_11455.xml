@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11455">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -75,6 +76,12 @@
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12537">Robert, Eugen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb37114">Robert-Bühnen Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11455.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -83,16 +90,6 @@
           <term>Theater</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb12537" source="https://pmb.acdh.oeaw.ac.at/entity/12537/">
-          <persName>Robert, Eugen</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="#pmb37114" source="https://pmb.acdh.oeaw.ac.at/entity/37114/">
-          <orgName>Robert-Bühnen Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <text>

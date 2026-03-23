@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -87,6 +88,16 @@
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10844">Bassermann, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11250">Eloesser, Arthur</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2167">Salten, Felix</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="7590354-4">Lessing-Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb57124">Schiller-Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10614.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -95,28 +106,6 @@
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb10844" source="https://pmb.acdh.oeaw.ac.at/entity/10844/">
-          <persName>Bassermann, Albert</persName>
-        </person>
-        <person ref="#pmb11250" source="https://pmb.acdh.oeaw.ac.at/entity/11250/">
-          <persName>Eloesser, Arthur</persName>
-        </person>
-        <person ref="#pmb2167" source="https://pmb.acdh.oeaw.ac.at/entity/2167/">
-          <persName>Salten, Felix</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="7590354-4" source="https://d-nb.info/gnd/7590354-4">
-          <orgName>Lessing-Theater Berlin</orgName>
-        </org>
-        <org ref="#pmb57124" source="https://pmb.acdh.oeaw.ac.at/entity/57124/">
-          <orgName>Schiller-Theater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -127,8 +116,9 @@
       <div type="letter">
         <p>1 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0033"/>e<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0033"/>e<lb/>
 25.5.1917.<lb/>
 Fischw.<lb/>
 haben ihn zum Verzicht auf den "Bernhardi" zu<lb/>
@@ -180,7 +170,8 @@ drei Exemplare „Der Weg ins Freie“ geb. zusen.<lb/>
 den zu lassen. - Herzlichst grüssend<lb/>
 lertheater vorzuziehen; aber ponhardi Schiller-<lb/>
 Ihr</p>
-        <p><pb facs="1416739_0034"/>theater und „Weites Land" mit Bassermann am 1<lb/>
+        <p>
+          <pb facs="1416739_0034"/>theater und „Weites Land" mit Bassermann am 1<lb/>
 Lessingtheater wäre wohl noch besser.<lb/>
 Möchten sie mir zwei oder drei Nummern<lb/>
 der Weltliteratur mit meinen Sachen gelegent-<lb/>

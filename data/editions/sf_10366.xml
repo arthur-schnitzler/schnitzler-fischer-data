@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10366">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -82,6 +83,15 @@ Es folgten persönliche Treffen in Berlin (Tgb 1911-02-03 und 1911-02-22 bis -26
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10986">Brahm, Otto</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="7590354-4">Lessing-Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="62532-2">Neue Freie Volksbühne Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb57124">Schiller-Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Theater der Deutschen Bühne Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10366.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,25 +101,6 @@ Es folgten persönliche Treffen in Berlin (Tgb 1911-02-03 und 1911-02-22 bis -26
           <term>Vertragsverlängerung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10986" source="https://pmb.acdh.oeaw.ac.at/entity/10986/">
-          <persName>Brahm, Otto</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="7590354-4" source="https://d-nb.info/gnd/7590354-4">
-          <orgName>Lessing-Theater Berlin</orgName>
-        </org>
-        <org ref="62532-2" source="https://d-nb.info/gnd/62532-2">
-          <orgName>Neue Freie Volksbühne Berlin</orgName>
-        </org>
-        <org ref="#pmb57124" source="https://pmb.acdh.oeaw.ac.at/entity/57124/">
-          <orgName>Schiller-Theater Berlin</orgName>
-        </org>
-        <org>
-          <orgName>Theater der Deutschen Bühne Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -92,7 +93,8 @@
         <note type="description">2 Blatt, 3 Seiten
 
 Antwort auf: <ref target="10237">1908-10-06 SF an AS</ref>
-Beantwortet in: <ref target="10241">1908-10-23 SF an AS</ref></note>
+Beantwortet in: <ref target="10241">1908-10-23 SF an AS</ref>
+        </note>
         <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1908-10-21.html</note>
       </notesStmt>
@@ -108,6 +110,18 @@ Beantwortet in: <ref target="10241">1908-10-23 SF an AS</ref></note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2874">Eirich, Oskar Friedrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2871">Entsch, Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12341">Neumann, Angelo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb860">Graz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb652">Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10240.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -116,34 +130,6 @@ Beantwortet in: <ref target="10241">1908-10-23 SF an AS</ref></note>
           <term>Urheberrecht/Copyright</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2874" source="https://pmb.acdh.oeaw.ac.at/entity/2874/">
-          <persName>Eirich, Oskar Friedrich</persName>
-        </person>
-        <person ref="#pmb2871" source="https://pmb.acdh.oeaw.ac.at/entity/2871/">
-          <persName>Entsch, Theodor</persName>
-        </person>
-        <person ref="#pmb12341" source="https://pmb.acdh.oeaw.ac.at/entity/12341/">
-          <persName>Neumann, Angelo</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb860" source="https://pmb.acdh.oeaw.ac.at/entity/860/">
-          <placeName>Graz</placeName>
-        </place>
-        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
-          <placeName>Prag</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -155,7 +141,8 @@ Beantwortet in: <ref target="10241">1908-10-23 SF an AS</ref></note>
         <p>2 Blatt, 3 Seiten
 
 Antwort auf: <ref target="10237">1908-10-06 SF an AS</ref>
-Beantwortet in: <ref target="10241">1908-10-23 SF an AS</ref></p>
+Beantwortet in: <ref target="10241">1908-10-23 SF an AS</ref>
+        </p>
       </div>
     </body>
   </text>

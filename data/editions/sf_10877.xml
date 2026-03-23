@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10877">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -77,6 +78,12 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb92768">Woticky, Edward</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10877.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -86,16 +93,6 @@
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
-          <persName>Woticky, Edward</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -106,8 +103,9 @@
       <div type="letter">
         <p>1 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0451"/>538<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0451"/>538<lb/>
 90<lb/>
 S. Fischer/Verlag/Berlin W 57/ Bülowstrasse<lb/>
 Bankkonto: Deutsche Bank. Depositenkasse P in Berlin / Postscheckkonto; Berlin Nr. 16892<lb/>
@@ -148,7 +146,8 @@ Wir ersuchen daher höflichst, uns auf einem besonderen Blatt zu be-<lb/>
 stätigen, dass ausser uns niemand berechtigt ist, das Recht für eine<lb/>
 englische Buchausgabe, sowie englischer Aufführungen in Amerika von<lb/>
 „ Weites Land „ zu vergeben. Die Zchtheit Ihrer Unterschrift muss dann</p>
-        <p><pb facs="1416743_0452"/>P.S.<lb/>
+        <p>
+          <pb facs="1416743_0452"/>P.S.<lb/>
 .1.73<lb/>
 Pr.<lb/>
 G.H.F.P.<lb/>

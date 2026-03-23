@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -61,7 +62,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
-Antwort auf: <ref target="10595">1916-02-19 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="10595">1916-02-19 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1916-02-25.html</note>
       </notesStmt>
@@ -77,6 +79,20 @@ Antwort auf: <ref target="10595">1916-02-19 SF (Berlin) an AS (Wien)</ref></note
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10986">Brahm, Otto</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45530">Deutsches Schauspielhaus in Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45430">Kleines Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="7590354-4">Lessing-Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="62532-2">Neue Freie Volksbühne Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb37019">Thaliatheater Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10596.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -85,42 +101,6 @@ Antwort auf: <ref target="10595">1916-02-19 SF (Berlin) an AS (Wien)</ref></note
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb10986" source="https://pmb.acdh.oeaw.ac.at/entity/10986/">
-          <persName>Brahm, Otto</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb45530" source="https://pmb.acdh.oeaw.ac.at/entity/45530/">
-          <orgName>Deutsches Schauspielhaus in Hamburg</orgName>
-        </org>
-        <org ref="#pmb45430" source="https://pmb.acdh.oeaw.ac.at/entity/45430/">
-          <orgName>Kleines Theater Berlin</orgName>
-        </org>
-        <org ref="7590354-4" source="https://d-nb.info/gnd/7590354-4">
-          <orgName>Lessing-Theater Berlin</orgName>
-        </org>
-        <org ref="62532-2" source="https://d-nb.info/gnd/62532-2">
-          <orgName>Neue Freie Volksbühne Berlin</orgName>
-        </org>
-        <org ref="#pmb37019" source="https://pmb.acdh.oeaw.ac.at/entity/37019/">
-          <orgName>Thaliatheater Hamburg</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -130,10 +110,12 @@ Antwort auf: <ref target="10595">1916-02-19 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 4 Seiten
-Antwort auf: <ref target="10595">1916-02-19 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="10595">1916-02-19 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0006"/>25.2.1916.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0006"/>25.2.1916.<lb/>
 An c. Fischers Verlag<lb/>
 (~n~t~v~ll~.t~<lb/>
 Theatervertrieb<lb/>
@@ -157,7 +139,8 @@ das Zwischenspiel mit Barnowsky einen Vertrag<lb/>
 geschlossen haben war mir unbekannt.<lb/>
 Aber auch ganz im,llgemeinen vermag<lb/>
 ich ihrer Auffassung bezüglich Ihrer Provision</p>
-        <p><pb facs="1416739_0007"/>ansprüche in Wien, Berlin und Hamburg nicht beizu<lb/>
+        <p>
+          <pb facs="1416739_0007"/>ansprüche in Wien, Berlin und Hamburg nicht beizu<lb/>
 pflichten, was Ihnen umso verständlicher sein<lb/>
 wird, da Sie es selbst nicht tun. Sie haben<lb/>
 tatsächlich weder in Hamburg,Deutsches Schau¬<lb/>
@@ -177,7 +160,8 @@ Rechnung direkt an Sie überweist, irgend welche<lb/>
 Perzente in Abzug gebracht, sind also in diesem<lb/>
 wie in zahlredchen anderen Fällen höchst loya-<lb/>
 ler Weise nicht nach dem mir gar nicht mehr</p>
-        <p><pb facs="1416739_0008"/>erinnerlich gewesenen, auch nicht ganz klar ge-<lb/>
+        <p>
+          <pb facs="1416739_0008"/>erinnerlich gewesenen, auch nicht ganz klar ge-<lb/>
 fassten Paragraphen unseres Vertrags, sondern<lb/>
 nach der Absicht und nach dem Sinn desselben<lb/>
 vorgegangen,wobei wir's wohl auch belassen wol<lb/>
@@ -198,7 +182,8 @@ wo Sie zu speziellen Verhandlungen genötigt<lb/>
 waren, auch für Hamburg (Thaliatheater, etc. und<lb/>
 Berlin (Volksbühne seinerzeit glaube ich Ihre<lb/>
 Provision berechneten, ist natürlich ganz in</p>
-        <p><pb facs="1416739_0009"/>4<lb/>
+        <p>
+          <pb facs="1416739_0009"/>4<lb/>
 Ordnung gewesen.<lb/>
 Dies alles keineswegs in Anbetracht der<lb/>
 geringfügigen Beträge,die hier in Frage stehen,<lb/>

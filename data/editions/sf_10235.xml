@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -81,7 +82,8 @@
         <note type="description">1 Blatt, 2 Seiten beschrieben
 Anlage: 1908-09-## Fortnightly Review an SF (nicht überliefert)
 
-Beantwortet in: <ref target="10236">1908-10-01 AS an SF</ref></note>
+Beantwortet in: <ref target="10236">1908-10-01 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1908-09-28.html</note>
       </notesStmt>
@@ -97,6 +99,12 @@ Beantwortet in: <ref target="10236">1908-10-01 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb178500">Bloch, Eduard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2871">Entsch, Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10235.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -105,14 +113,6 @@ Beantwortet in: <ref target="10236">1908-10-01 AS an SF</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb178500" source="https://pmb.acdh.oeaw.ac.at/entity/178500/">
-          <persName>Bloch, Eduard</persName>
-        </person>
-        <person ref="#pmb2871" source="https://pmb.acdh.oeaw.ac.at/entity/2871/">
-          <persName>Entsch, Theodor</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -124,10 +124,12 @@ Beantwortet in: <ref target="10236">1908-10-01 AS an SF</ref></note>
         <p>1 Blatt, 2 Seiten beschrieben
 Anlage: 1908-09-## Fortnightly Review an SF (nicht überliefert)
 
-Beantwortet in: <ref target="10236">1908-10-01 AS an SF</ref></p>
+Beantwortet in: <ref target="10236">1908-10-01 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0350"/>CHER,VERLAG, BERene W., BÜLÖWSTR. 90<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0350"/>CHER,VERLAG, BERene W., BÜLÖWSTR. 90<lb/>
 THEATERABTEILUNG<lb/>
 BERene W., DEN 28. Sept. 08<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -147,7 +149,8 @@ jetzt für Sie eingegangen ist. Sollte inzwischen<lb/>
 etwas bei Bloch für Sie bezahlt sein, so wird er es<lb/>
 verschieke sofleich an<lb/>
 mit mir verrecht</p>
-        <p><pb facs="1416742_0351"/>Bühnen ein Zirkular mit der Mitteilung, dass die<lb/>
+        <p>
+          <pb facs="1416742_0351"/>Bühnen ein Zirkular mit der Mitteilung, dass die<lb/>
 Verrechnung über die Stücke. die bisher bei Entsch<lb/>
 waren. In Zukunft mit mir zu geschehen hat. Auch<lb/>
 habe ich Bloch gebeten, mir das ganze Material, das<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -81,7 +82,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
-Antwort auf: <ref target="10860">1921-10-26 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="10860">1921-10-26 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1921-10-31.html</note>
       </notesStmt>
@@ -97,6 +99,22 @@ Antwort auf: <ref target="10860">1921-10-26 SF (Berlin) an AS (Wien)</ref></note
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10836">Bartsch, Rudolf Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11527">Großmann, Stefan</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17547">Gurevich, Boris</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12274">Moissi, Alexander</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116324333">Raggio, Enrico</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23675">Rotter, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3876">Rotter, Fritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40709">Amsterdam</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb677">Breslau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb378">Rumänien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10861.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -110,46 +128,6 @@ Antwort auf: <ref target="10860">1921-10-26 SF (Berlin) an AS (Wien)</ref></note
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
-          <persName>Bartsch, Rudolf Hans</persName>
-        </person>
-        <person ref="#pmb11527" source="https://pmb.acdh.oeaw.ac.at/entity/11527/">
-          <persName>Großmann, Stefan</persName>
-        </person>
-        <person ref="#pmb17547" source="https://pmb.acdh.oeaw.ac.at/entity/17547/">
-          <persName>Gurevich, Boris</persName>
-        </person>
-        <person ref="#pmb12274" source="https://pmb.acdh.oeaw.ac.at/entity/12274/">
-          <persName>Moissi, Alexander</persName>
-        </person>
-        <person ref="116324333" source="https://d-nb.info/gnd/116324333">
-          <persName>Raggio, Enrico</persName>
-        </person>
-        <person ref="#pmb23675" source="https://pmb.acdh.oeaw.ac.at/entity/23675/">
-          <persName>Rotter, Alfred</persName>
-        </person>
-        <person ref="#pmb3876" source="https://pmb.acdh.oeaw.ac.at/entity/3876/">
-          <persName>Rotter, Fritz</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb40709" source="https://pmb.acdh.oeaw.ac.at/entity/40709/">
-          <placeName>Amsterdam</placeName>
-        </place>
-        <place ref="#pmb677" source="https://pmb.acdh.oeaw.ac.at/entity/677/">
-          <placeName>Breslau</placeName>
-        </place>
-        <place ref="#pmb378" source="https://pmb.acdh.oeaw.ac.at/entity/378/">
-          <placeName>Rumänien</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -159,10 +137,12 @@ Antwort auf: <ref target="10860">1921-10-26 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 4 Seiten
-Antwort auf: <ref target="10860">1921-10-26 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="10860">1921-10-26 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0202"/>Vischer<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0202"/>Vischer<lb/>
 31.10.1921.<lb/>
 Lieber Freund.<lb/>
 1. Ich erhielt heute einen Brief von<lb/>
@@ -200,7 +180,8 @@ der Bewerber nicht zu verschweigen oder,wenn<lb/>
 Ihnen das aus irgend einen Grund nicht passen<lb/>
 sollte, amerikanische Antragssteller und Bewer-<lb/>
 ber direkt an mich zu weisen, da ich doch</p>
-        <p><pb facs="1416739_0203"/>Pr.<lb/>
+        <p>
+          <pb facs="1416739_0203"/>Pr.<lb/>
 ohnehin über das Ausland freies Verfügungs -<lb/>
 recht habe. Was die zu hoch gegriffenen Hono<lb/>
 rarbedingungen anbelangt, so schrieb ich Ihnen<lb/>
@@ -279,7 +260,8 @@ o erinnere ich mich heuer im Sommer in einem<lb/>
 euilleton von Stefan Grossmann, Neue freie<lb/>
 resse, den Bericht über irgendwelche Schmieren<lb/>
 ufführungen des "Reigen" gelesen zu haben</p>
-        <p><pb facs="1416739_0204"/>P.<lb/>
+        <p>
+          <pb facs="1416739_0204"/>P.<lb/>
 Über die eine Kontroll offenbar gar nicht<lb/>
 möglich ist zu sein scheint. Auch die Bres¬<lb/>
 lauer Reigen-Angelegenheit ist mir etwas dun¬<lb/>
@@ -337,7 +319,8 @@ meinem sinn gehandelt? Sie schrieben mir näm<lb/>
 lichse herzelt, dass Sie das Aufführungsrecht<lb/>
 für 500 dänische Kronen überlassen hätten und<lb/>
 ich erhalte aus Zürich die Anzeige von der</p>
-        <p><pb facs="1416739_0205"/>Ueberweisung von 400 dänischen vronen. Hier ist<lb/>
+        <p>
+          <pb facs="1416739_0205"/>Ueberweisung von 400 dänischen vronen. Hier ist<lb/>
 doch wohl die Provision schon abgezogen.<lb/>
 4. Mein Telegramm betreffend Amerika-<lb/>
 land" haben sie erhalten. Das ist ein<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -61,7 +62,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="10918">1922-06-26 AS (Wien) an SF (Berlin)</ref>, <ref target="10922">1922-07-17 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="10918">1922-06-26 AS (Wien) an SF (Berlin)</ref>, <ref target="10922">1922-07-17 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-07-20.html</note>
       </notesStmt>
@@ -77,6 +79,13 @@ Antwort auf: <ref target="10918">1922-06-26 AS (Wien) an SF (Berlin)</ref>, <ref
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10836">Bartsch, Rudolf Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11515">Greiner, Leo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10923.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -85,19 +94,6 @@ Antwort auf: <ref target="10918">1922-06-26 AS (Wien) an SF (Berlin)</ref>, <ref
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
-          <persName>Bartsch, Rudolf Hans</persName>
-        </person>
-        <person ref="#pmb11515" source="https://pmb.acdh.oeaw.ac.at/entity/11515/">
-          <persName>Greiner, Leo</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -107,10 +103,12 @@ Antwort auf: <ref target="10918">1922-06-26 AS (Wien) an SF (Berlin)</ref>, <ref
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="10918">1922-06-26 AS (Wien) an SF (Berlin)</ref>, <ref target="10922">1922-07-17 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="10918">1922-06-26 AS (Wien) an SF (Berlin)</ref>, <ref target="10922">1922-07-17 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0504"/>566<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0504"/>566<lb/>
 S. Fischer/Verlag/Berlin M 57/Bülowstraße 9o<lb/>
 anschlüsse: Amt Lützow Nr. 1662. 6162 und 9292 / Postscheckkonto: Berlin Nr“ 16692<lb/>
 THEATERABTEILUNG<lb/>
@@ -154,7 +152,8 @@ Eigentümer figurieren. Hoffentlich schafft es nun keine Verwirrung<lb/>
 xxx alsmab Hof xxx<lb/>
 auch darauf sehr überallen und sein.<lb/>
 sogar0 vJtego¬</p>
-        <p><pb facs="1416743_0505"/>D'Millea Dehme<lb/>
+        <p>
+          <pb facs="1416743_0505"/>D'Millea Dehme<lb/>
 se réservement des<lb/>
 vrai arais 't 't :t :n j :n r :a<lb/>
 V.V.A.K.P.S.<lb/>

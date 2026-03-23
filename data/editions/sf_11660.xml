@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,6 +77,11 @@ Unbekannter Verfasser</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2167">Salten, Felix</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11660.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -84,11 +90,6 @@ Unbekannter Verfasser</note>
           <term>Buchillustration</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2167" source="https://pmb.acdh.oeaw.ac.at/entity/2167/">
-          <persName>Salten, Felix</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -101,8 +102,9 @@ Unbekannter Verfasser</note>
 Beantwortet in: <ref target="11662">1931-04-18 AS (Wien) an SF (Berlin)</ref>
 Unbekannter Verfasser</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416744_0122"/>1029 Reise Aussin<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416744_0122"/>1029 Reise Aussin<lb/>
 1:1:4:<lb/>
 P:<lb/>
 S. Fischer Verlag / Berlin W57 Bülowstratze 90<lb/>

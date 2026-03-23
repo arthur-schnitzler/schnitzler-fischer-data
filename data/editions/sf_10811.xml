@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10811">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -81,6 +82,12 @@
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2874">Eirich, Oskar Friedrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19465">Knepler, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10811.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -89,14 +96,6 @@
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2874" source="https://pmb.acdh.oeaw.ac.at/entity/2874/">
-          <persName>Eirich, Oskar Friedrich</persName>
-        </person>
-        <person ref="#pmb19465" source="https://pmb.acdh.oeaw.ac.at/entity/19465/">
-          <persName>Knepler, Paul</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -107,8 +106,9 @@
       <div type="letter">
         <p>1 Blatt, 1 Seite</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0178"/>Herr Dr.Richard Wrede, Weimar, hat mir<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0178"/>Herr Dr.Richard Wrede, Weimar, hat mir<lb/>
 noch einmal geschrieben und nach seinen Aus-<lb/>
 führungen wäre ein Gastspiel durch das<lb/>
 Wredische Ensemble speziell in Weimar doch<lb/>

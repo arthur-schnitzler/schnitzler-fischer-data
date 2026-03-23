@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -64,7 +65,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
-Antwort auf: <ref target="10716">1919-09-24 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="10716">1919-09-24 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1919-09-30.html</note>
       </notesStmt>
@@ -81,6 +83,15 @@ Antwort auf: <ref target="10716">1919-09-24 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb146">Frankfurt am Main</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb250435">Hamburger Kammerspiele</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="1231430-4">Königliches Deutsches Landestheater Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10717.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -94,25 +105,6 @@ Antwort auf: <ref target="10716">1919-09-24 AS (Wien) an SF (Berlin)</ref></note
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb146" source="https://pmb.acdh.oeaw.ac.at/entity/146/">
-          <placeName>Frankfurt am Main</placeName>
-        </place>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb250435" source="https://pmb.acdh.oeaw.ac.at/entity/250435/">
-          <orgName>Hamburger Kammerspiele</orgName>
-        </org>
-        <org ref="1231430-4" source="https://d-nb.info/gnd/1231430-4">
-          <orgName>Königliches Deutsches Landestheater Prag</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -122,10 +114,12 @@ Antwort auf: <ref target="10716">1919-09-24 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 2 Seiten
-Antwort auf: <ref target="10716">1919-09-24 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="10716">1919-09-24 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0192"/>102<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0192"/>102<lb/>
 „<lb/>
 S. Fischer. Verlag. Berlin<lb/>
 auch die wissen<lb/>
@@ -164,7 +158,8 @@ entscheidende Antwort erhalten haben, so nehmen wir an, daß wir über das in Fr
 G.H.F.P.<lb/>
 9. 22».<lb/>
 8.</p>
-        <p><pb facs="1416743_0193"/>49.<lb/>
+        <p>
+          <pb facs="1416743_0193"/>49.<lb/>
 1.8.<lb/>
 auch<lb/>
 0<lb/>

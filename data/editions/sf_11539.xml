@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,7 +71,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
 Antwort auf: <ref target="11535">1930-01-30 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11541">1930-02-06 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="11541">1930-02-06 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1930-02-03.html</note>
       </notesStmt>
@@ -87,6 +89,13 @@ Beantwortet in: <ref target="11541">1930-02-06 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116289791">Price, Lawrence Marsden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb880">Chicago</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11539.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -96,19 +105,6 @@ Beantwortet in: <ref target="11541">1930-02-06 AS (Wien) an SF (Berlin)</ref></n
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="116289791" source="https://d-nb.info/gnd/116289791">
-          <persName>Price, Lawrence Marsden</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb880" source="https://pmb.acdh.oeaw.ac.at/entity/880/">
-          <placeName>Chicago</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -119,10 +115,12 @@ Beantwortet in: <ref target="11541">1930-02-06 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>1 Blatt, 2 Seiten
 Antwort auf: <ref target="11535">1930-01-30 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11541">1930-02-06 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="11541">1930-02-06 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416744_0013"/>Yours<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416744_0013"/>Yours<lb/>
 952<lb/>
 S. Fischer Verlag Perlin ### Buͤlowstraße 90<lb/>
 AKTIENSESELISCHAFT<lb/>
@@ -159,7 +157,8 @@ zu vereinen. Wir bitten Sie, uns Mitteilung darüber zugehen zu<lb/>
 lassen. Derselbe Professor Porterfield brachte mir übrigens<lb/>
 eine ähnliche Beschwerde über eine Ausgabe von „Der Ruppenspieler“<lb/>
 10, 29. 12000 V. S.</p>
-        <p><pb facs="1416744_0014"/>P0<lb/>
+        <p>
+          <pb facs="1416744_0014"/>P0<lb/>
 G.H.P.<lb/>
 G.C.H.F.P<lb/>
 in einem andern Verlag in diesem Sommer vor,<lb/>

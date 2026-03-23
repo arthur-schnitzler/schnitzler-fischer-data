@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10148">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -97,6 +98,21 @@ Antwort auf: 1904-08-29post/1904-09-03ante AS an SF (Copyright USA; nicht überl
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb14328">Blumenthal, Oskar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116851740">Lederer, Emanuel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20466">Lindemann, Gustav</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12899">Sudermann, Hermann</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb863">Düsseldorf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb47927">Washington</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10148.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -109,43 +125,6 @@ Antwort auf: 1904-08-29post/1904-09-03ante AS an SF (Copyright USA; nicht überl
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb14328" source="https://pmb.acdh.oeaw.ac.at/entity/14328/">
-          <persName>Blumenthal, Oskar</persName>
-        </person>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-        <person ref="116851740" source="https://d-nb.info/gnd/116851740">
-          <persName>Lederer, Emanuel</persName>
-        </person>
-        <person ref="#pmb20466" source="https://pmb.acdh.oeaw.ac.at/entity/20466/">
-          <persName>Lindemann, Gustav</persName>
-        </person>
-        <person ref="#pmb12899" source="https://pmb.acdh.oeaw.ac.at/entity/12899/">
-          <persName>Sudermann, Hermann</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb863" source="https://pmb.acdh.oeaw.ac.at/entity/863/">
-          <placeName>Düsseldorf</placeName>
-        </place>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb47927" source="https://pmb.acdh.oeaw.ac.at/entity/47927/">
-          <placeName>Washington</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -159,8 +138,9 @@ Anlagen: Druckschrift zu USA-Copyright (nicht überliefert); 1904-01-29 Emanuel 
 
 Antwort auf: 1904-08-29post/1904-09-03ante AS an SF (Copyright USA; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0204"/>120<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0204"/>120<lb/>
 S. FISCHER, VERLAG<lb/>
 atischen<lb/>
 BERene W., DEN 3. Sept. 1904<lb/>
@@ -215,7 +195,8 @@ den Standpunkt, der auch bei den Vertreter der Astlichen Stelle für den<lb/>
 istrierung is<lb/>
 deutschen Buchhandel in Neu-York offenbar naassgebond war: dass die Begliederungs¬<lb/>
 siben prak</p>
-        <p><pb facs="1416742_0205"/>3590.<lb/>
+        <p>
+          <pb facs="1416742_0205"/>3590.<lb/>
 trierung eines dramatischen Werkes in zwei Exemplaren in Washington, an<lb/>
 wenn es in Deutschland gedruckt ist, falls das Buch nicht früher erscheint<lb/>
 als bis die Registrierung erfolgt ist, vollständig für den Schutz ausreicht.<lb/>
@@ -250,7 +231,8 @@ einen praktischen Zweck nicht hat. Ich werde also zur Aufklärung der ganzen<lb/
 gebener<lb/>
 a e<lb/>
 Sept</p>
-        <p><pb facs="1416742_0206"/>9<lb/>
+        <p>
+          <pb facs="1416742_0206"/>9<lb/>
 90.<lb/>
 Frage für den Fall einer Aufführung in Amerika den Prozessweg beschreiten<lb/>
 und mich auf die Registrierung in Vasbington stützen, da ja Lederers Inter-<lb/>

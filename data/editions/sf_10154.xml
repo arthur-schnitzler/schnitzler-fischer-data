@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10154">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -88,6 +89,16 @@ Antwort auf: 1905-08-05 AS an SF (lt. Tgb 'Zwischenspiel'-Druckvorlage übersand
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20466">Lindemann, Gustav</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Winternitz, Marie (Übersetzerin, Polen)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4829">Zweig, Friderike Maria</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb313">Polen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10154.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -99,28 +110,6 @@ Antwort auf: 1905-08-05 AS an SF (lt. Tgb 'Zwischenspiel'-Druckvorlage übersand
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb20466" source="https://pmb.acdh.oeaw.ac.at/entity/20466/">
-          <persName>Lindemann, Gustav</persName>
-        </person>
-        <person>
-          <persName>Winternitz, Marie (Übersetzerin, Polen)</persName>
-        </person>
-        <person ref="#pmb4829" source="https://pmb.acdh.oeaw.ac.at/entity/4829/">
-          <persName>Zweig, Friderike Maria</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
-          <placeName>Polen</placeName>
-        </place>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -134,8 +123,9 @@ Anlagen: briefliche Übersetzungsanfragen (nicht überliefert)
 
 Antwort auf: 1905-08-05 AS an SF (lt. Tgb 'Zwischenspiel'-Druckvorlage übersandt; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0220"/>126<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0220"/>126<lb/>
 S. FISCHER,VERLAG, BERLIN W., BÜLowSTR. 91<lb/>
 THEATERABTEILUNG<lb/>
 BERene W., DEN...15. Sept. 05.<lb/>
@@ -157,7 +147,8 @@ Um das Copyright für Amerika können wir uns erst<lb/>
 bewerben, wenn der genaue Erscheinungstermin des<lb/>
 Buches feststeht, denn nach einer neuen Verordnung<lb/>
 G.C. 538</p>
-        <p><pb facs="1416742_0221"/>ist es notwendig, dass auf den Exemplaren der ers-<lb/>
+        <p>
+          <pb facs="1416742_0221"/>ist es notwendig, dass auf den Exemplaren der ers-<lb/>
 ten Ausgabe das Datum des Erscheinens verzeichnet<lb/>
 ist. Wollen Sie wirklich den 10. Dezember als den<lb/>
 Termin der Buchausgabe feststellen? Ich fürchte,<lb/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10742">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -83,6 +84,13 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb6960">Eipper, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12556">Rosenbaum, Richard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40709">Amsterdam</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10742.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,19 +99,6 @@
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb6960" source="https://pmb.acdh.oeaw.ac.at/entity/6960/">
-          <persName>Eipper, Paul</persName>
-        </person>
-        <person ref="#pmb12556" source="https://pmb.acdh.oeaw.ac.at/entity/12556/">
-          <persName>Rosenbaum, Richard</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb40709" source="https://pmb.acdh.oeaw.ac.at/entity/40709/">
-          <placeName>Amsterdam</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -114,8 +109,9 @@
       <div type="letter">
         <p>1 Blatt, 1 Seite</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0235"/>geschickkante, Berlin Nr. 1662 / Fernspreck-Anschlässen.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0235"/>geschickkante, Berlin Nr. 1662 / Fernspreck-Anschlässen.<lb/>
 ow s r a s<lb/>
 V 57. B<lb/>
 Oor,<lb/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10090">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -83,6 +84,11 @@ Antwort auf: 1899-10-10ante AS an SF ('Anatol'-Illustrationen Coschell; nicht ü
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb168" evidence="conjecture">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb28645">Coschell, Moritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10090.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -92,11 +98,6 @@ Antwort auf: 1899-10-10ante AS an SF ('Anatol'-Illustrationen Coschell; nicht ü
           <term>Honorar</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb28645" source="https://pmb.acdh.oeaw.ac.at/entity/28645/">
-          <persName>Coschell, Moritz</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -110,8 +111,9 @@ AS war vom 5.–11. Okt. 1899 in Berlin und traf SF dort (Tgb 1899-10-09); Brief
 
 Antwort auf: 1899-10-10ante AS an SF ('Anatol'-Illustrationen Coschell; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0104"/>VERL<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0104"/>VERL<lb/>
 CHER.<lb/>
 BERene W., DEN 10/10. 99<lb/>
 ION: AMT VI, No. 1662.<lb/>

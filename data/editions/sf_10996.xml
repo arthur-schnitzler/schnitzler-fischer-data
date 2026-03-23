@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,7 +77,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
 Antwort auf:<ref target="10991">1923-04-09 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="10999">1923-04-27 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="10999">1923-04-27 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-04-20.html</note>
       </notesStmt>
@@ -93,6 +95,21 @@ Beantwortet in: <ref target="10999">1923-04-27 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116202335">Bloch, Felix</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19016">Kalckar, Marc</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1136979557">Leonard, Oscar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23675">Rotter, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3876">Rotter, Fritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb92768">Woticky, Edward</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb142471">Ziegel, Erich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb36300">Kopenhagen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb335756">Kopenhagen-Christiania</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45739">St. Louis</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Rotter-Bühnen Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10996.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -103,45 +120,6 @@ Beantwortet in: <ref target="10999">1923-04-27 AS (Wien) an SF (Berlin)</ref></n
           <term>Manuskript</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="116202335" source="https://d-nb.info/gnd/116202335">
-          <persName>Bloch, Felix</persName>
-        </person>
-        <person ref="#pmb19016" source="https://pmb.acdh.oeaw.ac.at/entity/19016/">
-          <persName>Kalckar, Marc</persName>
-        </person>
-        <person ref="1136979557" source="https://d-nb.info/gnd/1136979557">
-          <persName>Leonard, Oscar</persName>
-        </person>
-        <person ref="#pmb23675" source="https://pmb.acdh.oeaw.ac.at/entity/23675/">
-          <persName>Rotter, Alfred</persName>
-        </person>
-        <person ref="#pmb3876" source="https://pmb.acdh.oeaw.ac.at/entity/3876/">
-          <persName>Rotter, Fritz</persName>
-        </person>
-        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
-          <persName>Woticky, Edward</persName>
-        </person>
-        <person ref="#pmb142471" source="https://pmb.acdh.oeaw.ac.at/entity/142471/">
-          <persName>Ziegel, Erich</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb36300" source="https://pmb.acdh.oeaw.ac.at/entity/36300/">
-          <placeName>Kopenhagen</placeName>
-        </place>
-        <place ref="#pmb335756" source="https://d-nb.info/gnd/4096769-4">
-          <placeName>Kopenhagen-Christiania</placeName>
-        </place>
-        <place ref="#pmb45739" source="https://pmb.acdh.oeaw.ac.at/entity/45739/">
-          <placeName>St. Louis</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org>
-          <orgName>Rotter-Bühnen Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -152,10 +130,12 @@ Beantwortet in: <ref target="10999">1923-04-27 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>1 Blatt, 2 Seiten
 Antwort auf:<ref target="10991">1923-04-09 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="10999">1923-04-27 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="10999">1923-04-27 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0624"/>S. Fischer/Verlag/Berlin M 57/Bülowstraße<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0624"/>S. Fischer/Verlag/Berlin M 57/Bülowstraße<lb/>
 zusprechanschlüsse: Amt Lützow Nr. 1662. 6162 und 9uss / Postscherkkonto: Berlin Nr 1669.<lb/>
 THEATERABTEILUNG<lb/>
 erlin, den 20. April 19<lb/>
@@ -187,7 +167,8 @@ Ihnen trotzdem Auskunft zu geben. Ich sprach in meinem letzten<lb/>
 Briefe von " momentanem Misstrauen". Es täte mir aufrichtig leid<lb/>
 wenn Sie diesen, wie ich zugebe nicht sehr geschickten Aus-<lb/>
 sve</p>
-        <p><pb facs="1416743_0625"/>Pour Vous<lb/>
+        <p>
+          <pb facs="1416743_0625"/>Pour Vous<lb/>
 7.<lb/>
 den Namen des Theaters zu erfahren, über dessen Abrechnungsmethoden<lb/>
 Sie sich gelegentlich einer eben empfangenen Abrechnung, also im<lb/>

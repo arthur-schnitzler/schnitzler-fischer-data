@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -78,7 +79,8 @@
         <note type="description">1 Doppelblatt, 4 Seiten beschrieben
 Anlage: 1913-03-26 SF an Hesse (Abschrift mit ehN SF; 1 Blatt, 1 Seite beschrieben)
 
-Beantwortet in: <ref target="10499">1913-04-19 AS an SF</ref></note>
+Beantwortet in: <ref target="10499">1913-04-19 AS an SF</ref>
+        </note>
         <note type="type">Handschrift (zuerst fH, dann eH)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1913-04-13.html</note>
       </notesStmt>
@@ -94,6 +96,23 @@ Beantwortet in: <ref target="10499">1913-04-19 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3283">Björkman, Edwin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2657">Fischer, Hedwig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17355">Grein, Jack Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11679">Hesse, Hermann</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11900">Kellermann, Bernhard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12176">Mann, Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43471">Budapest</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb39975">Gardasee</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb374">Gardone</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb39615">Pressburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10497.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -103,49 +122,6 @@ Beantwortet in: <ref target="10499">1913-04-19 AS an SF</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb3283" source="https://pmb.acdh.oeaw.ac.at/entity/3283/">
-          <persName>Björkman, Edwin</persName>
-        </person>
-        <person ref="#pmb2657" source="https://pmb.acdh.oeaw.ac.at/entity/2657/">
-          <persName>Fischer, Hedwig</persName>
-        </person>
-        <person ref="#pmb17355" source="https://pmb.acdh.oeaw.ac.at/entity/17355/">
-          <persName>Grein, Jack Thomas</persName>
-        </person>
-        <person ref="#pmb11679" source="https://pmb.acdh.oeaw.ac.at/entity/11679/">
-          <persName>Hesse, Hermann</persName>
-        </person>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-        <person ref="#pmb11900" source="https://pmb.acdh.oeaw.ac.at/entity/11900/">
-          <persName>Kellermann, Bernhard</persName>
-        </person>
-        <person ref="#pmb12176" source="https://pmb.acdh.oeaw.ac.at/entity/12176/">
-          <persName>Mann, Thomas</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43471" source="https://pmb.acdh.oeaw.ac.at/entity/43471/">
-          <placeName>Budapest</placeName>
-        </place>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb39975" source="https://pmb.acdh.oeaw.ac.at/entity/39975/">
-          <placeName>Gardasee</placeName>
-        </place>
-        <place ref="#pmb374" source="https://pmb.acdh.oeaw.ac.at/entity/374/">
-          <placeName>Gardone</placeName>
-        </place>
-        <place ref="#pmb39615" source="https://pmb.acdh.oeaw.ac.at/entity/39615/">
-          <placeName>Pressburg</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -157,10 +133,12 @@ Beantwortet in: <ref target="10499">1913-04-19 AS an SF</ref></note>
         <p>1 Doppelblatt, 4 Seiten beschrieben
 Anlage: 1913-03-26 SF an Hesse (Abschrift mit ehN SF; 1 Blatt, 1 Seite beschrieben)
 
-Beantwortet in: <ref target="10499">1913-04-19 AS an SF</ref></p>
+Beantwortet in: <ref target="10499">1913-04-19 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0625"/>iyw<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0625"/>iyw<lb/>
 S. FISCHER, VERLAG,’ BERLIN W., BÜLowSTR. 90<lb/>
 Z. Zeit Gardine am<lb/>
 BERLin W., DEN Gardasee<lb/>
@@ -189,7 +167,8 @@ rung kaum durchführbar, weil<lb/>
 die Übersetzung für die englische Som¬<lb/>
 che sich für die Aufführungsrechte<lb/>
 vohl kremmen ließe, nicht über für</p>
-        <p><pb facs="1416742_0626"/>die Buchausgebe.<lb/>
+        <p>
+          <pb facs="1416742_0626"/>die Buchausgebe.<lb/>
 Ich kann mit Björkmärs mitts<lb/>
 abmachen, bevor ich nicht weiß welche<lb/>
 Rechte Gilin von Ihnen übernauen<lb/>
@@ -215,7 +194,8 @@ haide noch nicht entschlossen hat<lb/>
 kann nur darin liegen, daß sie im<lb/>
 dem Stoff Anstoß nehmen. Sie müssen<lb/>
 dabei bedencken, daß die größere</p>
-        <p><pb facs="1416742_0627"/>ahl wichtiger deutscher Bühnen<lb/>
+        <p>
+          <pb facs="1416742_0627"/>ahl wichtiger deutscher Bühnen<lb/>
 = und = Stadt-Theuter sind. Die<lb/>
 inen Bühnen wegen sich wohl im<lb/>
 6 Personenreiche Stück und<lb/>
@@ -270,7 +250,8 @@ Reisebuchhandlungen einen Rabatt,<lb/>
 von 75<lb/>
 weil diese Buchhandlungen des<lb/>
 hohen Spesen wegen gut anders</p>
-        <p><pb facs="1416742_0628"/>Abschrift.<lb/>
+        <p>
+          <pb facs="1416742_0628"/>Abschrift.<lb/>
 26/3. 13<lb/>
 Lieber Herr Hessel<lb/>
 Ihre Wünsche wegen der Freiexemplare sollen berücksichtigt<lb/>

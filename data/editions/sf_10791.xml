@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -72,7 +73,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">3 Blatt, 3 Seiten
-Antwort auf: <ref target="10789">1920-12-12 AS (Wien) an SF (Berlin)</ref>, <ref target="10790">1920-12-22 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="10789">1920-12-12 AS (Wien) an SF (Berlin)</ref>, <ref target="10790">1920-12-22 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1920-12-30.html</note>
       </notesStmt>
@@ -89,6 +91,20 @@ Antwort auf: <ref target="10789">1920-12-12 AS (Wien) an SF (Berlin)</ref>, <ref
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10836">Bartsch, Rudolf Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2874">Eirich, Oskar Friedrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb90966">Jugoslawien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb313">Polen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb745">Skandinavien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb888">Warschau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb35597">Deutsches Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="1242764-0">Stavovské divadlo Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10791.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -107,42 +123,6 @@ Antwort auf: <ref target="10789">1920-12-12 AS (Wien) an SF (Berlin)</ref>, <ref
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
-          <persName>Bartsch, Rudolf Hans</persName>
-        </person>
-        <person ref="#pmb2874" source="https://pmb.acdh.oeaw.ac.at/entity/2874/">
-          <persName>Eirich, Oskar Friedrich</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb90966" source="https://pmb.acdh.oeaw.ac.at/entity/90966/">
-          <placeName>Jugoslawien</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
-          <placeName>Polen</placeName>
-        </place>
-        <place ref="#pmb745" source="https://pmb.acdh.oeaw.ac.at/entity/745/">
-          <placeName>Skandinavien</placeName>
-        </place>
-        <place ref="#pmb888" source="https://pmb.acdh.oeaw.ac.at/entity/888/">
-          <placeName>Warschau</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb35597" source="https://pmb.acdh.oeaw.ac.at/entity/35597/">
-          <orgName>Deutsches Theater Berlin</orgName>
-        </org>
-        <org ref="1242764-0" source="https://d-nb.info/gnd/1242764-0">
-          <orgName>Stavovské divadlo Prag</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -152,10 +132,12 @@ Antwort auf: <ref target="10789">1920-12-12 AS (Wien) an SF (Berlin)</ref>, <ref
     <body>
       <div type="letter">
         <p>3 Blatt, 3 Seiten
-Antwort auf: <ref target="10789">1920-12-12 AS (Wien) an SF (Berlin)</ref>, <ref target="10790">1920-12-22 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="10789">1920-12-12 AS (Wien) an SF (Berlin)</ref>, <ref target="10790">1920-12-22 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0316"/>480<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0316"/>480<lb/>
 S. Fischer. Verlag<lb/>
 Berlin<lb/>
 wittettung.<lb/>
@@ -199,7 +181,8 @@ Die oben genannten Bedingungen haben Sältigkeit bis zum<lb/>
 . Sollten wir an diesem Tag noch keine<lb/>
 entscheidende Antwort erhalten haben, so nehmen wir an, daß wir über das in Frage stehende Werk anderweitig verfügen können<lb/>
 a</p>
-        <p><pb facs="1416743_0317"/>Kreisämtl. golt9 &amp; p.p.<lb/>
+        <p>
+          <pb facs="1416743_0317"/>Kreisämtl. golt9 &amp; p.p.<lb/>
 auch<lb/>
 w. rn.<lb/>
 2)Öd! ait’o)bach! ottulisidorsinodl. 20t’J’ gfO! nogöf. mnft<lb/>
@@ -242,7 +225,8 @@ nennöt xxx<lb/>
 adm Ia<lb/>
 Grunde<lb/>
 adw noortaff abasbischkeit</p>
-        <p><pb facs="1416743_0318"/>S. FISCHER,VERLAG, BERLIN, Dr. Arthur Schnitzler v. 30.12. Blatt 2<lb/>
+        <p>
+          <pb facs="1416743_0318"/>S. FISCHER,VERLAG, BERLIN, Dr. Arthur Schnitzler v. 30.12. Blatt 2<lb/>
 Theaterabteilung<lb/>
 Entweder hat die amerikamische Bank es bereits im Jahre 1916 an<lb/>
 uns befördert, dann muss es an irgend einer Stelle durch die Allierte<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -89,6 +90,24 @@ Anlage: Telegramm bezüglich der tschechischen Angelegenheit "Reigen"</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4076">Eisenschitz, Otto</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Giordani, Paolo (Präsident Società italiana del teatro drammatico, Rom)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Iban, Karl (Theaterleiter, Berlin)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb21445">Mijnssen, François Henri Jacques</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23675">Rotter, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3876">Rotter, Fritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4441">Sladek, Maximilian</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb142471">Ziegel, Erich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44172">Nürnberg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb388">Spanien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb37177">Kammerspiele Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Rotter-Bühnen Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10800.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -99,54 +118,6 @@ Anlage: Telegramm bezüglich der tschechischen Angelegenheit "Reigen"</note>
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4076" source="https://pmb.acdh.oeaw.ac.at/entity/4076/">
-          <persName>Eisenschitz, Otto</persName>
-        </person>
-        <person>
-          <persName>Giordani, Paolo (Präsident Società italiana del teatro drammatico, Rom)</persName>
-        </person>
-        <person>
-          <persName>Iban, Karl (Theaterleiter, Berlin)</persName>
-        </person>
-        <person ref="#pmb21445" source="https://pmb.acdh.oeaw.ac.at/entity/21445/">
-          <persName>Mijnssen, François Henri Jacques</persName>
-        </person>
-        <person ref="#pmb23675" source="https://pmb.acdh.oeaw.ac.at/entity/23675/">
-          <persName>Rotter, Alfred</persName>
-        </person>
-        <person ref="#pmb3876" source="https://pmb.acdh.oeaw.ac.at/entity/3876/">
-          <persName>Rotter, Fritz</persName>
-        </person>
-        <person ref="#pmb4441" source="https://pmb.acdh.oeaw.ac.at/entity/4441/">
-          <persName>Sladek, Maximilian</persName>
-        </person>
-        <person ref="#pmb142471" source="https://pmb.acdh.oeaw.ac.at/entity/142471/">
-          <persName>Ziegel, Erich</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-        <place ref="#pmb44172" source="https://pmb.acdh.oeaw.ac.at/entity/44172/">
-          <placeName>Nürnberg</placeName>
-        </place>
-        <place ref="#pmb388" source="https://pmb.acdh.oeaw.ac.at/entity/388/">
-          <placeName>Spanien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb37177" source="https://pmb.acdh.oeaw.ac.at/entity/37177/">
-          <orgName>Kammerspiele Berlin</orgName>
-        </org>
-        <org>
-          <orgName>Rotter-Bühnen Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -160,8 +131,9 @@ Antwort auf: <ref target="10799">1921-02-14 AS (Wien) an SF (Berlin)</ref>
 Beantwortet in: <ref target="10801">1921-02-23 AS (Wien) an SF (Berlin)</ref>
 Anlage: Telegramm bezüglich der tschechischen Angelegenheit "Reigen"</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0335"/>or7<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0335"/>or7<lb/>
 S. Fischer. Verlag. Berlin<lb/>
 ̃ ̃'̃ M=n<lb/>
 määrän<lb/>
@@ -210,7 +182,8 @@ S.O.R.S.<lb/>
 Die oben genannten Bedingung<lb/>
 entscheidende Antwort erhalten haben, so nehmen wir an, daß wir über das in Frage stehende Werk anderweitig verfügen können<lb/>
 O.M.</p>
-        <p><pb facs="1416743_0336"/>2.8.<lb/>
+        <p>
+          <pb facs="1416743_0336"/>2.8.<lb/>
 «*<lb/>
 Bn<lb/>
 juritäväwälliiä.<lb/>
@@ -250,7 +223,8 @@ Heigen aufführt und eine neues Werk von Ihnen erst wieder nach einer<lb/>
 mit abnabischkeit<lb/>
 einubl. mväkno gaisernbco I.rfJ.J. hw.drei agort m. und nach rien doch zu him.<lb/>
 gewi</p>
-        <p><pb facs="1416743_0337"/>„ —„ „ —. —. 1/2  — —. 4  —.<lb/>
+        <p>
+          <pb facs="1416743_0337"/>„ —„ „ —. —. 1/2  — —. 4  —.<lb/>
 S. FISCHER,VERLAG, BERLIN, Dr. Schnitsler den 21. 2. Blatt 2<lb/>
 Theaterabteilung<lb/>
 gewissen Pause aufführen möchte. Uebrigens haben wir für Nürn-<lb/>
@@ -284,7 +258,8 @@ S. FISCHER. VERLAG<lb/>
 THEATERABTEII UNG<lb/>
 feo<lb/>
 verte:</p>
-        <p><pb facs="1416743_0338"/>Monsieur, que jusqu'a l'a précédai<lb/>
+        <p>
+          <pb facs="1416743_0338"/>Monsieur, que jusqu'a l'a précédai<lb/>
 und mich nie heden eheglideu.stdoom meldüllen essal nesal<lb/>
 enten<lb/>
 G.C.H.F.P.<lb/>

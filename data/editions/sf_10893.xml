@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -72,7 +73,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Beantwortet in: <ref target="10895">1922-03-10 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="10895">1922-03-10 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-03-06.html</note>
       </notesStmt>
@@ -89,6 +91,17 @@ Beantwortet in: <ref target="10895">1922-03-10 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3105">Karczag, Wilhelm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11981">Kramer, Leopold</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20474">Linden, Gustaf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116324333">Raggio, Enrico</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb92768">Woticky, Edward</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10893.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -99,31 +112,6 @@ Beantwortet in: <ref target="10895">1922-03-10 AS (Wien) an SF (Berlin)</ref></n
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb3105" source="https://pmb.acdh.oeaw.ac.at/entity/3105/">
-          <persName>Karczag, Wilhelm</persName>
-        </person>
-        <person ref="#pmb11981" source="https://pmb.acdh.oeaw.ac.at/entity/11981/">
-          <persName>Kramer, Leopold</persName>
-        </person>
-        <person ref="#pmb20474" source="https://pmb.acdh.oeaw.ac.at/entity/20474/">
-          <persName>Linden, Gustaf</persName>
-        </person>
-        <person ref="116324333" source="https://d-nb.info/gnd/116324333">
-          <persName>Raggio, Enrico</persName>
-        </person>
-        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
-          <persName>Woticky, Edward</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -133,10 +121,12 @@ Beantwortet in: <ref target="10895">1922-03-10 AS (Wien) an SF (Berlin)</ref></n
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Beantwortet in: <ref target="10895">1922-03-10 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="10895">1922-03-10 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0475"/>Ltoa negros<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0475"/>Ltoa negros<lb/>
 nun fdoerag aufsaredell.<lb/>
 nem ansi lJnaviv Siedmegelega- eib<lb/>
 G.F.P.<lb/>
@@ -179,7 +169,8 @@ xyz vorregern.<lb/>
 grösseren Verlage, auf<lb/>
 Initiative die Taxe<lb/>
 ann.</p>
-        <p><pb facs="1416743_0476"/>viv<lb/>
+        <p>
+          <pb facs="1416743_0476"/>viv<lb/>
 onsieur<lb/>
 Vertrauen mehr setzen, Wenn es Ihnen also<lb/>
 G.C.P.<lb/>

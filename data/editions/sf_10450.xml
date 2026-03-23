@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10450">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -83,27 +84,19 @@ Beantwortet in: 1912-07-19ante AS an SF/EPT (Antwort auf Anfrage Baumfeld)</note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116089962">Baumfeld, Maurice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Deutsches Theater New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10450.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Garantiesumme</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="116089962" source="https://d-nb.info/gnd/116089962">
-          <persName>Baumfeld, Maurice</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org>
-          <orgName>Deutsches Theater New York</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -116,8 +109,9 @@ Beantwortet in: 1912-07-19ante AS an SF/EPT (Antwort auf Anfrage Baumfeld)</note
 
 Beantwortet in: 1912-07-19ante AS an SF/EPT (Antwort auf Anfrage Baumfeld)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0562"/>287.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0562"/>287.<lb/>
 S. FISCHER, VERLAG,“ BERLIN W., BÜLowSTR. 90<lb/>
 THEATERABTEILUNG<lb/>
 BERene W., DEN 15. Jtii 12.<lb/>
@@ -136,7 +130,8 @@ Verhältnis zu Ihnen und unter der Annahme, dass<lb/>
 Sie ihn selbst jedenfalls diesen Nachlass gewäh-<lb/>
 ren würden.<lb/>
 Wir gestatten uns, an Sie die Frage zu tich-</p>
-        <p><pb facs="1416742_0563"/>ten, ob Sie uns dazu autorsieren, den Ab¬<lb/>
+        <p>
+          <pb facs="1416742_0563"/>ten, ob Sie uns dazu autorsieren, den Ab¬<lb/>
 schluss ohne Garantiesumme festzustellen.<lb/>
 Wir bitten Sie um Ihre Entscheidung und sind<lb/>
 in vollkommener Hochachtung<lb/>

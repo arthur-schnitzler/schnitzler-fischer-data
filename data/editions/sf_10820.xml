@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,6 +80,13 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7777">Hellmer, Arthur</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4441">Sladek, Maximilian</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb146">Frankfurt am Main</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10820.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -86,19 +94,6 @@
           <term>Theaterskandal</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb7777" source="https://pmb.acdh.oeaw.ac.at/entity/7777/">
-          <persName>Hellmer, Arthur</persName>
-        </person>
-        <person ref="#pmb4441" source="https://pmb.acdh.oeaw.ac.at/entity/4441/">
-          <persName>Sladek, Maximilian</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb146" source="https://pmb.acdh.oeaw.ac.at/entity/146/">
-          <placeName>Frankfurt am Main</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>

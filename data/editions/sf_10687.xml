@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -65,7 +66,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
 Antwort auf: <ref target="10684">1919-01-09 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10690">1919-01-30 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10690">1919-01-30 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1919-01-20.html</note>
       </notesStmt>
@@ -81,6 +83,19 @@ Beantwortet in: <ref target="10690">1919-01-30 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb6960">Eipper, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12556">Rosenbaum, Richard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23675">Rotter, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43471">Budapest</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb42626">Residenztheater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb61673">Trianon-Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10687.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,39 +106,6 @@ Beantwortet in: <ref target="10690">1919-01-30 SF (Berlin) an AS (Wien)</ref></n
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb6960" source="https://pmb.acdh.oeaw.ac.at/entity/6960/">
-          <persName>Eipper, Paul</persName>
-        </person>
-        <person ref="#pmb12556" source="https://pmb.acdh.oeaw.ac.at/entity/12556/">
-          <persName>Rosenbaum, Richard</persName>
-        </person>
-        <person ref="#pmb23675" source="https://pmb.acdh.oeaw.ac.at/entity/23675/">
-          <persName>Rotter, Alfred</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb43471" source="https://pmb.acdh.oeaw.ac.at/entity/43471/">
-          <placeName>Budapest</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb42626" source="https://pmb.acdh.oeaw.ac.at/entity/42626/">
-          <orgName>Residenztheater Berlin</orgName>
-        </org>
-        <org ref="#pmb61673" source="https://pmb.acdh.oeaw.ac.at/entity/61673/">
-          <orgName>Trianon-Theater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -134,10 +116,12 @@ Beantwortet in: <ref target="10690">1919-01-30 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>2 Blatt, 4 Seiten
 Antwort auf: <ref target="10684">1919-01-09 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10690">1919-01-30 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10690">1919-01-30 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0082"/>^ is cher<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0082"/>^ is cher<lb/>
 20.1.1919.<lb/>
 Lieber Freund.<lb/>
 Was Sie mir über Ihre Stimmung gegen¬<lb/>
@@ -161,7 +145,8 @@ gebührt. Das eigentliche Problem liegt freilich<lb/>
 bei der Frage,welche Art von Arbeiteund Vertre-<lb/>
 tung Sie von R. wünschen, und inwieweit Sie<lb/>
 ihm überhaupt Selbständigkeit der Entschlusse</p>
-        <p><pb facs="1416739_0083"/>gewahrte isten wollen. Dass er augenblicklich<lb/>
+        <p>
+          <pb facs="1416739_0083"/>gewahrte isten wollen. Dass er augenblicklich<lb/>
 nicht viel mehr tun kann als er tut, das besta-<lb/>
 tigen sie ja selbst mit der Bemerkung, dass unter<lb/>
 den derzeitigen Umständen die Neuherstellung<lb/>
@@ -202,7 +187,8 @@ Neulich sandte ich Ihnen einen auf „Ca-<lb/>
 sanovas Heimfahrt" bezüglichen Antra aus Schwo¬<lb/>
 den ein. Ich denke wohl, dass xxx für das Ueber-<lb/>
 setzungsrecht tausend schwedische Kronen ver¬</p>
-        <p><pb facs="1416739_0084"/>langen können. Dem Budapester Verleger will ich<lb/>
+        <p>
+          <pb facs="1416739_0084"/>langen können. Dem Budapester Verleger will ich<lb/>
 also direkt antworten. (Ich werde auf einen<lb/>
 kleinen Lepaus in.Casanovas Heimfahrt aufmerk¬<lb/>
 sam gemacht. Auf S. 146,Zeile 3 von unten muss<lb/>
@@ -235,7 +221,8 @@ rück) dürfte „Crosse Szene“ und „Kakadu“ zu¬<lb/>
 sammen an einem Abend gegen 10%ige Tantiemen<lb/>
 aufführen. Bitte sehr, machen Sie den Vertrag<lb/>
 mit der Bedingung, dass jedes dieser Stücke</p>
-        <p><pb facs="1416739_0085"/>wenn es später aus Pepertoiregründen mit dem<lb/>
+        <p>
+          <pb facs="1416739_0085"/>wenn es später aus Pepertoiregründen mit dem<lb/>
 Stück irgend eines anderen Autors zusammen ge¬<lb/>
 geben werden müsste, 5^ Tantiemen zu zahlen<lb/>
 hätie.<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -75,7 +76,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
-Antwort auf: <ref target="11014">1923-09-19 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11014">1923-09-19 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-09-24.html</note>
       </notesStmt>
@@ -92,6 +94,27 @@ Antwort auf: <ref target="11014">1923-09-19 SF (Berlin) an AS (Wien)</ref></note
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11198">Durieux, Tilla</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19016">Kalckar, Marc</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20474">Linden, Gustaf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23307">Reusch, Hubert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23320">Reyding, August</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35633">Bergen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43570">Dänemark</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40700">Göteborg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb64465">Norwegen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb313">Polen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb745">Skandinavien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb1119">Stockholm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb38444">Tschechoslowakei</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11016.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -107,61 +130,6 @@ Antwort auf: <ref target="11014">1923-09-19 SF (Berlin) an AS (Wien)</ref></note
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11198" source="https://pmb.acdh.oeaw.ac.at/entity/11198/">
-          <persName>Durieux, Tilla</persName>
-        </person>
-        <person ref="#pmb19016" source="https://pmb.acdh.oeaw.ac.at/entity/19016/">
-          <persName>Kalckar, Marc</persName>
-        </person>
-        <person ref="#pmb20474" source="https://pmb.acdh.oeaw.ac.at/entity/20474/">
-          <persName>Linden, Gustaf</persName>
-        </person>
-        <person ref="#pmb23307" source="https://pmb.acdh.oeaw.ac.at/entity/23307/">
-          <persName>Reusch, Hubert</persName>
-        </person>
-        <person ref="#pmb23320" source="https://pmb.acdh.oeaw.ac.at/entity/23320/">
-          <persName>Reyding, August</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb35633" source="https://pmb.acdh.oeaw.ac.at/entity/35633/">
-          <placeName>Bergen</placeName>
-        </place>
-        <place ref="#pmb43570" source="https://pmb.acdh.oeaw.ac.at/entity/43570/">
-          <placeName>Dänemark</placeName>
-        </place>
-        <place ref="#pmb40700" source="https://pmb.acdh.oeaw.ac.at/entity/40700/">
-          <placeName>Göteborg</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb64465" source="https://pmb.acdh.oeaw.ac.at/entity/64465/">
-          <placeName>Norwegen</placeName>
-        </place>
-        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
-          <placeName>Polen</placeName>
-        </place>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-        <place ref="#pmb745" source="https://pmb.acdh.oeaw.ac.at/entity/745/">
-          <placeName>Skandinavien</placeName>
-        </place>
-        <place ref="#pmb1119" source="https://pmb.acdh.oeaw.ac.at/entity/1119/">
-          <placeName>Stockholm</placeName>
-        </place>
-        <place ref="#pmb38444" source="https://pmb.acdh.oeaw.ac.at/entity/38444/">
-          <placeName>Tschechoslowakei</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -171,10 +139,12 @@ Antwort auf: <ref target="11014">1923-09-19 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 4 Seiten
-Antwort auf: <ref target="11014">1923-09-19 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11014">1923-09-19 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0282"/>neiter xxx selbst<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0282"/>neiter xxx selbst<lb/>
 adlaae<lb/>
 G.H.F.P.<lb/>
 dreid jeldendos<lb/>
@@ -245,7 +215,8 @@ und Glauben hinnehmen. Ohne die Bedeutung<lb/>
 Ihrer Vertriebstätigkeit auch nur im geringste<lb/>
 verkleinern zu wollen, möchte ich doch be¬<lb/>
 merken, dass die Annahme meiner Stücke</p>
-        <p><pb facs="1416739_0283"/>Dänemark oder in Schweden doch kaum jemals<lb/>
+        <p>
+          <pb facs="1416739_0283"/>Dänemark oder in Schweden doch kaum jemals<lb/>
 auf Ihre direkte Intervention zurückzuführen<lb/>
 sein dürfte, eher noch könnten es Linden<lb/>
 oder Kalckar sein, die gelegentlich bei den<lb/>
@@ -326,7 +297,8 @@ Ermessen zu verfügen und immer zu bedenken, dass<lb/>
 ich persönlich auf „Reigen“ -Aufführungen ohne<lb/>
 künstlerische Garantien keinen Wert lege.<lb/>
 Die Angelegenheiten Polen Ges.Werke</p>
-        <p><pb facs="1416739_0284"/>„Casanovas Heimfahrt“ Cechoslowakei<lb/>
+        <p>
+          <pb facs="1416739_0284"/>„Casanovas Heimfahrt“ Cechoslowakei<lb/>
 Durieux, Amerika - sind wohl als erkaigt<lb/>
 betrachten? Was „Komödie der Worte“ in Holland<lb/>
 anbelangt, lege ich den Brief des Direktors<lb/>
@@ -388,7 +360,8 @@ auch 30, die Vorauszahlung geschah aber auf<lb/>
 Grund der Schlüsselzahl 14.Sie aber verkaufen<lb/>
 doch diese vorausgezahlten Exemplare nach der<lb/>
 neuen Schlüsselzahl, also mindestens undas</p>
-        <p><pb facs="1416739_0285"/>Doppelte. So kann doch diese an mich geleistete<lb/>
+        <p>
+          <pb facs="1416739_0285"/>Doppelte. So kann doch diese an mich geleistete<lb/>
 Vorauszahlung doch wieder nur als Akontozahlung<lb/>
 gelten.<lb/>
 Auch bezüglich der Grundzahlen ist mir<lb/>

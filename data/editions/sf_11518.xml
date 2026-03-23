@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11518">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -84,6 +85,22 @@
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb15173">Curtis Brown, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7777">Hellmer, Arthur</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19421">Klein, Robert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4374">Maril, Konrad</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb259178">Zarek, Otto</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb146">Frankfurt am Main</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb47085">Münchner Kammerspiele</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11518.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -101,48 +118,6 @@
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb15173" source="https://pmb.acdh.oeaw.ac.at/entity/15173/">
-          <persName>Curtis Brown, Albert</persName>
-        </person>
-        <person ref="#pmb7777" source="https://pmb.acdh.oeaw.ac.at/entity/7777/">
-          <persName>Hellmer, Arthur</persName>
-        </person>
-        <person ref="#pmb19421" source="https://pmb.acdh.oeaw.ac.at/entity/19421/">
-          <persName>Klein, Robert</persName>
-        </person>
-        <person ref="#pmb4374" source="https://pmb.acdh.oeaw.ac.at/entity/4374/">
-          <persName>Maril, Konrad</persName>
-        </person>
-        <person ref="#pmb259178" source="https://pmb.acdh.oeaw.ac.at/entity/259178/">
-          <persName>Zarek, Otto</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb146" source="https://pmb.acdh.oeaw.ac.at/entity/146/">
-          <placeName>Frankfurt am Main</placeName>
-        </place>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb47085" source="https://pmb.acdh.oeaw.ac.at/entity/47085/">
-          <orgName>Münchner Kammerspiele</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -153,8 +128,9 @@
       <div type="letter">
         <p>2 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0107"/>S. Fischer<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0107"/>S. Fischer<lb/>
 20.11.1929.<lb/>
 Lieber Freund.<lb/>
 Beifolgende Dokumente beziehen sich<lb/>
@@ -190,7 +166,8 @@ bitten; ich erwarte die drei Doku-<lb/>
 mente mit Ihren Unterschriften und den notwendigen<lb/>
 Ergänzungen Ihres amerikanischen Konsulats so rasch<lb/>
 eingeschrieben zurück.</p>
-        <p><pb facs="1416741_0108"/>Natürlich habe ich gar nichts dagegen,<lb/>
+        <p>
+          <pb facs="1416741_0108"/>Natürlich habe ich gar nichts dagegen,<lb/>
 wenn Dr.Maril Herrn Dr.Klein oder Herrn Zarek<lb/>
 das "Spiel der Sommerlufte" zur Lekture über-<lb/>
 lässt. Irgend eine weitere. Konsequenz ist da-<lb/>

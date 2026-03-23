@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10041">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -96,6 +97,12 @@ Antwort auf: 1895-11-13post/1895-11-20ante AS an SF (Zusage 'Liebelei' bei SF; n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11910">Kerr, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10041.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -105,16 +112,6 @@ Antwort auf: 1895-11-13post/1895-11-20ante AS an SF (Zusage 'Liebelei' bei SF; n
           <term>Manuskript</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11910" source="https://pmb.acdh.oeaw.ac.at/entity/11910/">
-          <persName>Kerr, Alfred</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -127,8 +124,9 @@ Antwort auf: 1895-11-13post/1895-11-20ante AS an SF (Zusage 'Liebelei' bei SF; n
 
 Antwort auf: 1895-11-13post/1895-11-20ante AS an SF (Zusage 'Liebelei' bei SF; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0054"/>FISCHER VERLAG<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0054"/>FISCHER VERLAG<lb/>
 S. FISCHER, VerlAG.<lb/>
 Berlin 20 den 20/11 1895<lb/>
 Steglitzer Strasse 49 I.<lb/>
@@ -164,7 +162,8 @@ weis Mschen sofort senden, so können wir<lb/>
 ever saw<lb/>
 Zw.<lb/>
 es event. einrichten, dass diese Erzählige</p>
-        <p><pb facs="1416742_0055"/>S FICQUED Venua<lb/>
+        <p>
+          <pb facs="1416742_0055"/>S FICQUED Venua<lb/>
 S. FISCHER, VerlaG.<lb/>
 294<lb/>
 P.<lb/>

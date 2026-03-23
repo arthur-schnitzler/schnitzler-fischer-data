@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -64,7 +65,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
-Antwort auf: <ref target="10613">1917-05-17 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="10613">1917-05-17 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1917-06-06.html</note>
       </notesStmt>
@@ -80,6 +82,11 @@ Antwort auf: <ref target="10613">1917-05-17 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb521">Bad Gastein</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10615.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -90,11 +97,6 @@ Antwort auf: <ref target="10613">1917-05-17 AS (Wien) an SF (Berlin)</ref></note
           <term>Novelle</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb521" source="https://pmb.acdh.oeaw.ac.at/entity/521/">
-          <placeName>Bad Gastein</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -104,10 +106,12 @@ Antwort auf: <ref target="10613">1917-05-17 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 2 Seiten
-Antwort auf: <ref target="10613">1917-05-17 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="10613">1917-05-17 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0066"/>xo 4<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0066"/>xo 4<lb/>
 FISCHER. VERLAG<lb/>
 Ankkonto: Deutsche Bank, Depesitenkasse P in Berlin / Boatscheckkonto Berlin Nr. 16692 — — Fernsprech-Anschlasse: Amt Lützow Nr: 1662 und 6162<lb/>
 Berlin W 57, Bülowstraße 90<lb/>
@@ -135,7 +139,8 @@ zweir<lb/>
 Ihrer gesam<lb/>
 in<lb/>
 en</p>
-        <p><pb facs="1416743_0067"/>soe<lb/>
+        <p>
+          <pb facs="1416743_0067"/>soe<lb/>
 fehler geben wird.<lb/>
 Für die neuen drei Auflagen der "Erzählenden Schriften",<lb/>
 die wir jetzt zum Preise von 12 Mark herausgeben, lege ich eine<lb/>

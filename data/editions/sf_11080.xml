@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11080">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -69,6 +70,12 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43430">Tschechien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11080.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -80,14 +87,6 @@
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb43430" source="https://pmb.acdh.oeaw.ac.at/entity/43430/">
-          <placeName>Tschechien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -98,8 +97,9 @@
       <div type="letter">
         <p>1 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0735"/>1668<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0735"/>1668<lb/>
 S. Fischer/Verlag/Berlin M. 57/ Bülowstraße 90<lb/>
 Denkasse P in Berlin / Postscheckkonto: Berlin Nr. 16892<lb/>
 o: Deutsche Bank, Depos<lb/>
@@ -148,7 +148,8 @@ Pilsen<lb/>
 in Wien überweisen. Wir könnten Ihnen aber auch, wenn Sie Wert<lb/>
 f legen, den Gegenwert des Markguthabens in tohechischen<lb/>
 w.</p>
-        <p><pb facs="1416743_0736"/>op sährfwe<lb/>
+        <p>
+          <pb facs="1416743_0736"/>op sährfwe<lb/>
 Dehm<lb/>
 geradt als all¬<lb/>
 et eoMosd-<lb/>

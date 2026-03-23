@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11581">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -69,6 +70,12 @@ Weiterleitung eines Briefs von Jaroslava Kneskova bzgl. tschechischer Übersetzu
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Knésková, Jaroslava (Literaturagentin, Tschechien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43430">Tschechien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11581.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -76,16 +83,6 @@ Weiterleitung eines Briefs von Jaroslava Kneskova bzgl. tschechischer Übersetzu
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person>
-          <persName>Knésková, Jaroslava (Literaturagentin, Tschechien)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43430" source="https://pmb.acdh.oeaw.ac.at/entity/43430/">
-          <placeName>Tschechien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -97,8 +94,9 @@ Weiterleitung eines Briefs von Jaroslava Kneskova bzgl. tschechischer Übersetzu
         <p>1 Blatt, 1 Seite
 Weiterleitung eines Briefs von Jaroslava Kneskova bzgl. tschechischer Übersetzungen</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416744_0048"/>G.C.F.P.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416744_0048"/>G.C.F.P.<lb/>
 10. 29. 12'000 V. S.<lb/>
 G.C.F.P.<lb/>
 Pr.</p>

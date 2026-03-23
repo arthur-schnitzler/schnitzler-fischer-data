@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10333">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -84,6 +85,14 @@ Benatwortet in: 1910-10-13 AS an SF</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Alennius, Linnea (Übersetzerin, Schweden)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116242094">Bonnier, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20474">Linden, Gustaf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10333.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,22 +100,6 @@ Benatwortet in: 1910-10-13 AS an SF</note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person>
-          <persName>Alennius, Linnea (Übersetzerin, Schweden)</persName>
-        </person>
-        <person ref="116242094" source="https://d-nb.info/gnd/116242094">
-          <persName>Bonnier, Albert</persName>
-        </person>
-        <person ref="#pmb20474" source="https://pmb.acdh.oeaw.ac.at/entity/20474/">
-          <persName>Linden, Gustaf</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -120,8 +113,9 @@ Anlage: 1910-09-10 ante Albert Bonnier an SF (nicht überliefert)
 
 Benatwortet in: 1910-10-13 AS an SF</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0441"/>224.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0441"/>224.<lb/>
 S. FISCHER, VERLAG,’ BERLIN W.,„ BÜLowSTR. 90<lb/>
 BERcelN W, DEN 10/9. 1910<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -141,7 +135,8 @@ Fräulein Alennius, die vor einigen Wochen<lb/>
 gleichfalls wegen der Uebersetzung einzel-<lb/>
 ner Novellen angefragt hatte, der wir aber<lb/>
 eine Autorisation nicht erteilt haben. In</p>
-        <p><pb facs="1416742_0442"/>zwischen erhalten wir heute den abschrift-<lb/>
+        <p>
+          <pb facs="1416742_0442"/>zwischen erhalten wir heute den abschrift-<lb/>
 lich gleichfalls beifolgenden Brief von<lb/>
 Gustaf Linden und bitten Sie nun um Ihre<lb/>
 gefl. Informationen. Vielleicht liesse<lb/>

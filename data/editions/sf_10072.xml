@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -94,6 +95,14 @@ Beantwortet in: 1897-12-10post/1897-12-18ante AS an SF (Umschlag 'Anatol'; nicht
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb151587">Eckmann, Otto</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11643">Heine, Thomas Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb335748">Nauen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10072.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -106,22 +115,6 @@ Beantwortet in: 1897-12-10post/1897-12-18ante AS an SF (Umschlag 'Anatol'; nicht
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb151587" source="https://pmb.acdh.oeaw.ac.at/entity/151587/">
-          <persName>Eckmann, Otto</persName>
-        </person>
-        <person ref="#pmb11643" source="https://pmb.acdh.oeaw.ac.at/entity/11643/">
-          <persName>Heine, Thomas Theodor</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb335748" source="https://d-nb.info/gnd/4261645-1">
-          <placeName>Nauen</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -135,8 +128,9 @@ Beantwortet in: 1897-12-10post/1897-12-18ante AS an SF (Umschlag 'Anatol'; nicht
 Antwort auf: 1897-12-04post/1897-12-10ante AS an SF (Umschlag 'Anatol'; nicht überliefert)
 Beantwortet in: 1897-12-10post/1897-12-18ante AS an SF (Umschlag 'Anatol'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0080"/>48<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0080"/>48<lb/>
 S. FISCHER,<lb/>
 VERLAG.<lb/>
 3.<lb/>
@@ -171,7 +165,8 @@ Ffischer<lb/>
 P. S. Freyhoff's Buchdruckerei in Nauen möchte die Revisionsbogen<lb/>
 von „Freiwild“ zurück haben, um drucken zu können; haben Sie die<lb/>
 Güte.</p>
-        <p><pb facs="1416742_0081"/>c/h<lb/>
+        <p>
+          <pb facs="1416742_0081"/>c/h<lb/>
 17<lb/>
 Güte, diese Bogen zurückzusenden. Dass das Buch nicht von den Auffüh-<lb/>
 rung in Wien erscheinen wird, darauf können Sie sich verlassen. Aller-<lb/>

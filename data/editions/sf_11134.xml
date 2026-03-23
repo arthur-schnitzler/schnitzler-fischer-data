@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -73,7 +74,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
 Antwort auf: <ref target="11132">1924-10-18 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in:1924-10-27 SF (Berlin) an AS (Wien), <ref target="11139">1924-11-07 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in:1924-10-27 SF (Berlin) an AS (Wien), <ref target="11139">1924-11-07 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-10-23.html</note>
       </notesStmt>
@@ -90,6 +92,14 @@ Beantwortet in:1924-10-27 SF (Berlin) an AS (Wien), <ref target="11139">1924-11-
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb300494">Barnay, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb18860">Jersel, Charles van</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb26392">Van-Jung, Leo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11134.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,22 +110,6 @@ Beantwortet in:1924-10-27 SF (Berlin) an AS (Wien), <ref target="11139">1924-11-
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb300494" source="https://pmb.acdh.oeaw.ac.at/entity/300494/">
-          <persName>Barnay, Paul</persName>
-        </person>
-        <person ref="#pmb18860" source="https://pmb.acdh.oeaw.ac.at/entity/18860/">
-          <persName>Jersel, Charles van</persName>
-        </person>
-        <person ref="#pmb26392" source="https://pmb.acdh.oeaw.ac.at/entity/26392/">
-          <persName>Van-Jung, Leo</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -126,10 +120,12 @@ Beantwortet in:1924-10-27 SF (Berlin) an AS (Wien), <ref target="11139">1924-11-
       <div type="letter">
         <p>1 Blatt, 2 Seiten
 Antwort auf: <ref target="11132">1924-10-18 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in:1924-10-27 SF (Berlin) an AS (Wien), <ref target="11139">1924-11-07 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in:1924-10-27 SF (Berlin) an AS (Wien), <ref target="11139">1924-11-07 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0043"/>te Stück abgelehnt, als man hätte es gern g<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0043"/>te Stück abgelehnt, als man hätte es gern g<lb/>
 spielt. wenn ich nur die versprochenen Besetzung<lb/>
 vorschläge (die natürlich nicht gekommen sind)<lb/>
 und wahrscheinlich nie kommen werden) abgewar<lb/>
@@ -181,7 +177,8 @@ Ihr sehr ergebener<lb/>
 Herrn Dr. Maril<lb/>
 S. Fischer, Verlag,<lb/>
 Berlin.</p>
-        <p><pb facs="1416740_0044"/>Ein holländischer Schriftsteller, Charles van<lb/>
+        <p>
+          <pb facs="1416740_0044"/>Ein holländischer Schriftsteller, Charles van<lb/>
 Jersel, bittet mich ein Manuscript, das er zur<lb/>
 Lektüre vor Monaten an mich gesandt hat, direkt<lb/>
 an sie weiterzuleiten. Es handelt sich um ein<lb/>

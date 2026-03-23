@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -66,7 +67,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten beschrieben
 
-Antwort auf: <ref target="10326">1910-06-19 AS an SF</ref></note>
+Antwort auf: <ref target="10326">1910-06-19 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1910-06-21.html</note>
       </notesStmt>
@@ -82,6 +84,13 @@ Antwort auf: <ref target="10326">1910-06-19 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb49803">Milwaukee</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Pabst-Theater Milwaukee</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10327.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -90,19 +99,6 @@ Antwort auf: <ref target="10326">1910-06-19 AS an SF</ref></note>
           <term>Garantiesumme</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb49803" source="https://pmb.acdh.oeaw.ac.at/entity/49803/">
-          <placeName>Milwaukee</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org>
-          <orgName>Pabst-Theater Milwaukee</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -113,10 +109,12 @@ Antwort auf: <ref target="10326">1910-06-19 AS an SF</ref></note>
       <div type="letter">
         <p>1 Blatt, 2 Seiten beschrieben
 
-Antwort auf: <ref target="10326">1910-06-19 AS an SF</ref></p>
+Antwort auf: <ref target="10326">1910-06-19 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0432"/>1er<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0432"/>1er<lb/>
 :1:1<lb/>
 209<lb/>
 S. FISCHER, VERLAG,’ BERLIN W., BÜLowSTR. 90<lb/>
@@ -138,7 +136,8 @@ darauf zu berufen, dass auch ein Geschenk<lb/>
 nicht zurückgefordert werden kann.<lb/>
 Ich will, wie Sie vorschlagen, von dem<lb/>
 Papst-Theater 500 Mark als Garantie für</p>
-        <p><pb facs="1416742_0433"/>"Zwischenspiel" verlangen und darauf die<lb/>
+        <p>
+          <pb facs="1416742_0433"/>"Zwischenspiel" verlangen und darauf die<lb/>
 M. 163,70 zurückvergüten, ich glaube<lb/>
 aber nicht, ob wir damit durchdringen<lb/>
 werden.<lb/>

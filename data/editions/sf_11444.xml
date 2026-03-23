@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -80,6 +81,15 @@ Anlage: Durchschrift eines Briefes an Benjamin Harz (1928-10-01); der eingangs e
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7000">Engel, Fritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4401">Hoffmann, Norbert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4374">Maril, Konrad</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11444.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -106,25 +116,6 @@ Anlage: Durchschrift eines Briefes an Benjamin Harz (1928-10-01); der eingangs e
           <term>Vorschuss</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb7000" source="https://pmb.acdh.oeaw.ac.at/entity/7000/">
-          <persName>Engel, Fritz</persName>
-        </person>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb4401" source="https://pmb.acdh.oeaw.ac.at/entity/4401/">
-          <persName>Hoffmann, Norbert</persName>
-        </person>
-        <person ref="#pmb4374" source="https://pmb.acdh.oeaw.ac.at/entity/4374/">
-          <persName>Maril, Konrad</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -137,8 +128,9 @@ Anlage: Durchschrift eines Briefes an Benjamin Harz (1928-10-01); der eingangs e
 Antwort auf: <ref target="11441">1928-09-21 SF (Berlin) an AS (Wien)</ref>, <ref target="11442">1928-09-29 SF (Berlin) an AS (Wien)</ref>
 Anlage: Durchschrift eines Briefes an Benjamin Harz (1928-10-01); der eingangs erwähnte "Auszug aus unserer Korrespondenz" findet sich in CUL MS Schnitzler B128 bzw. https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416747_0039.html</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0071"/>halb mit mir keinen Prozess führen, dass Sie<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0071"/>halb mit mir keinen Prozess führen, dass Sie<lb/>
 aber, um zu Ihrem Geld zu kommen, die Exemplare zum<lb/>
 herabgesetzt Preis von zwei Mark absetzen würden.<lb/>
 Mit anderen Worten: Sie sind entschlossen,<lb/>
@@ -214,7 +206,8 @@ ne kleine Art von Rückzug bedeutet, erscheint es mir<lb/>
 praktischer Herrn Harz nochmals durch das Anbot einer<lb/>
 Summe von 2500 Mark entgegenzukommen, worüber ja in<lb/>
 dem beiliegenden Entwurf Näheres nachzulesen ist.</p>
-        <p><pb facs="1416741_0072"/>S.Fischer,1.10.1928.<lb/>
+        <p>
+          <pb facs="1416741_0072"/>S.Fischer,1.10.1928.<lb/>
 Blatt 2<lb/>
 zu sagen, wird sich in unseren Beziehungen nichts<lb/>
 Natürlich hat resp. hätte dieser Brief an<lb/>
@@ -288,7 +281,8 @@ so herzlich, wenn vielleicht auch nicht ebenso er-<lb/>
 freut danken werde, wie für ein Ja, In dem einen<lb/>
 wie in dem anderen Falle, das brauche ich nicht erst<lb/>
 me</p>
-        <p><pb facs="1416741_0073"/>25.10.1928.<lb/>
+        <p>
+          <pb facs="1416741_0073"/>25.10.1928.<lb/>
 S. Fischer<lb/>
 Reipi<lb/>
 Lieber Freund.<lb/>

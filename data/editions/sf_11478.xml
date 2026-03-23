@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -64,7 +65,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
-Antwort auf: <ref target="11477">1929-04-24 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="11477">1929-04-24 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1929-04-29.html</note>
       </notesStmt>
@@ -81,6 +83,14 @@ Antwort auf: <ref target="11477">1929-04-24 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1200899253">Rosenbaum, Regina</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb862">Brüssel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11478.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -98,22 +108,6 @@ Antwort auf: <ref target="11477">1929-04-24 AS (Wien) an SF (Berlin)</ref></note
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="1200899253" source="https://d-nb.info/gnd/1200899253">
-          <persName>Rosenbaum, Regina</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb862" source="https://pmb.acdh.oeaw.ac.at/entity/862/">
-          <placeName>Brüssel</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -123,10 +117,12 @@ Antwort auf: <ref target="11477">1929-04-24 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 2 Seiten
-Antwort auf: <ref target="11477">1929-04-24 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="11477">1929-04-24 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_1094"/>912<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_1094"/>912<lb/>
 10<lb/>
 S. FISCHER VERLAG A.=G. BERLIN W 57<lb/>
 Theaterabteilung<lb/>
@@ -159,7 +155,8 @@ kommen wäre. Es handelt sich in diesem Fall um einen neuen<lb/>
 Weg, den wir eingeschlagen haben, nämlich den für den<lb/>
 a.Bl. II<lb/>
 4. 29. 5000. V.</p>
-        <p><pb facs="1416743_1095"/>912<lb/>
+        <p>
+          <pb facs="1416743_1095"/>912<lb/>
 1911<lb/>
 21/4<lb/>
 S. FISCHER VERLAG A.=G. BERLIN  W 57<lb/>

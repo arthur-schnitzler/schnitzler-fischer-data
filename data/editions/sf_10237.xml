@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -84,7 +85,8 @@
         <note type="description">2 Blatt, 2 Seiten beschrieben
 
 Antwort auf: <ref target="10236">1908-10-01 AS an SF</ref>
-Beantwortet in: <ref target="10240">1908-10-21 AS an SF</ref></note>
+Beantwortet in: <ref target="10240">1908-10-21 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1908-10-06.html</note>
       </notesStmt>
@@ -100,6 +102,15 @@ Beantwortet in: <ref target="10240">1908-10-21 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb178500">Bloch, Eduard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2874">Eirich, Oskar Friedrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2871">Entsch, Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4532">Jonas, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1073450619">Singer, Josef</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10237.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -109,23 +120,6 @@ Beantwortet in: <ref target="10240">1908-10-21 AS an SF</ref></note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb178500" source="https://pmb.acdh.oeaw.ac.at/entity/178500/">
-          <persName>Bloch, Eduard</persName>
-        </person>
-        <person ref="#pmb2874" source="https://pmb.acdh.oeaw.ac.at/entity/2874/">
-          <persName>Eirich, Oskar Friedrich</persName>
-        </person>
-        <person ref="#pmb2871" source="https://pmb.acdh.oeaw.ac.at/entity/2871/">
-          <persName>Entsch, Theodor</persName>
-        </person>
-        <person ref="#pmb4532" source="https://pmb.acdh.oeaw.ac.at/entity/4532/">
-          <persName>Jonas, Paul</persName>
-        </person>
-        <person ref="1073450619" source="https://d-nb.info/gnd/1073450619">
-          <persName>Singer, Josef</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -137,10 +131,12 @@ Beantwortet in: <ref target="10240">1908-10-21 AS an SF</ref></note>
         <p>2 Blatt, 2 Seiten beschrieben
 
 Antwort auf: <ref target="10236">1908-10-01 AS an SF</ref>
-Beantwortet in: <ref target="10240">1908-10-21 AS an SF</ref></p>
+Beantwortet in: <ref target="10240">1908-10-21 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0352"/>181<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0352"/>181<lb/>
 S. FISCHER, VERLAG<lb/>
 BERene W., DEN 6. Okt. 08<lb/>
 TELEPHON:<lb/>
@@ -169,7 +165,8 @@ Woche versprochen hat, bekomme, geht noch ein besonderer Brief bezüglich der<lb
 Verrechnung an die betreffenden Bühnen. Wir werden dann auch feststellen kön-<lb/>
 nen, was etwa in Juli und August an Entsch bezahlt wurde. Bloch hat alle Hände<lb/>
 voll zu tun, um überhaupt die Verträge zu finden, da bei Entsch eine unglaubliche</p>
-        <p><pb facs="1416742_0353"/>S. FISCHER, VERLAG, BERLIN. Herrn Dr- Arthur Schnitzler. Nien Blatt 2<lb/>
+        <p>
+          <pb facs="1416742_0353"/>S. FISCHER, VERLAG, BERLIN. Herrn Dr- Arthur Schnitzler. Nien Blatt 2<lb/>
 Unordnung geherrscht hat.<lb/>
 Sie fragen, wie wir die Kontrolle über die vielen kleinen Städte<lb/>
 und Flecken ausüben. Ich war Anfangs der Meinung, ich könnte mit Hilfe der<lb/>

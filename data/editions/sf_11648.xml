@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -99,6 +100,14 @@ Beantwortet in: 1931-03-26 SF (Berlin) an AS (Wien)</note>
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb15015">Clauser, Suzanne</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="nm0802064">Singermann, Berta</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb54042">Buenos Aires</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb249">Bulgarien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11648.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -107,22 +116,6 @@ Beantwortet in: 1931-03-26 SF (Berlin) an AS (Wien)</note>
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb15015" source="https://pmb.acdh.oeaw.ac.at/entity/15015/">
-          <persName>Clauser, Suzanne</persName>
-        </person>
-        <person ref="nm0802064" source="https://www.imdb.com/name/nm0802064/">
-          <persName>Singermann, Berta</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb54042" source="https://pmb.acdh.oeaw.ac.at/entity/54042/">
-          <placeName>Buenos Aires</placeName>
-        </place>
-        <place ref="#pmb249" source="https://pmb.acdh.oeaw.ac.at/entity/249/">
-          <placeName>Bulgarien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -135,8 +128,9 @@ Beantwortet in: 1931-03-26 SF (Berlin) an AS (Wien)</note>
 Antwort auf: <ref target="11647">1931-03-16 SF (Berlin) an AS (Wien)</ref>
 Beantwortet in: 1931-03-26 SF (Berlin) an AS (Wien)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0163"/>unter den angegebenen Bedingungen einzuwenden.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0163"/>unter den angegebenen Bedingungen einzuwenden.<lb/>
 Die Angelegenheit Rökk Richter wäre meiner Ansicht na<lb/>
 in Jedem Fall mit aller Beschleunigung, sei es mit,<lb/>
 sei es ohne Beziehung auf die Anfrage wegen der<lb/>
@@ -180,7 +174,8 @@ schen Schulausgaben glaube ich Ihnen sohon Mittei-<lb/>
 lung gemacht zu haben.<lb/>
 Die ersten Exemplare von "Traum und<lb/>
 "Schioksal" sind pünktlich angelangt. Das "uch prä-</p>
-        <p><pb facs="1416741_0164"/>sentiert sich sehr gut. Was den "Reigen" anbe-<lb/>
+        <p>
+          <pb facs="1416741_0164"/>sentiert sich sehr gut. Was den "Reigen" anbe-<lb/>
 langt wiederhole ich mein Ersuchen vor Ausgabe<lb/>
 Muster von Einband und Umschlagszeichnung zu<lb/>
 Gesichte zu bekommen.<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -95,6 +96,12 @@ Beantwortet in: 1897-12-04post/1897-12-10ante AS an SF (Umschlag 'Anatol'; nicht
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb151587">Eckmann, Otto</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb335748">Nauen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10071.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -107,16 +114,6 @@ Beantwortet in: 1897-12-04post/1897-12-10ante AS an SF (Umschlag 'Anatol'; nicht
           <term>Zeichnung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb151587" source="https://pmb.acdh.oeaw.ac.at/entity/151587/">
-          <persName>Eckmann, Otto</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb335748">
-          <placeName>Nauen</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -131,8 +128,9 @@ Notiz AS: "erl."
 Antwort auf: 1897-11-13post/1897-12-04ante AS an SF(Neuauflage 'Anatol'; nicht überliefert)
 Beantwortet in: 1897-12-04post/1897-12-10ante AS an SF (Umschlag 'Anatol'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0079"/>47<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0079"/>47<lb/>
 S. FISCHER.VERLAG.<lb/>
 G.H.P.<lb/>
 Berlin W., den 4. Dezember 1897.<lb/>

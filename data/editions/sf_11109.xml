@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11109">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -74,6 +75,11 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb335749">Bad Charlottenbrunn (Jedlina-Zdrój)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11109.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -82,11 +88,6 @@
           <term>Urheberrecht/Copyright</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb335749" >
-          <placeName>Bad Charlottenbrunn (Jedlina-Zdrój)</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -97,8 +98,9 @@
       <div type="letter">
         <p>1 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0763"/>FISCHER/VERLAG' THEATERABTEILUNG·BERLIN<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0763"/>FISCHER/VERLAG' THEATERABTEILUNG·BERLIN<lb/>
 W 57. BÜLow STR90<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
 Wien<lb/>
@@ -117,7 +119,8 @@ rage betrifft, so können wir natürlich auf Grund des Urheberrechtes<lb/>
 unberechtigte Aufführungen sofort inhibieren. Der betreffende ver-<lb/>
 anstalter ist nur in der Lage, eine eidesstattliche Versicherung<lb/>
 verlangen, dass uns das Recht der Genehmigung der Aufführung</p>
-        <p><pb facs="1416743_0764"/>T.D.C.<lb/>
+        <p>
+          <pb facs="1416743_0764"/>T.D.C.<lb/>
 allein zusteht.<lb/>
 Mit vorzüglicher Hochachtung,<lb/>
 S. FISCHER, VerlaG<lb/>

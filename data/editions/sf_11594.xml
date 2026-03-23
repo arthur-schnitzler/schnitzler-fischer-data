@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -85,7 +86,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
 Antwort auf: <ref target="11593">1930-10-21 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11595">1930-10-28 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11595">1930-10-28 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1930-10-25.html</note>
       </notesStmt>
@@ -101,6 +103,14 @@ Beantwortet in: <ref target="11595">1930-10-28 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4412">Schinnerer, Otto Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb166">Frankreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11594.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -114,22 +124,6 @@ Beantwortet in: <ref target="11595">1930-10-28 SF (Berlin) an AS (Wien)</ref></n
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4412" source="https://pmb.acdh.oeaw.ac.at/entity/4412/">
-          <persName>Schinnerer, Otto Paul</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
-          <placeName>Frankreich</placeName>
-        </place>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -140,10 +134,12 @@ Beantwortet in: <ref target="11595">1930-10-28 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>1 Blatt, 2 Seiten
 Antwort auf: <ref target="11593">1930-10-21 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11595">1930-10-28 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11595">1930-10-28 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0139"/>worin sich ja leider nichts geändert zu haben<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0139"/>worin sich ja leider nichts geändert zu haben<lb/>
 scheint. Nach wie vor halte ich Verbilligung xa<lb/>
 in einzelnen Fällen für den verhältnismässig aus-<lb/>
 sichtsreichsten Weg zu einer Besserung. Ich schlug<lb/>
@@ -206,7 +202,8 @@ xxx Ihre Rechnung wissen, ich würde an Schin-<lb/>
 nerer dann kabeln.<lb/>
 Sohwer zu entscheiden, ob aus rein prakti-<lb/>
 sehen Gründen für die billige Ausgabe eines mei-</p>
-        <p><pb facs="1416741_0140"/>ner Büchef ein starker Sammelband meiner Novellen<lb/>
+        <p>
+          <pb facs="1416741_0140"/>ner Büchef ein starker Sammelband meiner Novellen<lb/>
 oder die „Therese“ vorzuziehen wäre. Hir persön-<lb/>
 Ich wäre eine billige Ausgabe der "Therese"<lb/>
 beinahe sympathischer. Für den Novellenband kämen<lb/>

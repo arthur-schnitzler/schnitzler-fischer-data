@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -103,6 +104,25 @@ Antwort auf: 1919-07-28 SF (Berlin) an AS (Wien)</note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11227">Eger, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11981">Kramer, Leopold</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="11697088X">Zeiss, Karl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40709">Amsterdam</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb335745">Glücksburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb864">Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb652">Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb483">Reichenau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb189">Semmering</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45530">Deutsches Schauspielhaus in Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb250435">Hamburger Kammerspiele</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb37177">Kammerspiele Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45430">Kleines Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="1231430-4">Königliches Deutsches Landestheater Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb36430">Volkstheater Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10714.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -122,57 +142,6 @@ Antwort auf: 1919-07-28 SF (Berlin) an AS (Wien)</note>
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11227" source="https://pmb.acdh.oeaw.ac.at/entity/11227/">
-          <persName>Eger, Paul</persName>
-        </person>
-        <person ref="#pmb11981" source="https://pmb.acdh.oeaw.ac.at/entity/11981/">
-          <persName>Kramer, Leopold</persName>
-        </person>
-        <person ref="11697088X" source="https://d-nb.info/gnd/11697088X">
-          <persName>Zeiss, Karl</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb40709" source="https://pmb.acdh.oeaw.ac.at/entity/40709/">
-          <placeName>Amsterdam</placeName>
-        </place>
-        <place ref="#pmb335745" source="https://d-nb.info/gnd/4021328-6">
-          <placeName>Glücksburg</placeName>
-        </place>
-        <place ref="#pmb864" source="https://pmb.acdh.oeaw.ac.at/entity/864/">
-          <placeName>Leipzig</placeName>
-        </place>
-        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
-          <placeName>Prag</placeName>
-        </place>
-        <place ref="#pmb483" source="https://pmb.acdh.oeaw.ac.at/entity/483/">
-          <placeName>Reichenau</placeName>
-        </place>
-        <place ref="#pmb189" source="https://pmb.acdh.oeaw.ac.at/entity/189/">
-          <placeName>Semmering</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb45530" source="https://pmb.acdh.oeaw.ac.at/entity/45530/">
-          <orgName>Deutsches Schauspielhaus in Hamburg</orgName>
-        </org>
-        <org ref="#pmb250435" source="https://pmb.acdh.oeaw.ac.at/entity/250435/">
-          <orgName>Hamburger Kammerspiele</orgName>
-        </org>
-        <org ref="#pmb37177" source="https://pmb.acdh.oeaw.ac.at/entity/37177/">
-          <orgName>Kammerspiele Berlin</orgName>
-        </org>
-        <org ref="#pmb45430" source="https://pmb.acdh.oeaw.ac.at/entity/45430/">
-          <orgName>Kleines Theater Berlin</orgName>
-        </org>
-        <org ref="1231430-4" source="https://d-nb.info/gnd/1231430-4">
-          <orgName>Königliches Deutsches Landestheater Prag</orgName>
-        </org>
-        <org ref="#pmb36430" source="https://pmb.acdh.oeaw.ac.at/entity/36430/">
-          <orgName>Volkstheater Wien</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -184,8 +153,9 @@ Antwort auf: 1919-07-28 SF (Berlin) an AS (Wien)</note>
         <p>6 Blatt, 12 Seiten
 Antwort auf: 1919-07-28 SF (Berlin) an AS (Wien)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0105"/>an einer anderen Berliner zühne erheben dürfhn<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0105"/>an einer anderen Berliner zühne erheben dürfhn<lb/>
 da es doch selbst zu Abendaufführungen nicht<lb/>
 einmal berechtigt ist. Sobald die Sache mit je¬<lb/>
 ner anderen Berliner Rühne aktuell wird,ver-<lb/>
@@ -215,7 +185,8 @@ dern wollten. Mir schien es, als wenn Sie<lb/>
 wünschten, dass Friese nicht nur dasjenige<lb/>
 an Sie zu bezahlen hätte, was er verkauft,<lb/>
 sondern überhaupt alles, was bei ihm lagerte.</p>
-        <p><pb facs="1416739_0106"/>20/8<lb/>
+        <p>
+          <pb facs="1416739_0106"/>20/8<lb/>
 2<lb/>
 wie Sie meinen. Ich weiss, dass die Preise,<lb/>
 die Löhne, dass alle Betriebskosten ins unge<lb/>
@@ -260,7 +231,8 @@ droht; - Eine solche Anregung, eine solchs For-<lb/>
 meine Auffassung darzulegen. Ich bin keines-<lb/>
 wegs Ihren Schwierigkeiten gegenüber skeptian###<lb/>
 derung erschiene mir keineswegs ganz umbil-</p>
-        <p><pb facs="1416739_0107"/>20/8 15<lb/>
+        <p>
+          <pb facs="1416739_0107"/>20/8 15<lb/>
 84<lb/>
 eine dauernde, ja mit erneuten zuschlägen sich<lb/>
 lig, doch da ich ferne davon bin, für mich nach<lb/>
@@ -306,7 +278,8 @@ ren auf den Markt gelange mit Rücksicht auf<lb/>
 mit diesem Usus praktisch am Ende nichts an-<lb/>
 die zahlreichen Käufer, die zwar noch bereit<lb/>
 deres erreicht wird, als eine Herabsetzung</p>
-        <p><pb facs="1416739_0108"/>sind erhöhte Preise für ein Buch, aber nicht<lb/>
+        <p>
+          <pb facs="1416739_0108"/>sind erhöhte Preise für ein Buch, aber nicht<lb/>
 für einen ihnen nicht immer konvenierenden<lb/>
 Einband zu bezahlen. Dass ein Verlag kaum auf<lb/>
 seine Kosten käme, wenn er einem Autor, dessen<lb/>
@@ -351,7 +324,8 @@ sollte, ob nun Herr Kramer nach wiederholter<lb/>
 Mahnung zahlt oder weiterhin zögert;- ich<lb/>
 mich<lb/>
 wünsch e gegenüber diesem unmöglichen Vorge-</p>
-        <p><pb facs="1416739_0109"/>20/8 /5<lb/>
+        <p>
+          <pb facs="1416739_0109"/>20/8 /5<lb/>
 über die sache vernommen habe. Ob der Dramaturg und<lb/>
 gehen ein für alle Mal sicherzustellen. Herr Kra-<lb/>
 gsbrü¬<lb/>
@@ -400,7 +374,8 @@ ge eintrete? An Herrn Kramer selbst zu schreiben,<lb/>
 dass das Uraufführungsrecht das Deutsche Volks-<lb/>
 unterlasse ich jedenfalls, bis ich Ihre Meinung<lb/>
 thoater in Wien xxx erworben hat und dass die</p>
-        <p><pb facs="1416739_0110"/>20/8/8<lb/>
+        <p>
+          <pb facs="1416739_0110"/>20/8/8<lb/>
 11<lb/>
 10<lb/>
 Wortlaut des Vertrages den Kleinen Theater das<lb/>
@@ -449,7 +424,8 @@ men sei, erhielt ich diesmal privat und nicht nur<lb/>
 mittage erworben hat, steht ihm selbstverständlich<lb/>
 aus Wien, sondern mit besonderer Betonung aus<lb/>
 kein Recht zu es auch abends aufzuführen. Dass der</p>
-        <p><pb facs="1416739_0111"/>12.<lb/>
+        <p>
+          <pb facs="1416739_0111"/>12.<lb/>
 24.8.1919.<lb/>
 Prag. Das Honorar zu für die 17.-19. Auflage bit-<lb/>
 te ich sie freundlichst an mein Konto, Deutsche<lb/>
@@ -485,7 +461,8 @@ so sind mit dieser Sendung von 621 österr.Kro-<lb/>
 nen noch nicht einmal diese Ausstände beglichen<lb/>
 umso weniger als es sich bei „Liebelei“ und „li<lb/>
 teratur" (April) jedesfalls schon um czechische</p>
-        <p><pb facs="1416739_0112"/>Kronen handelt.<lb/>
+        <p>
+          <pb facs="1416739_0112"/>Kronen handelt.<lb/>
 Ueberdies aber sind auch die Tantieren für<lb/>
 „Professor Bernhardi“ vom 8.u.16.5. noch nicht<lb/>
 bezahlt, dazu kam noch eine Aufführung des „Ana¬<lb/>
@@ -532,7 +509,8 @@ pühnenleiter. Ich hoffe Ihnen damit keine zu,<lb/>
 grosse Mühe zu verursachen. Ihre Bemerkung<lb/>
 betreffend die drohende Unterbilanz hat sich ein<lb/>
 wenig befremdet. Die Provision von 7% hat mir</p>
-        <p><pb facs="1416739_0113"/>4/815<lb/>
+        <p>
+          <pb facs="1416739_0113"/>4/815<lb/>
 4<lb/>
 stimmung des Generalvertrages die Annahme einer<lb/>
 Herr Fischer persönlich in Vorschlag gebracht,<lb/>
@@ -570,7 +548,8 @@ Direktor Ziegel dankt mir eben für die<lb/>
 neberlas un. des „Reigen“ und erklärt sich aus-<lb/>
 drücklich bereitt eine hohe Garantie zu zahlen.<lb/>
 Nachdem uns also die ausnehmend thörichte Be-</p>
-        <p><pb facs="1416739_0114"/>1.10.1919.<lb/>
+        <p>
+          <pb facs="1416739_0114"/>1.10.1919.<lb/>
 Herrn S.Fischen,Verlag,<lb/>
 G.C.H.F.S<lb/>
 Berlin.<lb/>
@@ -591,7 +570,8 @@ ich wegen der Uebersetzungsrechte für „Rekten“<lb/>
 G.C.F.P<lb/>
 (erschienen bei Harz) direkt telegraphiert.<lb/>
 4. Ich erhielt eine Art Geschäftsan¬</p>
-        <p><pb facs="1416739_0115"/>2<lb/>
+        <p>
+          <pb facs="1416739_0115"/>2<lb/>
 zeige von Hans Bartsch in New York, der ja wie<lb/>
 Gouillez lʼhonneur dʼêtre<lb/>
 G.C.H.F.P<lb/>
@@ -632,7 +612,8 @@ Wenn sie es für richtig halten,<lb/>
 will ich nun nichts mehr dagegen einwenden,<lb/>
 dass Sie die Wünsche der Bühnen um Einsendung<lb/>
 von Rühne nexemplaren erfüllen. Sie wissen ja,</p>
-        <p><pb facs="1416739_0116"/>welche städte ausgeschlossen bleiben. Zur An¬<lb/>
+        <p>
+          <pb facs="1416739_0116"/>welche städte ausgeschlossen bleiben. Zur An¬<lb/>
 nahme werden sich die Direktoren,wie wir nun<lb/>
 oft genug erfahren haben, doch nur nach einem<lb/>
 eventuellen Frfolg in Berlin oder Wien ent-<lb/>

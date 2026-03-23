@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -58,7 +59,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Beantwortet in: <ref target="10844">1921-08-19 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="10844">1921-08-19 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1921-08-12.html</note>
       </notesStmt>
@@ -75,6 +77,17 @@ Beantwortet in: <ref target="10844">1921-08-19 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23307">Reusch, Hubert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4441">Sladek, Maximilian</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40709">Amsterdam</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb58810">Den Haag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44303">Rotterdam</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Centraal Theater Amsterdam</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10843.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -82,33 +95,6 @@ Beantwortet in: <ref target="10844">1921-08-19 AS (Wien) an SF (Berlin)</ref></n
           <term>Honorar</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb23307" source="https://pmb.acdh.oeaw.ac.at/entity/23307/">
-          <persName>Reusch, Hubert</persName>
-        </person>
-        <person ref="#pmb4441" source="https://pmb.acdh.oeaw.ac.at/entity/4441/">
-          <persName>Sladek, Maximilian</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb40709" source="https://pmb.acdh.oeaw.ac.at/entity/40709/">
-          <placeName>Amsterdam</placeName>
-        </place>
-        <place ref="#pmb58810" source="https://pmb.acdh.oeaw.ac.at/entity/58810/">
-          <placeName>Den Haag</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb44303" source="https://pmb.acdh.oeaw.ac.at/entity/44303/">
-          <placeName>Rotterdam</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org>
-          <orgName>Centraal Theater Amsterdam</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -118,10 +104,12 @@ Beantwortet in: <ref target="10844">1921-08-19 AS (Wien) an SF (Berlin)</ref></n
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Beantwortet in: <ref target="10844">1921-08-19 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="10844">1921-08-19 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0400"/>cl2<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0400"/>cl2<lb/>
 S. Fischer/Verlag/Berlin W 57/Bülowstraße 9o<lb/>
 B.3.8<lb/>
 Amt Lützow 1662, 6162, 9292<lb/>
@@ -170,7 +158,8 @@ Garantie für den Fall eines Verbotes rückzahlbar wäre. Wir haben<lb/>
 der Direktion nahegelegt, sich bei den beabsichtigten Auf -<lb/>
 führungen nicht auf "Heigen" zu beschränken, sondern ein<lb/>
 R. 1000. 8. 20.</p>
-        <p><pb facs="1416743_0401"/>Von länstiwoliiä se mj niiinä pakru auch<lb/>
+        <p>
+          <pb facs="1416743_0401"/>Von länstiwoliiä se mj niiinä pakru auch<lb/>
 gere,seite.S6b###3 imk<lb/>
 mais<lb/>
 puulisidereinsd:<lb/>

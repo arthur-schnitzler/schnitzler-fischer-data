@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -72,7 +73,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Beantwortet in: <ref target="11279">1927-02-03 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="11279">1927-02-03 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift, eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1927-01-29.html</note>
       </notesStmt>
@@ -88,6 +90,13 @@ Beantwortet in: <ref target="11279">1927-02-03 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4374">Maril, Konrad</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4455">Zsolnay, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11278.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,19 +109,6 @@ Beantwortet in: <ref target="11279">1927-02-03 AS (Wien) an SF (Berlin)</ref></n
           <term>Verhandlung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4374" source="https://pmb.acdh.oeaw.ac.at/entity/4374/">
-          <persName>Maril, Konrad</persName>
-        </person>
-        <person ref="#pmb4455" source="https://pmb.acdh.oeaw.ac.at/entity/4455/">
-          <persName>Zsolnay, Paul</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -122,10 +118,12 @@ Beantwortet in: <ref target="11279">1927-02-03 AS (Wien) an SF (Berlin)</ref></n
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Beantwortet in: <ref target="11279">1927-02-03 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="11279">1927-02-03 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0907"/>86<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0907"/>86<lb/>
 d. Fischer / Verlag / A.=G. Berlin W 57.<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Poatscheckkonto; Berlin Nr. 1669<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 6162 bis 6164<lb/>

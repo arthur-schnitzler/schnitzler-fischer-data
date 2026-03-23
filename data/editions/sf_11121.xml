@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11121">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -80,6 +81,14 @@ Rückseite: Handschriftliche Notiz von AS</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20474">Linden, Gustaf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb866">Dresden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb864">Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11121.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,22 +100,6 @@ Rückseite: Handschriftliche Notiz von AS</note>
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb20474" source="https://pmb.acdh.oeaw.ac.at/entity/20474/">
-          <persName>Linden, Gustaf</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb866" source="https://pmb.acdh.oeaw.ac.at/entity/866/">
-          <placeName>Dresden</placeName>
-        </place>
-        <place ref="#pmb864" source="https://pmb.acdh.oeaw.ac.at/entity/864/">
-          <placeName>Leipzig</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -118,8 +111,9 @@ Rückseite: Handschriftliche Notiz von AS</note>
         <p>1 Blatt, 2 Seiten
 Rückseite: Handschriftliche Notiz von AS</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0777"/>de la fois de<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0777"/>de la fois de<lb/>
 a lʼa beaucoup de<lb/>
 G.H.F.P.<lb/>
 .8.<lb/>
@@ -186,7 +180,8 @@ de Votre est<lb/>
 P.<lb/>
 7<lb/>
 erden</p>
-        <p><pb facs="1416743_0778"/>P.<lb/>
+        <p>
+          <pb facs="1416743_0778"/>P.<lb/>
 G.C.F.P.<lb/>
 V V V<lb/>
 G.H.F.P<lb/>

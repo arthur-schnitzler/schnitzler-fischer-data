@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -78,6 +79,21 @@ Antwort auf: <ref target="10497">1913-04-13 SF an AS</ref> und 1913-04-14 SF/EPT
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb374">Gardone</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3283">Björkman, Edwin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2657">Fischer, Hedwig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17355">Grein, Jack Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43471">Budapest</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb374">Gardone</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb577">Irland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb288854">Johann-Strauß-Theater Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10499.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -87,45 +103,6 @@ Antwort auf: <ref target="10497">1913-04-13 SF an AS</ref> und 1913-04-14 SF/EPT
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb3283" source="https://pmb.acdh.oeaw.ac.at/entity/3283/">
-          <persName>Björkman, Edwin</persName>
-        </person>
-        <person ref="#pmb2657" source="https://pmb.acdh.oeaw.ac.at/entity/2657/">
-          <persName>Fischer, Hedwig</persName>
-        </person>
-        <person ref="#pmb17355" source="https://pmb.acdh.oeaw.ac.at/entity/17355/">
-          <persName>Grein, Jack Thomas</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43471" source="https://pmb.acdh.oeaw.ac.at/entity/43471/">
-          <placeName>Budapest</placeName>
-        </place>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb374" source="https://pmb.acdh.oeaw.ac.at/entity/374/">
-          <placeName>Gardone</placeName>
-        </place>
-        <place ref="#pmb577" source="https://pmb.acdh.oeaw.ac.at/entity/577/">
-          <placeName>Irland</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb288854" source="https://pmb.acdh.oeaw.ac.at/entity/288854/">
-          <orgName>Johann-Strauß-Theater Wien</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>

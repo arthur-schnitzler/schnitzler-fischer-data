@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11404">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -83,6 +84,18 @@
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="nm0886327">Lugt Melsert, Cor van der</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb24148">Scheyer, Moritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb505">Athen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb682">Gravosa</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb966">Konstantinopel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb873">Triest</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11404.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -101,34 +114,6 @@
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="nm0886327" source="https://www.imdb.com/name/nm0886327/">
-          <persName>Lugt Melsert, Cor van der</persName>
-        </person>
-        <person ref="#pmb24148" source="https://pmb.acdh.oeaw.ac.at/entity/24148/">
-          <persName>Scheyer, Moritz</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb505" source="https://pmb.acdh.oeaw.ac.at/entity/505/">
-          <placeName>Athen</placeName>
-        </place>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb682" source="https://pmb.acdh.oeaw.ac.at/entity/682/">
-          <placeName>Gravosa</placeName>
-        </place>
-        <place ref="#pmb966" source="https://pmb.acdh.oeaw.ac.at/entity/966/">
-          <placeName>Konstantinopel</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb873" source="https://pmb.acdh.oeaw.ac.at/entity/873/">
-          <placeName>Triest</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -139,8 +124,9 @@
       <div type="letter">
         <p>2 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0041"/>Darf ich darum bitten in den nächsten Tagen<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0041"/>Darf ich darum bitten in den nächsten Tagen<lb/>
 für mein Konto an die Bank für auswärtigen Handel<lb/>
 als zweite Rate "Therese-Honorar Mk. 5000.- freund-<lb/>
 lichst überweisen zu wollen.<lb/>
@@ -201,7 +187,8 @@ seinerzeit von anderen Gesellschaften für<lb/>
 "Bervhardi" gezahlt wurde. (7 oder 5⅞). Die<lb/>
 Sache muss unbedingt zu Ende geführt werden, auf<lb/>
 die Gefahr hin, dass wir Unrecht behalten.</p>
-        <p><pb facs="1416741_0042"/>Mit dem Umschlag zur "Therese" bin ich<lb/>
+        <p>
+          <pb facs="1416741_0042"/>Mit dem Umschlag zur "Therese" bin ich<lb/>
 einverstanden.<lb/>
 Heute Abend reise ich ab. Am 19. April<lb/>
 würden mich Briefe in Athen treffen, am 23. in Constan-<lb/>

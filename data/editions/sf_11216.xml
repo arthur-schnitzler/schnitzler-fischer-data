@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -82,7 +83,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
 Antwort auf: 1925-12-25 SF (Berlin) an AS (Wien)
-Beantwortet in: <ref target="11217">1926-01-06 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11217">1926-01-06 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1926-01-04.html</note>
       </notesStmt>
@@ -99,6 +101,14 @@ Beantwortet in: <ref target="11217">1926-01-06 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb9146">Ompteda, Georg von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23046">Ranschburg, Viktor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Rökk-Richter, Stefano (Theateragent und Schriftsteller, Italien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11216.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -112,22 +122,6 @@ Beantwortet in: <ref target="11217">1926-01-06 SF (Berlin) an AS (Wien)</ref></n
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb9146" source="https://pmb.acdh.oeaw.ac.at/entity/9146/">
-          <persName>Ompteda, Georg von</persName>
-        </person>
-        <person ref="#pmb23046" source="https://pmb.acdh.oeaw.ac.at/entity/23046/">
-          <persName>Ranschburg, Viktor</persName>
-        </person>
-        <person>
-          <persName>Rökk-Richter, Stefano (Theateragent und Schriftsteller, Italien)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -138,10 +132,12 @@ Beantwortet in: <ref target="11217">1926-01-06 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>2 Blatt, 2 Seiten
 Antwort auf: 1925-12-25 SF (Berlin) an AS (Wien)
-Beantwortet in: <ref target="11217">1926-01-06 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11217">1926-01-06 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0070"/>Betrügen, Veruntreuen auf geistigen „Sakkaax<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0070"/>Betrügen, Veruntreuen auf geistigen „Sakkaax<lb/>
 resp. auf geschäftlich-literarischem Gebiete<lb/>
 in gleicher Weise strafrechtlich verfolgt und<lb/>
 geahnt werden wird, als es - zuweilen -<lb/>
@@ -228,7 +224,8 @@ tung) akzeptabel erscheinen. Ranschburg<lb/>
 möchte gern zwei meiner kürzeren Novellen<lb/>
 im gleichen Band publizieren. Ranschburg hatte<lb/>
 sich zuerst an Ullstein gewandt, der abe</p>
-        <p><pb facs="1416740_0071"/>natürlich keine weiteren Rechte als die zum<lb/>
+        <p>
+          <pb facs="1416740_0071"/>natürlich keine weiteren Rechte als die zum<lb/>
 Abdruok in der.Dame besitzt.<lb/>
 Uebrigens lasse ich Ihnen resp. Herrn<lb/>
 Fischer die Novalle, die in einem Fannenabzug<lb/>

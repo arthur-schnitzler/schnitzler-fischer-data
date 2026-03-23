@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -55,7 +56,8 @@
         <note type="description">1 Blatt, 1 Seite (wohl fragmentarisch überliefert; keine abschließende Grußformel)
 
 Antwort auf: <ref target="10141">1904-03-23 SF/LS an AS</ref>
-Beantwortet in: <ref target="10143">1904-03-28 SF/LS an AS</ref></note>
+Beantwortet in: <ref target="10143">1904-03-28 SF/LS an AS</ref>
+        </note>
         <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1904-03-26.html</note>
       </notesStmt>
@@ -72,6 +74,13 @@ Beantwortet in: <ref target="10143">1904-03-28 SF/LS an AS</ref></note>
           <persName type="coworker">Schmidt, Lothar</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20466">Lindemann, Gustav</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb146">Frankfurt am Main</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb890">Hannover</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10142.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -83,19 +92,6 @@ Beantwortet in: <ref target="10143">1904-03-28 SF/LS an AS</ref></note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb20466" source="https://pmb.acdh.oeaw.ac.at/entity/20466/">
-          <persName>Lindemann, Gustav</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb146" source="https://pmb.acdh.oeaw.ac.at/entity/146/">
-          <placeName>Frankfurt am Main</placeName>
-        </place>
-        <place ref="#pmb890" source="https://pmb.acdh.oeaw.ac.at/entity/890/">
-          <placeName>Hannover</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -107,7 +103,8 @@ Beantwortet in: <ref target="10143">1904-03-28 SF/LS an AS</ref></note>
         <p>1 Blatt, 1 Seite (wohl fragmentarisch überliefert; keine abschließende Grußformel)
 
 Antwort auf: <ref target="10141">1904-03-23 SF/LS an AS</ref>
-Beantwortet in: <ref target="10143">1904-03-28 SF/LS an AS</ref></p>
+Beantwortet in: <ref target="10143">1904-03-28 SF/LS an AS</ref>
+        </p>
       </div>
     </body>
   </text>

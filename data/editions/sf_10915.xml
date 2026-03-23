@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10915">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,6 +80,16 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3105">Karczag, Wilhelm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2312">Zuckerkandl, Berta</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40709">Amsterdam</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb710">Belgien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb166">Frankreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10915.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -87,28 +98,6 @@
           <term>französisch</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb3105" source="https://pmb.acdh.oeaw.ac.at/entity/3105/">
-          <persName>Karczag, Wilhelm</persName>
-        </person>
-        <person ref="#pmb2312" source="https://pmb.acdh.oeaw.ac.at/entity/2312/">
-          <persName>Zuckerkandl, Berta</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb40709" source="https://pmb.acdh.oeaw.ac.at/entity/40709/">
-          <placeName>Amsterdam</placeName>
-        </place>
-        <place ref="#pmb710" source="https://pmb.acdh.oeaw.ac.at/entity/710/">
-          <placeName>Belgien</placeName>
-        </place>
-        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
-          <placeName>Frankreich</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -119,8 +108,9 @@
       <div type="letter">
         <p>1 Blatt, 1 Seite</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0497"/>56.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0497"/>56.<lb/>
 S. Fischer/Verlag/Berlin W 57/Bülowstraße go-<lb/>
 we: Amt Lützow Nr. 1662. 6162 und 9292 / Postschsekkonto; Berlin Nr.. 1669.<lb/>
 THEATERABTEILUNG<lb/>

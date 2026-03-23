@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10107">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -98,6 +99,13 @@ Beantwortet in: 1900-12-14post/1900-12-18ante AS an SF (Druck 'Beatrice', Vorles
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb28645">Coschell, Moritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11740">Hofmannsthal, Hugo von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13055">Wassermann, Jakob</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10107.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -109,17 +117,6 @@ Beantwortet in: 1900-12-14post/1900-12-18ante AS an SF (Druck 'Beatrice', Vorles
           <term>Vorlesung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb28645" source="https://pmb.acdh.oeaw.ac.at/entity/28645/">
-          <persName>Coschell, Moritz</persName>
-        </person>
-        <person ref="#pmb11740" source="https://pmb.acdh.oeaw.ac.at/entity/11740/">
-          <persName>Hofmannsthal, Hugo von</persName>
-        </person>
-        <person ref="#pmb13055" source="https://pmb.acdh.oeaw.ac.at/entity/13055/">
-          <persName>Wassermann, Jakob</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -133,8 +130,9 @@ Beantwortet in: 1900-12-14post/1900-12-18ante AS an SF (Druck 'Beatrice', Vorles
 Antwort auf: 1900-10-30post/1900-12-14ante AS an SF (Druck 'Beatrice', Ms. 'Gustl'; nicht überliefert)
 Beantwortet in: 1900-12-14post/1900-12-18ante AS an SF (Druck 'Beatrice', Vorlesung AS in Berlin; nicht überliefert, wohl Telegramm)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0136"/>82<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0136"/>82<lb/>
 S. FISCHER, VERLAG<lb/>
 thau halten.<lb/>
 Veröffentlichung in<lb/>
@@ -187,7 +185,8 @@ Wenn Sie schon im April die „Garlan“ heraus haben wollen, so kann es<lb/>
 ja geschehen; der Herbst schien mir freilich dazu geeigneter, um auf die<lb/>
 beiden im Januar erscheinenden Bücher nicht allzu sehr zu drücken. Jeden-<lb/>
 falls soll aber der Druck der Buchausgabe der „Garlan“ gleichen Schritt</p>
-        <p><pb facs="1416742_0137"/>8<lb/>
+        <p>
+          <pb facs="1416742_0137"/>8<lb/>
 der Veröffentlichung in der Rundschau halten.<lb/>
 Es wäre sehr gut, wenn wir, um nicht über jedes Buch einen neuen<lb/>
 Contrakt zu machen, wieder einmal einen Generalvertrag, der die Bedin-<lb/>

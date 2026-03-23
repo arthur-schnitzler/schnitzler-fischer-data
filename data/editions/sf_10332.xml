@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -87,31 +88,21 @@ Es folgten persönliche Treffen in Bad Ischl mit Gesprächen über geplante Werk
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12163">Mahler, Gustav</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1051305969">Orth, Alexander</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43471">Budapest</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10332.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb12163" source="https://pmb.acdh.oeaw.ac.at/entity/12163/">
-          <persName>Mahler, Gustav</persName>
-        </person>
-        <person ref="1051305969" source="https://d-nb.info/gnd/1051305969">
-          <persName>Orth, Alexander</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43471" source="https://pmb.acdh.oeaw.ac.at/entity/43471/">
-          <placeName>Budapest</placeName>
-        </place>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -125,8 +116,9 @@ Es folgten persönliche Treffen in Bad Ischl mit Gesprächen über geplante Werk
 Antwort auf: <ref target="10331">1910-08-10 AS an SF/CS</ref>
 Es folgten persönliche Treffen in Bad Ischl mit Gesprächen über geplante Werkausgabe (Tgb 1910-09-01 und -05)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0439"/>223<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0439"/>223<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstraße 90<lb/>
 z. Zeit Unterich am<lb/>
 Attersee<lb/>
@@ -158,7 +150,8 @@ ministerium in Badeplat deponiert und in die Schutzvolle<lb/>
 eingetragen werden kann? Ich halte es für sehr schwierig<lb/>
 eine solche Verbindung anzubühnen, weil ein befähigter<lb/>
 Litterat sich nicht ohne weiteres dazu herbeilassen und</p>
-        <p><pb facs="1416742_0440"/>auf sein Risiko jedes Thier neuen Stücke zu übersetzen.<lb/>
+        <p>
+          <pb facs="1416742_0440"/>auf sein Risiko jedes Thier neuen Stücke zu übersetzen.<lb/>
 Was mir also tun könnten, wäre mir die Eintragung Ihres<lb/>
 neuen Stücke beim Handesministerium in Budapest. Hlyk<lb/>
 über in weiteren 3 Monaten nicht die Depauerung der<lb/>

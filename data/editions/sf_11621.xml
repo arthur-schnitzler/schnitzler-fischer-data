@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -68,7 +69,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
 Antwort auf: <ref target="11618">1931-01-22 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11623">1931-01-28 SF (Berlin) an AS (Wien)</ref>, <ref target="11627">1931-02-06 SF (Berlin) an AS (Wien)</ref>, <ref target="11629">1931-02-11 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11623">1931-01-28 SF (Berlin) an AS (Wien)</ref>, <ref target="11627">1931-02-06 SF (Berlin) an AS (Wien)</ref>, <ref target="11629">1931-02-11 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1931-01-26.html</note>
       </notesStmt>
@@ -85,6 +87,14 @@ Beantwortet in: <ref target="11623">1931-01-28 SF (Berlin) an AS (Wien)</ref>, <
           <persName type="coworker">Bermann, Gottfried</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Beisser, Andreas (Kopenhagen)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43570">Dänemark</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb36300">Kopenhagen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb378">Rumänien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11621.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -95,22 +105,6 @@ Beantwortet in: <ref target="11623">1931-01-28 SF (Berlin) an AS (Wien)</ref>, <
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person>
-          <persName>Beisser, Andreas (Kopenhagen)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43570" source="https://pmb.acdh.oeaw.ac.at/entity/43570/">
-          <placeName>Dänemark</placeName>
-        </place>
-        <place ref="#pmb36300" source="https://pmb.acdh.oeaw.ac.at/entity/36300/">
-          <placeName>Kopenhagen</placeName>
-        </place>
-        <place ref="#pmb378" source="https://pmb.acdh.oeaw.ac.at/entity/378/">
-          <placeName>Rumänien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -121,10 +115,12 @@ Beantwortet in: <ref target="11623">1931-01-28 SF (Berlin) an AS (Wien)</ref>, <
       <div type="letter">
         <p>1 Blatt, 1 Seite
 Antwort auf: <ref target="11618">1931-01-22 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11623">1931-01-28 SF (Berlin) an AS (Wien)</ref>, <ref target="11627">1931-02-06 SF (Berlin) an AS (Wien)</ref>, <ref target="11629">1931-02-11 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11623">1931-01-28 SF (Berlin) an AS (Wien)</ref>, <ref target="11627">1931-02-06 SF (Berlin) an AS (Wien)</ref>, <ref target="11629">1931-02-11 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0154"/>F. Tischer<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0154"/>F. Tischer<lb/>
 26.1.1931.<lb/>
 Lieber Herr Dr. Hermann.<lb/>
 Ich sende Ihnen also die Körrektur-<lb/>

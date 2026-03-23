@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10183">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -82,21 +83,15 @@ Antwort auf: 1907-04-24post/1907-05-16ante AS an SF (Rechte England; nicht über
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116851740">Lederer, Emanuel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10183.xml"/>
+        </note>
       </correspDesc>
       <textClass/>
-      <listPerson>
-        <person ref="116851740" source="https://d-nb.info/gnd/116851740">
-          <persName>Lederer, Emanuel</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -109,8 +104,9 @@ Antwort auf: 1907-04-24post/1907-05-16ante AS an SF (Rechte England; nicht über
 
 Antwort auf: 1907-04-24post/1907-05-16ante AS an SF (Rechte England; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0273"/>147<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0273"/>147<lb/>
 S. FISCHER,VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
 BERene W., DEN...<lb/>
 doute m'arbeur<lb/>
@@ -130,7 +126,8 @@ Erste Stunde über alle xxx sehr xxx L###<lb/>
 Kandmüße. Ehe- und Jeder Stück von 9,11 Uhr<lb/>
 ###<lb/>
 xyz xxx</p>
-        <p><pb facs="1416742_0274"/>Ob aus seiner Fieger-Beise in blaßen Pett-<lb/>
+        <p>
+          <pb facs="1416742_0274"/>Ob aus seiner Fieger-Beise in blaßen Pett-<lb/>
 Jahr noch etwas wird? Ich glaube kann,<lb/>
 Mit besten Grüssen<lb/>
 tar.<lb/>

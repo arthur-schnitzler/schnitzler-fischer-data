@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -71,7 +72,8 @@
 Anlage: 1908-03-## Petersburger Verlag an SF (nicht überliefert)
 
 Antwort auf: 1908-03-04post/1903-03-24ante AS an SF (nicht überliefert)
-Beantwortet in: <ref target="10212">1908-03-26 AS an SF</ref></note>
+Beantwortet in: <ref target="10212">1908-03-26 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1908-03-24.html</note>
       </notesStmt>
@@ -87,20 +89,18 @@ Beantwortet in: <ref target="10212">1908-03-26 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb433">St. Petersburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10211.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Aufführungsrecht</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-        <place ref="#pmb433" source="https://pmb.acdh.oeaw.ac.at/entity/433/">
-          <placeName>St. Petersburg</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -113,10 +113,12 @@ Beantwortet in: <ref target="10212">1908-03-26 AS an SF</ref></note>
 Anlage: 1908-03-## Petersburger Verlag an SF (nicht überliefert)
 
 Antwort auf: 1908-03-04post/1903-03-24ante AS an SF (nicht überliefert)
-Beantwortet in: <ref target="10212">1908-03-26 AS an SF</ref></p>
+Beantwortet in: <ref target="10212">1908-03-26 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0319"/>212<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0319"/>212<lb/>
 165<lb/>
 S. FISCHER, VERLAG,’ BERLIN W., BÜLowSTR. 90<lb/>
 BÈPLIN W., DEN. 24. Märs 08<lb/>
@@ -141,7 +143,8 @@ früher wie die deutsche erscheint, daraufhin<lb/>
 bieten die Herren 400 Mark. Entscheiden Sie<lb/>
 or the rest of the<lb/>
 Für</p>
-        <p><pb facs="1416742_0320"/>21<lb/>
+        <p>
+          <pb facs="1416742_0320"/>21<lb/>
 bitte, was geschehen soll. Mir sind dies*<lb/>
 Russen immer sehr verdächtig. Ich bin nicht<lb/>
 sicher, dass sie das Buch nicht doch vor<lb/>

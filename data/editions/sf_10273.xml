@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,7 +71,8 @@
         <note type="description">1 Blatt, 1 Seite
 
 Antwort auf: <ref target="10272">1909-06-22 AS an SF</ref>
-Beantwortet in: <ref target="10275">1909-07-15 AS an SF</ref></note>
+Beantwortet in: <ref target="10275">1909-07-15 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1909-06-23.html</note>
       </notesStmt>
@@ -86,6 +88,14 @@ Beantwortet in: <ref target="10275">1909-07-15 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10986">Brahm, Otto</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb43804">Lautensack, Heinrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb57124">Schiller-Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10273.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -93,24 +103,6 @@ Beantwortet in: <ref target="10275">1909-07-15 AS an SF</ref></note>
           <term>Garantiesumme</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10986" source="https://pmb.acdh.oeaw.ac.at/entity/10986/">
-          <persName>Brahm, Otto</persName>
-        </person>
-        <person ref="#pmb43804" source="https://pmb.acdh.oeaw.ac.at/entity/43804/">
-          <persName>Lautensack, Heinrich</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb57124" source="https://pmb.acdh.oeaw.ac.at/entity/57124/">
-          <orgName>Schiller-Theater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -122,10 +114,12 @@ Beantwortet in: <ref target="10275">1909-07-15 AS an SF</ref></note>
         <p>1 Blatt, 1 Seite
 
 Antwort auf: <ref target="10272">1909-06-22 AS an SF</ref>
-Beantwortet in: <ref target="10275">1909-07-15 AS an SF</ref></p>
+Beantwortet in: <ref target="10275">1909-07-15 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0388"/>212<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0388"/>212<lb/>
 20 h<lb/>
 98<lb/>
 S. FISCHER, VERLAG, BERLIN W., BÜLOUSTR. 90<lb/>

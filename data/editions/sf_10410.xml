@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -84,7 +85,8 @@
         <note type="description">3 Blatt, 3 Seiten beschrieben
 
 Antwort auf: <ref target="10409">1912-01-20 AS an SF</ref>
-Beantwortet in: <ref target="10411">1912-01-24 AS an SF</ref></note>
+Beantwortet in: <ref target="10411">1912-01-24 AS an SF</ref>
+        </note>
         <note type="published_in">Buohler 2011, 182 (Auszug)</note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1912-01-22.html</note>
@@ -101,6 +103,11 @@ Beantwortet in: <ref target="10411">1912-01-24 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2570">Lothar, Rudolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10410.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -112,11 +119,6 @@ Beantwortet in: <ref target="10411">1912-01-24 AS an SF</ref></note>
           <term>Verkaufspreis/Ladenpreis</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2570" source="https://pmb.acdh.oeaw.ac.at/entity/2570/">
-          <persName>Lothar, Rudolf</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -128,10 +130,12 @@ Beantwortet in: <ref target="10411">1912-01-24 AS an SF</ref></note>
         <p>3 Blatt, 3 Seiten beschrieben
 
 Antwort auf: <ref target="10409">1912-01-20 AS an SF</ref>
-Beantwortet in: <ref target="10411">1912-01-24 AS an SF</ref></p>
+Beantwortet in: <ref target="10411">1912-01-24 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0521"/>265<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0521"/>265<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
 den 22. Jan. 1912<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -158,7 +162,8 @@ Wollen Sie mir freundlichst die beiden Novellen "Der blinde Garonim<lb/>
 und "Die griechische Tänzerin" schicken. Ich hätte zwar gern auch ein<lb/>
 unveröffentlichte Hovelle in diesem Werk, aber wir können ja auch<lb/>
 die "Hirtenflöte" herau.</p>
-        <p><pb facs="1416742_0522"/>Bezüglich der Berechnung des Einbands sind Sie im Irrtum. Ich<lb/>
+        <p>
+          <pb facs="1416742_0522"/>Bezüglich der Berechnung des Einbands sind Sie im Irrtum. Ich<lb/>
 dige<lb/>
 habe von einem fietiven Preise von 8 (acht) Mark für das broschierte<lb/>
 Orais<lb/>
@@ -191,7 +196,8 @@ in meine Bibliothek nur die Bücher auf, deren Absatz ziffernmässig so<lb/>
 würckgegangen ist, dass die Aufnahme in die Bibliothek einen Vorteil<lb/>
 bietet.<lb/>
 Eine bedeutende ideelle Entwertung würde ausserdem aber auch</p>
-        <p><pb facs="1416742_0523"/>d. 20. Januar 1912<lb/>
+        <p>
+          <pb facs="1416742_0523"/>d. 20. Januar 1912<lb/>
 durch eine solche Auswahl für unser projektiertes dreibändiges Werk<lb/>
 eintreten müssen, eine idelle und darum auch materielle Entwertung.<lb/>
 Sie lässt sich nicht ziffernmässig nachweisen, aber die Augustion,<lb/>

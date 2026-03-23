@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -84,7 +85,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">3 Blatt, 5 Seiten
-Antwort auf: <ref target="10851">1921-09-15 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="10851">1921-09-15 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1921-09-20.html</note>
       </notesStmt>
@@ -101,6 +103,25 @@ Antwort auf: <ref target="10851">1921-09-15 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb94616">Arnim, Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10836">Bartsch, Rudolf Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11981">Kramer, Leopold</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb146243">Marton, Alexander</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12274">Moissi, Alexander</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116324333">Raggio, Enrico</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23675">Rotter, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3876">Rotter, Fritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb301625">Samst, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="117438200">Türschmann, Bruno</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb250435">Hamburger Kammerspiele</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb57262">Kleines Theater Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10853.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -113,57 +134,6 @@ Antwort auf: <ref target="10851">1921-09-15 AS (Wien) an SF (Berlin)</ref></note
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb94616" source="https://pmb.acdh.oeaw.ac.at/entity/94616/">
-          <persName>Arnim, Hans</persName>
-        </person>
-        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
-          <persName>Bartsch, Rudolf Hans</persName>
-        </person>
-        <person ref="#pmb11981" source="https://pmb.acdh.oeaw.ac.at/entity/11981/">
-          <persName>Kramer, Leopold</persName>
-        </person>
-        <person ref="#pmb146243" source="https://pmb.acdh.oeaw.ac.at/entity/146243/">
-          <persName>Marton, Alexander</persName>
-        </person>
-        <person ref="#pmb12274" source="https://pmb.acdh.oeaw.ac.at/entity/12274/">
-          <persName>Moissi, Alexander</persName>
-        </person>
-        <person ref="116324333" source="https://d-nb.info/gnd/116324333">
-          <persName>Raggio, Enrico</persName>
-        </person>
-        <person ref="#pmb23675" source="https://pmb.acdh.oeaw.ac.at/entity/23675/">
-          <persName>Rotter, Alfred</persName>
-        </person>
-        <person ref="#pmb3876" source="https://pmb.acdh.oeaw.ac.at/entity/3876/">
-          <persName>Rotter, Fritz</persName>
-        </person>
-        <person ref="#pmb301625" source="https://pmb.acdh.oeaw.ac.at/entity/301625/">
-          <persName>Samst, Max</persName>
-        </person>
-        <person ref="117438200" source="https://d-nb.info/gnd/117438200">
-          <persName>Türschmann, Bruno</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb250435" source="https://pmb.acdh.oeaw.ac.at/entity/250435/">
-          <orgName>Hamburger Kammerspiele</orgName>
-        </org>
-        <org ref="#pmb57262" source="https://pmb.acdh.oeaw.ac.at/entity/57262/">
-          <orgName>Kleines Theater Leipzig</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -173,10 +143,12 @@ Antwort auf: <ref target="10851">1921-09-15 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>3 Blatt, 5 Seiten
-Antwort auf: <ref target="10851">1921-09-15 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="10851">1921-09-15 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0416"/>520<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0416"/>520<lb/>
 S. Fischer/Verlag/Berlin W 57/Bülowstrasse 9o<lb/>
 Postscheckkonto Nr. 16892<lb/>
 Theaterabteilung<lb/>
@@ -253,7 +225,8 @@ boc<lb/>
 este.<lb/>
 xxxab.mrah basjaed og<lb/>
 R. 1000. 8. 20.</p>
-        <p><pb facs="1416743_0417"/>mai aa ses niiinät jadiiit<lb/>
+        <p>
+          <pb facs="1416743_0417"/>mai aa ses niiinät jadiiit<lb/>
 ..v.<lb/>
 Günst, 4###.<lb/>
 géoù,sôté,sont a/agù? imK<lb/>
@@ -319,7 +292,8 @@ Teb, Jxxs Iqme o<lb/>
 Im nesnebmoqauro* neb aus nam<lb/>
 Aasb.<lb/>
 hier und suchte "Versöhnung“. Diese bestand darin, dass er eine</p>
-        <p><pb facs="1416743_0418"/>S. FISCHER,VERLAG, BERLIN, Herrn Dr. Schnitzler<lb/>
+        <p>
+          <pb facs="1416743_0418"/>S. FISCHER,VERLAG, BERLIN, Herrn Dr. Schnitzler<lb/>
 Blatt 11.<lb/>
 elb<lb/>
 Herabsetzung der Tantiemen haben wollte. Er schied in Groll, ver-<lb/>
@@ -371,7 +345,8 @@ Reigen-Angelegenheit einlegten, seien zu einer Zeit erfolgt, als<lb/>
 negresse ic<lb/>
 wir gar nicht mehr im Besitze des Bühnenvertriebsrechtes für Prag<lb/>
 gewesen sind.</p>
-        <p><pb facs="1416743_0419"/>G.C.H.a.<lb/>
+        <p>
+          <pb facs="1416743_0419"/>G.C.H.a.<lb/>
 auch aufzusammen angeben.<lb/>
 Kronen und beiden wir heiden. Die Herrn Kronen von Dr. Marton sind die<lb/>
 G.C.Hocke<lb/>
@@ -405,7 +380,8 @@ freundlichen Bescheid.<lb/>
 xxx xxx xxx Die Angelegenheit "Berta Garlan" Spanien<lb/>
 schwebt noch. - Unberechtigte Aufführungen und besonders Vorlesunge<lb/>
 Dmia measweg</p>
-        <p><pb facs="1416743_0420"/>Blatt III<lb/>
+        <p>
+          <pb facs="1416743_0420"/>Blatt III<lb/>
 Herrn Dr. Schnitzler<lb/>
 S. FISCHER,VERLAG, BERLIN,<lb/>
 Theaterabteilung<lb/>

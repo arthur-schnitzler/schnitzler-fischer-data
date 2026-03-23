@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10170">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -101,6 +102,18 @@ Antwort auf: 1906-11-14post/1906-11-30ante AS an SF (Sendung fünf Novellen erw�
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4532">Jonas, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116851740">Lederer, Emanuel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13055">Wassermann, Jakob</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb166">Frankreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb47927">Washington</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10170.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -109,34 +122,6 @@ Antwort auf: 1906-11-14post/1906-11-30ante AS an SF (Sendung fünf Novellen erw�
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4532" source="https://pmb.acdh.oeaw.ac.at/entity/4532/">
-          <persName>Jonas, Paul</persName>
-        </person>
-        <person ref="116851740" source="https://d-nb.info/gnd/116851740">
-          <persName>Lederer, Emanuel</persName>
-        </person>
-        <person ref="#pmb13055" source="https://pmb.acdh.oeaw.ac.at/entity/13055/">
-          <persName>Wassermann, Jakob</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
-          <placeName>Frankreich</placeName>
-        </place>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb47927" source="https://pmb.acdh.oeaw.ac.at/entity/47927/">
-          <placeName>Washington</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -150,8 +135,9 @@ Anlage: 2 Schreiben (nicht überliefert; evtl. zwei der unter 1906-09-20 verzeic
 
 Antwort auf: 1906-11-14post/1906-11-30ante AS an SF (Sendung fünf Novellen erwähnt Tgb 1906-11-26; Anfrage Copyright Frankreich und USA; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0250"/>CHER,VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0250"/>CHER,VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
 Krané<lb/>
 30/11. 06<lb/>
 BERcelN W., DEN<lb/>
@@ -171,7 +157,8 @@ ben habe und was mein Rechtsanwalt aus dem Text des<lb/>
 Gesetzes festgestellt hat. Am sichersten bleibt es<lb/>
 natürlich, wenn ein dramatisches Werk, das auch in<lb/>
 Buchform erscheint, in New-York gedruckt wird, haupt</p>
-        <p><pb facs="1416742_0251"/>sächlich wegen der englischen Uebersetzung in Ameri-<lb/>
+        <p>
+          <pb facs="1416742_0251"/>sächlich wegen der englischen Uebersetzung in Ameri-<lb/>
 Aufführung auf den Bühnen,<lb/>
 der unbefug<lb/>
 &amp; des Diesx<lb/>
@@ -243,7 +230,8 @@ Amerika einen praktischen Zweck. Wenn Sie Ihren<lb/>
 Roman vor Erscheinen der Buchausgabe in einer Zeit-<lb/>
 schrift abdrucken lassen, so muss der Roman vorher in<lb/>
 Amerika auf die hier geschilderte Art geschützt wer-</p>
-        <p><pb facs="1416742_0252"/>80.f.t/08<lb/>
+        <p>
+          <pb facs="1416742_0252"/>80.f.t/08<lb/>
 GeschiedeU bedoailgne seh negen doifacse<lb/>
 TismA<lb/>
 den.<lb/>

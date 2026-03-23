@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -81,6 +82,22 @@
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10863">Beer-Hofmann, Richard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb157683">Belasco, David</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3283">Björkman, Edwin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb6902">Dymow, Ossip</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8612">Lewisohn, Ludwig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="E39PCjtrY68qyCQvhxyYRdGtmm">Rethy, Joseph Bernard (1894–1941; USA; Dichter und Literaturkritiker))</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12689">Schmutzer, Ferdinand</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="118798286">Spingarn, Joel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Strauss, Dr. J. (Literaturwissenschaftler?, USA)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34401">Alt-Aussee</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb429">Salzkammergut</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10598.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -89,46 +106,6 @@
           <term>Luxusausgabe</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10863" source="https://pmb.acdh.oeaw.ac.at/entity/10863/">
-          <persName>Beer-Hofmann, Richard</persName>
-        </person>
-        <person ref="#pmb157683" source="https://pmb.acdh.oeaw.ac.at/entity/157683/">
-          <persName>Belasco, David</persName>
-        </person>
-        <person ref="#pmb3283" source="https://pmb.acdh.oeaw.ac.at/entity/3283/">
-          <persName>Björkman, Edwin</persName>
-        </person>
-        <person ref="#pmb6902" source="https://pmb.acdh.oeaw.ac.at/entity/6902/">
-          <persName>Dymow, Ossip</persName>
-        </person>
-        <person ref="#pmb8612" source="https://pmb.acdh.oeaw.ac.at/entity/8612/">
-          <persName>Lewisohn, Ludwig</persName>
-        </person>
-        <person ref="E39PCjtrY68qyCQvhxyYRdGtmm" source="https://id.oclc.org/worldcat/entity/E39PCjtrY68qyCQvhxyYRdGtmm">
-          <persName>Rethy, Joseph Bernard (1894–1941; USA; Dichter und Literaturkritiker))</persName>
-        </person>
-        <person ref="#pmb12689" source="https://pmb.acdh.oeaw.ac.at/entity/12689/">
-          <persName>Schmutzer, Ferdinand</persName>
-        </person>
-        <person ref="118798286" source="https://d-nb.info/gnd/118798286">
-          <persName>Spingarn, Joel</persName>
-        </person>
-        <person>
-          <persName>Strauss, Dr. J. (Literaturwissenschaftler?, USA)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb34401" source="https://pmb.acdh.oeaw.ac.at/entity/34401/">
-          <placeName>Alt-Aussee</placeName>
-        </place>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb429" source="https://pmb.acdh.oeaw.ac.at/entity/429/">
-          <placeName>Salzkammergut</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -139,8 +116,9 @@
       <div type="letter">
         <p>2 Blatt, 3 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0010"/>7.6.1916.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0010"/>7.6.1916.<lb/>
 scher<lb/>
 Lieber Freund.<lb/>
 Ich bestätige hiemit dankend die letzte<lb/>
@@ -162,7 +140,8 @@ verfass tes und vom Burgtheater angenommenes<lb/>
 Bühnenwerk entsprechen nicht der Wahrheit. Ich<lb/>
 habe bisher für die nächste Saison nichts bühnen<lb/>
 fertig gemacht, und weiss auch nicht,ob ich es</p>
-        <p><pb facs="1416739_0011"/>Au<lb/>
+        <p>
+          <pb facs="1416739_0011"/>Au<lb/>
 im Laufe dieses Sommers tun werde.<lb/>
 Ich erhalte aus New York den Brief eines<lb/>
 De<lb/>
@@ -186,7 +165,8 @@ mit dem ersuchen um gelegentliche Rücksendung<lb/>
 hier beilage.<lb/>
 Wir kommen eben von einem kleinen Aus¬<lb/>
 flug ijs Salzkammergut zurück, wo wirin Alt-</p>
-        <p><pb facs="1416739_0012"/>ouvert le<lb/>
+        <p>
+          <pb facs="1416739_0012"/>ouvert le<lb/>
 116<lb/>
 Tisch.<lb/>
 3<lb/>

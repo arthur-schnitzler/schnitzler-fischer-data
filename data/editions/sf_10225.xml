@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -90,6 +91,14 @@ Antwort auf: <ref target="10223">1908-06-05 AS an SF</ref> sowie auf eine von AS
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1073450619">Singer, Josef</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10225.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -97,22 +106,6 @@ Antwort auf: <ref target="10223">1908-06-05 AS an SF</ref> sowie auf eine von AS
           <term>Konfiskation/Verbot/Zensur</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="1073450619" source="https://d-nb.info/gnd/1073450619">
-          <persName>Singer, Josef</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -125,8 +118,9 @@ Antwort auf: <ref target="10223">1908-06-05 AS an SF</ref> sowie auf eine von AS
 
 Antwort auf: <ref target="10223">1908-06-05 AS an SF</ref> sowie auf eine von AS in 1908-06-16a erwähnte (nicht überlieferte) Karte bzgl. 'Reigen'</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0333"/>a.c.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0333"/>a.c.<lb/>
 173<lb/>
 S. FISCHER,VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
 BERene W., DEN 15. Juni: 08<lb/>
@@ -148,7 +142,8 @@ betreffenden Stelle mit der Klage Erfolg hätten.<lb/>
 so würde die Staatsanwaltschaft in jedem andern<lb/>
 Orte berechtigt sein, das Verbot von neuen zu<lb/>
 erlaisen. Da eine Zensur in Deutschland prinzipiell</p>
-        <p><pb facs="1416742_0334"/>0.0<lb/>
+        <p>
+          <pb facs="1416742_0334"/>0.0<lb/>
 nicht existiert, so kann die Klage auf Freigabe<lb/>
 nicht prinzipiell durchgefochten werden. Unter<lb/>
 diesen Umständen scheint mir der einzig gangbare<lb/>

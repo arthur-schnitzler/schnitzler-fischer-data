@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -61,7 +62,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
-Beantwortet in: <ref target="10608">1917-04-02 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10608">1917-04-02 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1917-03-23.html</note>
       </notesStmt>
@@ -77,22 +79,16 @@ Beantwortet in: <ref target="10608">1917-04-02 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb16123">Feiks, Lily Mirel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5601">Müller, Georg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2315">Steinrück, Elisabeth</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10607.xml"/>
+        </note>
       </correspDesc>
       <textClass/>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb16123" source="https://pmb.acdh.oeaw.ac.at/entity/16123/">
-          <persName>Feiks, Lily Mirel</persName>
-        </person>
-        <person ref="#pmb5601" source="https://pmb.acdh.oeaw.ac.at/entity/5601/">
-          <persName>Müller, Georg</persName>
-        </person>
-        <person ref="#pmb2315" source="https://pmb.acdh.oeaw.ac.at/entity/2315/">
-          <persName>Steinrück, Elisabeth</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -102,10 +98,12 @@ Beantwortet in: <ref target="10608">1917-04-02 SF (Berlin) an AS (Wien)</ref></n
     <body>
       <div type="letter">
         <p>2 Blatt, 2 Seiten
-Beantwortet in: <ref target="10608">1917-04-02 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10608">1917-04-02 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0026"/>23.3.1917.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0026"/>23.3.1917.<lb/>
 Scher<lb/>
 Lieber Freund.<lb/>
 Von meiner Schwägerin, Frau Steinrück,<lb/>
@@ -126,7 +124,8 @@ noch hinzusetzen, dass ich persönlich vor eini-<lb/>
 gen Monaten Gelegenheit hatte Fräulein Feix<lb/>
 in Wien kennen zu lernen und dass sie mir ei-<lb/>
 nen ausserordentlich sympathischen und verstän-</p>
-        <p><pb facs="1416739_0027"/>digen Sindruck gemacht hat und überzeugt bin,<lb/>
+        <p>
+          <pb facs="1416739_0027"/>digen Sindruck gemacht hat und überzeugt bin,<lb/>
 Sues ich<lb/>
 dass meine Schwägerin sie vollkommen richtig.<lb/>
 schildert und beurteilt. So gebe ich denn<lb/>

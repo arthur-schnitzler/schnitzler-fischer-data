@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10044">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -91,6 +92,13 @@ Antwort auf: 1895-11-29post/1896-01-09ante (Drucklegung 'Liebelei'; nicht überl
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2914">Bie, Oskar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb35597">Deutsches Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10044.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -101,19 +109,6 @@ Antwort auf: 1895-11-29post/1896-01-09ante (Drucklegung 'Liebelei'; nicht überl
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2914" source="https://pmb.acdh.oeaw.ac.at/entity/2914/">
-          <persName>Bie, Oskar</persName>
-        </person>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="#pmb35597" source="https://pmb.acdh.oeaw.ac.at/entity/35597/">
-          <orgName>Deutsches Theater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -126,8 +121,9 @@ Antwort auf: 1895-11-29post/1896-01-09ante (Drucklegung 'Liebelei'; nicht überl
 
 Antwort auf: 1895-11-29post/1896-01-09ante (Drucklegung 'Liebelei'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0057"/>BERLIN, den 9/1 1896<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0057"/>BERLIN, den 9/1 1896<lb/>
 S. FISCHER, VERLAG<lb/>
 Herr Doctor<lb/>
 VERLAGSDeUCHHANDLUNG<lb/>
@@ -145,7 +141,8 @@ Aufführung zu erscheinen. Wegen<lb/>
 der Novellette hat Ihnen Herr Dr. Bie¬<lb/>
 geschrieben; wir möchten sie gern<lb/>
 uns</p>
-        <p><pb facs="1416742_0058"/>ins Februarheft bringen<lb/>
+        <p>
+          <pb facs="1416742_0058"/>ins Februarheft bringen<lb/>
 für die Liebelei "gelten".<lb/>
 natürlich die Contractbedingungen<lb/>
 obgleich ich ja mit dramatischen<lb/>

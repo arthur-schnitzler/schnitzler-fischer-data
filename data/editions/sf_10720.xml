@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10720">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -77,6 +78,15 @@
           <persName type="coworker">NN, </persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7777">Hellmer, Arthur</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb146">Frankfurt am Main</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="1231430-4">Königliches Deutsches Landestheater Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10720.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,27 +101,6 @@
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb7777" source="https://pmb.acdh.oeaw.ac.at/entity/7777/">
-          <persName>Hellmer, Arthur</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb146" source="https://pmb.acdh.oeaw.ac.at/entity/146/">
-          <placeName>Frankfurt am Main</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="1231430-4" source="https://d-nb.info/gnd/1231430-4">
-          <orgName>Königliches Deutsches Landestheater Prag</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -122,8 +111,9 @@
       <div type="letter">
         <p>2 Blatt, 3 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0115"/>2<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0115"/>2<lb/>
 zeige von Hans Bartsch in New York, der ja wie<lb/>
 Gouillez lʼhonneur dʼêtre<lb/>
 G.C.H.F.P<lb/>
@@ -164,7 +154,8 @@ Wenn sie es für richtig halten,<lb/>
 will ich nun nichts mehr dagegen einwenden,<lb/>
 dass Sie die Wünsche der Bühnen um Einsendung<lb/>
 von Rühne nexemplaren erfüllen. Sie wissen ja,</p>
-        <p><pb facs="1416739_0116"/>welche städte ausgeschlossen bleiben. Zur An¬<lb/>
+        <p>
+          <pb facs="1416739_0116"/>welche städte ausgeschlossen bleiben. Zur An¬<lb/>
 nahme werden sich die Direktoren,wie wir nun<lb/>
 oft genug erfahren haben, doch nur nach einem<lb/>
 eventuellen Frfolg in Berlin oder Wien ent-<lb/>
@@ -198,7 +189,8 @@ versuchen, wozu in demneuen, sonst nicht über¬<lb/>
 mässig geistreichen Generalvertrag sogar die<lb/>
 Handhabe geboten wäre.<lb/>
 Hochachtungsvoll</p>
-        <p><pb facs="1416739_0117"/>17.11.1919.<lb/>
+        <p>
+          <pb facs="1416739_0117"/>17.11.1919.<lb/>
 An den<lb/>
 Theatervertrieb S.Fischer,<lb/>
 Berlin.<lb/>

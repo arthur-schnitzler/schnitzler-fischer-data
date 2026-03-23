@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -58,7 +59,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Evtl. Antwort auf: <ref target="10700">1919-04-29 SF (Berlin) an AS (Wien)</ref> und/oder <ref target="10715">1919-09-05 SF (Berlin) an AS (Wien)</ref></note>
+Evtl. Antwort auf: <ref target="10700">1919-04-29 SF (Berlin) an AS (Wien)</ref> und/oder <ref target="10715">1919-09-05 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1919-04-29.html</note>
       </notesStmt>
@@ -74,6 +76,12 @@ Evtl. Antwort auf: <ref target="10700">1919-04-29 SF (Berlin) an AS (Wien)</ref>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12504">Reinhardt, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb250435">Hamburger Kammerspiele</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10701.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -85,16 +93,6 @@ Evtl. Antwort auf: <ref target="10700">1919-04-29 SF (Berlin) an AS (Wien)</ref>
           <term>Vorschuss</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
-          <persName>Reinhardt, Max</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="#pmb250435" source="https://pmb.acdh.oeaw.ac.at/entity/250435/">
-          <orgName>Hamburger Kammerspiele</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -104,10 +102,12 @@ Evtl. Antwort auf: <ref target="10700">1919-04-29 SF (Berlin) an AS (Wien)</ref>
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Evtl. Antwort auf: <ref target="10700">1919-04-29 SF (Berlin) an AS (Wien)</ref> und/oder <ref target="10715">1919-09-05 SF (Berlin) an AS (Wien)</ref></p>
+Evtl. Antwort auf: <ref target="10700">1919-04-29 SF (Berlin) an AS (Wien)</ref> und/oder <ref target="10715">1919-09-05 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0125"/>.—<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0125"/>.—<lb/>
 8 h.<lb/>
 [+]<lb/>
 e e<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -75,6 +76,11 @@ Anlage: Markbeträge und Kontozahlungen des S. Fischer Verlags an AS</note>
           <persName type="coworker">Jacob, Hans</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4374">Maril, Konrad</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11046.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -84,11 +90,6 @@ Anlage: Markbeträge und Kontozahlungen des S. Fischer Verlags an AS</note>
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4374" source="https://pmb.acdh.oeaw.ac.at/entity/4374/">
-          <persName>Maril, Konrad</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -100,8 +101,9 @@ Anlage: Markbeträge und Kontozahlungen des S. Fischer Verlags an AS</note>
         <p>1 Blatt, 2 Seiten
 Anlage: Markbeträge und Kontozahlungen des S. Fischer Verlags an AS</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0303"/>29.11.1923<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0303"/>29.11.1923<lb/>
 de l'aire<lb/>
 Lieber und verehrter Herr Dr. Jacob.<lb/>
 Das beiliegende Blatt braucht kein<lb/>
@@ -139,7 +141,8 @@ zuschlägen im gleichen prozentsatz teilnimmt.<lb/>
 Das Traurige ist ja nur, dass es zu dieger<lb/>
 Selbstverständlichkeit überhaupt einesGut<lb/>
 achtens bedarf und dass Verleger, korrekte</p>
-        <p><pb facs="1416739_0304"/>Veleger,erste Verleger jemals den Versuch ma-<lb/>
+        <p>
+          <pb facs="1416739_0304"/>Veleger,erste Verleger jemals den Versuch ma-<lb/>
 chen oder wenigstehe gemacht haben gerade in die-<lb/>
 sen zeiten den Autorium seinen Anteil an den<lb/>
 einzig in Betracht kommenden,an den Ausländsein-<lb/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10024">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -100,6 +101,11 @@ Antwort auf: 1895-03-25post/1895-04-01ante AS an SF (Rezensionen zu 'Sterben', A
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4785">Zasche, Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10024.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -111,11 +117,6 @@ Antwort auf: 1895-03-25post/1895-04-01ante AS an SF (Rezensionen zu 'Sterben', A
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4785" source="https://pmb.acdh.oeaw.ac.at/entity/4785/">
-          <persName>Zasche, Theodor</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -128,8 +129,9 @@ Antwort auf: 1895-03-25post/1895-04-01ante AS an SF (Rezensionen zu 'Sterben', A
 
 Antwort auf: 1895-03-25post/1895-04-01ante AS an SF (Rezensionen zu 'Sterben', Angebot zweier Novellen; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0015"/>33<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0015"/>33<lb/>
 FISQUER VI<lb/>
 MEMORANDUM<lb/>
 BERLIN den 1/7 1895<lb/>
@@ -155,7 +157,8 @@ en und Herrn Zasche wegen der Illustr.<lb/>
 you<lb/>
 verhän¬<lb/>
 nen die inwessen auf die Illustra</p>
-        <p><pb facs="1416742_0016"/>FISCHED<lb/>
+        <p>
+          <pb facs="1416742_0016"/>FISCHED<lb/>
 verhandeln.<lb/>
 Ich will Ihnen, sobald ich in den nächsten<lb/>
 stagen mehr Zeit finde, einen Contractentwurf<lb/>

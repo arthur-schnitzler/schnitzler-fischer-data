@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -73,7 +74,8 @@
         <note type="description">1 Doppelblatt, 3 Seiten beschrieben
 Anlage: 1907-06-10 Alice Kauser an SF
 
-Antwort auf: <ref target="10185">1907-06-11 AS an SF</ref></note>
+Antwort auf: <ref target="10185">1907-06-11 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1907-06-13.html</note>
       </notesStmt>
@@ -89,6 +91,26 @@ Antwort auf: <ref target="10185">1907-06-11 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb89716">Ashwell, Lena</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2914">Bie, Oskar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb15048">Colbron, Grace Isabel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Hunter, Robert (Theaterunternehmer, USA)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Percy, Herbert (persönlicher Vertreter von Alice Kauser, USA)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="nm1233916">Playfair, Arthur Wyndham</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12864">Strauß, Emil</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1208732641">Terry, Ethel Grey</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb49803">Milwaukee</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb47927">Washington</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Pabst-Theater Milwaukee</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10186.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,60 +122,6 @@ Antwort auf: <ref target="10185">1907-06-11 AS an SF</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb89716" source="https://pmb.acdh.oeaw.ac.at/entity/89716/">
-          <persName>Ashwell, Lena</persName>
-        </person>
-        <person ref="#pmb2914" source="https://pmb.acdh.oeaw.ac.at/entity/2914/">
-          <persName>Bie, Oskar</persName>
-        </person>
-        <person ref="#pmb15048" source="https://pmb.acdh.oeaw.ac.at/entity/15048/">
-          <persName>Colbron, Grace Isabel</persName>
-        </person>
-        <person>
-          <persName>Hunter, Robert (Theaterunternehmer, USA)</persName>
-        </person>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-        <person>
-          <persName>Percy, Herbert (persönlicher Vertreter von Alice Kauser, USA)</persName>
-        </person>
-        <person ref="nm1233916" source="https://www.imdb.com/name/nm1233916/">
-          <persName>Playfair, Arthur Wyndham</persName>
-        </person>
-        <person ref="#pmb12864" source="https://pmb.acdh.oeaw.ac.at/entity/12864/">
-          <persName>Strauß, Emil</persName>
-        </person>
-        <person ref="1208732641" source="https://d-nb.info/gnd/1208732641">
-          <persName>Terry, Ethel Grey</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb49803" source="https://pmb.acdh.oeaw.ac.at/entity/49803/">
-          <placeName>Milwaukee</placeName>
-        </place>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb47927" source="https://pmb.acdh.oeaw.ac.at/entity/47927/">
-          <placeName>Washington</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org>
-          <orgName>Pabst-Theater Milwaukee</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -165,10 +133,12 @@ Antwort auf: <ref target="10185">1907-06-11 AS an SF</ref></note>
         <p>1 Doppelblatt, 3 Seiten beschrieben
 Anlage: 1907-06-10 Alice Kauser an SF
 
-Antwort auf: <ref target="10185">1907-06-11 AS an SF</ref></p>
+Antwort auf: <ref target="10185">1907-06-11 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0278"/>149<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0278"/>149<lb/>
 S. FISCHER, VERLAG,’ BERLIN W., BÜLowSTR. 90<lb/>
 G.H.F.P.<lb/>
 BERene W., DEN 13. Juni 07<lb/>
@@ -193,7 +163,8 @@ wie Sie aus der Correspondenz gesehen haben, eine<lb/>
 rührige Dame, die wohl im Stande wäre, unsere In-<lb/>
 teressen in Amerika wahrzunehmen.<lb/>
 Bezüglich der „Liebelei" werde ich heute</p>
-        <p><pb facs="1416742_0279"/>an Wiss Käuser schreiben. Im übrigen versteht es<lb/>
+        <p>
+          <pb facs="1416742_0279"/>an Wiss Käuser schreiben. Im übrigen versteht es<lb/>
 sich ja von selbst, dass Sie die Verwertung Ihrer<lb/>
 Dramen im Auslande dort, wo es Ihnen zweckmässig<lb/>
 erscheint, selbst in die Hand nehmen.<lb/>
@@ -214,7 +185,8 @@ den Schutz auch auf das Buch, das dieselben No¬<lb/>
 vellen enthält, die durch Zeitschriften geschütst<lb/>
 sind, auf ein weiteres Jahr auszudehnen.<lb/>
 Prof. Bie hat Ihnen wohl schon gesagt, dass</p>
-        <p><pb facs="1416742_0280"/>### Ihren Roman für die Rundschau sehr gern erwerben<lb/>
+        <p>
+          <pb facs="1416742_0280"/>### Ihren Roman für die Rundschau sehr gern erwerben<lb/>
 möchten, und zwar unter Aufbietung aller Honorar-<lb/>
 kräfte, die uns für die Rundschau zur Verfügung<lb/>
 stehen. Die Verhandlungen darüber vertagen wir wohl<lb/>

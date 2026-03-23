@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -62,7 +63,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
 Antwort auf: <ref target="11212">1925-12-12 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11214">1925-12-21 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="11214">1925-12-21 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1925-12-17.html</note>
       </notesStmt>
@@ -79,6 +81,15 @@ Beantwortet in: <ref target="11214">1925-12-21 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb9146">Ompteda, Georg von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb25995">Thieben, Emil</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11213.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -89,25 +100,6 @@ Beantwortet in: <ref target="11214">1925-12-21 AS (Wien) an SF (Berlin)</ref></n
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb9146" source="https://pmb.acdh.oeaw.ac.at/entity/9146/">
-          <persName>Ompteda, Georg von</persName>
-        </person>
-        <person ref="#pmb25995" source="https://pmb.acdh.oeaw.ac.at/entity/25995/">
-          <persName>Thieben, Emil</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -118,10 +110,12 @@ Beantwortet in: <ref target="11214">1925-12-21 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>1 Blatt, 2 Seiten
 Antwort auf: <ref target="11212">1925-12-12 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11214">1925-12-21 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="11214">1925-12-21 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0847"/>Derlag Berlin<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0847"/>Derlag Berlin<lb/>
 Fisch,<lb/>
 0<lb/>
 Amt Lüzow 1662 u. 6162 Theaterabteilung postscheckkonto Nr. 16692<lb/>
@@ -173,7 +167,8 @@ ich einfach sage, die<lb/>
 Direktoren am besten<lb/>
 Ragsabteilung zu be<lb/>
 plare des Stu¬</p>
-        <p><pb facs="1416743_0848"/>Schrifftnisser<lb/>
+        <p>
+          <pb facs="1416743_0848"/>Schrifftnisser<lb/>
 durch xxx schlässig<lb/>
 nig.<lb/>
 1o0e0a0i0Ue<lb/>

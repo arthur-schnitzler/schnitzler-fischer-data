@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -68,7 +69,8 @@
 Anlage: Rezensions-Liste 'Medardus' (nicht überliefert)
 
 Antwort auf: <ref target="10341">1910-10-24 AS an SF</ref>
-Beantwortet in: 1910-10-31 und <ref target="10345">1910-11-11 AS an SF</ref></note>
+Beantwortet in: 1910-10-31 und <ref target="10345">1910-11-11 AS an SF</ref>
+        </note>
         <note type="published_in">Buohler 2011, 149-150</note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1910-10-27.html</note>
@@ -85,6 +87,11 @@ Beantwortet in: 1910-10-31 und <ref target="10345">1910-11-11 AS an SF</ref></no
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2657">Fischer, Hedwig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10343.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -92,11 +99,6 @@ Beantwortet in: 1910-10-31 und <ref target="10345">1910-11-11 AS an SF</ref></no
           <term>Uraufführung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2657" source="https://pmb.acdh.oeaw.ac.at/entity/2657/">
-          <persName>Fischer, Hedwig</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -109,10 +111,12 @@ Beantwortet in: 1910-10-31 und <ref target="10345">1910-11-11 AS an SF</ref></no
 Anlage: Rezensions-Liste 'Medardus' (nicht überliefert)
 
 Antwort auf: <ref target="10341">1910-10-24 AS an SF</ref>
-Beantwortet in: 1910-10-31 und <ref target="10345">1910-11-11 AS an SF</ref></p>
+Beantwortet in: 1910-10-31 und <ref target="10345">1910-11-11 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0451"/>228<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0451"/>228<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstraße 90<lb/>
 den 27. Okt. 1910<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -88,7 +89,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten
 Antwort auf: <ref target="11368">1928-01-30 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11373">1928-02-11 SF (St. Moritz) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11373">1928-02-11 SF (St. Moritz) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1928-02-02.html</note>
       </notesStmt>
@@ -104,6 +106,22 @@ Beantwortet in: <ref target="11373">1928-02-11 SF (St. Moritz) an AS (Wien)</ref
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11398">Galsworthy, John</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb38364">Heine, Wolfgang</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4374">Maril, Konrad</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb24041">Schalit, Leon</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13055">Wassermann, Jakob</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb54787">Zuckerkandl, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb1061">Engadin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb224">London</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11369.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -127,46 +145,6 @@ Beantwortet in: <ref target="11373">1928-02-11 SF (St. Moritz) an AS (Wien)</ref
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11398" source="https://pmb.acdh.oeaw.ac.at/entity/11398/">
-          <persName>Galsworthy, John</persName>
-        </person>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb38364" source="https://pmb.acdh.oeaw.ac.at/entity/38364/">
-          <persName>Heine, Wolfgang</persName>
-        </person>
-        <person ref="#pmb4374" source="https://pmb.acdh.oeaw.ac.at/entity/4374/">
-          <persName>Maril, Konrad</persName>
-        </person>
-        <person ref="#pmb24041" source="https://pmb.acdh.oeaw.ac.at/entity/24041/">
-          <persName>Schalit, Leon</persName>
-        </person>
-        <person ref="#pmb13055" source="https://pmb.acdh.oeaw.ac.at/entity/13055/">
-          <persName>Wassermann, Jakob</persName>
-        </person>
-        <person ref="#pmb54787" source="https://pmb.acdh.oeaw.ac.at/entity/54787/">
-          <persName>Zuckerkandl, Victor</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb1061" source="https://pmb.acdh.oeaw.ac.at/entity/1061/">
-          <placeName>Engadin</placeName>
-        </place>
-        <place ref="#pmb224" source="https://pmb.acdh.oeaw.ac.at/entity/224/">
-          <placeName>London</placeName>
-        </place>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -177,10 +155,12 @@ Beantwortet in: <ref target="11373">1928-02-11 SF (St. Moritz) an AS (Wien)</ref
       <div type="letter">
         <p>2 Blatt, 3 Seiten
 Antwort auf: <ref target="11368">1928-01-30 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11373">1928-02-11 SF (St. Moritz) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11373">1928-02-11 SF (St. Moritz) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0010"/>P.P.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0010"/>P.P.<lb/>
 Die Bücherabrechnung für das zweite<lb/>
 Halbjahr 1927 habe ich erhalten. Sie ist ja nicht<lb/>
 sehr erfreulich. Immerhin ist es klar, dass Neu-<lb/>
@@ -249,7 +229,8 @@ zu erhalten sein, so ist man umso mehr berechtigt.<lb/>
 das Buch neuerlich herauszugeben.<lb/>
 als 1. das Risiko einer solchen Herausgabe aber<lb/>
 lut Null ist, ja nicht einmal anfänglich Kosten</p>
-        <p><pb facs="1416741_0011"/>G.H.F.P<lb/>
+        <p>
+          <pb facs="1416741_0011"/>G.H.F.P<lb/>
 Fischer Bl.2<lb/>
 G.F.P<lb/>
 G.H.F.P<lb/>
@@ -304,7 +285,8 @@ broschierte und wie viel gebundene Exemplare denken<lb/>
 Sie in den Handel zu bringen? Wäre es nicht ange-<lb/>
 zeigt einige besser ausgestattete anzufertigen,et-<lb/>
 a in Leder gebunden? Sehr hübsch finde ich die</p>
-        <p><pb facs="1416741_0012"/>St Tischer<lb/>
+        <p>
+          <pb facs="1416741_0012"/>St Tischer<lb/>
 9.2.1928.<lb/>
 Lieber Herr Doktor Maril.<lb/>
 Professor Robert veranstaltet in Mai<lb/>

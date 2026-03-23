@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -73,7 +74,8 @@
 Anlagen: 1913-04-03ante Gay &amp; Hancock an SF (nicht überliefert); 1913-02-11,  1913-03-19 und weitere Briefe Björkman an SF (nicht überliefert)
 
 Antwort auf: <ref target="10493">1913-03-28 AS an SF</ref>
-Beantwortet in: <ref target="10495">1913-04-07 AS an SF</ref></note>
+Beantwortet in: <ref target="10495">1913-04-07 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift), (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm) AS)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1913-04-03.html</note>
       </notesStmt>
@@ -89,6 +91,14 @@ Beantwortet in: <ref target="10495">1913-04-07 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3283">Björkman, Edwin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17355">Grein, Jack Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb39975">Gardasee</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43520">Meran</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10494.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -96,22 +106,6 @@ Beantwortet in: <ref target="10495">1913-04-07 AS an SF</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb3283" source="https://pmb.acdh.oeaw.ac.at/entity/3283/">
-          <persName>Björkman, Edwin</persName>
-        </person>
-        <person ref="#pmb17355" source="https://pmb.acdh.oeaw.ac.at/entity/17355/">
-          <persName>Grein, Jack Thomas</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb39975" source="https://pmb.acdh.oeaw.ac.at/entity/39975/">
-          <placeName>Gardasee</placeName>
-        </place>
-        <place ref="#pmb43520" source="https://pmb.acdh.oeaw.ac.at/entity/43520/">
-          <placeName>Meran</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -124,10 +118,12 @@ Beantwortet in: <ref target="10495">1913-04-07 AS an SF</ref></note>
 Anlagen: 1913-04-03ante Gay &amp; Hancock an SF (nicht überliefert); 1913-02-11,  1913-03-19 und weitere Briefe Björkman an SF (nicht überliefert)
 
 Antwort auf: <ref target="10493">1913-03-28 AS an SF</ref>
-Beantwortet in: <ref target="10495">1913-04-07 AS an SF</ref></p>
+Beantwortet in: <ref target="10495">1913-04-07 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0623"/>31 8<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0623"/>31 8<lb/>
 S. Ischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
 3/4, 18<lb/>
 Einschreiben!<lb/>
@@ -153,7 +149,8 @@ jai heures.<lb/>
 für den ersten Band, einen Abschluss machen könnte. Ich habe<lb/>
 Björkman auf den Brief vom 11. Februar noch nicht geantwortet,<lb/>
 weil ich es vorgezogen hätte, die Angelegenheit mit ihm persön-</p>
-        <p><pb facs="1416742_0624"/>lich zu besprechen. In seinem letzten Briefe schreibt er aber, dass<lb/>
+        <p>
+          <pb facs="1416742_0624"/>lich zu besprechen. In seinem letzten Briefe schreibt er aber, dass<lb/>
 er die Abise auf nächstes Jahr perschoben hat.<lb/>
 Die Mögen bitte ich, mir zurückzusenden.<lb/>
 Mit heralichen Grüssen<lb/>

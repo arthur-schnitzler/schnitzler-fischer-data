@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -61,7 +62,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="11150">1924-11-08 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11150">1924-11-08 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-11-17.html</note>
       </notesStmt>
@@ -78,37 +80,23 @@ Antwort auf: <ref target="11150">1924-11-08 SF (Berlin) an AS (Wien)</ref></note
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7713">Hartung, Gustav</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23675">Rotter, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3876">Rotter, Fritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43570">Dänemark</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb36300">Kopenhagen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb872">Stuttgart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11151.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Vorlesung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb7713" source="https://pmb.acdh.oeaw.ac.at/entity/7713/">
-          <persName>Hartung, Gustav</persName>
-        </person>
-        <person ref="#pmb23675" source="https://pmb.acdh.oeaw.ac.at/entity/23675/">
-          <persName>Rotter, Alfred</persName>
-        </person>
-        <person ref="#pmb3876" source="https://pmb.acdh.oeaw.ac.at/entity/3876/">
-          <persName>Rotter, Fritz</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb43570" source="https://pmb.acdh.oeaw.ac.at/entity/43570/">
-          <placeName>Dänemark</placeName>
-        </place>
-        <place ref="#pmb36300" source="https://pmb.acdh.oeaw.ac.at/entity/36300/">
-          <placeName>Kopenhagen</placeName>
-        </place>
-        <place ref="#pmb872" source="https://pmb.acdh.oeaw.ac.at/entity/872/">
-          <placeName>Stuttgart</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -118,10 +106,12 @@ Antwort auf: <ref target="11150">1924-11-08 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="11150">1924-11-08 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11150">1924-11-08 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0046"/>det - vielleicht auf Ihre Anregung.Ich<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0046"/>det - vielleicht auf Ihre Anregung.Ich<lb/>
 schreibe nun direkt an Herrn Neff und bit-<lb/>
 te sich in dieser Angelegenheit nicht weiter<lb/>
 zu bemühen.<lb/>
@@ -188,7 +178,8 @@ ich benötige Sie dringend.<lb/>
 Mit stuttgart habe ich bezüglich<lb/>
 meiner Vorlesung indess direkt abgeschlossen<lb/>
 In dem letzten Almanach fand ich</p>
-        <p><pb facs="1416740_0047"/>gern eine Szene aus den „Schwestern" abge-<lb/>
+        <p>
+          <pb facs="1416740_0047"/>gern eine Szene aus den „Schwestern" abge-<lb/>
 rückt und habe xxx bei dieser Gelegen-<lb/>
 helt mit einigem Bedauern vermerkt,dass<lb/>
 auch dieses Stück in Berlin bisher noch<lb/>

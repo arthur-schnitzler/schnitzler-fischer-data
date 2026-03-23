@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -82,24 +83,16 @@ Anlage: Unterstützungsgesuch an Schiller-Stiftung zugunsten Peter Altenberg (ni
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2147">Altenberg, Peter</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11740">Hofmannsthal, Hugo von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11910">Kerr, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb197">Weimar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10153.xml"/>
+        </note>
       </correspDesc>
       <textClass/>
-      <listPerson>
-        <person ref="#pmb2147" source="https://pmb.acdh.oeaw.ac.at/entity/2147/">
-          <persName>Altenberg, Peter</persName>
-        </person>
-        <person ref="#pmb11740" source="https://pmb.acdh.oeaw.ac.at/entity/11740/">
-          <persName>Hofmannsthal, Hugo von</persName>
-        </person>
-        <person ref="#pmb11910" source="https://pmb.acdh.oeaw.ac.at/entity/11910/">
-          <persName>Kerr, Alfred</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb197" source="https://pmb.acdh.oeaw.ac.at/entity/197/">
-          <placeName>Weimar</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -111,8 +104,9 @@ Anlage: Unterstützungsgesuch an Schiller-Stiftung zugunsten Peter Altenberg (ni
         <p>1 Blatt, 1 Seite beschrieben
 Anlage: Unterstützungsgesuch an Schiller-Stiftung zugunsten Peter Altenberg (nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0219"/>125<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0219"/>125<lb/>
 S. FISCHER, VERLAG,“ BERLIN W., BÜLowSTR. 91<lb/>
 BERene W., DEN... 7. Juni 1905<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>

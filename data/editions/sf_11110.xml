@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -58,7 +59,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Antwort auf: <ref target="11108">1924-07-29 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11108">1924-07-29 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-08-02.html</note>
       </notesStmt>
@@ -74,6 +76,11 @@ Antwort auf: <ref target="11108">1924-07-29 SF (Berlin) an AS (Wien)</ref></note
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb92768">Woticky, Edward</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11110.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -82,11 +89,6 @@ Antwort auf: <ref target="11108">1924-07-29 SF (Berlin) an AS (Wien)</ref></note
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
-          <persName>Woticky, Edward</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -96,10 +98,12 @@ Antwort auf: <ref target="11108">1924-07-29 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Antwort auf: <ref target="11108">1924-07-29 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11108">1924-07-29 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0036"/>glaube es liegt zum Teil auch daran, dass man<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0036"/>glaube es liegt zum Teil auch daran, dass man<lb/>
 niemals gegen die Willkürlichkeiten und Ueber-<lb/>
 griffe der Direktoren wirklich Ennst macht.<lb/>
 Ist es überhaupt möglich in solchen Fällen<lb/>

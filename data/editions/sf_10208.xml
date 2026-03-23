@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10208">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -92,6 +93,16 @@ Beantwortet in: 1908-02-24post/1908-02-29ante AS an SF (nicht überliefert)</not
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10998">Brann, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb866">Dresden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb863">Düsseldorf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44172">Nürnberg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10208.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -102,28 +113,6 @@ Beantwortet in: 1908-02-24post/1908-02-29ante AS an SF (nicht überliefert)</not
           <term>Buchillustration</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10998" source="https://pmb.acdh.oeaw.ac.at/entity/10998/">
-          <persName>Brann, Paul</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb866" source="https://pmb.acdh.oeaw.ac.at/entity/866/">
-          <placeName>Dresden</placeName>
-        </place>
-        <place ref="#pmb863" source="https://pmb.acdh.oeaw.ac.at/entity/863/">
-          <placeName>Düsseldorf</placeName>
-        </place>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-        <place ref="#pmb44172" source="https://pmb.acdh.oeaw.ac.at/entity/44172/">
-          <placeName>Nürnberg</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -137,8 +126,9 @@ Beantwortet in: 1908-02-24post/1908-02-29ante AS an SF (nicht überliefert)</not
 Zwischenzeitliche persönliche Treffen in Wien und am Semmering (Tgb 1908-02-04, 1908-02-05, 1908-02-09, 1908-02-11) 
 Beantwortet in: 1908-02-24post/1908-02-29ante AS an SF (nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0313"/>212<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0313"/>212<lb/>
 163<lb/>
 ISCHER,VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
 THEATERABTEILUNG<lb/>
@@ -161,7 +151,8 @@ zur Aufführung in Düsseldorf garnicht berechtigt<lb/>
 war. Eben jetzt, da ich zurückgekommen bin,<lb/>
 voor ungever fsere.<lb/>
 Mais</p>
-        <p><pb facs="1416742_0314"/>ich die Abrechnung anerkennen, (sie wird demgemäss<lb/>
+        <p>
+          <pb facs="1416742_0314"/>ich die Abrechnung anerkennen, (sie wird demgemäss<lb/>
 zum nächsten Quartal mit Ihnen verrechnet werden),<lb/>
 weil Herr Braun jetzt das Aufführungsrecht für 4<lb/>
 Gastvorstellungen in Dresden und für Aufführungen im<lb/>

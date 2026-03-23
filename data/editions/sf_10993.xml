@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -54,7 +55,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
 Antwort auf: <ref target="10992">1923-04-10 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10995">1923-04-16 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10995">1923-04-16 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-04-14.html</note>
       </notesStmt>
@@ -70,6 +72,13 @@ Beantwortet in: <ref target="10995">1923-04-16 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12176">Mann, Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13055">Wassermann, Jakob</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10993.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -78,17 +87,6 @@ Beantwortet in: <ref target="10995">1923-04-16 SF (Berlin) an AS (Wien)</ref></n
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-        <person ref="#pmb12176" source="https://pmb.acdh.oeaw.ac.at/entity/12176/">
-          <persName>Mann, Thomas</persName>
-        </person>
-        <person ref="#pmb13055" source="https://pmb.acdh.oeaw.ac.at/entity/13055/">
-          <persName>Wassermann, Jakob</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -99,10 +97,12 @@ Beantwortet in: <ref target="10995">1923-04-16 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>1 Blatt, 1 Seite
 Antwort auf: <ref target="10992">1923-04-10 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10995">1923-04-16 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10995">1923-04-16 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0274"/>H, O, H, N, O.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0274"/>H, O, H, N, O.<lb/>
 G. P. S. C.<lb/>
 in<lb/>
 --    —<lb/>

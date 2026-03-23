@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11113">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -74,6 +75,11 @@ wohl Beilage zu folgendem Brief</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11113.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -82,11 +88,6 @@ wohl Beilage zu folgendem Brief</note>
           <term>Uraufführung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -98,8 +99,9 @@ wohl Beilage zu folgendem Brief</note>
         <p>1 Blatt, 2 Seiten
 wohl Beilage zu folgendem Brief</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0767"/>at 690<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0767"/>at 690<lb/>
 Coln<lb/>
 Stanguellens<lb/>
 Harlung.<lb/>
@@ -122,7 +124,8 @@ gericht werden; ist glaube ferner trok der Umfang<lb/>
 des Realerabends die Stimmung in der<lb/>
 Diklichkeit so halten zu können, den der<lb/>
 Abend auf von der Aufhebung aus eine Regen¬</p>
-        <p><pb facs="1416743_0768"/>wird und die „Knivelie der Verführung“ der<lb/>
+        <p>
+          <pb facs="1416743_0768"/>wird und die „Knivelie der Verführung“ der<lb/>
 Butne erobert. Sie werden wären, den ich<lb/>
 die Worte, die ist zur Unverstäffnung übernehme,<lb/>
 unbedingt und gegen anfangs erklähte.<lb/>

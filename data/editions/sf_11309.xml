@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -78,6 +79,28 @@ Brief Nr. 806</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb300494">Barnay, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7460">Goetz, Wolfgang</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19421">Klein, Robert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12504">Reinhardt, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2381">Shaw, George Bernard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb121588">Barmen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb677">Breslau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb903">Elberfeld</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb146">Frankfurt am Main</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb864">Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb884">Lübeck</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb91492">Plauen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45530">Deutsches Schauspielhaus in Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb35597">Deutsches Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45417">Reinhardt-Bühnen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb57345">Schauspielhaus Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11309.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -92,66 +115,6 @@ Brief Nr. 806</note>
           <term>Versammlung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb300494" source="https://pmb.acdh.oeaw.ac.at/entity/300494/">
-          <persName>Barnay, Paul</persName>
-        </person>
-        <person ref="#pmb7460" source="https://pmb.acdh.oeaw.ac.at/entity/7460/">
-          <persName>Goetz, Wolfgang</persName>
-        </person>
-        <person ref="#pmb19421" source="https://pmb.acdh.oeaw.ac.at/entity/19421/">
-          <persName>Klein, Robert</persName>
-        </person>
-        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
-          <persName>Reinhardt, Max</persName>
-        </person>
-        <person ref="#pmb2381" source="https://pmb.acdh.oeaw.ac.at/entity/2381/">
-          <persName>Shaw, George Bernard</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb121588" source="https://pmb.acdh.oeaw.ac.at/entity/121588/">
-          <placeName>Barmen</placeName>
-        </place>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb677" source="https://pmb.acdh.oeaw.ac.at/entity/677/">
-          <placeName>Breslau</placeName>
-        </place>
-        <place ref="#pmb903" source="https://pmb.acdh.oeaw.ac.at/entity/903/">
-          <placeName>Elberfeld</placeName>
-        </place>
-        <place ref="#pmb146" source="https://pmb.acdh.oeaw.ac.at/entity/146/">
-          <placeName>Frankfurt am Main</placeName>
-        </place>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-        <place ref="#pmb864" source="https://pmb.acdh.oeaw.ac.at/entity/864/">
-          <placeName>Leipzig</placeName>
-        </place>
-        <place ref="#pmb884" source="https://pmb.acdh.oeaw.ac.at/entity/884/">
-          <placeName>Lübeck</placeName>
-        </place>
-        <place ref="#pmb91492" source="https://pmb.acdh.oeaw.ac.at/entity/91492/">
-          <placeName>Plauen</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb45530" source="https://pmb.acdh.oeaw.ac.at/entity/45530/">
-          <orgName>Deutsches Schauspielhaus in Hamburg</orgName>
-        </org>
-        <org ref="#pmb35597" source="https://pmb.acdh.oeaw.ac.at/entity/35597/">
-          <orgName>Deutsches Theater Berlin</orgName>
-        </org>
-        <org ref="#pmb45417" source="https://pmb.acdh.oeaw.ac.at/entity/45417/">
-          <orgName>Reinhardt-Bühnen</orgName>
-        </org>
-        <org ref="#pmb57345" source="https://pmb.acdh.oeaw.ac.at/entity/57345/">
-          <orgName>Schauspielhaus Leipzig</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -164,8 +127,9 @@ Brief Nr. 806</note>
 Unbekannter Absender
 Brief Nr. 806</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0935"/>FJ<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0935"/>FJ<lb/>
 P.S<lb/>
 et<lb/>
 1806<lb/>
@@ -209,7 +173,8 @@ passiert: Ein Beamter hat jahrelang (!) täglich die Freikarten-<lb/>
 Billetts,die er erhielt, durch eine Kartensurückbehaltung ver-<lb/>
 doppelt und diese Karten dann zu billigen Freisen für die eigene<lb/>
 Tasche verkauft, wodurch dem Deutschen Theater ein Schaden von</p>
-        <p><pb facs="1416743_0936"/>1.<lb/>
+        <p>
+          <pb facs="1416743_0936"/>1.<lb/>
 etwa einer halben Million Mark im Laufe der Jahre erwachsen<lb/>
 ist, den Autoren natürlich ein diesem Verhältnis entsprechender<lb/>
 geringerer,aber immerhin ungemein beträchtlicher. Da die<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -87,7 +88,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Beantwortet in: <ref target="11305">1927-05-20 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11305">1927-05-20 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1927-05-05.html</note>
       </notesStmt>
@@ -104,6 +106,12 @@ Beantwortet in: <ref target="11305">1927-05-20 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb772">Marienbad</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11302.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -114,14 +122,6 @@ Beantwortet in: <ref target="11305">1927-05-20 SF (Berlin) an AS (Wien)</ref></n
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb772" source="https://pmb.acdh.oeaw.ac.at/entity/772/">
-          <placeName>Marienbad</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -131,10 +131,12 @@ Beantwortet in: <ref target="11305">1927-05-20 SF (Berlin) an AS (Wien)</ref></n
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Beantwortet in: <ref target="11305">1927-05-20 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11305">1927-05-20 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0115"/>mirschreiben, kann ich mir noch keine rechte<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0115"/>mirschreiben, kann ich mir noch keine rechte<lb/>
 Vorstellung machen. Natürlich autorisiere ich<lb/>
 Sie gern unverbindlich hinsichtlich einiger<lb/>
 Anatol-Szenen mit einem solchen Unternehmen<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -74,7 +75,8 @@
 Anlage: Verzeichnis 'Das weite Land', 1 Blatt, 1 Seite beschrieben
 
 Antwort auf: <ref target="10387">1911-06-16 AS an SF</ref>
-Beantwortet in: <ref target="10389">1911-06-24 AS an SF</ref></note>
+Beantwortet in: <ref target="10389">1911-06-24 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1911-06-20.html</note>
       </notesStmt>
@@ -90,6 +92,12 @@ Beantwortet in: <ref target="10389">1911-06-24 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4557">Vogeler, Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13037">Walser, Karl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10388.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -99,14 +107,6 @@ Beantwortet in: <ref target="10389">1911-06-24 AS an SF</ref></note>
           <term>Novelle</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4557" source="https://pmb.acdh.oeaw.ac.at/entity/4557/">
-          <persName>Vogeler, Hans</persName>
-        </person>
-        <person ref="#pmb13037" source="https://pmb.acdh.oeaw.ac.at/entity/13037/">
-          <persName>Walser, Karl</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -119,10 +119,12 @@ Beantwortet in: <ref target="10389">1911-06-24 AS an SF</ref></note>
 Anlage: Verzeichnis 'Das weite Land', 1 Blatt, 1 Seite beschrieben
 
 Antwort auf: <ref target="10387">1911-06-16 AS an SF</ref>
-Beantwortet in: <ref target="10389">1911-06-24 AS an SF</ref></p>
+Beantwortet in: <ref target="10389">1911-06-24 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0497"/>252<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0497"/>252<lb/>
 S. Fischer, Verlag, Berlin W., Búlowstraße 90<lb/>
 den 20. Juni 1911<lb/>
 meatewald amul<lb/>
@@ -152,7 +154,8 @@ druckt.<lb/>
 Anliegend erhalten Sie das Verzeichnis der Bühnen, die "Das weite<lb/>
 Land" angenommen haben. Sobald Sie uns ein gestrichenes Exemplar zu-<lb/>
 schicken, werden wir die Bühnen auf die Einheitlichkeit für die Darstel-</p>
-        <p><pb facs="1416742_0498"/>252.<lb/>
+        <p>
+          <pb facs="1416742_0498"/>252.<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstraße 90<lb/>
 den 20. Juni 1911<lb/>
 meafewald snul<lb/>

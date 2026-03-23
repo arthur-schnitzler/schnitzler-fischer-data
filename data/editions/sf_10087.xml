@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10087">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -84,6 +85,12 @@ zuvor persönliches Treffen in Berlin (Tgb 1899-04-27)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3379">Langen, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13055">Wassermann, Jakob</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10087.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,14 +98,6 @@ zuvor persönliches Treffen in Berlin (Tgb 1899-04-27)</note>
           <term>Honorar</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb3379" source="https://pmb.acdh.oeaw.ac.at/entity/3379/">
-          <persName>Langen, Albert</persName>
-        </person>
-        <person ref="#pmb13055" source="https://pmb.acdh.oeaw.ac.at/entity/13055/">
-          <persName>Wassermann, Jakob</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -112,8 +111,9 @@ zuvor persönliches Treffen in Berlin (Tgb 1899-04-27)</note>
 Antwort auf: 1899-05-10ante AS an SF (Bitte um 'Vermächtnis'-Exemplare; nicht überliefert)
 zuvor persönliches Treffen in Berlin (Tgb 1899-04-27)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0101"/>S. FISCHER, VERLAG<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0101"/>S. FISCHER, VERLAG<lb/>
 BERLIN W, DEN  10. Mai 1899<lb/>
 BÜLOWSTRASSE 91.<lb/>
 TELEPHON:AMT VI, No. 1662.<lb/>

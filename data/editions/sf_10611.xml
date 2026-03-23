@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,7 +77,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
 Antwort auf: <ref target="10609">1917-04-05 AS (Wien) an FS (Berlin)</ref>
-Beantwortet in: <ref target="10613">1917-05-17 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="10613">1917-05-17 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1917-04-16.html</note>
       </notesStmt>
@@ -92,6 +94,15 @@ Beantwortet in: <ref target="10613">1917-05-17 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10844">Bassermann, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10896">Bernauer, Rudolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8889">Meinhard, Carl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb42626">Residenztheater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10611.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -102,25 +113,6 @@ Beantwortet in: <ref target="10613">1917-05-17 AS (Wien) an SF (Berlin)</ref></n
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb10844" source="https://pmb.acdh.oeaw.ac.at/entity/10844/">
-          <persName>Bassermann, Albert</persName>
-        </person>
-        <person ref="#pmb10896" source="https://pmb.acdh.oeaw.ac.at/entity/10896/">
-          <persName>Bernauer, Rudolf</persName>
-        </person>
-        <person ref="#pmb8889" source="https://pmb.acdh.oeaw.ac.at/entity/8889/">
-          <persName>Meinhard, Carl</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="#pmb42626" source="https://pmb.acdh.oeaw.ac.at/entity/42626/">
-          <orgName>Residenztheater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -131,10 +123,12 @@ Beantwortet in: <ref target="10613">1917-05-17 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>2 Blatt, 2 Seiten
 Antwort auf: <ref target="10609">1917-04-05 AS (Wien) an FS (Berlin)</ref>
-Beantwortet in: <ref target="10613">1917-05-17 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="10613">1917-05-17 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0063"/>ener.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0063"/>ener.<lb/>
 FISCHER.VERLAG<lb/>
 Baukkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkono Berlin Nr. 1662 — — Fernsprech=Anschlüsse: Amt Lützow Nr 1662 und 6102<lb/>
 Berlin W 57, Bülowstraße 90<lb/>
@@ -164,7 +158,8 @@ aus der "Jugend" einen Rat wegen des Honorars geben, wenn ich nur<lb/>
 wüsste, wieviel Autoren an dem Novellenband beteiligt sind und wel-<lb/>
 chen Verkaufspreis das Buch haben soll. Ich kenne dieses Unternehmen<lb/>
 nicht, und vielleicht ist es am zweckmässigsten, wenn Sie sich ein-</p>
-        <p><pb facs="1416743_0064"/>1<lb/>
+        <p>
+          <pb facs="1416743_0064"/>1<lb/>
 fach wegen des Honorars einen Vorschlag machen lassen.<lb/>
 Die "Weltliteratur" hatte bei Eintreffen Ihrer Antwort<lb/>
 "Geronimo" und "Ein Ehrentag" schon im Satz herstellen lassen<lb/>

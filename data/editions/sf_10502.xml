@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,7 +71,8 @@
         <note type="description">1 Blatt, 1 Seite beschrieben
 
 Antwort auf: <ref target="10501">1913-05-05 AS an SF</ref>
-Beantwortet in: <ref target="10503">1913-05-13 AS an SF</ref></note>
+Beantwortet in: <ref target="10503">1913-05-13 AS an SF</ref>
+        </note>
         <note type="published_in">Rodewald, 102-103 [Nr. 141]</note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1913-05-07.html</note>
@@ -87,34 +89,20 @@ Beantwortet in: <ref target="10503">1913-05-13 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2914">Bie, Oskar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7072">Faktor, Emil</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2229">Handl, Willi</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11910">Kerr, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12225">Mell, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12858">Stoessl, Otto</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2725">Wymetal, Wilhelm von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13212">Zweig, Stefan</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10502.xml"/>
+        </note>
       </correspDesc>
       <textClass/>
-      <listPerson>
-        <person ref="#pmb2914" source="https://pmb.acdh.oeaw.ac.at/entity/2914/">
-          <persName>Bie, Oskar</persName>
-        </person>
-        <person ref="#pmb7072" source="https://pmb.acdh.oeaw.ac.at/entity/7072/">
-          <persName>Faktor, Emil</persName>
-        </person>
-        <person ref="#pmb2229" source="https://pmb.acdh.oeaw.ac.at/entity/2229/">
-          <persName>Handl, Willi</persName>
-        </person>
-        <person ref="#pmb11910" source="https://pmb.acdh.oeaw.ac.at/entity/11910/">
-          <persName>Kerr, Alfred</persName>
-        </person>
-        <person ref="#pmb12225" source="https://pmb.acdh.oeaw.ac.at/entity/12225/">
-          <persName>Mell, Max</persName>
-        </person>
-        <person ref="#pmb12858" source="https://pmb.acdh.oeaw.ac.at/entity/12858/">
-          <persName>Stoessl, Otto</persName>
-        </person>
-        <person ref="#pmb2725" source="https://pmb.acdh.oeaw.ac.at/entity/2725/">
-          <persName>Wymetal, Wilhelm von</persName>
-        </person>
-        <person ref="#pmb13212" source="https://pmb.acdh.oeaw.ac.at/entity/13212/">
-          <persName>Zweig, Stefan</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -126,10 +114,12 @@ Beantwortet in: <ref target="10503">1913-05-13 AS an SF</ref></note>
         <p>1 Blatt, 1 Seite beschrieben
 
 Antwort auf: <ref target="10501">1913-05-05 AS an SF</ref>
-Beantwortet in: <ref target="10503">1913-05-13 AS an SF</ref></p>
+Beantwortet in: <ref target="10503">1913-05-13 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0633"/>März<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0633"/>März<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
 rta. 21<lb/>
 Korns Dr. byther Secretätter<lb/>

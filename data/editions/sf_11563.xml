@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -40,7 +41,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">Nach Rodewald: 10 Seiten
-Antwort/Bezug auf <ref target="11513">1929-10-26 SF (Berlin) an AS (Wien)</ref>, <ref target="11516">1929-11-11 SF (Berlin) an AS (Wien)</ref></note>
+Antwort/Bezug auf <ref target="11513">1929-10-26 SF (Berlin) an AS (Wien)</ref>, <ref target="11516">1929-11-11 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="published_in">Rodewald, 156-161 [Nr. 192]; Schnitzler B II, 670-678</note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1930-04-05.html</note>
@@ -57,6 +59,16 @@ Antwort/Bezug auf <ref target="11513">1929-10-26 SF (Berlin) an AS (Wien)</ref>,
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7000">Engel, Fritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11472">Goldbaum, Wenzel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12068">Liebermann, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11563.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -67,35 +79,14 @@ Antwort/Bezug auf <ref target="11513">1929-10-26 SF (Berlin) an AS (Wien)</ref>,
           <term>Zahlung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb7000" source="https://pmb.acdh.oeaw.ac.at/entity/7000/">
-          <persName>Engel, Fritz</persName>
-        </person>
-        <person ref="#pmb11472" source="https://pmb.acdh.oeaw.ac.at/entity/11472/">
-          <persName>Goldbaum, Wenzel</persName>
-        </person>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb12068" source="https://pmb.acdh.oeaw.ac.at/entity/12068/">
-          <persName>Liebermann, Max</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <p>Nach Rodewald: 10 Seiten
-Antwort/Bezug auf <ref target="11513">1929-10-26 SF (Berlin) an AS (Wien)</ref>, <ref target="11516">1929-11-11 SF (Berlin) an AS (Wien)</ref></p>
+Antwort/Bezug auf <ref target="11513">1929-10-26 SF (Berlin) an AS (Wien)</ref>, <ref target="11516">1929-11-11 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
     </body>
   </text>

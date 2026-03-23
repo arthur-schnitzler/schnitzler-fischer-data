@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -93,6 +94,14 @@ Bezug auf Anfrage Valentin (Budapest; nicht überlieferte Anlage zu <ref target=
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2874">Eirich, Oskar Friedrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11740">Hofmannsthal, Hugo von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Valentin (Literaturagent, Budapest)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10268.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -102,22 +111,6 @@ Bezug auf Anfrage Valentin (Budapest; nicht überlieferte Anlage zu <ref target=
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2874" source="https://pmb.acdh.oeaw.ac.at/entity/2874/">
-          <persName>Eirich, Oskar Friedrich</persName>
-        </person>
-        <person ref="#pmb11740" source="https://pmb.acdh.oeaw.ac.at/entity/11740/">
-          <persName>Hofmannsthal, Hugo von</persName>
-        </person>
-        <person>
-          <persName>Valentin (Literaturagent, Budapest)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -132,8 +125,9 @@ Antwort auf: <ref target="10267">1909-05-15 AS an SF</ref>
 Beantwortet in: <ref target="10269">1909-06-09 AS an SF</ref>
 Bezug auf Anfrage Valentin (Budapest; nicht überlieferte Anlage zu <ref target="10266">1909-05-10 SF an AS</ref>)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0383"/>212<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0383"/>212<lb/>
 204<lb/>
 195<lb/>
 S. FISCHER,VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
@@ -157,7 +151,8 @@ Untersteidungskosten zu besorgen und a Conto Ihrss<lb/>
 Einen xxx xxx wir nicht xxx<lb/>
 auch xxx xyz xxx<lb/>
 in einem früheren xxx den Abschluss mit xxx</p>
-        <p><pb facs="1416742_0384"/>212<lb/>
+        <p>
+          <pb facs="1416742_0384"/>212<lb/>
 204<lb/>
 sogar zu weniger günstigen Bedingungen empfoh-<lb/>
 len.<lb/>

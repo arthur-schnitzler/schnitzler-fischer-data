@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11614">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,6 +71,12 @@ Das im Brief genannte Schreiben liegt nicht vor</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="123488729">Araquistáin, Luis</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb388">Spanien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11614.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -77,16 +84,6 @@ Das im Brief genannte Schreiben liegt nicht vor</note>
           <term>Übersetzer</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="123488729" source="https://d-nb.info/gnd/123488729">
-          <persName>Araquistáin, Luis</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb388" source="https://pmb.acdh.oeaw.ac.at/entity/388/">
-          <placeName>Spanien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -98,8 +95,9 @@ Das im Brief genannte Schreiben liegt nicht vor</note>
         <p>1 Blatt, 1 Seite
 Das im Brief genannte Schreiben liegt nicht vor</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416744_0079"/>1898<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416744_0079"/>1898<lb/>
 S. FISCHER VERLAG. A.-G..BERLin W 57 • BÜLowSTR. 90<lb/>
 Theaterabteilung<lb/>
 Fernsprecher: Lützow Nr. 6162-6164 / Telegramm=Adresse: Fischerverlag 6162 Berlinlützów<lb/>

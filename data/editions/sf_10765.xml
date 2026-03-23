@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -109,7 +110,8 @@
       <notesStmt>
         <note type="description">8 Blatt, 15 Seiten
 Antwort auf: 1919-06-26 SF (Berlin) an AS (Wien)
-Beantwortet in: <ref target="10766">1920-07-12 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10766">1920-07-12 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="published_in">Schnitzler B II, 204-211</note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1920-07-05.html</note>
@@ -126,6 +128,19 @@ Beantwortet in: <ref target="10766">1920-07-12 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8885">Meid, Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb290650">Révész, Andor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb2318">Partenkirchen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb313">Polen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb388">Spanien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Yiddish theater New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10765.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -159,39 +174,6 @@ Beantwortet in: <ref target="10766">1920-07-12 SF (Berlin) an AS (Wien)</ref></n
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb8885" source="https://pmb.acdh.oeaw.ac.at/entity/8885/">
-          <persName>Meid, Hans</persName>
-        </person>
-        <person ref="#pmb290650" source="https://pmb.acdh.oeaw.ac.at/entity/290650/">
-          <persName>Révész, Andor</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb2318" source="https://pmb.acdh.oeaw.ac.at/entity/2318/">
-          <placeName>Partenkirchen</placeName>
-        </place>
-        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
-          <placeName>Polen</placeName>
-        </place>
-        <place ref="#pmb388" source="https://pmb.acdh.oeaw.ac.at/entity/388/">
-          <placeName>Spanien</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org>
-          <orgName>Yiddish theater New York</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -202,10 +184,12 @@ Beantwortet in: <ref target="10766">1920-07-12 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>8 Blatt, 15 Seiten
 Antwort auf: 1919-06-26 SF (Berlin) an AS (Wien)
-Beantwortet in: <ref target="10766">1920-07-12 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10766">1920-07-12 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0155"/>12<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0155"/>12<lb/>
 5.7.1920.<lb/>
 tischer<lb/>
 G.C.F.P.P<lb/>
@@ -251,7 +235,8 @@ September. Anatol<lb/>
 Liebelei<lb/>
 Dazu Holland, Casanova,<lb/>
 lk. 27</p>
-        <p><pb facs="1416739_0156"/>Die Differenz zwischen meiner und Ihrer<lb/>
+        <p>
+          <pb facs="1416739_0156"/>Die Differenz zwischen meiner und Ihrer<lb/>
 Summe,Mk.27632.- und Ihrer 98399.- ist so<lb/>
 enorm, dass sie wederdurch ein Versehen meiner-<lb/>
 seits noch durch eines Ihrerseits überhaupt mit<lb/>
@@ -297,7 +282,8 @@ rierung anbelangt, zu jedem Entzogenkommen be-<lb/>
 reit. So erklär eich mich auch mit Ihren Vor-<lb/>
 schlagen den „Weg ins Fleis“ betreffend<lb/>
 verstanden.</p>
-        <p><pb facs="1416739_0157"/>Soll ich nun auch noch zum Xten Mal wie¬<lb/>
+        <p>
+          <pb facs="1416739_0157"/>Soll ich nun auch noch zum Xten Mal wie¬<lb/>
 derholen, dass ich fern davon bin die Schwie-<lb/>
 rigkeiten zu verkennen oder auch nur zu unter-<lb/>
 schätzen, mit denen xx in solchen Zeiten ein<lb/>
@@ -342,7 +328,8 @@ le. Von einem Verlangen meinerseits, dass<lb/>
 Sie Geld und Arbeit daran wenden sollten, um<lb/>
 an meinen Büchern zuzusetzen, konnte und kann<lb/>
 sicht die Rede sein, und ich bitte aufs Alle</p>
-        <p><pb facs="1416739_0158"/>&amp; it used<lb/>
+        <p>
+          <pb facs="1416739_0158"/>&amp; it used<lb/>
 bezeichnen. Ich dachte eben,es verstünde sich<lb/>
 dringendste Bemerkungen solcher Art, zu denen<lb/>
 von selbst nicht nur dass Abschlüsse über<lb/>
@@ -392,7 +379,8 @@ auch als überflüssig zu bezeichnen, so sollte<lb/>
 wahrhaftig nicht viele) informiert wo<lb/>
 man eine solche Konstatierung nicht als Rüge<lb/>
 de la riviere</p>
-        <p><pb facs="1416739_0159"/>Und wenn es auch egelegentlich in Privatbrie-<lb/>
+        <p>
+          <pb facs="1416739_0159"/>Und wenn es auch egelegentlich in Privatbrie-<lb/>
 fen an Sie geschah, so beweist doch der ganze<lb/>
 Charakter unserer Korresponienz und der Umstand<lb/>
 dass meine an Sie persönlich gerichteten Fra-<lb/>
@@ -437,7 +425,8 @@ in New-York zu übermittels. Daraufhin erhalte<lb/>
 ich aus Amerika eine Summe zugesandt (von der<lb/>
 ich übrigens bis zu diesem Augenblick noch<lb/>
 nicht weiss, worauf sie zu verrechnen ist) und</p>
-        <p><pb facs="1416739_0160"/>1o3e<lb/>
+        <p>
+          <pb facs="1416739_0160"/>1o3e<lb/>
 11<lb/>
 10<lb/>
 Scheck als Vorschuss ein. Was hätte Ihr Bureau<lb/>
@@ -483,7 +472,8 @@ jedem Falle, also auch wenn Pauschalsummen<lb/>
 handelte sich in diesem Fall um den „Reigen“)<lb/>
 eingehen und keine Verrechnungen notwendig.<lb/>
 demnächst erscheine und sendet mir einen</p>
-        <p><pb facs="1416739_0161"/>216-5-00<lb/>
+        <p>
+          <pb facs="1416739_0161"/>216-5-00<lb/>
 13<lb/>
 12<lb/>
 landsinteressen übernähmen,die im praktischen<lb/>
@@ -530,7 +520,8 @@ sollten, wird es Ihnen gewiss nicht schwer<lb/>
 liche, aber doch eine Vertretung meiner Aus-<lb/>
 werden<lb/>
 mir etliche der schon in meinen früheren</p>
-        <p><pb facs="1416739_0162"/>5th 810<lb/>
+        <p>
+          <pb facs="1416739_0162"/>5th 810<lb/>
 14<lb/>
 15<lb/>
 Briefen enthaltenen Fragen - vor allem Namen<lb/>
@@ -564,7 +555,8 @@ Markt zu bringen.<lb/>
 Mein Telegramm zur Luxusausgabe von<lb/>
 „Casnovas Heimkehr“ haben Sie wohl erhalten.<lb/>
 Sie sch reiben mir wohl bald mehr darüber,</p>
-        <p><pb facs="1416739_0163"/>23.10.1920.<lb/>
+        <p>
+          <pb facs="1416739_0163"/>23.10.1920.<lb/>
 An<lb/>
 S. Fischer, Verlag,<lb/>
 Theaterabetilung,Ausland,<lb/>
@@ -601,7 +593,8 @@ Die Veränderungen, die Sie diesmal vorschlagen,<lb/>
 sind mir nicht recht verständlich, insbesonde<lb/>
 re der Unterschied zwischen der Tantiemenbe-<lb/>
 rechnung bei Werken, die in den ersten 6 Mona¬</p>
-        <p><pb facs="1416739_0164"/>ten und solchen, die später durch sie ange-<lb/>
+        <p>
+          <pb facs="1416739_0164"/>ten und solchen, die später durch sie ange-<lb/>
 bracht würden. Ich weiss auch nicht, welches<lb/>
 die „Ueberschüsse“ sein könnten, die Ihrer<lb/>
 Vertretung gehören sollen,die dafür die Ver-<lb/>
@@ -650,7 +643,8 @@ den 5000, 500 Lire vom 25. Tausend ab für je<lb/>
 5000 erkläre ich mich einverstanden,aller-<lb/>
 dingsnur, weil ich es für recht unwahrschein<lb/>
 lich halte, dass der Roman in Italien eine</p>
-        <p><pb facs="1416739_0165"/>so hohe Auflagenziffer erreichen dürfte.<lb/>
+        <p>
+          <pb facs="1416739_0165"/>so hohe Auflagenziffer erreichen dürfte.<lb/>
 Denn logisch wäre es natürlich, dass von Auf-<lb/>
 lage zu Auflage,da die Kosten des Verlegers<lb/>
 sich ja eher verringern, mehr und nicht we-<lb/>
@@ -701,7 +695,8 @@ dürfte, nicht meine Meinung allein und manche<lb/>
 schriftstellerische Verbände beschäftigen sich,<lb/>
 wie Sie auch wissen, aufs Lebhafteste mit dieser<lb/>
 Frage. Es wird Sie gewiss interessieren, wenn ich</p>
-        <p><pb facs="1416739_0166"/>Ihnen eine Stelle aus einem Brief von Heinrich<lb/>
+        <p>
+          <pb facs="1416739_0166"/>Ihnen eine Stelle aus einem Brief von Heinrich<lb/>
 dann zitiere, der vor kurzem an mich gelangt<lb/>
 Ist. Ich bemerke, dass nicht etwa ich das The-<lb/>
 ma in der Korrespondenz mit ihm zuerst ange¬<lb/>
@@ -779,7 +774,8 @@ sichten, die über B. verbreitet zu sein<lb/>
 scheinen, würde ich bitten die Angelegenheit,<lb/>
 wenn nötig mit aller Energie weiter zu be¬<lb/>
 treiben.</p>
-        <p><pb facs="1416739_0167"/>11/11 810<lb/>
+        <p>
+          <pb facs="1416739_0167"/>11/11 810<lb/>
 tischer<lb/>
 20.11.1900.<lb/>
 2<lb/>
@@ -859,7 +855,8 @@ freilich schön, wenn wir uns bald wieder einmal<lb/>
 mündlich und nicht nur über<lb/>
 r geschäftliche Din-<lb/>
 ...</p>
-        <p><pb facs="1416739_0168"/>Miss Fanny Johnson, die vor dem Krieg<lb/>
+        <p>
+          <pb facs="1416739_0168"/>Miss Fanny Johnson, die vor dem Krieg<lb/>
 wiederholt über meine Werke in der literari-<lb/>
 schen Beilage der Times berichtet hat, bittet<lb/>
 mich durch den hiesigen Universitätsprofessor<lb/>
@@ -931,7 +928,8 @@ wegen der anderen neulich erwähnten Freiexen<lb/>
 re wenden? Ich glaube nicht, dass in wien<lb/>
 alles zu haben sein wird. Von meiner Gesammt-<lb/>
 ausgabe habe ich seinerzeit nur den geringsten</p>
-        <p><pb facs="1416739_0169"/>Teil der mir zustehenden Freiexemplare bezogen.<lb/>
+        <p>
+          <pb facs="1416739_0169"/>Teil der mir zustehenden Freiexemplare bezogen.<lb/>
 unter den heute so geänderten Fräsverhältnissen<lb/>
 kann ich nachträglich kaum auf solche Frei<lb/>
 exemplare Anspruch machen, möchte aber jedes¬<lb/>

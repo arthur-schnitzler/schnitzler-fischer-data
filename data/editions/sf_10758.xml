@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -115,7 +116,8 @@
       <notesStmt>
         <note type="description">6 Blatt, 12 Seiten
 Antwort auf: 1919-05-19 SF (Berlin) an AS (Wien), 1919-04-18 SF (Berlin) an AS (Wien)
-Beantwortet in: <ref target="10759">1920-06-08 SF (Berlin) an AS (Wien)</ref>, <ref target="10762">1920-06-18 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10759">1920-06-08 SF (Berlin) an AS (Wien)</ref>, <ref target="10762">1920-06-18 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1920-05-28.html</note>
       </notesStmt>
@@ -131,6 +133,24 @@ Beantwortet in: <ref target="10759">1920-06-08 SF (Berlin) an AS (Wien)</ref>, <
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb14273">Blanco, Alberto</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7777">Hellmer, Arthur</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb58067">Kosztolányi, Dezső</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20142">Lasswitz, Koloman</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb22619">Pitter, Karl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12504">Reinhardt, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb290650">Révész, Andor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb142471">Ziegel, Erich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43471">Budapest</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb914">Madrid</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb118343">Weiler</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10758.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -156,52 +176,6 @@ Beantwortet in: <ref target="10759">1920-06-08 SF (Berlin) an AS (Wien)</ref>, <
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb14273" source="https://pmb.acdh.oeaw.ac.at/entity/14273/">
-          <persName>Blanco, Alberto</persName>
-        </person>
-        <person ref="#pmb7777" source="https://pmb.acdh.oeaw.ac.at/entity/7777/">
-          <persName>Hellmer, Arthur</persName>
-        </person>
-        <person ref="#pmb58067" source="https://pmb.acdh.oeaw.ac.at/entity/58067/">
-          <persName>Kosztolányi, Dezső</persName>
-        </person>
-        <person ref="#pmb20142" source="https://pmb.acdh.oeaw.ac.at/entity/20142/">
-          <persName>Lasswitz, Koloman</persName>
-        </person>
-        <person ref="#pmb22619" source="https://pmb.acdh.oeaw.ac.at/entity/22619/">
-          <persName>Pitter, Karl</persName>
-        </person>
-        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
-          <persName>Reinhardt, Max</persName>
-        </person>
-        <person ref="#pmb290650" source="https://pmb.acdh.oeaw.ac.at/entity/290650/">
-          <persName>Révész, Andor</persName>
-        </person>
-        <person ref="#pmb142471" source="https://pmb.acdh.oeaw.ac.at/entity/142471/">
-          <persName>Ziegel, Erich</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb43471" source="https://pmb.acdh.oeaw.ac.at/entity/43471/">
-          <placeName>Budapest</placeName>
-        </place>
-        <place ref="#pmb914" source="https://pmb.acdh.oeaw.ac.at/entity/914/">
-          <placeName>Madrid</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-        <place ref="#pmb118343" source="https://pmb.acdh.oeaw.ac.at/entity/118343/">
-          <placeName>Weiler</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -212,10 +186,12 @@ Beantwortet in: <ref target="10759">1920-06-08 SF (Berlin) an AS (Wien)</ref>, <
       <div type="letter">
         <p>6 Blatt, 12 Seiten
 Antwort auf: 1919-05-19 SF (Berlin) an AS (Wien), 1919-04-18 SF (Berlin) an AS (Wien)
-Beantwortet in: <ref target="10759">1920-06-08 SF (Berlin) an AS (Wien)</ref>, <ref target="10762">1920-06-18 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10759">1920-06-08 SF (Berlin) an AS (Wien)</ref>, <ref target="10762">1920-06-18 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0149"/>Provincesse<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0149"/>Provincesse<lb/>
 Fischer<lb/>
 28.5.1920.<lb/>
 que les ames.<lb/>
@@ -257,7 +233,8 @@ Kölosönkönyvtar, Budapest VII. Dohany-Utoa 1<lb/>
 Ihr<lb/>
 sich wegen des Uebersetzungsrechtes von.Dok<lb/>
 tor Gräsler" (ebenso wie von -Frau Berta Gar¬</p>
-        <p><pb facs="1416739_0150"/>¬<lb/>
+        <p>
+          <pb facs="1416739_0150"/>¬<lb/>
 Aufenthaltes in Berlin mit Ihnen geschäftlich<lb/>
 lan' und.Der Weg ins Freie" an mich gemaddt<lb/>
 ins Reine zu bringen. Schon am 1.Mai 1900<lb/>
@@ -302,7 +279,8 @@ reichische Autoren, sowie deutsche und österrei-<lb/>
 zu machen und ich habe ihn ersucht die Angele-<lb/>
 chische Verlagsanstalten zu bestehlen ist un<lb/>
 genheit anlässlich seines bevorstehenden Be-</p>
-        <p><pb facs="1416739_0151"/>ja bekannt, stellt sich jedoch,was nun doch im-<lb/>
+        <p>
+          <pb facs="1416739_0151"/>ja bekannt, stellt sich jedoch,was nun doch im-<lb/>
 mer häufiger vorzukommen scheint, ein ungari-<lb/>
 scher Verleger auf den Boden eines wirklichen<lb/>
 Urheberrechtes, nicht auf den überlebter Raub-<lb/>
@@ -347,7 +325,8 @@ räge, die mir von ihnen übermittelt wei-<lb/>
 nicht etwa persönlich weiterbehandle,sonders<lb/>
 dass, wenn mir dieser Antrag überhaupt und<lb/>
 erscheint, ihn in Ihre Hände überallen.</p>
-        <p><pb facs="1416739_0152"/>Auch wenn ich Ihnen Anträge, die direkt<lb/>
+        <p>
+          <pb facs="1416739_0152"/>Auch wenn ich Ihnen Anträge, die direkt<lb/>
 an mich gelangen, zu weiterer Behandlung über-<lb/>
 lasse,gelten die gleichen Provisionsbedingun-<lb/>
 gen, als wenn der Antrag direkt an Sie gelangt<lb/>
@@ -390,7 +369,8 @@ lich gebessert. Herr Revesz sagt mir, dass ich<lb/>
 automatisch durch die Aufführung Meines mei<lb/>
 ner Stücke Mitglied der spanischen Sociedad<lb/>
 des Autores werde und dass der Autor (auch</p>
-        <p><pb facs="1416739_0153"/>der übersetzte) durch ein vortreffliches Kon-<lb/>
+        <p>
+          <pb facs="1416739_0153"/>der übersetzte) durch ein vortreffliches Kon-<lb/>
 trollsystem, das dem der französischen Societé<lb/>
 entspricht, vollkommen gegen Missbräuche aller<lb/>
 Art geschützt sei. Es wird sich also empfhlen.,<lb/>
@@ -435,7 +415,8 @@ haben, sehr daneben gehen kann. Keineswegs ist<lb/>
 etwas verloren,wenn wir noch zuwarten. Sollten<lb/>
 die Herren Zieglærung Hellmer gar zu ungedul-<lb/>
 dig werdense bliebe uns nichts übrigfals ihnen</p>
-        <p><pb facs="1416739_0154"/>xx4<lb/>
+        <p>
+          <pb facs="1416739_0154"/>xx4<lb/>
 11<lb/>
 10<lb/>
 daran aus den eben erschienenen Mitteilungen<lb/>
@@ -482,7 +463,8 @@ Zwangsmittel werden anwenden neue Auflagen<lb/>
 werden soll, mit der Bedingung, dass 25% der Auf-<lb/>
 nicht zu drucken.<lb/>
 legen honorarfrei bleiben. Darf ich im Anschluss</p>
-        <p><pb facs="1416739_0155"/>12<lb/>
+        <p>
+          <pb facs="1416739_0155"/>12<lb/>
 5.7.1920.<lb/>
 tischer<lb/>
 G.C.F.P.P<lb/>
@@ -528,7 +510,8 @@ September. Anatol<lb/>
 Liebelei<lb/>
 Dazu Holland, Casanova,<lb/>
 lk. 27</p>
-        <p><pb facs="1416739_0156"/>Die Differenz zwischen meiner und Ihrer<lb/>
+        <p>
+          <pb facs="1416739_0156"/>Die Differenz zwischen meiner und Ihrer<lb/>
 Summe,Mk.27632.- und Ihrer 98399.- ist so<lb/>
 enorm, dass sie wederdurch ein Versehen meiner-<lb/>
 seits noch durch eines Ihrerseits überhaupt mit<lb/>
@@ -574,7 +557,8 @@ rierung anbelangt, zu jedem Entzogenkommen be-<lb/>
 reit. So erklär eich mich auch mit Ihren Vor-<lb/>
 schlagen den „Weg ins Fleis“ betreffend<lb/>
 verstanden.</p>
-        <p><pb facs="1416739_0157"/>Soll ich nun auch noch zum Xten Mal wie¬<lb/>
+        <p>
+          <pb facs="1416739_0157"/>Soll ich nun auch noch zum Xten Mal wie¬<lb/>
 derholen, dass ich fern davon bin die Schwie-<lb/>
 rigkeiten zu verkennen oder auch nur zu unter-<lb/>
 schätzen, mit denen xx in solchen Zeiten ein<lb/>
@@ -619,7 +603,8 @@ le. Von einem Verlangen meinerseits, dass<lb/>
 Sie Geld und Arbeit daran wenden sollten, um<lb/>
 an meinen Büchern zuzusetzen, konnte und kann<lb/>
 sicht die Rede sein, und ich bitte aufs Alle</p>
-        <p><pb facs="1416739_0158"/>&amp; it used<lb/>
+        <p>
+          <pb facs="1416739_0158"/>&amp; it used<lb/>
 bezeichnen. Ich dachte eben,es verstünde sich<lb/>
 dringendste Bemerkungen solcher Art, zu denen<lb/>
 von selbst nicht nur dass Abschlüsse über<lb/>
@@ -669,7 +654,8 @@ auch als überflüssig zu bezeichnen, so sollte<lb/>
 wahrhaftig nicht viele) informiert wo<lb/>
 man eine solche Konstatierung nicht als Rüge<lb/>
 de la riviere</p>
-        <p><pb facs="1416739_0159"/>Und wenn es auch egelegentlich in Privatbrie-<lb/>
+        <p>
+          <pb facs="1416739_0159"/>Und wenn es auch egelegentlich in Privatbrie-<lb/>
 fen an Sie geschah, so beweist doch der ganze<lb/>
 Charakter unserer Korresponienz und der Umstand<lb/>
 dass meine an Sie persönlich gerichteten Fra-<lb/>
@@ -714,7 +700,8 @@ in New-York zu übermittels. Daraufhin erhalte<lb/>
 ich aus Amerika eine Summe zugesandt (von der<lb/>
 ich übrigens bis zu diesem Augenblick noch<lb/>
 nicht weiss, worauf sie zu verrechnen ist) und</p>
-        <p><pb facs="1416739_0160"/>1o3e<lb/>
+        <p>
+          <pb facs="1416739_0160"/>1o3e<lb/>
 11<lb/>
 10<lb/>
 Scheck als Vorschuss ein. Was hätte Ihr Bureau<lb/>

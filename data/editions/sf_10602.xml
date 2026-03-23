@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -82,7 +83,8 @@
       <notesStmt>
         <note type="description">3 Blatt, 3 Seiten
 Antwort auf: <ref target="10601">1917-01-18 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10603">1917-03-01 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10603">1917-03-01 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1917-02-19.html</note>
       </notesStmt>
@@ -98,6 +100,17 @@ Beantwortet in: <ref target="10603">1917-03-01 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8076">Kainer, Ludwig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20474">Linden, Gustaf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116802529">Martin, Anton Karl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb36247">Burgtheater Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10602.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -108,33 +121,6 @@ Beantwortet in: <ref target="10603">1917-03-01 SF (Berlin) an AS (Wien)</ref></n
           <term>Presse/Feuilleton</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb8076" source="https://pmb.acdh.oeaw.ac.at/entity/8076/">
-          <persName>Kainer, Ludwig</persName>
-        </person>
-        <person ref="#pmb20474" source="https://pmb.acdh.oeaw.ac.at/entity/20474/">
-          <persName>Linden, Gustaf</persName>
-        </person>
-        <person ref="116802529" source="https://d-nb.info/gnd/116802529">
-          <persName>Martin, Anton Karl</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb36247" source="https://pmb.acdh.oeaw.ac.at/entity/36247/">
-          <orgName>Burgtheater Wien</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -145,10 +131,12 @@ Beantwortet in: <ref target="10603">1917-03-01 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>3 Blatt, 3 Seiten
 Antwort auf: <ref target="10601">1917-01-18 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10603">1917-03-01 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10603">1917-03-01 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0019"/>19.2.1917.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0019"/>19.2.1917.<lb/>
 Fischer<lb/>
 Lieber Freund.<lb/>
 Vorerst eine vertrauliche Aufrage. Ist<lb/>
@@ -175,7 +163,8 @@ le dernier<lb/>
 Erfolg der K.d.W. hatte ich schon durch ein Te-<lb/>
 ausführlicheren<lb/>
 lgramm Lindens und durch den Privatbrief einer</p>
-        <p><pb facs="1416739_0020"/>Fischer<lb/>
+        <p>
+          <pb facs="1416739_0020"/>Fischer<lb/>
 19.2.1917.<lb/>
 Lieber Freund.<lb/>
 Vorerst eine vertrauliche Aufrage. Ist<lb/>
@@ -200,7 +189,8 @@ G.C.H<lb/>
 Erfolg der K.d.W. hatte ich schon durch ein Te¬<lb/>
 ausführlicheren<lb/>
 lgramm Lindens und durch den Privatbrief einer</p>
-        <p><pb facs="1416739_0021"/>graphiert mir, dass man ihm den „Kakadu" verbo-<lb/>
+        <p>
+          <pb facs="1416739_0021"/>graphiert mir, dass man ihm den „Kakadu" verbo-<lb/>
 Bekannten aus Stockholm Kenntnis erlangt. Wie<lb/>
 ten hat. Haben Sie gegen das „Anatol-Verbot<lb/>
 schade, dass die Laufbahn dieses Zyklus in<lb/>

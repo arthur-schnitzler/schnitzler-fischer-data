@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -90,7 +91,8 @@
 Anlage: 1915-04-14ante Klara Körber an AS (nicht überliefert)
 
 Antwort auf: 1915-04-14ante SF an AS (nicht überliefert)
-Beantwortet in: <ref target="10560">1915-04-21 SF an AS</ref></note>
+Beantwortet in: <ref target="10560">1915-04-21 SF an AS</ref>
+        </note>
         <note type="type">Typoskript (Durchschlag, ohne Unterschrift) (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm) AS)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1915-04-14.html</note>
       </notesStmt>
@@ -106,6 +108,22 @@ Beantwortet in: <ref target="10560">1915-04-21 SF an AS</ref></note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2147">Altenberg, Peter</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10955">Blei, Franz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2657">Fischer, Hedwig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7777">Hellmer, Arthur</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19956">Körber, Clara</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12689">Schmutzer, Ferdinand</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb24477">Schott, Richard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43520">Meran</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb88756">Frankfurter Schauspielhaus</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb300058">Neues Theater Frankfurt am Main</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10559.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -118,48 +136,6 @@ Beantwortet in: <ref target="10560">1915-04-21 SF an AS</ref></note>
           <term>Signierte Ausgabe</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2147" source="https://pmb.acdh.oeaw.ac.at/entity/2147/">
-          <persName>Altenberg, Peter</persName>
-        </person>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb10955" source="https://pmb.acdh.oeaw.ac.at/entity/10955/">
-          <persName>Blei, Franz</persName>
-        </person>
-        <person ref="#pmb2657" source="https://pmb.acdh.oeaw.ac.at/entity/2657/">
-          <persName>Fischer, Hedwig</persName>
-        </person>
-        <person ref="#pmb7777" source="https://pmb.acdh.oeaw.ac.at/entity/7777/">
-          <persName>Hellmer, Arthur</persName>
-        </person>
-        <person ref="#pmb19956" source="https://pmb.acdh.oeaw.ac.at/entity/19956/">
-          <persName>Körber, Clara</persName>
-        </person>
-        <person ref="#pmb12689" source="https://pmb.acdh.oeaw.ac.at/entity/12689/">
-          <persName>Schmutzer, Ferdinand</persName>
-        </person>
-        <person ref="#pmb24477" source="https://pmb.acdh.oeaw.ac.at/entity/24477/">
-          <persName>Schott, Richard</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb43520" source="https://pmb.acdh.oeaw.ac.at/entity/43520/">
-          <placeName>Meran</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb88756" source="https://pmb.acdh.oeaw.ac.at/entity/88756/">
-          <orgName>Frankfurter Schauspielhaus</orgName>
-        </org>
-        <org ref="#pmb300058" source="https://pmb.acdh.oeaw.ac.at/entity/300058/">
-          <orgName>Neues Theater Frankfurt am Main</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -172,7 +148,8 @@ Beantwortet in: <ref target="10560">1915-04-21 SF an AS</ref></note>
 Anlage: 1915-04-14ante Klara Körber an AS (nicht überliefert)
 
 Antwort auf: 1915-04-14ante SF an AS (nicht überliefert)
-Beantwortet in: <ref target="10560">1915-04-21 SF an AS</ref></p>
+Beantwortet in: <ref target="10560">1915-04-21 SF an AS</ref>
+        </p>
       </div>
     </body>
   </text>

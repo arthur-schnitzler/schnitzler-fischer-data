@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10097">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -86,6 +87,11 @@ Antwort auf: 1899-12-05post/1900-01-09ante AS an SF (Illustrationen Coschell 'An
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb28645">Coschell, Moritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10097.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -94,11 +100,6 @@ Antwort auf: 1899-12-05post/1900-01-09ante AS an SF (Illustrationen Coschell 'An
           <term>Veröffentlichungsplan/-projekt</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb28645" source="https://pmb.acdh.oeaw.ac.at/entity/28645/">
-          <persName>Coschell, Moritz</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -112,8 +113,9 @@ Anlage: Druckfahnen 'Anatol'
 
 Antwort auf: 1899-12-05post/1900-01-09ante AS an SF (Illustrationen Coschell 'Anatol'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0117"/>CHE<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0117"/>CHE<lb/>
 AMT VI, No. 1662.<lb/>
 BERene W., DEN  9/1. 1900.<lb/>
 BÜLÖWSTRASSE 91.<lb/>

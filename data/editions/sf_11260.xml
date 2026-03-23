@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -81,6 +82,12 @@ Rückseite Notizen AS</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12861">Straus, Oscar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11260.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -89,16 +96,6 @@ Rückseite Notizen AS</note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb12861" source="https://pmb.acdh.oeaw.ac.at/entity/12861/">
-          <persName>Straus, Oscar</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -111,8 +108,9 @@ Rückseite Notizen AS</note>
 Beantwortet in: <ref target="11261">1926-10-28 AS (Wien) an SF (Berlin)</ref>
 Rückseite Notizen AS</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0893"/>176<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0893"/>176<lb/>
 S. Fischer. Verlag Berlin<lb/>
 Amt Lützow 1662, 6162 u. 9292 Theaterabteilung postscheckkonto Nr. 16692<lb/>
 Berlin W 57, Bülowstraße Nr. 90<lb/>

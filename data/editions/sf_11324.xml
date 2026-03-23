@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,7 +71,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
 Antwort auf: <ref target="11323">1927-07-06 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11326">1927-07-12 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11326">1927-07-12 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1927-07-09.html</note>
       </notesStmt>
@@ -87,6 +89,18 @@ Beantwortet in: <ref target="11326">1927-07-12 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10844">Bassermann, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7713">Hartung, Gustav</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11895">Kayssler, Friedrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb121701">Krauß, Werner</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="124708994">Reʾuveni, Aharon</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45508">Israel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb5297">Jerusalem</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11324.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -110,34 +124,6 @@ Beantwortet in: <ref target="11326">1927-07-12 SF (Berlin) an AS (Wien)</ref></n
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10844" source="https://pmb.acdh.oeaw.ac.at/entity/10844/">
-          <persName>Bassermann, Albert</persName>
-        </person>
-        <person ref="#pmb7713" source="https://pmb.acdh.oeaw.ac.at/entity/7713/">
-          <persName>Hartung, Gustav</persName>
-        </person>
-        <person ref="#pmb11895" source="https://pmb.acdh.oeaw.ac.at/entity/11895/">
-          <persName>Kayssler, Friedrich</persName>
-        </person>
-        <person ref="#pmb121701" source="https://pmb.acdh.oeaw.ac.at/entity/121701/">
-          <persName>Krauß, Werner</persName>
-        </person>
-        <person ref="124708994" source="https://d-nb.info/gnd/124708994">
-          <persName>Reʾuveni, Aharon</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb45508" source="https://pmb.acdh.oeaw.ac.at/entity/45508/">
-          <placeName>Israel</placeName>
-        </place>
-        <place ref="#pmb5297" source="https://pmb.acdh.oeaw.ac.at/entity/5297/">
-          <placeName>Jerusalem</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -148,10 +134,12 @@ Beantwortet in: <ref target="11326">1927-07-12 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>2 Blatt, 2 Seiten
 Antwort auf: <ref target="11323">1927-07-06 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11326">1927-07-12 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11326">1927-07-12 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0124"/>Direktoren festzulegen, und dass die betref-<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0124"/>Direktoren festzulegen, und dass die betref-<lb/>
 fonden Paragraphe von ihr ganzuxgä nur<lb/>
 oberflächlich preäzisiert worden sind.<lb/>
 Mit verbindlichen Grüssen<lb/>
@@ -194,7 +182,8 @@ den? Ich habe eben die Autorisation zur Ueber-<lb/>
 setzung ins Englische erteilt. Allerdings<lb/>
 ist vorläufig nur der mebersetzer, aber noch<lb/>
 nicht der verleger vorhanden, der sich jedoch</p>
-        <p><pb facs="1416740_0125"/>finden dürfte.<lb/>
+        <p>
+          <pb facs="1416740_0125"/>finden dürfte.<lb/>
 Hat Ihnen ein Herr Reubeni aus Jerusa-<lb/>
 lem schon geschrieben?,der sehr dringend wünsch<lb/>
 te einen hebräischen Roman, den er geschrieben<lb/>

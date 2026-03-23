@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -78,7 +79,8 @@
         <note type="description">1 Blatt, 2 Seiten beschrieben
 
 Antwort auf: <ref target="10240">1908-10-21 AS an SF</ref>
-Beantwortet in: <ref target="10242">1908-10-26 AS an SF</ref></note>
+Beantwortet in: <ref target="10242">1908-10-26 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1908-10-23.html</note>
       </notesStmt>
@@ -94,6 +96,19 @@ Beantwortet in: <ref target="10242">1908-10-26 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2874">Eirich, Oskar Friedrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2871">Entsch, Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12341">Neumann, Angelo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb833">Brünn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb652">Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb687">Österreich-Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10241.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -101,37 +116,6 @@ Beantwortet in: <ref target="10242">1908-10-26 AS an SF</ref></note>
           <term>Urheberrecht/Copyright</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2874" source="https://pmb.acdh.oeaw.ac.at/entity/2874/">
-          <persName>Eirich, Oskar Friedrich</persName>
-        </person>
-        <person ref="#pmb2871" source="https://pmb.acdh.oeaw.ac.at/entity/2871/">
-          <persName>Entsch, Theodor</persName>
-        </person>
-        <person ref="#pmb12341" source="https://pmb.acdh.oeaw.ac.at/entity/12341/">
-          <persName>Neumann, Angelo</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb833" source="https://pmb.acdh.oeaw.ac.at/entity/833/">
-          <placeName>Brünn</placeName>
-        </place>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
-          <placeName>Prag</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-        <place ref="#pmb687" source="https://pmb.acdh.oeaw.ac.at/entity/687/">
-          <placeName>Österreich-Ungarn</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -143,10 +127,12 @@ Beantwortet in: <ref target="10242">1908-10-26 AS an SF</ref></note>
         <p>1 Blatt, 2 Seiten beschrieben
 
 Antwort auf: <ref target="10240">1908-10-21 AS an SF</ref>
-Beantwortet in: <ref target="10242">1908-10-26 AS an SF</ref></p>
+Beantwortet in: <ref target="10242">1908-10-26 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0357"/>187<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0357"/>187<lb/>
 184<lb/>
 S. FISCHER, VERLAG,“ BERLIN W., BÜLowSTR. 90<lb/>
 BERene W., DEN  23. Okt. 08<lb/>
@@ -169,7 +155,8 @@ mann Ihrerseits zu verständigen, dass er mit uns<lb/>
 Die „Deutsche Bühnengenossenschaft“ bringt<lb/>
 nicht das Verzeichnis aller Aufführungen, die der<lb/>
 „Deutsche Bühnenspielplan" enthält, dafür aber die</p>
-        <p><pb facs="1416742_0358"/>Pr.<lb/>
+        <p>
+          <pb facs="1416742_0358"/>Pr.<lb/>
 Aufführungen in all den kleinen Orten, die hinwie-<lb/>
 derum in dem Verzeichnis des „Deutschen Bühnenspiel¬<lb/>
 plans" nicht vollständig aufgeführt sind, sodass<lb/>

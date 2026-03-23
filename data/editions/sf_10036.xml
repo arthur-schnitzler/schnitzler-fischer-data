@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10036">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -90,6 +91,11 @@ Antwort auf: 1895-09-04post/1895-09-10 AS an SF (Nachfrage Abrechnung, nicht üb
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2595">Pierson, Edgar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10036.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -99,11 +105,6 @@ Antwort auf: 1895-09-04post/1895-09-10 AS an SF (Nachfrage Abrechnung, nicht üb
           <term>Ostermesse</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2595" source="https://pmb.acdh.oeaw.ac.at/entity/2595/">
-          <persName>Pierson, Edgar</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -116,8 +117,9 @@ Antwort auf: 1895-09-04post/1895-09-10 AS an SF (Nachfrage Abrechnung, nicht üb
 
 Antwort auf: 1895-09-04post/1895-09-10 AS an SF (Nachfrage Abrechnung, nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0044"/>5 Fiaan<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0044"/>5 Fiaan<lb/>
 24<lb/>
 S. FISCHER. VerLAG. HOFBUCHHANDLUNG<lb/>
 Berlin W. den 10/9<lb/>
@@ -154,7 +156,8 @@ lem<lb/>
 berüchtigte<lb/>
 Verhältniß übertragen zu wollen, weit das<lb/>
 davon</p>
-        <p><pb facs="1416742_0045"/>Aufgenommen von ihm<lb/>
+        <p>
+          <pb facs="1416742_0045"/>Aufgenommen von ihm<lb/>
 33<lb/>
 Ficaura V1--<lb/>
 1.<lb/>

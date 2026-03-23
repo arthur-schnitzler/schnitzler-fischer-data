@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -64,7 +65,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten beschrieben
 
-Beantwortet in: <ref target="10536">1914-06-29 SF an AS</ref></note>
+Beantwortet in: <ref target="10536">1914-06-29 SF an AS</ref>
+        </note>
         <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1914-06-26.html</note>
       </notesStmt>
@@ -80,6 +82,19 @@ Beantwortet in: <ref target="10536">1914-06-29 SF an AS</ref></note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10836">Bartsch, Rudolf Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11216">Ebner-Eschenbach, Marie von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11575">Handel-Mazzetti, Enrica von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11740">Hofmannsthal, Hugo von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12551">Rosegger, Peter</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb179473">Schumann, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1073450619">Singer, Josef</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34946">Pontresina</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10535.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -89,37 +104,6 @@ Beantwortet in: <ref target="10536">1914-06-29 SF an AS</ref></note>
           <term>österreichisch</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
-          <persName>Bartsch, Rudolf Hans</persName>
-        </person>
-        <person ref="#pmb11216" source="https://pmb.acdh.oeaw.ac.at/entity/11216/">
-          <persName>Ebner-Eschenbach, Marie von</persName>
-        </person>
-        <person ref="#pmb11575" source="https://pmb.acdh.oeaw.ac.at/entity/11575/">
-          <persName>Handel-Mazzetti, Enrica von</persName>
-        </person>
-        <person ref="#pmb11740" source="https://pmb.acdh.oeaw.ac.at/entity/11740/">
-          <persName>Hofmannsthal, Hugo von</persName>
-        </person>
-        <person ref="#pmb12551" source="https://pmb.acdh.oeaw.ac.at/entity/12551/">
-          <persName>Rosegger, Peter</persName>
-        </person>
-        <person ref="#pmb179473" source="https://pmb.acdh.oeaw.ac.at/entity/179473/">
-          <persName>Schumann, Max</persName>
-        </person>
-        <person ref="1073450619" source="https://d-nb.info/gnd/1073450619">
-          <persName>Singer, Josef</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb34946" source="https://pmb.acdh.oeaw.ac.at/entity/34946/">
-          <placeName>Pontresina</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -130,7 +114,8 @@ Beantwortet in: <ref target="10536">1914-06-29 SF an AS</ref></note>
       <div type="letter">
         <p>1 Blatt, 2 Seiten beschrieben
 
-Beantwortet in: <ref target="10536">1914-06-29 SF an AS</ref></p>
+Beantwortet in: <ref target="10536">1914-06-29 SF an AS</ref>
+        </p>
       </div>
     </body>
   </text>

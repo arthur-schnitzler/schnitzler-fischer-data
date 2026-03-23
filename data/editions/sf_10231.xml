@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -86,20 +87,18 @@ Bezug auf: <ref target="10230">1908-09-09 SF an AS</ref> (Singer-Verlag)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb161144">Löwe, Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1073450619">Singer, Josef</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10231.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb161144" source="https://pmb.acdh.oeaw.ac.at/entity/161144/">
-          <persName>Löwe, Theodor</persName>
-        </person>
-        <person ref="1073450619" source="https://d-nb.info/gnd/1073450619">
-          <persName>Singer, Josef</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -113,8 +112,9 @@ Anlage: 1908-09-10 Carl Friedrich Fleischer (Leipzig) an SF (Berlin), 2 Blatt, 2
 
 Bezug auf: <ref target="10230">1908-09-09 SF an AS</ref> (Singer-Verlag)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0342"/>176<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0342"/>176<lb/>
 S. FISCHER, VERLAG,’ BERLIN W., BÜLowSTR. 90<lb/>
 BERene W., DEN. 11. Sept. 08<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>

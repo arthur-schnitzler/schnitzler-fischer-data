@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -66,7 +67,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
-Antwort auf: <ref target="10687">1919-01-20 AS (Wien) an SF (Berlin)</ref>, <ref target="10688">1919-01-22 AS (Wien) an SF (Berlin)</ref>, <ref target="10689">1919-01-24 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="10687">1919-01-20 AS (Wien) an SF (Berlin)</ref>, <ref target="10688">1919-01-22 AS (Wien) an SF (Berlin)</ref>, <ref target="10689">1919-01-24 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1919-01-30.html</note>
       </notesStmt>
@@ -82,6 +84,18 @@ Antwort auf: <ref target="10687">1919-01-20 AS (Wien) an SF (Berlin)</ref>, <ref
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20474">Linden, Gustaf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12556">Rosenbaum, Richard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43570">Dänemark</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb64465">Norwegen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10690.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -95,34 +109,6 @@ Antwort auf: <ref target="10687">1919-01-20 AS (Wien) an SF (Berlin)</ref>, <ref
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb20474" source="https://pmb.acdh.oeaw.ac.at/entity/20474/">
-          <persName>Linden, Gustaf</persName>
-        </person>
-        <person ref="#pmb12556" source="https://pmb.acdh.oeaw.ac.at/entity/12556/">
-          <persName>Rosenbaum, Richard</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb43570" source="https://pmb.acdh.oeaw.ac.at/entity/43570/">
-          <placeName>Dänemark</placeName>
-        </place>
-        <place ref="#pmb64465" source="https://pmb.acdh.oeaw.ac.at/entity/64465/">
-          <placeName>Norwegen</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -132,10 +118,12 @@ Antwort auf: <ref target="10687">1919-01-20 AS (Wien) an SF (Berlin)</ref>, <ref
     <body>
       <div type="letter">
         <p>2 Blatt, 2 Seiten
-Antwort auf: <ref target="10687">1919-01-20 AS (Wien) an SF (Berlin)</ref>, <ref target="10688">1919-01-22 AS (Wien) an SF (Berlin)</ref>, <ref target="10689">1919-01-24 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="10687">1919-01-20 AS (Wien) an SF (Berlin)</ref>, <ref target="10688">1919-01-22 AS (Wien) an SF (Berlin)</ref>, <ref target="10689">1919-01-24 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0160"/>42 x<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0160"/>42 x<lb/>
 JERLAG<lb/>
 1<lb/>
 FISCHE<lb/>
@@ -169,7 +157,8 @@ Verleger. im Gange.<lb/>
 Vom „ Casanova „ haben wir in Wien 25 000, in Leipzig 15 000 Exem-<lb/>
 plare gedruckt. Es ist, wie Sie sich erinnern werden, der Vorsicht<lb/>
 wegen geschehen, um uns hier in Deutschland für alle Fälle von dem</p>
-        <p><pb facs="1416743_0161"/>Blatt<lb/>
+        <p>
+          <pb facs="1416743_0161"/>Blatt<lb/>
 CHER/VERLAGT.<lb/>
 Dr. A. Schnitzler 30. Jan. 1919<lb/>
 ransportschwierigkeiten unabhängig zu machen. Von diesen 40 000<lb/>

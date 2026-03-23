@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -82,6 +83,11 @@ Anlage: Brief 1930-12-05 Harz, Benjamin (Berlin) an SF (Berlin), Verlagsrechte z
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11607.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,11 +97,6 @@ Anlage: Brief 1930-12-05 Harz, Benjamin (Berlin) an SF (Berlin), Verlagsrechte z
           <term>Verlagsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -109,8 +110,9 @@ Antwort auf: <ref target="11606">1930-12-05 AS (Wien) an SF (Berlin)</ref>
 Beantwortet in: <ref target="11608">1930-12-13 AS (Wien) an SF (Berlin)</ref>
 Anlage: Brief 1930-12-05 Harz, Benjamin (Berlin) an SF (Berlin), Verlagsrechte zu Schnitzlers "Reigen"</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416744_0071"/>993<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416744_0071"/>993<lb/>
 S. Fischer Verlag/Berlin W57 Bülowstrasse 90<lb/>
 AKTIEN GESELESCHAFT<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto Berlin Nr. 16692<lb/>

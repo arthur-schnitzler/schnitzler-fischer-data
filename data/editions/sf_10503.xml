@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -82,6 +83,19 @@ Ein zwischenzeitliches Telegramm AS an SF (1913-05-15 oder -16; vgl. Tgb 1913-05
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2914">Bie, Oskar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3283">Björkman, Edwin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb6879">Dukes, Ashley</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116894520">Grumann, Paul H.</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11910">Kerr, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12081">Lindner, Anton</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13212">Zweig, Stefan</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10503.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -90,37 +104,6 @@ Ein zwischenzeitliches Telegramm AS an SF (1913-05-15 oder -16; vgl. Tgb 1913-05
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2914" source="https://pmb.acdh.oeaw.ac.at/entity/2914/">
-          <persName>Bie, Oskar</persName>
-        </person>
-        <person ref="#pmb3283" source="https://pmb.acdh.oeaw.ac.at/entity/3283/">
-          <persName>Björkman, Edwin</persName>
-        </person>
-        <person ref="#pmb6879" source="https://pmb.acdh.oeaw.ac.at/entity/6879/">
-          <persName>Dukes, Ashley</persName>
-        </person>
-        <person ref="116894520" source="https://d-nb.info/gnd/116894520">
-          <persName>Grumann, Paul H.</persName>
-        </person>
-        <person ref="#pmb11910" source="https://pmb.acdh.oeaw.ac.at/entity/11910/">
-          <persName>Kerr, Alfred</persName>
-        </person>
-        <person ref="#pmb12081" source="https://pmb.acdh.oeaw.ac.at/entity/12081/">
-          <persName>Lindner, Anton</persName>
-        </person>
-        <person ref="#pmb13212" source="https://pmb.acdh.oeaw.ac.at/entity/13212/">
-          <persName>Zweig, Stefan</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>

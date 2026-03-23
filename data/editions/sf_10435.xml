@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -85,7 +86,8 @@
         <note type="description">3 Blatt, 3 Seiten beschrieben
 
 Antwort auf: <ref target="10433">1912-04-19 AS an SF</ref>
-Beantwortet in: <ref target="10436">1912-05-06 AS an SF</ref></note>
+Beantwortet in: <ref target="10436">1912-05-06 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1912-05-01.html</note>
       </notesStmt>
@@ -101,6 +103,18 @@ Beantwortet in: <ref target="10436">1912-05-06 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116298065">Ames, Winthrop</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1054786518">Browne, Maurice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5369">Granville-Barker, Harley</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Stephenson, Mary L. (Übersetzerin, USA)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="7632752-8">New Theatre New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10435.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -115,36 +129,6 @@ Beantwortet in: <ref target="10436">1912-05-06 AS an SF</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="116298065" source="https://d-nb.info/gnd/116298065">
-          <persName>Ames, Winthrop</persName>
-        </person>
-        <person ref="1054786518" source="https://d-nb.info/gnd/1054786518">
-          <persName>Browne, Maurice</persName>
-        </person>
-        <person ref="#pmb5369" source="https://pmb.acdh.oeaw.ac.at/entity/5369/">
-          <persName>Granville-Barker, Harley</persName>
-        </person>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-        <person>
-          <persName>Stephenson, Mary L. (Übersetzerin, USA)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="7632752-8" source="https://d-nb.info/gnd/7632752-8">
-          <orgName>New Theatre New York</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -156,10 +140,12 @@ Beantwortet in: <ref target="10436">1912-05-06 AS an SF</ref></note>
         <p>3 Blatt, 3 Seiten beschrieben
 
 Antwort auf: <ref target="10433">1912-04-19 AS an SF</ref>
-Beantwortet in: <ref target="10436">1912-05-06 AS an SF</ref></p>
+Beantwortet in: <ref target="10436">1912-05-06 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0547"/>278<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0547"/>278<lb/>
 J. Fischer, Verlag, Berlin M., Bülowstrasse 90<lb/>
 1/5. 1912<lb/>
 K &amp; P.<lb/>
@@ -215,7 +201,8 @@ fährt, dass das "Vermächtnis" in Amerika nicht geschützt ist,<lb/>
 während wir von Miss Kaiser auch auf Verrechnung von Tantiemen<lb/>
 der ungeschützten Stücke zu rechnen haben. +)<lb/>
 Die "Anstol",-Angelegenheit haben wir seinerzeit so geordnet,</p>
-        <p><pb facs="1416742_0548"/>von Miss Kaiser<lb/>
+        <p>
+          <pb facs="1416742_0548"/>von Miss Kaiser<lb/>
 dass Amen den "Anatol" für das Neue Theater in Newyork gegen eine<lb/>
 Tantieme von 5 % für Ihren Teil, mit einer Garantiezahlung von<lb/>
 M. 276, 77 auf Ihren Teil, erworben hat; diese Summe wird in unserer<lb/>
@@ -244,7 +231,8 @@ stattung dieser Bände mit der grössten Sorgfalt behandelt wird.<lb/>
 Nächste Woche gelangt zunächst "Masken und Wunder" zur Versen-<lb/>
 dung; bitte geben Sie uns Ihre Dispositionen wegen der Versendung<lb/>
 der Rezensions- und Freiexemplare rechtzeitig auf.</p>
-        <p><pb facs="1416742_0549"/>Ich wäre Ihnen sehr verbunden, wenn Sie mich vertrauensvoll<lb/>
+        <p>
+          <pb facs="1416742_0549"/>Ich wäre Ihnen sehr verbunden, wenn Sie mich vertrauensvoll<lb/>
 verständigen würden, wo Sih ein gut gebundenes Exemplar der Gesammelten<lb/>
 Werke an Ihren Geburtstage erreichen könnte.<lb/>
 Wir haben wunderschönes Wetter in Santa Margherita gehabt, wenn<lb/>

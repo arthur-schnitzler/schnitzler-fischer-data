@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10210">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -86,13 +87,13 @@ Beantwortet in: 1908-03-04post/1903-03-24ante AS an SF (nicht überliefert)</not
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2914">Bie, Oskar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10210.xml"/>
+        </note>
       </correspDesc>
       <textClass/>
-      <listPerson>
-        <person ref="#pmb2914" source="https://pmb.acdh.oeaw.ac.at/entity/2914/">
-          <persName>Bie, Oskar</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -106,8 +107,9 @@ Beantwortet in: 1908-03-04post/1903-03-24ante AS an SF (nicht überliefert)</not
 Antwort auf: 1908-02-29post/1908-03-04ante AS an SF (Erscheinungstermin 'Weg ins Freie'; nicht überliefert)
 Beantwortet in: 1908-03-04post/1903-03-24ante AS an SF (nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0317"/>22<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0317"/>22<lb/>
 164<lb/>
 S. FISCHER, VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
 4. März 08<lb/>
@@ -134,7 +136,8 @@ Juniheft den Roman abschliessen. Sie hat ausgerecht<lb/>
 wargen<lb/>
 Für<lb/>
 men</p>
-        <p><pb facs="1416742_0318"/>212<lb/>
+        <p>
+          <pb facs="1416742_0318"/>212<lb/>
 net, dass die drei nächsten Hefte etwa je 50 Sei-<lb/>
 ten enthalten müssen. Wenn Sie die ausprochenen<lb/>
 Revisionsbogen immer gleich zurückschicken, so<lb/>

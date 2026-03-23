@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -88,6 +89,18 @@ Schund- und Schmutzgesetz in Tags = Gesetz zur Bewahrung der Jugend vor Schund- 
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23675">Rotter, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3876">Rotter, Fritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb104398">Schustermann, Adolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb35597">Deutsches Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="62532-2">Neue Freie Volksbühne Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Rotter-Bühnen Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11312.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -114,36 +127,6 @@ Schund- und Schmutzgesetz in Tags = Gesetz zur Bewahrung der Jugend vor Schund- 
           <term>Zeitung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb23675" source="https://pmb.acdh.oeaw.ac.at/entity/23675/">
-          <persName>Rotter, Alfred</persName>
-        </person>
-        <person ref="#pmb3876" source="https://pmb.acdh.oeaw.ac.at/entity/3876/">
-          <persName>Rotter, Fritz</persName>
-        </person>
-        <person ref="#pmb104398" source="https://pmb.acdh.oeaw.ac.at/entity/104398/">
-          <persName>Schustermann, Adolf</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb35597" source="https://pmb.acdh.oeaw.ac.at/entity/35597/">
-          <orgName>Deutsches Theater Berlin</orgName>
-        </org>
-        <org ref="62532-2" source="https://d-nb.info/gnd/62532-2">
-          <orgName>Neue Freie Volksbühne Berlin</orgName>
-        </org>
-        <org>
-          <orgName>Rotter-Bühnen Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -157,8 +140,9 @@ Antwort auf: <ref target="11311">1927-06-02 AS (Wien) an SF (Berlin)</ref>
 Beantwortet in: <ref target="11315">1927-06-11 AS (Wien) an SF (Berlin)</ref>
 Schund- und Schmutzgesetz in Tags = Gesetz zur Bewahrung der Jugend vor Schund- und Schmutzschriften</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0939"/>208 ( 1545<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0939"/>208 ( 1545<lb/>
 11.1<lb/>
 G.C.F.P.<lb/>
 S. Fischer/Verlag / A.-G. Berlin W 57<lb/>
@@ -196,7 +180,8 @@ trolleure die Abrechnungen und Bücher prüft. Es handelt sich zu-<lb/>
 nächst natürlich nur um Stichproben, aber bei einzelnen Theatern<lb/>
 ist man dazu übergegangen, das tägliche Inkasso durch die Kontrol-<lb/>
 leure einzuführen. Ich glaube im übrigen nicht, dass die Kontrollen</p>
-        <p><pb facs="1416743_0940"/>S. Fischer. Verlag. Berlin<lb/>
+        <p>
+          <pb facs="1416743_0940"/>S. Fischer. Verlag. Berlin<lb/>
 vom 4/6<lb/>
 Schnitzler Blatt II<lb/>
 ern.<lb/>
@@ -260,7 +245,8 @@ mir ist niemals eine Anzeige von Harz zu Gesicht gekommen. Der<lb/>
 Verlagswechsel hätte natürlich nur einen Sinn, wenn damit eine<lb/>
 Propaganda verbunden sein könnte und dies scheint jetzt nicht<lb/>
 möglich zu sein.</p>
-        <p><pb facs="1416743_0941"/>n<lb/>
+        <p>
+          <pb facs="1416743_0941"/>n<lb/>
 P e<lb/>
 mili e e e ou t i G.<lb/>
 roisdindos.nd amsak as<lb/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10623">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -82,6 +83,12 @@ Beantwortet in: 1917-10-12 AS (Wien) an Greiner (Berlin)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7777">Hellmer, Arthur</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="11697088X">Zeiss, Karl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10623.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -89,14 +96,6 @@ Beantwortet in: 1917-10-12 AS (Wien) an Greiner (Berlin)</note>
           <term>Inszenierung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb7777" source="https://pmb.acdh.oeaw.ac.at/entity/7777/">
-          <persName>Hellmer, Arthur</persName>
-        </person>
-        <person ref="11697088X" source="https://d-nb.info/gnd/11697088X">
-          <persName>Zeiss, Karl</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -109,8 +108,9 @@ Beantwortet in: 1917-10-12 AS (Wien) an Greiner (Berlin)</note>
 Anlage: Abschrift von XX-XX-XX Hellmer, Arthur (XX) an Greiner, Leo (Berlin)
 Beantwortet in: 1917-10-12 AS (Wien) an Greiner (Berlin)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0079"/>bois<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0079"/>bois<lb/>
 390<lb/>
 S. Fischer. Verlag. Berlin<lb/>
 Amt Lützow 1662 u. 6162 Theaterabteilung postscheckkonto Nr. 16692<lb/>
@@ -137,7 +137,8 @@ nt<lb/>
 Ihr ergebener<lb/>
 LeoGreeuer<lb/>
 den Versuch zu unternommen</p>
-        <p><pb facs="1416743_0080"/>Abschrift<lb/>
+        <p>
+          <pb facs="1416743_0080"/>Abschrift<lb/>
 Sehr geehrter Herr Greiner,<lb/>
 gestützt auf unsere langjährige gute Ge-<lb/>
 schäftsverbindung möchte ich an die Vornehmheit Ihres Verlags appelie-<lb/>

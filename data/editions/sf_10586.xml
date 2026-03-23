@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -82,7 +83,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
 Antwort auf: <ref target="10584">1915-11-08 AS (Wien) an SF (Berlin)</ref>
-Antwort auf: <ref target="10585">1915-11-13 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="10585">1915-11-13 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1915-11-23.html</note>
       </notesStmt>
@@ -98,6 +100,15 @@ Antwort auf: <ref target="10585">1915-11-13 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2874">Eirich, Oskar Friedrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb146243">Marton, Alexander</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43471">Budapest</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10586.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -106,25 +117,6 @@ Antwort auf: <ref target="10585">1915-11-13 AS (Wien) an SF (Berlin)</ref></note
           <term>Spende</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2874" source="https://pmb.acdh.oeaw.ac.at/entity/2874/">
-          <persName>Eirich, Oskar Friedrich</persName>
-        </person>
-        <person ref="#pmb146243" source="https://pmb.acdh.oeaw.ac.at/entity/146243/">
-          <persName>Marton, Alexander</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb43471" source="https://pmb.acdh.oeaw.ac.at/entity/43471/">
-          <placeName>Budapest</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -135,10 +127,12 @@ Antwort auf: <ref target="10585">1915-11-13 AS (Wien) an SF (Berlin)</ref></note
       <div type="letter">
         <p>1 Blatt, 2 Seiten
 Antwort auf: <ref target="10584">1915-11-08 AS (Wien) an SF (Berlin)</ref>
-Antwort auf: <ref target="10585">1915-11-13 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="10585">1915-11-13 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0036"/>369<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0036"/>369<lb/>
 S. Fischer, Verlag, Berlin M., Bülowstrasse 90<lb/>
 23. November 1915<lb/>
 P.S.<lb/>
@@ -169,7 +163,8 @@ Budapest ein anderer Einakter eingeschaltet werden könnte.<lb/>
 Die Manuskripte, von denen Sie in Ihren beiden letzten<lb/>
 Briefen sprechen, sind bei uns noch nicht eingetroffen. Die<lb/>
 F. 208</p>
-        <p><pb facs="1416743_0037"/>Blatt 2<lb/>
+        <p>
+          <pb facs="1416743_0037"/>Blatt 2<lb/>
 S. FISCHER,VERLAG, BERLIN,<lb/>
 Arbeiten werden nach der Reihenfolge des Eingangs geprüft und wir<lb/>
 werden den Arbeiten, die Sie ankündigen, besondere Aufmerksamkeit<lb/>

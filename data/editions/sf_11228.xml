@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -87,7 +88,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
-Antwort auf: <ref target="11225">1926-01-25 SF (Berlin) an AS (Wien)</ref>, <ref target="11227">1926-01-29 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11225">1926-01-25 SF (Berlin) an AS (Wien)</ref>, <ref target="11227">1926-01-29 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="published_in">Rodewald, 147-148 [Nr. 183]</note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1926-01-30.html</note>
@@ -104,6 +106,19 @@ Antwort auf: <ref target="11225">1926-01-25 SF (Berlin) an AS (Wien)</ref>, <ref
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11281">Ewers, Hanns Heinz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb18607">Huebsch, Benjamin W.</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="119159295">Kolowrat-Krakowsky, Sascha</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43570">Dänemark</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb245">Hotel Esplanade (Berlin)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11228.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -117,37 +132,6 @@ Antwort auf: <ref target="11225">1926-01-25 SF (Berlin) an AS (Wien)</ref>, <ref
           <term>Vorlesung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11281" source="https://pmb.acdh.oeaw.ac.at/entity/11281/">
-          <persName>Ewers, Hanns Heinz</persName>
-        </person>
-        <person ref="#pmb18607" source="https://pmb.acdh.oeaw.ac.at/entity/18607/">
-          <persName>Huebsch, Benjamin W.</persName>
-        </person>
-        <person ref="119159295" source="https://d-nb.info/gnd/119159295">
-          <persName>Kolowrat-Krakowsky, Sascha</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb43570" source="https://pmb.acdh.oeaw.ac.at/entity/43570/">
-          <placeName>Dänemark</placeName>
-        </place>
-        <place ref="#pmb245" source="https://pmb.acdh.oeaw.ac.at/entity/245/">
-          <placeName>Hotel Esplanade (Berlin)</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -157,10 +141,12 @@ Antwort auf: <ref target="11225">1926-01-25 SF (Berlin) an AS (Wien)</ref>, <ref
     <body>
       <div type="letter">
         <p>2 Blatt, 2 Seiten
-Antwort auf: <ref target="11225">1926-01-25 SF (Berlin) an AS (Wien)</ref>, <ref target="11227">1926-01-29 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11225">1926-01-25 SF (Berlin) an AS (Wien)</ref>, <ref target="11227">1926-01-29 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0075"/>G.C.F.P.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0075"/>G.C.F.P.<lb/>
 G.C.F.P.<lb/>
 :daas<lb/>
 a s t k s a x<lb/>
@@ -207,7 +193,8 @@ möge nach der Lektüre xxxxxxxxxx einen<lb/>
 Honorarvorschlag machen. Vielleicht fragen<lb/>
 Sie ihn auch, ob jene Einaktersammlung, die Hans<lb/>
 Heinz Evers vor Jahren bei ihm heraumgeben</p>
-        <p><pb facs="1416740_0076"/>geben wollte, erschienen ist,<lb/>
+        <p>
+          <pb facs="1416740_0076"/>geben wollte, erschienen ist,<lb/>
 Ihr Büro frägt wieder wegen Varge<lb/>
 bung von Eilmrechten im allgemeßnen bei mir<lb/>
 an. Es ist und blebt das Einfachste, dass Sie<lb/>

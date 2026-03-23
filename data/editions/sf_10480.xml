@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,7 +77,8 @@
         <note type="description">3 Blatt, 3 Seiten beschrieben
 Anlage: 1912-12-03 Alice Kauser (New York) an SF (1 Blatt, 2 Seiten beschrieben; ehU und ehN); Anfrage aus Frankreich (nicht überliefert)
 
-Antwort auf: <ref target="10479">1912-12-16 AS an SF</ref></note>
+Antwort auf: <ref target="10479">1912-12-16 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1912-12-20.html</note>
       </notesStmt>
@@ -92,6 +94,19 @@ Antwort auf: <ref target="10479">1912-12-16 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116298065">Ames, Winthrop</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3283">Björkman, Edwin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5369">Granville-Barker, Harley</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23787">Rémon, Maurice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb26414">Vaucaire, Maurice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb166">Frankreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb388">Spanien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10480.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -101,37 +116,6 @@ Antwort auf: <ref target="10479">1912-12-16 AS an SF</ref></note>
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="116298065" source="https://d-nb.info/gnd/116298065">
-          <persName>Ames, Winthrop</persName>
-        </person>
-        <person ref="#pmb3283" source="https://pmb.acdh.oeaw.ac.at/entity/3283/">
-          <persName>Björkman, Edwin</persName>
-        </person>
-        <person ref="#pmb5369" source="https://pmb.acdh.oeaw.ac.at/entity/5369/">
-          <persName>Granville-Barker, Harley</persName>
-        </person>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-        <person ref="#pmb23787" source="https://pmb.acdh.oeaw.ac.at/entity/23787/">
-          <persName>Rémon, Maurice</persName>
-        </person>
-        <person ref="#pmb26414" source="https://pmb.acdh.oeaw.ac.at/entity/26414/">
-          <persName>Vaucaire, Maurice</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
-          <placeName>Frankreich</placeName>
-        </place>
-        <place ref="#pmb388" source="https://pmb.acdh.oeaw.ac.at/entity/388/">
-          <placeName>Spanien</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -143,10 +127,12 @@ Antwort auf: <ref target="10479">1912-12-16 AS an SF</ref></note>
         <p>3 Blatt, 3 Seiten beschrieben
 Anlage: 1912-12-03 Alice Kauser (New York) an SF (1 Blatt, 2 Seiten beschrieben; ehU und ehN); Anfrage aus Frankreich (nicht überliefert)
 
-Antwort auf: <ref target="10479">1912-12-16 AS an SF</ref></p>
+Antwort auf: <ref target="10479">1912-12-16 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0601"/>307<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0601"/>307<lb/>
 S. Fischer, Verlag, Berlin M., Bülowstrasse 90<lb/>
 20/12. 1912<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -176,7 +162,8 @@ Ich schicke Ihnen den eben eingetroffenen Brief von Miss Kaiser<lb/>
 (der Check über 300 Dollars ist noch nicht eingegangen).<lb/>
 Die Auskunft, dass Mr. Ames direkt an Mr. Barker Tantiemen<lb/>
 bezahlt, gibt Ihnen doch das Recht, bei Mr. Barker anzufragen, wieviel</p>
-        <p><pb facs="1416742_0602"/>Blatt 2<lb/>
+        <p>
+          <pb facs="1416742_0602"/>Blatt 2<lb/>
 FISCHER,VERLAG, BERLIN,<lb/>
 er von Mr. Ames bekommt. Da Sie eine feste Abmachung mit Mr.—Barker<lb/>
 haben, so haben Sie auch Anspruch auf den vereinbarten Teil der<lb/>
@@ -202,7 +189,8 @@ Die Wiesbadener Volksbücher erscheinen nicht nur zum Preise von<lb/>
 Ich bin sehr gern bereit, den "Geronimo" mit einigen andern Novellen<lb/>
 gelegentlich in der Romanbibliothek herauszugeben.<lb/>
 Nach Weihnachten werden wir drei neue Auflagen von "Bernhardi"</p>
-        <p><pb facs="1416742_0603"/>Blatt<lb/>
+        <p>
+          <pb facs="1416742_0603"/>Blatt<lb/>
 FISCHER,ayerlaG, BERLIN,<lb/>
 A M A<lb/>
 YORK<lb/>

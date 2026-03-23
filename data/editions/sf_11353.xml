@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -78,7 +79,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
-Antwort auf: <ref target="11350">1927-11-03 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11350">1927-11-03 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1927-11-07.html</note>
       </notesStmt>
@@ -95,6 +97,18 @@ Antwort auf: <ref target="11350">1927-11-03 SF (Berlin) an AS (Wien)</ref></note
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1061272206">Gantillon, Simon</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23675">Rotter, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3876">Rotter, Fritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb142471">Ziegel, Erich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Rotter-Bühnen Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11353.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -110,36 +124,6 @@ Antwort auf: <ref target="11350">1927-11-03 SF (Berlin) an AS (Wien)</ref></note
           <term>Verhandlung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="1061272206" source="https://d-nb.info/gnd/1061272206">
-          <persName>Gantillon, Simon</persName>
-        </person>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb23675" source="https://pmb.acdh.oeaw.ac.at/entity/23675/">
-          <persName>Rotter, Alfred</persName>
-        </person>
-        <person ref="#pmb3876" source="https://pmb.acdh.oeaw.ac.at/entity/3876/">
-          <persName>Rotter, Fritz</persName>
-        </person>
-        <person ref="#pmb142471" source="https://pmb.acdh.oeaw.ac.at/entity/142471/">
-          <persName>Ziegel, Erich</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org>
-          <orgName>Rotter-Bühnen Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -149,10 +133,12 @@ Antwort auf: <ref target="11350">1927-11-03 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 2 Seiten
-Antwort auf: <ref target="11350">1927-11-03 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11350">1927-11-03 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0136"/>wollen,darf ich wohl ihnen überlassen.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0136"/>wollen,darf ich wohl ihnen überlassen.<lb/>
 Einen Brief über theatralische Angele¬<lb/>
 ich bei; im übrigen hoffe ich<lb/>
 Ende dieses oder Anfang nächsten Monats für<lb/>
@@ -201,7 +187,8 @@ finden. In der ganzen Hatze gegen den.Rei-<lb/>
 gen auch nur einen Funken Ehrlichkeit zu<lb/>
 vermuten, hiesse all diesen Lampen viel zu<lb/>
 viel Ehre antun.</p>
-        <p><pb facs="1416740_0137"/>Pr.<lb/>
+        <p>
+          <pb facs="1416740_0137"/>Pr.<lb/>
 äscher<lb/>
 10.111.1927.<lb/>
 comme le<lb/>

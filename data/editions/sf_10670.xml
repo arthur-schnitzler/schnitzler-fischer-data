@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -62,7 +63,8 @@
       <notesStmt>
         <note type="description">4 Blatt, 4 Seiten
 (in großen Teilen unlesbar)
-Antwort auf: <ref target="10668">1918-08-21 AS (Wien) an SF (Travemünde)</ref></note>
+Antwort auf: <ref target="10668">1918-08-21 AS (Wien) an SF (Travemünde)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1918-08-28.html</note>
       </notesStmt>
@@ -78,6 +80,12 @@ Antwort auf: <ref target="10668">1918-08-21 AS (Wien) an SF (Travemünde)</ref><
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb2318">Partenkirchen</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8885">Meid, Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10670.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,16 +99,6 @@ Antwort auf: <ref target="10668">1918-08-21 AS (Wien) an SF (Travemünde)</ref><
           <term>Verkaufspreis/Ladenpreis</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb8885" source="https://pmb.acdh.oeaw.ac.at/entity/8885/">
-          <persName>Meid, Hans</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -111,10 +109,12 @@ Antwort auf: <ref target="10668">1918-08-21 AS (Wien) an SF (Travemünde)</ref><
       <div type="letter">
         <p>4 Blatt, 4 Seiten
 (in großen Teilen unlesbar)
-Antwort auf: <ref target="10668">1918-08-21 AS (Wien) an SF (Travemünde)</ref></p>
+Antwort auf: <ref target="10668">1918-08-21 AS (Wien) an SF (Travemünde)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0138"/>412<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0138"/>412<lb/>
 S. FISCHER/VERLAG<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P Berlin / Postscheckkonto. Berlin 1662<lb/>
 BERene W57, BÜLowSTRÄSSE 90<lb/>
@@ -149,7 +149,8 @@ und Sie dürften, wenn Sie Ihre Honorare in Rechnung stellen, im Prinzip<lb/>
 tieme, sondern von den Gesamthonorar<lb/>
 eigentlich nicht von der Höhe der Tante<lb/>
 G.C.H.F.P.P</p>
-        <p><pb facs="1416743_0139"/>S. FISCHER / VerLAG<lb/>
+        <p>
+          <pb facs="1416743_0139"/>S. FISCHER / VerLAG<lb/>
 2. Blatt<lb/>
 '1' 1'<lb/>
 ausgehen. Meine Preiserhöhungen bewegen sich in den allerbescheidensten<lb/>
@@ -182,7 +183,8 @@ Honorarzuschlag ohne Rücksicht auf die Höhe des<lb/>
 7 7 "<lb/>
 Zuschlags 10 % vom Friedenshonorar<lb/>
 82 1/2 Pfg.</p>
-        <p><pb facs="1416743_0140"/>S. FISCHER / VerLAG<lb/>
+        <p>
+          <pb facs="1416743_0140"/>S. FISCHER / VerLAG<lb/>
 3. Blatt<lb/>
 1<lb/>
 von mir bekommen Sie M 1,10, bei einem Ladenpreis von M 5.- also mehr<lb/>
@@ -215,7 +217,8 @@ aber gleich sagen, dass die normalen Tantiemen für illustrierte Bücher<lb/>
 auch in Friedenszeiten nicht in Frage stehen, denn es kommen ja noch<lb/>
 Honorarkosten für den Künstler und viel höhere Papier- und Druckkosten<lb/>
 in Betracht, weil diese Bücher ganz anders ausgestattet werden müssen,</p>
-        <p><pb facs="1416743_0141"/>S. FISCHER JVERLAG<lb/>
+        <p>
+          <pb facs="1416743_0141"/>S. FISCHER JVERLAG<lb/>
 24 Blatt „<lb/>
 freilich auch zu einem viel teureren Preis verkauft werden.<lb/>
 Wir brechen die Zelte ab und reisen nach einem verhältnismässig<lb/>

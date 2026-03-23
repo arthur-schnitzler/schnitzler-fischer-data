@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10026">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -91,6 +92,15 @@ Beantwortet in: 1895-06-06post/1895-06-11ante AS an SF (Anfrage Honorar Abdruck 
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11605">Hartleben, Otto Erich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb261838">Holländer, Felix</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2357">Nansen, Peter</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4785">Zasche, Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10026.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -102,23 +112,6 @@ Beantwortet in: 1895-06-06post/1895-06-11ante AS an SF (Anfrage Honorar Abdruck 
           <term>Veröffentlichungsplan/-projekt</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11605" source="https://pmb.acdh.oeaw.ac.at/entity/11605/">
-          <persName>Hartleben, Otto Erich</persName>
-        </person>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-        <person ref="#pmb261838" source="https://pmb.acdh.oeaw.ac.at/entity/261838/">
-          <persName>Holländer, Felix</persName>
-        </person>
-        <person ref="#pmb2357" source="https://pmb.acdh.oeaw.ac.at/entity/2357/">
-          <persName>Nansen, Peter</persName>
-        </person>
-        <person ref="#pmb4785" source="https://pmb.acdh.oeaw.ac.at/entity/4785/">
-          <persName>Zasche, Theodor</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -133,8 +126,9 @@ Anlagen: Bücher von Otto Erich Hartleben (Die Geschichte vom abgerissenen Knopf
 Antwort auf: 1895-04-29post/1895-06-05ante AS an SF (Ms 'Die kleine Komödie'; nicht überliefert)
 Beantwortet in: 1895-06-06post/1895-06-11ante AS an SF (Anfrage Honorar Abdruck 'Die kleine Komödie' in Zs.; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0022"/>33<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0022"/>33<lb/>
 Ficon<lb/>
 14<lb/>
 S. FISCHER, VERLAG, HOFBURCHHANDLUNG<lb/>
@@ -174,7 +168,8 @@ sogar versichten, da die ungleich höhere<lb/>
 Kosten kaum für mich einen entsprechend groß<lb/>
 Absatz eingebracht werden können.<lb/>
 dessen auf die Illustr.</p>
-        <p><pb facs="1416742_0023"/>Fisch<lb/>
+        <p>
+          <pb facs="1416742_0023"/>Fisch<lb/>
 eröfft<lb/>
 syn wir<lb/>
 Mit besser Hoch¬<lb/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10052">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -85,6 +86,12 @@ Antwort auf: 1896-05-14post/1896-05-27ante AS an SF/OB (Honorar Romanvorabdruck 
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2914">Bie, Oskar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb842">Karlsbad</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10052.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -93,16 +100,6 @@ Antwort auf: 1896-05-14post/1896-05-27ante AS an SF/OB (Honorar Romanvorabdruck 
           <term>Veröffentlichungsplan/-projekt</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2914" source="https://pmb.acdh.oeaw.ac.at/entity/2914/">
-          <persName>Bie, Oskar</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb842" source="https://pmb.acdh.oeaw.ac.at/entity/842/">
-          <placeName>Karlsbad</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -115,8 +112,9 @@ Antwort auf: 1896-05-14post/1896-05-27ante AS an SF/OB (Honorar Romanvorabdruck 
 
 Antwort auf: 1896-05-14post/1896-05-27ante AS an SF/OB (Honorar Romanvorabdruck 'Rundschau'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0064"/>AG.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0064"/>AG.<lb/>
 z. Zt. Karlshad (Hotel Supp,<lb/>
 Berlin W, don  2<lb/>
 189 6<lb/>

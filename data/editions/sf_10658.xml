@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10658">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -78,6 +79,15 @@ Antwort auf: Depesche von 1918-03-29 Zifferer, Paul (Wien) an SF (Berlin)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11740">Hofmannsthal, Hugo von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb22886">Prinzhorn, Ernst</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5156">Zifferer, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10658.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,25 +101,6 @@ Antwort auf: Depesche von 1918-03-29 Zifferer, Paul (Wien) an SF (Berlin)</note>
           <term>Verhandlung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11740" source="https://pmb.acdh.oeaw.ac.at/entity/11740/">
-          <persName>Hofmannsthal, Hugo von</persName>
-        </person>
-        <person ref="#pmb22886" source="https://pmb.acdh.oeaw.ac.at/entity/22886/">
-          <persName>Prinzhorn, Ernst</persName>
-        </person>
-        <person ref="#pmb5156" source="https://pmb.acdh.oeaw.ac.at/entity/5156/">
-          <persName>Zifferer, Paul</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -122,8 +113,9 @@ Antwort auf: Depesche von 1918-03-29 Zifferer, Paul (Wien) an SF (Berlin)</note>
 Anlage: Abschrift von: 1918-04-13 SF (Loschwitz) an Zifferer, Paul (Wien)
 Antwort auf: Depesche von 1918-03-29 Zifferer, Paul (Wien) an SF (Berlin)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0123"/>407<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0123"/>407<lb/>
 CHET<lb/>
 de P in Berlin / Postscheckkonto Berlin Nr. 16622 — — Fernsprech-Anschlüsse: Amt Lützow Nr 1662 und<lb/>
 Berlin W 57, Bülowstraße 90<lb/>
@@ -156,7 +148,8 @@ Mein Bureau meldet mir dass wir<lb/>
 auch neue Auflagen von „Liebelei“<lb/>
 druck<lb/>
 und eine weg.</p>
-        <p><pb facs="1416743_0124"/>13. April 1918<lb/>
+        <p>
+          <pb facs="1416743_0124"/>13. April 1918<lb/>
 /si<lb/>
 Herrn Dr. Paul Zifferer<lb/>
 Wien<lb/>
@@ -183,7 +176,8 @@ zitieren einen Brief Prinzhorns, in dem folgender Passus zu lesen in<lb/>
 und dass ihm die Gründung österreichischen Verlage###gleichgiltig<lb/>
 Damit, dass Fischer lediglich Aufsichterat eines Unternehmens<lb/>
 das wir zu gründen hätten, ist uns nicht gedient. Wie i</p>
-        <p><pb facs="1416743_0125"/>vorgestellt habe, müsste Fischer Spiritusrektor der ganzen Sache<lb/>
+        <p>
+          <pb facs="1416743_0125"/>vorgestellt habe, müsste Fischer Spiritusrektor der ganzen Sache<lb/>
 sein und wir hätten lediglich für gewünschtes Kapital Druck und Papier<lb/>
 zu sorgen. Sie werden mir zugeben müssen, dass ich daraus eine<lb/>
 Pression Prinzhorns entnehmen musste, dass ich den Endruck haben<lb/>

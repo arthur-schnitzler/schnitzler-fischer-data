@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -67,7 +68,8 @@
         <note type="description">1 Blatt, 2 Seiten beschrieben
 
 Antwort auf: 1909-04-19ante AS an SF (nicht überliefert)
-Beantwortet in: <ref target="10263">1909-04-29 AS an SF</ref></note>
+Beantwortet in: <ref target="10263">1909-04-29 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1909-04-19.html</note>
       </notesStmt>
@@ -83,6 +85,14 @@ Beantwortet in: <ref target="10263">1909-04-29 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb21891">Neumann, Franz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10262.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,22 +101,6 @@ Beantwortet in: <ref target="10263">1909-04-29 AS an SF</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-        <person ref="#pmb21891" source="https://pmb.acdh.oeaw.ac.at/entity/21891/">
-          <persName>Neumann, Franz</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -118,10 +112,12 @@ Beantwortet in: <ref target="10263">1909-04-29 AS an SF</ref></note>
         <p>1 Blatt, 2 Seiten beschrieben
 
 Antwort auf: 1909-04-19ante AS an SF (nicht überliefert)
-Beantwortet in: <ref target="10263">1909-04-29 AS an SF</ref></p>
+Beantwortet in: <ref target="10263">1909-04-29 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0376"/>192<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0376"/>192<lb/>
 S. FISCHER, VERLAG,„ BERLIN W., BÜLowSTR. 90<lb/>
 THEATERABTEILUNG<lb/>
 BERene W., DEN 19. April 09<lb/>
@@ -141,7 +137,8 @@ zen lassen und dem Neuen Theater angeboten, sie<lb/>
 macht für die Saison 1910/11 dort einige Hoffnungen.<lb/>
 Aber vielleicht realisiert sich auch noch früher<lb/>
 das eine oder andere.</p>
-        <p><pb facs="1416742_0377"/>Heute erhalte ich von dem Kapellmeister Franz<lb/>
+        <p>
+          <pb facs="1416742_0377"/>Heute erhalte ich von dem Kapellmeister Franz<lb/>
 Neumann die Nachricht, dass er sich mit Ihrer Zu-<lb/>
 stimmung mit der „Komposition der„Liebelei“ beschäf-<lb/>
 mme<lb/>

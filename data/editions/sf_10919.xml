@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -105,7 +106,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
-Antwort auf: <ref target="10916">1922-06-20 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="10916">1922-06-20 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-06-26.html</note>
       </notesStmt>
@@ -122,6 +124,26 @@ Antwort auf: <ref target="10916">1922-06-20 SF (Berlin) an AS (Wien)</ref></note
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10836">Bartsch, Rudolf Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb14543">Brevée, Bertha</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb16432">Fraenkel, Axel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11370">Freud, Sigmund</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19016">Kalckar, Marc</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3105">Karczag, Wilhelm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb710">Belgien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43570">Dänemark</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb36300">Kopenhagen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb378">Rumänien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb47927">Washington</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Greenwich Village Theatre New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb250435">Hamburger Kammerspiele</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10919.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -134,60 +156,6 @@ Antwort auf: <ref target="10916">1922-06-20 SF (Berlin) an AS (Wien)</ref></note
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
-          <persName>Bartsch, Rudolf Hans</persName>
-        </person>
-        <person ref="#pmb14543" source="https://pmb.acdh.oeaw.ac.at/entity/14543/">
-          <persName>Brevée, Bertha</persName>
-        </person>
-        <person ref="#pmb16432" source="https://pmb.acdh.oeaw.ac.at/entity/16432/">
-          <persName>Fraenkel, Axel</persName>
-        </person>
-        <person ref="#pmb11370" source="https://pmb.acdh.oeaw.ac.at/entity/11370/">
-          <persName>Freud, Sigmund</persName>
-        </person>
-        <person ref="#pmb19016" source="https://pmb.acdh.oeaw.ac.at/entity/19016/">
-          <persName>Kalckar, Marc</persName>
-        </person>
-        <person ref="#pmb3105" source="https://pmb.acdh.oeaw.ac.at/entity/3105/">
-          <persName>Karczag, Wilhelm</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb710" source="https://pmb.acdh.oeaw.ac.at/entity/710/">
-          <placeName>Belgien</placeName>
-        </place>
-        <place ref="#pmb43570" source="https://pmb.acdh.oeaw.ac.at/entity/43570/">
-          <placeName>Dänemark</placeName>
-        </place>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-        <place ref="#pmb36300" source="https://pmb.acdh.oeaw.ac.at/entity/36300/">
-          <placeName>Kopenhagen</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb378" source="https://pmb.acdh.oeaw.ac.at/entity/378/">
-          <placeName>Rumänien</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb47927" source="https://pmb.acdh.oeaw.ac.at/entity/47927/">
-          <placeName>Washington</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org>
-          <orgName>Greenwich Village Theatre New York</orgName>
-        </org>
-        <org ref="#pmb250435" source="https://pmb.acdh.oeaw.ac.at/entity/250435/">
-          <orgName>Hamburger Kammerspiele</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -197,10 +165,12 @@ Antwort auf: <ref target="10916">1922-06-20 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 4 Seiten
-Antwort auf: <ref target="10916">1922-06-20 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="10916">1922-06-20 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0240"/>26.6.1922.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0240"/>26.6.1922.<lb/>
 Fied<lb/>
 Sehr verehrter Herr Greiner.<lb/>
 1. Meine Abmachung „Vermächtnis“ Amerika,<lb/>
@@ -242,7 +212,8 @@ Gesammtausgabe von mir veranstalten wollen.<lb/>
 die sollen in ameri¬<lb/>
 Kirpatri<lb/>
 kanischen Blättern eine Erklärung über ihr</p>
-        <p><pb facs="1416739_0241"/>26/6<lb/>
+        <p>
+          <pb facs="1416739_0241"/>26/6<lb/>
 tung Ihres Bühhenvertriebes in Unterhandlungen<lb/>
 Recht auf meine xxx veröffentlicht haben, die<lb/>
 stehen. Karozag hat bereits eine solche belgi<lb/>
@@ -325,7 +296,8 @@ Ihre Mitteilung an mich gelangt ist, dass Sie wegen<lb/>
 recht für „Das neue Lied' und „Leutnant Gustl<lb/>
 eventueller Errichtung einer belgischn Vertre<lb/>
 bis 31. Dezember d.J. eingeräumt.</p>
-        <p><pb facs="1416739_0242"/>man,<lb/>
+        <p>
+          <pb facs="1416739_0242"/>man,<lb/>
 -n<lb/>
 26.6.1922.<lb/>
 Fischer<lb/>
@@ -384,7 +356,8 @@ ausübt, als wie sie mir neulich in einem Briefe<lb/>
 andeuten liessen, die.Reigen - Aufführungen, die<lb/>
 aller menschlichen Berechnung nach doch eher<lb/>
 günstig auf den Verkauf meiner Bücher einwirken</p>
-        <p><pb facs="1416739_0243"/>müssten.<lb/>
+        <p>
+          <pb facs="1416739_0243"/>müssten.<lb/>
 Wegen der Verrechnung der Einzelausgaben nach<lb/>
 Absatz noch ein Wort. Soli das ungefähr so viel<lb/>
 heissen, als dass immer eine Auflage nach voll-<lb/>

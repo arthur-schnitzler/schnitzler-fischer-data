@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -73,7 +74,8 @@
 Anlage: 1912-01-14 ante Gans-Putlitz an SF (Planungen zu AS 50. Geb.; nicht überliefert)
 
 Antwort auf: <ref target="10414">1912-01-29 AS an SF</ref>
-Beantwortet in: <ref target="10416">1912-02-20 AS an SF</ref></note>
+Beantwortet in: <ref target="10416">1912-02-20 AS an SF</ref>
+        </note>
         <note type="published_in">Rodewald, 93-94 [Nr. 129]; Buohler 2011, 184 (Auszug)</note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1912-02-14.html</note>
@@ -90,6 +92,16 @@ Beantwortet in: <ref target="10416">1912-02-20 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10986">Brahm, Otto</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb16911">Gans-Putlitz, Joachim von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11910">Kerr, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="63304-5">Königlich Württembergisches Hof-Theater Stuttgart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="7590354-4">Lessing-Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10415.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -98,28 +110,6 @@ Beantwortet in: <ref target="10416">1912-02-20 AS an SF</ref></note>
           <term>Gesamtausgabe</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb10986" source="https://pmb.acdh.oeaw.ac.at/entity/10986/">
-          <persName>Brahm, Otto</persName>
-        </person>
-        <person ref="#pmb16911" source="https://pmb.acdh.oeaw.ac.at/entity/16911/">
-          <persName>Gans-Putlitz, Joachim von</persName>
-        </person>
-        <person ref="#pmb11910" source="https://pmb.acdh.oeaw.ac.at/entity/11910/">
-          <persName>Kerr, Alfred</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="63304-5" source="https://d-nb.info/gnd/63304-5">
-          <orgName>Königlich Württembergisches Hof-Theater Stuttgart</orgName>
-        </org>
-        <org ref="7590354-4" source="https://d-nb.info/gnd/7590354-4">
-          <orgName>Lessing-Theater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -132,10 +122,12 @@ Beantwortet in: <ref target="10416">1912-02-20 AS an SF</ref></note>
 Anlage: 1912-01-14 ante Gans-Putlitz an SF (Planungen zu AS 50. Geb.; nicht überliefert)
 
 Antwort auf: <ref target="10414">1912-01-29 AS an SF</ref>
-Beantwortet in: <ref target="10416">1912-02-20 AS an SF</ref></p>
+Beantwortet in: <ref target="10416">1912-02-20 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0527"/>268<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0527"/>268<lb/>
 S. Fischer, Verlag, Berlin M., Bülowstrasse 90<lb/>
 den 14/2. 1912<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -160,7 +152,8 @@ Weitere. Es scheint mir ratsam, dass ich auch meinerseits an die<lb/>
 Bühnen rechtzeitig ein Zirkular erlasse. Bitte lassen Sie mich noch<lb/>
 einmal wissen, welche Stücke ich den Bühmen für diese Gelegenheit<lb/>
 vorschlagen soll.</p>
-        <p><pb facs="1416742_0528"/>Direktor Barnowsky, der zukünftige Leiter des Lessing-Theaters,<lb/>
+        <p>
+          <pb facs="1416742_0528"/>Direktor Barnowsky, der zukünftige Leiter des Lessing-Theaters,<lb/>
 wird dieser Tage nach Wien kommen. Er will Sie besuchen, um Ihnen<lb/>
 vor allem die Aufführung des "Medardus" verzuschlagen. Barnowsky<lb/>
 wird vielleicht der geeignetste Mann dazu sein, und unter gewissen<lb/>

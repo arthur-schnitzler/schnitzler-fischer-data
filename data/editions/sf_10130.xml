@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10130">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -86,6 +87,13 @@ Antwort auf: 1903-11-02 AS an SF (Ms. 'Der einsame Weg'; vgl. Tgb 1903-11-03, ni
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb890">Hannover</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10130.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -97,17 +105,6 @@ Antwort auf: 1903-11-02 AS an SF (Ms. 'Der einsame Weg'; vgl. Tgb 1903-11-03, ni
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb890" source="https://pmb.acdh.oeaw.ac.at/entity/890/">
-          <placeName>Hannover</placeName>
-        </place>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -121,8 +118,9 @@ Anlage: Vertrag (nicht überliefert)
 
 Antwort auf: 1903-11-02 AS an SF (Ms. 'Der einsame Weg'; vgl. Tgb 1903-11-03, nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0192"/>116<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0192"/>116<lb/>
 FISCHER<lb/>
 VERLAG<lb/>
 19<lb/>

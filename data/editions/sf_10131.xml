@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -84,6 +85,11 @@ Beantwortet in: 1903-11-19post/1903-12-07ante AS an SF (Korrektur 'Gustl', Neuau
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb28645">Coschell, Moritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10131.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -92,11 +98,6 @@ Beantwortet in: 1903-11-19post/1903-12-07ante AS an SF (Korrektur 'Gustl', Neuau
           <term>Druckauftrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb28645" source="https://pmb.acdh.oeaw.ac.at/entity/28645/">
-          <persName>Coschell, Moritz</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -110,8 +111,9 @@ Beantwortet in: 1903-11-19post/1903-12-07ante AS an SF (Korrektur 'Gustl', Neuau
 Antwort auf: <ref target="10129">1903-11-14 AS an SF</ref>
 Beantwortet in: 1903-11-19post/1903-12-07ante AS an SF (Korrektur 'Gustl', Neuauflage 'Frau Bertha Garlan'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0173"/>104<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0173"/>104<lb/>
 S. FISCHER, VERLAG<lb/>
 BERLIN W., DEN 19. Nov. 1903<lb/>
 TELEPHON:<lb/>

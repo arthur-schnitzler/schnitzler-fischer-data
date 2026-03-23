@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -96,7 +97,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">3 Blatt, 3 Seiten
-Antwort auf: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1920-06-18.html</note>
       </notesStmt>
@@ -113,6 +115,16 @@ Antwort auf: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43471">Budapest</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb914">Madrid</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10762.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -129,26 +141,6 @@ Antwort auf: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref></note
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb43471" source="https://pmb.acdh.oeaw.ac.at/entity/43471/">
-          <placeName>Budapest</placeName>
-        </place>
-        <place ref="#pmb914" source="https://pmb.acdh.oeaw.ac.at/entity/914/">
-          <placeName>Madrid</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -158,10 +150,12 @@ Antwort auf: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>3 Blatt, 3 Seiten
-Antwort auf: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0275"/>163<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0275"/>163<lb/>
 S. Fischer/Verlag/Berlin W 57/Bülowstraße 9o<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheekkonto; Berlin Nr. 16692<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 1662. 6162 und 9292<lb/>
@@ -196,7 +190,8 @@ ken, sondern diese Ihre Interessen auch ganz im Allgemeinen mit Aufmerk-<lb/>
 samkeit verfolgen.<lb/>
 Was nun Ihren an Herrn Fischer gerichteten Vorschlag betreffend die<lb/>
 K. 24. 10000. 2.20.</p>
-        <p><pb facs="1416743_0276"/>S. FISCHER/VERLAG<lb/>
+        <p>
+          <pb facs="1416743_0276"/>S. FISCHER/VERLAG<lb/>
 4° Blatt<lb/>
 Provision von Auslandsgeschäften anbetrifft, so bedauern wir Ihnen mit-<lb/>
 teilen zu müssen, dass es unter den heutigen Verhältnissen leider eine<lb/>
@@ -228,7 +223,8 @@ Da wir nicht annehmen können, dass Sie sich entschliessen werden, uns<lb/>
 die Behandlung Ihrer Auslandsangelegenheiten einfürallenal einheitlich<lb/>
 zu übertragen so liegt es wohl in unsern gemeinsamen Interesse, wenn wir<lb/>
 was wir gewiss sehr begrüssen würden,</p>
-        <p><pb facs="1416743_0277"/>S. FISCHER/VERLAG<lb/>
+        <p>
+          <pb facs="1416743_0277"/>S. FISCHER/VERLAG<lb/>
 4 Blatt<lb/>
 künftighin von der Führung Ihrer diesbezüglichen Geschäfte grundsätzlich<lb/>
 absehen. Selbstverständlich würden wir auch in diesem Fall die von uns<lb/>

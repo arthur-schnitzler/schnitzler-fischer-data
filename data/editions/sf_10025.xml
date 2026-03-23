@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10025">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -99,6 +100,11 @@ Beantwortet in: 1895-04-29post/1895-06-05ante AS an SF (Ms 'Die kleine Komödie'
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Karpp, J. (frz. Übersetzer, Cannes)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10025.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -108,11 +114,6 @@ Beantwortet in: 1895-04-29post/1895-06-05ante AS an SF (Ms 'Die kleine Komödie'
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person>
-          <persName>Karpp, J. (frz. Übersetzer, Cannes)</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -127,8 +128,9 @@ Anlagen: 1 Doppelblatt, 3 Seiten beschrieben (Namen von Personen und Zeitschrift
 Antwort auf: 1895-04-01post/1895-04-29ante AS an SF (Rez. und Übers. 'Sterben'; nicht überliefert)
 Beantwortet in: 1895-04-29post/1895-06-05ante AS an SF (Ms 'Die kleine Komödie')</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0017"/>33<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0017"/>33<lb/>
 1<lb/>
 FISCHED<lb/>
 137<lb/>
@@ -198,7 +200,8 @@ in welchem wir um Zusendung<lb/>
 wir uns ganz genau Ihnen<lb/>
 der<lb/>
 wiesen sie in dessen auf die Illustra¬</p>
-        <p><pb facs="1416742_0018"/>FISCHED VI<lb/>
+        <p>
+          <pb facs="1416742_0018"/>FISCHED VI<lb/>
 und haben<lb/>
 der beiden Novellen bæten<lb/>
 haben Sie noch nicht geant¬<lb/>
@@ -215,7 +218,8 @@ G.C.F.P.<lb/>
 reservant à mai<lb/>
 G.H.F.P<lb/>
 sont résultats</p>
-        <p><pb facs="1416742_0019"/>FISCHED VI<lb/>
+        <p>
+          <pb facs="1416742_0019"/>FISCHED VI<lb/>
 13a<lb/>
 Berlin<lb/>
 Leo Berg. Berlin<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -69,7 +70,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten beschrieben
 
-Antwort auf: <ref target="10507">1913-06-02 AS an SF</ref></note>
+Antwort auf: <ref target="10507">1913-06-02 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1913-06-05.html</note>
       </notesStmt>
@@ -86,6 +88,12 @@ Antwort auf: <ref target="10507">1913-06-02 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4858">Rössler, Carl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10508.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -93,16 +101,6 @@ Antwort auf: <ref target="10507">1913-06-02 AS an SF</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4858" source="https://pmb.acdh.oeaw.ac.at/entity/4858/">
-          <persName>Rössler, Carl</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -113,10 +111,12 @@ Antwort auf: <ref target="10507">1913-06-02 AS an SF</ref></note>
       <div type="letter">
         <p>1 Blatt, 2 Seiten beschrieben
 
-Antwort auf: <ref target="10507">1913-06-02 AS an SF</ref></p>
+Antwort auf: <ref target="10507">1913-06-02 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0640"/>wer.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0640"/>wer.<lb/>
 S’FISCHER/VERLAG’BERLIN ’THEATERABTEILUNG<lb/>
 W57·BÜLÖWSTR90<lb/>
 AMT: LUTZÖW 1662 &amp; 6162<lb/>
@@ -140,7 +140,8 @@ zu geben, Das Risiko, das Sie dadurch eingehen,<lb/>
 müssten von Seiten der amerikanischen Unterneh-<lb/>
 mer gedeckt werden. Wir würden daher, während<lb/>
 wir für die glatte Uebersetzung 5 % und Ein-</p>
-        <p><pb facs="1416742_0641"/>tausend Dollar verlangt haben, bei dem Rechte<lb/>
+        <p>
+          <pb facs="1416742_0641"/>tausend Dollar verlangt haben, bei dem Rechte<lb/>
 der freien Bearbeitung 5 % und Zweitausend Dol-<lb/>
 lar beanspruchen. Wollen Sie die Liebenswürdig-<lb/>
 keit haben, uns zu sagen, ob Sie damit einver-<lb/>

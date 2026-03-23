@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -77,7 +78,8 @@
 Anlage: 1912-02-27 ante Victor Barnowsky an SF (nicht überliefert)
 
 Antwort auf: <ref target="10418">1912-02-26 AS an SF</ref>
-Beantwortet in: <ref target="10420">1912-03-01 AS an SF</ref></note>
+Beantwortet in: <ref target="10420">1912-03-01 AS an SF</ref>
+        </note>
         <note type="published_in">Buohler 2011, 185 (Auszug)</note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1912-02-27.html</note>
@@ -94,6 +96,14 @@ Beantwortet in: <ref target="10420">1912-03-01 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb16911">Gans-Putlitz, Joachim von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2167">Salten, Felix</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10419.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -105,22 +115,6 @@ Beantwortet in: <ref target="10420">1912-03-01 AS an SF</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb16911" source="https://pmb.acdh.oeaw.ac.at/entity/16911/">
-          <persName>Gans-Putlitz, Joachim von</persName>
-        </person>
-        <person ref="#pmb2167" source="https://pmb.acdh.oeaw.ac.at/entity/2167/">
-          <persName>Salten, Felix</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -133,10 +127,12 @@ Beantwortet in: <ref target="10420">1912-03-01 AS an SF</ref></note>
 Anlage: 1912-02-27 ante Victor Barnowsky an SF (nicht überliefert)
 
 Antwort auf: <ref target="10418">1912-02-26 AS an SF</ref>
-Beantwortet in: <ref target="10420">1912-03-01 AS an SF</ref></p>
+Beantwortet in: <ref target="10420">1912-03-01 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0531"/>270<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0531"/>270<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
 den 27/2. 1912<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -163,7 +159,8 @@ Haben Sie die Güte, mir den Brief von Barnowsky und den Brief<lb/>
 von Putlitz, den ich Ihnen neulich geschickt habe, sogleich zurück-<lb/>
 zusenden.<lb/>
 Aus Schweden kommt die Anfrage, ob Sie für 50 Mark die Autori-</p>
-        <p><pb facs="1416742_0532"/>sation zur Uebersetzung von "Sterben" geben würden. Ich mache darauf<lb/>
+        <p>
+          <pb facs="1416742_0532"/>sation zur Uebersetzung von "Sterben" geben würden. Ich mache darauf<lb/>
 aufmerksam, dass jedes Werk 10 Jahre nach Erscheinen im Ausland frei<lb/>
 ist, wenn inzwischen eine Uebersetzung nicht erschienen ist. Ich glaube,<lb/>
 wenn der Mann 100 Mark gibt, so sollten wir zustimmen.<lb/>

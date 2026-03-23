@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -69,7 +70,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="10894">1922-03-08 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="10894">1922-03-08 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-03-10.html</note>
       </notesStmt>
@@ -86,6 +88,20 @@ Antwort auf: <ref target="10894">1922-03-08 SF (Berlin) an AS (Wien)</ref></note
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11423">Gerasch, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3105">Karczag, Wilhelm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20474">Linden, Gustaf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb146243">Marton, Alexander</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb92768">Woticky, Edward</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Puppentheater Frankfurt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10896.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -96,42 +112,6 @@ Antwort auf: <ref target="10894">1922-03-08 SF (Berlin) an AS (Wien)</ref></note
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11423" source="https://pmb.acdh.oeaw.ac.at/entity/11423/">
-          <persName>Gerasch, Alfred</persName>
-        </person>
-        <person ref="#pmb3105" source="https://pmb.acdh.oeaw.ac.at/entity/3105/">
-          <persName>Karczag, Wilhelm</persName>
-        </person>
-        <person ref="#pmb20474" source="https://pmb.acdh.oeaw.ac.at/entity/20474/">
-          <persName>Linden, Gustaf</persName>
-        </person>
-        <person ref="#pmb146243" source="https://pmb.acdh.oeaw.ac.at/entity/146243/">
-          <persName>Marton, Alexander</persName>
-        </person>
-        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
-          <persName>Woticky, Edward</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org>
-          <orgName>Puppentheater Frankfurt</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -141,10 +121,12 @@ Antwort auf: <ref target="10894">1922-03-08 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="10894">1922-03-08 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="10894">1922-03-08 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0223"/>Haben Sie noch die Liste aller derjeni<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0223"/>Haben Sie noch die Liste aller derjeni<lb/>
 ger Personen,en die seinerzeit Frei- und Wid-<lb/>
 are meiner Gesammelten Werke abge-<lb/>
 mungsexem<lb/>
@@ -206,7 +188,8 @@ Von Frau Vixanti habe ich noch immer<lb/>
 keine Nachricht. Wenn Sie mit jenem neuen<lb/>
 Bewerber die Verbindung nicht gleich abbre-<lb/>
 chen wollen, wird es jedesfalls gut sein.</p>
-        <p><pb facs="1416739_0224"/>13.3.1922.<lb/>
+        <p>
+          <pb facs="1416739_0224"/>13.3.1922.<lb/>
 Pieter<lb/>
 An das Puppantheater in Frankfurt habe<lb/>
 Sehr xxx rehrter Herr Greiner<lb/>

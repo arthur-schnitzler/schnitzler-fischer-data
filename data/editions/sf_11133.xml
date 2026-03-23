@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -58,7 +59,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="11131">1924-10-17 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11131">1924-10-17 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-10-20.html</note>
       </notesStmt>
@@ -75,6 +77,20 @@ Antwort auf: <ref target="11131">1924-10-17 SF (Berlin) an AS (Wien)</ref></note
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7713">Hartung, Gustav</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3025">Kahane, Arthur</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8889">Meinhard, Carl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23675">Rotter, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3876">Rotter, Fritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb42763">Danzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb890">Hannover</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb883">Wiesbaden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb35597">Deutsches Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb44112">Nationaltheater München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11133.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -83,42 +99,6 @@ Antwort auf: <ref target="11131">1924-10-17 SF (Berlin) an AS (Wien)</ref></note
           <term>Nachdruck</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb7713" source="https://pmb.acdh.oeaw.ac.at/entity/7713/">
-          <persName>Hartung, Gustav</persName>
-        </person>
-        <person ref="#pmb3025" source="https://pmb.acdh.oeaw.ac.at/entity/3025/">
-          <persName>Kahane, Arthur</persName>
-        </person>
-        <person ref="#pmb8889" source="https://pmb.acdh.oeaw.ac.at/entity/8889/">
-          <persName>Meinhard, Carl</persName>
-        </person>
-        <person ref="#pmb23675" source="https://pmb.acdh.oeaw.ac.at/entity/23675/">
-          <persName>Rotter, Alfred</persName>
-        </person>
-        <person ref="#pmb3876" source="https://pmb.acdh.oeaw.ac.at/entity/3876/">
-          <persName>Rotter, Fritz</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb42763" source="https://pmb.acdh.oeaw.ac.at/entity/42763/">
-          <placeName>Danzig</placeName>
-        </place>
-        <place ref="#pmb890" source="https://pmb.acdh.oeaw.ac.at/entity/890/">
-          <placeName>Hannover</placeName>
-        </place>
-        <place ref="#pmb883" source="https://pmb.acdh.oeaw.ac.at/entity/883/">
-          <placeName>Wiesbaden</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb35597" source="https://pmb.acdh.oeaw.ac.at/entity/35597/">
-          <orgName>Deutsches Theater Berlin</orgName>
-        </org>
-        <org ref="#pmb44112" source="https://pmb.acdh.oeaw.ac.at/entity/44112/">
-          <orgName>Nationaltheater München</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -128,10 +108,12 @@ Antwort auf: <ref target="11131">1924-10-17 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="11131">1924-10-17 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11131">1924-10-17 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0042"/>tischer<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0042"/>tischer<lb/>
 20.10.1924.<lb/>
 Sehr verehrter Herr Doktor.<lb/>
 Besten Dank für Ihre freundlichen<lb/>
@@ -167,7 +149,8 @@ vor etwa 14 Tagen einen Brief erhalten in der<lb/>
 üblichen vagen Weise abgefasst, so dass man dort<lb/>
 entsprechenden Falls ebenso gut wird behaupten<lb/>
 können, man habe das (von mir niemals eingereich-</p>
-        <p><pb facs="1416740_0043"/>te Stück abgelehnt, als man hätte es gern g<lb/>
+        <p>
+          <pb facs="1416740_0043"/>te Stück abgelehnt, als man hätte es gern g<lb/>
 spielt. wenn ich nur die versprochenen Besetzung<lb/>
 vorschläge (die natürlich nicht gekommen sind)<lb/>
 und wahrscheinlich nie kommen werden) abgewar<lb/>

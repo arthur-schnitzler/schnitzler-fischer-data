@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -65,7 +66,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
 Antwort auf: 1920-10-12 SF (Berlin) an AS (Wien) (erschlossen)
-Beantwortet in: <ref target="10774">1920-10-22 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10774">1920-10-22 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1920-10-18.html</note>
       </notesStmt>
@@ -82,6 +84,14 @@ Beantwortet in: <ref target="10774">1920-10-22 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">NN, </persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10836">Bartsch, Rudolf Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb35555">Irving Place Theatre New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="1231430-4">Königliches Deutsches Landestheater Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10772.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -96,24 +106,6 @@ Beantwortet in: <ref target="10774">1920-10-22 SF (Berlin) an AS (Wien)</ref></n
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
-          <persName>Bartsch, Rudolf Hans</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb35555" source="https://pmb.acdh.oeaw.ac.at/entity/35555/">
-          <orgName>Irving Place Theatre New York</orgName>
-        </org>
-        <org ref="1231430-4" source="https://d-nb.info/gnd/1231430-4">
-          <orgName>Königliches Deutsches Landestheater Prag</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -124,10 +116,12 @@ Beantwortet in: <ref target="10774">1920-10-22 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>1 Blatt, 2 Seiten
 Antwort auf: 1920-10-12 SF (Berlin) an AS (Wien) (erschlossen)
-Beantwortet in: <ref target="10774">1920-10-22 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10774">1920-10-22 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0169"/>Teil der mir zustehenden Freiexemplare bezogen.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0169"/>Teil der mir zustehenden Freiexemplare bezogen.<lb/>
 unter den heute so geänderten Fräsverhältnissen<lb/>
 kann ich nachträglich kaum auf solche Frei<lb/>
 exemplare Anspruch machen, möchte aber jedes¬<lb/>
@@ -183,7 +177,8 @@ dortige Bank abzuführen, die ihm bezeich-<lb/>
 net hage. Hievon habe ich auch Ihnen Mittei-<lb/>
 lung gemacht und Ihnen anheimgestellt, ob Sie<lb/>
 Ihren perzentualen Anteil gleichfalls in</p>
-        <p><pb facs="1416739_0170"/>Fischer<lb/>
+        <p>
+          <pb facs="1416739_0170"/>Fischer<lb/>
 Wien, 12.1220.<lb/>
 Amerika belassen wollen oder ob Sie wünschen,<lb/>
 dass er Ihnen von Bartsch aus direkt überwie¬<lb/>

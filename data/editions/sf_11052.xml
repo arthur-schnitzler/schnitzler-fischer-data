@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -75,7 +76,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten,
-Antwort auf: <ref target="11051">1924-01-23 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11051">1924-01-23 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="published_in">Rodewald, 136-137 [Nr. 173]</note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-01-26.html</note>
@@ -92,6 +94,14 @@ Antwort auf: <ref target="11051">1924-01-23 SF (Berlin) an AS (Wien)</ref></note
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb16125">Feilchenfeld, Franz Karl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11515">Greiner, Leo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4445">Jacob, Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb9434">Reclam, Ernst</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11052.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -103,20 +113,6 @@ Antwort auf: <ref target="11051">1924-01-23 SF (Berlin) an AS (Wien)</ref></note
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb16125" source="https://pmb.acdh.oeaw.ac.at/entity/16125/">
-          <persName>Feilchenfeld, Franz Karl</persName>
-        </person>
-        <person ref="#pmb11515" source="https://pmb.acdh.oeaw.ac.at/entity/11515/">
-          <persName>Greiner, Leo</persName>
-        </person>
-        <person ref="#pmb4445" source="https://pmb.acdh.oeaw.ac.at/entity/4445/">
-          <persName>Jacob, Hans</persName>
-        </person>
-        <person ref="#pmb9434" source="https://pmb.acdh.oeaw.ac.at/entity/9434/">
-          <persName>Reclam, Ernst</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -126,10 +122,12 @@ Antwort auf: <ref target="11051">1924-01-23 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten,
-Antwort auf: <ref target="11051">1924-01-23 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11051">1924-01-23 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0009"/>mit seinem letzten Buch, die in anderen Verla<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0009"/>mit seinem letzten Buch, die in anderen Verla<lb/>
 en erschienen sind, zu bedeuten hat. Ich bin<lb/>
 überdies nicht durch einen Generalvertrag an<lb/>
 Sie gebunden, aber ich habe auch nach keiner<lb/>
@@ -206,7 +204,8 @@ sprechende Akontozahlungen<lb/>
 zählung von 750 Goldmark ist keine an mich<lb/>
 gelangt);halbjährige Abrechnung.<lb/>
 mir sehr ergebener</p>
-        <p><pb facs="1416740_0010"/>Wegen geklam haben Sie mir noch immer<lb/>
+        <p>
+          <pb facs="1416740_0010"/>Wegen geklam haben Sie mir noch immer<lb/>
 nicht geantwortet. Eben gestern erhielt ich wie-<lb/>
 der ein Schreiben von ihm, an dessen Ende es<lb/>
 heisst: „An den Schluss des Bändchens kommt ja<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -69,7 +70,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten beschrieben
 
-Antwort auf: <ref target="10215">1908-04-11 AS an SF</ref></note>
+Antwort auf: <ref target="10215">1908-04-11 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1908-04-13.html</note>
       </notesStmt>
@@ -85,6 +87,12 @@ Antwort auf: <ref target="10215">1908-04-11 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11233">Eichendorff, Joseph von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb166">Frankreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10217.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -93,16 +101,6 @@ Antwort auf: <ref target="10215">1908-04-11 AS an SF</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11233" source="https://pmb.acdh.oeaw.ac.at/entity/11233/">
-          <persName>Eichendorff, Joseph von</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
-          <placeName>Frankreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -113,10 +111,12 @@ Antwort auf: <ref target="10215">1908-04-11 AS an SF</ref></note>
       <div type="letter">
         <p>1 Blatt, 2 Seiten beschrieben
 
-Antwort auf: <ref target="10215">1908-04-11 AS an SF</ref></p>
+Antwort auf: <ref target="10215">1908-04-11 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0326"/>212<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0326"/>212<lb/>
 169<lb/>
 S. FISCHER, VERLAG,’ BERLIN W., BÜLowSTR. 90<lb/>
 13. April 08<lb/>
@@ -140,7 +140,8 @@ ich zweifle aber nicht daran, dass die Grundprinsioien<lb/>
 am ergebener<lb/>
 Faire<lb/>
 Finnen</p>
-        <p><pb facs="1416742_0327"/>212<lb/>
+        <p>
+          <pb facs="1416742_0327"/>212<lb/>
 dem Urheberrechts in allen Ländern ziemlich über-<lb/>
 einstimmen. Falls nicht ausdrücklich einschränkende<lb/>
 Bedingungen vereinbart sind, kann das Recht der<lb/>

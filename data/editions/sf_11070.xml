@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,7 +77,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="11065">1924-03-01 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="11065">1924-03-01 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-03-20.html</note>
       </notesStmt>
@@ -93,6 +95,18 @@ Antwort auf: <ref target="11065">1924-03-01 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Cantoni, Cesare (Verleger/Literaturagent, Italien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4374">Maril, Konrad</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb21787">Nani, Gerolamo Enrico</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb25995">Thieben, Emil</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb313">Polen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb47927">Washington</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11070.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -102,34 +116,6 @@ Antwort auf: <ref target="11065">1924-03-01 AS (Wien) an SF (Berlin)</ref></note
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person>
-          <persName>Cantoni, Cesare (Verleger/Literaturagent, Italien)</persName>
-        </person>
-        <person ref="#pmb4374" source="https://pmb.acdh.oeaw.ac.at/entity/4374/">
-          <persName>Maril, Konrad</persName>
-        </person>
-        <person ref="#pmb21787" source="https://pmb.acdh.oeaw.ac.at/entity/21787/">
-          <persName>Nani, Gerolamo Enrico</persName>
-        </person>
-        <person ref="#pmb25995" source="https://pmb.acdh.oeaw.ac.at/entity/25995/">
-          <persName>Thieben, Emil</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
-          <placeName>Polen</placeName>
-        </place>
-        <place ref="#pmb47927" source="https://pmb.acdh.oeaw.ac.at/entity/47927/">
-          <placeName>Washington</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -139,10 +125,12 @@ Antwort auf: <ref target="11065">1924-03-01 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="11065">1924-03-01 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="11065">1924-03-01 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0722"/>S. Fischer/Verlag/Berlin W 57/Bülowstrasse<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0722"/>S. Fischer/Verlag/Berlin W 57/Bülowstrasse<lb/>
 nachlüsse: Amt Lützow Nr. 1662. 6162 und 9292 / Postscheckkonto: Berlin Nr 1669.<lb/>
 THEATERABTEILUNG<lb/>
 Berlin, den 20. März 1924<lb/>
@@ -178,7 +166,8 @@ Ihre freundliche Anfrage betreffend Ihr<lb/>
 neues Drama, dem ich mit Spannung entgegensehe, hat inzwischen<lb/>
 darauf be -<lb/>
 geantwortet und die</p>
-        <p><pb facs="1416743_0723"/>114<lb/>
+        <p>
+          <pb facs="1416743_0723"/>114<lb/>
 P.S.<lb/>
 zügliche Korrespondenz fortgeführt. An Abschlüssen des Verlages<lb/>
 über Ihre Werke in Italien findet sich hier ein Vertrag mit Emil<lb/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10081">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -95,6 +96,11 @@ keine zwischenzeitliche Korrespondenz zu erschließen</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11643">Heine, Thomas Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10081.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -104,11 +110,6 @@ keine zwischenzeitliche Korrespondenz zu erschließen</note>
           <term>Novellenband</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11643" source="https://pmb.acdh.oeaw.ac.at/entity/11643/">
-          <persName>Heine, Thomas Theodor</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -122,8 +123,9 @@ Anlage: 1898-04-01 Theodor Heine (München) an SF (Berlin)
 
 keine zwischenzeitliche Korrespondenz zu erschließen</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0093"/>FISCHER,VERLAG<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0093"/>FISCHER,VERLAG<lb/>
 BERene W., den — 13. April— 1893.<lb/>
 Telephon: Amt VI, No. 1662.<lb/>
 Bülowstrasse 91.<lb/>

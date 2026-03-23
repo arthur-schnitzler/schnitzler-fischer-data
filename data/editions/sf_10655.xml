@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -53,7 +54,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">4 Blatt, 4 Seiten
-Antwort auf: <ref target="10654">1918-04-17 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="10654">1918-04-17 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="published_in">Rodewald, 119-121 [Nr. 157]</note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1918-04-23.html</note>
@@ -70,6 +72,15 @@ Antwort auf: <ref target="10654">1918-04-17 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11798">Ibsen, Henrik</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb22886">Prinzhorn, Ernst</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5156">Zifferer, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10655.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -86,25 +97,6 @@ Antwort auf: <ref target="10654">1918-04-17 AS (Wien) an SF (Berlin)</ref></note
           <term>österreichisch</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11798" source="https://pmb.acdh.oeaw.ac.at/entity/11798/">
-          <persName>Ibsen, Henrik</persName>
-        </person>
-        <person ref="#pmb22886" source="https://pmb.acdh.oeaw.ac.at/entity/22886/">
-          <persName>Prinzhorn, Ernst</persName>
-        </person>
-        <person ref="#pmb5156" source="https://pmb.acdh.oeaw.ac.at/entity/5156/">
-          <persName>Zifferer, Paul</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -114,10 +106,12 @@ Antwort auf: <ref target="10654">1918-04-17 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>4 Blatt, 4 Seiten
-Antwort auf: <ref target="10654">1918-04-17 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="10654">1918-04-17 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0118"/>40C<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0118"/>40C<lb/>
 VERLAC<lb/>
 SCHER<lb/>
 nitenkasse P in Berlin / Postscheckkonto Berlin Nr. 1662 — — Pernsprech-Anschlüsse: Amt Lützow Nr 1662 und 6162<lb/>
@@ -147,7 +141,8 @@ In der zweiten Depesche hat Zifferer eine Antwort Pringhorus<lb/>
 zitiert, aus der hervorging, dass Prinz-Horn meine ganze<lb/>
 Kraft für einen grossangelegten Oesterreichischen Verlag fordert,<lb/>
 Blatt II.</p>
-        <p><pb facs="1416743_0119"/>21<lb/>
+        <p>
+          <pb facs="1416743_0119"/>21<lb/>
 SCHER<lb/>
 unkasse P in Berlin / Polscheckkonto Berlin Nr. 1662 — — Perasprech-Anschlösse, Amt Lünzow Nr 1662 und 6162<lb/>
 Bankkontor, Deutsche Bank, Dep<lb/>
@@ -184,7 +179,8 @@ Tatsache, dass die Verwendung nur zum neuen Druck von neuem xxx<lb/>
 Büchern und Auflagen verwendet werden kann, komme ich in die La¬<lb/>
 ge, für den einen oder den anderen Autor eine Gesamtausgabe neu<lb/>
 Blatt III.</p>
-        <p><pb facs="1416743_0120"/>CHER<lb/>
+        <p>
+          <pb facs="1416743_0120"/>CHER<lb/>
 cakasse P in Berlin / Posscheckkonto Berlin Nr. 16622 — — Fernsprech-Anschlüsse: Amt LützowNr. 1662 und 6162.<lb/>
 Dankkonto: Deutsche<lb/>
 Berlin W 57, Bülowstraße 90<lb/>
@@ -215,7 +211,8 @@ Jhre neue Novelle und Jhr neues Drama drucken will. Ich werde eine<lb/>
 und sie damit nicht in Stich lassen<lb/>
 Papier-Reserve dafür schaffen, und ich bitte Sie, mir mitzutellen,<lb/>
 Blatt IV.</p>
-        <p><pb facs="1416743_0121"/>P L<lb/>
+        <p>
+          <pb facs="1416743_0121"/>P L<lb/>
 E<lb/>
 ne P in Berlin / Postscheckkonto Berlin Nr. 1662 — — Hernsprech-Anschlüsse: Amt Lützow Nr: 1662 und 6160<lb/>
 Bankk<lb/>

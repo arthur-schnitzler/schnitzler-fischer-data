@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -95,6 +96,14 @@ Nicht überlieferte Schreiben der Weihnachtszeit verzeichnet Tgb 1913-12-23 ("Fi
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3283">Björkman, Edwin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17355">Grein, Jack Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10515.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -104,22 +113,6 @@ Nicht überlieferte Schreiben der Weihnachtszeit verzeichnet Tgb 1913-12-23 ("Fi
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb3283" source="https://pmb.acdh.oeaw.ac.at/entity/3283/">
-          <persName>Björkman, Edwin</persName>
-        </person>
-        <person ref="#pmb17355" source="https://pmb.acdh.oeaw.ac.at/entity/17355/">
-          <persName>Grein, Jack Thomas</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -134,8 +127,9 @@ Antwort auf: <ref target="10514">1913-11-29 AS an SF</ref>
 
 Nicht überlieferte Schreiben der Weihnachtszeit verzeichnet Tgb 1913-12-23 ("Fischer sendet ein Erinnerungsbuch mit Compositionen Gerhards") und 1913-12-31 ("Schrieb an Fischer")</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0650"/>S. Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0650"/>S. Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
 4/12. 1913<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
 Wien<lb/>
@@ -167,7 +161,8 @@ nächsten Jahres läuft und weil es dann vielleicht zweckmässig ist,<lb/>
 dass Grein den Vertrieb Ihrer Stücke, die Björkman übersetzt hat,<lb/>
 gegen eine geringere Provision in Händen behält. Jedenfalls bitte<lb/>
 ich Sie, mir zu sagen, ob Ihnen eine Combination dieser Art recht</p>
-        <p><pb facs="1416742_0651"/>22<lb/>
+        <p>
+          <pb facs="1416742_0651"/>22<lb/>
 1.11<lb/>
 be<lb/>
 wäre.<lb/>

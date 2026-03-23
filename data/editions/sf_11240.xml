@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -67,7 +68,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
 Antwort auf: <ref target="11238">1926-04-24 SF (Berlin) an AS (Wien)</ref>, <ref target="11239">1926-05-27 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11242">1926-06-04 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11242">1926-06-04 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1926-05-31.html</note>
       </notesStmt>
@@ -84,6 +86,12 @@ Beantwortet in: <ref target="11242">1926-06-04 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb15173">Curtis Brown, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Meyerhold, Thaddäus (Übersetzer 'Traumnovelle'?)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11240.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -95,14 +103,6 @@ Beantwortet in: <ref target="11242">1926-06-04 SF (Berlin) an AS (Wien)</ref></n
           <term>Vorlesung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb15173" source="https://pmb.acdh.oeaw.ac.at/entity/15173/">
-          <persName>Curtis Brown, Albert</persName>
-        </person>
-        <person>
-          <persName>Meyerhold, Thaddäus (Übersetzer 'Traumnovelle'?)</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -113,10 +113,12 @@ Beantwortet in: <ref target="11242">1926-06-04 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>1 Blatt, 1 Seite
 Antwort auf: <ref target="11238">1926-04-24 SF (Berlin) an AS (Wien)</ref>, <ref target="11239">1926-05-27 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11242">1926-06-04 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11242">1926-06-04 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0083"/>G.C.P.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0083"/>G.C.P.<lb/>
 Ferner am 24. April Lissabon poste<lb/>
 restante.<lb/>
 Erfahren Sie nichts Weiteres, so<lb/>

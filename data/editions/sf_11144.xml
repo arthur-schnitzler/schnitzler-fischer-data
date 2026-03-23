@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11144">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -74,6 +75,11 @@ Benachrichtigung über eine Radiosendung in Bern</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb1223">Bern</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11144.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -81,11 +87,6 @@ Benachrichtigung über eine Radiosendung in Bern</note>
           <term>Rundfunkrecht/Senderecht</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb1223" source="https://pmb.acdh.oeaw.ac.at/entity/1223/">
-          <placeName>Bern</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -97,8 +98,9 @@ Benachrichtigung über eine Radiosendung in Bern</note>
         <p>1 Blatt, 1 Seite
 Benachrichtigung über eine Radiosendung in Bern</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416744_0168"/>1064<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416744_0168"/>1064<lb/>
 S. Fischer Verlag A.-O., Theaterabteilung, Berlin<lb/>
 Amt: Lützow 6162-64, W 57, Bülowstraße 90 / Tel.-Adr.: Fischerverlag 6162 Berlinlützów<lb/>
 Postscheckkonto: Berlin 16892<lb/>

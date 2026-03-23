@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -61,7 +62,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten
-Antwort auf: <ref target="11552">1930-03-03 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11552">1930-03-03 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1930-03-05.html</note>
       </notesStmt>
@@ -78,6 +80,16 @@ Antwort auf: <ref target="11552">1930-03-03 SF (Berlin) an AS (Wien)</ref></note
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10844">Bassermann, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10886">Bergner, Elisabeth</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19421">Klein, Robert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11975">Kortner, Fritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="5193996-4">Preußische Staatstheater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11556.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -88,28 +100,6 @@ Antwort auf: <ref target="11552">1930-03-03 SF (Berlin) an AS (Wien)</ref></note
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb10844" source="https://pmb.acdh.oeaw.ac.at/entity/10844/">
-          <persName>Bassermann, Albert</persName>
-        </person>
-        <person ref="#pmb10886" source="https://pmb.acdh.oeaw.ac.at/entity/10886/">
-          <persName>Bergner, Elisabeth</persName>
-        </person>
-        <person ref="#pmb19421" source="https://pmb.acdh.oeaw.ac.at/entity/19421/">
-          <persName>Klein, Robert</persName>
-        </person>
-        <person ref="#pmb11975" source="https://pmb.acdh.oeaw.ac.at/entity/11975/">
-          <persName>Kortner, Fritz</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="5193996-4" source="https://d-nb.info/gnd/5193996-4">
-          <orgName>Preußische Staatstheater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -119,10 +109,12 @@ Antwort auf: <ref target="11552">1930-03-03 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 3 Seiten
-Antwort auf: <ref target="11552">1930-03-03 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11552">1930-03-03 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0122"/>Zweifel feststand,in meinem alleinigen Besitze<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0122"/>Zweifel feststand,in meinem alleinigen Besitze<lb/>
 war.<lb/>
 Mit herzlichen Gruss<lb/>
 Ihr<lb/>
@@ -169,7 +161,8 @@ schade, dass Sie nicht bei Abschluss des Vertrages<lb/>
 vor allen einmal auf Zahlung einer Garantie oder<lb/>
 Vorschussumme bestanden haben, insbesondere als<lb/>
 geweky den Termin immer wieder hinausschob und</p>
-        <p><pb facs="1416741_0123"/>Zweifel feststand,in meinem alleinigen Besitze<lb/>
+        <p>
+          <pb facs="1416741_0123"/>Zweifel feststand,in meinem alleinigen Besitze<lb/>
 war.<lb/>
 Mit herzlichem Gruss<lb/>
 Ihr<lb/>
@@ -216,7 +209,8 @@ schade, dass Sie nicht bei Abschluss des Vertrages<lb/>
 vor allem einmal auf Zahlung einer Garantie oder<lb/>
 Vorschussumme bestanden haben, insbesondere als Bar-<lb/>
 zweky den Termin immer wieder hinausschob und</p>
-        <p><pb facs="1416741_0124"/>Fischer<lb/>
+        <p>
+          <pb facs="1416741_0124"/>Fischer<lb/>
 ..<lb/>
 5.3.1930.<lb/>
 Blett 2<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -78,6 +79,14 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10844">Bassermann, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7777">Hellmer, Arthur</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb145">Köln</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb300058">Neues Theater Frankfurt am Main</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10573.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -88,24 +97,6 @@
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10844" source="https://pmb.acdh.oeaw.ac.at/entity/10844/">
-          <persName>Bassermann, Albert</persName>
-        </person>
-        <person ref="#pmb7777" source="https://pmb.acdh.oeaw.ac.at/entity/7777/">
-          <persName>Hellmer, Arthur</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb145" source="https://pmb.acdh.oeaw.ac.at/entity/145/">
-          <placeName>Köln</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb300058" source="https://pmb.acdh.oeaw.ac.at/entity/300058/">
-          <orgName>Neues Theater Frankfurt am Main</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -116,8 +107,9 @@
       <div type="letter">
         <p>1 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0017"/>35,9<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0017"/>35,9<lb/>
 S. Fischer Verlag Berlin<lb/>
 Amt Lützow 1662 n. 6162 Theaterabteilung postscheckkonto Nr. 16692<lb/>
 Berlin W 57, Bülowstraße Nr. 90<lb/>
@@ -138,7 +130,8 @@ zu gewinnen.<lb/>
 Ferner haben wir den Vertrag mit der<lb/>
 Gesellschaft für Bühnenkunst in Köln-Ehren-<lb/>
 feld über eine einmalige Aufführung von</p>
-        <p><pb facs="1416743_0018"/>„Liebelei mit 10 % Tantiene abgeschlossen.<lb/>
+        <p>
+          <pb facs="1416743_0018"/>„Liebelei mit 10 % Tantiene abgeschlossen.<lb/>
 Für die Aufführung werden Honorare nicht<lb/>
 gezahlt, mit Ausnahme für den Regisseur,<lb/>
 der eine gewisse Vergütung erhält. Wir ha-<lb/>

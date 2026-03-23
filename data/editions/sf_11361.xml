@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -78,7 +79,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
-Antwort auf: <ref target="11360">1927-12-10 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11360">1927-12-10 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1927-12-15.html</note>
       </notesStmt>
@@ -95,6 +97,18 @@ Antwort auf: <ref target="11360">1927-12-10 SF (Berlin) an AS (Wien)</ref></note
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5571">Dernburg, Ilse</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11593">Harris, Frank</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb21304">Menczel, Rosa</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12692">Schnitzler, Heinrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2412">Shakespeare, William</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb869">Moskau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11361.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -112,34 +126,6 @@ Antwort auf: <ref target="11360">1927-12-10 SF (Berlin) an AS (Wien)</ref></note
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb5571" source="https://pmb.acdh.oeaw.ac.at/entity/5571/">
-          <persName>Dernburg, Ilse</persName>
-        </person>
-        <person ref="#pmb11593" source="https://pmb.acdh.oeaw.ac.at/entity/11593/">
-          <persName>Harris, Frank</persName>
-        </person>
-        <person ref="#pmb21304" source="https://pmb.acdh.oeaw.ac.at/entity/21304/">
-          <persName>Menczel, Rosa</persName>
-        </person>
-        <person ref="#pmb12692" source="https://pmb.acdh.oeaw.ac.at/entity/12692/">
-          <persName>Schnitzler, Heinrich</persName>
-        </person>
-        <person ref="#pmb2412" source="https://pmb.acdh.oeaw.ac.at/entity/2412/">
-          <persName>Shakespeare, William</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb869" source="https://pmb.acdh.oeaw.ac.at/entity/869/">
-          <placeName>Moskau</placeName>
-        </place>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -149,10 +135,12 @@ Antwort auf: <ref target="11360">1927-12-10 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 2 Seiten
-Antwort auf: <ref target="11360">1927-12-10 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11360">1927-12-10 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0006"/>S. Fischer.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0006"/>S. Fischer.<lb/>
 15.12.1927.<lb/>
 G. A. M.<lb/>
 P.<lb/>
@@ -194,7 +182,8 @@ Frau des Richters<lb/>
 Traümnovvelle.<lb/>
 Ich höre hoffentlich bald etwas über<lb/>
 unsere verschiedenen Angelegenheiten.</p>
-        <p><pb facs="1416741_0007"/>Darf ich ferner bitten einen Band des Harris-<lb/>
+        <p>
+          <pb facs="1416741_0007"/>Darf ich ferner bitten einen Band des Harris-<lb/>
 schen Shakespeare an meinen Sohn Heinrich Schnitz-<lb/>
 ler, Berlin W. Matthöikirchstr.4, bei Dernburg.<lb/>
 senden zu wollen und mir auf die Rechnung zu setzen<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -69,7 +70,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten
-Antwort auf: <ref target="10918">1922-06-26 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="10918">1922-06-26 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-07-04.html</note>
       </notesStmt>
@@ -85,6 +87,15 @@ Antwort auf: <ref target="10918">1922-06-26 AS (Wien) an SF (Berlin)</ref></note
           <persName>Schnitzer, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11646">Heller, Hugo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7914">Horovitz, Armin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2276">Thayer, Scofield</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10920.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -97,25 +108,6 @@ Antwort auf: <ref target="10918">1922-06-26 AS (Wien) an SF (Berlin)</ref></note
           <term>Rechnung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-        <person ref="#pmb11646" source="https://pmb.acdh.oeaw.ac.at/entity/11646/">
-          <persName>Heller, Hugo</persName>
-        </person>
-        <person ref="#pmb7914" source="https://pmb.acdh.oeaw.ac.at/entity/7914/">
-          <persName>Horovitz, Armin</persName>
-        </person>
-        <person ref="#pmb2276" source="https://pmb.acdh.oeaw.ac.at/entity/2276/">
-          <persName>Thayer, Scofield</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -125,10 +117,12 @@ Antwort auf: <ref target="10918">1922-06-26 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 3 Seiten
-Antwort auf: <ref target="10918">1922-06-26 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="10918">1922-06-26 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0499"/>564<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0499"/>564<lb/>
 Fischer/Verlag/Berlin M 57/Bülowstraße 90.<lb/>
 S.<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto; Berlin Nr. 16892<lb/>
@@ -170,7 +164,8 @@ wendigerweise viel teuerer sein müsse.<lb/>
 kulation Front gemacht, weil die Preiserhöhungen, die jetzt kom-<lb/>
 entziehen wüns<lb/>
 zum Autor und den Verleger die Me</p>
-        <p><pb facs="1416743_0500"/>FISCHER/VERLAGT.<lb/>
+        <p>
+          <pb facs="1416743_0500"/>FISCHER/VERLAGT.<lb/>
 2. Blatt<lb/>
 22.<lb/>
 Dtsler. Ein<lb/>
@@ -207,7 +202,8 @@ Seien Sie überzeugt, dass es in<lb/>
 ist, denn Bücher die viele<lb/>
 Ia.<lb/>
 nicht überall vorrütig</p>
-        <p><pb facs="1416743_0501"/>Blatz<lb/>
+        <p>
+          <pb facs="1416743_0501"/>Blatz<lb/>
 FISCHER /VERLAG<lb/>
 Etwas anderes wäre es, wenn es sich um eine Novität han-<lb/>
 delte. Da geht das mittlere Sortinent schon eher ein Risiko ein und<lb/>

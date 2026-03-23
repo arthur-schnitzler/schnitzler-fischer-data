@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -86,23 +87,19 @@ Beantwortet in: 1908-06-15 AS an SF</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10224.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Auflage/Neuauflage/Neuausgabe</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -116,8 +113,9 @@ Beantwortet in: 1908-06-15 AS an SF</note>
 Antwort auf: <ref target="10223">1908-06-05 AS an SF</ref>
 Beantwortet in: 1908-06-15 AS an SF</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0331"/>2:2<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0331"/>2:2<lb/>
 72<lb/>
 S. FISCHER,VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
 BERene W., DEN 6. Juni:08.<lb/>
@@ -137,7 +135,8 @@ der Entwickelung der Dinge das Beste.<lb/>
 Ich habe sich vergebens bemüht, das Feuilleton<lb/>
 der Neuen Freien Presse zu bekommen, könnten Sie es<lb/>
 sir auf einige Tage überlassen? Ich wäre Ihnen sehr</p>
-        <p><pb facs="1416742_0332"/>2.2<lb/>
+        <p>
+          <pb facs="1416742_0332"/>2.2<lb/>
 dankbar dafür.<lb/>
 Mit schönsten Pfingstgrüssen<lb/>
 Ihr er###r.<lb/>

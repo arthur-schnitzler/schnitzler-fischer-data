@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10084">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -86,20 +87,18 @@ Beantwortet in: 1898-11-15post/1898-11-23ante AS an SF (Honorar 'Kakadu'; nicht 
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb18308">Feld, Leo (Ps. Leo Hirschfeld)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12968">Trebitsch, Siegfried</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10084.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Aufführung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb18308" source="https://pmb.acdh.oeaw.ac.at/entity/18308/">
-          <persName>Feld, Leo (Ps. Leo Hirschfeld)</persName>
-        </person>
-        <person ref="#pmb12968" source="https://pmb.acdh.oeaw.ac.at/entity/12968/">
-          <persName>Trebitsch, Siegfried</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -113,8 +112,9 @@ Beantwortet in: 1898-11-15post/1898-11-23ante AS an SF (Honorar 'Kakadu'; nicht 
 Antwort auf: 1898-11-02post/1898-11-15ante AS an SF (UA und Erscheinungstermin 'Vermächtnis', Empfehlung Hirschfeld Drama und Trebitsch Gedichte; nicht überliefert)
 Beantwortet in: 1898-11-15post/1898-11-23ante AS an SF (Honorar 'Kakadu'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0096"/>BERLIN, den 15/11 1898<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0096"/>BERLIN, den 15/11 1898<lb/>
 S. FISCHER VerlaG<lb/>
 Herr Lieber Herr Doctor,<lb/>
 VERLAGSBURCHHANDLUNG<lb/>
@@ -130,7 +130,8 @@ ohnehin nicht fertig geworden.<lb/>
 zu Ihren beiden Empfehlungen<lb/>
 ev<lb/>
 bemerke ich, dass ich die Lampen</p>
-        <p><pb facs="1416742_0097"/>1327.2<lb/>
+        <p>
+          <pb facs="1416742_0097"/>1327.2<lb/>
 G.C.F.P.<lb/>
 G.C.H.F.P.V. M. rn<lb/>
 von Leo Hirschfeld bringen werde.<lb/>

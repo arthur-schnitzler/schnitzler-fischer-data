@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -66,7 +67,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Beantwortet in: <ref target="11136">1924-10-30 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11136">1924-10-30 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-10-27.html</note>
       </notesStmt>
@@ -83,6 +85,13 @@ Beantwortet in: <ref target="11136">1924-10-30 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb21787">Nani, Gerolamo Enrico</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb872">Stuttgart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb917">Turin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11135.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -95,19 +104,6 @@ Beantwortet in: <ref target="11136">1924-10-30 SF (Berlin) an AS (Wien)</ref></n
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb21787" source="https://pmb.acdh.oeaw.ac.at/entity/21787/">
-          <persName>Nani, Gerolamo Enrico</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb872" source="https://pmb.acdh.oeaw.ac.at/entity/872/">
-          <placeName>Stuttgart</placeName>
-        </place>
-        <place ref="#pmb917" source="https://pmb.acdh.oeaw.ac.at/entity/917/">
-          <placeName>Turin</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -117,10 +113,12 @@ Beantwortet in: <ref target="11136">1924-10-30 SF (Berlin) an AS (Wien)</ref></n
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Beantwortet in: <ref target="11136">1924-10-30 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11136">1924-10-30 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0044"/>Ein holländischer Schriftsteller, Charles van<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0044"/>Ein holländischer Schriftsteller, Charles van<lb/>
 Jersel, bittet mich ein Manuscript, das er zur<lb/>
 Lektüre vor Monaten an mich gesandt hat, direkt<lb/>
 an sie weiterzuleiten. Es handelt sich um ein<lb/>

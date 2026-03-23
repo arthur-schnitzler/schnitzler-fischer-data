@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -91,7 +92,8 @@
 Anlage: Brief Gustav Linden an AS (nicht überliefert); "Vertrag über die von Entsch übernommenen Stücke" (nicht überliefert); "Brief von Valentin aus Budapest" (nicht überliefert); Anfrage Aufführung 'Reigen' (nicht überliefert)
 
 Antwort auf: <ref target="10265">1909-05-04 AS an SF</ref>
-Beantwortet in: <ref target="10267">1909-05-15 AS an SF</ref></note>
+Beantwortet in: <ref target="10267">1909-05-15 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1909-05-10.html</note>
       </notesStmt>
@@ -107,6 +109,18 @@ Beantwortet in: <ref target="10267">1909-05-15 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2871">Entsch, Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20474">Linden, Gustaf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Valentin (Literaturagent, Budapest)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="117010235">Zöllner, Heinrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb737">Krakau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb313">Polen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10266.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -118,34 +132,6 @@ Beantwortet in: <ref target="10267">1909-05-15 AS an SF</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2871" source="https://pmb.acdh.oeaw.ac.at/entity/2871/">
-          <persName>Entsch, Theodor</persName>
-        </person>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-        <person ref="#pmb20474" source="https://pmb.acdh.oeaw.ac.at/entity/20474/">
-          <persName>Linden, Gustaf</persName>
-        </person>
-        <person>
-          <persName>Valentin (Literaturagent, Budapest)</persName>
-        </person>
-        <person ref="117010235" source="https://d-nb.info/gnd/117010235">
-          <persName>Zöllner, Heinrich</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb737" source="https://pmb.acdh.oeaw.ac.at/entity/737/">
-          <placeName>Krakau</placeName>
-        </place>
-        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
-          <placeName>Polen</placeName>
-        </place>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -158,10 +144,12 @@ Beantwortet in: <ref target="10267">1909-05-15 AS an SF</ref></note>
 Anlage: Brief Gustav Linden an AS (nicht überliefert); "Vertrag über die von Entsch übernommenen Stücke" (nicht überliefert); "Brief von Valentin aus Budapest" (nicht überliefert); Anfrage Aufführung 'Reigen' (nicht überliefert)
 
 Antwort auf: <ref target="10265">1909-05-04 AS an SF</ref>
-Beantwortet in: <ref target="10267">1909-05-15 AS an SF</ref></p>
+Beantwortet in: <ref target="10267">1909-05-15 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0380"/>212<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0380"/>212<lb/>
 204<lb/>
 94<lb/>
 S. FISCHER, VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
@@ -185,7 +173,8 @@ bereit, Schott: Söhne, wenn er Gewicht darauf legt;<lb/>
 den Alleinvertrieb des Textbuches zu übergeben und<lb/>
 dieser Firma einen sehr hohen Rabatt einzuräumen.<lb/>
 Eine ähnliche Vereinbarung habe ich auch mit Breit-</p>
-        <p><pb facs="1416742_0381"/>212<lb/>
+        <p>
+          <pb facs="1416742_0381"/>212<lb/>
 206<lb/>
 kopf + Härtel bezüglich des Textbuches der „Versun¬<lb/>
 kenen Glocke", die von Zöllner komponiert ist.<lb/>
@@ -216,7 +205,8 @@ Ihr ergebener<lb/>
 Tfischen<lb/>
 P. S. Die Anfrage aus Krakau möchte ich dahin beant¬<lb/>
 worten, dass ich für die Autorisation der vier Ueber-</p>
-        <p><pb facs="1416742_0382"/>212<lb/>
+        <p>
+          <pb facs="1416742_0382"/>212<lb/>
 setzungen im ganzen 6-700 Mark verlange. Mehr<lb/>
 G.C.H.F.P<lb/>
 wird nicht herauszuschlagen sein, besonders mit<lb/>

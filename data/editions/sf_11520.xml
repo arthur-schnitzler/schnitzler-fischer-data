@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11520">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -91,6 +92,19 @@
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Bartsch, Augustin (Buchhändler, Wien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19421">Klein, Robert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Lucek, Rudolf (Buchhändler, Wien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12274">Moissi, Alexander</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11520.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -108,37 +122,6 @@
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person>
-          <persName>Bartsch, Augustin (Buchhändler, Wien)</persName>
-        </person>
-        <person ref="#pmb19421" source="https://pmb.acdh.oeaw.ac.at/entity/19421/">
-          <persName>Klein, Robert</persName>
-        </person>
-        <person>
-          <persName>Lucek, Rudolf (Buchhändler, Wien)</persName>
-        </person>
-        <person ref="#pmb12274" source="https://pmb.acdh.oeaw.ac.at/entity/12274/">
-          <persName>Moissi, Alexander</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -149,8 +132,9 @@
       <div type="letter">
         <p>2 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0108"/>Natürlich habe ich gar nichts dagegen,<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0108"/>Natürlich habe ich gar nichts dagegen,<lb/>
 wenn Dr.Maril Herrn Dr.Klein oder Herrn Zarek<lb/>
 das "Spiel der Sommerlufte" zur Lekture über-<lb/>
 lässt. Irgend eine weitere. Konsequenz ist da-<lb/>
@@ -222,7 +206,8 @@ Die Notizen in Berliner Zeitungen<lb/>
 über eine eventuelle Aufführung vom „Spiel der<lb/>
 Sommerlüfte mit Moissi bei Klein sind vollkommen<lb/>
 o   e</p>
-        <p><pb facs="1416741_0109"/>aus der Luft gegriften. Ich habe von Robert Klein<lb/>
+        <p>
+          <pb facs="1416741_0109"/>aus der Luft gegriften. Ich habe von Robert Klein<lb/>
 überhaupt nichts gehört und in meinem Schreiben an<lb/>
 ihn ausdrücklich betont, dass ich ihm das Stück nur<lb/>
 ganz unverbindlich zur Lektüre überlassen habe.<lb/>

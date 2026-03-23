@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -78,7 +79,8 @@
         <note type="description">1 Blatt, 2 Seiten beschrieben
 
 Antwort auf: <ref target="10561">1915-04-30 AS an SF</ref>
-Beantwortet in: <ref target="10563">1915-05-22 AS an SF</ref></note>
+Beantwortet in: <ref target="10563">1915-05-22 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1915-05-18.html</note>
       </notesStmt>
@@ -94,6 +96,12 @@ Beantwortet in: <ref target="10563">1915-05-22 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10562.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -104,14 +112,6 @@ Beantwortet in: <ref target="10563">1915-05-22 AS an SF</ref></note>
           <term>österreichisch</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -123,10 +123,12 @@ Beantwortet in: <ref target="10563">1915-05-22 AS an SF</ref></note>
         <p>1 Blatt, 2 Seiten beschrieben
 
 Antwort auf: <ref target="10561">1915-04-30 AS an SF</ref>
-Beantwortet in: <ref target="10563">1915-05-22 AS an SF</ref></p>
+Beantwortet in: <ref target="10563">1915-05-22 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0681"/>A<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0681"/>A<lb/>
 353<lb/>
 S. Fischer, Verlag, Berlin M., Bülowstrasse 90<lb/>
 18. Mai 1915<lb/>
@@ -162,7 +164,8 @@ für den Vertrieb des Buches zu interessieren, wenn wir unsere Erträg-<lb/>
 nisse in diese Kasse fliessen lassen. Bitte lassn Sie mich wissen,<lb/>
 wie Sie darüber denken. Auch möchte ich gern wissen, wohin der der<lb/>
 F. 121</p>
-        <p><pb facs="1416742_0682"/>H.C.<lb/>
+        <p>
+          <pb facs="1416742_0682"/>H.C.<lb/>
 selbst alles eine gahm.<lb/>
 österreichischen Armee zufallende halbe Anteil abzuführen ist.<lb/>
 Mit herzlichen Grüssen<lb/>

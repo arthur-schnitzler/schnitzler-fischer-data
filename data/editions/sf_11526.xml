@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -81,7 +82,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Beantwortet am: <ref target="11527">1930-01-12 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet am: <ref target="11527">1930-01-12 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1930-01-10.html</note>
       </notesStmt>
@@ -98,6 +100,11 @@ Beantwortet am: <ref target="11527">1930-01-12 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4455">Zsolnay, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11526.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -105,11 +112,6 @@ Beantwortet am: <ref target="11527">1930-01-12 AS (Wien) an SF (Berlin)</ref></n
           <term>Urheberrecht/Copyright</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4455" source="https://pmb.acdh.oeaw.ac.at/entity/4455/">
-          <persName>Zsolnay, Paul</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -119,10 +121,12 @@ Beantwortet am: <ref target="11527">1930-01-12 AS (Wien) an SF (Berlin)</ref></n
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Beantwortet am: <ref target="11527">1930-01-12 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet am: <ref target="11527">1930-01-12 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416744_0003"/>G.F.P.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416744_0003"/>G.F.P.<lb/>
 42 Novell<lb/>
 3d.<lb/>
 S. Fischer Verlag/Berlin W57 Buͤlowstraße 90<lb/>

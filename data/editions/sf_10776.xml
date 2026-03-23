@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -73,7 +74,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
 Antwort auf: 1920-XX-XX SF (Berlin) an AS (Wien) (erschlossen)
-Beantwortet in: <ref target="10777">1920-10-27 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10777">1920-10-27 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1920-10-23.html</note>
       </notesStmt>
@@ -90,6 +92,13 @@ Beantwortet in: <ref target="10777">1920-10-27 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">NN, </persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb290650">Révész, Andor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb388">Spanien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10776.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -107,19 +116,6 @@ Beantwortet in: <ref target="10777">1920-10-27 SF (Berlin) an AS (Wien)</ref></n
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb290650" source="https://pmb.acdh.oeaw.ac.at/entity/290650/">
-          <persName>Révész, Andor</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-        <place ref="#pmb388" source="https://pmb.acdh.oeaw.ac.at/entity/388/">
-          <placeName>Spanien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -130,10 +126,12 @@ Beantwortet in: <ref target="10777">1920-10-27 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>1 Blatt, 2 Seiten
 Antwort auf: 1920-XX-XX SF (Berlin) an AS (Wien) (erschlossen)
-Beantwortet in: <ref target="10777">1920-10-27 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10777">1920-10-27 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0164"/>ten und solchen, die später durch sie ange-<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0164"/>ten und solchen, die später durch sie ange-<lb/>
 bracht würden. Ich weiss auch nicht, welches<lb/>
 die „Ueberschüsse“ sein könnten, die Ihrer<lb/>
 Vertretung gehören sollen,die dafür die Ver-<lb/>
@@ -182,7 +180,8 @@ den 5000, 500 Lire vom 25. Tausend ab für je<lb/>
 5000 erkläre ich mich einverstanden,aller-<lb/>
 dingsnur, weil ich es für recht unwahrschein<lb/>
 lich halte, dass der Roman in Italien eine</p>
-        <p><pb facs="1416739_0165"/>so hohe Auflagenziffer erreichen dürfte.<lb/>
+        <p>
+          <pb facs="1416739_0165"/>so hohe Auflagenziffer erreichen dürfte.<lb/>
 Denn logisch wäre es natürlich, dass von Auf-<lb/>
 lage zu Auflage,da die Kosten des Verlegers<lb/>
 sich ja eher verringern, mehr und nicht we-<lb/>

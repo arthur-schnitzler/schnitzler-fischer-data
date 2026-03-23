@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -63,7 +64,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
-Antwort auf: <ref target="11420">1928-06-11 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11420">1928-06-11 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1928-06-23.html</note>
       </notesStmt>
@@ -79,6 +81,11 @@ Antwort auf: <ref target="11420">1928-06-11 SF (Berlin) an AS (Wien)</ref></note
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11424.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -92,11 +99,6 @@ Antwort auf: <ref target="11420">1928-06-11 SF (Berlin) an AS (Wien)</ref></note
           <term>Verkaufspreis/Ladenpreis</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -106,10 +108,12 @@ Antwort auf: <ref target="11420">1928-06-11 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 2 Seiten
-Antwort auf: <ref target="11420">1928-06-11 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11420">1928-06-11 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0053"/>verzichten und der S.Fischer Verlag erst recht, aber<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0053"/>verzichten und der S.Fischer Verlag erst recht, aber<lb/>
 ich finde es einfach unerträglich, dass ein Verleger<lb/>
 sei es aus schlechtem Willen, sei es ans dem Grunde<lb/>
 kommerzieller Missstände dauernd in der Lage bleiben<lb/>
@@ -162,7 +166,8 @@ ser. Dass eine solche Beschlagnahme auf dem kürzesten<lb/>
 Wege wieder aufgehoben werden müsste, ist zweifellos.<lb/>
 Es handelt sich hier wirklich um eine prinzipielle<lb/>
 Frage. Ich kann in meinem Gesamtwerk auf den "Reigen</p>
-        <p><pb facs="1416741_0054"/>verzichten und der S.Fischer Verlag erst recht, aber<lb/>
+        <p>
+          <pb facs="1416741_0054"/>verzichten und der S.Fischer Verlag erst recht, aber<lb/>
 ich finde es einfach unerträglich, dass ein Verleger<lb/>
 sei es aus schlechtem Willen, sei Es aus dem Grunde<lb/>
 kommerzieller Missstände dauernd in der Lage bleiben<lb/>

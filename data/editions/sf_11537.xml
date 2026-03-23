@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11537">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -80,6 +81,12 @@ Unbekannter Verfasser</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb880">Chicago</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11537.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -87,14 +94,6 @@ Unbekannter Verfasser</note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb880" source="https://pmb.acdh.oeaw.ac.at/entity/880/">
-          <placeName>Chicago</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -106,8 +105,9 @@ Unbekannter Verfasser</note>
         <p>1 Blatt, 1 Seite
 Unbekannter Verfasser</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416744_0012"/>95<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416744_0012"/>95<lb/>
 S. FISCHERVERLAG / BERLIN W 57 / BÜIL0WSTR. 90<lb/>
 AKTRINGESELISCHAFT<lb/>
 TELEGRAMM. ADRESSE: FISCHERVERLAG 6102 BERLINLÜTZÜW<lb/>

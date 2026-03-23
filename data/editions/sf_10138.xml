@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10138">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -83,6 +84,62 @@ Antwort auf: 1904-01-21post/1904-01-26ante AS an SF (Drucklegung und Aufführung
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11195">Dumont, Louise</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20466">Lindemann, Gustav</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb868">Augsburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb267233">Bochum</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb913">Bonn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35572">Braunschweig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb891">Bremen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb51147">Bromberg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb49582">Chemnitz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb42763">Danzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb834">Darmstadt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45808">Detmold</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb866">Dresden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb903">Elberfeld</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb48759">Erfurt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb49970">Essen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb58801">Flensburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb146">Frankfurt am Main</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35518">Frankfurt an der Oder</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb48593">Graudenz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb115572">Gumbinnen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb56015">Görlitz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb42325">Göttingen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb53816">Güstrow</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb37367">Hagen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50762">Halberstadt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb882">Heidelberg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb48092">Insterburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb62073">Kaiserslautern</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb907">Kiel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb58556">Koblenz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb47053">Krefeld</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb42605">Königsberg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb335758">Köslin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb884">Lübeck</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb918">Magdeburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb881">Mannheim</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb46465">Metz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb118756">Neubrandenburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44172">Nürnberg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb91492">Plauen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb56027">Potsdam</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb56120">Rostock</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb49847">Stettin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb46958">Stolp</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb319">Straßburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb872">Stuttgart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb114678">Thorn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb62049">Tilsit</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb61947">Wismar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb852">Würzburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10138.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -93,166 +150,6 @@ Antwort auf: 1904-01-21post/1904-01-26ante AS an SF (Drucklegung und Aufführung
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11195" source="https://pmb.acdh.oeaw.ac.at/entity/11195/">
-          <persName>Dumont, Louise</persName>
-        </person>
-        <person ref="#pmb20466" source="https://pmb.acdh.oeaw.ac.at/entity/20466/">
-          <persName>Lindemann, Gustav</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb868" source="https://pmb.acdh.oeaw.ac.at/entity/868/">
-          <placeName>Augsburg</placeName>
-        </place>
-        <place ref="#pmb267233" source="https://pmb.acdh.oeaw.ac.at/entity/267233/">
-          <placeName>Bochum</placeName>
-        </place>
-        <place ref="#pmb913" source="https://pmb.acdh.oeaw.ac.at/entity/913/">
-          <placeName>Bonn</placeName>
-        </place>
-        <place ref="#pmb35572" source="https://pmb.acdh.oeaw.ac.at/entity/35572/">
-          <placeName>Braunschweig</placeName>
-        </place>
-        <place ref="#pmb891" source="https://pmb.acdh.oeaw.ac.at/entity/891/">
-          <placeName>Bremen</placeName>
-        </place>
-        <place ref="#pmb51147" source="https://pmb.acdh.oeaw.ac.at/entity/51147/">
-          <placeName>Bromberg</placeName>
-        </place>
-        <place ref="#pmb49582" source="https://pmb.acdh.oeaw.ac.at/entity/49582/">
-          <placeName>Chemnitz</placeName>
-        </place>
-        <place ref="#pmb42763" source="https://pmb.acdh.oeaw.ac.at/entity/42763/">
-          <placeName>Danzig</placeName>
-        </place>
-        <place ref="#pmb834" source="https://pmb.acdh.oeaw.ac.at/entity/834/">
-          <placeName>Darmstadt</placeName>
-        </place>
-        <place ref="#pmb45808" source="https://pmb.acdh.oeaw.ac.at/entity/45808/">
-          <placeName>Detmold</placeName>
-        </place>
-        <place ref="#pmb866" source="https://pmb.acdh.oeaw.ac.at/entity/866/">
-          <placeName>Dresden</placeName>
-        </place>
-        <place ref="#pmb903" source="https://pmb.acdh.oeaw.ac.at/entity/903/">
-          <placeName>Elberfeld</placeName>
-        </place>
-        <place ref="#pmb48759" source="https://pmb.acdh.oeaw.ac.at/entity/48759/">
-          <placeName>Erfurt</placeName>
-        </place>
-        <place ref="#pmb49970" source="https://pmb.acdh.oeaw.ac.at/entity/49970/">
-          <placeName>Essen</placeName>
-        </place>
-        <place ref="#pmb58801" source="https://pmb.acdh.oeaw.ac.at/entity/58801/">
-          <placeName>Flensburg</placeName>
-        </place>
-        <place ref="#pmb146" source="https://pmb.acdh.oeaw.ac.at/entity/146/">
-          <placeName>Frankfurt am Main</placeName>
-        </place>
-        <place ref="#pmb35518" source="https://pmb.acdh.oeaw.ac.at/entity/35518/">
-          <placeName>Frankfurt an der Oder</placeName>
-        </place>
-        <place ref="#pmb48593" source="https://pmb.acdh.oeaw.ac.at/entity/48593/">
-          <placeName>Graudenz</placeName>
-        </place>
-        <place ref="#pmb115572" source="https://pmb.acdh.oeaw.ac.at/entity/115572/">
-          <placeName>Gumbinnen</placeName>
-        </place>
-        <place ref="#pmb56015" source="https://pmb.acdh.oeaw.ac.at/entity/56015/">
-          <placeName>Görlitz</placeName>
-        </place>
-        <place ref="#pmb42325" source="https://pmb.acdh.oeaw.ac.at/entity/42325/">
-          <placeName>Göttingen</placeName>
-        </place>
-        <place ref="#pmb53816" source="https://pmb.acdh.oeaw.ac.at/entity/53816/">
-          <placeName>Güstrow</placeName>
-        </place>
-        <place ref="#pmb37367" source="https://pmb.acdh.oeaw.ac.at/entity/37367/">
-          <placeName>Hagen</placeName>
-        </place>
-        <place ref="#pmb50762" source="https://pmb.acdh.oeaw.ac.at/entity/50762/">
-          <placeName>Halberstadt</placeName>
-        </place>
-        <place ref="#pmb882" source="https://pmb.acdh.oeaw.ac.at/entity/882/">
-          <placeName>Heidelberg</placeName>
-        </place>
-        <place ref="#pmb48092" source="https://pmb.acdh.oeaw.ac.at/entity/48092/">
-          <placeName>Insterburg</placeName>
-        </place>
-        <place ref="#pmb62073" source="https://pmb.acdh.oeaw.ac.at/entity/62073/">
-          <placeName>Kaiserslautern</placeName>
-        </place>
-        <place ref="#pmb907" source="https://pmb.acdh.oeaw.ac.at/entity/907/">
-          <placeName>Kiel</placeName>
-        </place>
-        <place ref="#pmb58556" source="https://pmb.acdh.oeaw.ac.at/entity/58556/">
-          <placeName>Koblenz</placeName>
-        </place>
-        <place ref="#pmb47053" source="https://pmb.acdh.oeaw.ac.at/entity/47053/">
-          <placeName>Krefeld</placeName>
-        </place>
-        <place ref="#pmb42605" source="https://pmb.acdh.oeaw.ac.at/entity/42605/">
-          <placeName>Königsberg</placeName>
-        </place>
-        <place ref="#pmb335758" source="https://d-nb.info/gnd/4031607-5">
-          <placeName>Köslin</placeName>
-        </place>
-        <place ref="#pmb884" source="https://pmb.acdh.oeaw.ac.at/entity/884/">
-          <placeName>Lübeck</placeName>
-        </place>
-        <place ref="#pmb918" source="https://pmb.acdh.oeaw.ac.at/entity/918/">
-          <placeName>Magdeburg</placeName>
-        </place>
-        <place ref="#pmb881" source="https://pmb.acdh.oeaw.ac.at/entity/881/">
-          <placeName>Mannheim</placeName>
-        </place>
-        <place ref="#pmb46465" source="https://pmb.acdh.oeaw.ac.at/entity/46465/">
-          <placeName>Metz</placeName>
-        </place>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-        <place ref="#pmb118756" source="https://pmb.acdh.oeaw.ac.at/entity/118756/">
-          <placeName>Neubrandenburg</placeName>
-        </place>
-        <place ref="#pmb44172" source="https://pmb.acdh.oeaw.ac.at/entity/44172/">
-          <placeName>Nürnberg</placeName>
-        </place>
-        <place ref="#pmb91492" source="https://pmb.acdh.oeaw.ac.at/entity/91492/">
-          <placeName>Plauen</placeName>
-        </place>
-        <place ref="#pmb56027" source="https://pmb.acdh.oeaw.ac.at/entity/56027/">
-          <placeName>Potsdam</placeName>
-        </place>
-        <place ref="#pmb56120" source="https://pmb.acdh.oeaw.ac.at/entity/56120/">
-          <placeName>Rostock</placeName>
-        </place>
-        <place ref="#pmb49847" source="https://pmb.acdh.oeaw.ac.at/entity/49847/">
-          <placeName>Stettin</placeName>
-        </place>
-        <place ref="#pmb46958" source="https://pmb.acdh.oeaw.ac.at/entity/46958/">
-          <placeName>Stolp</placeName>
-        </place>
-        <place ref="#pmb319" source="https://pmb.acdh.oeaw.ac.at/entity/319/">
-          <placeName>Straßburg</placeName>
-        </place>
-        <place ref="#pmb872" source="https://pmb.acdh.oeaw.ac.at/entity/872/">
-          <placeName>Stuttgart</placeName>
-        </place>
-        <place ref="#pmb114678" source="https://pmb.acdh.oeaw.ac.at/entity/114678/">
-          <placeName>Thorn</placeName>
-        </place>
-        <place ref="#pmb62049" source="https://pmb.acdh.oeaw.ac.at/entity/62049/">
-          <placeName>Tilsit</placeName>
-        </place>
-        <place ref="#pmb61947" source="https://pmb.acdh.oeaw.ac.at/entity/61947/">
-          <placeName>Wismar</placeName>
-        </place>
-        <place ref="#pmb852" source="https://pmb.acdh.oeaw.ac.at/entity/852/">
-          <placeName>Würzburg</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -266,8 +163,9 @@ Anlage: Liste von Städtenamen (Aufführungsorte 'Der einsame Weg'; 1 Seite)
 
 Antwort auf: 1904-01-21post/1904-01-26ante AS an SF (Drucklegung und Aufführung 'Der einsame Weg')</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0181"/>VERLAG<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0181"/>VERLAG<lb/>
 S. FISCHER,<lb/>
 1.<lb/>
 P.<lb/>
@@ -317,7 +215,8 @@ des „Einsamen Wer“ in Betracht kommen wird. Ich habe eine viel höher<lb/>
 Garantiesumme verlangt, wir sind also zunächst zu einem Vertrag noch<lb/>
 nicht gekommen. Ich würde Sie aber doch bitten, da mir die Sache<lb/>
 was verantwortungsvoll scheint, mir zu sagen, wie Sie über dieses</p>
-        <p><pb facs="1416742_0182"/>26/<lb/>
+        <p>
+          <pb facs="1416742_0182"/>26/<lb/>
 Arrangement denken. Dresden und Stuttgart haben inzwischen abge-<lb/>
 lehnt. Die Entscheidung der andern wichtigen Plätze steht noch aus,<lb/>
 sie wird von uns jetzt eingeholt werden; aber es bleibt doch syne<lb/>

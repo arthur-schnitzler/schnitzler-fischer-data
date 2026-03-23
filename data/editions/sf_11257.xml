@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -80,6 +81,12 @@ Beilagen: Rundschreiben SF zu Rundfunkrechten mit Formular für zustimmende Auto
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12176">Mann, Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11257.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -92,16 +99,6 @@ Beilagen: Rundschreiben SF zu Rundfunkrechten mit Formular für zustimmende Auto
           <term>Verhandlung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb12176" source="https://pmb.acdh.oeaw.ac.at/entity/12176/">
-          <persName>Mann, Thomas</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -115,8 +112,9 @@ Bezug auf: <ref target="11254">1926-09-13 SF (Berlin) an AS (Wien)</ref>, <ref t
 Beantwortet in: <ref target="11258">1926-10-11 AS (Wien) an SF (Berlin)</ref>
 Beilagen: Rundschreiben SF zu Rundfunkrechten mit Formular für zustimmende Autorerklärung</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0888"/>74<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0888"/>74<lb/>
 Fischer / Verlag / A.-G. Berlin W5.<lb/>
 kanto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto: Berlin Nr. 1669.<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 6162 bis 6164 den 24. 17<lb/>
@@ -148,7 +146,8 @@ lein in ähnlicher Weise lebende Kolumentitel anzubri¬<lb/>
 Ueberein<lb/>
 dafür ist vorhanden, und wir wäre<lb/>
 schers Meinung mit dieser</p>
-        <p><pb facs="1416743_0889"/>S. FISCHER :VERLAG A.G. : BERLIN W. 5<lb/>
+        <p>
+          <pb facs="1416743_0889"/>S. FISCHER :VERLAG A.G. : BERLIN W. 5<lb/>
 IX.<lb/>
 den<lb/>
 Herrn Dr. Arthur Schnitzler, Wien XVD<lb/>

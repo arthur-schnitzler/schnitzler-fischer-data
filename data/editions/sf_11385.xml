@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -84,6 +85,15 @@ Beilage: 1928-03-03 AS (Wien) an Benjamin Harz</note>
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10788">Auernheimer, Raoul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb21710">Lothar, Ernst</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb24041">Schalit, Leon</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11385.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -98,25 +108,6 @@ Beilage: 1928-03-03 AS (Wien) an Benjamin Harz</note>
           <term>Verkaufspreis/Ladenpreis</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10788" source="https://pmb.acdh.oeaw.ac.at/entity/10788/">
-          <persName>Auernheimer, Raoul</persName>
-        </person>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb21710" source="https://pmb.acdh.oeaw.ac.at/entity/21710/">
-          <persName>Lothar, Ernst</persName>
-        </person>
-        <person ref="#pmb24041" source="https://pmb.acdh.oeaw.ac.at/entity/24041/">
-          <persName>Schalit, Leon</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -129,8 +120,9 @@ Beilage: 1928-03-03 AS (Wien) an Benjamin Harz</note>
 Antwort auf: <ref target="11382">1928-02-24 SF (Berlin) an AS (Wien)</ref>
 Beilage: 1928-03-03 AS (Wien) an Benjamin Harz</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0021"/>S. Fischer<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0021"/>S. Fischer<lb/>
 6.3.1928.<lb/>
 rechtlich zulässig, so hägtes es jeder Verleger in<lb/>
 der Hand den Autor einfach dadurch um die Früchte<lb/>

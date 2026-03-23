@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10476">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -88,31 +89,21 @@ Beantwortet in: 1912-12-07 AS an SF (referiert bei Rodewald, 869 [Anm. zu Nr. 1
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11527">Großmann, Stefan</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13068">Wedekind, Frank</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb52390">Weiss, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10476.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Konfiskation/Verbot/Zensur</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11527" source="https://pmb.acdh.oeaw.ac.at/entity/11527/">
-          <persName>Großmann, Stefan</persName>
-        </person>
-        <person ref="#pmb13068" source="https://pmb.acdh.oeaw.ac.at/entity/13068/">
-          <persName>Wedekind, Frank</persName>
-        </person>
-        <person ref="#pmb52390" source="https://pmb.acdh.oeaw.ac.at/entity/52390/">
-          <persName>Weiss, Alfred</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -126,8 +117,9 @@ Beantwortet in: 1912-12-07 AS an SF (referiert bei Rodewald, 869 [Anm. zu Nr. 1
 Bezug auf: Uraufführung 'Professor Bernhardi' (1912-11-28), zu der AS 1912-11-24 bis 1912-12-01 in Berlin war und SF mehrfach traf (Tgb 1912-11-27, -28, -30, -12-01)
 Beantwortet in: 1912-12-07 AS an SF (referiert bei Rodewald, 869 [Anm. zu Nr. 137]; in den von AS verwahrten Durchschlägen nicht vorhanden)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0595"/>304<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0595"/>304<lb/>
 S. FISCHER,VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
 THEATERABTEILUNG<lb/>
 BERene W., DEN 5/12.12<lb/>
@@ -149,7 +141,8 @@ che die Entscheidung der Zensur natürlich<lb/>
 keine Bedeutung hat. Durch die Berichte in<lb/>
 der Presse über diese Vorstellung und die<lb/>
 dadurch hervorgerufene lokale Stimmung würde</p>
-        <p><pb facs="1416742_0596"/>sich dadurch ähnlich wie in Präzatensten<lb/>
+        <p>
+          <pb facs="1416742_0596"/>sich dadurch ähnlich wie in Präzatensten<lb/>
 und wie vergleichsweise bei der Münchener<lb/>
 Aufführung ### der „Franziska“ von Wedekind,<lb/>
 G.C.F.P<lb/>

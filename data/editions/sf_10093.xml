@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10093">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -84,6 +85,11 @@ Beantwortet in: 1899-11-03post/1899-11-08ante AS an SF (Drucklegung 'Reigen', Co
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10093.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -92,11 +98,6 @@ Beantwortet in: 1899-11-03post/1899-11-08ante AS an SF (Drucklegung 'Reigen', Co
           <term>Zoll</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -110,8 +111,9 @@ Beantwortet in: 1899-11-03post/1899-11-08ante AS an SF (Drucklegung 'Reigen', Co
 Antwort auf: 1899-10-18post/1899-11-03ante AS an SF (Drucklegung 'Reigen'; nicht überliefert)
 Beantwortet in: 1899-11-03post/1899-11-08ante AS an SF (Drucklegung 'Reigen', Coschell Illustrationen 'Anatol'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0109"/>BERLIN, den 3/11 1899<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0109"/>BERLIN, den 3/11 1899<lb/>
 FISCHER,VERLAGI<lb/>
 Doctor.<lb/>
 ANDLUNG<lb/>
@@ -131,7 +133,8 @@ in<lb/>
 in dürfen dem Buche nach<lb/>
 nicht gar zu sehr den Character der<lb/>
 gewöhnlichen des „derbotenen“</p>
-        <p><pb facs="1416742_0110"/>in V. Annoa Ia<lb/>
+        <p>
+          <pb facs="1416742_0110"/>in V. Annoa Ia<lb/>
 .18<lb/>
 ###WJ.J.C.H.V.I.D. v. m.<lb/>
 Kreisämte, wo JU8 Nr. 11.1838.<lb/>

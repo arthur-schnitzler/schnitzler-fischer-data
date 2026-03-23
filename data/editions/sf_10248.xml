@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -78,7 +79,8 @@
 Anlage: Abrechnung Bloch zu Konkurs Entsch (nicht überliefert)
 
 Antwort auf: <ref target="10247">1908-11-25 SF an AS</ref>
-Beantwortet in: <ref target="10249">1908-12-03 SF an AS</ref></note>
+Beantwortet in: <ref target="10249">1908-12-03 SF an AS</ref>
+        </note>
         <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1908-11-30.html</note>
       </notesStmt>
@@ -94,6 +96,21 @@ Beantwortet in: <ref target="10249">1908-12-03 SF an AS</ref></note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb178500">Bloch, Eduard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11165">Dohnányi, Ernst von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2871">Entsch, Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2229">Handl, Willi</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7823">Herzmansky, Bernhard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb25039">Sliwinski, Adolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12861">Straus, Oscar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb1223">Bern</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10248.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -103,43 +120,6 @@ Beantwortet in: <ref target="10249">1908-12-03 SF an AS</ref></note>
           <term>Urheberrecht/Copyright</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb178500" source="https://pmb.acdh.oeaw.ac.at/entity/178500/">
-          <persName>Bloch, Eduard</persName>
-        </person>
-        <person ref="#pmb11165" source="https://pmb.acdh.oeaw.ac.at/entity/11165/">
-          <persName>Dohnányi, Ernst von</persName>
-        </person>
-        <person ref="#pmb2871" source="https://pmb.acdh.oeaw.ac.at/entity/2871/">
-          <persName>Entsch, Theodor</persName>
-        </person>
-        <person ref="#pmb2229" source="https://pmb.acdh.oeaw.ac.at/entity/2229/">
-          <persName>Handl, Willi</persName>
-        </person>
-        <person ref="#pmb7823" source="https://pmb.acdh.oeaw.ac.at/entity/7823/">
-          <persName>Herzmansky, Bernhard</persName>
-        </person>
-        <person ref="#pmb25039" source="https://pmb.acdh.oeaw.ac.at/entity/25039/">
-          <persName>Sliwinski, Adolf</persName>
-        </person>
-        <person ref="#pmb12861" source="https://pmb.acdh.oeaw.ac.at/entity/12861/">
-          <persName>Straus, Oscar</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb1223" source="https://pmb.acdh.oeaw.ac.at/entity/1223/">
-          <placeName>Bern</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -152,7 +132,8 @@ Beantwortet in: <ref target="10249">1908-12-03 SF an AS</ref></note>
 Anlage: Abrechnung Bloch zu Konkurs Entsch (nicht überliefert)
 
 Antwort auf: <ref target="10247">1908-11-25 SF an AS</ref>
-Beantwortet in: <ref target="10249">1908-12-03 SF an AS</ref></p>
+Beantwortet in: <ref target="10249">1908-12-03 SF an AS</ref>
+        </p>
       </div>
     </body>
   </text>

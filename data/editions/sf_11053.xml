@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11053">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -74,6 +75,13 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43430">Tschechien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11053.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -82,17 +90,6 @@
           <term>Verkaufspreis/Ladenpreis</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb43430" source="https://pmb.acdh.oeaw.ac.at/entity/43430/">
-          <placeName>Tschechien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -104,8 +101,9 @@
         <p>2 Blatt, 4 Seiten
 "Zur Abrechnung über den Absatz der Werke von Dr. Arthur Schnitzler". Vielleicht auch Beilage zu 1924-01-30, wo auf eine 'gestern' übersandte tab. Abrechnung Bezug genommen wird.</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0698"/>er/Verlag/Berlin W 57/<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0698"/>er/Verlag/Berlin W 57/<lb/>
 erlin Nr. 16892<lb/>
 konto: Deutsche Bank, Depositenkasse P in Berlin / Posten.<lb/>
 Fernsprechanschlüsse: Amt Lützow N.<lb/>
@@ -229,7 +227,8 @@ Exemplare sowie den Verlagserlös aus diesen Verkäufen, wie es<lb/>
 of the<lb/>
 aus unseren Büchern nachzuweisen ist. Die Rubriken der einzelne mit<lb/>
 Monate sind hierbei mit römischen Ziffern bezeichnet.</p>
-        <p><pb facs="1416743_0699"/>nilreff ni G xxxdastiroqo [.Ausfl adbeiuKl sotnod<lb/>
+        <p>
+          <pb facs="1416743_0699"/>nilreff ni G xxxdastiroqo [.Ausfl adbeiuKl sotnod<lb/>
 xyz xxx im A: xxx xxx<lb/>
 Die Auslandspreise für die einzelnen Länder wurden im<lb/>
 der Weise geregelt, dass der Verlag Auslandspreise in Schweizer<lb/>
@@ -281,7 +280,8 @@ blauen Bücherverzeich. /<lb/>
 3.7. galten die Preise unsere<lb/>
 isses %<lb/>
 P.P.</p>
-        <p><pb facs="1416743_0700"/>M 57/Bülowstraße<lb/>
+        <p>
+          <pb facs="1416743_0700"/>M 57/Bülowstraße<lb/>
 Herr/Verlag/Berlin.<lb/>
 dato: Deutsche Bank. Depositenkasse P in Berlin<lb/>
 anschlüsse: Amt Lützow Nr.<lb/>
@@ -313,7 +313,8 @@ a b c d bezeichneten Anlagen für die einzelnen Länder. Die<lb/>
 schraffierten Felder haben keine Anlagen. Die Abrechnung für<lb/>
 Oesterreich Juli wurde bereits am 8.0.23 in oesterreischischen<lb/>
 Kronen gegeben.</p>
-        <p><pb facs="1416743_0701"/>In Publico-Conclusum.<lb/>
+        <p>
+          <pb facs="1416743_0701"/>In Publico-Conclusum.<lb/>
 In der xxx: xxx<lb/>
 sher war der Vorgang bei der Verrechnung der, dass<lb/>
 die Valutaeinnahmen nach den für die Buchung der Devisen-Eingänge<lb/>

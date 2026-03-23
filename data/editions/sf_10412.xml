@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -68,7 +69,8 @@
 Anlage: Anfrage an SF wg. böhm. Übersetzung 'Wurstl' (nicht überliefert)
 
 Antwort auf: <ref target="10411">1912-01-24 AS an SF</ref>
-Beantwortet in: <ref target="10414">1912-01-29 AS an SF</ref></note>
+Beantwortet in: <ref target="10414">1912-01-29 AS an SF</ref>
+        </note>
         <note type="published_in">Buohler 2011, 183 (Auszug)</note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1912-01-26.html</note>
@@ -85,6 +87,11 @@ Beantwortet in: <ref target="10414">1912-01-29 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2570">Lothar, Rudolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10412.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -95,11 +102,6 @@ Beantwortet in: <ref target="10414">1912-01-29 AS an SF</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2570" source="https://pmb.acdh.oeaw.ac.at/entity/2570/">
-          <persName>Lothar, Rudolf</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -112,10 +114,12 @@ Beantwortet in: <ref target="10414">1912-01-29 AS an SF</ref></note>
 Anlage: Anfrage an SF wg. böhm. Übersetzung 'Wurstl' (nicht überliefert)
 
 Antwort auf: <ref target="10411">1912-01-24 AS an SF</ref>
-Beantwortet in: <ref target="10414">1912-01-29 AS an SF</ref></p>
+Beantwortet in: <ref target="10414">1912-01-29 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0524"/>266<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0524"/>266<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
 den 26. Januar 1912<lb/>
 gnustesredeU medostmdöd ente megen fürdea### ohnegetlæs etc<lb/>
@@ -146,7 +150,8 @@ und der Oeffentlichkeit schuldig, und ich meine, dass die Genstelle-<lb/>
 tien Ihrem Werk jetzt günstig ist.<lb/>
 Ueber Rudelf Lethars Theater werde ich mich erkundigen.<lb/>
 Seviel ich weiss, wird er hauptsächlich Lustspiele bringen.</p>
-        <p><pb facs="1416742_0525"/>asriewohné, läs niené, peinl. nacht. e<lb/>
+        <p>
+          <pb facs="1416742_0525"/>asriewohné, läs niené, peinl. nacht. e<lb/>
 sief remat. da neb<lb/>
 Die anliegende Zuschrift wegen einer böhmischen Uebersetzung<lb/>
 bezw. Aufführung von "Zum grossen Wuertl" beantworten Sie wohl<lb/>

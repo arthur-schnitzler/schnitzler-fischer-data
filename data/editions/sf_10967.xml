@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -65,7 +66,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
 Antwort auf: <ref target="10964">1923-01-17 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10971">1923-01-31 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10971">1923-01-31 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-01-22.html</note>
       </notesStmt>
@@ -82,6 +84,20 @@ Beantwortet in: <ref target="10971">1923-01-31 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb18065">Hella, Alzir</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19583">Koos, Geza de</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2249">Korff, Arnold</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb92768">Woticky, Edward</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13212">Zweig, Stefan</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb36247">Burgtheater Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb44005">Guild Theatre New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10967.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -94,42 +110,6 @@ Beantwortet in: <ref target="10971">1923-01-31 SF (Berlin) an AS (Wien)</ref></n
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb18065" source="https://pmb.acdh.oeaw.ac.at/entity/18065/">
-          <persName>Hella, Alzir</persName>
-        </person>
-        <person ref="#pmb19583" source="https://pmb.acdh.oeaw.ac.at/entity/19583/">
-          <persName>Koos, Geza de</persName>
-        </person>
-        <person ref="#pmb2249" source="https://pmb.acdh.oeaw.ac.at/entity/2249/">
-          <persName>Korff, Arnold</persName>
-        </person>
-        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
-          <persName>Woticky, Edward</persName>
-        </person>
-        <person ref="#pmb13212" source="https://pmb.acdh.oeaw.ac.at/entity/13212/">
-          <persName>Zweig, Stefan</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb36247" source="https://pmb.acdh.oeaw.ac.at/entity/36247/">
-          <orgName>Burgtheater Wien</orgName>
-        </org>
-        <org ref="#pmb44005" source="https://pmb.acdh.oeaw.ac.at/entity/44005/">
-          <orgName>Guild Theatre New York</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -140,10 +120,12 @@ Beantwortet in: <ref target="10971">1923-01-31 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>1 Blatt, 2 Seiten
 Antwort auf: <ref target="10964">1923-01-17 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10971">1923-01-31 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10971">1923-01-31 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0263"/>1/2<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0263"/>1/2<lb/>
 22.1.1923.<lb/>
 Rech<lb/>
 Sehr verehrter Herr Greiner.<lb/>
@@ -181,7 +163,8 @@ Ihnen meine verwunderung schriftlich kund zu<lb/>
 geben und werde natürlich die Aufführung der<lb/>
 „Liebelei“ verbieten,wenn die Bedingungen, die<lb/>
 ich mit ihm gemein am festgesetzt, nicht aufrecht.</p>
-        <p><pb facs="1416739_0264"/>bleiben. Ihr holländischer vermittler hat mit<lb/>
+        <p>
+          <pb facs="1416739_0264"/>bleiben. Ihr holländischer vermittler hat mit<lb/>
 diesem Gastspiel jedesfall nichts zu tun.<lb/>
 Haben Sie von Wottitzky etwas gehört?<lb/>
 Die Angelegenheit wird mir aus verschiedenen<lb/>

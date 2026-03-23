@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -75,6 +76,12 @@ Anlage: Liste von gewünschten Buchexemplaren</note>
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb92768">Woticky, Edward</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10907.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -84,16 +91,6 @@ Anlage: Liste von gewünschten Buchexemplaren</note>
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
-          <persName>Woticky, Edward</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -105,8 +102,9 @@ Anlage: Liste von gewünschten Buchexemplaren</note>
         <p>1 Blatt, 2 Seiten
 Anlage: Liste von gewünschten Buchexemplaren</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0233"/>Vuoden leipäisemminen sekä<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0233"/>Vuoden leipäisemminen sekä<lb/>
 Gram W N<lb/>
 ΟοφθΟηΟ—Οἄ<lb/>
 :10:0:0 r.<lb/>
@@ -411,7 +409,8 @@ wällä sekä;<lb/>
 K &amp; E.T<lb/>
 Titä<lb/>
 T,H, P, S, O, H,</p>
-        <p><pb facs="1416739_0234"/>Fischer<lb/>
+        <p>
+          <pb facs="1416739_0234"/>Fischer<lb/>
 usan vas Heimfahrt, Lllustrierte Ausgabe<lb/>
 3-5 Exemplare<lb/>
 gewöhnliche Ausgabe 6 Exempl.<lb/>

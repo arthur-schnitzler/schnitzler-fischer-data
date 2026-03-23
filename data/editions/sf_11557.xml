@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -54,7 +55,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten
 Anwort auf: <ref target="11555">1930-03-05 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11559">1930-03-20 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="11559">1930-03-20 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1930-03-07.html</note>
       </notesStmt>
@@ -71,6 +73,11 @@ Beantwortet in: <ref target="11559">1930-03-20 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11557.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -80,11 +87,6 @@ Beantwortet in: <ref target="11559">1930-03-20 AS (Wien) an SF (Berlin)</ref></n
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -95,10 +97,12 @@ Beantwortet in: <ref target="11559">1930-03-20 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>2 Blatt, 3 Seiten
 Anwort auf: <ref target="11555">1930-03-05 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11559">1930-03-20 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="11559">1930-03-20 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416744_0025"/>962<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416744_0025"/>962<lb/>
 S. FISCHER VERLAG A.-G.. BERene W 57<lb/>
 Theaterabteilung<lb/>
 Fernsprecher: Lützow Nr. 6162-6161 / Telegramm=Adresse: Fischerverlag 6162 Berlinlützov<lb/>
@@ -126,7 +130,8 @@ Raten von je RM 1000.- zahlen sollte<lb/>
 Wir haben nunmehr auch den Vertrag gekündigt<lb/>
 b.w.<lb/>
 1000.</p>
-        <p><pb facs="1416744_0026"/>und ihm verboten, das Stück weiter zur Aufführung zu<lb/>
+        <p>
+          <pb facs="1416744_0026"/>und ihm verboten, das Stück weiter zur Aufführung zu<lb/>
 bringen. Dieses Verbot steht freilich nur auf dem Papier,<lb/>
 solange wir nicht eine einstweilige Verfügung gegen<lb/>
 Barnowsky einbringen, wodurch ihm gerichtlich untersagt<lb/>
@@ -151,7 +156,8 @@ Tragung der Kosten verurteilt.Die Konsentionalstrafe<lb/>
 hat das Gericht auf RM 300.- herabgesetzt. Dieses<lb/>
 Urteil wird aber leider erst in 14 Tagen rechtskräftig.<lb/>
 Bl. 2.</p>
-        <p><pb facs="1416744_0027"/>13<lb/>
+        <p>
+          <pb facs="1416744_0027"/>13<lb/>
 S. FISCHER VERLAG A.-G. BERLIN W 57<lb/>
 Theaterabteilung<lb/>
 Fernsprecher: Lützow Nr. 6162—6164 Telegramm=Adresse: Fischerverlag 6162 Berlinlützów<lb/>

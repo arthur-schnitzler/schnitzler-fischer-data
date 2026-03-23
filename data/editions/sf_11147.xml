@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -58,7 +59,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Beantwortet in: <ref target="11146">1931-10-10 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="11146">1931-10-10 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1931-10-07.html</note>
       </notesStmt>
@@ -75,6 +77,12 @@ Beantwortet in: <ref target="11146">1931-10-10 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb224">London</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11147.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -83,14 +91,6 @@ Beantwortet in: <ref target="11146">1931-10-10 AS (Wien) an SF (Berlin)</ref></n
           <term>Tantiemen</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb224" source="https://pmb.acdh.oeaw.ac.at/entity/224/">
-          <placeName>London</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -100,10 +100,12 @@ Beantwortet in: <ref target="11146">1931-10-10 AS (Wien) an SF (Berlin)</ref></n
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Beantwortet in: <ref target="11146">1931-10-10 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="11146">1931-10-10 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416744_0172"/>1068<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416744_0172"/>1068<lb/>
 drey<lb/>
 BERLIN W 57<lb/>
 S. FISCHER VerlAG X:G:<lb/>

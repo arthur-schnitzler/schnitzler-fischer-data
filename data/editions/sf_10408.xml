@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -85,7 +86,8 @@
         <note type="description">2 Blatt, 2 Seiten beschrieben
 
 Bezug auf: Gespräche über Sammelausgabe der Erzählungen (Tgb 1912-01-04)
-Beantwortet in: <ref target="10409">1912-01-20 AS an SF</ref></note>
+Beantwortet in: <ref target="10409">1912-01-20 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift, eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1912-01-18.html</note>
       </notesStmt>
@@ -101,6 +103,11 @@ Beantwortet in: <ref target="10409">1912-01-20 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7363">Geijerstam, Gustaf af</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10408.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -110,11 +117,6 @@ Beantwortet in: <ref target="10409">1912-01-20 AS an SF</ref></note>
           <term>Sammelausgabe (Erzählungen)</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb7363" source="https://pmb.acdh.oeaw.ac.at/entity/7363/">
-          <persName>Geijerstam, Gustaf af</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -126,10 +128,12 @@ Beantwortet in: <ref target="10409">1912-01-20 AS an SF</ref></note>
         <p>2 Blatt, 2 Seiten beschrieben
 
 Bezug auf: Gespräche über Sammelausgabe der Erzählungen (Tgb 1912-01-04)
-Beantwortet in: <ref target="10409">1912-01-20 AS an SF</ref></p>
+Beantwortet in: <ref target="10409">1912-01-20 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0519"/>264<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0519"/>264<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
 den 18. Januar 1912<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -154,7 +158,8 @@ pro Exemplar, also mit M. 9600.- für 6000 Exemplare, eingestellt. Es<lb/>
 ist dabei eine Tantieme von 20 % von dem fictiven Ladenpreis von<lb/>
 8 Mark für das broschierte Exemplar angenommen, da das Gesamtwerk<lb/>
 nur gebunden geliefert wird und von den Kosten des Einbands eine</p>
-        <p><pb facs="1416742_0520"/>22.<lb/>
+        <p>
+          <pb facs="1416742_0520"/>22.<lb/>
 Tantiene ja nicht bezahlt werden kann. Ich müsste ausserdem das<lb/>
 Recht haben. 400 hemerarfreie Exemplare zu drucken, da ich bei<lb/>
 der sehr knappen Kalkulation die Partie-Freiexemplare, dem Buch<lb/>

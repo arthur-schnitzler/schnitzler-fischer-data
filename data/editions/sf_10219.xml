@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,7 +80,8 @@
 von AS erbetene Adressliste (für Freiexemplare) wohl mit separater (nicht überlieferter) Post
 
 Antwort auf: <ref target="10218">1908-05-14 AS an SF</ref>
-Beantwortet in: <ref target="10220">1908-05-23 AS an SF</ref></note>
+Beantwortet in: <ref target="10220">1908-05-23 AS an SF</ref>
+        </note>
         <note type="published_in">Rodewald, 81-82 [Nr. 116]</note>
         <note type="type">Handschrift (teils frH eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1908-05-18.html</note>
@@ -96,41 +98,25 @@ Beantwortet in: <ref target="10220">1908-05-23 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10815">Bahr, Hermann</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10828">Bang, Herman</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11250">Eloesser, Arthur</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="11674748X">Fred, Alfred W.</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2229">Handl, Willi</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2989">Polgar, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12441">Poppenberg, Felix</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2167">Salten, Felix</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13112">Wiegler, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10219.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Rezension</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10815" source="https://pmb.acdh.oeaw.ac.at/entity/10815/">
-          <persName>Bahr, Hermann</persName>
-        </person>
-        <person ref="#pmb10828" source="https://pmb.acdh.oeaw.ac.at/entity/10828/">
-          <persName>Bang, Herman</persName>
-        </person>
-        <person ref="#pmb11250" source="https://pmb.acdh.oeaw.ac.at/entity/11250/">
-          <persName>Eloesser, Arthur</persName>
-        </person>
-        <person ref="11674748X" source="https://d-nb.info/gnd/11674748X">
-          <persName>Fred, Alfred W.</persName>
-        </person>
-        <person ref="#pmb2229" source="https://pmb.acdh.oeaw.ac.at/entity/2229/">
-          <persName>Handl, Willi</persName>
-        </person>
-        <person ref="#pmb2989" source="https://pmb.acdh.oeaw.ac.at/entity/2989/">
-          <persName>Polgar, Alfred</persName>
-        </person>
-        <person ref="#pmb12441" source="https://pmb.acdh.oeaw.ac.at/entity/12441/">
-          <persName>Poppenberg, Felix</persName>
-        </person>
-        <person ref="#pmb2167" source="https://pmb.acdh.oeaw.ac.at/entity/2167/">
-          <persName>Salten, Felix</persName>
-        </person>
-        <person ref="#pmb13112" source="https://pmb.acdh.oeaw.ac.at/entity/13112/">
-          <persName>Wiegler, Paul</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -143,10 +129,12 @@ Beantwortet in: <ref target="10220">1908-05-23 AS an SF</ref></note>
 von AS erbetene Adressliste (für Freiexemplare) wohl mit separater (nicht überlieferter) Post
 
 Antwort auf: <ref target="10218">1908-05-14 AS an SF</ref>
-Beantwortet in: <ref target="10220">1908-05-23 AS an SF</ref></p>
+Beantwortet in: <ref target="10220">1908-05-23 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0328"/>212<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0328"/>212<lb/>
 170<lb/>
 VERLAG<lb/>
 S. FISCHER,<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -67,7 +68,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Beantwortet in: <ref target="10829">1921-06-07 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10829">1921-06-07 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1921-05-30.html</note>
       </notesStmt>
@@ -83,6 +85,17 @@ Beantwortet in: <ref target="10829">1921-06-07 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="173319238">Aldis, Mary</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11981">Kramer, Leopold</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20474">Linden, Gustaf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12274">Moissi, Alexander</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb745">Skandinavien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb1119">Stockholm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10826.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -95,31 +108,6 @@ Beantwortet in: <ref target="10829">1921-06-07 SF (Berlin) an AS (Wien)</ref></n
           <term>skandinavisch</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="173319238" source="https://d-nb.info/gnd/173319238">
-          <persName>Aldis, Mary</persName>
-        </person>
-        <person ref="#pmb11981" source="https://pmb.acdh.oeaw.ac.at/entity/11981/">
-          <persName>Kramer, Leopold</persName>
-        </person>
-        <person ref="#pmb20474" source="https://pmb.acdh.oeaw.ac.at/entity/20474/">
-          <persName>Linden, Gustaf</persName>
-        </person>
-        <person ref="#pmb12274" source="https://pmb.acdh.oeaw.ac.at/entity/12274/">
-          <persName>Moissi, Alexander</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-        <place ref="#pmb745" source="https://pmb.acdh.oeaw.ac.at/entity/745/">
-          <placeName>Skandinavien</placeName>
-        </place>
-        <place ref="#pmb1119" source="https://pmb.acdh.oeaw.ac.at/entity/1119/">
-          <placeName>Stockholm</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -129,10 +117,12 @@ Beantwortet in: <ref target="10829">1921-06-07 SF (Berlin) an AS (Wien)</ref></n
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Beantwortet in: <ref target="10829">1921-06-07 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10829">1921-06-07 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0184"/>un und ziehe immerhin noch in Erwägung, ob ich<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0184"/>un und ziehe immerhin noch in Erwägung, ob ich<lb/>
 le wenigen deutsch-österre ichischen Bühnen<lb/>
 loht etwa doch bei Otto Eirich belassen sollte.<lb/>
 8. Mein Vertrag mit Harz-höte mir aller-<lb/>
@@ -209,7 +199,8 @@ azu zu bewegen die Tantièmen fürzdie ge<lb/>
 schlossenen Vorstellungen des „Reigen zu zah<lb/>
 len? Sind wir denn wirklich gegen alle diese,<lb/>
 um mich milde auszudrücken, Inkorrektheite</p>
-        <p><pb facs="1416739_0185"/>vollkommen weh rlos?<lb/>
+        <p>
+          <pb facs="1416739_0185"/>vollkommen weh rlos?<lb/>
 Mit herzlichem Gruss<lb/>
 Ihr<lb/>
 Herrn S.Fischer,<lb/>

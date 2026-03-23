@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -84,6 +85,16 @@ Anlage: Quittung über den Kauf von Schnitzlers "Reigen" in der Ausgabe vom Harz
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2657">Fischer, Hedwig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20707">Lányi, Richard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4374">Maril, Konrad</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb1061">Engadin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11690.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -92,28 +103,6 @@ Anlage: Quittung über den Kauf von Schnitzlers "Reigen" in der Ausgabe vom Harz
           <term>Honorar</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2657" source="https://pmb.acdh.oeaw.ac.at/entity/2657/">
-          <persName>Fischer, Hedwig</persName>
-        </person>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb20707" source="https://pmb.acdh.oeaw.ac.at/entity/20707/">
-          <persName>Lányi, Richard</persName>
-        </person>
-        <person ref="#pmb4374" source="https://pmb.acdh.oeaw.ac.at/entity/4374/">
-          <persName>Maril, Konrad</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb1061" source="https://pmb.acdh.oeaw.ac.at/entity/1061/">
-          <placeName>Engadin</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -127,8 +116,9 @@ Antwort auf: <ref target="11686">1931-07-01 AS (Wien) an SF (Berlin)</ref>
 Beantwortet in: <ref target="11691">1931-07-13 AS (Wien) an SF (Berlin)</ref>
 Anlage: Quittung über den Kauf von Schnitzlers "Reigen" in der Ausgabe vom Harz Verlag</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416744_0150"/>1050<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416744_0150"/>1050<lb/>
 R.<lb/>
 31/17<lb/>
 S. Fischer Verlag/ Berlin W57 Bülowstratze 90<lb/>

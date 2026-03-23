@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -65,7 +66,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten
 Antwort auf: <ref target="10643">1918-02-26 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10648">1918-03-07 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10648">1918-03-07 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="published_in">Rodewald, 116-117 [Nr. 154]</note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1918-03-04.html</note>
@@ -82,6 +84,15 @@ Beantwortet in: <ref target="10648">1918-03-07 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12274">Moissi, Alexander</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12504">Reinhardt, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb210">Colmar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10646.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,25 +111,6 @@ Beantwortet in: <ref target="10648">1918-03-07 SF (Berlin) an AS (Wien)</ref></n
           <term>österreichisch</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb12274" source="https://pmb.acdh.oeaw.ac.at/entity/12274/">
-          <persName>Moissi, Alexander</persName>
-        </person>
-        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
-          <persName>Reinhardt, Max</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb210" source="https://pmb.acdh.oeaw.ac.at/entity/210/">
-          <placeName>Colmar</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -129,10 +121,12 @@ Beantwortet in: <ref target="10648">1918-03-07 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>2 Blatt, 3 Seiten
 Antwort auf: <ref target="10643">1918-02-26 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10648">1918-03-07 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10648">1918-03-07 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0051"/>Verlag für Kunst und Industrie, hat sonderbaren<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0051"/>Verlag für Kunst und Industrie, hat sonderbaren<lb/>
 weise an Vogeler gedacht, der mir, nach dem, was<lb/>
 ich von ihm kenne, gerade für die „Beatrice"<lb/>
 nicht der richtige zu sein scheint.<lb/>
@@ -178,7 +172,8 @@ gleichmässige Verteilung des Papieres, auch<lb/>
 wenn Sie in Wien keines bekommen solltan, ins<lb/>
 Auge fassen werden.<lb/>
 Neulich wurde mir hier ganz inoffi-</p>
-        <p><pb facs="1416739_0052"/>Votre<lb/>
+        <p>
+          <pb facs="1416739_0052"/>Votre<lb/>
 ziell angedeutet, dass die zuständigen Behörden<lb/>
 Papier ohneweiters zur Verfügung zu stellen<lb/>
 bereit sein dürften,wenn xxxxbetraffendenxxtsxx<lb/>
@@ -221,7 +216,8 @@ Bitte depeschieren Sie rechtzeig,falls<lb/>
 Sie nach wien kommen sollten.<lb/>
 Herzlichst<lb/>
 Ihr</p>
-        <p><pb facs="1416739_0053"/>Chacuniergeoge<lb/>
+        <p>
+          <pb facs="1416739_0053"/>Chacuniergeoge<lb/>
 11.3.1918.<lb/>
 Ttremèt<lb/>
 Lieber Freund.<lb/>

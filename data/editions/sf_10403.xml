@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10403">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -90,6 +91,18 @@ Bezug auf: 1911-10-14 ante AS an SF (Illustrierte Ausgabe 'Hirtenflöte')</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10986">Brahm, Otto</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11813">Jacobsohn, Siegfried</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3960">Monnard, Heinz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="138743746">Perles, Ernst (?)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1324225815">Perles, Oskar (?)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12689">Schmutzer, Ferdinand</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="7590354-4">Lessing-Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10403.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -101,36 +114,6 @@ Bezug auf: 1911-10-14 ante AS an SF (Illustrierte Ausgabe 'Hirtenflöte')</note>
           <term>Zeitung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10986" source="https://pmb.acdh.oeaw.ac.at/entity/10986/">
-          <persName>Brahm, Otto</persName>
-        </person>
-        <person ref="#pmb11813" source="https://pmb.acdh.oeaw.ac.at/entity/11813/">
-          <persName>Jacobsohn, Siegfried</persName>
-        </person>
-        <person ref="#pmb3960" source="https://pmb.acdh.oeaw.ac.at/entity/3960/">
-          <persName>Monnard, Heinz</persName>
-        </person>
-        <person ref="138743746" source="https://d-nb.info/gnd/138743746">
-          <persName>Perles, Ernst (?)</persName>
-        </person>
-        <person ref="1324225815" source="https://d-nb.info/gnd/1324225815">
-          <persName>Perles, Oskar (?)</persName>
-        </person>
-        <person ref="#pmb12689" source="https://pmb.acdh.oeaw.ac.at/entity/12689/">
-          <persName>Schmutzer, Ferdinand</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="7590354-4" source="https://d-nb.info/gnd/7590354-4">
-          <orgName>Lessing-Theater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -143,8 +126,9 @@ Bezug auf: 1911-10-14 ante AS an SF (Illustrierte Ausgabe 'Hirtenflöte')</note>
 
 Bezug auf: 1911-10-14 ante AS an SF (Illustrierte Ausgabe 'Hirtenflöte')</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0514"/>261<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0514"/>261<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
 den 19/X. 1911<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>

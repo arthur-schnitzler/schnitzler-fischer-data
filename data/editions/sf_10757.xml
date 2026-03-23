@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -73,7 +74,8 @@
       <notesStmt>
         <note type="description">5 Baltt, 5 Seiten
 Antwort auf: <ref target="10754">1920-05-10 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1920-05-19.html</note>
       </notesStmt>
@@ -90,6 +92,18 @@ Beantwortet in: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10836">Bartsch, Rudolf Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb58067">Kosztolányi, Dezső</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20142">Lasswitz, Koloman</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43471">Budapest</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb914">Madrid</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10757.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -109,34 +123,6 @@ Beantwortet in: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref></n
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
-          <persName>Bartsch, Rudolf Hans</persName>
-        </person>
-        <person ref="#pmb58067" source="https://pmb.acdh.oeaw.ac.at/entity/58067/">
-          <persName>Kosztolányi, Dezső</persName>
-        </person>
-        <person ref="#pmb20142" source="https://pmb.acdh.oeaw.ac.at/entity/20142/">
-          <persName>Lasswitz, Koloman</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43471" source="https://pmb.acdh.oeaw.ac.at/entity/43471/">
-          <placeName>Budapest</placeName>
-        </place>
-        <place ref="#pmb914" source="https://pmb.acdh.oeaw.ac.at/entity/914/">
-          <placeName>Madrid</placeName>
-        </place>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -147,10 +133,12 @@ Beantwortet in: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>5 Baltt, 5 Seiten
 Antwort auf: <ref target="10754">1920-05-10 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0264"/>sehr geehrter Herr<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0264"/>sehr geehrter Herr<lb/>
 erichtet<lb/>
 in Beantwortung Ihres an Herrn Fischer<lb/>
 Sr Wer<lb/>
@@ -178,7 +166,8 @@ Gang,<lb/>
 Mittelsmann gestellte<lb/>
 weitere Abschlüsse<lb/>
 Firmen</p>
-        <p><pb facs="1416743_0265"/>geschachte<lb/>
+        <p>
+          <pb facs="1416743_0265"/>geschachte<lb/>
 t zelverleger sein Geschäft an<lb/>
 e uns unser Mittelsmann schon früher bei<lb/>
 darüber, dass der Rückkauf der Rechte vom Einzel-<lb/>
@@ -211,7 +200,8 @@ für die Gesamtausgabe zu pflegen; so<lb/>
 Ihnen ausdrücklich autorisie.<lb/>
 Was die finanzie¬<lb/>
 so möcht</p>
-        <p><pb facs="1416743_0266"/>für bedeutenden Herstellungskosten<lb/>
+        <p>
+          <pb facs="1416743_0266"/>für bedeutenden Herstellungskosten<lb/>
 Ausgabe hinaus durch Vorauszahlung hohe<lb/>
 insbesondere auch zu bedenken, dass du<lb/>
 Gesamtausgabe die öffentliche Aufmerksamke<lb/>
@@ -241,7 +231,8 @@ ganze<lb/>
 von<lb/>
 Hans Bartse<lb/>
 dave</p>
-        <p><pb facs="1416743_0267"/>ihrend der Dauer der nächstfolgenden 6 Monate<lb/>
+        <p>
+          <pb facs="1416743_0267"/>ihrend der Dauer der nächstfolgenden 6 Monate<lb/>
 betreiben, so bitten wir um baldigste Mitteilung<lb/>
 bezüglichen Arbeiten sogleich in Angriff genommen werden<lb/>
 Was die Novelle „ Casanova „ für die ungarische Sprach<lb/>
@@ -264,7 +255,8 @@ Honorare zu bezahlen; aussen<lb/>
 tion nicht angeschlossen.<lb/>
 das Auftauchen und<lb/>
 soe</p>
-        <p><pb facs="1416743_0268"/>a ces<lb/>
+        <p>
+          <pb facs="1416743_0268"/>a ces<lb/>
 Fornesroch-Anno<lb/>
 Mitteilung gemacht, dass er eine Buchausgabe der * Sa<lb/>
 richtigt. Wir wiesen ihn darauf hin, dass für die Augführung ein-<lb/>

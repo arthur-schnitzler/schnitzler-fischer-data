@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10934">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -74,6 +75,13 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1140452606">Bernstein, Hermann</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb710">Belgien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10934.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -81,19 +89,6 @@
           <term>flämisch</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="1140452606" source="https://d-nb.info/gnd/1140452606">
-          <persName>Bernstein, Hermann</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb710" source="https://pmb.acdh.oeaw.ac.at/entity/710/">
-          <placeName>Belgien</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -104,8 +99,9 @@
       <div type="letter">
         <p>1 Blatt, 1 Seite</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0533"/>S'FISCHER-VERLAG'THEATERABTEILUNG'BERLIN<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0533"/>S'FISCHER-VERLAG'THEATERABTEILUNG'BERLIN<lb/>
 W 57. BÜLÖWSTR90<lb/>
 Herrn Dr. Arthur Schnitzler, Berchtesgaden, Grand Hotel<lb/>
 Den 31, August 1922<lb/>

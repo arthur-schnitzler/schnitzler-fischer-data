@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -72,7 +73,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten
-Antwort auf: <ref target="10899">1922-03-20 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="10899">1922-03-20 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-03-23.html</note>
       </notesStmt>
@@ -88,6 +90,17 @@ Antwort auf: <ref target="10899">1922-03-20 SF (Berlin) an AS (Wien)</ref></note
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11515">Greiner, Leo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11891">Kayser, Rudolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8396">Körner, Josef</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2456">Specht, Richard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10901.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -101,31 +114,6 @@ Antwort auf: <ref target="10899">1922-03-20 SF (Berlin) an AS (Wien)</ref></note
           <term>vergriffen</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11515" source="https://pmb.acdh.oeaw.ac.at/entity/11515/">
-          <persName>Greiner, Leo</persName>
-        </person>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-        <person ref="#pmb11891" source="https://pmb.acdh.oeaw.ac.at/entity/11891/">
-          <persName>Kayser, Rudolf</persName>
-        </person>
-        <person ref="#pmb8396" source="https://pmb.acdh.oeaw.ac.at/entity/8396/">
-          <persName>Körner, Josef</persName>
-        </person>
-        <person ref="#pmb2456" source="https://pmb.acdh.oeaw.ac.at/entity/2456/">
-          <persName>Specht, Richard</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -135,10 +123,12 @@ Antwort auf: <ref target="10899">1922-03-20 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 3 Seiten
-Antwort auf: <ref target="10899">1922-03-20 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="10899">1922-03-20 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0228"/>Fischer<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0228"/>Fischer<lb/>
 23.3.1922.<lb/>
 G.H.F.P.<lb/>
 Lieber Freund.<lb/>
@@ -181,7 +171,8 @@ ständlich an, dass Sie mir genau dieselben Be-<lb/>
 dingungen gewähren wie Gerhart Hauptmann und<lb/>
 ich glaube, da es sich hier nur um gebundene<lb/>
 Exemplarehandelt, dass der Autor nicht von dem</p>
-        <p><pb facs="1416739_0229"/>supponierten Preis des broschierten, sondern<lb/>
+        <p>
+          <pb facs="1416739_0229"/>supponierten Preis des broschierten, sondern<lb/>
 eben von dem gebundenen einen Perzentsatz be-<lb/>
 ziehen sollte und müsste. Wir haben seinerzeit<lb/>
 hins schtlich der Gesammelten Werke Abmachungen<lb/>
@@ -254,7 +245,8 @@ wünsehen<lb/>
 Ihr<lb/>
 Herrn S.Fischer,Verlag.<lb/>
 Berlin.</p>
-        <p><pb facs="1416739_0230"/>The<lb/>
+        <p>
+          <pb facs="1416739_0230"/>The<lb/>
 7.4.19221<lb/>
 Sehr verehrter Herr Greiner.<lb/>
 Mit Ihrem in manchen Details die<lb/>

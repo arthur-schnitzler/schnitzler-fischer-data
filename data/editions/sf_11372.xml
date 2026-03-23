@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -72,7 +73,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
-Beantwortet in: <ref target="11374">1928-02-14 SF (Berlin) an AS (Wien)</ref>, <ref target="11377">1928-02-17 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11374">1928-02-14 SF (Berlin) an AS (Wien)</ref>, <ref target="11377">1928-02-17 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1928-02-11.html</note>
       </notesStmt>
@@ -89,6 +91,13 @@ Beantwortet in: <ref target="11374">1928-02-14 SF (Berlin) an AS (Wien)</ref>, <
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11372.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -109,17 +118,6 @@ Beantwortet in: <ref target="11374">1928-02-14 SF (Berlin) an AS (Wien)</ref>, <
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -129,10 +127,12 @@ Beantwortet in: <ref target="11374">1928-02-14 SF (Berlin) an AS (Wien)</ref>, <
     <body>
       <div type="letter">
         <p>2 Blatt, 2 Seiten
-Beantwortet in: <ref target="11374">1928-02-14 SF (Berlin) an AS (Wien)</ref>, <ref target="11377">1928-02-17 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11374">1928-02-14 SF (Berlin) an AS (Wien)</ref>, <ref target="11377">1928-02-17 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0013"/>Ich erbat vor kurzem Einbandmuster für<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0013"/>Ich erbat vor kurzem Einbandmuster für<lb/>
 Therese“ und erwarte gern freundliche Erledigung<lb/>
 dieser und anderer Bitten in meinem letzten<lb/>
 Briefe.<lb/>
@@ -181,7 +181,8 @@ In der letzten Korrektur habe ich keine<lb/>
 weiteren Veränderungen vorgenommen, es ist ja, wie<lb/>
 ich beim Vergleich mit der vorigen konstatieren<lb/>
 konnte, alles berücksichtigt worden. Ueber Einhand</p>
-        <p><pb facs="1416741_0014"/>und Umschlagblatt höre ich wohl bald mehr von<lb/>
+        <p>
+          <pb facs="1416741_0014"/>und Umschlagblatt höre ich wohl bald mehr von<lb/>
 Ihnen. Von jeder Art Waschzettelei bitte ich abzu-<lb/>
 sehen.<lb/>
 Herzlichst grüssend<lb/>

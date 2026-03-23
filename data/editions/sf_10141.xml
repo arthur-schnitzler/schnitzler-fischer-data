@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -84,6 +85,11 @@ Beantwortet in: <ref target="10142">1904-03-26 AS an SF</ref> (Notizen dafür au
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20466">Lindemann, Gustav</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10141.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -94,11 +100,6 @@ Beantwortet in: <ref target="10142">1904-03-26 AS an SF</ref> (Notizen dafür au
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb20466" source="https://pmb.acdh.oeaw.ac.at/entity/20466/">
-          <persName>Lindemann, Gustav</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -112,8 +113,9 @@ Beantwortet in: <ref target="10142">1904-03-26 AS an SF</ref> (Notizen dafür au
 Antwort auf: 1904-03-19post/1904-03-23 AS an SF (bzgl. Lindemann; nicht überliefert)
 Beantwortet in: <ref target="10142">1904-03-26 AS an SF</ref> (Notizen dafür auf vorliegendem Brief)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0187"/>S. FISCHER, VERLAG<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0187"/>S. FISCHER, VERLAG<lb/>
 23/8. 1904<lb/>
 BERLIN W., DEN<lb/>
 TELEPHON:<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -72,7 +73,8 @@
         <note type="description">1 Blatt, 1 Seite beschrieben
 
 Antwort auf: <ref target="10313">1910-04-21 SF an AS</ref>
-Beantwortet in: <ref target="10316">1910-04-29 SF/CS an AS</ref></note>
+Beantwortet in: <ref target="10316">1910-04-29 SF/CS an AS</ref>
+        </note>
         <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1910-04-23.html</note>
       </notesStmt>
@@ -88,6 +90,12 @@ Beantwortet in: <ref target="10316">1910-04-29 SF/CS an AS</ref></note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3365">Stollberg, Ignaz Georg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="44467-4">Münchner Schauspielhaus</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10314.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -99,16 +107,6 @@ Beantwortet in: <ref target="10316">1910-04-29 SF/CS an AS</ref></note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb3365" source="https://pmb.acdh.oeaw.ac.at/entity/3365/">
-          <persName>Stollberg, Ignaz Georg</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="44467-4" source="https://d-nb.info/gnd/44467-4">
-          <orgName>Münchner Schauspielhaus</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -120,7 +118,8 @@ Beantwortet in: <ref target="10316">1910-04-29 SF/CS an AS</ref></note>
         <p>1 Blatt, 1 Seite beschrieben
 
 Antwort auf: <ref target="10313">1910-04-21 SF an AS</ref>
-Beantwortet in: <ref target="10316">1910-04-29 SF/CS an AS</ref></p>
+Beantwortet in: <ref target="10316">1910-04-29 SF/CS an AS</ref>
+        </p>
       </div>
     </body>
   </text>

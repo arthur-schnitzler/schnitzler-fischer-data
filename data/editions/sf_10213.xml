@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -93,6 +94,14 @@ Beantwortet in: 1908-03-28post/1908-04-09ante AS an SF (Hartleben-Briefe, Einban
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11701">Hirschfeld, Georg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11820">Jensen, Johannes Vilhelm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13055">Wassermann, Jakob</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10213.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -101,22 +110,6 @@ Beantwortet in: 1908-03-28post/1908-04-09ante AS an SF (Hartleben-Briefe, Einban
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11701" source="https://pmb.acdh.oeaw.ac.at/entity/11701/">
-          <persName>Hirschfeld, Georg</persName>
-        </person>
-        <person ref="#pmb11820" source="https://pmb.acdh.oeaw.ac.at/entity/11820/">
-          <persName>Jensen, Johannes Vilhelm</persName>
-        </person>
-        <person ref="#pmb13055" source="https://pmb.acdh.oeaw.ac.at/entity/13055/">
-          <persName>Wassermann, Jakob</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -131,8 +124,9 @@ Anlage: Einbandprobe
 Antwort auf: <ref target="10212">1908-03-26 AS an SF</ref>
 Beantwortet in: 1908-03-28post/1908-04-09ante AS an SF (Hartleben-Briefe, Einbandgestaltung; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0321"/>212<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0321"/>212<lb/>
 166<lb/>
 S. FISCHER,VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
 BERLin W., DEN 28. März 08<lb/>
@@ -158,7 +152,8 @@ Bushangegabe erst Ende Mai spätestens Anfang Juni<lb/>
 am engaben.<lb/>
 27.<lb/>
 [?]</p>
-        <p><pb facs="1416742_0322"/>2<lb/>
+        <p>
+          <pb facs="1416742_0322"/>2<lb/>
 fertig sein können.<lb/>
 Den Leinenband möchte ich xxx gestalten,<lb/>
 wie die Leinenbände der neuen Bübker, die<lb/>

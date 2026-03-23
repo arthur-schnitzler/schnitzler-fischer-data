@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10171">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -83,17 +84,17 @@ In der Zählung ist Nr. 139 übersprungen, also keine Überlieferungslücke</not
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10171.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Honorar</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -106,8 +107,9 @@ In der Zählung ist Nr. 139 übersprungen, also keine Überlieferungslücke</not
 
 In der Zählung ist Nr. 139 übersprungen, also keine Überlieferungslücke</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0254"/>S. FISCHER,VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0254"/>S. FISCHER,VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
 BERene W., DEN 21. Dec. 66<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
 Nian xviir<lb/>

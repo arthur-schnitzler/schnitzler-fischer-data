@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -84,6 +85,14 @@ Anlage: Brief in deutscher Übersetzung von der Firma Brandt &amp; Kirkpatrick (
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10814.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -93,22 +102,6 @@ Anlage: Brief in deutscher Übersetzung von der Firma Brandt &amp; Kirkpatrick (
           <term>Konfiskation/Verbot/Zensur</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -121,8 +114,9 @@ Anlage: Brief in deutscher Übersetzung von der Firma Brandt &amp; Kirkpatrick (
 Beantwortet in: <ref target="10815">1921-04-25 AS (Wien) an SF (Berlin)</ref>
 Anlage: Brief in deutscher Übersetzung von der Firma Brandt &amp; Kirkpatrick (New York) an SF</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0356"/>Verlag / Be:<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0356"/>Verlag / Be:<lb/>
 lin<lb/>
 ra.<lb/>
 1669<lb/>
@@ -155,7 +149,8 @@ leger, der verschiedene Ihnen<lb/>
 kung auf die neuen. Zu<lb/>
 der Firma mitgeteilt<lb/>
 ventuell ein-</p>
-        <p><pb facs="1416743_0357"/>ag / Berlin W 57/Bülowstr<lb/>
+        <p>
+          <pb facs="1416743_0357"/>ag / Berlin W 57/Bülowstr<lb/>
 che<lb/>
 conto: Deutsche Bank. Depositenkasse P in Berlin / Postscheckkonto: Berlin Nr. 166<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 1662. 6162 und 9292<lb/>

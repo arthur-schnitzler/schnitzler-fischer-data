@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -81,6 +82,13 @@ Anlage: Auflistung potenzieller Zusammenstellungen von Schnitzlers Novellen für
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="118509683">Bermann, Gottfried</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12176">Mann, Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13055">Wassermann, Jakob</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11609.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -89,17 +97,6 @@ Anlage: Auflistung potenzieller Zusammenstellungen von Schnitzlers Novellen für
           <term>Novellenband</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="118509683" source="https://d-nb.info/gnd/118509683">
-          <persName>Bermann, Gottfried</persName>
-        </person>
-        <person ref="#pmb12176" source="https://pmb.acdh.oeaw.ac.at/entity/12176/">
-          <persName>Mann, Thomas</persName>
-        </person>
-        <person ref="#pmb13055" source="https://pmb.acdh.oeaw.ac.at/entity/13055/">
-          <persName>Wassermann, Jakob</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -112,8 +109,9 @@ Anlage: Auflistung potenzieller Zusammenstellungen von Schnitzlers Novellen für
 Beantwortet in: <ref target="11610">1931-01-05 AS (Wien) an SF (Berlin)</ref>
 Anlage: Auflistung potenzieller Zusammenstellungen von Schnitzlers Novellen für einen neuen Sammelband</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416744_0073"/>94<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416744_0073"/>94<lb/>
 Mrs. Rd.<lb/>
 S. Fischer Verlag/Berlin M57 Bülowstratze 9o<lb/>
 AKTIENGESELISCHAFT<lb/>
@@ -149,7 +147,8 @@ als billig bezeichnen kann, würden Sie ein Honorar von 30 Pfg.<lb/>
 pro Exemplar bekommen. K'nnen wir also nicht mit der 2,85 -Ausgabe<lb/>
 sehr grosse Umsätze erzielen, so hätte die Ausgabe zu 3,75 den<lb/>
 a v. s.</p>
-        <p><pb facs="1416744_0074"/>S. FISCHER :: VERLAG A. G. :) BERLIN W. 57<lb/>
+        <p>
+          <pb facs="1416744_0074"/>S. FISCHER :: VERLAG A. G. :) BERLIN W. 57<lb/>
 Dr. A. Schnitzler 2/1. 31<lb/>
 Vorzug, dass dabei ein anständiges Honorar für Sie herauskäme,<lb/>
 während der Preis von M 2,85 eben nur als ein Propagandapreis<lb/>

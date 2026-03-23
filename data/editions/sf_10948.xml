@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,7 +80,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="10946">1922-11-07 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="10946">1922-11-07 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-11-16.html</note>
       </notesStmt>
@@ -96,6 +98,16 @@ Antwort auf: <ref target="10946">1922-11-07 SF (Berlin) an AS (Wien)</ref></note
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb92768">Woticky, Edward</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb313">Polen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Greenwich Village Theatre New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb250435">Hamburger Kammerspiele</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10948.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -107,30 +119,6 @@ Antwort auf: <ref target="10946">1922-11-07 SF (Berlin) an AS (Wien)</ref></note
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
-          <persName>Woticky, Edward</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
-          <placeName>Polen</placeName>
-        </place>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org>
-          <orgName>Greenwich Village Theatre New York</orgName>
-        </org>
-        <org ref="#pmb250435" source="https://pmb.acdh.oeaw.ac.at/entity/250435/">
-          <orgName>Hamburger Kammerspiele</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -140,10 +128,12 @@ Antwort auf: <ref target="10946">1922-11-07 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="10946">1922-11-07 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="10946">1922-11-07 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0249"/>16.11.1922.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0249"/>16.11.1922.<lb/>
 in the<lb/>
 Sehr verehrter Herr Greiner.<lb/>
 Mein Telegramm haben Sie wohl erhalten.<lb/>
@@ -183,7 +173,8 @@ Russland gespielt haben könne Autorisation na-<lb/>
 türlich und ohne Honorar zu zahlen), wir wollen<lb/>
 also bei unserer Forderung bleiben odarauf die<lb/>
 Aufführung verzihhten.</p>
-        <p><pb facs="1416739_0250"/>Was die zweiten 300 Collar der Green<lb/>
+        <p>
+          <pb facs="1416739_0250"/>Was die zweiten 300 Collar der Green<lb/>
 wich Village Plaxers anbelangt, werden Sie mit<lb/>
 Ihrer postmistischen Auffassung wohl Recht haben<lb/>
 Haben die Kammerspiele Hamburg alles<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -63,7 +64,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Beantwortet in: <ref target="11576">1930-06-02 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11576">1930-06-02 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1930-05-24.html</note>
       </notesStmt>
@@ -79,6 +81,11 @@ Beantwortet in: <ref target="11576">1930-06-02 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <persName type="coworker">Hoffmann, Norbert</persName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11572.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -86,11 +93,6 @@ Beantwortet in: <ref target="11576">1930-06-02 SF (Berlin) an AS (Wien)</ref></n
           <term>Urheberrecht/Copyright</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -100,10 +102,12 @@ Beantwortet in: <ref target="11576">1930-06-02 SF (Berlin) an AS (Wien)</ref></n
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Beantwortet in: <ref target="11576">1930-06-02 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11576">1930-06-02 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0133"/>T. Fischer<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0133"/>T. Fischer<lb/>
 24.5.1930.<lb/>
 Fischer-Harz,<lb/>
 Für Dr. Norbert Hofmann.<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -64,7 +65,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
-Antwort auf: <ref target="10879">1922-01-19 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="10879">1922-01-19 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-02-10.html</note>
       </notesStmt>
@@ -81,6 +83,16 @@ Antwort auf: <ref target="10879">1922-01-19 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10836">Bartsch, Rudolf Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb14156">Besnard, Lucien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb92768">Woticky, Edward</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb562">Genf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb182">Paris</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10884.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -89,28 +101,6 @@ Antwort auf: <ref target="10879">1922-01-19 AS (Wien) an SF (Berlin)</ref></note
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
-          <persName>Bartsch, Rudolf Hans</persName>
-        </person>
-        <person ref="#pmb14156" source="https://pmb.acdh.oeaw.ac.at/entity/14156/">
-          <persName>Besnard, Lucien</persName>
-        </person>
-        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
-          <persName>Woticky, Edward</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb562" source="https://pmb.acdh.oeaw.ac.at/entity/562/">
-          <placeName>Genf</placeName>
-        </place>
-        <place ref="#pmb182" source="https://pmb.acdh.oeaw.ac.at/entity/182/">
-          <placeName>Paris</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -120,10 +110,12 @@ Antwort auf: <ref target="10879">1922-01-19 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 4 Seiten
-Antwort auf: <ref target="10879">1922-01-19 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="10879">1922-01-19 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0461"/>Fischer/Verlag/Berlin W 57/Bülowstrasse<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0461"/>Fischer/Verlag/Berlin W 57/Bülowstrasse<lb/>
 Lito: Deutsche Bank. Depositenkasse P in Berlin / Postscheckkonto: Berlin Nr. 16692<lb/>
 se: Amt Lützow Nr. 1662, 6162 und 9292<lb/>
 10. Febr. 22<lb/>
@@ -154,7 +146,8 @@ gegeben haben, sich den Verlegern gegenüber dennoch als Ihr Vertreter<lb/>
 geriert, und das kann man ihm nicht einmal übelnehmen, da er ohne<lb/>
 eine klare Berechtigung, zumal wenn dasselbe Buch von verschiedenen<lb/>
 Seiten gleichzeitig angeboten wird, keine Aussicht hat zu reüssieren,</p>
-        <p><pb facs="1416743_0462"/>FISCHER / VER<lb/>
+        <p>
+          <pb facs="1416743_0462"/>FISCHER / VER<lb/>
 v. Blatt<lb/>
 Schnitzler 10/2.22<lb/>
 kann er jedesmal sagen muss, dass er nur unverbindliche Besprechungen<lb/>
@@ -187,7 +180,8 @@ vorgebrachte Frage betrifft, von welchen Firmen Boni &amp; Liveright seiner-<lb/
 zeit irgend welche Rechte für die Gesamtausgabe hätten zurückküafen<lb/>
 müssen, so ist, wie ich Ihnen bereits früher mitteilte, eine dezidierte<lb/>
 Antowrt von Amerika aus nicht erfolgt; es scheint sich aber bei der</p>
-        <p><pb facs="1416743_0463"/>SISCHER / V<lb/>
+        <p>
+          <pb facs="1416743_0463"/>SISCHER / V<lb/>
 2. Blatt<lb/>
 Dr.A.Schnitzler 10/2. 22<lb/>
 Durchsicht der betreffenden Korrespondenzen mit ziemlicher Klarheit<lb/>
@@ -219,7 +213,8 @@ fassbare geschäftliche Vorteile für die Zukunft daraus erwachsen.<lb/>
 Wegen des Allen property Custodian habe ich mich, da Sie es wünschten,<lb/>
 mit sartsch in Verbindung gesetzt.<lb/>
 Die Angelegenheit Wotitzky hat sich bisher in positivem Sinne weiter</p>
-        <p><pb facs="1416743_0464"/>wickelt. Die ihm von mir vorgeschlagenen, auf die Aufführungs-Option<lb/>
+        <p>
+          <pb facs="1416743_0464"/>wickelt. Die ihm von mir vorgeschlagenen, auf die Aufführungs-Option<lb/>
 gezüglichen Aenderungen und Ergänzungen des uns übersandten Vertrages,<lb/>
 sind von ihm per Kabelangenommen worden, sodass der abgeänderte Vertrag<lb/>
 nunmehr an ihn hinausgehen kann. Darnach beseitzt er für 6 Monate das<lb/>

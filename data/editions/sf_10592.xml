@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10592">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -74,6 +75,11 @@ Antwort auf: XXXX-XX-XX SF (Berlin) an AS (Wien) (erschlossen)</note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb114474">Oldenburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10592.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -81,11 +87,6 @@ Antwort auf: XXXX-XX-XX SF (Berlin) an AS (Wien) (erschlossen)</note>
           <term>Erster Weltkrieg</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb114474" source="https://pmb.acdh.oeaw.ac.at/entity/114474/">
-          <placeName>Oldenburg</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -97,8 +98,9 @@ Antwort auf: XXXX-XX-XX SF (Berlin) an AS (Wien) (erschlossen)</note>
         <p>1 Blatt, 1 Seite
 Antwort auf: XXXX-XX-XX SF (Berlin) an AS (Wien) (erschlossen)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0005"/>20.1.1916.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0005"/>20.1.1916.<lb/>
 Fischer<lb/>
 Lieber Freund.<lb/>
 Die Oldenburgische Ablehnung nehme ich<lb/>

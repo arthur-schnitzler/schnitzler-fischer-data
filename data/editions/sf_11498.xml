@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -78,7 +79,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
-Antwort auf: <ref target="11495">1929-08-20 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11495">1929-08-20 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1929-08-25.html</note>
       </notesStmt>
@@ -95,6 +97,19 @@ Antwort auf: <ref target="11495">1929-08-20 SF (Berlin) an AS (Wien)</ref></note
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb119724">Baclanova, Olga</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb178500">Bloch, Eduard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb15173">Curtis Brown, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11165">Dohnányi, Ernst von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116590416">Entsch, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2871">Entsch, Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3105">Karczag, Wilhelm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb21891">Neumann, Franz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11498.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -117,37 +132,6 @@ Antwort auf: <ref target="11495">1929-08-20 SF (Berlin) an AS (Wien)</ref></note
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb119724" source="https://pmb.acdh.oeaw.ac.at/entity/119724/">
-          <persName>Baclanova, Olga</persName>
-        </person>
-        <person ref="#pmb178500" source="https://pmb.acdh.oeaw.ac.at/entity/178500/">
-          <persName>Bloch, Eduard</persName>
-        </person>
-        <person ref="#pmb15173" source="https://pmb.acdh.oeaw.ac.at/entity/15173/">
-          <persName>Curtis Brown, Albert</persName>
-        </person>
-        <person ref="#pmb11165" source="https://pmb.acdh.oeaw.ac.at/entity/11165/">
-          <persName>Dohnányi, Ernst von</persName>
-        </person>
-        <person ref="116590416" source="https://d-nb.info/gnd/116590416">
-          <persName>Entsch, Albert</persName>
-        </person>
-        <person ref="#pmb2871" source="https://pmb.acdh.oeaw.ac.at/entity/2871/">
-          <persName>Entsch, Theodor</persName>
-        </person>
-        <person ref="#pmb3105" source="https://pmb.acdh.oeaw.ac.at/entity/3105/">
-          <persName>Karczag, Wilhelm</persName>
-        </person>
-        <person ref="#pmb21891" source="https://pmb.acdh.oeaw.ac.at/entity/21891/">
-          <persName>Neumann, Franz</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -157,10 +141,12 @@ Antwort auf: <ref target="11495">1929-08-20 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 2 Seiten
-Antwort auf: <ref target="11495">1929-08-20 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11495">1929-08-20 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0091"/>Fevak<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0091"/>Fevak<lb/>
 l'Fischer<lb/>
 Caux 25.8.29.<lb/>
 Lieber Dr.Maril.<lb/>
@@ -200,7 +186,8 @@ etwa irgendwelchen Interessenten das Stück zur<lb/>
 Einsicht überlassen dürfen - es sei - denn auf mein<lb/>
 ausdrückliches Ersuchen, umso weniger als ich<lb/>
 erhebliche Aenderungen vorzunehmen gedenke. So-</p>
-        <p><pb facs="1416741_0092"/>mit lassen wirs wenn es Ihnen beliebt,bei den 10%<lb/>
+        <p>
+          <pb facs="1416741_0092"/>mit lassen wirs wenn es Ihnen beliebt,bei den 10%<lb/>
 bewenden und hoffen wir, dass wir diesmal -endlich<lb/>
 wieder - auch unter diesen Bedingungen einen Ge-<lb/>
 heite<lb/>

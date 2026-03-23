@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10095">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -86,6 +87,11 @@ Beantwortet in: 1899-11-23post/1899-12-05ante AS an SF (Drucklegung 'Reigen', Il
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb28645">Coschell, Moritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10095.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -96,11 +102,6 @@ Beantwortet in: 1899-11-23post/1899-12-05ante AS an SF (Drucklegung 'Reigen', Il
           <term>Zeichnung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb28645" source="https://pmb.acdh.oeaw.ac.at/entity/28645/">
-          <persName>Coschell, Moritz</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -114,8 +115,9 @@ Beantwortet in: 1899-11-23post/1899-12-05ante AS an SF (Drucklegung 'Reigen', Il
 Antwort auf: 1899-11-08post/1899-11-23ante AS an SF (Drucklegung 'Reigen', Illustrationen Coschell 'Anatol'; nicht überliefert)
 Beantwortet in: 1899-11-23post/1899-12-05ante AS an SF (Drucklegung 'Reigen', Illustrationen Coschell 'Anatol'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0113"/>DER<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0113"/>DER<lb/>
 S. FISCHER.<lb/>
 BERene W., DEN 23/11. 1899.<lb/>
 ON:AMT VI, No. 1662.<lb/>
@@ -151,7 +153,8 @@ chen als<lb/>
 Bis alle Zeichnungen reproduzie<lb/>
 sarbeit<lb/>
 Der Druck und die Buchbinde.</p>
-        <p><pb facs="1416742_0114"/>stellt werden<lb/>
+        <p>
+          <pb facs="1416742_0114"/>stellt werden<lb/>
 xyz muss sehr sauber und sorgen<lb/>
 in meinem eigensten Interesse, das Buch noch vor Weihnach<lb/>
 beschehen.<lb/>

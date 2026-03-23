@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -91,7 +92,8 @@
 Anlage: 1914-03-11ante Goschen an SF (nicht überliefert)
 
 Antwort auf: <ref target="10526">1914-03-07 AS an SF</ref>
-Beantwortet in: <ref target="10528">1914-03-13 AS an SF</ref></note>
+Beantwortet in: <ref target="10528">1914-03-13 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm)) (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1914-03-11.html</note>
       </notesStmt>
@@ -106,6 +108,13 @@ Beantwortet in: <ref target="10528">1914-03-13 AS an SF</ref></note>
         <correspAction type="received">
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb116076">Goschen, William Edward (?)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2173">Schnitzler, Olga</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb374">Gardone</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10527.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -114,19 +123,6 @@ Beantwortet in: <ref target="10528">1914-03-13 AS an SF</ref></note>
           <term>Titel/Werktitel</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb116076" source="https://pmb.acdh.oeaw.ac.at/entity/116076/">
-          <persName>Goschen, William Edward (?)</persName>
-        </person>
-        <person ref="#pmb2173" source="https://pmb.acdh.oeaw.ac.at/entity/2173/">
-          <persName>Schnitzler, Olga</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb374" source="https://pmb.acdh.oeaw.ac.at/entity/374/">
-          <placeName>Gardone</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -139,10 +135,12 @@ Beantwortet in: <ref target="10528">1914-03-13 AS an SF</ref></note>
 Anlage: 1914-03-11ante Goschen an SF (nicht überliefert)
 
 Antwort auf: <ref target="10526">1914-03-07 AS an SF</ref>
-Beantwortet in: <ref target="10528">1914-03-13 AS an SF</ref></p>
+Beantwortet in: <ref target="10528">1914-03-13 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0660"/>Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0660"/>Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
 11/3. 1914<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
 Wien<lb/>
@@ -167,7 +165,8 @@ erweckt wird, als ob es sich um ein neues Buch handelte. Wir würden<lb/>
 nicht überschritten werden kann) mit 2000 Mark im vorhinein bezahlen.<lb/>
 Ich wäre Ihnen sehr verbunden, wenn Sie sich darüber gleich äussern<lb/>
 wollten, weil wir das Buch evtl. schon im Mai oder Juni herausbringen</p>
-        <p><pb facs="1416742_0661"/>Dr. Arthur Sc.<lb/>
+        <p>
+          <pb facs="1416742_0661"/>Dr. Arthur Sc.<lb/>
 VERLAG, BERLIN<lb/>
 Ich reise Sonntag auf einige Wochen nach Gardone, führt Sie Ihr<lb/>
 wollen.<lb/>

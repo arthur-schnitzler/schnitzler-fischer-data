@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -75,7 +76,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Beantwortet in: <ref target="10954">1922-12-19 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10954">1922-12-19 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-12-17.html</note>
       </notesStmt>
@@ -92,6 +94,16 @@ Beantwortet in: <ref target="10954">1922-12-19 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19023">Kalich, Bertha</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb710">Belgien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb484">Zürich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10953.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -103,28 +115,6 @@ Beantwortet in: <ref target="10954">1922-12-19 SF (Berlin) an AS (Wien)</ref></n
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb19023" source="https://pmb.acdh.oeaw.ac.at/entity/19023/">
-          <persName>Kalich, Bertha</persName>
-        </person>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb710" source="https://pmb.acdh.oeaw.ac.at/entity/710/">
-          <placeName>Belgien</placeName>
-        </place>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb484" source="https://pmb.acdh.oeaw.ac.at/entity/484/">
-          <placeName>Zürich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -134,10 +124,12 @@ Beantwortet in: <ref target="10954">1922-12-19 SF (Berlin) an AS (Wien)</ref></n
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Beantwortet in: <ref target="10954">1922-12-19 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10954">1922-12-19 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0256"/>,dass in solchen Fällen,xxx die ja an sich<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0256"/>,dass in solchen Fällen,xxx die ja an sich<lb/>
 eine grosse Seltenheit carstellen, der Verle<lb/>
 ger stets das gleiche Entgegenkommen zeigen<lb/>
 Sollte,wie er es vom Autor ziemlich regelmäs-<lb/>
@@ -259,7 +251,8 @@ Pölö,<lb/>
 määrä; — 4, &amp; 3, à 1, à — m<lb/>
 t.D. 68<lb/>
 ###</p>
-        <p><pb facs="1416739_0257"/>B &amp; O 0<lb/>
+        <p>
+          <pb facs="1416739_0257"/>B &amp; O 0<lb/>
 9 m<lb/>
 leur<lb/>
 ̃ O ».<lb/>

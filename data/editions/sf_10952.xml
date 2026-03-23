@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -58,7 +59,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
-Antwort auf: <ref target="10949">1922-11-28 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="10949">1922-11-28 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-12-07.html</note>
       </notesStmt>
@@ -74,6 +76,12 @@ Antwort auf: <ref target="10949">1922-11-28 SF (Berlin) an AS (Wien)</ref></note
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11161">Diederichs, Eugen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10952.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -89,14 +97,6 @@ Antwort auf: <ref target="10949">1922-11-28 SF (Berlin) an AS (Wien)</ref></note
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11161" source="https://pmb.acdh.oeaw.ac.at/entity/11161/">
-          <persName>Diederichs, Eugen</persName>
-        </person>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -106,10 +106,12 @@ Antwort auf: <ref target="10949">1922-11-28 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 4 Seiten
-Antwort auf: <ref target="10949">1922-11-28 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="10949">1922-11-28 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0254"/>„Weber“ gesehen, die eine ungeheuere Wirkung tat.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0254"/>„Weber“ gesehen, die eine ungeheuere Wirkung tat.<lb/>
 Ich danke Ihnen sehr für die Zusendung des 12.<lb/>
 Bandes, der viel Merkwürdiges und Schönes enthält.<lb/>
 Für Herrn Leo Greiner lege ich einen Brief<lb/>
@@ -159,7 +161,8 @@ Mit meiner endgültigen Stellung<lb/>
 nahme zu Ihrer vorschlag der Beteiligung am<lb/>
 nettoertrag möchte Ich bis nach der Lekt###<lb/>
 des Diederlohschen Aufsatzes warten. Heute kann</p>
-        <p><pb facs="1416739_0255"/>ich nur sagen, dass mir gerade dieser Verrech<lb/>
+        <p>
+          <pb facs="1416739_0255"/>ich nur sagen, dass mir gerade dieser Verrech<lb/>
 nungsmodus xxx undurchsichtig und kompli¬<lb/>
 ziert xxxakmt und mir keine Vorteile für den<lb/>
 Auterzubieten scheint. Vorläufig halte ich<lb/>
@@ -245,7 +248,8 @@ Recht darauf einbüsste. Aber schliesslich könn-<lb/>
 te auch einmal der Autor (das es nämlich auch<lb/>
 schwer hat) auf den Einfall kommen sich auf<lb/>
 ne Force majeur zu berufen und so glaube ich</p>
-        <p><pb facs="1416739_0256"/>,dass in solchen Fällen,xxx die ja an sich<lb/>
+        <p>
+          <pb facs="1416739_0256"/>,dass in solchen Fällen,xxx die ja an sich<lb/>
 eine grosse Seltenheit carstellen, der Verle<lb/>
 ger stets das gleiche Entgegenkommen zeigen<lb/>
 Sollte,wie er es vom Autor ziemlich regelmäs-<lb/>
@@ -367,7 +371,8 @@ Pölö,<lb/>
 määrä; — 4, &amp; 3, à 1, à — m<lb/>
 t.D. 68<lb/>
 ###</p>
-        <p><pb facs="1416739_0257"/>B &amp; O 0<lb/>
+        <p>
+          <pb facs="1416739_0257"/>B &amp; O 0<lb/>
 9 m<lb/>
 leur<lb/>
 ̃ O ».<lb/>

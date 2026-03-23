@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -94,7 +95,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten
 Antwort auf: <ref target="11377">1928-02-17 SF (Berlin) an AS (Wien)</ref>, <ref target="11379">1928-02-18 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11382">1928-02-24 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11382">1928-02-24 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1928-02-20.html</note>
       </notesStmt>
@@ -111,6 +113,18 @@ Beantwortet in: <ref target="11382">1928-02-24 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb15449">Dorsch, Käthe</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb24041">Schalit, Leon</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb677">Breslau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb224">London</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb239010">Vereinigte Theater Breslau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11381.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -130,36 +144,6 @@ Beantwortet in: <ref target="11382">1928-02-24 SF (Berlin) an AS (Wien)</ref></n
           <term>Vorlesung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb15449" source="https://pmb.acdh.oeaw.ac.at/entity/15449/">
-          <persName>Dorsch, Käthe</persName>
-        </person>
-        <person ref="#pmb24041" source="https://pmb.acdh.oeaw.ac.at/entity/24041/">
-          <persName>Schalit, Leon</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb677" source="https://pmb.acdh.oeaw.ac.at/entity/677/">
-          <placeName>Breslau</placeName>
-        </place>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb224" source="https://pmb.acdh.oeaw.ac.at/entity/224/">
-          <placeName>London</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb239010" source="https://pmb.acdh.oeaw.ac.at/entity/239010/">
-          <orgName>Vereinigte Theater Breslau</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -170,10 +154,12 @@ Beantwortet in: <ref target="11382">1928-02-24 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>2 Blatt, 3 Seiten
 Antwort auf: <ref target="11377">1928-02-17 SF (Berlin) an AS (Wien)</ref>, <ref target="11379">1928-02-18 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11382">1928-02-24 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11382">1928-02-24 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0017"/>S. Fischer<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0017"/>S. Fischer<lb/>
 m<lb/>
 Abass 20.2.1928.<lb/>
 G.F.P.<lb/>
@@ -211,7 +197,8 @@ nen solchen Abend zirka 25 Mal wiederholt.<lb/>
 Hier sowie in anderen Fällen dürfte es wohl zu-<lb/>
 treffen, dass die Tantiemen nicht von der ganzen<lb/>
 Einnahme verrechnet werden, dass z.B. die Abonnements</p>
-        <p><pb facs="1416741_0018"/>Fischer, Bl.2<lb/>
+        <p>
+          <pb facs="1416741_0018"/>Fischer, Bl.2<lb/>
 einfach, sagen wir verschwiegen werden. Ich glaube Sie<lb/>
 Für die Einsendung des Briefes von Schuster<lb/>
 sollten mindestens von den einzelnen Theatern verlan-<lb/>
@@ -264,7 +251,8 @@ schen Schulausgaben, „Weissagung“. „Gerenimo“, haben<lb/>
 Sie wohl erhalten.<lb/>
 Die Adresse von Lee Schalit ist:Wien XIX,<lb/>
 Bellevuestrasse 19.</p>
-        <p><pb facs="1416741_0019"/>Mjest.<lb/>
+        <p>
+          <pb facs="1416741_0019"/>Mjest.<lb/>
 Mort bewist<lb/>
 s. Tischer<lb/>
 G.C.P<lb/>

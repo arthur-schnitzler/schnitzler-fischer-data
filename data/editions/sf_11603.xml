@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -83,23 +84,19 @@ Beantwortet in: 1930-12-05 SF (Berlin) an AS (Wien)</note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4401">Hoffmann, Norbert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23583">Rosenberg, Wilhelm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11603.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Verlagsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb4401" source="https://pmb.acdh.oeaw.ac.at/entity/4401/">
-          <persName>Hoffmann, Norbert</persName>
-        </person>
-        <person ref="#pmb23583" source="https://pmb.acdh.oeaw.ac.at/entity/23583/">
-          <persName>Rosenberg, Wilhelm</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -112,8 +109,9 @@ Beantwortet in: 1930-12-05 SF (Berlin) an AS (Wien)</note>
 Antwort auf: <ref target="11602">1930-11-27 SF (Berlin) an AS (Wien)</ref>
 Beantwortet in: 1930-12-05 SF (Berlin) an AS (Wien)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0142"/>geben, richtiger wäre es auch für diese mehr,<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0142"/>geben, richtiger wäre es auch für diese mehr,<lb/>
 für "Therese" oder "Weg ins Freie" aber min-<lb/>
 destens 250-300 Mk. zu verlangen. Vielleicht<lb/>
 kann man bei dieser Gelegenheit auch in Erfah-<lb/>

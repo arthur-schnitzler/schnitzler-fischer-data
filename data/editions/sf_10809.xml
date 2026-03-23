@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10809">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -87,6 +88,25 @@
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8885">Meid, Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23409">Rieser, Siegfried</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13091">Wenzler, Franz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="117428175">Wrede, Richard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb146">Frankfurt am Main</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb36300">Kopenhagen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43435">Schweiz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb1119">Stockholm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb197">Weimar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb484">Zürich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Casino Teatret Kopenhagen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb35597">Deutsches Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10809.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -98,57 +118,6 @@
           <term>Theater</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb8885" source="https://pmb.acdh.oeaw.ac.at/entity/8885/">
-          <persName>Meid, Hans</persName>
-        </person>
-        <person ref="#pmb23409" source="https://pmb.acdh.oeaw.ac.at/entity/23409/">
-          <persName>Rieser, Siegfried</persName>
-        </person>
-        <person ref="#pmb13091" source="https://pmb.acdh.oeaw.ac.at/entity/13091/">
-          <persName>Wenzler, Franz</persName>
-        </person>
-        <person ref="117428175" source="https://d-nb.info/gnd/117428175">
-          <persName>Wrede, Richard</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb146" source="https://pmb.acdh.oeaw.ac.at/entity/146/">
-          <placeName>Frankfurt am Main</placeName>
-        </place>
-        <place ref="#pmb36300" source="https://pmb.acdh.oeaw.ac.at/entity/36300/">
-          <placeName>Kopenhagen</placeName>
-        </place>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-        <place ref="#pmb43435" source="https://pmb.acdh.oeaw.ac.at/entity/43435/">
-          <placeName>Schweiz</placeName>
-        </place>
-        <place ref="#pmb1119" source="https://pmb.acdh.oeaw.ac.at/entity/1119/">
-          <placeName>Stockholm</placeName>
-        </place>
-        <place ref="#pmb197" source="https://pmb.acdh.oeaw.ac.at/entity/197/">
-          <placeName>Weimar</placeName>
-        </place>
-        <place ref="#pmb484" source="https://pmb.acdh.oeaw.ac.at/entity/484/">
-          <placeName>Zürich</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org>
-          <orgName>Casino Teatret Kopenhagen</orgName>
-        </org>
-        <org ref="#pmb35597" source="https://pmb.acdh.oeaw.ac.at/entity/35597/">
-          <orgName>Deutsches Theater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -159,8 +128,9 @@
       <div type="letter">
         <p>1 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0177"/>so wiederhole ich mein Ersuchen im<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0177"/>so wiederhole ich mein Ersuchen im<lb/>
 valle Norbert, wie in allen künftigen<lb/>
 mit grösster Energie vorzugehen und<lb/>
 überhaupt Ihre Auslandsagenten anzu-<lb/>
@@ -233,7 +203,8 @@ nössischen Bank in Zürich habe eröffnen<lb/>
 lassen. Schweizer Einnahmen wären also von<lb/>
 nun an, so weit sie mich betreffen, direkt<lb/>
 dort einzuzahlen.</p>
-        <p><pb facs="1416739_0178"/>Herr Dr.Richard Wrede, Weimar, hat mir<lb/>
+        <p>
+          <pb facs="1416739_0178"/>Herr Dr.Richard Wrede, Weimar, hat mir<lb/>
 noch einmal geschrieben und nach seinen Aus-<lb/>
 führungen wäre ein Gastspiel durch das<lb/>
 Wredische Ensemble speziell in Weimar doch<lb/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11160">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,6 +71,11 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4374">Maril, Konrad</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11160.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -78,11 +84,6 @@
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4374" source="https://pmb.acdh.oeaw.ac.at/entity/4374/">
-          <persName>Maril, Konrad</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -93,8 +94,9 @@
       <div type="letter">
         <p>1 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0800"/>716<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0800"/>716<lb/>
 S. Fischer / Verlag / A.=G. Berlin W 57<lb/>
 Bankkonto; Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto: Berlin Nr. 1669a<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 6162 bis 6164<lb/>
@@ -140,7 +142,8 @@ ausweisensoll, kann vor Ende Januar nicht fertig sein, wir werden sie<lb/>
 Ihnen dann sogleich zusenden.<lb/>
 Die Theater-Abrechnung für Dezember werden wir Anfang der nächsten<lb/>
 Woche fertigstellen, sie wird für Sie, so weit wir es schon übersehen</p>
-        <p><pb facs="1416743_0801"/>G.H.F.P.<lb/>
+        <p>
+          <pb facs="1416743_0801"/>G.H.F.P.<lb/>
 V. P.P.<lb/>
 ...<lb/>
 Kleidt.<lb/>

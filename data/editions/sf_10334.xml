@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -68,7 +69,8 @@
         <note type="description">1 Blatt, 1 Seite beschrieben (vielleicht fehlt ein zweites Blatt)
 
 Antwort auf: <ref target="10333">1910-09-10 SF/CS an AS</ref>
-Beantwortet in: <ref target="10335">1910-09-14 SF/CS an AS</ref></note>
+Beantwortet in: <ref target="10335">1910-09-14 SF/CS an AS</ref>
+        </note>
         <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1910-09-13.html</note>
       </notesStmt>
@@ -85,6 +87,20 @@ Beantwortet in: <ref target="10335">1910-09-14 SF/CS an AS</ref></note>
           <persName type="coworker">Schur, Carl</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116242094">Bonnier, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20474">Linden, Gustaf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb871">Karlsruhe</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb145">Köln</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb652">Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb872">Stuttgart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="65648-3">Großherzogliches Hoftheater zu Karlsruhe</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="63304-5">Königlich Württembergisches Hof-Theater Stuttgart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="1231430-4">Königliches Deutsches Landestheater Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="5038293-7">Schauspielhaus Köln</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10334.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -92,42 +108,6 @@ Beantwortet in: <ref target="10335">1910-09-14 SF/CS an AS</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="116242094" source="https://d-nb.info/gnd/116242094">
-          <persName>Bonnier, Albert</persName>
-        </person>
-        <person ref="#pmb20474" source="https://pmb.acdh.oeaw.ac.at/entity/20474/">
-          <persName>Linden, Gustaf</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb871" source="https://pmb.acdh.oeaw.ac.at/entity/871/">
-          <placeName>Karlsruhe</placeName>
-        </place>
-        <place ref="#pmb145" source="https://pmb.acdh.oeaw.ac.at/entity/145/">
-          <placeName>Köln</placeName>
-        </place>
-        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
-          <placeName>Prag</placeName>
-        </place>
-        <place ref="#pmb872" source="https://pmb.acdh.oeaw.ac.at/entity/872/">
-          <placeName>Stuttgart</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="65648-3" source="https://d-nb.info/gnd/65648-3">
-          <orgName>Großherzogliches Hoftheater zu Karlsruhe</orgName>
-        </org>
-        <org ref="63304-5" source="https://d-nb.info/gnd/63304-5">
-          <orgName>Königlich Württembergisches Hof-Theater Stuttgart</orgName>
-        </org>
-        <org ref="1231430-4" source="https://d-nb.info/gnd/1231430-4">
-          <orgName>Königliches Deutsches Landestheater Prag</orgName>
-        </org>
-        <org ref="5038293-7" source="https://d-nb.info/gnd/5038293-7">
-          <orgName>Schauspielhaus Köln</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -139,7 +119,8 @@ Beantwortet in: <ref target="10335">1910-09-14 SF/CS an AS</ref></note>
         <p>1 Blatt, 1 Seite beschrieben (vielleicht fehlt ein zweites Blatt)
 
 Antwort auf: <ref target="10333">1910-09-10 SF/CS an AS</ref>
-Beantwortet in: <ref target="10335">1910-09-14 SF/CS an AS</ref></p>
+Beantwortet in: <ref target="10335">1910-09-14 SF/CS an AS</ref>
+        </p>
       </div>
     </body>
   </text>

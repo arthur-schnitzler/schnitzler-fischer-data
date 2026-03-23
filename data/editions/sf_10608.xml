@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -73,7 +74,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
 Antwort auf: <ref target="10606">1917-03-19 AS (Wien) an SF (Berlin)</ref>, <ref target="10607">1917-03-23 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="10609">1917-04-05 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="10609">1917-04-05 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift, eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1917-04-02.html</note>
       </notesStmt>
@@ -89,6 +91,15 @@ Beantwortet in: <ref target="10609">1917-04-05 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10844">Bassermann, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb16123">Feiks, Lily Mirel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3201">Walden, Harry</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb42626">Residenztheater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10608.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,25 +111,6 @@ Beantwortet in: <ref target="10609">1917-04-05 AS (Wien) an SF (Berlin)</ref></n
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb10844" source="https://pmb.acdh.oeaw.ac.at/entity/10844/">
-          <persName>Bassermann, Albert</persName>
-        </person>
-        <person ref="#pmb16123" source="https://pmb.acdh.oeaw.ac.at/entity/16123/">
-          <persName>Feiks, Lily Mirel</persName>
-        </person>
-        <person ref="#pmb3201" source="https://pmb.acdh.oeaw.ac.at/entity/3201/">
-          <persName>Walden, Harry</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="#pmb42626" source="https://pmb.acdh.oeaw.ac.at/entity/42626/">
-          <orgName>Residenztheater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -129,10 +121,12 @@ Beantwortet in: <ref target="10609">1917-04-05 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>1 Blatt, 2 Seiten
 Antwort auf: <ref target="10606">1917-03-19 AS (Wien) an SF (Berlin)</ref>, <ref target="10607">1917-03-23 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="10609">1917-04-05 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="10609">1917-04-05 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0060"/>788<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0060"/>788<lb/>
 380<lb/>
 ISCHER.<lb/>
 VERLAG<lb/>
@@ -165,7 +159,8 @@ kein Honorar (es handelt sich um ein zehn Pfennig-Blatt mit grosser<lb/>
 Auflage; das einzige Aequivalent ist der Raum einer viertel Seite<lb/>
 zur Ankündigung der Werke des Autors). Ich bin der Meinung, dass<lb/>
 man das unterstützen soll, und bitte mich wissen zu lassen, wie Sie</p>
-        <p><pb facs="1416743_0061"/>38.<lb/>
+        <p>
+          <pb facs="1416743_0061"/>38.<lb/>
 darüber denken.<lb/>
 Ich bereite eine Neuauflage der beiden Abteilungen Ihrer<lb/>
 (ouvripeaux mauvais.<lb/>

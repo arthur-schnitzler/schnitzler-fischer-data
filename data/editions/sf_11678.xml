@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -105,7 +106,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Beantwortet in: <ref target="11680">1931-06-17 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11680">1931-06-17 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1931-05-30.html</note>
       </notesStmt>
@@ -122,6 +124,22 @@ Beantwortet in: <ref target="11680">1931-06-17 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb14291">Bloch, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb178500">Bloch, Eduard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116202335">Bloch, Felix</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb6369">Boner, Georgette</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb60636">Bournac, Olivier</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb15015">Clauser, Suzanne</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb16036">Evens, Charles Seddon</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb18065">Hella, Alzir</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23787">Rémon, Maurice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12785">Simon, Richard Leo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb166">Frankreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb182">Paris</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11678.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -135,46 +153,6 @@ Beantwortet in: <ref target="11680">1931-06-17 SF (Berlin) an AS (Wien)</ref></n
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb14291" source="https://pmb.acdh.oeaw.ac.at/entity/14291/">
-          <persName>Bloch, Alfred</persName>
-        </person>
-        <person ref="#pmb178500" source="https://pmb.acdh.oeaw.ac.at/entity/178500/">
-          <persName>Bloch, Eduard</persName>
-        </person>
-        <person ref="116202335" source="https://d-nb.info/gnd/116202335">
-          <persName>Bloch, Felix</persName>
-        </person>
-        <person ref="#pmb6369" source="https://pmb.acdh.oeaw.ac.at/entity/6369/">
-          <persName>Boner, Georgette</persName>
-        </person>
-        <person ref="#pmb60636" source="https://pmb.acdh.oeaw.ac.at/entity/60636/">
-          <persName>Bournac, Olivier</persName>
-        </person>
-        <person ref="#pmb15015" source="https://pmb.acdh.oeaw.ac.at/entity/15015/">
-          <persName>Clauser, Suzanne</persName>
-        </person>
-        <person ref="#pmb16036" source="https://pmb.acdh.oeaw.ac.at/entity/16036/">
-          <persName>Evens, Charles Seddon</persName>
-        </person>
-        <person ref="#pmb18065" source="https://pmb.acdh.oeaw.ac.at/entity/18065/">
-          <persName>Hella, Alzir</persName>
-        </person>
-        <person ref="#pmb23787" source="https://pmb.acdh.oeaw.ac.at/entity/23787/">
-          <persName>Rémon, Maurice</persName>
-        </person>
-        <person ref="#pmb12785" source="https://pmb.acdh.oeaw.ac.at/entity/12785/">
-          <persName>Simon, Richard Leo</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
-          <placeName>Frankreich</placeName>
-        </place>
-        <place ref="#pmb182" source="https://pmb.acdh.oeaw.ac.at/entity/182/">
-          <placeName>Paris</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -184,10 +162,12 @@ Beantwortet in: <ref target="11680">1931-06-17 SF (Berlin) an AS (Wien)</ref></n
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Beantwortet in: <ref target="11680">1931-06-17 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11680">1931-06-17 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0173"/>Berlin<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0173"/>Berlin<lb/>
 The Fischer<lb/>
 30.5.1931.<lb/>
 Lieber Doktor Maril.<lb/>
@@ -227,7 +207,8 @@ sternis abgegangen.<lb/>
 glöne ab. In der kössischen<lb/>
 end.<lb/>
 turavamnlar gedruckt</p>
-        <p><pb facs="1416741_0174"/>Zeitung ist die Hovelle bald beendet, im Juli er-<lb/>
+        <p>
+          <pb facs="1416741_0174"/>Zeitung ist die Hovelle bald beendet, im Juli er-<lb/>
 scheint sie im Neuen Wiener Tagblatt. Schuster<lb/>
 4 Simon dürfte das Buch zugleich mit Ihnen, also<lb/>
 ungefähr im Oktober bringen. Vor dem Erecheinen<lb/>

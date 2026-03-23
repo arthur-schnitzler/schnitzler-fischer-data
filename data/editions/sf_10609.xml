@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -106,7 +107,8 @@
       <notesStmt>
         <note type="description">3 Blatt, 5 Seiten
 Antwort auf: <ref target="10608">1917-04-02 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10611">1917-04-16 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10611">1917-04-16 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1917-04-05.html</note>
       </notesStmt>
@@ -122,6 +124,18 @@ Beantwortet in: <ref target="10611">1917-04-16 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10844">Bassermann, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10896">Bernauer, Rudolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb16123">Feiks, Lily Mirel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8889">Meinhard, Carl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12537">Robert, Eugen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12977">Triesch, Irene</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb42626">Residenztheater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10609.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -132,34 +146,6 @@ Beantwortet in: <ref target="10611">1917-04-16 SF (Berlin) an AS (Wien)</ref></n
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb10844" source="https://pmb.acdh.oeaw.ac.at/entity/10844/">
-          <persName>Bassermann, Albert</persName>
-        </person>
-        <person ref="#pmb10896" source="https://pmb.acdh.oeaw.ac.at/entity/10896/">
-          <persName>Bernauer, Rudolf</persName>
-        </person>
-        <person ref="#pmb16123" source="https://pmb.acdh.oeaw.ac.at/entity/16123/">
-          <persName>Feiks, Lily Mirel</persName>
-        </person>
-        <person ref="#pmb8889" source="https://pmb.acdh.oeaw.ac.at/entity/8889/">
-          <persName>Meinhard, Carl</persName>
-        </person>
-        <person ref="#pmb12537" source="https://pmb.acdh.oeaw.ac.at/entity/12537/">
-          <persName>Robert, Eugen</persName>
-        </person>
-        <person ref="#pmb12977" source="https://pmb.acdh.oeaw.ac.at/entity/12977/">
-          <persName>Triesch, Irene</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="#pmb42626" source="https://pmb.acdh.oeaw.ac.at/entity/42626/">
-          <orgName>Residenztheater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -170,10 +156,12 @@ Beantwortet in: <ref target="10611">1917-04-16 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>3 Blatt, 5 Seiten
 Antwort auf: <ref target="10608">1917-04-02 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10611">1917-04-16 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10611">1917-04-16 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0028"/>Sussich<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0028"/>Sussich<lb/>
 digen Findruck gemacht hat und überzeugt bin,<lb/>
 dass meine Schwägerin sie vollkommen richtig<lb/>
 schildert und beurteilt. So gebe ich denn<lb/>
@@ -209,7 +197,8 @@ beziehen. Bliebe es bei der Zusammenstellung<lb/>
 „Abschiedssouper“, „Hochzeitsmorgen“ (oder statt<lb/>
 dessen einer der anderen Anatol-Einakter) „lite-<lb/>
 ratur" - welcher vierter Einakter käme in Be-</p>
-        <p><pb facs="1416739_0029"/>3<lb/>
+        <p>
+          <pb facs="1416739_0029"/>3<lb/>
 ersucht<lb/>
 flussten Schreiben sein Theater, sowohl hinsicht<lb/>
 tracht? Wie dächten Sie über den „Grossen Wurstl“<lb/>
@@ -254,7 +243,8 @@ Barnowsky hat mich in einem durch dem<lb/>
 Die beiden Hirth'schen Unternehmungen<lb/>
 Erfolg der „Comtesse Mizzi“ nicht ganz unbeein-<lb/>
 sindnicht identisch. In meinem Fall handelt es</p>
-        <p><pb facs="1416739_0030"/>ich um eine Sammlung von Novellen, die früher<lb/>
+        <p>
+          <pb facs="1416739_0030"/>ich um eine Sammlung von Novellen, die früher<lb/>
 in der „jugend“ gedruckt waren. Und so wurde ich<lb/>
 in die einzig in Betracht kommende Novelette<lb/>
 Exzentrik" ersucht, zugleich mit der Frage nach<lb/>
@@ -291,7 +281,8 @@ die Verbindung ernstlich an und ich zweifle nicht.<lb/>
 dass sie für beide Teile günstig ausfallen wird.<lb/>
 Herzlichst grüssend<lb/>
 Ihr</p>
-        <p><pb facs="1416739_0031"/>sich um eine Sammlung von Novellen, die früher<lb/>
+        <p>
+          <pb facs="1416739_0031"/>sich um eine Sammlung von Novellen, die früher<lb/>
 in der „jugend“ gedruckt waren. Und so wurde ich<lb/>
 um die einzig in Betracht kommende Novelette<lb/>
 "Exzentrik" ersucht, zugleich mit der Frage nach<lb/>
@@ -328,7 +319,8 @@ die Verbindung ernstlich an und ich zweifle nicht<lb/>
 dass sie für beide Teile günstig ausfallen wird.<lb/>
 Herzlichst grüssend<lb/>
 Ihr</p>
-        <p><pb facs="1416739_0032"/>17.5.1917.<lb/>
+        <p>
+          <pb facs="1416739_0032"/>17.5.1917.<lb/>
 Föcher<lb/>
 Lieber Freund.<lb/>
 Vielen Dank für die Uebersendung<lb/>

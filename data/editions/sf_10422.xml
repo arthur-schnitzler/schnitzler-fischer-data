@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -81,7 +82,8 @@
         <note type="description">2 Blatt, 2 Seiten beschrieben
 
 Antwort auf: 1912-03-01 und <ref target="10421">1912-03-06 AS an SF</ref>
-Beantwortet in: <ref target="10423">1912-03-09 AS an SF</ref></note>
+Beantwortet in: <ref target="10423">1912-03-09 AS an SF</ref>
+        </note>
         <note type="published_in">Buohler 2011, 186-187 (Auszug)</note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1912-03-07.html</note>
@@ -98,6 +100,15 @@ Beantwortet in: <ref target="10423">1912-03-09 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2914">Bie, Oskar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2327">Löwenstamm, Emma</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2381">Shaw, George Bernard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10422.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -108,25 +119,6 @@ Beantwortet in: <ref target="10423">1912-03-09 AS an SF</ref></note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb2914" source="https://pmb.acdh.oeaw.ac.at/entity/2914/">
-          <persName>Bie, Oskar</persName>
-        </person>
-        <person ref="#pmb2327" source="https://pmb.acdh.oeaw.ac.at/entity/2327/">
-          <persName>Löwenstamm, Emma</persName>
-        </person>
-        <person ref="#pmb2381" source="https://pmb.acdh.oeaw.ac.at/entity/2381/">
-          <persName>Shaw, George Bernard</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -138,10 +130,12 @@ Beantwortet in: <ref target="10423">1912-03-09 AS an SF</ref></note>
         <p>2 Blatt, 2 Seiten beschrieben
 
 Antwort auf: 1912-03-01 und <ref target="10421">1912-03-06 AS an SF</ref>
-Beantwortet in: <ref target="10423">1912-03-09 AS an SF</ref></p>
+Beantwortet in: <ref target="10423">1912-03-09 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0533"/>S. Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0533"/>S. Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
 den 7/3. 1912<lb/>
 ten noch als<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -176,7 +170,8 @@ sehr gut im Juni erscheinen. Der billigen Ausgabe von "Bertha Garlan"<lb/>
 würde dieses Buch gar keine Konkurrenz machen.<lb/>
 Browns Vorschlag mit 18 % Anteil von Kettogewinn kommt garnicht i<lb/>
 racht. Ich habe der Firma vorgeschlagen, Ihnen 10 % vom Brutto-Ve</p>
-        <p><pb facs="1416742_0534"/>kaufspreis zu bezahlen, bei jedesmaliger Vorausbezahlung für je 500<lb/>
+        <p>
+          <pb facs="1416742_0534"/>kaufspreis zu bezahlen, bei jedesmaliger Vorausbezahlung für je 500<lb/>
 Exemplare.<lb/>
 Die drei Vertragsentwürfe erhalten Sie in der nächsten Woche; ich<lb/>
 bin in diesen Tagen noch nicht dazu gekommen.<lb/>

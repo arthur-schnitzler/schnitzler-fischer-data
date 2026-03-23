@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -73,7 +74,8 @@
         <note type="description">1 Blatt, 1 Seite beschrieben
 Anlage: Zeitungsausschnitt Berliner Tageblatts 1915-01-21, Abendausgabe (Paul Block: "Kultur –?"; nicht überliefert)
 
-Beantwortet in: <ref target="10550">1915-02-05 AS an SF</ref></note>
+Beantwortet in: <ref target="10550">1915-02-05 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1915-01-25.html</note>
       </notesStmt>
@@ -89,16 +91,14 @@ Beantwortet in: <ref target="10550">1915-02-05 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3256">Block, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12543">Rolland, Romain</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10549.xml"/>
+        </note>
       </correspDesc>
       <textClass/>
-      <listPerson>
-        <person ref="#pmb3256" source="https://pmb.acdh.oeaw.ac.at/entity/3256/">
-          <persName>Block, Paul</persName>
-        </person>
-        <person ref="#pmb12543" source="https://pmb.acdh.oeaw.ac.at/entity/12543/">
-          <persName>Rolland, Romain</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -110,10 +110,12 @@ Beantwortet in: <ref target="10550">1915-02-05 AS an SF</ref></note>
         <p>1 Blatt, 1 Seite beschrieben
 Anlage: Zeitungsausschnitt Berliner Tageblatts 1915-01-21, Abendausgabe (Paul Block: "Kultur –?"; nicht überliefert)
 
-Beantwortet in: <ref target="10550">1915-02-05 AS an SF</ref></p>
+Beantwortet in: <ref target="10550">1915-02-05 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0674"/>P<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0674"/>P<lb/>
 349<lb/>
 S. Fischer, Verlag, Berlin M., Bülowstrasse 90<lb/>
 25/1. 1915<lb/>

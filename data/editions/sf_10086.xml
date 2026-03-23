@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10086">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -89,6 +90,12 @@ zwischenzeitlicher Brief AS an SF nicht sicher zu erschließen; nochmaliger Bezu
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10086.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -98,14 +105,6 @@ zwischenzeitlicher Brief AS an SF nicht sicher zu erschließen; nochmaliger Bezu
           <term>Versand</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -119,8 +118,9 @@ Anlagen: Freiexemplare 'Vermächtnis', Honorar (nicht überliefert)
 
 zwischenzeitlicher Brief AS an SF nicht sicher zu erschließen; nochmaliger Bezug auf (nicht überlieferte) vorangehende Briefe von AS</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0099"/>S. FISCHER, VERLAG<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0099"/>S. FISCHER, VERLAG<lb/>
 rece<lb/>
 BERLIN W., den  1. Dezember 189 8.<lb/>
 Ordent<lb/>
@@ -152,7 +152,8 @@ scheint, das ist selbstverständlich und braucht nicht ausdrücklich<lb/>
 verzichert zu werden. Es geschieht bei fast allen Dramen meines Verlags<lb/>
 genau so.<lb/>
 Ich gratuliere Ihnen zum „Grünen Kakadu“: ich habe das</p>
-        <p><pb facs="1416742_0100"/>kleibe Stück neulich gelesen und finde es ganz ausserordentlich wirk-<lb/>
+        <p>
+          <pb facs="1416742_0100"/>kleibe Stück neulich gelesen und finde es ganz ausserordentlich wirk-<lb/>
 sam. Eine ganze Zeit wird im Hintergrund der starken Handlung lebendig.<lb/>
 Sehr gern hätte ich diesen Einakter in unserem Februar-Heft gebracht:<lb/>
 könnten Sie dieser Termin für uns nicht festhalten?<lb/>

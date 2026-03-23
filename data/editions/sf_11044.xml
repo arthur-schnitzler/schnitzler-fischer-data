@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,6 +77,11 @@ Anlage: Eigenhändige Notiz von AS, Briefentwurf 3 Seiten</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23320">Reyding, August</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11044.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -85,11 +91,6 @@ Anlage: Eigenhändige Notiz von AS, Briefentwurf 3 Seiten</note>
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb23320" source="https://pmb.acdh.oeaw.ac.at/entity/23320/">
-          <persName>Reyding, August</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -102,8 +103,9 @@ Anlage: Eigenhändige Notiz von AS, Briefentwurf 3 Seiten</note>
 Antwort auf: <ref target="11041">1923-11-19 AS (Wien) an SF (Berlin)</ref>
 Anlage: Eigenhändige Notiz von AS, Briefentwurf 3 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0679"/>alin 2t.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0679"/>alin 2t.<lb/>
 24.<lb/>
 Sehr verehrter lieber Herr Dr.<lb/>
 Gerade war ich im<lb/>
@@ -131,7 +133,8 @@ lage<lb/>
 Ilmoit a iai leur a état dit ea de la rue<lb/>
 ware es<lb/>
 es führen.</p>
-        <p><pb facs="1416743_0680"/>Auslandsleuchnung.<lb/>
+        <p>
+          <pb facs="1416743_0680"/>Auslandsleuchnung.<lb/>
 Insofern können Sie beim ehrsten<lb/>
 b. Januar 1923 nicht verlangen, als<lb/>
 Fischer nebenlich bis 1. April<lb/>
@@ -165,7 +168,8 @@ mit schleiben will, ist<lb/>
 andererseits Lehen¬<lb/>
 tigt:<lb/>
 décrire en</p>
-        <p><pb facs="1416743_0681"/>Veluteinschlie bekommen und die<lb/>
+        <p>
+          <pb facs="1416743_0681"/>Veluteinschlie bekommen und die<lb/>
 Exemplare beiden einfach als Inlands<lb/>
 sitz verhucht. Dann eyckt sich die<lb/>
 vann schreibt der Veilg sich diese<lb/>
@@ -197,7 +201,8 @@ Scherk<lb/>
 einenmäßig von Schick zu<lb/>
 Schreibigkeit<lb/>
 ware es</p>
-        <p><pb facs="1416743_0682"/>Originehaluten in Ihrem Sinn an<lb/>
+        <p>
+          <pb facs="1416743_0682"/>Originehaluten in Ihrem Sinn an<lb/>
 Schulden worden ist, ebenso vorläufig ein<lb/>
 befriedigende Art der Hanoreycke<lb/>
 indem Fischer zusagt, in Ihrem<lb/>

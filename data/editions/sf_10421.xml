@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,7 +77,8 @@
         <note type="description">1 Blatt, 2 Seiten beschrieben
 
 Bezug auf: <ref target="10419">1912-02-27 SF an AS</ref>
-Beantwortet in: <ref target="10422">1912-03-07 SF an AS</ref></note>
+Beantwortet in: <ref target="10422">1912-03-07 SF an AS</ref>
+        </note>
         <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1912-03-06.html</note>
       </notesStmt>
@@ -92,6 +94,12 @@ Beantwortet in: <ref target="10422">1912-03-07 SF an AS</ref></note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2914">Bie, Oskar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2327">Löwenstamm, Emma</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10421.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,14 +108,6 @@ Beantwortet in: <ref target="10422">1912-03-07 SF an AS</ref></note>
           <term>Novelle</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2914" source="https://pmb.acdh.oeaw.ac.at/entity/2914/">
-          <persName>Bie, Oskar</persName>
-        </person>
-        <person ref="#pmb2327" source="https://pmb.acdh.oeaw.ac.at/entity/2327/">
-          <persName>Löwenstamm, Emma</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -119,7 +119,8 @@ Beantwortet in: <ref target="10422">1912-03-07 SF an AS</ref></note>
         <p>1 Blatt, 2 Seiten beschrieben
 
 Bezug auf: <ref target="10419">1912-02-27 SF an AS</ref>
-Beantwortet in: <ref target="10422">1912-03-07 SF an AS</ref></p>
+Beantwortet in: <ref target="10422">1912-03-07 SF an AS</ref>
+        </p>
       </div>
     </body>
   </text>

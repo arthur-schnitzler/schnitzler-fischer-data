@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10484">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -84,6 +85,15 @@ Antwort AS nicht überliefert</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb120662">Knudsen, Poul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43570">Dänemark</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb36300">Kopenhagen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb36296">Oslo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="3051217-7">Nationaltheatret Oslo (Kristiania)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10484.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,27 +101,6 @@ Antwort AS nicht überliefert</note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb120662" source="https://pmb.acdh.oeaw.ac.at/entity/120662/">
-          <persName>Knudsen, Poul</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43570" source="https://pmb.acdh.oeaw.ac.at/entity/43570/">
-          <placeName>Dänemark</placeName>
-        </place>
-        <place ref="#pmb36300" source="https://pmb.acdh.oeaw.ac.at/entity/36300/">
-          <placeName>Kopenhagen</placeName>
-        </place>
-        <place ref="#pmb36296" source="https://pmb.acdh.oeaw.ac.at/entity/36296/">
-          <placeName>Oslo</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="3051217-7" source="https://d-nb.info/gnd/3051217-7">
-          <orgName>Nationaltheatret Oslo (Kristiania)</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -125,8 +114,9 @@ In diesen Zusammenhang gehört die im Digitalisat nach 1913-01-31 einsortierte A
 
 Antwort AS nicht überliefert</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0609"/>309<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0609"/>309<lb/>
 S. FISCHER, VERLAG,’ BERLIN W., BÜLowSTR. 90<lb/>
 THEATERABTEILUNG<lb/>
 BERene W., DEN 10. Januar 13<lb/>

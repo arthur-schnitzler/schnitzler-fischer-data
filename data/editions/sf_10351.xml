@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,7 +71,8 @@
         <note type="description">2 Blatt, 2 Seiten beschrieben
 Bezug auf: 1910-12-15 ante SF an Max Reinhardt (nicht überliefert) und <ref target="10344">1910-10-31 AS an SF</ref> (Verhandlung mit Max Reinhardt)
 
-Beantwortet in: <ref target="10352">1910-12-17 AS an SF</ref></note>
+Beantwortet in: <ref target="10352">1910-12-17 AS an SF</ref>
+        </note>
         <note type="published_in">Rodewald, 86-87 [Nr. 122]; Buohler 2011, 156-157 (Auszug)</note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1910-12-15.html</note>
@@ -87,6 +89,17 @@ Beantwortet in: <ref target="10352">1910-12-17 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10815">Bahr, Hermann</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb14182">Beöthy, Laszlo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2989">Polgar, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12504">Reinhardt, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43471">Budapest</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Király szinház Budapest</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10351.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -96,33 +109,6 @@ Beantwortet in: <ref target="10352">1910-12-17 AS an SF</ref></note>
           <term>Schnitzler-Monographie</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10815" source="https://pmb.acdh.oeaw.ac.at/entity/10815/">
-          <persName>Bahr, Hermann</persName>
-        </person>
-        <person ref="#pmb14182" source="https://pmb.acdh.oeaw.ac.at/entity/14182/">
-          <persName>Beöthy, Laszlo</persName>
-        </person>
-        <person ref="#pmb2989" source="https://pmb.acdh.oeaw.ac.at/entity/2989/">
-          <persName>Polgar, Alfred</persName>
-        </person>
-        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
-          <persName>Reinhardt, Max</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43471" source="https://pmb.acdh.oeaw.ac.at/entity/43471/">
-          <placeName>Budapest</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org>
-          <orgName>Király szinház Budapest</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -134,10 +120,12 @@ Beantwortet in: <ref target="10352">1910-12-17 AS an SF</ref></note>
         <p>2 Blatt, 2 Seiten beschrieben
 Bezug auf: 1910-12-15 ante SF an Max Reinhardt (nicht überliefert) und <ref target="10344">1910-10-31 AS an SF</ref> (Verhandlung mit Max Reinhardt)
 
-Beantwortet in: <ref target="10352">1910-12-17 AS an SF</ref></p>
+Beantwortet in: <ref target="10352">1910-12-17 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0457"/>232<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0457"/>232<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstraße 90<lb/>
 den 15. Dez. 1910<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -166,7 +154,8 @@ An wen soll ich mich wenden? Ich dache jetzt wieder an Polgar,<lb/>
 aber ich weiss nicht, wie er zu Ihnen steht.<lb/>
 Soeben ist - auf Grund telegraphischer Verhandlungen" der Abschluss<lb/>
 mit Direktor Beöthy für die ungarische Aufführung des Anatol-Zyklus</p>
-        <p><pb facs="1416742_0458"/>Blatt 2.<lb/>
+        <p>
+          <pb facs="1416742_0458"/>Blatt 2.<lb/>
 cette seule vraie cette<lb/>
 S. Fischer, Verlag, Berlin, 190<lb/>
 im Königstheater in Budapest perfekt geworden, und zwar zu folgenden<lb/>

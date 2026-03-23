@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -62,7 +63,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
 Antwort auf: <ref target="11544">1930-02-17 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11553">1930-03-04 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11553">1930-03-04 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1930-03-01.html</note>
       </notesStmt>
@@ -79,17 +81,17 @@ Beantwortet in: <ref target="11553">1930-03-04 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="117227862">Lotz, Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11550.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Film/Verfilmung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="117227862" source="https://d-nb.info/gnd/117227862">
-          <persName>Lotz, Hans</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -100,10 +102,12 @@ Beantwortet in: <ref target="11553">1930-03-04 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>1 Blatt, 1 Seite
 Antwort auf: <ref target="11544">1930-02-17 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11553">1930-03-04 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11553">1930-03-04 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0118"/>l'ischer,<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0118"/>l'ischer,<lb/>
 1.3.1930.<lb/>
 Hieber Herr Doktor.<lb/>
 Das Verfilmungerscht von "Märchen"<lb/>

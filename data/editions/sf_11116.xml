@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,39 +71,23 @@ Rückseite: Handschriftliche Notiz AS</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7713">Hartung, Gustav</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44172">Nürnberg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb883">Wiesbaden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb300335">Hessisches Staatstheater Wiesbaden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="44467-4">Münchner Schauspielhaus</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="117308-X">Stadttheater Nürnberg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11116.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb7713" source="https://pmb.acdh.oeaw.ac.at/entity/7713/">
-          <persName>Hartung, Gustav</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb44172" source="https://pmb.acdh.oeaw.ac.at/entity/44172/">
-          <placeName>Nürnberg</placeName>
-        </place>
-        <place ref="#pmb883" source="https://pmb.acdh.oeaw.ac.at/entity/883/">
-          <placeName>Wiesbaden</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb300335" source="https://pmb.acdh.oeaw.ac.at/entity/300335/">
-          <orgName>Hessisches Staatstheater Wiesbaden</orgName>
-        </org>
-        <org ref="44467-4" source="https://d-nb.info/gnd/44467-4">
-          <orgName>Münchner Schauspielhaus</orgName>
-        </org>
-        <org ref="117308-X" source="https://d-nb.info/gnd/117308-X">
-          <orgName>Stadttheater Nürnberg</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -114,8 +99,9 @@ Rückseite: Handschriftliche Notiz AS</note>
         <p>1 Blatt, 1 Seite
 Rückseite: Handschriftliche Notiz AS</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0771"/>A 57/Bülowstrasse<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0771"/>A 57/Bülowstrasse<lb/>
 Fischer / Verlag /<lb/>
 prechanschlüsse: Amt Lützow Nr. 1662. 6162 und 9292 / Postschsekkonto: Berlin Nr 1669.<lb/>
 EIL<lb/>

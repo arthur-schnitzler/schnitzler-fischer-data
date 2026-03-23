@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,6 +80,13 @@ Beantwortet in: 1923-03-23 AS (Wien) an SF (Berlin)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11891">Kayser, Rudolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2456">Specht, Richard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10899.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -92,17 +100,6 @@ Beantwortet in: 1923-03-23 AS (Wien) an SF (Berlin)</note>
           <term>Rezensionsexemplare</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-        <person ref="#pmb11891" source="https://pmb.acdh.oeaw.ac.at/entity/11891/">
-          <persName>Kayser, Rudolf</persName>
-        </person>
-        <person ref="#pmb2456" source="https://pmb.acdh.oeaw.ac.at/entity/2456/">
-          <persName>Specht, Richard</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -115,8 +112,9 @@ Beantwortet in: 1923-03-23 AS (Wien) an SF (Berlin)</note>
 Antwort auf: <ref target="10898">1922-03-15 SF (Berlin) an AS (Wien)</ref>
 Beantwortet in: 1923-03-23 AS (Wien) an SF (Berlin)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0484"/>55 4<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0484"/>55 4<lb/>
 scher/Verlag/Berlin M 57/Bülowstrasse 9o<lb/>
 Bekonto: Deutsche Bank. Depositenkasse P in Berlin / Postscheckkonto: Berlin Nr. 16892<lb/>
 Fernsprechanschlüsse: Amt Lütsow Nr. 1662. 6162 und 9292<lb/>
@@ -149,7 +147,8 @@ Ich lege die Listeder mezensions- und Freiexemplare bei, die wir seiner-<lb/>
 zeit für die beiden gerien verschickt haben. Das ist heute in diesen Um-<lb/>
 fang natürlich ausgeschlossen und ein grosser Teil der Zeitungen und<lb/>
 singer werden ja auch die neuen Rände nicht zu bekommen brauchen.</p>
-        <p><pb facs="1416743_0485"/>FISCHER/VERLAGE<lb/>
+        <p>
+          <pb facs="1416743_0485"/>FISCHER/VERLAGE<lb/>
 8. Blatt<lb/>
 Dr.A. Schnitzler 20/3. 22<lb/>
 Teil der Journalisten und Schriftsteller, sowie Zeitungen und Zeit-<lb/>

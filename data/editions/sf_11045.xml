@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -63,7 +64,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
-Antwort auf: <ref target="11043">1923-11-22 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="11043">1923-11-22 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-11-28.html</note>
       </notesStmt>
@@ -79,6 +81,13 @@ Antwort auf: <ref target="11043">1923-11-22 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4445">Jacob, Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11045.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -93,19 +102,6 @@ Antwort auf: <ref target="11043">1923-11-22 AS (Wien) an SF (Berlin)</ref></note
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4445" source="https://pmb.acdh.oeaw.ac.at/entity/4445/">
-          <persName>Jacob, Hans</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -115,10 +111,12 @@ Antwort auf: <ref target="11043">1923-11-22 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 4 Seiten
-Antwort auf: <ref target="11043">1923-11-22 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="11043">1923-11-22 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0687"/>ken5<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0687"/>ken5<lb/>
 P. Fischer/Verlag/Berlin M 57/Bülowstraße<lb/>
 Postscheckkonto: Berlin Nr. 16892<lb/>
 Bankkonto: Deutsche Bank. Depositenkasse P in Berlin<lb/>
@@ -165,7 +163,8 @@ sind, die Dinge nicht nur formal-juristisch zu betrachten. Hätte ich<lb/>
 nicht die Gewohnheit, die Geschäfte auf eine loyale Art zu führen, so<lb/>
 wäre es ja nicht möglich gewesen, dass ich meinen Verlag seit 35 Jahren<lb/>
 in leidlich guten Beziehungen zu den Autoren meines Verlages führen</p>
-        <p><pb facs="1416743_0688"/>G.<lb/>
+        <p>
+          <pb facs="1416743_0688"/>G.<lb/>
 décembreur des<lb/>
 se nimé pehrij ai t<lb/>
 «««a«i.««* aifr«B oiandisadag«o? i n i! m â¢ nn«/m ogqo(i U. otsodii«aB<lb/>
@@ -210,7 +209,8 @@ G.F.P.<lb/>
 Wir haben mit Herrn Jacob wegen der Verrechnung der Valuten be-<lb/>
 6th<lb/>
 sprochen, dass wir Ihnen xx 1. April die Exemplare, die uns mit Valuten</p>
-        <p><pb facs="1416743_0689"/>24 11 12<lb/>
+        <p>
+          <pb facs="1416743_0689"/>24 11 12<lb/>
 2. Blatt<lb/>
 S. FISCHER/VERLAG<lb/>
 bezahlt wurden, auch in Valuten verrechnen. Dabei wird sich die Not-<lb/>
@@ -247,7 +247,8 @@ es auch in dem Falle „Reklam" tun, wenn Sie unsern Vertrag nicht prin-<lb/>
 zipiell bestreiten. Wo sollte es hinkommen, wenn wir nicht gegenseitig<lb/>
 bemüht bleiben, das Rechtsverhältnis, auch unter schwierigen Verhalt-<lb/>
 nissen, auf eine loyale Weise aufrecht zu erhalten. Jedenfalls muss</p>
-        <p><pb facs="1416743_0690"/>P.S.<lb/>
+        <p>
+          <pb facs="1416743_0690"/>P.S.<lb/>
 G.C.F.P.<lb/>
 F.<lb/>
 ich also auch das Abkommen über die Valuten, da es sich um einen<lb/>

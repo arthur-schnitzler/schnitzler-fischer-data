@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,7 +80,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
 Antwort auf: <ref target="10823">1921-05-17 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="10830">1921-06-09 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="10830">1921-06-09 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1921-06-01.html</note>
       </notesStmt>
@@ -96,6 +98,22 @@ Beantwortet in: <ref target="10830">1921-06-09 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="173319238">Aldis, Mary</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb15764">Eirich, Otto</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb22388">Paukner, Grete</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116324333">Raggio, Enrico</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb24825">Seltzer, Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb52390">Weiss, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13091">Wenzler, Franz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb42605">Königsberg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb35597">Deutsches Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb265652">Stadttheater Zürich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10827.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -107,48 +125,6 @@ Beantwortet in: <ref target="10830">1921-06-09 AS (Wien) an SF (Berlin)</ref></n
           <term>Urheberrecht/Copyright</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="173319238" source="https://d-nb.info/gnd/173319238">
-          <persName>Aldis, Mary</persName>
-        </person>
-        <person ref="#pmb15764" source="https://pmb.acdh.oeaw.ac.at/entity/15764/">
-          <persName>Eirich, Otto</persName>
-        </person>
-        <person ref="#pmb22388" source="https://pmb.acdh.oeaw.ac.at/entity/22388/">
-          <persName>Paukner, Grete</persName>
-        </person>
-        <person ref="116324333" source="https://d-nb.info/gnd/116324333">
-          <persName>Raggio, Enrico</persName>
-        </person>
-        <person ref="#pmb24825" source="https://pmb.acdh.oeaw.ac.at/entity/24825/">
-          <persName>Seltzer, Thomas</persName>
-        </person>
-        <person ref="#pmb52390" source="https://pmb.acdh.oeaw.ac.at/entity/52390/">
-          <persName>Weiss, Alfred</persName>
-        </person>
-        <person ref="#pmb13091" source="https://pmb.acdh.oeaw.ac.at/entity/13091/">
-          <persName>Wenzler, Franz</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb42605" source="https://pmb.acdh.oeaw.ac.at/entity/42605/">
-          <placeName>Königsberg</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb35597" source="https://pmb.acdh.oeaw.ac.at/entity/35597/">
-          <orgName>Deutsches Theater Berlin</orgName>
-        </org>
-        <org ref="#pmb265652" source="https://pmb.acdh.oeaw.ac.at/entity/265652/">
-          <orgName>Stadttheater Zürich</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -159,10 +135,12 @@ Beantwortet in: <ref target="10830">1921-06-09 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>2 Blatt, 4 Seiten
 Antwort auf: <ref target="10823">1921-05-17 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="10830">1921-06-09 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="10830">1921-06-09 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0379"/>Derlag/Berti<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0379"/>Derlag/Berti<lb/>
 57<lb/>
 Berlin / Pos<lb/>
 Dankasse Pässe<lb/>
@@ -193,7 +171,8 @@ das ganze Unternehmen als ein<lb/>
 die Firma Selzer Ihnen xxx<lb/>
 wir uns aber darin<lb/>
 gektes da</p>
-        <p><pb facs="1416743_0380"/>rischer/Verlag / Berlin W 57/Bülowstraße<lb/>
+        <p>
+          <pb facs="1416743_0380"/>rischer/Verlag / Berlin W 57/Bülowstraße<lb/>
 Inkkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto: Berlin Nr. 16692<lb/>
 Fernsprechanschlusse: Amt Lützow Nr. 1662, 6162 und 9292<lb/>
 Dr. A. Schnitzler<lb/>
@@ -224,7 +203,8 @@ In der Angelegenheit Frau<lb/>
 ist Ihnen vor einigen xxx<lb/>
 wir unser Möglichstes tun.<lb/>
 zugegangen.</p>
-        <p><pb facs="1416743_0381"/>er / Verlag / Berlin W 57/Bülowstrasse<lb/>
+        <p>
+          <pb facs="1416743_0381"/>er / Verlag / Berlin W 57/Bülowstrasse<lb/>
 nto: Deutsche Bank. Depositenkasse P in Berlin / Postscheckkonto: Berlin Nr. 1669.<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 1662. 6162 und 9292<lb/>
 Dr.A. Schnitzler<lb/>
@@ -253,7 +233,8 @@ zerischer Autoren gegen Hinterlegung von 2 % und<lb/>
 ohne weiteres aufgeführt werden können. Dagegen<lb/>
 zu Bühnenkartelle Sturm gelaufen, es ist an.<lb/>
 Aenderung dieses schweizerischen Burck-</p>
-        <p><pb facs="1416743_0382"/>57 / Bülle<lb/>
+        <p>
+          <pb facs="1416743_0382"/>57 / Bülle<lb/>
 Verlag<lb/>
 utache Bank, Depositenkasse P in Berlin / Postscheckkonto: Berlin Nr. 1669<lb/>
 Fernsprechlüsse: Amt Lützow Nr. 1662, 6162 und 929.<lb/>

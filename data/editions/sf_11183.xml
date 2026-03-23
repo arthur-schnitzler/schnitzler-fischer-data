@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -64,7 +65,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Antwort auf: <ref target="11182">1925-05-04 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11182">1925-05-04 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1925-05-07.html</note>
       </notesStmt>
@@ -81,6 +83,17 @@ Antwort auf: <ref target="11182">1925-05-04 SF (Berlin) an AS (Wien)</ref></note
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb15173">Curtis Brown, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb44003">Astor Theatre New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb44005">Guild Theatre New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="123897-8">Schauspielhaus Hannover</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11183.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -88,33 +101,6 @@ Antwort auf: <ref target="11182">1925-05-04 SF (Berlin) an AS (Wien)</ref></note
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb15173" source="https://pmb.acdh.oeaw.ac.at/entity/15173/">
-          <persName>Curtis Brown, Albert</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb44003" source="https://pmb.acdh.oeaw.ac.at/entity/44003/">
-          <orgName>Astor Theatre New York</orgName>
-        </org>
-        <org ref="#pmb44005" source="https://pmb.acdh.oeaw.ac.at/entity/44005/">
-          <orgName>Guild Theatre New York</orgName>
-        </org>
-        <org ref="123897-8" source="https://d-nb.info/gnd/123897-8">
-          <orgName>Schauspielhaus Hannover</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -124,10 +110,12 @@ Antwort auf: <ref target="11182">1925-05-04 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Antwort auf: <ref target="11182">1925-05-04 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11182">1925-05-04 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0057"/>Fischen<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0057"/>Fischen<lb/>
 7.5.1925.<lb/>
 "Verehrter Herr Doktor.<lb/>
 Natürlich bin ich ganz damit ein-<lb/>

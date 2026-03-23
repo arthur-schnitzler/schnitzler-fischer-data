@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -99,7 +100,8 @@
         <note type="description">2 Blatt, 4 Seiten beschrieben
 
 Antwort auf: <ref target="10415">1912-02-14 SF an AS</ref>
-Beantwortet in: <ref target="10417">1912-02-23 SF an AS</ref></note>
+Beantwortet in: <ref target="10417">1912-02-23 SF an AS</ref>
+        </note>
         <note type="published_in">Rodewald, 94-95 [Nr. 130]; Buohler 2011, 184 (Auszug)</note>
         <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1912-02-20.html</note>
@@ -116,6 +118,18 @@ Beantwortet in: <ref target="10417">1912-02-23 SF an AS</ref></note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10986">Brahm, Otto</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11910">Kerr, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2570">Lothar, Rudolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="117168769">Löwenfeld, Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2327">Löwenstamm, Emma</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45530">Deutsches Schauspielhaus in Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="7590354-4">Lessing-Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10416.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -125,34 +139,6 @@ Beantwortet in: <ref target="10417">1912-02-23 SF an AS</ref></note>
           <term>Porträt</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb10986" source="https://pmb.acdh.oeaw.ac.at/entity/10986/">
-          <persName>Brahm, Otto</persName>
-        </person>
-        <person ref="#pmb11910" source="https://pmb.acdh.oeaw.ac.at/entity/11910/">
-          <persName>Kerr, Alfred</persName>
-        </person>
-        <person ref="#pmb2570" source="https://pmb.acdh.oeaw.ac.at/entity/2570/">
-          <persName>Lothar, Rudolf</persName>
-        </person>
-        <person ref="117168769" source="https://d-nb.info/gnd/117168769">
-          <persName>Löwenfeld, Hans</persName>
-        </person>
-        <person ref="#pmb2327" source="https://pmb.acdh.oeaw.ac.at/entity/2327/">
-          <persName>Löwenstamm, Emma</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="#pmb45530" source="https://pmb.acdh.oeaw.ac.at/entity/45530/">
-          <orgName>Deutsches Schauspielhaus in Hamburg</orgName>
-        </org>
-        <org ref="7590354-4" source="https://d-nb.info/gnd/7590354-4">
-          <orgName>Lessing-Theater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -164,7 +150,8 @@ Beantwortet in: <ref target="10417">1912-02-23 SF an AS</ref></note>
         <p>2 Blatt, 4 Seiten beschrieben
 
 Antwort auf: <ref target="10415">1912-02-14 SF an AS</ref>
-Beantwortet in: <ref target="10417">1912-02-23 SF an AS</ref></p>
+Beantwortet in: <ref target="10417">1912-02-23 SF an AS</ref>
+        </p>
       </div>
     </body>
   </text>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -75,7 +76,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
-Antwort auf: <ref target="10765">1920-07-05 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="10765">1920-07-05 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1920-07-16.html</note>
       </notesStmt>
@@ -92,6 +94,17 @@ Antwort auf: <ref target="10765">1920-07-05 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11515">Greiner, Leo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Mingarro Sanmartín, José (Übersetzer, Spanien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb290650">Révész, Andor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb90966">Jugoslavien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb914">Madrid</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb39955">Zagreb</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10767.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -108,31 +121,6 @@ Antwort auf: <ref target="10765">1920-07-05 AS (Wien) an SF (Berlin)</ref></note
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11515" source="https://pmb.acdh.oeaw.ac.at/entity/11515/">
-          <persName>Greiner, Leo</persName>
-        </person>
-        <person>
-          <persName>Mingarro Sanmartín, José (Übersetzer, Spanien)</persName>
-        </person>
-        <person ref="#pmb290650" source="https://pmb.acdh.oeaw.ac.at/entity/290650/">
-          <persName>Révész, Andor</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb90966" source="https://pmb.acdh.oeaw.ac.at/entity/90966/">
-          <placeName>Jugoslavien</placeName>
-        </place>
-        <place ref="#pmb914" source="https://pmb.acdh.oeaw.ac.at/entity/914/">
-          <placeName>Madrid</placeName>
-        </place>
-        <place ref="#pmb39955" source="https://pmb.acdh.oeaw.ac.at/entity/39955/">
-          <placeName>Zagreb</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -142,10 +130,12 @@ Antwort auf: <ref target="10765">1920-07-05 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 2 Seiten
-Antwort auf: <ref target="10765">1920-07-05 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="10765">1920-07-05 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0288"/>VLU<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0288"/>VLU<lb/>
 W 57. BÜLOWSTRE<lb/>
 Wien<lb/>
 Arthur Schnitzler<lb/>
@@ -161,7 +151,8 @@ Mit vorzüglicher Hochachtung<lb/>
 S. FISCHER, VERLAG<lb/>
 THEATERABTEN UNG<lb/>
 senen Ihm und Herrn</p>
-        <p><pb facs="1416743_0289"/>Auslag<lb/>
+        <p>
+          <pb facs="1416743_0289"/>Auslag<lb/>
 57 / B<lb/>
 Berlin / Posten.<lb/>
 Amt Lützow Nr. 1662. 6162.<lb/>

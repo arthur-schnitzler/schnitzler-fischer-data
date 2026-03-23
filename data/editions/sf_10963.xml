@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -118,31 +119,21 @@
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11515">Greiner, Leo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4423">Knopf, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb24825">Seltzer, Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10963.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>japanisch</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11515" source="https://pmb.acdh.oeaw.ac.at/entity/11515/">
-          <persName>Greiner, Leo</persName>
-        </person>
-        <person ref="#pmb4423" source="https://pmb.acdh.oeaw.ac.at/entity/4423/">
-          <persName>Knopf, Alfred</persName>
-        </person>
-        <person ref="#pmb24825" source="https://pmb.acdh.oeaw.ac.at/entity/24825/">
-          <persName>Seltzer, Thomas</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -153,8 +144,9 @@
       <div type="letter">
         <p>1 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0261"/>P.M. S. +<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0261"/>P.M. S. +<lb/>
 «y »<lb/>
 o o ro<lb/>
 c.<lb/>
@@ -339,7 +331,8 @@ rch<lb/>
 HH O LUwos-<lb/>
 Vom<lb/>
 K, O. O. S. &amp; L.</p>
-        <p><pb facs="1416739_0262"/>Vuodentulksi.<lb/>
+        <p>
+          <pb facs="1416739_0262"/>Vuodentulksi.<lb/>
 P. L. S. + u. 0 &amp; L. + +<lb/>
 uswällä.<lb/>
 Oulun läänin kuvernätä.<lb/>

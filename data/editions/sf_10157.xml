@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10157">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -82,6 +83,12 @@ Antwort AS anzunehmen, aber aus der Folgekorrespondnez nicht sicher zu erschlie�
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10157.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -89,14 +96,6 @@ Antwort AS anzunehmen, aber aus der Folgekorrespondnez nicht sicher zu erschlie�
           <term>Uraufführung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -109,8 +108,9 @@ Antwort AS anzunehmen, aber aus der Folgekorrespondnez nicht sicher zu erschlie�
 
 Antwort AS anzunehmen, aber aus der Folgekorrespondnez nicht sicher zu erschließen</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0228"/>130<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0228"/>130<lb/>
 S. FISCHER,VERLAG, BERLIN W., BÜLowSTR. 91<lb/>
 BERene W., DEN 20. Okt. 1905<lb/>
 Herrn Dr. Arthur Schnitsler<lb/>
@@ -129,7 +129,8 @@ fluss auf die deutschen Bühnen geblieben wäre.<lb/>
 Ueberlegen Sie, bitte, ob es nicht ratsam sein wird.<lb/>
 die Ruabevegute tänigstens zu Tage der Berlinerität<lb/>
 Aufführung herauszubringen. Wann soll die Berliner</p>
-        <p><pb facs="1416742_0229"/>Premiere stattfinden? Können wir die Buchausgabe<lb/>
+        <p>
+          <pb facs="1416742_0229"/>Premiere stattfinden? Können wir die Buchausgabe<lb/>
 schon drucken? Ist Ihr Imprimatur mit den letz-<lb/>
 ten Collecturen als erteilt zu betrachten?<lb/>
 Mit besten Grüssen<lb/>

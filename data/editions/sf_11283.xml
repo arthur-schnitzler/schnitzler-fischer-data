@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -58,7 +59,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
-Antwort auf: <ref target="11282">1927-02-15 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="11282">1927-02-15 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1927-02-17.html</note>
       </notesStmt>
@@ -75,6 +77,15 @@ Antwort auf: <ref target="11282">1927-02-15 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="118643630">Achard, Marcel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10893">Bernard, Tristan</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11250">Eloesser, Arthur</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb166">Frankreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11283.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -87,25 +98,6 @@ Antwort auf: <ref target="11282">1927-02-15 AS (Wien) an SF (Berlin)</ref></note
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="118643630" source="https://d-nb.info/gnd/118643630">
-          <persName>Achard, Marcel</persName>
-        </person>
-        <person ref="#pmb10893" source="https://pmb.acdh.oeaw.ac.at/entity/10893/">
-          <persName>Bernard, Tristan</persName>
-        </person>
-        <person ref="#pmb11250" source="https://pmb.acdh.oeaw.ac.at/entity/11250/">
-          <persName>Eloesser, Arthur</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
-          <placeName>Frankreich</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -115,10 +107,12 @@ Antwort auf: <ref target="11282">1927-02-15 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 2 Seiten
-Antwort auf: <ref target="11282">1927-02-15 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="11282">1927-02-15 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0910"/>Berlin<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0910"/>Berlin<lb/>
 Fischer. Verlag<lb/>
 Aktien-Gesellschaft!<lb/>
 Amt Lühzow Nummer 6162 Theaterabteilung postscheckkonto Nr. 16692<lb/>
@@ -154,7 +148,8 @@ früher verschickte als ich einige unserer Autoren zur Unterschrift<lb/>
 verleitet. Um alle unsere Autoren einheitlich vertreten zu können,<lb/>
 musste ich damals, um jene Rechte wieder zu erlangen, die Konzession<lb/>
 machen, dass jene Werke, die nicht in unserem Verlage erschienen</p>
-        <p><pb facs="1416743_0911"/>78<lb/>
+        <p>
+          <pb facs="1416743_0911"/>78<lb/>
 Fischer Verlag Berlin<lb/>
 Aktien=Gesellschaft mit<lb/>
 Amt Lühow Nummer 6162 Theaterabteilung postschektonio Nr. 1669.<lb/>

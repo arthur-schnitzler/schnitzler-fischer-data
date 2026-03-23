@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -77,7 +78,8 @@
 Lektoriertes Teilms. 'Weg ins Freie' gleichzeitig mit separater Post an AS
 
 Antwort auf: 1907-10-31post/1907-11-11ante AS an SF (Übersendung 2. Teilms. 'Weg ins Freie'; nicht überliefert)
-Beantwortet in: <ref target="10200">1907-11-13 AS an SF</ref></note>
+Beantwortet in: <ref target="10200">1907-11-13 AS an SF</ref>
+        </note>
         <note type="published_in">Rodewald, 73-74 [Nr. 108]</note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1907-11-11.html</note>
@@ -94,25 +96,19 @@ Beantwortet in: <ref target="10200">1907-11-13 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2914">Bie, Oskar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12176">Mann, Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10199.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Honorar</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2914" source="https://pmb.acdh.oeaw.ac.at/entity/2914/">
-          <persName>Bie, Oskar</persName>
-        </person>
-        <person ref="#pmb12176" source="https://pmb.acdh.oeaw.ac.at/entity/12176/">
-          <persName>Mann, Thomas</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -125,10 +121,12 @@ Beantwortet in: <ref target="10200">1907-11-13 AS an SF</ref></note>
 Lektoriertes Teilms. 'Weg ins Freie' gleichzeitig mit separater Post an AS
 
 Antwort auf: 1907-10-31post/1907-11-11ante AS an SF (Übersendung 2. Teilms. 'Weg ins Freie'; nicht überliefert)
-Beantwortet in: <ref target="10200">1907-11-13 AS an SF</ref></p>
+Beantwortet in: <ref target="10200">1907-11-13 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0298"/>157<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0298"/>157<lb/>
 VERLAG<lb/>
 S. FISCHER,<lb/>
 BERLIN W., DEN 11. Nov. 07<lb/>
@@ -159,7 +157,8 @@ G.M.<lb/>
 du moins de ses<lb/>
 zurück, bis auf 30 Seiten, die ich nachfolgen lasse, jetzt das Mannscript<lb/>
 gleichseitig an Sie ab, mit der Bitte, uns in spätestens 8 Tagen die erste</p>
-        <p><pb facs="1416742_0299"/>S. FISCHER, VERLAG, BERLIN, Herrn Dr. Arthur Schnitsler, Wien Blatt 2<lb/>
+        <p>
+          <pb facs="1416742_0299"/>S. FISCHER, VERLAG, BERLIN, Herrn Dr. Arthur Schnitsler, Wien Blatt 2<lb/>
 Buch wieder zuzusenden. Sie finden im Manuscript einzelne Stellen angestri-<lb/>
 chen, die nach meinem Eindruck den Fluss der Erzählung etwas aufhalten.<lb/>
 Vielleicht prüfen Sie, ob Sie auf einige dieser Stellen, die ich sehr als<lb/>
@@ -186,7 +185,8 @@ Der vorgeschlagene Titel „Der Neg ins Freie“ scheint, so weit es sich aus<lb
 dem Inhalt bisher feststellen lässt, durchaus empfehlenswert. Ueber den<lb/>
 fitel müssen Sie sich schon freundlichst jetzt schlässig machen, denn wir<lb/>
 L. I.</p>
-        <p><pb facs="1416742_0300"/>a<lb/>
+        <p>
+          <pb facs="1416742_0300"/>a<lb/>
 S. FISCHER, VERLAG, BERLIN, Herrn Dr. Arthur Schnitzler, Wien Blatt 3<lb/>
 müssen ihn unbedingt in unserm Prospekt anzeigen.<lb/>
 An die New-Yorker Staatszeitung habe ich geschrieben, ich glaube aber<lb/>

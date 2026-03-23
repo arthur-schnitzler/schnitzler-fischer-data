@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -62,7 +63,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite beschrieben
 
-Bezug auf: <ref target="10311">1910-04-18 SF/CS an AS</ref></note>
+Bezug auf: <ref target="10311">1910-04-18 SF/CS an AS</ref>
+        </note>
         <note type="published_in">Buohler 2011, 149 (Auszug)</note>
         <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1910-10-26.html</note>
@@ -79,6 +81,11 @@ Bezug auf: <ref target="10311">1910-04-18 SF/CS an AS</ref></note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2874">Eirich, Oskar Friedrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10342.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -89,11 +96,6 @@ Bezug auf: <ref target="10311">1910-04-18 SF/CS an AS</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2874" source="https://pmb.acdh.oeaw.ac.at/entity/2874/">
-          <persName>Eirich, Oskar Friedrich</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -104,7 +106,8 @@ Bezug auf: <ref target="10311">1910-04-18 SF/CS an AS</ref></note>
       <div type="letter">
         <p>1 Blatt, 1 Seite beschrieben
 
-Bezug auf: <ref target="10311">1910-04-18 SF/CS an AS</ref></p>
+Bezug auf: <ref target="10311">1910-04-18 SF/CS an AS</ref>
+        </p>
       </div>
     </body>
   </text>

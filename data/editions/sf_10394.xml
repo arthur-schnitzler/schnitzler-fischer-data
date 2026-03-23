@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -66,7 +67,8 @@
         <note type="description">1 Blatt, 1 Seite beschrieben
 Anlage: Text 'Die dreifache Warnung' und weiterer Text für Fischer-Katalog (nicht überliefert)
 
-Antwort auf: 1911-08-09/12 und <ref target="10393">1911-08-22 SF an AS</ref></note>
+Antwort auf: 1911-08-09/12 und <ref target="10393">1911-08-22 SF an AS</ref>
+        </note>
         <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1911-09-02.html</note>
       </notesStmt>
@@ -82,53 +84,25 @@ Antwort auf: 1911-08-09/12 und <ref target="10393">1911-08-22 SF an AS</ref></no
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb521">Bad Gastein</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2238">Cappellini, Lili</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12085">Linsemann, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12692">Schnitzler, Heinrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12701">Schnitzler, Louise</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2173">Schnitzler, Olga</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb521">Bad Gastein</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44119">Mainz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb189">Semmering</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb197">Weimar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb36247">Burgtheater Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb57207">Stadttheater Mainz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10394.xml"/>
+        </note>
       </correspDesc>
       <textClass/>
-      <listPerson>
-        <person ref="#pmb2238" source="https://pmb.acdh.oeaw.ac.at/entity/2238/">
-          <persName>Cappellini, Lili</persName>
-        </person>
-        <person ref="#pmb12085" source="https://pmb.acdh.oeaw.ac.at/entity/12085/">
-          <persName>Linsemann, Paul</persName>
-        </person>
-        <person ref="#pmb12692" source="https://pmb.acdh.oeaw.ac.at/entity/12692/">
-          <persName>Schnitzler, Heinrich</persName>
-        </person>
-        <person ref="#pmb12701" source="https://pmb.acdh.oeaw.ac.at/entity/12701/">
-          <persName>Schnitzler, Louise</persName>
-        </person>
-        <person ref="#pmb2173" source="https://pmb.acdh.oeaw.ac.at/entity/2173/">
-          <persName>Schnitzler, Olga</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb521" source="https://pmb.acdh.oeaw.ac.at/entity/521/">
-          <placeName>Bad Gastein</placeName>
-        </place>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb44119" source="https://pmb.acdh.oeaw.ac.at/entity/44119/">
-          <placeName>Mainz</placeName>
-        </place>
-        <place ref="#pmb189" source="https://pmb.acdh.oeaw.ac.at/entity/189/">
-          <placeName>Semmering</placeName>
-        </place>
-        <place ref="#pmb197" source="https://pmb.acdh.oeaw.ac.at/entity/197/">
-          <placeName>Weimar</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb36247" source="https://pmb.acdh.oeaw.ac.at/entity/36247/">
-          <orgName>Burgtheater Wien</orgName>
-        </org>
-        <org ref="#pmb57207" source="https://pmb.acdh.oeaw.ac.at/entity/57207/">
-          <orgName>Stadttheater Mainz</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -140,7 +114,8 @@ Antwort auf: 1911-08-09/12 und <ref target="10393">1911-08-22 SF an AS</ref></no
         <p>1 Blatt, 1 Seite beschrieben
 Anlage: Text 'Die dreifache Warnung' und weiterer Text für Fischer-Katalog (nicht überliefert)
 
-Antwort auf: 1911-08-09/12 und <ref target="10393">1911-08-22 SF an AS</ref></p>
+Antwort auf: 1911-08-09/12 und <ref target="10393">1911-08-22 SF an AS</ref>
+        </p>
       </div>
     </body>
   </text>

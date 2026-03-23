@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -77,7 +78,8 @@
         <note type="description">1 Blatt, 2 Seiten beschrieben
 
 Antwort auf: 1914-02-04ante SF/Büro an AS
-Beantwortet in: <ref target="10518">1914-02-06 SF an AS</ref></note>
+Beantwortet in: <ref target="10518">1914-02-06 SF an AS</ref>
+        </note>
         <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1914-02-04.html</note>
       </notesStmt>
@@ -93,6 +95,23 @@ Beantwortet in: <ref target="10518">1914-02-06 SF an AS</ref></note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb257737">Biedermann (Übersetzer/LIteraturagent, USA)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11093">Christians, Rudolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17355">Grein, Jack Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20474">Linden, Gustaf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb9667">Schapira, Vera</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2173">Schnitzler, Olga</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb30">Salzburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb1119">Stockholm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10516.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -103,49 +122,6 @@ Beantwortet in: <ref target="10518">1914-02-06 SF an AS</ref></note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb257737" source="https://pmb.acdh.oeaw.ac.at/entity/257737/">
-          <persName>Biedermann (Übersetzer/LIteraturagent, USA)</persName>
-        </person>
-        <person ref="#pmb11093" source="https://pmb.acdh.oeaw.ac.at/entity/11093/">
-          <persName>Christians, Rudolf</persName>
-        </person>
-        <person ref="#pmb17355" source="https://pmb.acdh.oeaw.ac.at/entity/17355/">
-          <persName>Grein, Jack Thomas</persName>
-        </person>
-        <person ref="#pmb20474" source="https://pmb.acdh.oeaw.ac.at/entity/20474/">
-          <persName>Linden, Gustaf</persName>
-        </person>
-        <person ref="#pmb9667" source="https://pmb.acdh.oeaw.ac.at/entity/9667/">
-          <persName>Schapira, Vera</persName>
-        </person>
-        <person ref="#pmb2173" source="https://pmb.acdh.oeaw.ac.at/entity/2173/">
-          <persName>Schnitzler, Olga</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb30" source="https://pmb.acdh.oeaw.ac.at/entity/30/">
-          <placeName>Salzburg</placeName>
-        </place>
-        <place ref="#pmb1119" source="https://pmb.acdh.oeaw.ac.at/entity/1119/">
-          <placeName>Stockholm</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -157,7 +133,8 @@ Beantwortet in: <ref target="10518">1914-02-06 SF an AS</ref></note>
         <p>1 Blatt, 2 Seiten beschrieben
 
 Antwort auf: 1914-02-04ante SF/Büro an AS
-Beantwortet in: <ref target="10518">1914-02-06 SF an AS</ref></p>
+Beantwortet in: <ref target="10518">1914-02-06 SF an AS</ref>
+        </p>
       </div>
     </body>
   </text>

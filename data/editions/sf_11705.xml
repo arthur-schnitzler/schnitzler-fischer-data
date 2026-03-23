@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -66,7 +67,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Antwort auf: <ref target="11702">1931-09-08 SF (Berlin) an AS (Wien)</ref>, <ref target="11704">1931-09-10 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11702">1931-09-08 SF (Berlin) an AS (Wien)</ref>, <ref target="11704">1931-09-10 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1931-09-12.html</note>
       </notesStmt>
@@ -83,6 +85,13 @@ Antwort auf: <ref target="11702">1931-09-08 SF (Berlin) an AS (Wien)</ref>, <ref
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Rothgiesser, Iwan (Verlagsbuchhändler, Berlin)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43471">Budapest</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11705.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -93,19 +102,6 @@ Antwort auf: <ref target="11702">1931-09-08 SF (Berlin) an AS (Wien)</ref>, <ref
           <term>Inszenierung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person>
-          <persName>Rothgiesser, Iwan (Verlagsbuchhändler, Berlin)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43471" source="https://pmb.acdh.oeaw.ac.at/entity/43471/">
-          <placeName>Budapest</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -115,10 +111,12 @@ Antwort auf: <ref target="11702">1931-09-08 SF (Berlin) an AS (Wien)</ref>, <ref
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Antwort auf: <ref target="11702">1931-09-08 SF (Berlin) an AS (Wien)</ref>, <ref target="11704">1931-09-10 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11702">1931-09-08 SF (Berlin) an AS (Wien)</ref>, <ref target="11704">1931-09-10 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0184"/>Wichtiger als dies wäre mir die Heraus-<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0184"/>Wichtiger als dies wäre mir die Heraus-<lb/>
 gabe eines neuen Bandes der Theaterstücke, der<lb/>
 nun wohl fällig wäre und ich würde gern recht bald<lb/>
 Ihre Meinung darüber hören.<lb/>

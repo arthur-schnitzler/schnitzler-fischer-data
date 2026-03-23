@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,6 +77,12 @@ Brief Nr. 762</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Rheinische Schaubühne (wohl irrtümlich genannt)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11233.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -83,16 +90,6 @@ Brief Nr. 762</note>
           <term>Rezensionsexemplare</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org>
-          <orgName>Rheinische Schaubühne (wohl irrtümlich genannt)</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -106,8 +103,9 @@ Antwort auf: <ref target="11230">1926-02-25 AS (Wien) an SF (Berlin)</ref>
 Unbekannter Absender
 Brief Nr. 762</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0873"/>̃ ̃ 1<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0873"/>̃ ̃ 1<lb/>
 11<lb/>
 762<lb/>
 S.FISCHER-VERLAG A.-G. BERLIN W.BÜLÖWSTR. 90<lb/>

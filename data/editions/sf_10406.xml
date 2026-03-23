@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10406">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -77,6 +78,15 @@ Das von SF angeregte Treffen mit AS kam lt. Tgb nicht zustande. Beide sahen sich
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2167">Salten, Felix</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2173">Schnitzler, Olga</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13055">Wassermann, Jakob</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb189">Semmering</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10406.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -85,25 +95,6 @@ Das von SF angeregte Treffen mit AS kam lt. Tgb nicht zustande. Beide sahen sich
           <term>Treffen</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2167" source="https://pmb.acdh.oeaw.ac.at/entity/2167/">
-          <persName>Salten, Felix</persName>
-        </person>
-        <person ref="#pmb2173" source="https://pmb.acdh.oeaw.ac.at/entity/2173/">
-          <persName>Schnitzler, Olga</persName>
-        </person>
-        <person ref="#pmb13055" source="https://pmb.acdh.oeaw.ac.at/entity/13055/">
-          <persName>Wassermann, Jakob</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb189" source="https://pmb.acdh.oeaw.ac.at/entity/189/">
-          <placeName>Semmering</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -116,8 +107,9 @@ Das von SF angeregte Treffen mit AS kam lt. Tgb nicht zustande. Beide sahen sich
 
 Das von SF angeregte Treffen mit AS kam lt. Tgb nicht zustande. Beide sahen sich erst Anfang 1912 am Semmering (Tgb 1912-01-03, 1912-01-04) sowie in Wien (Tgb 1912-01-10).</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0517"/>oca<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0517"/>oca<lb/>
 263<lb/>
 Kirje<lb/>
 27/12. 11<lb/>
@@ -138,7 +130,8 @@ Wassermanns und Falfen,<lb/>
 werden dahei sein.<lb/>
 Nächst dem egoistischen<lb/>
 Wunsch mit Ihnen besonnen</p>
-        <p><pb facs="1416742_0518"/>des<lb/>
+        <p>
+          <pb facs="1416742_0518"/>des<lb/>
 zu sein will ich noch einmal<lb/>
 mit Ihnen den Plan der Gesamt-<lb/>
 ausgabe berühren, denn er<lb/>

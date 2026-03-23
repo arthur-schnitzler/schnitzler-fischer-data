@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10064">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -104,6 +105,22 @@ Beantwortet in: 1897-02-03post/1897-02-09ante AS an SF (Vertrag 'Mimi'; nicht ü
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2147">Altenberg, Peter</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1066401357">Althoff, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10828">Bang, Herman</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7610">Gurschner, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11605">Hartleben, Otto Erich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb64831">Janitschek, Maria</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2357">Nansen, Peter</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12435">Pollaczek, Clara Katharina</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12514">Reuter, Gabriele</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb182">Paris</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10064.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -113,46 +130,6 @@ Beantwortet in: 1897-02-03post/1897-02-09ante AS an SF (Vertrag 'Mimi'; nicht ü
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2147" source="https://pmb.acdh.oeaw.ac.at/entity/2147/">
-          <persName>Altenberg, Peter</persName>
-        </person>
-        <person ref="1066401357" source="https://d-nb.info/gnd/1066401357">
-          <persName>Althoff, Paul</persName>
-        </person>
-        <person ref="#pmb10828" source="https://pmb.acdh.oeaw.ac.at/entity/10828/">
-          <persName>Bang, Herman</persName>
-        </person>
-        <person ref="#pmb7610" source="https://pmb.acdh.oeaw.ac.at/entity/7610/">
-          <persName>Gurschner, Alice</persName>
-        </person>
-        <person ref="#pmb11605" source="https://pmb.acdh.oeaw.ac.at/entity/11605/">
-          <persName>Hartleben, Otto Erich</persName>
-        </person>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-        <person ref="#pmb64831" source="https://pmb.acdh.oeaw.ac.at/entity/64831/">
-          <persName>Janitschek, Maria</persName>
-        </person>
-        <person ref="#pmb2357" source="https://pmb.acdh.oeaw.ac.at/entity/2357/">
-          <persName>Nansen, Peter</persName>
-        </person>
-        <person ref="#pmb12435" source="https://pmb.acdh.oeaw.ac.at/entity/12435/">
-          <persName>Pollaczek, Clara Katharina</persName>
-        </person>
-        <person ref="#pmb12514" source="https://pmb.acdh.oeaw.ac.at/entity/12514/">
-          <persName>Reuter, Gabriele</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb182" source="https://pmb.acdh.oeaw.ac.at/entity/182/">
-          <placeName>Paris</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -166,8 +143,9 @@ Beantwortet in: 1897-02-03post/1897-02-09ante AS an SF (Vertrag 'Mimi'; nicht ü
 Antwort auf: 1897-02-03ante AS an SF ('Mimi' von Clara Katharina Pollaczek; nicht überliefert)
 Beantwortet in: 1897-02-03post/1897-02-09ante AS an SF (Vertrag 'Mimi'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0071"/>Fils<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0071"/>Fils<lb/>
 LAG.<lb/>
 Berlin W., den 3. Februar 1897<lb/>
 Steglitzer Strasse 49 I.<lb/>

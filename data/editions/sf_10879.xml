@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -103,6 +104,17 @@ Anlage: 1922-01-19 Bestätigung auf Recht einer englischen Buchausgabe und engli
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10836">Bartsch, Rudolf Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3105">Karczag, Wilhelm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb22388">Paukner, Grete</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb24825">Seltzer, Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb25499">Sternberg, Joseph von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb92768">Woticky, Edward</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10879.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -116,31 +128,6 @@ Anlage: 1922-01-19 Bestätigung auf Recht einer englischen Buchausgabe und engli
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
-          <persName>Bartsch, Rudolf Hans</persName>
-        </person>
-        <person ref="#pmb3105" source="https://pmb.acdh.oeaw.ac.at/entity/3105/">
-          <persName>Karczag, Wilhelm</persName>
-        </person>
-        <person ref="#pmb22388" source="https://pmb.acdh.oeaw.ac.at/entity/22388/">
-          <persName>Paukner, Grete</persName>
-        </person>
-        <person ref="#pmb24825" source="https://pmb.acdh.oeaw.ac.at/entity/24825/">
-          <persName>Seltzer, Thomas</persName>
-        </person>
-        <person ref="#pmb25499" source="https://pmb.acdh.oeaw.ac.at/entity/25499/">
-          <persName>Sternberg, Joseph von</persName>
-        </person>
-        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
-          <persName>Woticky, Edward</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -154,8 +141,9 @@ Antwort auf: <ref target="10878">1922-01-16 SF (Berlin) an AS (Wien)</ref>
 Beantwortet in: <ref target="10884">1922-02-10 SF (Berlin) an AS (Wien)</ref>
 Anlage: 1922-01-19 Bestätigung auf Recht einer englischen Buchausgabe und englischen Aufführungen für den Fischer Verlag</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0214"/>1:1 1 1:<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0214"/>1:1 1 1:<lb/>
 19/1 922<lb/>
 19.1.1922.<lb/>
 à 1er<lb/>
@@ -245,7 +233,8 @@ Pr. ###<lb/>
 Abschluss ohne meine Genehmigung nicht fine<lb/>
 lisiert werden darf. Ueber die Einzelhei-<lb/>
 ten dieser Erlaubnisfalle habe ich Sie genau</p>
-        <p><pb facs="1416739_0215"/>informiert und möchte es heute nochmals tun.<lb/>
+        <p>
+          <pb facs="1416739_0215"/>informiert und möchte es heute nochmals tun.<lb/>
 Frau Paukner ist die eine Person, der ich ge-<lb/>
 stattet habe In meinem Namen über Abdruck<lb/>
 von Novelle n von mir in Verhandlungen einzu-<lb/>
@@ -330,7 +319,8 @@ eine Angelegenheit, die ich auf kürzestem Wege<lb/>
 persönlich erledigen kann, den Herren Kirpatrik<lb/>
 und Brandt zu übergeben? Bei alldem fühle<lb/>
 ich sehr gut, dass eine Zentralisierung mei-</p>
-        <p><pb facs="1416739_0216"/>ner Angelegenha iten in Amerika für mich per -<lb/>
+        <p>
+          <pb facs="1416739_0216"/>ner Angelegenha iten in Amerika für mich per -<lb/>
 sönlich ei nen Vorteil und insbesondere eine<lb/>
 Erleichterung bedeutete, wenn sie nur praktisch<lb/>
 wirklich durchführbar wäre. Aber es passiert<lb/>
@@ -410,7 +400,8 @@ Mit verbindlo hem Gruss<lb/>
 Ihr sehr ergebener,<lb/>
 Herrn Leo Greiner<lb/>
 S.Fischer,Verlag,Berlin.</p>
-        <p><pb facs="1416739_0217"/>Actes<lb/>
+        <p>
+          <pb facs="1416739_0217"/>Actes<lb/>
 amt<lb/>
 4!<lb/>
 ohne<lb/>
@@ -463,7 +454,8 @@ r iaisia<lb/>
 S4 0084<lb/>
 O’TJ J<lb/>
 F.T.</p>
-        <p><pb facs="1416739_0218"/>triche<lb/>
+        <p>
+          <pb facs="1416739_0218"/>triche<lb/>
 G. F. P. S.<lb/>
 Mikkelin lääneissä sekä se<lb/>
 * &amp; *<lb/>

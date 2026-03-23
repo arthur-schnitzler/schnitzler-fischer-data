@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -73,7 +74,8 @@
         <note type="description">1 Blatt, 2 Seiten beschrieben
 Anlage: Aufstellung fremdsprachiger AS-Aufführungen (nicht überliefert)
 
-Antwort auf: <ref target="10395">1911-09-22 AS an SF/CS</ref></note>
+Antwort auf: <ref target="10395">1911-09-22 AS an SF/CS</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1911-09-28.html</note>
       </notesStmt>
@@ -90,6 +92,13 @@ Antwort auf: <ref target="10395">1911-09-22 AS an SF/CS</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2874">Eirich, Oscar Friedrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1329920023">Szalit, Julius</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb313">Polen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10397.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -98,19 +107,6 @@ Antwort auf: <ref target="10395">1911-09-22 AS an SF/CS</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2874" source="https://pmb.acdh.oeaw.ac.at/entity/2874/">
-          <persName>Eirich, Oscar Friedrich</persName>
-        </person>
-        <person ref="1329920023" source="https://d-nb.info/gnd/1329920023">
-          <persName>Szalit, Julius</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
-          <placeName>Polen</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -122,10 +118,12 @@ Antwort auf: <ref target="10395">1911-09-22 AS an SF/CS</ref></note>
         <p>1 Blatt, 2 Seiten beschrieben
 Anlage: Aufstellung fremdsprachiger AS-Aufführungen (nicht überliefert)
 
-Antwort auf: <ref target="10395">1911-09-22 AS an SF/CS</ref></p>
+Antwort auf: <ref target="10395">1911-09-22 AS an SF/CS</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0506"/>256<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0506"/>256<lb/>
 S. FISCHER, VERLAG,“ BERLIN W., BÜLowSTR. 90<lb/>
 BERene W., DEN 28/0.11<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -146,7 +144,8 @@ im Verlage einer österreichischen Buchhandlung<lb/>
 erscheinen könnte.<lb/>
 Wir bitten um gefl. Nachricht, ob und even-<lb/>
 tuell unter welchen Bedingungen wir Herrn Szalit</p>
-        <p><pb facs="1416742_0507"/>die Autorisation erteilen können.<lb/>
+        <p>
+          <pb facs="1416742_0507"/>die Autorisation erteilen können.<lb/>
 Hochachtungsval<lb/>
 orgebenes<lb/>
 S. FISCHER, VERLAG<lb/>

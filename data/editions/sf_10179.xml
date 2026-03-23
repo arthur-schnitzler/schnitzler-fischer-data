@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -67,7 +68,8 @@
         <note type="description">1 Doppelblatt, 3 Seiten beschrieben
 Anlage: 1907-03-23 Alice Kauser an SF (Vertragsentwurf überliefert; Begleitbrief und Übersetzung nicht überliefert)
 
-Beantwortet in: <ref target="10180">1907-04-17 AS an SF</ref></note>
+Beantwortet in: <ref target="10180">1907-04-17 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1907-04-13.html</note>
       </notesStmt>
@@ -83,6 +85,15 @@ Beantwortet in: <ref target="10180">1907-04-17 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb89716">Ashwell, Lena</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb15048">Colbron, Grace Isabel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10179.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,25 +102,6 @@ Beantwortet in: <ref target="10180">1907-04-17 AS an SF</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb89716" source="https://pmb.acdh.oeaw.ac.at/entity/89716/">
-          <persName>Ashwell, Lena</persName>
-        </person>
-        <person ref="#pmb15048" source="https://pmb.acdh.oeaw.ac.at/entity/15048/">
-          <persName>Colbron, Grace Isabel</persName>
-        </person>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -121,10 +113,12 @@ Beantwortet in: <ref target="10180">1907-04-17 AS an SF</ref></note>
         <p>1 Doppelblatt, 3 Seiten beschrieben
 Anlage: 1907-03-23 Alice Kauser an SF (Vertragsentwurf überliefert; Begleitbrief und Übersetzung nicht überliefert)
 
-Beantwortet in: <ref target="10180">1907-04-17 AS an SF</ref></p>
+Beantwortet in: <ref target="10180">1907-04-17 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0266"/>144<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0266"/>144<lb/>
 S. FISCHER,VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
 Kai<lb/>
 BERcelN W., DEN 18. April 07<lb/>
@@ -153,7 +147,8 @@ m m m m r v r<lb/>
 schlägen das Zugeständnis abhängig gemacht, ihr<lb/>
 auch Ihre zukünftigen Dragen für Amerika zu über-<lb/>
 geben, um gleichzeitig auf diese Weise auch für</p>
-        <p><pb facs="1416742_0267"/>Ihre aukünftigen Drassen den Gepyright-Schutz zu<lb/>
+        <p>
+          <pb facs="1416742_0267"/>Ihre aukünftigen Drassen den Gepyright-Schutz zu<lb/>
 xx sichern. Was Miss Kaiser in ihrem Vertrag vor¬<lb/>
 alles vorschlägt, ist xxx wesentlichen das, was ich verlangt<lb/>
 enien habe, ist glaube, wir können mit diesen Vereinba-<lb/>
@@ -184,7 +179,8 @@ ihrem Brief davon, dass Ihre Briefe an Miss Gelbren<lb/>
 schuld daran seien, dass sich nicht sehr für die¬<lb/>
 belei" erzielen liesse. Hier handelt es sich effen-<lb/>
 bar um die Briefe, die Miss Colbren vergibt en-</p>
-        <p><pb facs="1416742_0268"/>142<lb/>
+        <p>
+          <pb facs="1416742_0268"/>142<lb/>
 schaffungen zu haben? Ihren an Wies-Mäuser gerichte-<lb/>
 ten Brief von 6. März, den ich Miss Kaiser zur<lb/>
 seiner Einstohtnahme und Neitersendung sohieken wollte<lb/>

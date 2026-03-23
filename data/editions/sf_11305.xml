@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -89,6 +90,17 @@ Beilage: 1927-05-13 Deutsches Theater Berlin an SF</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8288">Konstantin, Leopoldine</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12749">Schönherr, Karl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43570">Dänemark</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb35597">Deutsches Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11305.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -108,33 +120,6 @@ Beilage: 1927-05-13 Deutsches Theater Berlin an SF</note>
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb8288" source="https://pmb.acdh.oeaw.ac.at/entity/8288/">
-          <persName>Konstantin, Leopoldine</persName>
-        </person>
-        <person ref="#pmb12749" source="https://pmb.acdh.oeaw.ac.at/entity/12749/">
-          <persName>Schönherr, Karl</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb43570" source="https://pmb.acdh.oeaw.ac.at/entity/43570/">
-          <placeName>Dänemark</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb35597" source="https://pmb.acdh.oeaw.ac.at/entity/35597/">
-          <orgName>Deutsches Theater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -148,8 +133,9 @@ Antwort auf: <ref target="11302">1927-05-05 AS (Wien) an SF (Berlin)</ref>, <ref
 Beantwortet in: <ref target="11307">1927-05-23 AS (Wien) an SF (Berlin)</ref>
 Beilage: 1927-05-13 Deutsches Theater Berlin an SF</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0929"/>Pour le<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0929"/>Pour le<lb/>
 V. P.<lb/>
 frans<lb/>
 S. Fischer / Verlag / A.=G. Berlin W57<lb/>
@@ -199,7 +185,8 @@ Was Frau xxx betrifft, so hatten wir vor einiger<lb/>
 Zeit gehört, dass Frau Konstantin in Ungarn Ihre Einakter gespielt<lb/>
 haben soll, aber diese Gerüchte haben sich dann nicht bestätigen<lb/>
 lassen. Vielleicht können Sie uns sagen, ob Sie diese Nachricht im</p>
-        <p><pb facs="1416743_0930"/>Täte niiit. E gebratt.<lb/>
+        <p>
+          <pb facs="1416743_0930"/>Täte niiit. E gebratt.<lb/>
 ###nulissdarsiaadJ<lb/>
 Kebo! if ailesa :oimddondosioa 4 mihad m 9 aesdxxn og. m.<lb/>
 Told ald SÖIo! m. A. xxxiIdbaundor###<lb/>

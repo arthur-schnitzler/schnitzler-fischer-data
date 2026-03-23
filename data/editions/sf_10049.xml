@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10049">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -95,6 +96,14 @@ Antwort auf: evtl. vorherige Anfrage von AS nach Verkaufszahlen 'Liebelei'</note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2147">Altenberg, Peter</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11910">Kerr, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12514">Reuter, Gabriele</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10049.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -106,22 +115,6 @@ Antwort auf: evtl. vorherige Anfrage von AS nach Verkaufszahlen 'Liebelei'</note
           <term>Titel/Werktitel</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2147" source="https://pmb.acdh.oeaw.ac.at/entity/2147/">
-          <persName>Altenberg, Peter</persName>
-        </person>
-        <person ref="#pmb11910" source="https://pmb.acdh.oeaw.ac.at/entity/11910/">
-          <persName>Kerr, Alfred</persName>
-        </person>
-        <person ref="#pmb12514" source="https://pmb.acdh.oeaw.ac.at/entity/12514/">
-          <persName>Reuter, Gabriele</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -135,8 +128,9 @@ Anlage: Honorar
 
 Antwort auf: evtl. vorherige Anfrage von AS nach Verkaufszahlen 'Liebelei'</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0059"/>AG.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0059"/>AG.<lb/>
 SCHER,<lb/>
 Berlin W., den 28/4<lb/>
 189 6<lb/>
@@ -195,7 +189,8 @@ geplanten<lb/>
 Johann<lb/>
 Mein<lb/>
 Pr.</p>
-        <p><pb facs="1416742_0060"/>Auflage drucken lassen.<lb/>
+        <p>
+          <pb facs="1416742_0060"/>Auflage drucken lassen.<lb/>
 Um nun eine glatte Abrechnung<lb/>
 zu haben, sende ich Ihnen für die<lb/>
 erste Auflage von 1150 sapl. das<lb/>
@@ -214,7 +209,8 @@ Ich verspreche mir von einem solchen<lb/>
 Werke eine starken Aufschwung Ihr<lb/>
 el erinnere mich,<lb/>
 Buchau</p>
-        <p><pb facs="1416742_0061"/>ISCHER, VERLAG.<lb/>
+        <p>
+          <pb facs="1416742_0061"/>ISCHER, VERLAG.<lb/>
 Län<lb/>
 dans les<lb/>
 P.S.<lb/>

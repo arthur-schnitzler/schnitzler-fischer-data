@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -84,6 +85,11 @@ Rückseite: Handschriftliche Notiz AS</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11469.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -94,11 +100,6 @@ Rückseite: Handschriftliche Notiz AS</note>
           <term>Tantiemen</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -111,8 +112,9 @@ Rückseite: Handschriftliche Notiz AS</note>
 Beantwortet in: <ref target="11470">1929-03-02 AS (Wien) an SF (Berlin)</ref>
 Rückseite: Handschriftliche Notiz AS</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_1087"/>904 Çrope suis<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_1087"/>904 Çrope suis<lb/>
 Fischer / Verlag / A.=G. Berlin W 57.<lb/>
 Theaterabteilung<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto. Berlin Nr. 16692<lb/>

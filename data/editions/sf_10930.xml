@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -81,6 +82,13 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11646">Heller, Hugo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10930.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -94,19 +102,6 @@
           <term>Vorschuss</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11646" source="https://pmb.acdh.oeaw.ac.at/entity/11646/">
-          <persName>Heller, Hugo</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -117,8 +112,9 @@
       <div type="letter">
         <p>2 Blatt, 4 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0526"/>52m<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0526"/>52m<lb/>
 874.<lb/>
 Haus Schindler<lb/>
 Zeit Oberschreiberhau,<lb/>
@@ -151,7 +147,8 @@ amen verredi-<lb/>
 und Sie bekommen natürlich.<lb/>
 Werken erzählender<lb/>
 net, was nebenbei bemerkt.</p>
-        <p><pb facs="1416743_0527"/>580<lb/>
+        <p>
+          <pb facs="1416743_0527"/>580<lb/>
 Inhalts, die in größeren Auflagen gedruckt werden, schreiben wir<lb/>
 wie beim " Weg ins Freie" eine Tantieme von 16% gut.<lb/>
 Sie schreiben, daß es noch heute Abmachungen giebt, indenen der<lb/>
@@ -182,7 +179,8 @@ meiner größten Bindereien einen Vorschuß von mehreren 100.000. eben mit-<lb/>
 Sen, damit sie meine Aufträge den anderen voranstellt. Trotzdem wurden<lb/>
 mit den gegeben Quan<lb/>
 wir so knapp beliefert, daß es nicht möglich war</p>
-        <p><pb facs="1416743_0528"/>wer:<lb/>
+        <p>
+          <pb facs="1416743_0528"/>wer:<lb/>
 Es kam dann noch ein Buchbinderstreik<lb/>
 ten alle Wünsche zu befriedigen.<lb/>
 der bis vor kurzem gedauert hat, und um das Maj voll zu machen,<lb/>
@@ -219,7 +217,8 @@ uns.<lb/>
 abstverständlich liefern<lb/>
 die Bücher zu bezahlen. Aber<lb/>
 der Lage ist.</p>
-        <p><pb facs="1416743_0529"/>580<lb/>
+        <p>
+          <pb facs="1416743_0529"/>580<lb/>
 – diese firmen —<lb/>
 allen österreichischen Firmen direkt. Sie haben auch früher immer direkt<lb/>
 von uns bezogen, weil sie von uns billiger kaufen. Diese Vertretung hat<lb/>

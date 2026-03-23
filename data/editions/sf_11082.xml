@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -81,7 +82,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten
-Beantwortet in: <ref target="11083">1924-05-01 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11083">1924-05-01 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="published_in">Rodewald, 142-143 [Nr. 177]</note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-04-28.html</note>
@@ -98,6 +100,17 @@ Beantwortet in: <ref target="11083">1924-05-01 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb179473">Schumann, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb864">Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb47927">Washington</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb35597">Deutsches Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Rotter-Bühnen Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11082.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -111,33 +124,6 @@ Beantwortet in: <ref target="11083">1924-05-01 SF (Berlin) an AS (Wien)</ref></n
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb179473" source="https://pmb.acdh.oeaw.ac.at/entity/179473/">
-          <persName>Schumann, Max</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb864" source="https://pmb.acdh.oeaw.ac.at/entity/864/">
-          <placeName>Leipzig</placeName>
-        </place>
-        <place ref="#pmb47927" source="https://pmb.acdh.oeaw.ac.at/entity/47927/">
-          <placeName>Washington</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb35597" source="https://pmb.acdh.oeaw.ac.at/entity/35597/">
-          <orgName>Deutsches Theater Berlin</orgName>
-        </org>
-        <org>
-          <orgName>Rotter-Bühnen Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -147,10 +133,12 @@ Beantwortet in: <ref target="11083">1924-05-01 SF (Berlin) an AS (Wien)</ref></n
     <body>
       <div type="letter">
         <p>2 Blatt, 3 Seiten
-Beantwortet in: <ref target="11083">1924-05-01 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11083">1924-05-01 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0025"/>Unverbindlich frage ich ferner bei<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0025"/>Unverbindlich frage ich ferner bei<lb/>
 Ihnen an, welches Honorar die Neue punctschau<lb/>
 für eine Novelle zu zahlen in der Lage wäre,<lb/>
 die ungefähr den anderthalbfachen Umfang<lb/>
@@ -204,7 +192,8 @@ werden könnte. Würde das den Preis des<lb/>
 Buches verteuern? Das Stück ist ziemlich<lb/>
 lang, der Ihnen vorliegende erst Akt dürfte<lb/>
 ein Drittel vorstellen.</p>
-        <p><pb facs="1416740_0026"/>Ich bin ganz einverstanden,dass Sie<lb/>
+        <p>
+          <pb facs="1416740_0026"/>Ich bin ganz einverstanden,dass Sie<lb/>
 mir diesmal das Guthaben von der Theaterab-<lb/>
 rechnung 1496 Goldmark in österreichischen<lb/>
 Kronen an die Bodenkreditanstalt überweisen<lb/>
@@ -252,7 +241,8 @@ Ihr<lb/>
 Fischer,verlag,<lb/>
 Herrn<lb/>
 perlin.</p>
-        <p><pb facs="1416740_0027"/>1<lb/>
+        <p>
+          <pb facs="1416740_0027"/>1<lb/>
 24.5.1924.<lb/>
 Fischer<lb/>
 cʼest une autre viele<lb/>

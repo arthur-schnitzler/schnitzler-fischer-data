@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -59,7 +60,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
 Antwort auf: <ref target="11072">1924-03-31 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11075">1924-04-10 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="11075">1924-04-10 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="published_in">Rodewald, 139-141 [Nr. 175]</note>
         <note type="type">Handschrift, Typoskript (eigenhändige Unterschrift, eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-04-03.html</note>
@@ -76,6 +78,15 @@ Beantwortet in: <ref target="11075">1924-04-10 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11515">Greiner, Leo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4445">Jacob, Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11891">Kayser, Rudolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb25813">Szyfman, Arnold</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11074.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -86,25 +97,6 @@ Beantwortet in: <ref target="11075">1924-04-10 AS (Wien) an SF (Berlin)</ref></n
           <term>Novellenband</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11515" source="https://pmb.acdh.oeaw.ac.at/entity/11515/">
-          <persName>Greiner, Leo</persName>
-        </person>
-        <person ref="#pmb4445" source="https://pmb.acdh.oeaw.ac.at/entity/4445/">
-          <persName>Jacob, Hans</persName>
-        </person>
-        <person ref="#pmb11891" source="https://pmb.acdh.oeaw.ac.at/entity/11891/">
-          <persName>Kayser, Rudolf</persName>
-        </person>
-        <person ref="#pmb25813" source="https://pmb.acdh.oeaw.ac.at/entity/25813/">
-          <persName>Szyfman, Arnold</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -115,10 +107,12 @@ Beantwortet in: <ref target="11075">1924-04-10 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>2 Blatt, 4 Seiten
 Antwort auf: <ref target="11072">1924-03-31 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11075">1924-04-10 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="11075">1924-04-10 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0726"/>664<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0726"/>664<lb/>
 S. Fischer / Verlag / A.=G. Berlin W 52.<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto; Berlin Nr. 1669.<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 6162 bis 6164<lb/>
@@ -157,7 +151,8 @@ Verlag einen gleichen Honorareste. Er wäre Okenomisch unmöglich. Und<lb/>
 wenn xxx von der Gefährung der ökonomischen Basis meines Verluges<lb/>
 stehen; dass ich durch<lb/>
 gesprochen habe; so tst das auch nur ###o</p>
-        <p><pb facs="1416743_0727"/>oced in<lb/>
+        <p>
+          <pb facs="1416743_0727"/>oced in<lb/>
 .2.<lb/>
 Präzedenzfälle gezwungen sein könnte, die Tantiene auf 20x allgemein<lb/>
 gegeben<lb/>
@@ -189,7 +184,8 @@ Ich Sie, wenn es sich irgendwie machen lässt, Ihr neues Stück dogh noch<lb/>
 meinen Verlag zu übergeben und zwar zu den Bedingungen, die Sta<lb/>
 haben gesehen, dass ich nicht gezögert:<lb/>
 Jener Seite bekommen.</p>
-        <p><pb facs="1416743_0728"/>2. Blatt<lb/>
+        <p>
+          <pb facs="1416743_0728"/>2. Blatt<lb/>
 nal<lb/>
 Herrn Dr.<lb/>
 Herrn Greiner nach Wien zu schicken in einen Moment, wo mir die<lb/>
@@ -219,7 +215,8 @@ re<lb/>
 Mir hat in<lb/>
 bemüht zu haben.<lb/>
 Regentheil) Herr Tzolnay i</p>
-        <p><pb facs="1416743_0729"/>Berlinerzählt er hätte mit Herrn<lb/>
+        <p>
+          <pb facs="1416743_0729"/>Berlinerzählt er hätte mit Herrn<lb/>
 als das Auslage betrachtet geistetet werden.<lb/>
 Kurzstuckberg<lb/>
 abgeschlossen und werden<lb/>

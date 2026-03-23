@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,7 +80,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
 Antwort auf: <ref target="11539">1930-02-03 SF (Berlin) an AS (Wien)</ref>, <ref target="11529">1930-01-21 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11545">1930-02-18 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11545">1930-02-18 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1930-01-15.html</note>
       </notesStmt>
@@ -96,6 +98,14 @@ Beantwortet in: <ref target="11545">1930-02-18 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43570">Dänemark</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb652">Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43430">Tschechien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11542.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -105,20 +115,6 @@ Beantwortet in: <ref target="11545">1930-02-18 SF (Berlin) an AS (Wien)</ref></n
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb43570" source="https://pmb.acdh.oeaw.ac.at/entity/43570/">
-          <placeName>Dänemark</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
-          <placeName>Prag</placeName>
-        </place>
-        <place ref="#pmb43430" source="https://pmb.acdh.oeaw.ac.at/entity/43430/">
-          <placeName>Tschechien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -129,10 +125,12 @@ Beantwortet in: <ref target="11545">1930-02-18 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>1 Blatt, 1 Seite
 Antwort auf: <ref target="11539">1930-02-03 SF (Berlin) an AS (Wien)</ref>, <ref target="11529">1930-01-21 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11545">1930-02-18 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11545">1930-02-18 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0115"/>Tischer<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0115"/>Tischer<lb/>
 15.2.1930.<lb/>
 Lieber Herr Doktor Maril.<lb/>
 Beigeschlossen ein irrtümlich an den<lb/>

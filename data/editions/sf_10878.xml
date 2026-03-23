@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -87,6 +88,18 @@ Anlage: 1921-12-22 Antwort der Alien Property Custodian in deutscher Übersetzun
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10836">Bartsch, Rudolf Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3105">Karczag, Wilhelm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116324333">Raggio, Enrico</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb92768">Woticky, Edward</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb36300">Kopenhagen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb47927">Washington</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10878.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -98,34 +111,6 @@ Anlage: 1921-12-22 Antwort der Alien Property Custodian in deutscher Übersetzun
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
-          <persName>Bartsch, Rudolf Hans</persName>
-        </person>
-        <person ref="#pmb3105" source="https://pmb.acdh.oeaw.ac.at/entity/3105/">
-          <persName>Karczag, Wilhelm</persName>
-        </person>
-        <person ref="116324333" source="https://d-nb.info/gnd/116324333">
-          <persName>Raggio, Enrico</persName>
-        </person>
-        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
-          <persName>Woticky, Edward</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb36300" source="https://pmb.acdh.oeaw.ac.at/entity/36300/">
-          <placeName>Kopenhagen</placeName>
-        </place>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb47927" source="https://pmb.acdh.oeaw.ac.at/entity/47927/">
-          <placeName>Washington</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -139,8 +124,9 @@ Antwort auf: <ref target="10870">1921-12-15 AS (Wien) an SF (Berlin)</ref>, <ref
 Beantwortet in: <ref target="10879">1922-01-19 AS (Wien) an SF (Berlin)</ref>
 Anlage: 1921-12-22 Antwort der Alien Property Custodian in deutscher Übersetzung und 1922-01-12 Klage von Brandt &amp; Kirkpatrick</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0453"/>539<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0453"/>539<lb/>
 S. Fischer/Verlag/Berlin W 57/ Bülowstraße 90<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto; Berlin Nr. 16692<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 1662. 6162 und 9292<lb/>
@@ -178,7 +164,8 @@ te) so möchten wir Ihnen mitteilen, dass diese Herren, denen wir unse-<lb/>
 rerseits ein sehr grosses Vertrauen entgegenbringen, sich sehr ausführ-<lb/>
 lich lich über die Verwirrung beklagen, die hinsichtlich Ihrer werke bei<lb/>
 den amerikanischen Verlegern herrscht. Wir haben darauf bereits in unsern</p>
-        <p><pb facs="1416743_0454"/>S. FISCHER / VerLAG<lb/>
+        <p>
+          <pb facs="1416743_0454"/>S. FISCHER / VerLAG<lb/>
 2. Blatt<lb/>
 Dr. A. Schnitzler 16/1.22<lb/>
 „ Bezug genommen; insbesondere<lb/>
@@ -214,7 +201,8 @@ ja Ihrerseits nichs zu bezahlen ist, da ja die Provision von 15 % nur<lb/>
 auf Neuabschlüsse entfällt. Es scheint uns aber im Augenblick noch<lb/>
 weit wichtiger für Sie, zu einer Ordnung zu gelangen, als solche Neuab<lb/>
 schlüssezu erzielen. Ganz abgesehen, dass wir davon überzeugt sind,</p>
-        <p><pb facs="1416743_0455"/>S. FISCHER / VerLAG<lb/>
+        <p>
+          <pb facs="1416743_0455"/>S. FISCHER / VerLAG<lb/>
 3 Blatt<lb/>
 Dr. A. Schnitzler 16/1. 22<lb/>
 dass diese sich mehren dürften, sobald eine wirkliche Einheitlich-<lb/>

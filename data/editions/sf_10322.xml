@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -81,6 +82,23 @@ Dazwischen noch ein weiteres Schreiben (oder Telegramm) AS an SF wohl 1910-06-07
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10815">Bahr, Hermann</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11352">Fränkel, Jonas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11485">Goldmann, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11877">Kapp, Julius</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12081">Lindner, Anton</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3966">Thorel, Jean</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13037">Walser, Karl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13068">Wedekind, Frank</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb166">Frankreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb182">Paris</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10322.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -92,49 +110,6 @@ Dazwischen noch ein weiteres Schreiben (oder Telegramm) AS an SF wohl 1910-06-07
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10815" source="https://pmb.acdh.oeaw.ac.at/entity/10815/">
-          <persName>Bahr, Hermann</persName>
-        </person>
-        <person ref="#pmb11352" source="https://pmb.acdh.oeaw.ac.at/entity/11352/">
-          <persName>Fränkel, Jonas</persName>
-        </person>
-        <person ref="#pmb11485" source="https://pmb.acdh.oeaw.ac.at/entity/11485/">
-          <persName>Goldmann, Paul</persName>
-        </person>
-        <person ref="#pmb11877" source="https://pmb.acdh.oeaw.ac.at/entity/11877/">
-          <persName>Kapp, Julius</persName>
-        </person>
-        <person ref="#pmb12081" source="https://pmb.acdh.oeaw.ac.at/entity/12081/">
-          <persName>Lindner, Anton</persName>
-        </person>
-        <person ref="#pmb3966" source="https://pmb.acdh.oeaw.ac.at/entity/3966/">
-          <persName>Thorel, Jean</persName>
-        </person>
-        <person ref="#pmb13037" source="https://pmb.acdh.oeaw.ac.at/entity/13037/">
-          <persName>Walser, Karl</persName>
-        </person>
-        <person ref="#pmb13068" source="https://pmb.acdh.oeaw.ac.at/entity/13068/">
-          <persName>Wedekind, Frank</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
-          <placeName>Frankreich</placeName>
-        </place>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-        <place ref="#pmb182" source="https://pmb.acdh.oeaw.ac.at/entity/182/">
-          <placeName>Paris</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>

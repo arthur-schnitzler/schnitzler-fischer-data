@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -78,6 +79,13 @@ Anlage: Rechnung/Zahlung Marc Kalckar, Kopenhagen</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11646">Heller, Hugo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb24273">Schmelzer, Karl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10998.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -90,19 +98,6 @@ Anlage: Rechnung/Zahlung Marc Kalckar, Kopenhagen</note>
           <term>Preiserhöhung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11646" source="https://pmb.acdh.oeaw.ac.at/entity/11646/">
-          <persName>Heller, Hugo</persName>
-        </person>
-        <person ref="#pmb24273" source="https://pmb.acdh.oeaw.ac.at/entity/24273/">
-          <persName>Schmelzer, Karl</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -115,8 +110,9 @@ Anlage: Rechnung/Zahlung Marc Kalckar, Kopenhagen</note>
 Antwort auf: <ref target="10997">1923-04-21 AS (Wien) an SF (Berlin)</ref>
 Anlage: Rechnung/Zahlung Marc Kalckar, Kopenhagen</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0627"/>his<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0627"/>his<lb/>
 Fischer/Verlag/Berlin M 57/Bülowstraße 90.<lb/>
 Oto: Berlin Nr. 16892<lb/>
 to: Deutsche Bank. Depositenkasse P in Berlin / P.<lb/>
@@ -168,7 +164,8 @@ bieten.<lb/>
 Sie schreiben, dass neuerdings wieder beglaubigte Klagen über schwieri-<lb/>
 bestehen. Mir ist bekannt, dass<lb/>
 ge Beschaffung der Bücher meine</p>
-        <p><pb facs="1416743_0628"/>Druck in N.<lb/>
+        <p>
+          <pb facs="1416743_0628"/>Druck in N.<lb/>
 Von der Stadt im k raszüldssaadssa###<lb/>
 Hugo Heller einen denunziatorischen Brief an einige Autoren verschickt<lb/>
 hat, der sich auf den Fall der Bahnhofsbuchhandlung Schmelzer bezieht.<lb/>
@@ -203,7 +200,8 @@ es geschleht eben nur in einem solchen Fall wie den hier erwähnten. Wir<lb/>
 Interesse, die Preise, die der Geldent-<lb/>
 haben beide das völlig gemeins<lb/>
 by the</p>
-        <p><pb facs="1416743_0629"/>S. Fischer/Verlag/Berlin W 57/Bülowstrasse 9o<lb/>
+        <p>
+          <pb facs="1416743_0629"/>S. Fischer/Verlag/Berlin W 57/Bülowstrasse 9o<lb/>
 Bankkonto: Deutsche Bank. Depositenkasse P in Berlin / Postscheckkonto; Berlin Nr. 16892<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr.<lb/>
 6162-6164<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -61,7 +62,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
-Antwort auf: <ref target="10903">1922-03-23 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="10903">1922-03-23 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-04-07.html</note>
       </notesStmt>
@@ -78,6 +80,15 @@ Antwort auf: <ref target="10903">1922-03-23 SF (Berlin) an AS (Wien)</ref></note
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb28839">Verkade, Eduard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13091">Wenzler, Franz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb49582">Chemnitz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb104353">Glauchau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10905.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,25 +102,6 @@ Antwort auf: <ref target="10903">1922-03-23 SF (Berlin) an AS (Wien)</ref></note
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb28839" source="https://pmb.acdh.oeaw.ac.at/entity/28839/">
-          <persName>Verkade, Eduard</persName>
-        </person>
-        <person ref="#pmb13091" source="https://pmb.acdh.oeaw.ac.at/entity/13091/">
-          <persName>Wenzler, Franz</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb49582" source="https://pmb.acdh.oeaw.ac.at/entity/49582/">
-          <placeName>Chemnitz</placeName>
-        </place>
-        <place ref="#pmb104353" source="https://pmb.acdh.oeaw.ac.at/entity/104353/">
-          <placeName>Glauchau</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -119,10 +111,12 @@ Antwort auf: <ref target="10903">1922-03-23 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 4 Seiten
-Antwort auf: <ref target="10903">1922-03-23 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="10903">1922-03-23 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0230"/>The<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0230"/>The<lb/>
 7.4.19221<lb/>
 Sehr verehrter Herr Greiner.<lb/>
 Mit Ihrem in manchen Details die<lb/>
@@ -162,7 +156,8 @@ Und völlig unerklärlich ist es mir, wie er an<lb/>
 gemassregel bezeichnen kann, was nichts<lb/>
 anderes ist als das ganz selbstverständliche<lb/>
 als „Zw</p>
-        <p><pb facs="1416739_0231"/>2<lb/>
+        <p>
+          <pb facs="1416739_0231"/>2<lb/>
 a/4 ct<lb/>
 fide<lb/>
 her der „Reigen“ das deutsche Volk verdorben<lb/>
@@ -249,7 +244,8 @@ strenge zu sein, denn Glaschau dürfte wohl zu<lb/>
 ren abzuschliessen pflegen.<lb/>
 den kleinsten städten gehören,in denen bis¬<lb/>
 Mit verbindl ehen Grüssen</p>
-        <p><pb facs="1416739_0232"/>P.S.<lb/>
+        <p>
+          <pb facs="1416739_0232"/>P.S.<lb/>
 Zur Vermeidung von Missverständnissen:Ich hätte<lb/>
 schon hinsichtlich Zwirkau und Glauchau gewisse<lb/>
 Bedenken gehabt. Herr Direktor samt deutet an<lb/>
@@ -377,7 +373,8 @@ lääneissä sekä tämätä.<lb/>
 nous ai<lb/>
 —.—<lb/>
 Häänissä köyttää wähän ai</p>
-        <p><pb facs="1416739_0233"/>Vuoden leipäisemminen sekä<lb/>
+        <p>
+          <pb facs="1416739_0233"/>Vuoden leipäisemminen sekä<lb/>
 Gram W N<lb/>
 ΟοφθΟηΟ—Οἄ<lb/>
 :10:0:0 r.<lb/>

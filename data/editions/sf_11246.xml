@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -58,7 +59,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Antwort auf: <ref target="11245">1926-07-02 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11245">1926-07-02 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="published_in">Schnitzler B II, 443</note>
         <note type="type">Typoskript</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1926-07-05.html</note>
@@ -77,6 +79,11 @@ Antwort auf: <ref target="11245">1926-07-02 SF (Berlin) an AS (Wien)</ref></note
           <persName type="coworker">NN, </persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2381">Shaw, George Bernard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11246.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -85,11 +92,6 @@ Antwort auf: <ref target="11245">1926-07-02 SF (Berlin) an AS (Wien)</ref></note
           <term>Presse/Feuilleton</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2381" source="https://pmb.acdh.oeaw.ac.at/entity/2381/">
-          <persName>Shaw, George Bernard</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -99,10 +101,12 @@ Antwort auf: <ref target="11245">1926-07-02 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Antwort auf: <ref target="11245">1926-07-02 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11245">1926-07-02 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0085"/>5. 7.1926.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0085"/>5. 7.1926.<lb/>
 Fischer<lb/>
 aae että<lb/>
 An den<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -80,6 +81,13 @@ Von AS vmtl. irrtümlich datiert auf "11.1911"; die Korrektur der Datierung ergi
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb6648">Christophe, Franz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19542">Kolm, Oscar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12689">Schmutzer, Ferdinand</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10401.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -88,17 +96,6 @@ Von AS vmtl. irrtümlich datiert auf "11.1911"; die Korrektur der Datierung ergi
           <term>Novellenband</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb6648" source="https://pmb.acdh.oeaw.ac.at/entity/6648/">
-          <persName>Christophe, Franz</persName>
-        </person>
-        <person ref="#pmb19542" source="https://pmb.acdh.oeaw.ac.at/entity/19542/">
-          <persName>Kolm, Oscar</persName>
-        </person>
-        <person ref="#pmb12689" source="https://pmb.acdh.oeaw.ac.at/entity/12689/">
-          <persName>Schmutzer, Ferdinand</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>

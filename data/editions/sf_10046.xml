@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -43,7 +44,8 @@
         <note type="description">1 Doppelblatt, 4 Seiten beschrieben
 
 Bezug auf: Persönliche Treffen in Berlin 1896-01-Ende/02-Anfang (UA 'Liebelei'; vgl. Tgb 1896-02-04 und -07)
-Beantwortet in: <ref target="10047">1896-03-13 SF/OB an AS</ref></note>
+Beantwortet in: <ref target="10047">1896-03-13 SF/OB an AS</ref>
+        </note>
         <note type="type">Handschrift (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1896-02-24.html</note>
       </notesStmt>
@@ -60,6 +62,11 @@ Beantwortet in: <ref target="10047">1896-03-13 SF/OB an AS</ref></note>
           <persName type="coworker">Bie, Oskar</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10046.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -67,11 +74,6 @@ Beantwortet in: <ref target="10047">1896-03-13 SF/OB an AS</ref></note>
           <term>Roman</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -83,7 +85,8 @@ Beantwortet in: <ref target="10047">1896-03-13 SF/OB an AS</ref></note>
         <p>1 Doppelblatt, 4 Seiten beschrieben
 
 Bezug auf: Persönliche Treffen in Berlin 1896-01-Ende/02-Anfang (UA 'Liebelei'; vgl. Tgb 1896-02-04 und -07)
-Beantwortet in: <ref target="10047">1896-03-13 SF/OB an AS</ref></p>
+Beantwortet in: <ref target="10047">1896-03-13 SF/OB an AS</ref>
+        </p>
       </div>
     </body>
   </text>

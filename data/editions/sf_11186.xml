@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -61,7 +62,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Beantwortet in: <ref target="11187">1925-07-06 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="11187">1925-07-06 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1925-06-20.html</note>
       </notesStmt>
@@ -78,6 +80,12 @@ Beantwortet in: <ref target="11187">1925-07-06 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="123488729">Araquistáin, Luis</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb914">Madrid</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11186.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -86,16 +94,6 @@ Beantwortet in: <ref target="11187">1925-07-06 AS (Wien) an SF (Berlin)</ref></n
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="123488729" source="https://d-nb.info/gnd/123488729">
-          <persName>Araquistáin, Luis</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb914" source="https://pmb.acdh.oeaw.ac.at/entity/914/">
-          <placeName>Madrid</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -105,10 +103,12 @@ Beantwortet in: <ref target="11187">1925-07-06 AS (Wien) an SF (Berlin)</ref></n
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Beantwortet in: <ref target="11187">1925-07-06 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="11187">1925-07-06 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0825"/>lasse ge<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0825"/>lasse ge<lb/>
 Sülow<lb/>
 S. Fischer / Verlag / Berlin W<lb/>
 amt Lützow Nr. 1662. 6162 und 9292 / Postscheckkonto: Berlin<lb/>

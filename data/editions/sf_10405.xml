@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10405">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -90,6 +91,18 @@ Bezug auf: Treffen AS und SF in Berlin Anfang Nov. 1911 (Tgb 1911-11-02 und 1911
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2914">Bie, Oskar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11273">Eulenberg, Herbert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7994">Jacques, Norbert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11910">Kerr, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb156849">Morisse, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2381">Shaw, George Bernard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10405.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -98,34 +111,6 @@ Bezug auf: Treffen AS und SF in Berlin Anfang Nov. 1911 (Tgb 1911-11-02 und 1911
           <term>Rezension</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2914" source="https://pmb.acdh.oeaw.ac.at/entity/2914/">
-          <persName>Bie, Oskar</persName>
-        </person>
-        <person ref="#pmb11273" source="https://pmb.acdh.oeaw.ac.at/entity/11273/">
-          <persName>Eulenberg, Herbert</persName>
-        </person>
-        <person ref="#pmb7994" source="https://pmb.acdh.oeaw.ac.at/entity/7994/">
-          <persName>Jacques, Norbert</persName>
-        </person>
-        <person ref="#pmb11910" source="https://pmb.acdh.oeaw.ac.at/entity/11910/">
-          <persName>Kerr, Alfred</persName>
-        </person>
-        <person ref="#pmb156849" source="https://pmb.acdh.oeaw.ac.at/entity/156849/">
-          <persName>Morisse, Paul</persName>
-        </person>
-        <person ref="#pmb2381" source="https://pmb.acdh.oeaw.ac.at/entity/2381/">
-          <persName>Shaw, George Bernard</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -139,8 +124,9 @@ Anlage: Paul Morisse an SF 1911-11-15 ante (nicht überliefert)
 
 Bezug auf: Treffen AS und SF in Berlin Anfang Nov. 1911 (Tgb 1911-11-02 und 1911-11-03) und Rezensionen Alfred Kerrs zu 'Das weite Land' (in: Der Tag, 1911-10-07).</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0515"/>262<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0515"/>262<lb/>
 S. Fischer, Verlag, Berlin W., Biilowstrasse 90<lb/>
 den 15/XI. 11<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -165,7 +151,8 @@ ist, wie gesagt, ein durchaus freundliches und sympathisches.<lb/>
 Werden Sie nach Kenntnis der Rezension finden, dass Jacques<lb/>
 über den "Medardus" an dieser Stelle etwas sagen müsste, so wird<lb/>
 es vielleicht zu machen sein, dass wir ihn auffordern, in Form</p>
-        <p><pb facs="1416742_0516"/>S. FISCHER, VERLAG, BERLIN,<lb/>
+        <p>
+          <pb facs="1416742_0516"/>S. FISCHER, VERLAG, BERLIN,<lb/>
 Blatt 2<lb/>
 eines Wiener Briefes sich über die Aufführung in Wien auszusprechen.<lb/>
 Vielleicht überschätzen Sie ein bisschen die Wirkung einer Bespre-<lb/>

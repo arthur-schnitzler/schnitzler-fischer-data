@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -101,6 +102,13 @@ Beantwortet in: 1900-12-28post/1901-01-04ante AS an SF (Generalvertrag; nicht ü
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb28645">Coschell, Moritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb335748">Nauen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10109.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -110,19 +118,6 @@ Beantwortet in: 1900-12-28post/1901-01-04ante AS an SF (Generalvertrag; nicht ü
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb28645" source="https://pmb.acdh.oeaw.ac.at/entity/28645/">
-          <persName>Coschell, Moritz</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb335748" source="https://d-nb.info/gnd/4261645-1">
-          <placeName>Nauen</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -137,8 +132,9 @@ Anlage: Vertragsentwurf (nicht überliefert)
 Antwort auf: 1900-12-18post/1900-12-28ante AS an SF (Druck 'Beatrice' und 'Bertha Garlan'; nicht überliefert)
 Beantwortet in: 1900-12-28post/1901-01-04ante AS an SF (Generalvertrag; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0140"/>84<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0140"/>84<lb/>
 S. FISCHER, VERLAG<lb/>
 noch nichts gebört, es wird<lb/>
 TELEPHON: AMT VI, No. 1662.<lb/>
@@ -174,7 +170,8 @@ noch bemerken, dass die Reduction der Freiexemplare nach der vierten Auf-<lb/>
 ger<lb/>
 lage deshalb geschieht, weil bei den ersten Auflagen sehr viel Freiexemplar<lb/>
 für die Presse notwendig sind, was später weg fällt.</p>
-        <p><pb facs="1416742_0141"/>Thos<lb/>
+        <p>
+          <pb facs="1416742_0141"/>Thos<lb/>
 Von Coschall habe ich bis heute noch nichts gehört, es wird sonach kaum<lb/>
 noch möglich sein, den „Leutnant Gustel" bis Ende Januar mit Illustrationen<lb/>
 herauszubringen. Soll ich mit dem Satz der Novelle<lb/>

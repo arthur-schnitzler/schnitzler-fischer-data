@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -105,6 +106,24 @@
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10836">Bartsch, Rudolf Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb14156">Besnard, Lucien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1064903746">Demetz, Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8288">Konstantin, Leopoldine</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3213">Münz, Siegmund</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116324333">Raggio, Enrico</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23675">Rotter, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3876">Rotter, Fritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb378">Rumänien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb1119">Stockholm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Blancheteatern Stockholm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10857.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -118,54 +137,6 @@
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
-          <persName>Bartsch, Rudolf Hans</persName>
-        </person>
-        <person ref="#pmb14156" source="https://pmb.acdh.oeaw.ac.at/entity/14156/">
-          <persName>Besnard, Lucien</persName>
-        </person>
-        <person ref="1064903746" source="https://d-nb.info/gnd/1064903746">
-          <persName>Demetz, Hans</persName>
-        </person>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb8288" source="https://pmb.acdh.oeaw.ac.at/entity/8288/">
-          <persName>Konstantin, Leopoldine</persName>
-        </person>
-        <person ref="#pmb3213" source="https://pmb.acdh.oeaw.ac.at/entity/3213/">
-          <persName>Münz, Siegmund</persName>
-        </person>
-        <person ref="116324333" source="https://d-nb.info/gnd/116324333">
-          <persName>Raggio, Enrico</persName>
-        </person>
-        <person ref="#pmb23675" source="https://pmb.acdh.oeaw.ac.at/entity/23675/">
-          <persName>Rotter, Alfred</persName>
-        </person>
-        <person ref="#pmb3876" source="https://pmb.acdh.oeaw.ac.at/entity/3876/">
-          <persName>Rotter, Fritz</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb378" source="https://pmb.acdh.oeaw.ac.at/entity/378/">
-          <placeName>Rumänien</placeName>
-        </place>
-        <place ref="#pmb1119" source="https://pmb.acdh.oeaw.ac.at/entity/1119/">
-          <placeName>Stockholm</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org>
-          <orgName>Blancheteatern Stockholm</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -176,8 +147,9 @@
       <div type="letter">
         <p>2 Blatt, 3 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0200"/>behauptet auch, dass man auch die nichtcopyrigh-<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0200"/>behauptet auch, dass man auch die nichtcopyrigh-<lb/>
 teten Bücher noch jetzt nachträglich schützen<lb/>
 könnte,durch Einsendung je eines Exemplars nach<lb/>
 Washington und Wäreeventu 11 bereit,diese Ange-<lb/>
@@ -254,7 +226,8 @@ st ande kommen, so bitte Ich recht sehr eine even-<lb/>
 tuell auf mich entfallende Summe in New-York bei<lb/>
 Ladenburg Thalmann &amp; Co. einzahlen zu lassen, aber<lb/>
 jedenfalls vorher die auf Sie entfallende Pro</p>
-        <p><pb facs="1416739_0201"/>G.C.F.P.<lb/>
+        <p>
+          <pb facs="1416739_0201"/>G.C.F.P.<lb/>
 vision in Abzug zu bringen, wenn Sie nicht vor-<lb/>
 ziehen, dass ich diese Provision auf Ihr Kontp<lb/>
 in der Originalvaluta, sei es nun gleichfalls in<lb/>
@@ -330,7 +303,8 @@ Verbindung setzen würde?<lb/>
 genh<lb/>
 des oechischen „Reigen aufgeklärt?<lb/>
 Herzlich grüsse</p>
-        <p><pb facs="1416739_0202"/>Vischer<lb/>
+        <p>
+          <pb facs="1416739_0202"/>Vischer<lb/>
 31.10.1921.<lb/>
 Lieber Freund.<lb/>
 1. Ich erhielt heute einen Brief von<lb/>

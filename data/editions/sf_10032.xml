@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10032">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -94,6 +95,12 @@ Beantwortet in: 1895-07-20post/1895-07-31ante AS an SF (nicht sicher zu erschlie
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb213">Ischl</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2595">Pierson, Edgar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4785">Zasche, Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10032.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -103,14 +110,6 @@ Beantwortet in: 1895-07-20post/1895-07-31ante AS an SF (nicht sicher zu erschlie
           <term>Vertrieb</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2595" source="https://pmb.acdh.oeaw.ac.at/entity/2595/">
-          <persName>Pierson, Edgar</persName>
-        </person>
-        <person ref="#pmb4785" source="https://pmb.acdh.oeaw.ac.at/entity/4785/">
-          <persName>Zasche, Theodor</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -124,8 +123,9 @@ Beantwortet in: 1895-07-20post/1895-07-31ante AS an SF (nicht sicher zu erschlie
 Antwort auf: 1895-07-08post/1895-07-20ante AS an SF (nicht sicher zu erschließen, wohl weitere Überlegungen zur Verlagsübernahme 'Anatol': nicht überliefert)
 Beantwortet in: 1895-07-20post/1895-07-31ante AS an SF (nicht sicher zu erschließen, wohl Nachfrage zu Konditionen Verlagsübernahme 'Anatol'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0037"/>33<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0037"/>33<lb/>
 20<lb/>
 S. FISCHER, VerLAG, HOFBUCHHANDLUNG<lb/>
 gefl Berlin W., den 20/7 1895<lb/>
@@ -156,7 +156,8 @@ geleitet; die Sache wird nicht so ein¬<lb/>
 1 Fach zu erledigen sein und im hege¬<lb/>
 falle können Monate vergehen, ehe mir<lb/>
 die Bücher ausgeliefert werden</p>
-        <p><pb facs="1416742_0038"/>20th<lb/>
+        <p>
+          <pb facs="1416742_0038"/>20th<lb/>
 P.<lb/>
 Schreiben Sie gefl. direct an die Concurs<lb/>
 verwaltung des Bibliographischen Bureau<lb/>

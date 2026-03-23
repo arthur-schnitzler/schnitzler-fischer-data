@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -62,7 +63,8 @@
         <note type="description">1 Doppelblatt, 2 Seiten beschrieben
 
 Antwort auf: 1907-06-19post/1907-06-24ante AS an SF (Vertrag Kauser, Anfrage Granville Barker; nicht überliefert)
-Rückbezug auf: <ref target="10184">1907-05-29 SF an AS</ref></note>
+Rückbezug auf: <ref target="10184">1907-05-29 SF an AS</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1907-06-24.html</note>
       </notesStmt>
@@ -78,6 +80,13 @@ Rückbezug auf: <ref target="10184">1907-05-29 SF an AS</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4087">Freund, Frank E. Washburn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5369">Granville-Barker, Harley</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10188.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -85,17 +94,6 @@ Rückbezug auf: <ref target="10184">1907-05-29 SF an AS</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4087" source="https://pmb.acdh.oeaw.ac.at/entity/4087/">
-          <persName>Freund, Frank E. Washburn</persName>
-        </person>
-        <person ref="#pmb5369" source="https://pmb.acdh.oeaw.ac.at/entity/5369/">
-          <persName>Granville-Barker, Harley</persName>
-        </person>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -107,10 +105,12 @@ Rückbezug auf: <ref target="10184">1907-05-29 SF an AS</ref></note>
         <p>1 Doppelblatt, 2 Seiten beschrieben
 
 Antwort auf: 1907-06-19post/1907-06-24ante AS an SF (Vertrag Kauser, Anfrage Granville Barker; nicht überliefert)
-Rückbezug auf: <ref target="10184">1907-05-29 SF an AS</ref></p>
+Rückbezug auf: <ref target="10184">1907-05-29 SF an AS</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0286"/>151<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0286"/>151<lb/>
 S. FISCHER, VERLAG,’ BERLIN W., BÜLowSTR. 90<lb/>
 BERene W., DEN 24. Juni 07<lb/>
 Herrn Dr. Arthur Sohnitzler<lb/>
@@ -131,7 +131,8 @@ lesen und sich über die Qualität der Gebersetzung<lb/>
 sowie über die Möglichkeiten dieses Stückes an<lb/>
 einer der englischen Böhnen weiter zu äussern.<lb/>
 Den Vertrag mit Miss Kaiser auf drei Jahre zu</p>
-        <p><pb facs="1416742_0287"/>schliessen, wäre praktisch garnicht ausführbar<lb/>
+        <p>
+          <pb facs="1416742_0287"/>schliessen, wäre praktisch garnicht ausführbar<lb/>
 gewesen. Miss Kaiser hat für sieben ungeschätzte<lb/>
 Stücke die Kosten der Uebersetzung übernommen, sie<lb/>
 übernimmt auch die Gebersetzung der vier geschütz-<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -66,7 +67,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="11173">1925-03-26 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="11173">1925-03-26 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1925-03-31.html</note>
       </notesStmt>
@@ -83,6 +85,12 @@ Antwort auf: <ref target="11173">1925-03-26 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11472">Goldbaum, Wenzel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb677">Breslau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11174.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -92,16 +100,6 @@ Antwort auf: <ref target="11173">1925-03-26 AS (Wien) an SF (Berlin)</ref></note
           <term>Rundfunk</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11472" source="https://pmb.acdh.oeaw.ac.at/entity/11472/">
-          <persName>Goldbaum, Wenzel</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb677" source="https://pmb.acdh.oeaw.ac.at/entity/677/">
-          <placeName>Breslau</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -111,10 +109,12 @@ Antwort auf: <ref target="11173">1925-03-26 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="11173">1925-03-26 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="11173">1925-03-26 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0813"/>57 / Bil<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0813"/>57 / Bil<lb/>
 1<lb/>
 1<lb/>
 Berlin Nr. 1669.<lb/>
@@ -155,7 +155,8 @@ nur von den grosse<lb/>
 ro Aufführung, wobei<lb/>
 wir<lb/>
 allen, zu denen</p>
-        <p><pb facs="1416743_0814"/>Wir bitten noch um Ihre Anweisung, wie wir dagegen<lb/>
+        <p>
+          <pb facs="1416743_0814"/>Wir bitten noch um Ihre Anweisung, wie wir dagegen<lb/>
 vorgehen sollen und zeichnen<lb/>
 mit vorzüglicher Hochachtung<lb/>
 FISCHER. VERLAG<lb/>

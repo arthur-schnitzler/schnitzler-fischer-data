@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10321">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -90,6 +91,16 @@ Beantwortet in: 1910-06-04</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10815">Bahr, Hermann</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11352">Fränkel, Jonas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11877">Kapp, Julius</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13037">Walser, Karl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb166">Frankreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10321.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,28 +111,6 @@ Beantwortet in: 1910-06-04</note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10815" source="https://pmb.acdh.oeaw.ac.at/entity/10815/">
-          <persName>Bahr, Hermann</persName>
-        </person>
-        <person ref="#pmb11352" source="https://pmb.acdh.oeaw.ac.at/entity/11352/">
-          <persName>Fränkel, Jonas</persName>
-        </person>
-        <person ref="#pmb11877" source="https://pmb.acdh.oeaw.ac.at/entity/11877/">
-          <persName>Kapp, Julius</persName>
-        </person>
-        <person ref="#pmb13037" source="https://pmb.acdh.oeaw.ac.at/entity/13037/">
-          <persName>Walser, Karl</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
-          <placeName>Frankreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -135,8 +124,9 @@ Anlage: Entwurf Illustration 'Medardus' (nicht überliefert)
 
 Beantwortet in: 1910-06-04</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0424"/>215<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0424"/>215<lb/>
 9<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstraße 90<lb/>
 den 27/5. 1910<lb/>
@@ -164,7 +154,8 @@ und weil ich über die Person des Herausgebers einer solchen Monographie<lb/>
 mit Ihnen sprechen muss. Kenr kommt für eine solche Arbeit nicht in<lb/>
 Betracht, seine traphoristische Art, sich auszudrücken, schliesst das<lb/>
 wohl aus. Am besten wäre wohl Hermann Bahr. Er ist aber mit eigenen</p>
-        <p><pb facs="1416742_0425"/>Arbeiten so beschäftigt, dass er vielleicht nicht zu haben sein wird. Wer<lb/>
+        <p>
+          <pb facs="1416742_0425"/>Arbeiten so beschäftigt, dass er vielleicht nicht zu haben sein wird. Wer<lb/>
 käme denn sonst von österreichischen Kritikern in Betracht? Sie haben<lb/>
 einmal geschrieben, dass Jonas Fränkel über den "Weg ins Freie" schrei-<lb/>
 mit<lb/>

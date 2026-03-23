@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11153">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -74,18 +75,14 @@ Telegramm</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb15449">Dorsch, Käthe</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="1252345240">Saltenburg-Bühnen Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11153.xml"/>
+        </note>
       </correspDesc>
       <textClass/>
-      <listPerson>
-        <person ref="#pmb15449" source="https://pmb.acdh.oeaw.ac.at/entity/15449/">
-          <persName>Dorsch, Käthe</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="1252345240" source="https://d-nb.info/gnd/1252345240">
-          <orgName>Saltenburg-Bühnen Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -97,8 +94,9 @@ Telegramm</note>
         <p>1 Blatt, 1 Seite
 Telegramm</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0796"/>Die wiederholt zu verrötzen.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0796"/>Die wiederholt zu verrötzen.<lb/>
 Monsieur Mlle<lb/>
 D. S. Nr. 260.<lb/>
 segraphenberwaltung übern<lb/>

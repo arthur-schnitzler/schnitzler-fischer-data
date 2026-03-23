@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10123">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -87,6 +88,15 @@ Antwort auf: 1903-06-26post/1903-07-24ante AS an SF (sommerliche Reisepläne, po
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb178500">Bloch, Eduard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb423">Tirol</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10123.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -97,25 +107,6 @@ Antwort auf: 1903-06-26post/1903-07-24ante AS an SF (sommerliche Reisepläne, po
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb178500" source="https://pmb.acdh.oeaw.ac.at/entity/178500/">
-          <persName>Bloch, Eduard</persName>
-        </person>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb423" source="https://pmb.acdh.oeaw.ac.at/entity/423/">
-          <placeName>Tirol</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -128,8 +119,9 @@ Antwort auf: 1903-06-26post/1903-07-24ante AS an SF (sommerliche Reisepläne, po
  
 Antwort auf: 1903-06-26post/1903-07-24ante AS an SF (sommerliche Reisepläne, positives Urteil zu 'Rundschau'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0163"/>98<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0163"/>98<lb/>
 S. FISCHER, VERLAG<lb/>
 BERene W., DEN 24. Juli 1903<lb/>
 BÜLowSTRASSE 90/91.<lb/>
@@ -158,7 +150,8 @@ wird, einen Ausweis durch die Vorlegung der Bücher zu verlangen.<lb/>
 Auch die reisenden Sommertruppen sind in einer andern Weise nicht<lb/>
 zu überwachen, und ich glaube auch nicht, ob es von anderer Seite<lb/>
 in einer andern Form geschehen kann. Es wird diesen Truppen gegen-</p>
-        <p><pb facs="1416742_0164"/>24<lb/>
+        <p>
+          <pb facs="1416742_0164"/>24<lb/>
 über nur erforderlich sein, in den Verträgen ein grösseres Maass<lb/>
 von Sicherheit für die Controlle zur Bedingung zu machen.<lb/>
 Im Uebrigen ist aller Geschäftsverkehr hier und bei Ihnen<lb/>
@@ -191,7 +184,8 @@ Die Bedingungen für die Autoren denke ich so zu stellen,<lb/>
 dass ich 7 % von allen Einnahmen für Deutschland und Oesterreich<lb/>
 berechne, und 10 % für alle Einnahmen im Auslande. Ein weiterer<lb/>
 G.C.F.P</p>
-        <p><pb facs="1416742_0165"/>VERLAG<lb/>
+        <p>
+          <pb facs="1416742_0165"/>VERLAG<lb/>
 4/10<lb/>
 Vorteil dürfte auch der sein, dass Kosten wesentlicher Art für<lb/>
 die Nentellung eines Bunnentextes nicht entstehen, da ich im Falle<lb/>
@@ -228,7 +222,8 @@ Monsieur de<lb/>
 aufhalten.<lb/>
 Ich freue mich sehr, dass Ihnen die neue Form der Rundschau<lb/>
 gefällt; ich verspreche mir viel von diesem neuen Gewand, das,</p>
-        <p><pb facs="1416742_0166"/>VERLAG<lb/>
+        <p>
+          <pb facs="1416742_0166"/>VERLAG<lb/>
 S. FISCHER<lb/>
 BERene W., DEN 14. August 1903<lb/>
 TELEPHON<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,30 +77,18 @@ Anlage 2: Schreiben von Pescellini an SF (nicht hinterlegt)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Nadler, Gisela (Übersetzerin und Journalistin, Lemberg)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Pescellini, O. (Literaturagent?, Übersetzer?, Dänemark)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Schierning, Maria (Übersetzerin, Helsingør)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43570">Dänemark</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb46224">Lemberg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb313">Polen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11693.xml"/>
+        </note>
       </correspDesc>
       <textClass/>
-      <listPerson>
-        <person>
-          <persName>Nadler, Gisela (Übersetzerin und Journalistin, Lemberg)</persName>
-        </person>
-        <person>
-          <persName>Pescellini, O. (Literaturagent?, Übersetzer?, Dänemark)</persName>
-        </person>
-        <person>
-          <persName>Schierning, Maria (Übersetzerin, Helsingør)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43570" source="https://pmb.acdh.oeaw.ac.at/entity/43570/">
-          <placeName>Dänemark</placeName>
-        </place>
-        <place ref="#pmb46224" source="https://pmb.acdh.oeaw.ac.at/entity/46224/">
-          <placeName>Lemberg</placeName>
-        </place>
-        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
-          <placeName>Polen</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -112,8 +101,9 @@ Anlage 2: Schreiben von Pescellini an SF (nicht hinterlegt)</note>
 Anlage 1: Brief von Nadler, Gisela - <ref target="11685">1931-06-28 SF (Berlin) an AS (Wien)</ref>
 Anlage 2: Schreiben von Pescellini an SF (nicht hinterlegt)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416744_0153"/>1052 Quintz. (Seite)<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416744_0153"/>1052 Quintz. (Seite)<lb/>
 S. Fischer Verlag / Bertin W 67 Bülowstratze 90<lb/>
 AKTIEN GESELISCHAFT<lb/>
 17<lb/>

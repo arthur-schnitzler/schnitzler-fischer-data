@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -74,7 +75,8 @@
         <note type="description">1 Blatt, 1 Seite beschrieben
 Anlagen: Formular des Allg. Schriftstellervereins zur Einziehung des Nachdruckhonorars für 'Die überspannte Person' (zuerst Simplicissimus 1, Nr. 3, 18.4.1896, 3 u. 6; nicht überliefert); 1914-06-10ante German Publ. Society an AS (nicht überliefert); 914-06-10ante Gowans &amp; Gray an AS (nicht überliefert) 
 
-Beantwortet in: <ref target="10534">1914-06-18 SF/LS an AS</ref></note>
+Beantwortet in: <ref target="10534">1914-06-18 SF/LS an AS</ref>
+        </note>
         <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1914-06-10.html</note>
       </notesStmt>
@@ -90,13 +92,13 @@ Beantwortet in: <ref target="10534">1914-06-18 SF/LS an AS</ref></note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12790">Singer, Isidor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10532.xml"/>
+        </note>
       </correspDesc>
       <textClass/>
-      <listPerson>
-        <person ref="#pmb12790" source="https://pmb.acdh.oeaw.ac.at/entity/12790/">
-          <persName>Singer, Isidor</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -108,7 +110,8 @@ Beantwortet in: <ref target="10534">1914-06-18 SF/LS an AS</ref></note>
         <p>1 Blatt, 1 Seite beschrieben
 Anlagen: Formular des Allg. Schriftstellervereins zur Einziehung des Nachdruckhonorars für 'Die überspannte Person' (zuerst Simplicissimus 1, Nr. 3, 18.4.1896, 3 u. 6; nicht überliefert); 1914-06-10ante German Publ. Society an AS (nicht überliefert); 914-06-10ante Gowans &amp; Gray an AS (nicht überliefert) 
 
-Beantwortet in: <ref target="10534">1914-06-18 SF/LS an AS</ref></p>
+Beantwortet in: <ref target="10534">1914-06-18 SF/LS an AS</ref>
+        </p>
       </div>
     </body>
   </text>

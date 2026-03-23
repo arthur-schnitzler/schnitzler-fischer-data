@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -91,7 +92,8 @@
       <notesStmt>
         <note type="description">3 Blatt, 6 Seiten
 Antwort auf: <ref target="10691">1919-01-31 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10696">1919-03-26 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10696">1919-03-26 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1919-02-17.html</note>
       </notesStmt>
@@ -108,6 +110,23 @@ Beantwortet in: <ref target="10696">1919-03-26 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12837">Steinrück, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb652">Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45530">Deutsches Schauspielhaus in Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb35597">Deutsches Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="7659602-3">Hebbeltheater (Theater in der Königgrätzer Straße) Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45430">Kleines Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="1231430-4">Königliches Deutsches Landestheater Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="7590354-4">Lessing-Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb57124">Schiller-Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb61673">Trianon-Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10693.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -121,51 +140,6 @@ Beantwortet in: <ref target="10696">1919-03-26 SF (Berlin) an AS (Wien)</ref></n
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb12837" source="https://pmb.acdh.oeaw.ac.at/entity/12837/">
-          <persName>Steinrück, Albert</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
-          <placeName>Prag</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb45530" source="https://pmb.acdh.oeaw.ac.at/entity/45530/">
-          <orgName>Deutsches Schauspielhaus in Hamburg</orgName>
-        </org>
-        <org ref="#pmb35597" source="https://pmb.acdh.oeaw.ac.at/entity/35597/">
-          <orgName>Deutsches Theater Berlin</orgName>
-        </org>
-        <org ref="7659602-3" source="https://d-nb.info/gnd/7659602-3">
-          <orgName>Hebbeltheater (Theater in der Königgrätzer Straße) Berlin</orgName>
-        </org>
-        <org ref="#pmb45430" source="https://pmb.acdh.oeaw.ac.at/entity/45430/">
-          <orgName>Kleines Theater Berlin</orgName>
-        </org>
-        <org ref="1231430-4" source="https://d-nb.info/gnd/1231430-4">
-          <orgName>Königliches Deutsches Landestheater Prag</orgName>
-        </org>
-        <org ref="7590354-4" source="https://d-nb.info/gnd/7590354-4">
-          <orgName>Lessing-Theater Berlin</orgName>
-        </org>
-        <org ref="#pmb57124" source="https://pmb.acdh.oeaw.ac.at/entity/57124/">
-          <orgName>Schiller-Theater Berlin</orgName>
-        </org>
-        <org ref="#pmb61673" source="https://pmb.acdh.oeaw.ac.at/entity/61673/">
-          <orgName>Trianon-Theater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -176,10 +150,12 @@ Beantwortet in: <ref target="10696">1919-03-26 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>3 Blatt, 6 Seiten
 Antwort auf: <ref target="10691">1919-01-31 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10696">1919-03-26 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10696">1919-03-26 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0086"/>Sie haben diesmal bei Hamburg 57 für sich in<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0086"/>Sie haben diesmal bei Hamburg 57 für sich in<lb/>
 Abzug gebracht. War es nicht abgemacht, dass<lb/>
 Sie für Hamburg - ebenso wie für Berlin und<lb/>
 Wien wenn ich direkt abschliesse - keine Pro-<lb/>
@@ -216,7 +192,8 @@ schloss en wurde, nur 5% Tantiemen gezahlt wurdede.<lb/>
 In einzelnen Fällen ist es Ihnen wieder gelun-<lb/>
 gen die restlichen Tantiènen durch Mahnung he-<lb/>
 seinzubringen. Möchten sie nicht freundlichst</p>
-        <p><pb facs="1416739_0087"/>einmal nachsehen,wie die auf andere Autoren<lb/>
+        <p>
+          <pb facs="1416739_0087"/>einmal nachsehen,wie die auf andere Autoren<lb/>
 ausgestellten Verträge des Prager Deutschen<lb/>
 Theaters lauten. Es ist eine Prinzipien-keine<lb/>
 Geldfrage. Prag ist buolstäblich das einzige<lb/>
@@ -260,7 +237,8 @@ nämlich einen Generalvertrag, nach dem ich ver-<lb/>
 pflichtet bin jedes meiner Stücke zuerst dem<lb/>
 Deutschen Schauspielhaus einzureichen, und das<lb/>
 Deutsche Schauspielhaus mir für jedes abedd -</p>
-        <p><pb facs="1416739_0088"/>füllende Stück 10% und für jeden Einakter 3%<lb/>
+        <p>
+          <pb facs="1416739_0088"/>füllende Stück 10% und für jeden Einakter 3%<lb/>
 zu zahlen. Aus Ihrer Benachrichtigung entneh-<lb/>
 me ich übrigens zu meiner Verwunderung, dass<lb/>
 für „Liebelei<lb/>
@@ -306,7 +284,8 @@ gungen?<lb/>
 6. Ich bat Sie vor zirka 3 Wochen<lb/>
 die für das IV. Quartal 18 fällige Bühnenver-<lb/>
 triebssumme an die Bodenkreditanstalt in Wien</p>
-        <p><pb facs="1416739_0089"/>anzuweisen.Bisher habe ich von meiner Bank<lb/>
+        <p>
+          <pb facs="1416739_0089"/>anzuweisen.Bisher habe ich von meiner Bank<lb/>
 noch kein Avigo erhalten.<lb/>
 7. Vielleicht finden Sie in un serer<lb/>
 verrespondenz noch die Briefe, in denen ich mir<lb/>
@@ -337,7 +316,8 @@ chung gemis s,beanspruchen,wenn die Ausgabe<lb/>
 begonnen.<lb/>
 Herzl chst grüssend<lb/>
 Ihr</p>
-        <p><pb facs="1416739_0090"/>2.4.1919.<lb/>
+        <p>
+          <pb facs="1416739_0090"/>2.4.1919.<lb/>
 Fischer<lb/>
 Lieber Freund.<lb/>
 Besten Dank für die Einsendung des<lb/>
@@ -359,7 +339,8 @@ diesem Satz zu überlassen. Ich lege hier die<lb/>
 Abschrift eines zweiten Briefes an Direktor<lb/>
 Kramer zur gefälligen Durchsicht bei, von un-<lb/>
 serem standpunkt gehen wir selbstverständ-</p>
-        <p><pb facs="1416739_0091"/>lich nicht ab.<lb/>
+        <p>
+          <pb facs="1416739_0091"/>lich nicht ab.<lb/>
 Ich erhalte immer neue Anträge die<lb/>
 eventuelle Aufführung des „Reigen“ betreffend<lb/>
 Aus Berlin liegen mir nun solche von Rein -<lb/>

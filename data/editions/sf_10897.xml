@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -59,7 +60,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
 Antwort auf: <ref target="10894">1922-03-08 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10903">1922-03-23 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10903">1922-03-23 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-03-13.html</note>
       </notesStmt>
@@ -76,6 +78,11 @@ Beantwortet in: <ref target="10903">1922-03-23 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="133740439">Runge, Paul (Polizeipräsident, Köln)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10897.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -83,11 +90,6 @@ Beantwortet in: <ref target="10903">1922-03-23 SF (Berlin) an AS (Wien)</ref></n
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="133740439" source="https://d-nb.info/gnd/133740439">
-          <persName>Runge, Paul (Polizeipräsident, Köln)</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -98,10 +100,12 @@ Beantwortet in: <ref target="10903">1922-03-23 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>1 Blatt, 2 Seiten
 Antwort auf: <ref target="10894">1922-03-08 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10903">1922-03-23 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10903">1922-03-23 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0224"/>13.3.1922.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0224"/>13.3.1922.<lb/>
 Pieter<lb/>
 An das Puppantheater in Frankfurt habe<lb/>
 Sehr xxx rehrter Herr Greiner<lb/>
@@ -168,7 +172,8 @@ Stellung befinden, in ihrer von Tag zu Tag<lb/>
 überhandnehmenden Neigung zu leichtfertigen<lb/>
 Herrn Leo Greiner,S.Fisohr,Verlag,<lb/>
 Berlin.</p>
-        <p><pb facs="1416739_0225"/>Hebernehme und wohlfeil rücksichtsloser Ab<lb/>
+        <p>
+          <pb facs="1416739_0225"/>Hebernehme und wohlfeil rücksichtsloser Ab<lb/>
 schüttelung von Verpflichtungen durch unan<lb/>
 gebrachte Nachsicht zu unterstützen. Ich hoffe<lb/>
 Sie, verehrter Herr Greimer, und den Verlag<lb/>

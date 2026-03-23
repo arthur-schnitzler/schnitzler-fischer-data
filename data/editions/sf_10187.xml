@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10187">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -83,6 +84,14 @@ Beantwortet in: 1907-06-19post/1907-06-24ante AS an SF (Vertrag Kauser, Anfrage 
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb224">London</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10187.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,22 +100,6 @@ Beantwortet in: 1907-06-19post/1907-06-24ante AS an SF (Vertrag Kauser, Anfrage 
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb224" source="https://pmb.acdh.oeaw.ac.at/entity/224/">
-          <placeName>London</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -120,8 +113,9 @@ Anlage: 1907-06-10 Alice Kauser an SF, 3 Blatt, 3 Seiten beschrieben (Abschrift)
 
 Beantwortet in: 1907-06-19post/1907-06-24ante AS an SF (Vertrag Kauser, Anfrage Granville-Barker; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0284"/>150<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0284"/>150<lb/>
 S. FISCHER,VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
 BERene W., DEN  19. Juni 07<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -141,7 +135,8 @@ gen mit dem Copyright-Bureau in London die Rechte<lb/>
 für Amerika nicht tangieren dürfen, d. h. dass die<lb/>
 englischen Uebersetzungen des Copyright-Bureaus<lb/>
 in Amerika weder gespielt noch gedruckt werden</p>
-        <p><pb facs="1416742_0285"/>dürfen. Hoffentlich haben Sie bei Ihren Abmachungen<lb/>
+        <p>
+          <pb facs="1416742_0285"/>dürfen. Hoffentlich haben Sie bei Ihren Abmachungen<lb/>
 mit dem Copyright-Bureau Amerika ausdrücklich aus-<lb/>
 geschlossen.<lb/>
 Bezüglich der Uebersetzung könnte Miss<lb/>

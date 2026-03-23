@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -72,7 +73,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="10867">1921-12-02 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="10867">1921-12-02 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1921-12-16.html</note>
       </notesStmt>
@@ -89,6 +91,15 @@ Antwort auf: <ref target="10867">1921-12-02 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10836">Bartsch, Rudolf Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19016">Kalckar, Marc</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116324333">Raggio, Enrico</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb36300">Kopenhagen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb47927">Washington</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10871.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -97,25 +108,6 @@ Antwort auf: <ref target="10867">1921-12-02 AS (Wien) an SF (Berlin)</ref></note
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
-          <persName>Bartsch, Rudolf Hans</persName>
-        </person>
-        <person ref="#pmb19016" source="https://pmb.acdh.oeaw.ac.at/entity/19016/">
-          <persName>Kalckar, Marc</persName>
-        </person>
-        <person ref="116324333" source="https://d-nb.info/gnd/116324333">
-          <persName>Raggio, Enrico</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb36300" source="https://pmb.acdh.oeaw.ac.at/entity/36300/">
-          <placeName>Kopenhagen</placeName>
-        </place>
-        <place ref="#pmb47927" source="https://pmb.acdh.oeaw.ac.at/entity/47927/">
-          <placeName>Washington</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -125,10 +117,12 @@ Antwort auf: <ref target="10867">1921-12-02 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="10867">1921-12-02 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="10867">1921-12-02 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0446"/>534<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0446"/>534<lb/>
 Fischer/Verlag/Berlin M 57/Bülowstraße 9o<lb/>
 Amt Lüyow 1662, 6162, 9292 Theaterabteilung Postscheckonto Nr. 16892<lb/>
 resolues.<lb/>
@@ -163,7 +157,8 @@ dies doch nur, weil wir darin eine bedeutende technische Er-<lb/>
 schwerung für uns erblicken und lieber auf den Vorteil, unsere<lb/>
 Provision in ausländischer Valuta zu bekommen, Verzicht leisten<lb/>
 R. 1000. a 2</p>
-        <p><pb facs="1416743_0447"/>13th<lb/>
+        <p>
+          <pb facs="1416743_0447"/>13th<lb/>
 pehre<lb/>
 Welmé<lb/>
 rais de<lb/>

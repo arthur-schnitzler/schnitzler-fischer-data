@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10150">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -88,6 +89,15 @@ Antwort auf: 1904-10-13ante AS an SF (Postkarte, nicht überliefert)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4532">Jonas, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20466">Lindemann, Gustav</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb161144">Löwe, Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb677">Breslau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10150.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,25 +110,6 @@ Antwort auf: 1904-10-13ante AS an SF (Postkarte, nicht überliefert)</note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4532" source="https://pmb.acdh.oeaw.ac.at/entity/4532/">
-          <persName>Jonas, Paul</persName>
-        </person>
-        <person ref="#pmb20466" source="https://pmb.acdh.oeaw.ac.at/entity/20466/">
-          <persName>Lindemann, Gustav</persName>
-        </person>
-        <person ref="#pmb161144" source="https://pmb.acdh.oeaw.ac.at/entity/161144/">
-          <persName>Löwe, Theodor</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb677" source="https://pmb.acdh.oeaw.ac.at/entity/677/">
-          <placeName>Breslau</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -132,8 +123,9 @@ Anlage: 1904-10-12 Paul Jonas an SF, 1 Blatt, 2 Seiten beschrieben (Abschrift, S
 
 Antwort auf: 1904-10-13ante AS an SF (Postkarte, nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0214"/>BERene W., DEN 13. Okt. 1904<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0214"/>BERene W., DEN 13. Okt. 1904<lb/>
 TELEPH<lb/>
 BÜLOWSTRASSE 90/91<lb/>
 AMT VI, 1662<lb/>

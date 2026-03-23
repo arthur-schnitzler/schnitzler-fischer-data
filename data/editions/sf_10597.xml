@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10597">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -73,6 +74,14 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2874">Eirich, Oskar Friedrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb146243">Marton, Alexander</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb176404">Pfeffer, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43471">Budapest</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10597.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -80,22 +89,6 @@
           <term>Vertreter/Vertretung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2874" source="https://pmb.acdh.oeaw.ac.at/entity/2874/">
-          <persName>Eirich, Oskar Friedrich</persName>
-        </person>
-        <person ref="#pmb146243" source="https://pmb.acdh.oeaw.ac.at/entity/146243/">
-          <persName>Marton, Alexander</persName>
-        </person>
-        <person ref="#pmb176404" source="https://pmb.acdh.oeaw.ac.at/entity/176404/">
-          <persName>Pfeffer, Max</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43471" source="https://pmb.acdh.oeaw.ac.at/entity/43471/">
-          <placeName>Budapest</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -106,8 +99,9 @@
       <div type="letter">
         <p>1 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0046"/>375<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0046"/>375<lb/>
 Fischer, Verlag, Berlin-M., Bülowstrasse 90.<lb/>
 20/3. 1916<lb/>
 dieses Monnt<lb/>
@@ -137,7 +131,8 @@ fordert habe und darauf zwar widerspruchsvolle Angaben, aber noch<lb/>
 immer keine Aufstellung bekommen habe. Birch meint, dass er der hohe<lb/>
 Stempelkosten wegen sich damit begnügen müsse, anstelle von Spezial<lb/>
 verträgen allgemeine Verträge für die Werke, die er zu vertreten</p>
-        <p><pb facs="1416743_0047"/>GALAG, BERLIN,<lb/>
+        <p>
+          <pb facs="1416743_0047"/>GALAG, BERLIN,<lb/>
 Blatt<lb/>
 abzuschliessen. Das hat nicht gehindert, dass er mir einige<lb/>
 Dezialverträge vom November und Dezember v. J. zugeschickt hat.<lb/>

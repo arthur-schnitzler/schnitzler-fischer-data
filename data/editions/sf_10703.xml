@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -69,7 +70,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
-Antwort auf: <ref target="10702">1919-05-10 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="10702">1919-05-10 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1919-05-23.html</note>
       </notesStmt>
@@ -85,6 +87,18 @@ Antwort auf: <ref target="10702">1919-05-10 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1064903746">Demetz, Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb38617">Kornfeld, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb38444">Tschechoslowakei</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="1231430-4">Königliches Deutsches Landestheater Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10703.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -98,36 +112,6 @@ Antwort auf: <ref target="10702">1919-05-10 AS (Wien) an SF (Berlin)</ref></note
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="1064903746" source="https://d-nb.info/gnd/1064903746">
-          <persName>Demetz, Hans</persName>
-        </person>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb38617" source="https://pmb.acdh.oeaw.ac.at/entity/38617/">
-          <persName>Kornfeld, Paul</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb38444" source="https://pmb.acdh.oeaw.ac.at/entity/38444/">
-          <placeName>Tschechoslowakei</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="1231430-4" source="https://d-nb.info/gnd/1231430-4">
-          <orgName>Königliches Deutsches Landestheater Prag</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -137,10 +121,12 @@ Antwort auf: <ref target="10702">1919-05-10 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 2 Seiten
-Antwort auf: <ref target="10702">1919-05-10 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="10702">1919-05-10 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0171"/>'427<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0171"/>'427<lb/>
 FISCHER / VerLAG<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P. Berlin / Postscheckkonte: Berlin 16692<lb/>
 BERene W57 BÜLÖWSTRASSE 90<lb/>
@@ -172,7 +158,8 @@ G.C.H.F.P.M<lb/>
 der tschecho-elowakischen Republik zu bekommen. Ich glaube, wir<lb/>
 werden darum nicht herum kommen, da Deutsch-Oesterreich jetzt für<lb/>
 alle slavischen Staaten Ausland geworden ist. Herr Demetz ist der</p>
-        <p><pb facs="1416743_0172"/>S. FISCHER /VERLAGT.<lb/>
+        <p>
+          <pb facs="1416743_0172"/>S. FISCHER /VERLAGT.<lb/>
 Schwager von Paul Kornfeld, einem jungen Autor meines Verlages<lb/>
 aus guter bürgerlicher Familie in Prag.<lb/>
 Mit herzlichen Grüssen<lb/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10942">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -77,6 +78,17 @@ Abschrift eines Schreibens von Herrn Marc Kalckar an Leo Greiner</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11515">Greiner, Leo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19016">Kalckar, Marc</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2910">Nansen, Betty</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2357">Nansen, Peter</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43570">Dänemark</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb58660">Betty Nansen-Teatret Kopenhagen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="1215174-9">Det Kongelige Teater Kopenhagen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10942.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -86,33 +98,6 @@ Abschrift eines Schreibens von Herrn Marc Kalckar an Leo Greiner</note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11515" source="https://pmb.acdh.oeaw.ac.at/entity/11515/">
-          <persName>Greiner, Leo</persName>
-        </person>
-        <person ref="#pmb19016" source="https://pmb.acdh.oeaw.ac.at/entity/19016/">
-          <persName>Kalckar, Marc</persName>
-        </person>
-        <person ref="#pmb2910" source="https://pmb.acdh.oeaw.ac.at/entity/2910/">
-          <persName>Nansen, Betty</persName>
-        </person>
-        <person ref="#pmb2357" source="https://pmb.acdh.oeaw.ac.at/entity/2357/">
-          <persName>Nansen, Peter</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43570" source="https://pmb.acdh.oeaw.ac.at/entity/43570/">
-          <placeName>Dänemark</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb58660" source="https://pmb.acdh.oeaw.ac.at/entity/58660/">
-          <orgName>Betty Nansen-Teatret Kopenhagen</orgName>
-        </org>
-        <org ref="1215174-9" source="https://d-nb.info/gnd/1215174-9">
-          <orgName>Det Kongelige Teater Kopenhagen</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -124,13 +109,15 @@ Abschrift eines Schreibens von Herrn Marc Kalckar an Leo Greiner</note>
         <p>1 Blatt, 2 Seiten,
 Abschrift eines Schreibens von Herrn Marc Kalckar an Leo Greiner</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0550"/>nde<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0550"/>nde<lb/>
 —:<lb/>
 vont<lb/>
 8<lb/>
 Ce nouvelle</p>
-        <p><pb facs="1416743_0551"/>ang<lb/>
+        <p>
+          <pb facs="1416743_0551"/>ang<lb/>
 enden<lb/>
 n°<lb/>
 en<lb/>

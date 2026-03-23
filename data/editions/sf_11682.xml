@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -64,7 +65,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="11680">1931-06-17 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11680">1931-06-17 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1931-06-20.html</note>
       </notesStmt>
@@ -81,6 +83,19 @@ Antwort auf: <ref target="11680">1931-06-17 SF (Berlin) an AS (Wien)</ref></note
           <persName type="coworker">Bermann, Gottfried</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10886">Bergner, Elisabeth</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7196">Forster, Rudolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7456">Goetz, Curt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb42605">Königsberg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb36247">Burgtheater Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb44649">Schlosstheater Schönbrunn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11682.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -88,39 +103,6 @@ Antwort auf: <ref target="11680">1931-06-17 SF (Berlin) an AS (Wien)</ref></note
           <term>Inszenierung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb10886" source="https://pmb.acdh.oeaw.ac.at/entity/10886/">
-          <persName>Bergner, Elisabeth</persName>
-        </person>
-        <person ref="#pmb7196" source="https://pmb.acdh.oeaw.ac.at/entity/7196/">
-          <persName>Forster, Rudolf</persName>
-        </person>
-        <person ref="#pmb7456" source="https://pmb.acdh.oeaw.ac.at/entity/7456/">
-          <persName>Goetz, Curt</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb42605" source="https://pmb.acdh.oeaw.ac.at/entity/42605/">
-          <placeName>Königsberg</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb36247" source="https://pmb.acdh.oeaw.ac.at/entity/36247/">
-          <orgName>Burgtheater Wien</orgName>
-        </org>
-        <org ref="#pmb44649" source="https://pmb.acdh.oeaw.ac.at/entity/44649/">
-          <orgName>Schlosstheater Schönbrunn</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -130,10 +112,12 @@ Antwort auf: <ref target="11680">1931-06-17 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="11680">1931-06-17 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11680">1931-06-17 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0179"/>Berlin<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0179"/>Berlin<lb/>
 S. Fischer<lb/>
 2.6.1931.<lb/>
 Lieber Herr Doktor Sermann.<lb/>
@@ -172,7 +156,8 @@ theater (oca 25 Mal) wurde das Stück wie ich glaube<lb/>
 nur in Königsberg gegeben, wo es von der Kritik sehr<lb/>
 gut behandelt wurde. In Berlin wurdenseinerzeit die<lb/>
 Proben abgebrochen; mein Stück war nicht Schuld</p>
-        <p><pb facs="1416741_0180"/>daran. Dass das Stück Jetzt in Musik gesetzt wird,<lb/>
+        <p>
+          <pb facs="1416741_0180"/>daran. Dass das Stück Jetzt in Musik gesetzt wird,<lb/>
 glaube ich Ihnen schon geschrieben zu haben.<lb/>
 Mit den herzlichsten Grässen<lb/>
 Ihr<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -61,7 +62,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Beantwortet in: <ref target="11103">1924-07-23 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11103">1924-07-23 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-07-21.html</note>
       </notesStmt>
@@ -77,6 +79,13 @@ Beantwortet in: <ref target="11103">1924-07-23 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb300494">Barnay, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10844">Bassermann, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb300058">Neues Theater Frankfurt am Main</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11102.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -89,19 +98,6 @@ Beantwortet in: <ref target="11103">1924-07-23 SF (Berlin) an AS (Wien)</ref></n
           <term>Novelle</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb300494" source="https://pmb.acdh.oeaw.ac.at/entity/300494/">
-          <persName>Barnay, Paul</persName>
-        </person>
-        <person ref="#pmb10844" source="https://pmb.acdh.oeaw.ac.at/entity/10844/">
-          <persName>Bassermann, Albert</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="#pmb300058" source="https://pmb.acdh.oeaw.ac.at/entity/300058/">
-          <orgName>Neues Theater Frankfurt am Main</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -111,10 +107,12 @@ Beantwortet in: <ref target="11103">1924-07-23 SF (Berlin) an AS (Wien)</ref></n
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Beantwortet in: <ref target="11103">1924-07-23 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11103">1924-07-23 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0034"/>premiere zahlbare Garantie von 2000 Goldmark<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0034"/>premiere zahlbare Garantie von 2000 Goldmark<lb/>
 habe ich mich rinzipiebl zu ausnahmsweiser<lb/>
 Erlaubnis bereit erklärt. Die gefahr ist ge-<lb/>
 ring, dass Herr Barnay von dieser erlaubnis Ge-<lb/>
@@ -195,7 +193,8 @@ wärtigen Verhältnisse fortdauern, Aufführung<lb/>
 erlaubnis nicht erteilt werde. Die Theater-<lb/>
 vertriebe sollten in dieser Frage mit den<lb/>
 Autoren durchaus konform vorgehen.- In der</p>
-        <p><pb facs="1416740_0035"/>letzten Verrechnung fehlt das Frankfurter Neu<lb/>
+        <p>
+          <pb facs="1416740_0035"/>letzten Verrechnung fehlt das Frankfurter Neu<lb/>
 noch immer.<lb/>
 -Bessermann-Gastspiel<lb/>
 Und wohl manches andere, was schwerer zu kon-<lb/>

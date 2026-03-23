@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -69,7 +70,8 @@
       <notesStmt>
         <note type="description">1 Doppelblatt, 3 Seiten beschrieben
 
-Antwort auf: <ref target="10275">1909-07-15 AS an SF</ref></note>
+Antwort auf: <ref target="10275">1909-07-15 AS an SF</ref>
+        </note>
         <note type="published_in">Rodewald, 84 [Nr. 119]; Buohler 2011, 93-94</note>
         <note type="type">Handschrift</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1909-07-20.html</note>
@@ -86,6 +88,12 @@ Antwort auf: <ref target="10275">1909-07-15 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11740">Hofmannsthal, Hugo von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11798">Ibsen, Henrik</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10276.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -93,14 +101,6 @@ Antwort auf: <ref target="10275">1909-07-15 AS an SF</ref></note>
           <term>Drama</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11740" source="https://pmb.acdh.oeaw.ac.at/entity/11740/">
-          <persName>Hofmannsthal, Hugo von</persName>
-        </person>
-        <person ref="#pmb11798" source="https://pmb.acdh.oeaw.ac.at/entity/11798/">
-          <persName>Ibsen, Henrik</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -111,10 +111,12 @@ Antwort auf: <ref target="10275">1909-07-15 AS an SF</ref></note>
       <div type="letter">
         <p>1 Doppelblatt, 3 Seiten beschrieben
 
-Antwort auf: <ref target="10275">1909-07-15 AS an SF</ref></p>
+Antwort auf: <ref target="10275">1909-07-15 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0389"/>212<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0389"/>212<lb/>
 20 k<lb/>
 200<lb/>
 S. FISCHER, VERLAG,’ BERLIN W., BÜLowSTR. 90<lb/>
@@ -142,7 +144,8 @@ werden, was sehr gut<lb/>
 wirkt. Liegt es im Hyl<lb/>
 des Frückes dann das Satzbild<lb/>
 Kühl</p>
-        <p><pb facs="1416742_0390"/>kühl und ernst wirken soll.<lb/>
+        <p>
+          <pb facs="1416742_0390"/>kühl und ernst wirken soll.<lb/>
 any<lb/>
 so ware event. Das Satzbild<lb/>
 der Dramen Ibsens in de<lb/>
@@ -183,7 +186,8 @@ sein. Mit den beffen Wünse<lb/>
 für einen guten Samer und<lb/>
 mit herzlichsten Grüssen von<lb/>
 uns zu Ihnen Ihr Pfiecher¬</p>
-        <p><pb facs="1416742_0391"/>212<lb/>
+        <p>
+          <pb facs="1416742_0391"/>212<lb/>
 20k<lb/>
 200<lb/>
 S. FISCHER, VERLAG, BERLIN W., BÜLowSTR. 90<lb/>

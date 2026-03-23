@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10454">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -103,6 +104,20 @@ Antwort auf: 1912-08-01 AS an SF (nicht überliefert)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb45260">Brioni</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Dias, Willi (Übersetzer, Triest)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2874">Eirich, Oskar Friedrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb21787">Nani, Gerolamo Enrico</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Sestan, A. (Mitarbeiter Riccardi-Verlag?, Triest)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb25995">Thieben, Emil</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43471">Budapest</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb886">Mailand</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb873">Triest</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10454.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -111,40 +126,6 @@ Antwort auf: 1912-08-01 AS an SF (nicht überliefert)</note>
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person>
-          <persName>Dias, Willi (Übersetzer, Triest)</persName>
-        </person>
-        <person ref="#pmb2874" source="https://pmb.acdh.oeaw.ac.at/entity/2874/">
-          <persName>Eirich, Oskar Friedrich</persName>
-        </person>
-        <person ref="#pmb21787" source="https://pmb.acdh.oeaw.ac.at/entity/21787/">
-          <persName>Nani, Gerolamo Enrico</persName>
-        </person>
-        <person>
-          <persName>Sestan, A. (Mitarbeiter Riccardi-Verlag?, Triest)</persName>
-        </person>
-        <person ref="#pmb25995" source="https://pmb.acdh.oeaw.ac.at/entity/25995/">
-          <persName>Thieben, Emil</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43471" source="https://pmb.acdh.oeaw.ac.at/entity/43471/">
-          <placeName>Budapest</placeName>
-        </place>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-        <place ref="#pmb886" source="https://pmb.acdh.oeaw.ac.at/entity/886/">
-          <placeName>Mailand</placeName>
-        </place>
-        <place ref="#pmb873" source="https://pmb.acdh.oeaw.ac.at/entity/873/">
-          <placeName>Triest</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -157,8 +138,9 @@ Antwort auf: 1912-08-01 AS an SF (nicht überliefert)</note>
 
 Antwort auf: 1912-08-01 AS an SF (nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0575"/>291.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0575"/>291.<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
 24/8.18<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -182,7 +164,8 @@ Bedingungen auf die Uebersetzung Ihrer Stücke einstweil /<lb/>
 reflektiert.<lb/>
 Zu Ihrer gefl. Orientierung bemerken wir noch,<lb/>
 her folgende Stücke für Italien vergeben haben:</p>
-        <p><pb facs="1416742_0576"/>G.H.<lb/>
+        <p>
+          <pb facs="1416742_0576"/>G.H.<lb/>
 an Villi Dias, Triest<lb/>
 „Auf des Lebens“<lb/>
 (Für „Zwischenspiel“ ist<lb/>

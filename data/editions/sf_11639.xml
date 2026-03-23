@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,7 +71,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
 Antwort auf: <ref target="11632">1931-02-17 SF (Berlin) an AS (Wien)</ref>, <ref target="11638">1931-02-25 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11641">1931-03-02 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11641">1931-03-02 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1931-02-28.html</note>
       </notesStmt>
@@ -87,6 +89,15 @@ Beantwortet in: <ref target="11641">1931-03-02 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Cecchini, Giordano (Schauspieler, Italien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Rökk-Richter, Stefano (Theateragent und Schriftsteller, Italien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb224">London</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11639.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -103,25 +114,6 @@ Beantwortet in: <ref target="11641">1931-03-02 SF (Berlin) an AS (Wien)</ref></n
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person>
-          <persName>Cecchini, Giordano (Schauspieler, Italien)</persName>
-        </person>
-        <person>
-          <persName>Rökk-Richter, Stefano (Theateragent und Schriftsteller, Italien)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-        <place ref="#pmb224" source="https://pmb.acdh.oeaw.ac.at/entity/224/">
-          <placeName>London</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -132,10 +124,12 @@ Beantwortet in: <ref target="11641">1931-03-02 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>1 Blatt, 2 Seiten
 Antwort auf: <ref target="11632">1931-02-17 SF (Berlin) an AS (Wien)</ref>, <ref target="11638">1931-02-25 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11641">1931-03-02 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11641">1931-03-02 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0161"/>Berlin<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0161"/>Berlin<lb/>
 28.2.1931.<lb/>
 Titischer<lb/>
 Lieber Herr Doktor Maril.<lb/>
@@ -172,7 +166,8 @@ setzungsrechtes einiger meiner Werke geführt habe<lb/>
 absolut resultatlos geblieben sind; ich erwähne<lb/>
 das ganz besonders, weil Herr R.R. sich zweifellos<lb/>
 auf solche Verhandlungen berufen wird, um seinen</p>
-        <p><pb facs="1416741_0162"/>guten Glauben vorzutäuschen.<lb/>
+        <p>
+          <pb facs="1416741_0162"/>guten Glauben vorzutäuschen.<lb/>
 Die Europeen Books Ltd in London ist mir<lb/>
 nicht bekannt; gegen eine Option mit notwendiger<lb/>
 Sicherstellung wird wohl nichts einzuwenden sein.<lb/>

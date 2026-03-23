@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -77,6 +78,15 @@ Bezug auf: Telegramm 1917-XX-XX AS (Wien) an Hellmer, Arthur (XX) (erschlossen)<
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7777">Hellmer, Arthur</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="11697088X">Zeiss, Karl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb146">Frankfurt am Main</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb88756">Frankfurter Schauspielhaus</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb300058">Neues Theater Frankfurt am Main</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10626.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -87,27 +97,6 @@ Bezug auf: Telegramm 1917-XX-XX AS (Wien) an Hellmer, Arthur (XX) (erschlossen)<
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb7777" source="https://pmb.acdh.oeaw.ac.at/entity/7777/">
-          <persName>Hellmer, Arthur</persName>
-        </person>
-        <person ref="11697088X" source="https://d-nb.info/gnd/11697088X">
-          <persName>Zeiss, Karl</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb146" source="https://pmb.acdh.oeaw.ac.at/entity/146/">
-          <placeName>Frankfurt am Main</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb88756" source="https://pmb.acdh.oeaw.ac.at/entity/88756/">
-          <orgName>Frankfurter Schauspielhaus</orgName>
-        </org>
-        <org ref="#pmb300058" source="https://pmb.acdh.oeaw.ac.at/entity/300058/">
-          <orgName>Neues Theater Frankfurt am Main</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -121,8 +110,9 @@ Antwort auf: <ref target="10623">1917-10-06 SF (Berlin) an AS (Wien)</ref>
 Beantwortet in: <ref target="10628">1917-10-17 SF (Berlin) an AS (Wien)</ref>
 Bezug auf: Telegramm 1917-XX-XX AS (Wien) an Hellmer, Arthur (XX) (erschlossen)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0037"/>könnte und ob Sie in der Lage wären ein<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0037"/>könnte und ob Sie in der Lage wären ein<lb/>
 Henerar von 5000 Mark für sie zu zahlen,<lb/>
 (d.h.für den Vorabdruck in der Neuen Rund-<lb/>
 schau). Sie könnten die Maschinschrift in<lb/>
@@ -165,7 +155,8 @@ G.H.F.P<lb/>
 Herr Greiner, seinen standpunkt zu dieser Ange¬<lb/>
 legenheit und ich möchte nur noch ein paar Wer-<lb/>
 te zur näheren Erklärung hinzufügen. Es ist</p>
-        <p><pb facs="1416739_0038"/>schade, dass Sie Ihrem freundlichen Telegramm<lb/>
+        <p>
+          <pb facs="1416739_0038"/>schade, dass Sie Ihrem freundlichen Telegramm<lb/>
 nicht gleich die Ursache Ihrer Befürwortung an-<lb/>
 unfacht<lb/>
 et Sache wesenterez<lb/>
@@ -215,7 +206,8 @@ diesem auch den „Fliederbusch“ zu überlassen.<lb/>
 ohne das Schauspielhaus auch nur in eine Konkur¬<lb/>
 renz treten zu lassen. Als ich diesen entschluss<lb/>
 - natürlich noch vor Absehluss Ihres Vertrages</p>
-        <p><pb facs="1416739_0039"/>Puis<lb/>
+        <p>
+          <pb facs="1416739_0039"/>Puis<lb/>
 mit Helmer - den Geheimrat Zeiss mitteilte, gab<lb/>
 dieser seiner persönlichen Gekränktheit überra-<lb/>
 schend lebhaften Ausdruck in einem Schreiben,<lb/>
@@ -257,7 +249,8 @@ lichkeit läge.<lb/>
 Für Ihre übrigen freundlichen und er¬<lb/>
 freulichen Nachrichten besten Dank.Der buch-<lb/>
 händlerische Erfolg des „Doktor Graesler“ über-</p>
-        <p><pb facs="1416739_0040"/>rascht mich aufs Angenehmste.<lb/>
+        <p>
+          <pb facs="1416739_0040"/>rascht mich aufs Angenehmste.<lb/>
 Première...<lb/>
 Zur xxx von „Fink und liederbusch“<lb/>
 bin ich natürl'ch in Wien.Falls das stück in<lb/>

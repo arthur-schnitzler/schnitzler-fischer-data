@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10173">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -99,20 +100,18 @@ Beantwortet in: 1907-01-28 AS an SF (Anfrage USA, Vorauszahlung Ebermann, vgl. T
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11820">Jensen, Johannes Vilhelm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13055">Wassermann, Jakob</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10173.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Buchgestaltung/Buchschmuck/Umschlag/Einband</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11820" source="https://pmb.acdh.oeaw.ac.at/entity/11820/">
-          <persName>Jensen, Johannes Vilhelm</persName>
-        </person>
-        <person ref="#pmb13055" source="https://pmb.acdh.oeaw.ac.at/entity/13055/">
-          <persName>Wassermann, Jakob</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -127,8 +126,9 @@ Anlage: Umschlagentwürfe, Papierproben (nicht überliefert)
 Antwort auf: 1907-01-08ante AS an SF (Titelfestlegung 'Dämmerseelen'; nicht überliefert)
 Beantwortet in: 1907-01-28 AS an SF (Anfrage USA, Vorauszahlung Ebermann, vgl. Tgb 1907-01-09 und 1907-01-28; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0255"/>141<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0255"/>141<lb/>
 S. FISCHER, VERLAG, BERene W., BÜLowSTR. 90<lb/>
 BERene W., DEN 8. Jan.07<lb/>
 Herrn Dr. seiner Gedritste<lb/>
@@ -148,7 +148,8 @@ schlüge von Igesernen und Jenzen. Ich stattig sehr in<lb/>
 aus den uitfolgenden lepferesenden xxx Zuschlagenden<lb/>
 zu rühlet. Für die gebendenen Exemplars, die erstä<lb/>
 auch den Muster des bachen am Tgesetteur herge=</p>
-        <p><pb facs="1416742_0256"/>stellt werden sollen, lege ich einige Bernsponierpro-<lb/>
+        <p>
+          <pb facs="1416742_0256"/>stellt werden sollen, lege ich einige Bernsponierpro-<lb/>
 bat bet.<lb/>
 Im Uebrigen müssen Sie mir schon ein usaig fraie<lb/>
 Hand lassen, vonn etwas Bishaltliches undarbeftigen<lb/>

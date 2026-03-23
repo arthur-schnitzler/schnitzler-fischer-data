@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -83,7 +84,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite beschrieben
 
-Antwort auf: <ref target="10532">1914-06-10 AS an SF</ref></note>
+Antwort auf: <ref target="10532">1914-06-10 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1914-06-18.html</note>
       </notesStmt>
@@ -100,17 +102,17 @@ Antwort auf: <ref target="10532">1914-06-10 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10534.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Honorar</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -121,10 +123,12 @@ Antwort auf: <ref target="10532">1914-06-10 AS an SF</ref></note>
       <div type="letter">
         <p>1 Blatt, 1 Seite beschrieben
 
-Antwort auf: <ref target="10532">1914-06-10 AS an SF</ref></p>
+Antwort auf: <ref target="10532">1914-06-10 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0666"/>342.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0666"/>342.<lb/>
 S.Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
 18. Juni 1914<lb/>
 Rb./Se.<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -75,7 +76,8 @@
         <note type="description">1 Blatt, 2 Seiten beschrieben
 Anlage: frz. Übersetzer an SF (Übersetzung 'Liebelei'; nicht überliefert)
 
-Bezug auf: <ref target="10321">1910-05-27 SF an AS</ref></note>
+Bezug auf: <ref target="10321">1910-05-27 SF an AS</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1910-06-13.html</note>
       </notesStmt>
@@ -91,6 +93,13 @@ Bezug auf: <ref target="10321">1910-05-27 SF an AS</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2199">Epstein, Stephan</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3966">Thorel, Jean</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb166">Frankreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10324.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -98,19 +107,6 @@ Bezug auf: <ref target="10321">1910-05-27 SF an AS</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2199" source="https://pmb.acdh.oeaw.ac.at/entity/2199/">
-          <persName>Epstein, Stephan</persName>
-        </person>
-        <person ref="#pmb3966" source="https://pmb.acdh.oeaw.ac.at/entity/3966/">
-          <persName>Thorel, Jean</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
-          <placeName>Frankreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -122,10 +118,12 @@ Bezug auf: <ref target="10321">1910-05-27 SF an AS</ref></note>
         <p>1 Blatt, 2 Seiten beschrieben
 Anlage: frz. Übersetzer an SF (Übersetzung 'Liebelei'; nicht überliefert)
 
-Bezug auf: <ref target="10321">1910-05-27 SF an AS</ref></p>
+Bezug auf: <ref target="10321">1910-05-27 SF an AS</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0428"/>207 217<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0428"/>207 217<lb/>
 S. FISCHER, VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
 BERene W., DEN. 13/6. 1910<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -146,7 +144,8 @@ neuen Uebersetzer zu verhandeln. Da Sie die<lb/>
 Uebersetzung bezahlt haben, gehört sie doch<lb/>
 wohl auch Ihnen. Vielleicht könnte man die<lb/>
 Uebersetzung, wenn Sie sie von Thorel bekom-</p>
-        <p><pb facs="1416742_0429"/>men, dem auch Ihnen bekannten Epstein zu<lb/>
+        <p>
+          <pb facs="1416742_0429"/>men, dem auch Ihnen bekannten Epstein zu<lb/>
 dem Zweck übergeben, dass er ein geeignetes<lb/>
 Theater für das Stück zu interessieren sucht.<lb/>
 Epstein ist, soviel ich weiss, nicht hervor-<lb/>

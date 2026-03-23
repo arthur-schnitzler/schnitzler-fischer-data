@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -92,6 +93,15 @@ Beantwortet in: <ref target="11384">1928-03-05 SF (Berlin) an AS (Wien)</ref>, 1
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="119487233">Rieser, Ferdinand</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40709">Amsterdam</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb995">Antwerpen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb484">Zürich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11383.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -103,25 +113,6 @@ Beantwortet in: <ref target="11384">1928-03-05 SF (Berlin) an AS (Wien)</ref>, 1
           <term>Vorschuss</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="119487233" source="https://d-nb.info/gnd/119487233">
-          <persName>Rieser, Ferdinand</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb40709" source="https://pmb.acdh.oeaw.ac.at/entity/40709/">
-          <placeName>Amsterdam</placeName>
-        </place>
-        <place ref="#pmb995" source="https://pmb.acdh.oeaw.ac.at/entity/995/">
-          <placeName>Antwerpen</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb484" source="https://pmb.acdh.oeaw.ac.at/entity/484/">
-          <placeName>Zürich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -133,8 +124,9 @@ Beantwortet in: <ref target="11384">1928-03-05 SF (Berlin) an AS (Wien)</ref>, 1
         <p>1 Blatt, 1 Seite
 Beantwortet in: <ref target="11384">1928-03-05 SF (Berlin) an AS (Wien)</ref>, 1927-03-07 SF (Berlin) an AS (Wien)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0019"/>Mjest.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0019"/>Mjest.<lb/>
 Mort bewist<lb/>
 s. Tischer<lb/>
 G.C.P<lb/>

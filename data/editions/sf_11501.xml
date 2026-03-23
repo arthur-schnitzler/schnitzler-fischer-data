@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11501">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,28 +80,20 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb90460">Caux</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb9181">Oswald, Richard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb90460">Caux</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb335000">Palace Hotel Caux</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11501.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Filmrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb9181" source="https://pmb.acdh.oeaw.ac.at/entity/9181/">
-          <persName>Oswald, Richard</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb90460" source="https://pmb.acdh.oeaw.ac.at/entity/90460/">
-          <placeName>Caux</placeName>
-        </place>
-        <place ref="#pmb335000">
-          <placeName>Palace Hotel Caux</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -111,8 +104,9 @@
       <div type="letter">
         <p>1 Blatt, 1 Seite</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_1117"/>92<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_1117"/>92<lb/>
 S. FISCHER VERLAG A.-G.. BERLIN W 57<lb/>
 Theaterabteilung<lb/>
 Fernsprecher: Lützow Nr. 6162-6164/Telegramm.Adresse: Fischerverlag 6162 Berlinlützom<lb/>

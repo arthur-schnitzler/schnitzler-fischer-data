@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10908">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -73,6 +74,11 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10908.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -82,11 +88,6 @@
           <term>Honorar</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -97,8 +98,9 @@
       <div type="letter">
         <p>2 Blatt, 3 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0489"/>a 557<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0489"/>a 557<lb/>
 S. FISCHER/VERLAG<lb/>
 Bankkonto: Deutsche Bank. Depositenkasse P Berlin / Postschschkonto; Berlin 16692<lb/>
 BERene W 57 / BÜLowSTRASSE 90<lb/>
@@ -127,7 +129,8 @@ Sffischer<lb/>
 das wesentliche: die<lb/>
 Hauptfrage kann ich schon<lb/>
 vorwegnehmen. Das höchste</p>
-        <p><pb facs="1416743_0490"/>A 3 H 3 &amp; 13<lb/>
+        <p>
+          <pb facs="1416743_0490"/>A 3 H 3 &amp; 13<lb/>
 Votre<lb/>
 2.6.31 xxx r.w. xxx<lb/>
 re aas A s TewO.I.0a sew vU4a8<lb/>
@@ -161,7 +164,8 @@ hat da wohl seine eigenen<lb/>
 Geschäfte im Auge gehabt<lb/>
 Fein<lb/>
 Lf</p>
-        <p><pb facs="1416743_0491"/>lischer/ Verlag/ Berlin M 57 / Bülowstraße<lb/>
+        <p>
+          <pb facs="1416743_0491"/>lischer/ Verlag/ Berlin M 57 / Bülowstraße<lb/>
 S.F.<lb/>
 akkonto: Deutsche Bank. Depositenkasse P in Berlin / Poetschsekkonto: Berlin Nr. 1669.<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 1662, 6162 und 9292<lb/>

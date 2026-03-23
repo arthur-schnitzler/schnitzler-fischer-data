@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -92,31 +93,21 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4087">Freund, Frank E. Washburn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4858">Rössler, Carl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb9825">Schönfelder, Erich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb335754">Eversley (Hampshire)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10506.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Drama</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4087" source="https://pmb.acdh.oeaw.ac.at/entity/4087/">
-          <persName>Freund, Frank E. Washburn</persName>
-        </person>
-        <person ref="#pmb4858" source="https://pmb.acdh.oeaw.ac.at/entity/4858/">
-          <persName>Rössler, Carl</persName>
-        </person>
-        <person ref="#pmb9825" source="https://pmb.acdh.oeaw.ac.at/entity/9825/">
-          <persName>Schönfelder, Erich</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb335754">
-          <placeName>Eversley (Hampshire)</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -127,8 +118,9 @@
       <div type="letter">
         <p>1 Blatt, 2 Seiten beschrieben</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0638"/>325.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0638"/>325.<lb/>
 ISCHER/VERLAG/BERLIN’THEATERABTEILUNG<lb/>
 W 57 BÜLÖWSTR90<lb/>
 AMT: LUTZÖW 1662=6162<lb/>
@@ -158,7 +150,8 @@ ob Sie auf unsern Vorschlag eingehen oder nennen Sie vielleicht an-<lb/>
 dernfalls einen englischen schriftsteller, der Ihnen bekannt ist und<lb/>
 zu dem sie das Vertrauen haben, dass er eine literarische und sinnge-<lb/>
 müsse Umarbeitung machen würde. Wir würden dann der Firma Hugo Baruch</p>
-        <p><pb facs="1416742_0639"/>II<lb/>
+        <p>
+          <pb facs="1416742_0639"/>II<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
 4 Co. resp. der Snubert Company vorschreiben, diesen von Ihnen genann-<lb/>
 ten Herrn, zu dieser Arbeit zu nehmen. Ist Ihren Herr Frank E.Washburn-<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -74,7 +75,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
 Antwort auf: <ref target="10626">1917-10-12 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="10630">1917-10-22 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="10630">1917-10-22 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1917-10-17.html</note>
       </notesStmt>
@@ -91,6 +93,13 @@ Beantwortet in: <ref target="10630">1917-10-22 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10893">Bernard, Tristan</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7777">Hellmer, Arthur</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="11697088X">Zeiss, Karl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10629.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -101,17 +110,6 @@ Beantwortet in: <ref target="10630">1917-10-22 AS (Wien) an SF (Berlin)</ref></n
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10893" source="https://pmb.acdh.oeaw.ac.at/entity/10893/">
-          <persName>Bernard, Tristan</persName>
-        </person>
-        <person ref="#pmb7777" source="https://pmb.acdh.oeaw.ac.at/entity/7777/">
-          <persName>Hellmer, Arthur</persName>
-        </person>
-        <person ref="11697088X" source="https://d-nb.info/gnd/11697088X">
-          <persName>Zeiss, Karl</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -122,10 +120,12 @@ Beantwortet in: <ref target="10630">1917-10-22 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>2 Blatt, 2 Seiten
 Antwort auf: <ref target="10626">1917-10-12 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="10630">1917-10-22 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="10630">1917-10-22 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0088"/>394.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0088"/>394.<lb/>
 S. Fischer Verlag Berlin<lb/>
 Amt Letzow 1662 u. 6162 Theaterabteilung postscheckkonto Nr. 16692<lb/>
 Berlin W 57, Bülowstraße Nr. 90<lb/>
@@ -173,7 +173,8 @@ schen Brief allerdings eine ganz andere Auffas-<lb/>
 f.i.x.tov.<lb/>
 sung gehabt. Helber zweifelt ja nicht an Büh-<lb/>
 remedegte Tdse Tdl</p>
-        <p><pb facs="1416743_0089"/>Von /:10:11<lb/>
+        <p>
+          <pb facs="1416743_0089"/>Von /:10:11<lb/>
 nenerfolg überhaupt, sondern nur daran, dass<lb/>
 dieser so sehr inndie Breite gehen dürfte, um<lb/>
 eine Garantiesumme von 2000.-M. zu rechtferti<lb/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10120">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -86,6 +87,13 @@ Beantwortet in: 1903-02-13post/1903-02-16ante AS an SF ('Reigen' als Subskriptio
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10120.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -93,17 +101,6 @@ Beantwortet in: 1903-02-13post/1903-02-16ante AS an SF ('Reigen' als Subskriptio
           <term>Veröffentlichungsplan/-projekt</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -117,8 +114,9 @@ Beantwortet in: 1903-02-13post/1903-02-16ante AS an SF ('Reigen' als Subskriptio
 Antwort auf: 1903-02-13ante AS an SF (Verlagsübernahme 'Reigen', Neuauflage 'Beatrice'; nicht überliefert)
 Beantwortet in: 1903-02-13post/1903-02-16ante AS an SF ('Reigen' als Subskriptionsausgabe; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0159"/>BERLIN W, DEN 13. Februar 190<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0159"/>BERLIN W, DEN 13. Februar 190<lb/>
 PHON: IAT VI, No. 1662.<lb/>
 TRASS<lb/>
 BUL̃W<lb/>

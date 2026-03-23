@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -85,6 +86,14 @@ wohl Beilage zu einem der genannten Briefe</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Busse (Prof., Literaturagent?)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4423">Knopf, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12176">Mann, Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11525.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,22 +109,6 @@ wohl Beilage zu einem der genannten Briefe</note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person>
-          <persName>Busse (Prof., Literaturagent?)</persName>
-        </person>
-        <person ref="#pmb4423" source="https://pmb.acdh.oeaw.ac.at/entity/4423/">
-          <persName>Knopf, Alfred</persName>
-        </person>
-        <person ref="#pmb12176" source="https://pmb.acdh.oeaw.ac.at/entity/12176/">
-          <persName>Mann, Thomas</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -130,8 +123,9 @@ Brief zwischen <ref target="11490">1929-07-29 SF (Berlin) an AS (Wien)</ref> und
 Brief Nr. 920
 wohl Beilage zu einem der genannten Briefe</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_1106"/>dann aus sein Seite.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_1106"/>dann aus sein Seite.<lb/>
 stell<lb/>
 Zu dem Schreiben des Herrn Prof. Busse hab<lb/>
 damals mit<lb/>
@@ -186,7 +180,8 @@ rifft, so ist mir erinn<lb/>
 daß<lb/>
 des Herr Prof.<lb/>
 dann 200 Dol.</p>
-        <p><pb facs="1416743_1107"/>seines Besuches den phrasenhaften und überheblichen Ton<lb/>
+        <p>
+          <pb facs="1416743_1107"/>seines Besuches den phrasenhaften und überheblichen Ton<lb/>
 dessen Fortsetzung sein Schreiben darstellt. Er versäu<lb/>
 damals nicht auf seinen Arbeit als deutscher Kulturträger xxx<lb/>
 weisen und überhaupt sehr viel mit kulturellen Belangen zu operieren,<lb/>

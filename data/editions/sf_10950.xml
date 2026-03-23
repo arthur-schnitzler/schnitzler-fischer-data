@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -72,7 +73,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">3 Blatt, 6 Seiten
-Antwort auf: <ref target="10947">1922-11-16 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="10947">1922-11-16 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-11-28.html</note>
       </notesStmt>
@@ -89,6 +91,20 @@ Antwort auf: <ref target="10947">1922-11-16 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1140452606">Bernstein, Hermann</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11454">Glücksmann, Heinrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2327">Löwenstamm, Emma</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb142471">Ziegel, Erich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2312">Zuckerkandl, Berta</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb872">Stuttgart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb955">Teplice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb250435">Hamburger Kammerspiele</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10950.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -108,42 +124,6 @@ Antwort auf: <ref target="10947">1922-11-16 AS (Wien) an SF (Berlin)</ref></note
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="1140452606" source="https://d-nb.info/gnd/1140452606">
-          <persName>Bernstein, Hermann</persName>
-        </person>
-        <person ref="#pmb11454" source="https://pmb.acdh.oeaw.ac.at/entity/11454/">
-          <persName>Glücksmann, Heinrich</persName>
-        </person>
-        <person ref="#pmb2327" source="https://pmb.acdh.oeaw.ac.at/entity/2327/">
-          <persName>Löwenstamm, Emma</persName>
-        </person>
-        <person ref="#pmb142471" source="https://pmb.acdh.oeaw.ac.at/entity/142471/">
-          <persName>Ziegel, Erich</persName>
-        </person>
-        <person ref="#pmb2312" source="https://pmb.acdh.oeaw.ac.at/entity/2312/">
-          <persName>Zuckerkandl, Berta</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-        <place ref="#pmb872" source="https://pmb.acdh.oeaw.ac.at/entity/872/">
-          <placeName>Stuttgart</placeName>
-        </place>
-        <place ref="#pmb955" source="https://pmb.acdh.oeaw.ac.at/entity/955/">
-          <placeName>Teplice</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb250435" source="https://pmb.acdh.oeaw.ac.at/entity/250435/">
-          <orgName>Hamburger Kammerspiele</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -153,10 +133,12 @@ Antwort auf: <ref target="10947">1922-11-16 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>3 Blatt, 6 Seiten
-Antwort auf: <ref target="10947">1922-11-16 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="10947">1922-11-16 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0559"/>[588<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0559"/>[588<lb/>
 Fischer/Verlag/Berlin M 57/Bülowstraße 9o<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto; Berlin Nr. 1669.<lb/>
 Fernsprechanschlusse: Amt Lützow Nr. 1662. 6162 und 9292<lb/>
@@ -201,7 +183,8 @@ derhältnissen von Anfang<lb/>
 die Caloulationgrundlage<lb/>
 habe<lb/>
 erheblich verändert.</p>
-        <p><pb facs="1416743_0560"/>nicht gut möglic<lb/>
+        <p>
+          <pb facs="1416743_0560"/>nicht gut möglic<lb/>
 en.<lb/>
 wer<lb/>
 bekandts=<lb/>
@@ -251,7 +234,8 @@ Geschäftsjahres per<lb/>
 hoffe, sie Ihnen<lb/>
 bisher alle Preise<lb/>
 Ihrlich</p>
-        <p><pb facs="1416743_0561"/>SCHER /<lb/>
+        <p>
+          <pb facs="1416743_0561"/>SCHER /<lb/>
 ERLA<lb/>
 entend.<lb/>
 und dementsprechend wird auch Ihr Honorar<lb/>
@@ -294,7 +278,8 @@ Ertrag aus dem Verkauf von Büchern, Am<lb/>
 Dabei wird nach dem Grunds<lb/>
 Sortiments imme-<lb/>
 stattgegeben</p>
-        <p><pb facs="1416743_0562"/>tschechischen<lb/>
+        <p>
+          <pb facs="1416743_0562"/>tschechischen<lb/>
 nach für mich.<lb/>
 mitazuschlag von etwa 100 % für die<lb/>
 de la riviere de ses<lb/>
@@ -330,7 +315,8 @@ wischen»No<lb/>
 dass ein Missverhält<lb/>
 chreiben.<lb/>
 Vert</p>
-        <p><pb facs="1416743_0563"/>ERLAG, BERLIB<lb/>
+        <p>
+          <pb facs="1416743_0563"/>ERLAG, BERLIB<lb/>
 gezweiffer### eselb=<lb/>
 V.V.W.<lb/>
 Jah.bnte neuen meinen Kermerburgen, hetrig Deinstein anbetrifft, so<lb/>
@@ -366,7 +352,8 @@ Agent öffentlich erklären<lb/>
 anderen gehen.<lb/>
 der dem ganzen Abkommen<lb/>
 selte, verfehlen.</p>
-        <p><pb facs="1416743_0564"/>diese Zentralisierung auf Ihren Wunsch gewissen<lb/>
+        <p>
+          <pb facs="1416743_0564"/>diese Zentralisierung auf Ihren Wunsch gewissen<lb/>
 sind, ist ein<lb/>
 unterliegt, übersdte wir diese ja vollständig im kiären<lb/>
 seinem<lb/>

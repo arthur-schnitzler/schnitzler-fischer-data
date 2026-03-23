@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,7 +71,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
 Antwort auf: 1919-04-20 SF (Berlin) an AS (Wien), 1919-05-04 SF (Berlin) an AS (Wien)
-Beantwortet in: <ref target="10757">1920-05-19 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10757">1920-05-19 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1920-05-10.html</note>
       </notesStmt>
@@ -86,6 +88,15 @@ Beantwortet in: <ref target="10757">1920-05-19 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10836">Bartsch, Rudolf Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20142">Lasswitz, Koloman</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb27362">Wunderlich, Ernst Rainer</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb388">Spanien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10754.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -107,25 +118,6 @@ Beantwortet in: <ref target="10757">1920-05-19 SF (Berlin) an AS (Wien)</ref></n
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
-          <persName>Bartsch, Rudolf Hans</persName>
-        </person>
-        <person ref="#pmb20142" source="https://pmb.acdh.oeaw.ac.at/entity/20142/">
-          <persName>Lasswitz, Koloman</persName>
-        </person>
-        <person ref="#pmb27362" source="https://pmb.acdh.oeaw.ac.at/entity/27362/">
-          <persName>Wunderlich, Ernst Rainer</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb388" source="https://pmb.acdh.oeaw.ac.at/entity/388/">
-          <placeName>Spanien</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -136,10 +128,12 @@ Beantwortet in: <ref target="10757">1920-05-19 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>2 Blatt, 4 Seiten
 Antwort auf: 1919-04-20 SF (Berlin) an AS (Wien), 1919-05-04 SF (Berlin) an AS (Wien)
-Beantwortet in: <ref target="10757">1920-05-19 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10757">1920-05-19 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0147"/>wert in Kronen ausbezahlt erhalten sollen.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0147"/>wert in Kronen ausbezahlt erhalten sollen.<lb/>
 Es scheint sich hier um irgend eine natio-<lb/>
 nalökonomisch wichtige Abmachung zwischen<lb/>
 Oesterreich und Deutschland zu handeln, von<lb/>
@@ -178,7 +172,8 @@ einzelnen Bände erscheinen?<lb/>
 7. Bis zu welchem Termin sollte das Gan-<lb/>
 ze erschienen sein?<lb/>
 8. Sollen die einzelnen Bände einzeln</p>
-        <p><pb facs="1416739_0148"/>käuflich sein?<lb/>
+        <p>
+          <pb facs="1416739_0148"/>käuflich sein?<lb/>
 9. Bekanntlich ist das Wenige, das bisher<lb/>
 in Buchform in Amerika erschienen istentweder<lb/>
 gar nicht oder ganz lächerlich honoriert worden.<lb/>
@@ -218,7 +213,8 @@ ein Vertrag mit dem Verbande deutscher Filmau-<lb/>
 toren, den ich mit den mir nötig erscheinenden<lb/>
 Klauseln abzuschliessen eben im Begriffe bin.<lb/>
 Gern überlasse ich die Angelegenheit ei-</p>
-        <p><pb facs="1416739_0149"/>Provincesse<lb/>
+        <p>
+          <pb facs="1416739_0149"/>Provincesse<lb/>
 Fischer<lb/>
 28.5.1920.<lb/>
 que les ames.<lb/>
@@ -260,7 +256,8 @@ Kölosönkönyvtar, Budapest VII. Dohany-Utoa 1<lb/>
 Ihr<lb/>
 sich wegen des Uebersetzungsrechtes von.Dok<lb/>
 tor Gräsler" (ebenso wie von -Frau Berta Gar¬</p>
-        <p><pb facs="1416739_0150"/>¬<lb/>
+        <p>
+          <pb facs="1416739_0150"/>¬<lb/>
 Aufenthaltes in Berlin mit Ihnen geschäftlich<lb/>
 lan' und.Der Weg ins Freie" an mich gemaddt<lb/>
 ins Reine zu bringen. Schon am 1.Mai 1900<lb/>

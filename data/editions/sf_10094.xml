@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10094">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -89,6 +90,11 @@ Beantwortet in: 1899-11-08post/1899-11-23ante AS an SF (Drucklegung 'Reigen', Il
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb28645">Coschell, Moritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10094.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -97,11 +103,6 @@ Beantwortet in: 1899-11-08post/1899-11-23ante AS an SF (Drucklegung 'Reigen', Il
           <term>Zeichnung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb28645" source="https://pmb.acdh.oeaw.ac.at/entity/28645/">
-          <persName>Coschell, Moritz</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -115,8 +116,9 @@ Beantwortet in: 1899-11-08post/1899-11-23ante AS an SF (Drucklegung 'Reigen', Il
 Antwort auf: 1899-11-03post/1899-11-08ante AS an SF (Drucklegung 'Reigen'; nicht überliefert)
 Beantwortet in: 1899-11-08post/1899-11-23ante AS an SF (Drucklegung 'Reigen', Illustrationen Coschell 'Anatol'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0111"/>S. FISCHER. VERLAG<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0111"/>S. FISCHER. VERLAG<lb/>
 BERene W. DEN 8/11. 1899.<lb/>
 LEPHON: AAT VI, No. 1662.<lb/>
 BÜLÖWSTRASSE 91.<lb/>
@@ -140,7 +142,8 @@ rativ wirken, dass Sie damit zufrieden sein werden.<lb/>
 Die Idee einer Mappe zu „Liebelei“ oder der Illustrationen zum Buch<lb/>
 ist neulich zwischen Coschall und mir besprochen worden; aber gerade in<lb/>
 der „Liebelei“ muss der Kapfindungsgehalt des Werkes,</p>
-        <p><pb facs="1416742_0112"/>ist sehr zweifelhaft, ob Coschall das kann. Alles weitere darüber<lb/>
+        <p>
+          <pb facs="1416742_0112"/>ist sehr zweifelhaft, ob Coschall das kann. Alles weitere darüber<lb/>
 sehen, wie sich der „Anatol“<lb/>
 sehr verfrüht, zunächst müssen wir<lb/>
 Mit besten Grüssen<lb/>

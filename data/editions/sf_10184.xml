@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10184">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -89,6 +90,23 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Allan, Grant (Theaterleiter, England)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5369">Granville-Barker, Harley</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12504">Reinhardt, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="124540449">Shaw, Charlotte Frances Payne-Townshend</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2381">Shaw, George Bernard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb28152">Tree Beerbohm, Herbert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb89676">Vedrenne, John Eugene</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13068">Wedekind, Frank</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="E39PBJwMDbY6kcTDrmB9QkqPcP">Whelen, Frederick</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb224">London</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="16050750-9">Incorporated Stage Society</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb89673">Royal Court Theatre London</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10184.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -96,51 +114,6 @@
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person>
-          <persName>Allan, Grant (Theaterleiter, England)</persName>
-        </person>
-        <person ref="#pmb5369" source="https://pmb.acdh.oeaw.ac.at/entity/5369/">
-          <persName>Granville-Barker, Harley</persName>
-        </person>
-        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
-          <persName>Reinhardt, Max</persName>
-        </person>
-        <person ref="124540449" source="https://d-nb.info/gnd/124540449">
-          <persName>Shaw, Charlotte Frances Payne-Townshend</persName>
-        </person>
-        <person ref="#pmb2381" source="https://pmb.acdh.oeaw.ac.at/entity/2381/">
-          <persName>Shaw, George Bernard</persName>
-        </person>
-        <person ref="#pmb28152" source="https://pmb.acdh.oeaw.ac.at/entity/28152/">
-          <persName>Tree Beerbohm, Herbert</persName>
-        </person>
-        <person ref="#pmb89676" source="https://pmb.acdh.oeaw.ac.at/entity/89676/">
-          <persName>Vedrenne, John Eugene</persName>
-        </person>
-        <person ref="#pmb13068" source="https://pmb.acdh.oeaw.ac.at/entity/13068/">
-          <persName>Wedekind, Frank</persName>
-        </person>
-        <person ref="E39PBJwMDbY6kcTDrmB9QkqPcP" source="https://id.oclc.org/worldcat/entity/E39PBJwMDbY6kcTDrmB9QkqPcP">
-          <persName>Whelen, Frederick</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb224" source="https://pmb.acdh.oeaw.ac.at/entity/224/">
-          <placeName>London</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="16050750-9" source="https://d-nb.info/gnd/16050750-9">
-          <orgName>Incorporated Stage Society</orgName>
-        </org>
-        <org ref="#pmb89673" source="https://pmb.acdh.oeaw.ac.at/entity/89673/">
-          <orgName>Royal Court Theatre London</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -151,8 +124,9 @@
       <div type="letter">
         <p>1 Doppelblatt, 3 Seiten beschrieben</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0275"/>148<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0275"/>148<lb/>
 S. FISCHER, VERLAG,’ BERLIN W.,„ BÜLowSTR. 90<lb/>
 29. Mai 07<lb/>
 BERLIN W., DEN<lb/>
@@ -183,7 +157,8 @@ schon eine Reibe von reichen Interessenten die<lb/>
 nötige Unterstützung sagesast haben. So ist es<lb/>
 wohl gerade die rechts Zeit, mit in die Bewe-<lb/>
 und hineinzukommen. Wir versuchen s. B. jetzt</p>
-        <p><pb facs="1416742_0276"/>G.H.P.<lb/>
+        <p>
+          <pb facs="1416742_0276"/>G.H.P.<lb/>
 G.C.P.<lb/>
 sich,sneisgerade Nedekinds „Kassersänger" das ja die<lb/>
 sos xxx Sosicht aufführen wird nach dieser Auf-<lb/>
@@ -217,7 +192,8 @@ herausbrinst, Dieses Theater hatte vor einiger<lb/>
 Zeit eine Reihe Sohnitzlersachen erworben, aber<lb/>
 nur einen der Sinakter aus des „Lebendigen Stun-<lb/>
 den den in Hosoital spielenden berausgebracht.</p>
-        <p><pb facs="1416742_0277"/>###se wäre zur weiteren Einführung Schnitzlers, die<lb/>
+        <p>
+          <pb facs="1416742_0277"/>###se wäre zur weiteren Einführung Schnitzlers, die<lb/>
 xyk xyz sicher wertvoll und literarisen wennestens aus¬<lb/>
 sichtsreich wäre, wohl geraten, erst mal einen<lb/>
 recht wirksamen (im guten Sinne), Sinakter hier<lb/>

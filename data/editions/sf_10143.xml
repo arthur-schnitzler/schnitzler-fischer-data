@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -67,7 +68,8 @@
         <note type="description">3 Blatt, 3 Seiten beschrieben
 Anlage: 1904-03-28 Lindemann an SF (Karte; nicht überliefert)
 
-Antwort auf: <ref target="10142">1904-03-26 AS an SF/LS</ref></note>
+Antwort auf: <ref target="10142">1904-03-26 AS an SF/LS</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1904-03-28.html</note>
       </notesStmt>
@@ -84,6 +86,21 @@ Antwort auf: <ref target="10142">1904-03-26 AS an SF/LS</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb6651">Claar, Emil</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb156405">Hartmann, Anton</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20466">Lindemann, Gustav</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb677">Breslau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb903">Elberfeld</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb146">Frankfurt am Main</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb890">Hannover</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb869">Moskau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb57303">Deutsches Theater Hannover</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="5129244-0">Elberfelder Stadttheater</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10143.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -96,45 +113,6 @@ Antwort auf: <ref target="10142">1904-03-26 AS an SF/LS</ref></note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb6651" source="https://pmb.acdh.oeaw.ac.at/entity/6651/">
-          <persName>Claar, Emil</persName>
-        </person>
-        <person ref="#pmb156405" source="https://pmb.acdh.oeaw.ac.at/entity/156405/">
-          <persName>Hartmann, Anton</persName>
-        </person>
-        <person ref="#pmb20466" source="https://pmb.acdh.oeaw.ac.at/entity/20466/">
-          <persName>Lindemann, Gustav</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb677" source="https://pmb.acdh.oeaw.ac.at/entity/677/">
-          <placeName>Breslau</placeName>
-        </place>
-        <place ref="#pmb903" source="https://pmb.acdh.oeaw.ac.at/entity/903/">
-          <placeName>Elberfeld</placeName>
-        </place>
-        <place ref="#pmb146" source="https://pmb.acdh.oeaw.ac.at/entity/146/">
-          <placeName>Frankfurt am Main</placeName>
-        </place>
-        <place ref="#pmb890" source="https://pmb.acdh.oeaw.ac.at/entity/890/">
-          <placeName>Hannover</placeName>
-        </place>
-        <place ref="#pmb869" source="https://pmb.acdh.oeaw.ac.at/entity/869/">
-          <placeName>Moskau</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb57303" source="https://pmb.acdh.oeaw.ac.at/entity/57303/">
-          <orgName>Deutsches Theater Hannover</orgName>
-        </org>
-        <org ref="5129244-0" source="https://d-nb.info/gnd/5129244-0">
-          <orgName>Elberfelder Stadttheater</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -146,10 +124,12 @@ Antwort auf: <ref target="10142">1904-03-26 AS an SF/LS</ref></note>
         <p>3 Blatt, 3 Seiten beschrieben
 Anlage: 1904-03-28 Lindemann an SF (Karte; nicht überliefert)
 
-Antwort auf: <ref target="10142">1904-03-26 AS an SF/LS</ref></p>
+Antwort auf: <ref target="10142">1904-03-26 AS an SF/LS</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0188"/>114<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0188"/>114<lb/>
 S. FISCHER, VERLAG<lb/>
 Zu Anbetracht der provinzialen Verhältnisse, des schönen Wetters und<lb/>
 BERene W., DEN 28/3. 1904<lb/>
@@ -194,7 +174,8 @@ Verfügung. Aufführung-Termin 1. April 1904, Conventionalstrafe<lb/>
 1000 Mark. Die Direktion ersucht uns um Prolongation des Fertrages,<lb/>
 unter Hinweis darauf, dass, da die Barzutie bereits bezahlt sei, dem<lb/>
 den nicht erwachse. Wir habe</p>
-        <p><pb facs="1416742_0189"/>28/<lb/>
+        <p>
+          <pb facs="1416742_0189"/>28/<lb/>
 1304<lb/>
 pflichten zu können, nachdem ihm wahrscheinlich die Kritiken<lb/>
 in Anbetracht der provinzialen Verhältnisse, des schönen Wetters und<lb/>
@@ -256,7 +237,8 @@ dass er mit dem Zahlungs-Hodes der Garantie nicht einverstanden zu<lb/>
 sein erklärte, und als wir ihm unsere eventl. Absicht, ihm den „Einsamen<lb/>
 Weg“ auch ohne sofortige Feilzahlung zu geben durchblicken liessen, so<lb/>
 erklärte er, sich zu einer Garantie-Leistung überhaupt nicht mehr ver-</p>
-        <p><pb facs="1416742_0190"/>20/50<lb/>
+        <p>
+          <pb facs="1416742_0190"/>20/50<lb/>
 pflichten zu können, nachdem ihm wahrscheinlich die Kritiken der<lb/>
 Berliner Première einen der Garantiesumme entsprechenden Erfolg nicht<lb/>
 zu verheissen schienen.<lb/>

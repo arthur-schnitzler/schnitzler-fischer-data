@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -89,17 +90,17 @@ Rückbezug auf: <ref target="10190">1907-09-16 AS an SF</ref> (Honorar 'Weg ins 
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10039">Stilgebauer, Edward</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10192.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Honorar</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10039" source="https://pmb.acdh.oeaw.ac.at/entity/10039/">
-          <persName>Stilgebauer, Edward</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -112,8 +113,9 @@ Rückbezug auf: <ref target="10190">1907-09-16 AS an SF</ref> (Honorar 'Weg ins 
 
 Rückbezug auf: <ref target="10190">1907-09-16 AS an SF</ref> (Honorar 'Weg ins Freie')</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0291"/>VERLAG<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0291"/>VERLAG<lb/>
 S. FISCHER<lb/>
 ¾<lb/>
 8. Okt. 07<lb/>
@@ -143,7 +145,8 @@ Für die Buchausgabe erkläre ich sich bereit, zehn Auflagen vorher zu<lb/>
 honorieren. Der Modus der Auflagengarantie, der jetzt von mancher Seite<lb/>
 versucht wird, hat für den Amter auch eine unangenehne Seite; denn schlägt<lb/>
 das Werk nicht ein, so könnte der Verleger in die Situation kommen, den</p>
-        <p><pb facs="1416742_0292"/>Absatz mit aufdringlichen Reklamen a la Götz Krafft zu forcieren und wenn<lb/>
+        <p>
+          <pb facs="1416742_0292"/>Absatz mit aufdringlichen Reklamen a la Götz Krafft zu forcieren und wenn<lb/>
 auch das nicht hilft, die Bücher zu einem Spottereis zu verschleudern.<lb/>
 Der Verleger Ihrer Werke hat die Pflicht, Ihren Namen durch ein solches<lb/>
 Verfahren nicht zu diskreditieren, ganz abgesehen davon, dass Sie ein sol-<lb/>

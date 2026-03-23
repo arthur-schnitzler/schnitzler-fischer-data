@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,7 +80,8 @@
         <note type="description">1 Blatt, 2 Seiten beschrieben
 
 Antwort auf: <ref target="10523">1914-03-02 AS an SF</ref>
-Beantwortet in: <ref target="10526">1914-03-07 AS an SF</ref></note>
+Beantwortet in: <ref target="10526">1914-03-07 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1914-03-04.html</note>
       </notesStmt>
@@ -96,6 +98,18 @@ Beantwortet in: <ref target="10526">1914-03-07 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2871">Entsch, Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8386">Kyser, Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb36300">Kopenhagen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb1119">Stockholm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb47085">Münchner Kammerspiele</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb37019">Thaliatheater Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10525.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -103,36 +117,6 @@ Beantwortet in: <ref target="10526">1914-03-07 AS an SF</ref></note>
           <term>Rezension</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2871" source="https://pmb.acdh.oeaw.ac.at/entity/2871/">
-          <persName>Entsch, Theodor</persName>
-        </person>
-        <person ref="#pmb8386" source="https://pmb.acdh.oeaw.ac.at/entity/8386/">
-          <persName>Kyser, Hans</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-        <place ref="#pmb36300" source="https://pmb.acdh.oeaw.ac.at/entity/36300/">
-          <placeName>Kopenhagen</placeName>
-        </place>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb1119" source="https://pmb.acdh.oeaw.ac.at/entity/1119/">
-          <placeName>Stockholm</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb47085" source="https://pmb.acdh.oeaw.ac.at/entity/47085/">
-          <orgName>Münchner Kammerspiele</orgName>
-        </org>
-        <org ref="#pmb37019" source="https://pmb.acdh.oeaw.ac.at/entity/37019/">
-          <orgName>Thaliatheater Hamburg</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -144,10 +128,12 @@ Beantwortet in: <ref target="10526">1914-03-07 AS an SF</ref></note>
         <p>1 Blatt, 2 Seiten beschrieben
 
 Antwort auf: <ref target="10523">1914-03-02 AS an SF</ref>
-Beantwortet in: <ref target="10526">1914-03-07 AS an SF</ref></p>
+Beantwortet in: <ref target="10526">1914-03-07 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0658"/>337.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0658"/>337.<lb/>
 S. Fischer. Verlag. Berlin<lb/>
 Amt Lützow 1662 u. 6162 Theaterabteilung postscheckkonto Nr. 16692<lb/>
 Berlin W 57, Bülowstraße Nr. 90<lb/>
@@ -181,7 +167,8 @@ führung in unserm nächsten Prospekt nachholen, ebenso wie die des<lb/>
 hat nicht so günstige Kritiken ergeben, dass es uns angezeigt er-<lb/>
 schien, sie zu veröffentlichen, da wir der Meinung sind, dass aus-<lb/>
 ländische Kritiken nur dann mit Erfolg nachgedruckt werden, wenn sie</p>
-        <p><pb facs="1416742_0659"/>spolrs &amp; rechtl.<lb/>
+        <p>
+          <pb facs="1416742_0659"/>spolrs &amp; rechtl.<lb/>
 .20ddt.aß olnobäschich pnulistdoratnach: PÖlò.m Sööl mogüß imk<lb/>
 00 rt »gprt/mold&amp; pr W nils&amp;<lb/>
 STäM.1<lb/>

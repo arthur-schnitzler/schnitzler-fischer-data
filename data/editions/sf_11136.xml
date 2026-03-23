@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -78,6 +79,16 @@ Antwort auf: 1923-10-23 AS (Wien) an SF (Berlin)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb300494">Barnay, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4374">Maril, Konrad</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb36300">Kopenhagen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb145">Köln</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb883">Wiesbaden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11136.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -90,28 +101,6 @@ Antwort auf: 1923-10-23 AS (Wien) an SF (Berlin)</note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb300494" source="https://pmb.acdh.oeaw.ac.at/entity/300494/">
-          <persName>Barnay, Paul</persName>
-        </person>
-        <person ref="#pmb4374" source="https://pmb.acdh.oeaw.ac.at/entity/4374/">
-          <persName>Maril, Konrad</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb36300" source="https://pmb.acdh.oeaw.ac.at/entity/36300/">
-          <placeName>Kopenhagen</placeName>
-        </place>
-        <place ref="#pmb145" source="https://pmb.acdh.oeaw.ac.at/entity/145/">
-          <placeName>Köln</placeName>
-        </place>
-        <place ref="#pmb883" source="https://pmb.acdh.oeaw.ac.at/entity/883/">
-          <placeName>Wiesbaden</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -123,8 +112,9 @@ Antwort auf: 1923-10-23 AS (Wien) an SF (Berlin)</note>
         <p>1 Blatt, 2 Seiten
 Antwort auf: 1923-10-23 AS (Wien) an SF (Berlin)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0788"/>907<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0788"/>907<lb/>
 S. Fischer/Verlag/Berlin M 57/Bülowstraße 90<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 1662. 6162 und 9222 / Postscheckkonto: Berlin Nr 1669.<lb/>
 THEATERABTEILUNG<lb/>
@@ -151,7 +141,8 @@ sich das dortige Kgl. Theater noch nicht entschliessen konnte, einer<lb/>
 Aufführung der “ Verführnung“ näherzutreten. Wir haben daraufhin<lb/>
 noch einmal ein eingestrichenes Exemplar an die Direktion gesandt<lb/>
 B. 54. 2000. 8. 19.</p>
-        <p><pb facs="1416743_0789"/>G.C.H.P.<lb/>
+        <p>
+          <pb facs="1416743_0789"/>G.C.H.P.<lb/>
 Telsdimisä Tondra.re mieh<lb/>
 IIIVX me t W<lb/>
 Es untenoffen, dass nunmehr ein Abschluss zustandekommen wird,<lb/>

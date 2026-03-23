@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -75,7 +76,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten
-Antwort auf: <ref target="11231">1926-02-27 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11231">1926-02-27 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1926-03-01.html</note>
       </notesStmt>
@@ -92,6 +94,21 @@ Antwort auf: <ref target="11231">1926-02-27 SF (Berlin) an AS (Wien)</ref></note
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb15173">Curtis Brown, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb15449">Dorsch, Käthe</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb18607">Huebsch, Benjamin W.</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8201">Kinz, Franziska</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb9146">Ompteda, Georg von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Rökk-Richter, Stefano (Theateragent und Schriftsteller, Italien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb39640">Kassel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb886">Mailand</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb445">Rom</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="1252345240">Saltenburg-Bühnen Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11232.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -109,45 +126,6 @@ Antwort auf: <ref target="11231">1926-02-27 SF (Berlin) an AS (Wien)</ref></note
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb15173" source="https://pmb.acdh.oeaw.ac.at/entity/15173/">
-          <persName>Curtis Brown, Albert</persName>
-        </person>
-        <person ref="#pmb15449" source="https://pmb.acdh.oeaw.ac.at/entity/15449/">
-          <persName>Dorsch, Käthe</persName>
-        </person>
-        <person ref="#pmb18607" source="https://pmb.acdh.oeaw.ac.at/entity/18607/">
-          <persName>Huebsch, Benjamin W.</persName>
-        </person>
-        <person ref="#pmb8201" source="https://pmb.acdh.oeaw.ac.at/entity/8201/">
-          <persName>Kinz, Franziska</persName>
-        </person>
-        <person ref="#pmb9146" source="https://pmb.acdh.oeaw.ac.at/entity/9146/">
-          <persName>Ompteda, Georg von</persName>
-        </person>
-        <person>
-          <persName>Rökk-Richter, Stefano (Theateragent und Schriftsteller, Italien)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-        <place ref="#pmb39640" source="https://pmb.acdh.oeaw.ac.at/entity/39640/">
-          <placeName>Kassel</placeName>
-        </place>
-        <place ref="#pmb886" source="https://pmb.acdh.oeaw.ac.at/entity/886/">
-          <placeName>Mailand</placeName>
-        </place>
-        <place ref="#pmb445" source="https://pmb.acdh.oeaw.ac.at/entity/445/">
-          <placeName>Rom</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="1252345240" source="https://d-nb.info/gnd/1252345240">
-          <orgName>Saltenburg-Bühnen Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -157,10 +135,12 @@ Antwort auf: <ref target="11231">1926-02-27 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 3 Seiten
-Antwort auf: <ref target="11231">1926-02-27 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11231">1926-02-27 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0078"/>noch nähere Mitteilungen von ihm.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0078"/>noch nähere Mitteilungen von ihm.<lb/>
 Sie schrieben mir neulich, dass ein zu<lb/>
 frühes Ersohei nen einer ungarischenusgabe<lb/>
 den Verkäuf des deutschen Originalbuchs<lb/>
@@ -233,7 +213,8 @@ indiskutabel sind; xxx<lb/>
 ###<lb/>
 xxxin Gegenvorschlag:Herr von O.<lb/>
 P.</p>
-        <p><pb facs="1416740_0079"/>nenne 2 oder 3 meiner stücke, die denen or<lb/>
+        <p>
+          <pb facs="1416740_0079"/>nenne 2 oder 3 meiner stücke, die denen or<lb/>
 in Italien eine gewisse Chance zusprechen<lb/>
 möchte, für die wollen wir ihm eine 1-1½ jäh-<lb/>
 rige Optionsfrist gewähren. Sollte innerhalb<lb/>
@@ -293,7 +274,8 @@ r. Ma ri 1.<lb/>
 s.Fischer,Verlag,<lb/>
 Berlin,<lb/>
 nung mit „ — p.</p>
-        <p><pb facs="1416740_0080"/>7 mai<lb/>
+        <p>
+          <pb facs="1416740_0080"/>7 mai<lb/>
 me.<lb/>
 8.8.1926.<lb/>
 l'schev<lb/>

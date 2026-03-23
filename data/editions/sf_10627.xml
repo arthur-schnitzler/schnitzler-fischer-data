@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -77,7 +78,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten
 Antwort auf: <ref target="10624">1917-10-11 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10631">1917-10-26 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10631">1917-10-26 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1917-10-17.html</note>
       </notesStmt>
@@ -93,6 +95,13 @@ Beantwortet in: <ref target="10631">1917-10-26 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10893">Bernard, Tristan</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10627.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -108,19 +117,6 @@ Beantwortet in: <ref target="10631">1917-10-26 SF (Berlin) an AS (Wien)</ref></n
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10893" source="https://pmb.acdh.oeaw.ac.at/entity/10893/">
-          <persName>Bernard, Tristan</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -131,10 +127,12 @@ Beantwortet in: <ref target="10631">1917-10-26 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>2 Blatt, 3 Seiten
 Antwort auf: <ref target="10624">1917-10-11 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10631">1917-10-26 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10631">1917-10-26 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0039"/>Puis<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0039"/>Puis<lb/>
 mit Helmer - den Geheimrat Zeiss mitteilte, gab<lb/>
 dieser seiner persönlichen Gekränktheit überra-<lb/>
 schend lebhaften Ausdruck in einem Schreiben,<lb/>
@@ -176,7 +174,8 @@ lichkeit läge.<lb/>
 Für Ihre übrigen freundlichen und er¬<lb/>
 freulichen Nachrichten besten Dank.Der buch-<lb/>
 händlerische Erfolg des „Doktor Graesler“ über-</p>
-        <p><pb facs="1416739_0040"/>rascht mich aufs Angenehmste.<lb/>
+        <p>
+          <pb facs="1416739_0040"/>rascht mich aufs Angenehmste.<lb/>
 Première...<lb/>
 Zur xxx von „Fink und liederbusch“<lb/>
 bin ich natürl'ch in Wien.Falls das stück in<lb/>
@@ -218,7 +217,8 @@ Die von Ihnen angekündigten Neuen Bücher<lb/>
 interessieren mich diesmal mehr oder weniger<lb/>
 alle und so würde ich um gelegentliche Zusen¬<lb/>
 dung höflichst ersuchen.</p>
-        <p><pb facs="1416739_0041"/>a<lb/>
+        <p>
+          <pb facs="1416739_0041"/>a<lb/>
 F.T.<lb/>
 22.10.1917.<lb/>
 Klein<lb/>

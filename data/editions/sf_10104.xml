@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10104">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -94,6 +95,17 @@ Antwort auf: 1900-09-15ante AS an SF (Freiexemplare an Heinze; nicht überliefer
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb152033">Fontane, Friedrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116733446">Goette, Rudolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb176307">Heinze, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12671">Schlenther, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb866">Dresden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10104.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -101,31 +113,6 @@ Antwort auf: 1900-09-15ante AS an SF (Freiexemplare an Heinze; nicht überliefer
           <term>Literaturgeschichte</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb152033" source="https://pmb.acdh.oeaw.ac.at/entity/152033/">
-          <persName>Fontane, Friedrich</persName>
-        </person>
-        <person ref="116733446" source="https://d-nb.info/gnd/116733446">
-          <persName>Goette, Rudolf</persName>
-        </person>
-        <person ref="#pmb176307" source="https://pmb.acdh.oeaw.ac.at/entity/176307/">
-          <persName>Heinze, Paul</persName>
-        </person>
-        <person ref="#pmb12671" source="https://pmb.acdh.oeaw.ac.at/entity/12671/">
-          <persName>Schlenther, Paul</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb866" source="https://pmb.acdh.oeaw.ac.at/entity/866/">
-          <placeName>Dresden</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -139,8 +126,9 @@ Anlage: 1900-09-12 Fontane&amp;Co Verlag (Berlin) an SF (Berlin) (T, 1 Blatt, 2 
 
 Antwort auf: 1900-09-15ante AS an SF (Freiexemplare an Heinze; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0127"/>7<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0127"/>7<lb/>
 VERLAG<lb/>
 S. FISCHER,<lb/>
 BERene W., DEN 15/9. 1900.<lb/>

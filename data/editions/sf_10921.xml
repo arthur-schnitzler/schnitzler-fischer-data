@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10921">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -75,6 +76,11 @@ Anlage: Originalbrief an Wilhelm Karczag bezüglich der "Reigen"-Angelegenheit u
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3105">Karczag, Wilhelm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10921.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -82,11 +88,6 @@ Anlage: Originalbrief an Wilhelm Karczag bezüglich der "Reigen"-Angelegenheit u
           <term>Zeitung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb3105" source="https://pmb.acdh.oeaw.ac.at/entity/3105/">
-          <persName>Karczag, Wilhelm</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -98,8 +99,9 @@ Anlage: Originalbrief an Wilhelm Karczag bezüglich der "Reigen"-Angelegenheit u
         <p>1 Blatt, 1 Seite
 Anlage: Originalbrief an Wilhelm Karczag bezüglich der "Reigen"-Angelegenheit und Liste der für Amerika/England freigegebenen Werke Schnitzlers</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0502"/>scher, Verlag, Berlin W, Bülowstr. 90<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0502"/>scher, Verlag, Berlin W, Bülowstr. 90<lb/>
 ern Dr. Arthur Schnitzl<lb/>
 Sehr verehrter Herr Dokto:<lb/>
 ich bitte um freundliche Mit<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -119,6 +120,19 @@ https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416747_0023.html</note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Břečka, Vojtěch (Übersetzer, Prag)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11679">Hesse, Hermann</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="125728379">Nettesheim, Leni (geb. Murdfield)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb166">Frankreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb182">Paris</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43430">Tschechien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11452.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -137,37 +151,6 @@ https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416747_0023.html</note>
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person>
-          <persName>Břečka, Vojtěch (Übersetzer, Prag)</persName>
-        </person>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb11679" source="https://pmb.acdh.oeaw.ac.at/entity/11679/">
-          <persName>Hesse, Hermann</persName>
-        </person>
-        <person ref="125728379" source="https://d-nb.info/gnd/125728379">
-          <persName>Nettesheim, Leni (geb. Murdfield)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
-          <placeName>Frankreich</placeName>
-        </place>
-        <place ref="#pmb182" source="https://pmb.acdh.oeaw.ac.at/entity/182/">
-          <placeName>Paris</placeName>
-        </place>
-        <place ref="#pmb43430" source="https://pmb.acdh.oeaw.ac.at/entity/43430/">
-          <placeName>Tschechien</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -185,8 +168,9 @@ Anlage: Kritik von Frau L. Nettesheim über Therese
 Einen weiteren Durchschlag des gleichen Briefs verwahrte AS auch in der Reigen-Mappe B128: 
 https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416747_0023.html</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0075"/>Reit 1.1928<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0075"/>Reit 1.1928<lb/>
 S. Fischer.<lb/>
 Lieber Freund,<lb/>
 Beigeschlossen die Antwort von Harz,<lb/>
@@ -224,7 +208,8 @@ kündet“, ist ein liebenswürdiger Irrtum, der seine<lb/>
 Entstehung, wie mich dünkt, der jetzt allgemein üb-<lb/>
 lichen, sagen wir sozialpolit: schen Einstellung als<lb/>
 asthetischer Betrachtungsweise verdankt. Aber wie</p>
-        <p><pb facs="1416741_0076"/>es schon einmal bei kritischen Geistern (auch<lb/>
+        <p>
+          <pb facs="1416741_0076"/>es schon einmal bei kritischen Geistern (auch<lb/>
 höherer Art) vorzukommen pflegt,hält sich die allzu<lb/>
 freundliche Rezensenten für die Ueberschätzung die-<lb/>
 ses einen unter meinen Büchern durch gründliche Ver-<lb/>

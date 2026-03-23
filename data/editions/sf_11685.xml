@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -59,7 +60,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten 
 Brief von Nadler an Schnitzler, weitergeleitet durch Fischer (s. 1931-07-06, dort genannt, hier tilgen?)
-Beantwortet in: <ref target="11691">1931-07-13 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="11691">1931-07-13 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Handschrift (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1931-06-28.html</note>
       </notesStmt>
@@ -75,6 +77,13 @@ Beantwortet in: <ref target="11691">1931-07-13 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Nadler, Gisela (Übersetzerin und Journalistin, Lemberg)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb46224">Lemberg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb313">Polen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11685.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -85,19 +94,6 @@ Beantwortet in: <ref target="11691">1931-07-13 AS (Wien) an SF (Berlin)</ref></n
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person>
-          <persName>Nadler, Gisela (Übersetzerin und Journalistin, Lemberg)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb46224" source="https://pmb.acdh.oeaw.ac.at/entity/46224/">
-          <placeName>Lemberg</placeName>
-        </place>
-        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
-          <placeName>Polen</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -108,10 +104,12 @@ Beantwortet in: <ref target="11691">1931-07-13 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>1 Blatt, 2 Seiten 
 Brief von Nadler an Schnitzler, weitergeleitet durch Fischer (s. 1931-07-06, dort genannt, hier tilgen?)
-Beantwortet in: <ref target="11691">1931-07-13 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="11691">1931-07-13 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416744_0145"/>P<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416744_0145"/>P<lb/>
 me<lb/>
 Lauberg, 28.II.1931.<lb/>
 Peter<lb/>
@@ -147,7 +145,8 @@ und Schicksal" zu säglichen, velletristischen Abschnitt der<lb/>
 Ioh komm<lb/>
 av.<lb/>
 Unsere Ausgabe des</p>
-        <p><pb facs="1416744_0146"/>an<lb/>
+        <p>
+          <pb facs="1416744_0146"/>an<lb/>
 Zeitung drücken und würde natürlich ein Honorar<lb/>
 für den Vorabdruck erlegen, wenn die Höhe des geforder¬<lb/>
 ten Betrages für die Redaction annehmbar wäre,<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -90,6 +91,19 @@ Anlage: Abschrift eines Briefes von Brandt &amp; Kirkpatrick an SF vom 1921-04-2
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Giordani, Paolo (Präsident Società italiana del teatro drammatico, Rom)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2242">Levi, Cesare</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb22388">Paukner, Grete</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116324333">Raggio, Enrico</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb24825">Seltzer, Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb445">Rom</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb378">Rumänien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10816.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -98,37 +112,6 @@ Anlage: Abschrift eines Briefes von Brandt &amp; Kirkpatrick an SF vom 1921-04-2
           <term>Urheberrecht/Copyright</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person>
-          <persName>Giordani, Paolo (Präsident Società italiana del teatro drammatico, Rom)</persName>
-        </person>
-        <person ref="#pmb2242" source="https://pmb.acdh.oeaw.ac.at/entity/2242/">
-          <persName>Levi, Cesare</persName>
-        </person>
-        <person ref="#pmb22388" source="https://pmb.acdh.oeaw.ac.at/entity/22388/">
-          <persName>Paukner, Grete</persName>
-        </person>
-        <person ref="116324333" source="https://d-nb.info/gnd/116324333">
-          <persName>Raggio, Enrico</persName>
-        </person>
-        <person ref="#pmb24825" source="https://pmb.acdh.oeaw.ac.at/entity/24825/">
-          <persName>Seltzer, Thomas</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-        <place ref="#pmb445" source="https://pmb.acdh.oeaw.ac.at/entity/445/">
-          <placeName>Rom</placeName>
-        </place>
-        <place ref="#pmb378" source="https://pmb.acdh.oeaw.ac.at/entity/378/">
-          <placeName>Rumänien</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -141,8 +124,9 @@ Anlage: Abschrift eines Briefes von Brandt &amp; Kirkpatrick an SF vom 1921-04-2
 Antwort auf: <ref target="10815">1921-04-25 AS (Wien) an SF (Berlin)</ref>
 Anlage: Abschrift eines Briefes von Brandt &amp; Kirkpatrick an SF vom 1921-04-22</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0359"/>36<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0359"/>36<lb/>
 Fischer/Verlag/Berlin M 57/Bülowstrasse 90.<lb/>
 Deutsche Bank, Depositenkasse P in Berlin / Postscheekkonto: Berlin Nr. 16692<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 1662, 6162 und 9292<lb/>
@@ -171,7 +155,8 @@ erkleckliche Zeit verwendet haben, so haben wir in dieser Bemerkung keine<lb/>
 wegs die Anmeldung eines Anspruches erblickt (die Firma ist vielmehr<lb/>
 auf das Genaueste darüber orientiert, dass unsere Verhandlungen völl<lb/>
 unverbindlicher Art sind). Dass andererseits ein Kaufmann das Bestrebe</p>
-        <p><pb facs="1416743_0360"/>Fischer/Verlag/Berlin M 57/Bülowstraße 91.<lb/>
+        <p>
+          <pb facs="1416743_0360"/>Fischer/Verlag/Berlin M 57/Bülowstraße 91.<lb/>
 nkkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto: Berlin Nr. 16892<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 1662, 6162 und 9292<lb/>
 hat, den Ertrag seiner Bemühungen möglichst nicht entgehen zu lassen,<lb/>
@@ -200,7 +185,8 @@ angelegenheit inzwischen sich in recht günstiger Heise fortentwicke<lb/>
 st. — Die Herren Giordani in Rom, Pocar in Görz (siehe Anlag,<lb/>
 Sutti in Mailand haben auf unsere Anfragen und<lb/>
 klamati</p>
-        <p><pb facs="1416743_0361"/>P. Fischer/Verlag/ Berlin M. 57/Bülowstraße 90<lb/>
+        <p>
+          <pb facs="1416743_0361"/>P. Fischer/Verlag/ Berlin M. 57/Bülowstraße 90<lb/>
 Bankkonto: Deutsche Bank. Depositenkasse P in Berlin / Postscheckkonto; Berlin Nr. 1669.<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 1662, 6162 und 9292<lb/>
 3.<lb/>
@@ -231,7 +217,8 @@ zu der aufgewendeten Mühewaltung stehti ganz abgesehen davon, dass durch<lb/>
 unser notgedrungen schwankendes verhältigen Verstimmungen nach allen Seiter<lb/>
 nicht in Ihrem Interesse<lb/>
 eugt werden. Dies liegt gewiss auch</p>
-        <p><pb facs="1416743_0362"/>fischer/Verlag/Berlin W 57/Bülowstrasse 90.<lb/>
+        <p>
+          <pb facs="1416743_0362"/>fischer/Verlag/Berlin W 57/Bülowstrasse 90.<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto; Berlin Nr. 16692<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 1662. 6162 und 9292<lb/>
 ir begreifen durchaus, dass ein Autor sich nicht gern seiner ausländi-<lb/>

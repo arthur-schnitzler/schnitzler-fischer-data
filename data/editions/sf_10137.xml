@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,6 +77,19 @@ Beantwortet in: 1904-01-21post/1904-01-26ante AS an SF (Drucklegung und Aufführ
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb14344">Bock, Philipp</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10986">Brahm, Otto</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11195">Dumont, Louise</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20466">Lindemann, Gustav</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb161144">Löwe, Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb864">Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb881">Mannheim</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb872">Stuttgart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10137.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -87,37 +101,6 @@ Beantwortet in: 1904-01-21post/1904-01-26ante AS an SF (Drucklegung und Aufführ
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb14344" source="https://pmb.acdh.oeaw.ac.at/entity/14344/">
-          <persName>Bock, Philipp</persName>
-        </person>
-        <person ref="#pmb10986" source="https://pmb.acdh.oeaw.ac.at/entity/10986/">
-          <persName>Brahm, Otto</persName>
-        </person>
-        <person ref="#pmb11195" source="https://pmb.acdh.oeaw.ac.at/entity/11195/">
-          <persName>Dumont, Louise</persName>
-        </person>
-        <person ref="#pmb20466" source="https://pmb.acdh.oeaw.ac.at/entity/20466/">
-          <persName>Lindemann, Gustav</persName>
-        </person>
-        <person ref="#pmb161144" source="https://pmb.acdh.oeaw.ac.at/entity/161144/">
-          <persName>Löwe, Theodor</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb864" source="https://pmb.acdh.oeaw.ac.at/entity/864/">
-          <placeName>Leipzig</placeName>
-        </place>
-        <place ref="#pmb881" source="https://pmb.acdh.oeaw.ac.at/entity/881/">
-          <placeName>Mannheim</placeName>
-        </place>
-        <place ref="#pmb872" source="https://pmb.acdh.oeaw.ac.at/entity/872/">
-          <placeName>Stuttgart</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -131,8 +114,9 @@ Beantwortet in: 1904-01-21post/1904-01-26ante AS an SF (Drucklegung und Aufführ
 Bezug auf: <ref target="10136">1904-01-18 SF/LS an AS</ref>
 Beantwortet in: 1904-01-21post/1904-01-26ante AS an SF (Drucklegung und Aufführung 'Der einsame Weg')</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0179"/>S. FISCHER,VERLAG<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0179"/>S. FISCHER,VERLAG<lb/>
 zweifelhaft, so ist jeden<lb/>
 BERene W., DEN 21/1. 1904<lb/>
 antie gesichert.<lb/>
@@ -200,7 +184,8 @@ Ich meine, dass wir vor der Berliner Aufführung bemüht sein<lb/>
 müssen, relativ gute Garantiesummen zu erzielen. Bringt die Berlin<lb/>
 Aufführung einen Erfolg, so werden die Provinzerfolge sicher nicht<lb/>
 hinter den geleisteten Garantisen zurückbleiben. Ist der Erfolg in</p>
-        <p><pb facs="1416742_0180"/>12/1<lb/>
+        <p>
+          <pb facs="1416742_0180"/>12/1<lb/>
 04<lb/>
 Berlin zweifelhaft, so ist jedenfalls der Vorteil der vorherigen<lb/>
 Garantie gesichert.<lb/>

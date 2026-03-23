@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -71,7 +72,8 @@
 Einbandproben mit gleichzeitiger separater Sendung
 
 Antwort auf: 1908-03-28post/1908-04-09ante AS an SF (Hartleben-Briefe, Einbandgestaltung; nicht überliefert)
-Beantwortet in: <ref target="10215">1908-04-11 AS an SF</ref></note>
+Beantwortet in: <ref target="10215">1908-04-11 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel) (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm) AS)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1908-04-09.html</note>
       </notesStmt>
@@ -87,6 +89,13 @@ Beantwortet in: <ref target="10215">1908-04-11 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11605">Hartleben, Otto Erich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11701">Hirschfeld, Georg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10214.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -94,19 +103,6 @@ Beantwortet in: <ref target="10215">1908-04-11 AS an SF</ref></note>
           <term>Honorar</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11605" source="https://pmb.acdh.oeaw.ac.at/entity/11605/">
-          <persName>Hartleben, Otto Erich</persName>
-        </person>
-        <person ref="#pmb11701" source="https://pmb.acdh.oeaw.ac.at/entity/11701/">
-          <persName>Hirschfeld, Georg</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -119,10 +115,12 @@ Beantwortet in: <ref target="10215">1908-04-11 AS an SF</ref></note>
 Einbandproben mit gleichzeitiger separater Sendung
 
 Antwort auf: 1908-03-28post/1908-04-09ante AS an SF (Hartleben-Briefe, Einbandgestaltung; nicht überliefert)
-Beantwortet in: <ref target="10215">1908-04-11 AS an SF</ref></p>
+Beantwortet in: <ref target="10215">1908-04-11 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0323"/>212<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0323"/>212<lb/>
 167<lb/>
 S. FISCHER, VERLAG,’ BERLIN W., BÜLOWSTR. 90<lb/>
 BERLIN W., DEN 9. April 08<lb/>
@@ -147,7 +145,8 @@ Proben noch etwas, das Ihnen sehr zusagt.<lb/>
 Jur ergeben<lb/>
 Fis<lb/>
 men</p>
-        <p><pb facs="1416742_0324"/>212<lb/>
+        <p>
+          <pb facs="1416742_0324"/>212<lb/>
 Bitte schicken Sie mir alle Proben wieder zurück.<lb/>
 Wir lassen jetzt den Schriftitel zeichnen, Sie<lb/>
 bekommen nächstens die Sinbanddecken zur Einsicht-<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,7 +77,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
 Antwort auf: <ref target="11598">1930-11-06 SF (Berlin) an AS (Wien)</ref>
-Antwort auf: <ref target="11599">1930-11-10 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11599">1930-11-10 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1930-11-26.html</note>
       </notesStmt>
@@ -92,6 +94,15 @@ Antwort auf: <ref target="11599">1930-11-10 SF (Berlin) an AS (Wien)</ref></note
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb14098">Fischer, Brigitte</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4374">Maril, Konrad</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb166">Frankreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb378">Rumänien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11601.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -103,25 +114,6 @@ Antwort auf: <ref target="11599">1930-11-10 SF (Berlin) an AS (Wien)</ref></note
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb14098" source="https://pmb.acdh.oeaw.ac.at/entity/14098/">
-          <persName>Fischer, Brigitte</persName>
-        </person>
-        <person ref="#pmb4374" source="https://pmb.acdh.oeaw.ac.at/entity/4374/">
-          <persName>Maril, Konrad</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
-          <placeName>Frankreich</placeName>
-        </place>
-        <place ref="#pmb378" source="https://pmb.acdh.oeaw.ac.at/entity/378/">
-          <placeName>Rumänien</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -132,10 +124,12 @@ Antwort auf: <ref target="11599">1930-11-10 SF (Berlin) an AS (Wien)</ref></note
       <div type="letter">
         <p>1 Blatt, 2 Seiten
 Antwort auf: <ref target="11598">1930-11-06 SF (Berlin) an AS (Wien)</ref>
-Antwort auf: <ref target="11599">1930-11-10 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11599">1930-11-10 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0141"/>My Lord<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0141"/>My Lord<lb/>
 S. Tischer<lb/>
 26.11.1930.<lb/>
 Per<lb/>
@@ -177,7 +171,8 @@ Roman von der Ausdehnung des "Weg ins Freie" oder<lb/>
 „Therese“ um den Betrag von 100 Mk. überliesse.<lb/>
 Für die kleineren Bücher ("Bertha Garlan“ “Casa-<lb/>
 nous" etc.) könnte man sich ja damit zufrieden</p>
-        <p><pb facs="1416741_0142"/>geben, richtiger wäre es auch für diese mehr,<lb/>
+        <p>
+          <pb facs="1416741_0142"/>geben, richtiger wäre es auch für diese mehr,<lb/>
 für "Therese" oder "Weg ins Freie" aber min-<lb/>
 destens 250-300 Mk. zu verlangen. Vielleicht<lb/>
 kann man bei dieser Gelegenheit auch in Erfah-<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -61,7 +62,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="11099">1924-07-12 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="11099">1924-07-12 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-07-14.html</note>
       </notesStmt>
@@ -77,6 +79,11 @@ Antwort auf: <ref target="11099">1924-07-12 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11515">Greiner, Leo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11100.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -88,11 +95,6 @@ Antwort auf: <ref target="11099">1924-07-12 AS (Wien) an SF (Berlin)</ref></note
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11515" source="https://pmb.acdh.oeaw.ac.at/entity/11515/">
-          <persName>Greiner, Leo</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -102,10 +104,12 @@ Antwort auf: <ref target="11099">1924-07-12 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="11099">1924-07-12 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="11099">1924-07-12 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0756"/>Fischer / Verlag / A.=B<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0756"/>Fischer / Verlag / A.=B<lb/>
 Berlin 8<lb/>
 into: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto: Berlin<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 6162 bis<lb/>
@@ -144,7 +148,8 @@ Hälfte des September zu<lb/>
 Exemplare rechtzeitig<lb/>
 den Bühnen das Buch von<lb/>
 können doch kann</p>
-        <p><pb facs="1416743_0757"/>funden<lb/>
+        <p>
+          <pb facs="1416743_0757"/>funden<lb/>
 Witler in<lb/>
 in the<lb/>
 ir im Interesse der Sicherheit darauf<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -85,7 +86,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
 Antwort auf: <ref target="11616">1931-01-19 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11623">1931-01-28 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11623">1931-01-28 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1931-01-22.html</note>
       </notesStmt>
@@ -102,6 +104,12 @@ Beantwortet in: <ref target="11623">1931-01-28 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Bermann, Gottfried</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11617.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -110,14 +118,6 @@ Beantwortet in: <ref target="11623">1931-01-28 SF (Berlin) an AS (Wien)</ref></n
           <term>Titel/Werktitel</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -128,10 +128,12 @@ Beantwortet in: <ref target="11623">1931-01-28 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>1 Blatt, 2 Seiten
 Antwort auf: <ref target="11616">1931-01-19 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11623">1931-01-28 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11623">1931-01-28 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0152"/>L. Fischer<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0152"/>L. Fischer<lb/>
 22.1.1931.<lb/>
 Lieber Herr Dr. Sermann.<lb/>
 Le mais il y a lui fait<lb/>
@@ -167,7 +169,8 @@ Ihnen, ob die Möglichkeit bestünde, dass eine sehr<lb/>
 tüchtige, höchst gebildeteund sprachenkundige junge<lb/>
 Dame aus guter Familie in Ihrem Verlag einen Platz<lb/>
 finden könnte. Es gibt ja allerlei Zufälle; viel-</p>
-        <p><pb facs="1416741_0153"/>leicht ist irgend eine Vakanz in Ihrem oder einem<lb/>
+        <p>
+          <pb facs="1416741_0153"/>leicht ist irgend eine Vakanz in Ihrem oder einem<lb/>
 Ihnen nahestehenden Verlage in Berlin oder in Mün-<lb/>
 chen in Aussicht, von der Sie unterrichtet sind.<lb/>
 Nahere Heferenzen stehen Ihnen natürlich zur<lb/>

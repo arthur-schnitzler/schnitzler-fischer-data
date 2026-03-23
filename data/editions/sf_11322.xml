@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -72,7 +73,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
-Beantwortet in: <ref target="11326">1927-07-12 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11326">1927-07-12 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1927-07-02.html</note>
       </notesStmt>
@@ -89,6 +91,16 @@ Beantwortet in: <ref target="11326">1927-07-12 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10886">Bergner, Elisabeth</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5217">Pranger, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20787">Reinhard (Löwy), Robert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb866">Dresden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb864">Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb652">Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11322.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -104,28 +116,6 @@ Beantwortet in: <ref target="11326">1927-07-12 SF (Berlin) an AS (Wien)</ref></n
           <term>Vorlesung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10886" source="https://pmb.acdh.oeaw.ac.at/entity/10886/">
-          <persName>Bergner, Elisabeth</persName>
-        </person>
-        <person ref="#pmb5217" source="https://pmb.acdh.oeaw.ac.at/entity/5217/">
-          <persName>Pranger, Paul</persName>
-        </person>
-        <person ref="#pmb20787" source="https://pmb.acdh.oeaw.ac.at/entity/20787/">
-          <persName>Reinhard (Löwy), Robert</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb866" source="https://pmb.acdh.oeaw.ac.at/entity/866/">
-          <placeName>Dresden</placeName>
-        </place>
-        <place ref="#pmb864" source="https://pmb.acdh.oeaw.ac.at/entity/864/">
-          <placeName>Leipzig</placeName>
-        </place>
-        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
-          <placeName>Prag</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -135,10 +125,12 @@ Beantwortet in: <ref target="11326">1927-07-12 SF (Berlin) an AS (Wien)</ref></n
     <body>
       <div type="letter">
         <p>2 Blatt, 2 Seiten
-Beantwortet in: <ref target="11326">1927-07-12 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11326">1927-07-12 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0123"/>17<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0123"/>17<lb/>
 Fried Volle<lb/>
 7/7<lb/>
 l'un<lb/>
@@ -185,7 +177,8 @@ durch kompliziert, dass Elisabeth Bergner<lb/>
 durch eine Abmachung mit mir verpflichtet<lb/>
 war die Tantiemenzahlungspflicht gegenüber<lb/>
 mir in den Verträgen mit den betreffenden</p>
-        <p><pb facs="1416740_0124"/>Direktoren festzulegen, und dass die betref-<lb/>
+        <p>
+          <pb facs="1416740_0124"/>Direktoren festzulegen, und dass die betref-<lb/>
 fonden Paragraphe von ihr ganzuxgä nur<lb/>
 oberflächlich preäzisiert worden sind.<lb/>
 Mit verbindlichen Grüssen<lb/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10723">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -89,6 +90,13 @@ Anlage: 1919-10-30 Gebrüder Paetel (Berlin) an SF (Berlin)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb36247">Burgtheater Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10723.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -106,19 +114,6 @@ Anlage: 1919-10-30 Gebrüder Paetel (Berlin) an SF (Berlin)</note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb36247" source="https://pmb.acdh.oeaw.ac.at/entity/36247/">
-          <orgName>Burgtheater Wien</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -130,8 +125,9 @@ Anlage: 1919-10-30 Gebrüder Paetel (Berlin) an SF (Berlin)</note>
         <p>5 Blatt, 5 Seiten
 Anlage: 1919-10-30 Gebrüder Paetel (Berlin) an SF (Berlin)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0198"/>spol.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0198"/>spol.<lb/>
 S. FISCHER / VerLAG<lb/>
 Bankkonto: Deutsche Bank, Depostenkasse P Berlin / Postscheckkonte: Berlin 1062<lb/>
 BERLIN W57, BÜL à WSTRASSE 90<lb/>
@@ -160,7 +156,8 @@ vor dem Krieg, über das Honorar garnicht zu sprechen brauchten. Aber<lb/>
 während Sie zugeben, dass die Herstellungskosten, Löhne und Vertriebs-<lb/>
 kosten ins Ungemessene gewachsen sind und dass diese Mehrkoste auf<lb/>
 irgend eine Weise hereingebracht werden müssen, wollen sie für sich eine</p>
-        <p><pb facs="1416743_0199"/>S. FISCHER / VerLAG<lb/>
+        <p>
+          <pb facs="1416743_0199"/>S. FISCHER / VerLAG<lb/>
 2. Blatt<lb/>
 einen Damm errichten, an dem alle diese Schwierigkeiten für Sie<lb/>
 spurlos abprallen sollen. Die Sache liegt aber so, dass Sie tat<lb/>
@@ -191,7 +188,8 @@ Buch von dem Grundpreis mit Teuerungszuschlag auszugehen, nicht einge-<lb/>
 gangen und ich habe ihnen das Ihnen vertraglich zustehende Honorar von<lb/>
 25 % bezahlt. Sie haben sich dabei mit vollem Recht auf das Zirkular<lb/>
 berufen, das Sie unterschrieben hatten. Aber inzwischen ist eine so viel</p>
-        <p><pb facs="1416743_0200"/>S. FISCHER / VERLAG<lb/>
+        <p>
+          <pb facs="1416743_0200"/>S. FISCHER / VERLAG<lb/>
 3 Blatt<lb/>
 P.S.<lb/>
 D'H.<lb/>
@@ -225,7 +223,8 @@ einen ordentlichen Gerichtsweg etwas versprechen kann, zumal ein Prozess<lb/>
 in Ungarn ein kostspieliges Vergnügen sein könnte, wenn sich der Beklagte<lb/>
 als zahlungsunfähig erweist. Zunächst habe ich mich darauf beschränkt, die<lb/>
 betreffende Firma wegen des Nachdrucks um Aufklärung zu bitten.</p>
-        <p><pb facs="1416743_0201"/>Ich füge die Honorargutschrift für die neuen Auflagen von "Liebelei" und<lb/>
+        <p>
+          <pb facs="1416743_0201"/>Ich füge die Honorargutschrift für die neuen Auflagen von "Liebelei" und<lb/>
 „Anatol“ bei und bitte Sie über das Honorar von insgesamt M. 3675.- zu<lb/>
 oA ora<lb/>
 P.P.<lb/>
@@ -259,7 +258,8 @@ a-t-il<lb/>
 aufgelegen xxx<lb/>
 eine glückmägenden<lb/>
 genossen xxx eheelbe xxx</p>
-        <p><pb facs="1416743_0202"/>Abschrift<lb/>
+        <p>
+          <pb facs="1416743_0202"/>Abschrift<lb/>
 Berlin W. 35, 30. Oktober 1919.<lb/>
 Gebrüder Paetel<lb/>
 Lützowstr. 7<lb/>

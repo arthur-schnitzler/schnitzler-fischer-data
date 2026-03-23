@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -84,6 +85,12 @@ Anlage: Schreiben einer Rundfunkfirma aus Frankfurt am Main</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10663">Zelnik, Friedrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb146">Frankfurt am Main</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11180.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,16 +98,6 @@ Anlage: Schreiben einer Rundfunkfirma aus Frankfurt am Main</note>
           <term>Rundfunk</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10663" source="https://pmb.acdh.oeaw.ac.at/entity/10663/">
-          <persName>Zelnik, Friedrich</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb146" source="https://pmb.acdh.oeaw.ac.at/entity/146/">
-          <placeName>Frankfurt am Main</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -113,8 +110,9 @@ Anlage: Schreiben einer Rundfunkfirma aus Frankfurt am Main</note>
 Beantwortet in: <ref target="11181">1925-05-04 AS (Wien) an SF (Berlin)</ref>
 Anlage: Schreiben einer Rundfunkfirma aus Frankfurt am Main</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0821"/>57 / Bil<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0821"/>57 / Bil<lb/>
 Der / Verlag / Bl.<lb/>
 „ Amt Lützow Nr. 1662. 6162 und 9292 / Portschackkonto: Berlin Nr“ 1669<lb/>
 THEATERABTEILUNG<lb/>

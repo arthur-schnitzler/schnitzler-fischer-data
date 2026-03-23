@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -89,6 +90,12 @@ Beantwortet in: 1907-10-31post/1907-11-11ante AS an SF (Übersendung 2. Teilms. 
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10198.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -96,14 +103,6 @@ Beantwortet in: 1907-10-31post/1907-11-11ante AS an SF (Übersendung 2. Teilms. 
           <term>Urheberrecht/Copyright</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -117,8 +116,9 @@ Beantwortet in: 1907-10-31post/1907-11-11ante AS an SF (Übersendung 2. Teilms. 
 Antwort auf: <ref target="10197">1907-10-25 AS an SF</ref>
 Beantwortet in: 1907-10-31post/1907-11-11ante AS an SF (Übersendung 2. Teilms. 'Weg ins Freie'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0295"/>156<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0295"/>156<lb/>
 S. FISCHER,VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
 BERene W., DEN 31. Okt. 07<lb/>
 Herrn Dr. Arthur Schaitzler<lb/>
@@ -141,7 +141,8 @@ Amerika und, wie Sie aus dem Circular ersehen,<lb/>
 rechnen die Amerikaner ja auch mit einer Verbrei-<lb/>
 tung ihrer Zeitsochrift in Europa. Etwas Anderes<lb/>
 wäre es mit der New-Yorker Staatsseitung; von die¬</p>
-        <p><pb facs="1416742_0296"/>ser Zeitung haben wir eine Genourrenz für die<lb/>
+        <p>
+          <pb facs="1416742_0296"/>ser Zeitung haben wir eine Genourrenz für die<lb/>
 Rundschau nicht zu befürchten. Wollen Sie, dass<lb/>
 ich an die New-Yorker Staatszeitung schreibe,<lb/>
 so will ich es tun. An Honorar werden Sie dort<lb/>

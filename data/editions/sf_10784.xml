@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -63,7 +64,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">4 Blatt, 4 Seiten
-Antwort auf: <ref target="10779">1920-11-11 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="10779">1920-11-11 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift, eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1920-11-23.html</note>
       </notesStmt>
@@ -79,6 +81,15 @@ Antwort auf: <ref target="10779">1920-11-11 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12170">Mann, Heinrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb864">Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10784.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -99,25 +110,6 @@ Antwort auf: <ref target="10779">1920-11-11 AS (Wien) an SF (Berlin)</ref></note
           <term>Währung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb12170" source="https://pmb.acdh.oeaw.ac.at/entity/12170/">
-          <persName>Mann, Heinrich</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb864" source="https://pmb.acdh.oeaw.ac.at/entity/864/">
-          <placeName>Leipzig</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -127,10 +119,12 @@ Antwort auf: <ref target="10779">1920-11-11 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>4 Blatt, 4 Seiten
-Antwort auf: <ref target="10779">1920-11-11 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="10779">1920-11-11 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0305"/>A<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0305"/>A<lb/>
 47<lb/>
 D. Fischer/Verlag/Berlin M 57/Bülowstrasse 90.<lb/>
 onto: Berlin Nr. 1669.<lb/>
@@ -163,7 +157,8 @@ Geschäfts befriedigen könnte. Ich mache diese Luxusausgabe bisher<lb/>
 hat, bei so hohen Verkaufspreisen in den meisten Fällen zwischen<lb/>
 6 - 10 000 Mark geschwankt. Andere Verleger zahlen für Luxusausgaben<lb/>
 ein ganz minimales Honorar.</p>
-        <p><pb facs="1416743_0306"/>1-10<lb/>
+        <p>
+          <pb facs="1416743_0306"/>1-10<lb/>
 fischer/ Verlag/ Berlin W 57/Bülowstraße qui<lb/>
 kkonto: Deutsche Bank. Depositenkasse P. in Berlin / Poetschsekkonto: Berlin Nr. 16892<lb/>
 nachlüsse: Amt Lützow Nr. 1662, 6162 und 9292<lb/>
@@ -196,7 +191,8 @@ klare Vorstellung von den Dingen gewinnen kann.<lb/>
 Was Ihnen Heinrich Mann schreibt ist richtig, die Schlüsse,<lb/>
 die er daraus zieht, sind falsch. Wir können das Sortiment nicht<lb/>
 entbehren und wenn die verleger sich zusammentäten gemeinschaft-</p>
-        <p><pb facs="1416743_0307"/>1 = 10<lb/>
+        <p>
+          <pb facs="1416743_0307"/>1 = 10<lb/>
 S. Fischer/Verlag/Berlin M 57/Bülowstrasse 9o<lb/>
 Lukkonto: Deutsche Bank. Depositenkasse P in Berlin / Postschsekkonto: Berlin Nr. 16692<lb/>
 Fernsprechenschlüsse: Amt Lütsow Nr. 1662. 6162 und 9292<lb/>
@@ -232,7 +228,8 @@ Sie halten mit Ihrer Erklärung wegen des tantiemenfreien Zu-<lb/>
 - - -. -.<lb/>
 schlages noch immer zurück. Wäre es Ihnen lieber, wenn wir den<lb/>
 Verlagszuschlag in den Ladenpreis einrechnen und Ihnen von dem</p>
-        <p><pb facs="1416743_0308"/>1.70.<lb/>
+        <p>
+          <pb facs="1416743_0308"/>1.70.<lb/>
 S. Fischer/Verlag/Berlin W 57/Bülowstraße 90<lb/>
 Bankkonto: Deutsche Bank. Depositenkasse P in Berlin / Poetschsekkonto: Berlin Nr. 16692<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 1662. 6162 und 9292<lb/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11306">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,6 +77,12 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb842">Karlsbad</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb969">Südtirol</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11306.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -86,14 +93,6 @@
           <term>Zeitung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb842" source="https://pmb.acdh.oeaw.ac.at/entity/842/">
-          <placeName>Karlsbad</placeName>
-        </place>
-        <place ref="#pmb969" source="https://pmb.acdh.oeaw.ac.at/entity/969/">
-          <placeName>Südtirol</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -104,8 +103,9 @@
       <div type="letter">
         <p>2 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0931"/>Gouvernement<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0931"/>Gouvernement<lb/>
 Wit<lb/>
 1806<lb/>
 G.C.F.P.<lb/>
@@ -125,7 +125,8 @@ Ober die Gelegenheit ist günstig<lb/>
 Ihnen alles gute zu wünschen und<lb/>
 dabei dankbier an die vielen Jahre<lb/>
 vertremensvoller Verbundenheit</p>
-        <p><pb facs="1416743_0932"/>F.T.K<lb/>
+        <p>
+          <pb facs="1416743_0932"/>F.T.K<lb/>
 St<lb/>
 1 806<lb/>
 B.<lb/>

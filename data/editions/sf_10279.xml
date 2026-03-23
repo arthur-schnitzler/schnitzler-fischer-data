@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -75,7 +76,8 @@
         <note type="description">1 Blatt, 2 Seiten beschrieben
 
 Antwort auf: 1909-09-09 und <ref target="10278">1909-09-29 AS an SF</ref>
-Beantwortet in: <ref target="10280">1909-10-09 AS an SF</ref></note>
+Beantwortet in: <ref target="10280">1909-10-09 AS an SF</ref>
+        </note>
         <note type="published_in">Buohler 2011, 111 (Auszug)</note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1909-10-01.html</note>
@@ -92,28 +94,20 @@ Beantwortet in: <ref target="10280">1909-10-09 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1327355043">Dalberg, Camilla</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1073450619">Singer, Josef</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10279.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="1327355043" source="https://d-nb.info/gnd/1327355043">
-          <persName>Dalberg, Camilla</persName>
-        </person>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-        <person ref="1073450619" source="https://d-nb.info/gnd/1073450619">
-          <persName>Singer, Josef</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -125,10 +119,12 @@ Beantwortet in: <ref target="10280">1909-10-09 AS an SF</ref></note>
         <p>1 Blatt, 2 Seiten beschrieben
 
 Antwort auf: 1909-09-09 und <ref target="10278">1909-09-29 AS an SF</ref>
-Beantwortet in: <ref target="10280">1909-10-09 AS an SF</ref></p>
+Beantwortet in: <ref target="10280">1909-10-09 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0391"/>212<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0391"/>212<lb/>
 20k<lb/>
 200<lb/>
 S. FISCHER, VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
@@ -152,7 +148,8 @@ tur in Amerika anderweitige Verpflichtungen<lb/>
 eingegangen ist und dass wir demnach Miss Dalberg<lb/>
 eine Prolongation nicht zugestehen können. Ich<lb/>
 glaube es ja nicht, aber es ist jedenfalls vor-</p>
-        <p><pb facs="1416742_0392"/>212<lb/>
+        <p>
+          <pb facs="1416742_0392"/>212<lb/>
 204<lb/>
 sichtiger, es so zu machen.<lb/>
 Den „Medardus“ habe ich noch nicht zu Ende<lb/>

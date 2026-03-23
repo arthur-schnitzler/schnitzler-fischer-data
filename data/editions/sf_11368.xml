@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,7 +80,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
 Antwort auf: <ref target="11367">1928-01-22 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11369">1928-02-02 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="11369">1928-02-02 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift, eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1928-01-30.html</note>
       </notesStmt>
@@ -95,6 +97,14 @@ Beantwortet in: <ref target="11369">1928-02-02 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4374">Maril, Konrad</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44374">St. Moritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11368.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -110,22 +120,6 @@ Beantwortet in: <ref target="11369">1928-02-02 AS (Wien) an SF (Berlin)</ref></n
           <term>Verkaufspreis/Ladenpreis</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb4374" source="https://pmb.acdh.oeaw.ac.at/entity/4374/">
-          <persName>Maril, Konrad</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb44374" source="https://pmb.acdh.oeaw.ac.at/entity/44374/">
-          <placeName>St. Moritz</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -136,10 +130,12 @@ Beantwortet in: <ref target="11369">1928-02-02 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>2 Blatt, 2 Seiten
 Antwort auf: <ref target="11367">1928-01-22 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11369">1928-02-02 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="11369">1928-02-02 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0987"/>Bank, Depoettonkasse P in Berlin / Postschockkonto: be=<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0987"/>Bank, Depoettonkasse P in Berlin / Postschockkonto: be=<lb/>
 rneprechanschlüsse: Amt Lützow Nr. 6162 bis<lb/>
 Bülowstraße so<lb/>
 Adresse: Fischerverlag 6162 Berlinlützow<lb/>
@@ -181,7 +177,8 @@ sollen er<lb/>
 ssen; die drei<lb/>
 noch<lb/>
 keine</p>
-        <p><pb facs="1416743_0988"/>admisso 7 xxx ai 4 sezndnatt###ys(1 Jn.<lb/>
+        <p>
+          <pb facs="1416743_0988"/>admisso 7 xxx ai 4 sezndnatt###ys(1 Jn.<lb/>
 xxx xxx und xxx<lb/>
 ###<lb/>
 straße: sess ab Asmmer.<lb/>

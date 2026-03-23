@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10675">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -83,6 +84,15 @@ Antwort auf: 1918-XX-XX SF (Berlin) an AS (Wien) (erschlossen)</note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb6960">Eipper, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12504">Reinhardt, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12556">Rosenbaum, Richard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10675.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -98,25 +108,6 @@ Antwort auf: 1918-XX-XX SF (Berlin) an AS (Wien) (erschlossen)</note>
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb6960" source="https://pmb.acdh.oeaw.ac.at/entity/6960/">
-          <persName>Eipper, Paul</persName>
-        </person>
-        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
-          <persName>Reinhardt, Max</persName>
-        </person>
-        <person ref="#pmb12556" source="https://pmb.acdh.oeaw.ac.at/entity/12556/">
-          <persName>Rosenbaum, Richard</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -128,8 +119,9 @@ Antwort auf: 1918-XX-XX SF (Berlin) an AS (Wien) (erschlossen)</note>
         <p>2 Blatt, 3 Seiten
 Antwort auf: 1918-XX-XX SF (Berlin) an AS (Wien) (erschlossen)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0071"/>vermerkte Aenderung vorzunehmen. Der Titel lau-<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0071"/>vermerkte Aenderung vorzunehmen. Der Titel lau-<lb/>
 tet also:<lb/>
 Die Schwestern<lb/>
 oder<lb/>
@@ -163,7 +155,8 @@ Angelegenheit) waren im ganzen noch 27 Exemplare<lb/>
 des „Geronimo“ à 5 K. zur Verrechnung bei uns<lb/>
 in Wien verblieben. Wir haben zwar noch nicht<lb/>
 alle verkauft. Ich bitte Sie aber nun diese</p>
-        <p><pb facs="1416739_0072"/>ganzen 27 Exemplare zu dem eingedruckten Preise<lb/>
+        <p>
+          <pb facs="1416739_0072"/>ganzen 27 Exemplare zu dem eingedruckten Preise<lb/>
 von 5 K. als verkauft auszuweisen,in der übli-<lb/>
 ohen Weise zu verrechnen und mein Konto mit<lb/>
 diesen 135 K. zu belasten. Ueberzahlungen aus<lb/>
@@ -195,7 +188,8 @@ Ripper, don ich bestens zu grüssen bitte. war mir<lb/>
 höchst wertvoll und angenehm.<lb/>
 Herzlichst<lb/>
 Ihr</p>
-        <p><pb facs="1416739_0073"/>9.12.1918.<lb/>
+        <p>
+          <pb facs="1416739_0073"/>9.12.1918.<lb/>
 Fischer<lb/>
 Lieber Freund.<lb/>
 Ich bitte Sie von dem Honorar für<lb/>

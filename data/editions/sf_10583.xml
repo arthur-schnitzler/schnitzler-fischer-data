@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -58,7 +59,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Beantwortet in: <ref target="10584">1915-11-08 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="10584">1915-11-08 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1915-11-04.html</note>
       </notesStmt>
@@ -74,6 +76,12 @@ Beantwortet in: <ref target="10584">1915-11-08 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb687">Österreich-Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10583.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -82,14 +90,6 @@ Beantwortet in: <ref target="10584">1915-11-08 AS (Wien) an SF (Berlin)</ref></n
           <term>Spende</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb687" source="https://pmb.acdh.oeaw.ac.at/entity/687/">
-          <placeName>Österreich-Ungarn</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -99,10 +99,12 @@ Beantwortet in: <ref target="10584">1915-11-08 AS (Wien) an SF (Berlin)</ref></n
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Beantwortet in: <ref target="10584">1915-11-08 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="10584">1915-11-08 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0035"/>liche<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0035"/>liche<lb/>
 S. Fischer Verlag, Berlin M., Bülowstrasse 9o<lb/>
 4. Nov. 1915<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>

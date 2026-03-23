@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -83,22 +84,18 @@ Bezug auf: <ref target="10481">1913-01-03 AS an SF</ref>; möglicherweise ist di
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb21445">Mijnssen, François Henri Jacques</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10485.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb21445" source="https://pmb.acdh.oeaw.ac.at/entity/21445/">
-          <persName>Mijnssen, François Henri Jacques</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -111,8 +108,9 @@ Bezug auf: <ref target="10481">1913-01-03 AS an SF</ref>; möglicherweise ist di
 
 Bezug auf: <ref target="10481">1913-01-03 AS an SF</ref>; möglicherweise ist dieser Brief auf 1913-02-03 zu setzen und wäre dann Teilantwort auf vorliegenden Brief (Anfrage Mynssen)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0610"/>310<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0610"/>310<lb/>
 HER/VERLAG/BERLIN·THEATERABTEILUNG<lb/>
 S.F1s<lb/>
 W 57·BÜLÖWSTR.90<lb/>

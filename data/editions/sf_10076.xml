@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10076">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -88,6 +89,13 @@ Antwort auf: 1898-01-25 AS an SF (Telegramm bzgl. 'Freiwild'; nicht überliefert
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11643">Heine, Thomas Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10076.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,19 +108,6 @@ Antwort auf: 1898-01-25 AS an SF (Telegramm bzgl. 'Freiwild'; nicht überliefert
           <term>Zeichnung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11643" source="https://pmb.acdh.oeaw.ac.at/entity/11643/">
-          <persName>Heine, Thomas Theodor</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -125,8 +120,9 @@ Antwort auf: 1898-01-25 AS an SF (Telegramm bzgl. 'Freiwild'; nicht überliefert
 
 Antwort auf: 1898-01-25 AS an SF (Telegramm bzgl. 'Freiwild'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0085"/>52<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0085"/>52<lb/>
 S. FISCHER, VERLAG<lb/>
 *<lb/>
 BERene W., den 25. Januar 189.8.<lb/>
@@ -155,7 +151,8 @@ des „Anatol“ um mindestens 14 Tage verzögert, denn die Reproduktion<lb/>
 und der Druck müssen sehr sorgfältig behandelt werden. Ich werde also<lb/>
 für jetzt nur „Freiwild“ und „Sterben“ zur Versendung bringen und,<lb/>
 wenn Ihnen der Umschlag zum „Anatol“ gefällt, kann in 14 Tagen die</p>
-        <p><pb facs="1416742_0086"/>Mr. A.G.<lb/>
+        <p>
+          <pb facs="1416742_0086"/>Mr. A.G.<lb/>
 neue Ausgabe von „Anatol” folgen.<lb/>
 Mit besten Grüssen<lb/>
 Ihr ergebener<lb/>

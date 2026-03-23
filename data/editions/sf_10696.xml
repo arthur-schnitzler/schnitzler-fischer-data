@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -86,6 +87,17 @@ Verweis auf Postkarte 1908-09-19 Neumann, Angelo (Prag) an Eirich, Oscar Friedri
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2874">Eirich, Oskar Friedrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11981">Kramer, Leopold</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12341">Neumann, Angelo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12932">Teweles, Heinrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb652">Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="1231430-4">Königliches Deutsches Landestheater Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10696.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -95,33 +107,6 @@ Verweis auf Postkarte 1908-09-19 Neumann, Angelo (Prag) an Eirich, Oscar Friedri
           <term>Vertreter/Vertretung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2874" source="https://pmb.acdh.oeaw.ac.at/entity/2874/">
-          <persName>Eirich, Oskar Friedrich</persName>
-        </person>
-        <person ref="#pmb11981" source="https://pmb.acdh.oeaw.ac.at/entity/11981/">
-          <persName>Kramer, Leopold</persName>
-        </person>
-        <person ref="#pmb12341" source="https://pmb.acdh.oeaw.ac.at/entity/12341/">
-          <persName>Neumann, Angelo</persName>
-        </person>
-        <person ref="#pmb12932" source="https://pmb.acdh.oeaw.ac.at/entity/12932/">
-          <persName>Teweles, Heinrich</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
-          <placeName>Prag</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="1231430-4" source="https://d-nb.info/gnd/1231430-4">
-          <orgName>Königliches Deutsches Landestheater Prag</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -135,8 +120,9 @@ Anlage: Abschrift 1919-03-10 Eirich, Oscar Friedrich (Wien) an SF (Berlin)
 Antwort auf: <ref target="10693">1919-02-17 AS (Wien) an SF (Berlin)</ref>
 Verweis auf Postkarte 1908-09-19 Neumann, Angelo (Prag) an Eirich, Oscar Friedrich (Wien) (erschlossen)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0165"/>425<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0165"/>425<lb/>
 124<lb/>
 S. Fischer Verlag Berlin<lb/>
 Amt Lützow 1662 u. 6162 Theaterabteilung postscheckkonto Nr. 16692<lb/>
@@ -158,7 +144,8 @@ FISCHER.VERLAG<lb/>
 HEATE ABT<lb/>
 Ayre<lb/>
 1 Anlage!</p>
-        <p><pb facs="1416743_0166"/>"<lb/>
+        <p>
+          <pb facs="1416743_0166"/>"<lb/>
 Abschrift<lb/>
 Wien d. 10. Maii 19<lb/>
 mit Rücksicht darauf, dass Prag<lb/>
@@ -197,7 +184,8 @@ stitut, die Tantiemen vorschreibt, nicht erhärtlich.<lb/>
 Ob Sie mit Rücksicht auf dieses Landesstatut, wel-<lb/>
 ches meines Wissens noch immer aufrecht besteht, höhere Tantiemen-<lb/>
 sätze verlangen können, entzieht sich meiner Kenntnis.</p>
-        <p><pb facs="1416743_0167"/>t 25<lb/>
+        <p>
+          <pb facs="1416743_0167"/>t 25<lb/>
 S. FISCHER / VerLAG<lb/>
 D Berlin &amp; Rastichakanten Rantin 1620<lb/>
 in/<lb/>

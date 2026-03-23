@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,7 +71,8 @@
         <note type="description">1 Blatt, 2 Seiten beschrieben
 Anlage: 1910-09-16 Julius Herzka (Brünn) an SF (Abschrift)
 
-Beantwortet in: <ref target="10339">1910-10-08 AS an SF</ref> und <ref target="10340">1910-10-22 AS an SF/CS</ref></note>
+Beantwortet in: <ref target="10339">1910-10-08 AS an SF</ref> und <ref target="10340">1910-10-22 AS an SF/CS</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1910-09-20.html</note>
       </notesStmt>
@@ -87,6 +89,21 @@ Beantwortet in: <ref target="10339">1910-10-08 AS an SF</ref> und <ref target="1
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11670">Herzka, Julius</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb121176">Nazimova, Alla</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="119040093">Shubert, Lee (Zuordnung unsicher; evtl. einer seiner jüngeren Brüder)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb833">Brünn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44165">New Haven</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb37078">Deutsches Theater Brünn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10336.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -98,45 +115,6 @@ Beantwortet in: <ref target="10339">1910-10-08 AS an SF</ref> und <ref target="1
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11670" source="https://pmb.acdh.oeaw.ac.at/entity/11670/">
-          <persName>Herzka, Julius</persName>
-        </person>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-        <person ref="#pmb121176" source="https://pmb.acdh.oeaw.ac.at/entity/121176/">
-          <persName>Nazimova, Alla</persName>
-        </person>
-        <person ref="119040093" source="https://d-nb.info/gnd/119040093">
-          <persName>Shubert, Lee (Zuordnung unsicher; evtl. einer seiner jüngeren Brüder)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb833" source="https://pmb.acdh.oeaw.ac.at/entity/833/">
-          <placeName>Brünn</placeName>
-        </place>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-        <place ref="#pmb44165" source="https://pmb.acdh.oeaw.ac.at/entity/44165/">
-          <placeName>New Haven</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb37078" source="https://pmb.acdh.oeaw.ac.at/entity/37078/">
-          <orgName>Deutsches Theater Brünn</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -148,10 +126,12 @@ Beantwortet in: <ref target="10339">1910-10-08 AS an SF</ref> und <ref target="1
         <p>1 Blatt, 2 Seiten beschrieben
 Anlage: 1910-09-16 Julius Herzka (Brünn) an SF (Abschrift)
 
-Beantwortet in: <ref target="10339">1910-10-08 AS an SF</ref> und <ref target="10340">1910-10-22 AS an SF/CS</ref></p>
+Beantwortet in: <ref target="10339">1910-10-08 AS an SF</ref> und <ref target="10340">1910-10-22 AS an SF/CS</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0445"/>S. FISCHER,VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0445"/>S. FISCHER,VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
 THEATERABTEILUNG<lb/>
 BERene W., DEN  20/9. 1910.<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -171,7 +151,8 @@ bei die Abschrift eines Briefes des Brünner<lb/>
 Stadttheaters zur gefl. Kenntnisnahme und<lb/>
 Rückäusserung zu überreichen. Wir verhalten<lb/>
 uns zwar zunächst ablehnend, bitten aber je-</p>
-        <p><pb facs="1416742_0446"/>denfalls um gefl. Nachricht, ob wir eventl.<lb/>
+        <p>
+          <pb facs="1416742_0446"/>denfalls um gefl. Nachricht, ob wir eventl.<lb/>
 von einer Garantie absehen können, da unseres<lb/>
 Wissens dieses Theater eine solche tatsächlich<lb/>
 nicht zu zahlen pflegt. Vor allem bitten wir<lb/>

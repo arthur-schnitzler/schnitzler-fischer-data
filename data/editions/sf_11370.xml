@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -90,6 +91,15 @@ Beilage: Abschrift einer Verlagsanfrage an SF</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb883">Wiesbaden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11370.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -104,25 +114,6 @@ Beilage: Abschrift einer Verlagsanfrage an SF</note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb883" source="https://pmb.acdh.oeaw.ac.at/entity/883/">
-          <placeName>Wiesbaden</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -135,8 +126,9 @@ Beilage: Abschrift einer Verlagsanfrage an SF</note>
 Antwort auf: <ref target="11364">1927-12-23 AS (Wien) an SF (Berlin)</ref>
 Beilage: Abschrift einer Verlagsanfrage an SF</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0989"/>Berlin M.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0989"/>Berlin M.<lb/>
 Fischer / Verlag<lb/>
 nkkonto: Deutsche Bank, Depositenkasse P in Berlin/Postscheckkonto: Berlin Nr.<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 6162 bis 616.<lb/>
@@ -176,7 +168,8 @@ wird, dass aber der Verein des Re-<lb/>
 Ablauf dieser Zeit keine Vorräte<lb/>
 Minimal-Auflagenzahl nicht ern<lb/>
 sterreich und Deutschland</p>
-        <p><pb facs="1416743_0990"/>1 f; xr3 xxx r, xxx<lb/>
+        <p>
+          <pb facs="1416743_0990"/>1 f; xr3 xxx r, xxx<lb/>
 worin I. m. A. nachlässend.<lb/>
 Gouvernement<lb/>
 erste<lb/>

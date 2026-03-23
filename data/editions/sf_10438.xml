@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -78,7 +79,8 @@
         <note type="description">1 Blatt, 2 Seiten beschrieben
 Anlage: 1912-05-06 ante Albert Bonnier an AS (nicht überliefert) 
 
-Antwort auf: <ref target="10436">1912-05-06 AS an SF</ref></note>
+Antwort auf: <ref target="10436">1912-05-06 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1912-05-09.html</note>
       </notesStmt>
@@ -94,6 +96,14 @@ Antwort auf: <ref target="10436">1912-05-06 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116242094">Bonnier, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2780">Marguerite de Navarre</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="62532-2">Neue Freie Volksbühne Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10438.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -103,22 +113,6 @@ Antwort auf: <ref target="10436">1912-05-06 AS an SF</ref></note>
           <term>Novelle</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="116242094" source="https://d-nb.info/gnd/116242094">
-          <persName>Bonnier, Albert</persName>
-        </person>
-        <person ref="#pmb2780" source="https://pmb.acdh.oeaw.ac.at/entity/2780/">
-          <persName>Marguerite de Navarre</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="62532-2" source="https://d-nb.info/gnd/62532-2">
-          <orgName>Neue Freie Volksbühne Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -130,10 +124,12 @@ Antwort auf: <ref target="10436">1912-05-06 AS an SF</ref></note>
         <p>1 Blatt, 2 Seiten beschrieben
 Anlage: 1912-05-06 ante Albert Bonnier an AS (nicht überliefert) 
 
-Antwort auf: <ref target="10436">1912-05-06 AS an SF</ref></p>
+Antwort auf: <ref target="10436">1912-05-06 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0551"/>279<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0551"/>279<lb/>
 S. Fischer Verlag, Berlin W., Bülowstrasse 90<lb/>
 9/5. 1912<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -162,7 +158,8 @@ gleichzeitig auf Ihr Conto bei der X. X. priv. Allg. Oesterr.<lb/>
 Bodencreditanstalt in Wien.<lb/>
 Erlauben Sie mir, Ihnen schon heute für den 15. ein Werk<lb/>
 zu dedizieren, das ich auf meiner Reise aufgegabelt habe, in</p>
-        <p><pb facs="1416742_0552"/>der Meinung, es könnte Ihnen Spass machen. Es handelt sich um<lb/>
+        <p>
+          <pb facs="1416742_0552"/>der Meinung, es könnte Ihnen Spass machen. Es handelt sich um<lb/>
 die französische Originalausgabe der "Erzählungen der Königin<lb/>
 von Navarra" aus dem Jahre 1792, mit zahlreichen Stichen, die<lb/>
 bei Bücherfreunden gesucht ist. Die Sendung geht gleichzeitig<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -74,6 +75,13 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11515">Greiner, Leo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10936.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -85,19 +93,6 @@
           <term>Währung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11515" source="https://pmb.acdh.oeaw.ac.at/entity/11515/">
-          <persName>Greiner, Leo</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -108,8 +103,9 @@
       <div type="letter">
         <p>2 Blatt, 3 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0536"/>scher / Verlag / Berlin M 57/Bülowstraß.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0536"/>scher / Verlag / Berlin M 57/Bülowstraß.<lb/>
 konto: Deutsche Bank. Depositenkasse P in Berlin / Portscheckkonto; Berlin Nr. 16692<lb/>
 ###se: Amt Lützow Nr. 1662, 6162 und 9<lb/>
 14. Sept. 1922<lb/>
@@ -159,7 +155,8 @@ dass wir alles von Ihnen gedruckt haben und dass<lb/>
 schaffen<lb/>
 zu<lb/>
 denn heute wäre das garnicht mehr</p>
-        <p><pb facs="1416743_0537"/>Nr. M.r..s.d..<lb/>
+        <p>
+          <pb facs="1416743_0537"/>Nr. M.r..s.d..<lb/>
 décidées dans les<lb/>
 Es ist schon in Friedenszeiten nicht möglich gewesen, dass das Sortiment<lb/>
 alle Bücher eines Autors auf Lager hält und das wird in Zukunft noch weniger<lb/>
@@ -193,7 +190,8 @@ könnte<lb/>
 Nachsamkeit und Vorsicht von Lieferan-<lb/>
 den wenigen Verlegern, die bei xxx<lb/>
 ten möglichst viel hereinbekommen, um mögliche alles liefern zu können.</p>
-        <p><pb facs="1416743_0538"/>blatt<lb/>
+        <p>
+          <pb facs="1416743_0538"/>blatt<lb/>
 Schnitzler, Wien 14/9. 22<lb/>
 Sie erfreulicherweise bald nach Berlin kommen, wollen wir<lb/>
 über die Tantiemenfrage persönlich unterhalten.<lb/>

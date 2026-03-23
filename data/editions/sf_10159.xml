@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -93,6 +94,14 @@ Antwort AS anzunehmen, aber aus der Folgekorrespondnez nicht sicher zu erschlie�
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2871">Entsch, Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20466">Lindemann, Gustav</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb863">Düsseldorf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb335131">Schauspielhaus Düsseldorf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10159.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -102,24 +111,6 @@ Antwort AS anzunehmen, aber aus der Folgekorrespondnez nicht sicher zu erschlie�
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2871" source="https://pmb.acdh.oeaw.ac.at/entity/2871/">
-          <persName>Entsch, Theodor</persName>
-        </person>
-        <person ref="#pmb20466" source="https://pmb.acdh.oeaw.ac.at/entity/20466/">
-          <persName>Lindemann, Gustav</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb863" source="https://pmb.acdh.oeaw.ac.at/entity/863/">
-          <placeName>Düsseldorf</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb335131" source="https://pmb.acdh.oeaw.ac.at/entity/335131/">
-          <orgName>Schauspielhaus Düsseldorf</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -132,8 +123,9 @@ Antwort AS anzunehmen, aber aus der Folgekorrespondnez nicht sicher zu erschlie�
 
 Antwort AS anzunehmen, aber aus der Folgekorrespondnez nicht sicher zu erschließen</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0230"/>131<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0230"/>131<lb/>
 S. FISCHER,VERLAG, BERLIN W., BÜLowSTR. 91<lb/>
 THEATERABTEILUNG<lb/>
 BERene W., DEN... 28. Oktober 05<lb/>
@@ -157,7 +149,8 @@ Es ist wohl ratsam, ihm in dieser Weise ent-<lb/>
 gegenzukommen, falls Sie damit einverstanden sind,<lb/>
 bitte ich um Nachricht. Praktisch würde sich die<lb/>
 Sache dann so stellen, dass Entsch den Vertrag ab-</p>
-        <p><pb facs="1416742_0231"/>zuschliessen hätte, unter Uebernahme der für<lb/>
+        <p>
+          <pb facs="1416742_0231"/>zuschliessen hätte, unter Uebernahme der für<lb/>
 „Zwischenspiel“ geleisteten Garantie.<lb/>
 ouvrage<lb/>
 Dit besten Grüssen<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -73,7 +74,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten,
 Antwort auf: <ref target="11347">1927-10-24 SF (Berlin) an AS (Wien)</ref>, <ref target="11351">1927-11-05 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11358">1927-11-19 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11358">1927-11-19 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1927-11-07.html</note>
       </notesStmt>
@@ -89,6 +91,12 @@ Beantwortet in: <ref target="11358">1927-11-19 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4455">Zsolnay, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11352.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -104,16 +112,6 @@ Beantwortet in: <ref target="11358">1927-11-19 SF (Berlin) an AS (Wien)</ref></n
           <term>Zeitung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4455" source="https://pmb.acdh.oeaw.ac.at/entity/4455/">
-          <persName>Zsolnay, Paul</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -124,10 +122,12 @@ Beantwortet in: <ref target="11358">1927-11-19 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>2 Blatt, 2 Seiten,
 Antwort auf: <ref target="11347">1927-10-24 SF (Berlin) an AS (Wien)</ref>, <ref target="11351">1927-11-05 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11358">1927-11-19 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11358">1927-11-19 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0135"/>G.C.F.P.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0135"/>G.C.F.P.<lb/>
 Im vorigen Jahr korrespondierten wir<lb/>
 einmal im Zusammenhang mit dem Weihergang<lb/>
 über Saltenburg. Von dieser Seite haben sie<lb/>
@@ -181,7 +181,8 @@ der Roman für die „Illustrierte“ signet; es<lb/>
 liegen mir auch sehr gute Anträge von anderen<lb/>
 Zeitungsverlagen vor. Wie viel Exemplare von<lb/>
 dem Novellenergänzungsband Sie honorieren</p>
-        <p><pb facs="1416740_0136"/>wollen,darf ich wohl ihnen überlassen.<lb/>
+        <p>
+          <pb facs="1416740_0136"/>wollen,darf ich wohl ihnen überlassen.<lb/>
 Einen Brief über theatralische Angele¬<lb/>
 ich bei; im übrigen hoffe ich<lb/>
 Ende dieses oder Anfang nächsten Monats für<lb/>

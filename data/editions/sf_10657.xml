@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -53,7 +54,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">Telegramm: 1 Blatt, 1 Seite
-Evtl. Antwort auf: <ref target="10655">1918-04-23 SF (Loschwitz) an AS (Wien)</ref> und/oder <ref target="10658">1918-04-24 SF (Loschwitz) an AS (Wien)</ref></note>
+Evtl. Antwort auf: <ref target="10655">1918-04-23 SF (Loschwitz) an AS (Wien)</ref> und/oder <ref target="10658">1918-04-24 SF (Loschwitz) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1918-04-23.html</note>
       </notesStmt>
@@ -69,6 +71,11 @@ Evtl. Antwort auf: <ref target="10655">1918-04-23 SF (Loschwitz) an AS (Wien)</r
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb143578">Loschwitz</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb143578">Loschwitz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10657.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -77,11 +84,6 @@ Evtl. Antwort auf: <ref target="10655">1918-04-23 SF (Loschwitz) an AS (Wien)</r
           <term>Papiernot</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb143578" source="https://pmb.acdh.oeaw.ac.at/entity/143578/">
-          <placeName>Loschwitz</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -91,10 +93,12 @@ Evtl. Antwort auf: <ref target="10655">1918-04-23 SF (Loschwitz) an AS (Wien)</r
     <body>
       <div type="letter">
         <p>Telegramm: 1 Blatt, 1 Seite
-Evtl. Antwort auf: <ref target="10655">1918-04-23 SF (Loschwitz) an AS (Wien)</ref> und/oder <ref target="10658">1918-04-24 SF (Loschwitz) an AS (Wien)</ref></p>
+Evtl. Antwort auf: <ref target="10655">1918-04-23 SF (Loschwitz) an AS (Wien)</ref> und/oder <ref target="10658">1918-04-24 SF (Loschwitz) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0076"/>le dernier<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0076"/>le dernier<lb/>
 autre ami<lb/>
 &amp;c<lb/>
 II.<lb/>

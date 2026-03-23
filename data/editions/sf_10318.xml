@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,7 +71,8 @@
         <note type="description">1 Blatt, 1 Seite beschrieben
 Handschriftlicher Zusatz auf Abschrift eines Schreibens von Alice Kauser 1910-04-29 (New York) an SF; dessen Schreiben setzt den Eingang von 'Das weite Land' voraus, daher die Datierung auf 1910-05-04post
 
-Antwort auf: <ref target="10317">1910-05-04 AS an SF</ref></note>
+Antwort auf: <ref target="10317">1910-05-04 AS an SF</ref>
+        </note>
         <note type="type">Handschrift (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1910-05-04.html</note>
       </notesStmt>
@@ -86,23 +88,19 @@ Antwort auf: <ref target="10317">1910-05-04 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="137161425">Fiske, Minnie Maddern</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb178957">Roosevelt, Franklin Delano</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10318.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Aufführung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="137161425" source="https://d-nb.info/gnd/137161425">
-          <persName>Fiske, Minnie Maddern</persName>
-        </person>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-        <person ref="#pmb178957" source="https://pmb.acdh.oeaw.ac.at/entity/178957/">
-          <persName>Roosevelt, Franklin Delano</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -114,10 +112,12 @@ Antwort auf: <ref target="10317">1910-05-04 AS an SF</ref></note>
         <p>1 Blatt, 1 Seite beschrieben
 Handschriftlicher Zusatz auf Abschrift eines Schreibens von Alice Kauser 1910-04-29 (New York) an SF; dessen Schreiben setzt den Eingang von 'Das weite Land' voraus, daher die Datierung auf 1910-05-04post
 
-Antwort auf: <ref target="10317">1910-05-04 AS an SF</ref></p>
+Antwort auf: <ref target="10317">1910-05-04 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0421"/>New York, 29. April 10<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0421"/>New York, 29. April 10<lb/>
 Herrn S. Fischer, Verlag, Berlin<lb/>
 Sehr geehrte Herren,<lb/>
 ich bedauere Ihnen mitteilen zu müssen, dass der „Grüne<lb/>

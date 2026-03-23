@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -64,7 +65,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">3 Blatt, 4 Seiten
-Beantwortet in: <ref target="10685">1919-01-15 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="10685">1919-01-15 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="published_in">Rodewald, 121-122 [Nr. 160]</note>
         <note type="type">Handschrift (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1918-12-25.html</note>
@@ -81,6 +83,15 @@ Beantwortet in: <ref target="10685">1919-01-15 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12170">Mann, Heinrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12176">Mann, Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2566">Wilhelm II. von Preußen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb129">Grunewald</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10682.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -93,25 +104,6 @@ Beantwortet in: <ref target="10685">1919-01-15 AS (Wien) an SF (Berlin)</ref></n
           <term>Versand</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb12170" source="https://pmb.acdh.oeaw.ac.at/entity/12170/">
-          <persName>Mann, Heinrich</persName>
-        </person>
-        <person ref="#pmb12176" source="https://pmb.acdh.oeaw.ac.at/entity/12176/">
-          <persName>Mann, Thomas</persName>
-        </person>
-        <person ref="#pmb2566" source="https://pmb.acdh.oeaw.ac.at/entity/2566/">
-          <persName>Wilhelm II. von Preußen</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb129" source="https://pmb.acdh.oeaw.ac.at/entity/129/">
-          <placeName>Grunewald</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -121,10 +113,12 @@ Beantwortet in: <ref target="10685">1919-01-15 AS (Wien) an SF (Berlin)</ref></n
     <body>
       <div type="letter">
         <p>3 Blatt, 4 Seiten
-Beantwortet in: <ref target="10685">1919-01-15 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="10685">1919-01-15 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0154"/>41 8<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0154"/>41 8<lb/>
 S. FISCHER ∙ VerLAG<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P in Berlin — — — Postscheckkonto Berlin Nr. 16892<lb/>
 Fernsprech-Anschlüsse: Amt Lützow Nr. 1662, 6162 und 9292<lb/>
@@ -155,7 +149,8 @@ recht zur Sammlung zur Ruhe<lb/>
 können. Wir leiden keine<lb/>
 Entbehrung die größer wäre<lb/>
 eils.</p>
-        <p><pb facs="1416743_0155"/>41<lb/>
+        <p>
+          <pb facs="1416743_0155"/>41<lb/>
 während der letzten Kriegs¬<lb/>
 Jahre und es freut mich aus<lb/>
 Threm letzten Brief zu ent¬<lb/>
@@ -179,7 +174,8 @@ mit einem Sturz des Gücherkaufs<lb/>
 zu rechnen und mit weitern<lb/>
 material = und Herstellungs¬<lb/>
 tenerungen</p>
-        <p><pb facs="1416743_0156"/>wir<lb/>
+        <p>
+          <pb facs="1416743_0156"/>wir<lb/>
 so dass - abgesehen von den<lb/>
 sehr unsichern politischen und<lb/>
 sozialen Verhältnissen<lb/>
@@ -213,7 +209,8 @@ Herzliche Grüsse von<lb/>
 sene<lb/>
 uns zu Ihnen<lb/>
 Pførtien</p>
-        <p><pb facs="1416743_0157"/>Depositenkasse P Berlin<lb/>
+        <p>
+          <pb facs="1416743_0157"/>Depositenkasse P Berlin<lb/>
 W 57 / BULOMS<lb/>
 Herrnruf: Lützow 1662, 6162<lb/>
 Herrn Dr. Arthur Schnitt,<lb/>

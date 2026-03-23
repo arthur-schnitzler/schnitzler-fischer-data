@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -62,7 +63,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten beschrieben
 
-Antwort auf: <ref target="10390">1911-06-27 SF an AS</ref></note>
+Antwort auf: <ref target="10390">1911-06-27 SF an AS</ref>
+        </note>
         <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1911-07-05.html</note>
       </notesStmt>
@@ -78,6 +80,11 @@ Antwort auf: <ref target="10390">1911-06-27 SF an AS</ref></note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11941">Klimt, Gustav</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10391.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -87,11 +94,6 @@ Antwort auf: <ref target="10390">1911-06-27 SF an AS</ref></note>
           <term>Bühnenbild</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11941" source="https://pmb.acdh.oeaw.ac.at/entity/11941/">
-          <persName>Klimt, Gustav</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -102,7 +104,8 @@ Antwort auf: <ref target="10390">1911-06-27 SF an AS</ref></note>
       <div type="letter">
         <p>1 Blatt, 2 Seiten beschrieben
 
-Antwort auf: <ref target="10390">1911-06-27 SF an AS</ref></p>
+Antwort auf: <ref target="10390">1911-06-27 SF an AS</ref>
+        </p>
       </div>
     </body>
   </text>

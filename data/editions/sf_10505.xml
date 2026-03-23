@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10505">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -83,36 +84,22 @@ Antwort auf: 1913-05-16 AS an SF (nicht überliefertes Telegramm, mit dem AS geg
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2874">Eirich, Oskar Friedrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb866">Dresden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb39615">Pressburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb49847">Stettin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="10347189-3">Stadttheater Preßburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10505.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb2874" source="https://pmb.acdh.oeaw.ac.at/entity/2874/">
-          <persName>Eirich, Oskar Friedrich</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb866" source="https://pmb.acdh.oeaw.ac.at/entity/866/">
-          <placeName>Dresden</placeName>
-        </place>
-        <place ref="#pmb39615" source="https://pmb.acdh.oeaw.ac.at/entity/39615/">
-          <placeName>Pressburg</placeName>
-        </place>
-        <place ref="#pmb49847" source="https://pmb.acdh.oeaw.ac.at/entity/49847/">
-          <placeName>Stettin</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="10347189-3" source="https://d-nb.info/gnd/10347189-3">
-          <orgName>Stadttheater Preßburg</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -125,8 +112,9 @@ Antwort auf: 1913-05-16 AS an SF (nicht überliefertes Telegramm, mit dem AS geg
 
 Antwort auf: 1913-05-16 AS an SF (nicht überliefertes Telegramm, mit dem AS gegen eine "Ungeschicklichkeit Fischer (Tal)" bzgl. der Aufführung des 'Professor Bernhardi' in Pressburg intervenierte; Tgb 1913-05-15)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0634"/>1<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0634"/>1<lb/>
 323<lb/>
 S'FISCHER/VERLAG'BERLIN'THEATERABTEILUNG.<lb/>
 AMT: LUTZÖW 1662 &amp; 6162<lb/>
@@ -151,7 +139,8 @@ mitee hattihm das Stadttheater schon in der<lb/>
 Absicht verweigert, den „Bernhardi" selbst<lb/>
 zu spielen und wird sich, selbst wenn man das<lb/>
 Aufführungsrecht für Pressburg sperren sollte,</p>
-        <p><pb facs="1416742_0635"/>V. 119<lb/>
+        <p>
+          <pb facs="1416742_0635"/>V. 119<lb/>
 nicht bereit erklären, Barnowsky jetzt die<lb/>
 Erlaubnis zu erteilen. Ausserdem dürfte<lb/>
 Barnowsky wohl nicht in der Lage sein, so-<lb/>

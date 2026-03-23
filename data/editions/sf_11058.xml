@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,6 +71,13 @@ Rückseite: Eigenhändige Notiz AS</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb313">Polen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43435">Schweiz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11058.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -78,17 +86,6 @@ Rückseite: Eigenhändige Notiz AS</note>
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
-          <placeName>Polen</placeName>
-        </place>
-        <place ref="#pmb43435" source="https://pmb.acdh.oeaw.ac.at/entity/43435/">
-          <placeName>Schweiz</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -101,8 +98,9 @@ Rückseite: Eigenhändige Notiz AS</note>
 Beantwortet in: <ref target="11059">1924-02-11 AS (Wien) an SF (Berlin)</ref>
 Rückseite: Eigenhändige Notiz AS</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0710"/>„=<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0710"/>„=<lb/>
 S. Fischer/Verlag/Berlin M 57/Bülowstraße<lb/>
 90<lb/>
 ank. Depos.<lb/>
@@ -133,7 +131,8 @@ Nur bei Büchern, deren Absatz auffallend schwach ist, haben wir die<lb/>
 voraus zu honorierenden Exemplare ermässigt. Ich bin aber auch hier<lb/>
 bereit, mich etwaigen besonderen Wünschen zu fügen.<lb/>
 Akzeptieren Sie die Voraushonorierung auf Grundlage der anliegenden</p>
-        <p><pb facs="1416743_0711"/>10/51<lb/>
+        <p>
+          <pb facs="1416743_0711"/>10/51<lb/>
 Leaat<lb/>
 am k. insuldosenden<lb/>
 P.S.<lb/>

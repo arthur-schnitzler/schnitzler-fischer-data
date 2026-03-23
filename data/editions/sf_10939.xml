@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10939">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -94,6 +95,21 @@
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19016">Kalckar, Marc</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19026">Kalisch, Emilie</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb25150">Spachner, Leopold</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb26030">Thomsen, Niels Thingberg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb36300">Kopenhagen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb313">Polen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb388">Spanien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb58660">Betty Nansen-Teatret Kopenhagen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10939.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -106,45 +122,6 @@
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb19016" source="https://pmb.acdh.oeaw.ac.at/entity/19016/">
-          <persName>Kalckar, Marc</persName>
-        </person>
-        <person ref="#pmb19026" source="https://pmb.acdh.oeaw.ac.at/entity/19026/">
-          <persName>Kalisch, Emilie</persName>
-        </person>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-        <person ref="#pmb25150" source="https://pmb.acdh.oeaw.ac.at/entity/25150/">
-          <persName>Spachner, Leopold</persName>
-        </person>
-        <person ref="#pmb26030" source="https://pmb.acdh.oeaw.ac.at/entity/26030/">
-          <persName>Thomsen, Niels Thingberg</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb36300" source="https://pmb.acdh.oeaw.ac.at/entity/36300/">
-          <placeName>Kopenhagen</placeName>
-        </place>
-        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
-          <placeName>Polen</placeName>
-        </place>
-        <place ref="#pmb388" source="https://pmb.acdh.oeaw.ac.at/entity/388/">
-          <placeName>Spanien</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb58660" source="https://pmb.acdh.oeaw.ac.at/entity/58660/">
-          <orgName>Betty Nansen-Teatret Kopenhagen</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -155,8 +132,9 @@
       <div type="letter">
         <p>1 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0245"/>mich voraussichtlich auf eine Vortragsreisein<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0245"/>mich voraussichtlich auf eine Vortragsreisein<lb/>
 die Cechoslowakei, Brünn, Prag, wahrscheinIch<lb/>
 Teplitz, Aussig, Reichenberg. Hoffentlich sind<lb/>
 die Buchhändler in den grösseren cechoslowa<lb/>
@@ -202,7 +180,8 @@ spiel zu vergeben.<lb/>
 Kirpatrik &amp; Brandt schon irgend einen nennen?<lb/>
 Werten Abschluss für irgend einen Autor in<lb/>
 ihrer Vertretung gemacht haben und wäre für</p>
-        <p><pb facs="1416739_0246"/>gefällige Antwort sehr dankbar.<lb/>
+        <p>
+          <pb facs="1416739_0246"/>gefällige Antwort sehr dankbar.<lb/>
 6. Hat sich die Angelegenheit<lb/>
 Luxusausgabe „Casanovas Heimfahrt“ uelter ent¬<lb/>
 wickelt?<lb/>

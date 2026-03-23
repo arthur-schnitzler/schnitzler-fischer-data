@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -58,7 +59,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Beantwortet in: <ref target="11502">1929-09-10 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="11502">1929-09-10 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift, eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1929-08-28.html</note>
       </notesStmt>
@@ -75,6 +77,12 @@ Beantwortet in: <ref target="11502">1929-09-10 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2292">Hofmannsthal, Gertrude von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11740">Hofmannsthal, Hugo von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11500.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -82,14 +90,6 @@ Beantwortet in: <ref target="11502">1929-09-10 AS (Wien) an SF (Berlin)</ref></n
           <term>Zeitschrift</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2292" source="https://pmb.acdh.oeaw.ac.at/entity/2292/">
-          <persName>Hofmannsthal, Gertrude von</persName>
-        </person>
-        <person ref="#pmb11740" source="https://pmb.acdh.oeaw.ac.at/entity/11740/">
-          <persName>Hofmannsthal, Hugo von</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -99,10 +99,12 @@ Beantwortet in: <ref target="11502">1929-09-10 AS (Wien) an SF (Berlin)</ref></n
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Beantwortet in: <ref target="11502">1929-09-10 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="11502">1929-09-10 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_1116"/>LE NEUE RUNDSCHAU<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_1116"/>LE NEUE RUNDSCHAU<lb/>
 den 28. Augt<lb/>
 S. FISCHER VerlaG, BERLIN W 57.<lb/>
 BÜL à WSTRASSE 90<lb/>

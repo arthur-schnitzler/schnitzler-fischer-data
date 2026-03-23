@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11265">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -75,28 +76,18 @@ Telegramm</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11198">Durieux, Tilla</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11842">Jordan, Egon von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb114855">Kampers, Fritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb9539">Roberts, Ralph Arthur</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb9632">Salfner, Heinz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11265.xml"/>
+        </note>
       </correspDesc>
       <textClass/>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb11198" source="https://pmb.acdh.oeaw.ac.at/entity/11198/">
-          <persName>Durieux, Tilla</persName>
-        </person>
-        <person ref="#pmb11842" source="https://pmb.acdh.oeaw.ac.at/entity/11842/">
-          <persName>Jordan, Egon von</persName>
-        </person>
-        <person ref="#pmb114855" source="https://pmb.acdh.oeaw.ac.at/entity/114855/">
-          <persName>Kampers, Fritz</persName>
-        </person>
-        <person ref="#pmb9539" source="https://pmb.acdh.oeaw.ac.at/entity/9539/">
-          <persName>Roberts, Ralph Arthur</persName>
-        </person>
-        <person ref="#pmb9632" source="https://pmb.acdh.oeaw.ac.at/entity/9632/">
-          <persName>Salfner, Heinz</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -108,8 +99,9 @@ Telegramm</note>
         <p>1 Blatt, 1 Seite
 Telegramm</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0901"/>1782<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0901"/>1782<lb/>
 RADIOGRAMM<lb/>
 8550<lb/>
 bei: HADIO-AUSTRIA A. G., Wien, I., Renngasse 14<lb/>

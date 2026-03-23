@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -67,7 +68,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
 Antwort auf: <ref target="11015">1923-09-24 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11019">1923-10-01 AS (Wien) an SF (Berlin)</ref>, <ref target="11021">1923-10-08 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="11019">1923-10-01 AS (Wien) an SF (Berlin)</ref>, <ref target="11021">1923-10-08 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-09-28.html</note>
       </notesStmt>
@@ -83,6 +85,12 @@ Beantwortet in: <ref target="11019">1923-10-01 AS (Wien) an SF (Berlin)</ref>, <
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11017.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -96,14 +104,6 @@ Beantwortet in: <ref target="11019">1923-10-01 AS (Wien) an SF (Berlin)</ref>, <
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -114,10 +114,12 @@ Beantwortet in: <ref target="11019">1923-10-01 AS (Wien) an SF (Berlin)</ref>, <
       <div type="letter">
         <p>2 Blatt, 4 Seiten
 Antwort auf: <ref target="11015">1923-09-24 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11019">1923-10-01 AS (Wien) an SF (Berlin)</ref>, <ref target="11021">1923-10-08 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="11019">1923-10-01 AS (Wien) an SF (Berlin)</ref>, <ref target="11021">1923-10-08 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0650"/>631<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0650"/>631<lb/>
 S. Fischer/Verlag/Berlin M 57/Bülowstraße 9o.<lb/>
 kkonto; Deutsche Bank. Depositenkssee P. in Berlin / Postecheckkonto: Berlin Nr. 16692<lb/>
 Bank<lb/>
@@ -208,7 +210,8 @@ sich<lb/>
 stellt. Leider werden bei dieser Schwankung der Vährung die Buchungs-<lb/>
 dann xxx aufgekommen werden. Denn wenn auch sehr nur<lb/>
 BHerrn Freund, und Aufschußerung</p>
-        <p><pb facs="1416743_0651"/>cette<lb/>
+        <p>
+          <pb facs="1416743_0651"/>cette<lb/>
 G.M.F.P.<lb/>
 cenir dans<lb/>
 S. S.<lb/>
@@ -320,7 +323,8 @@ unterblad. xxx<lb/>
 Si xxx<lb/>
 le 1<lb/>
 broschierten und 16 % vom gebundenen Exemplar verrechnet.</p>
-        <p><pb facs="1416743_0652"/>2. Blatt<lb/>
+        <p>
+          <pb facs="1416743_0652"/>2. Blatt<lb/>
 S. FISCHER / VerLA.<lb/>
 Dr. A. Schnitzler 28/9. 23<lb/>
 ermevnte xxxre xxx<lb/>
@@ -376,7 +380,8 @@ Schwierig ist die Frage hinsichtlich Ihres Wunsches bezüglich der<lb/>
 Honorare slhinter keinen anderen Autor meines Verleger zurückzustehen<lb/>
 Um es endlich nun einmal zu sagen, es ist nur ein einziger Autor in<lb/>
 meinem Verlag, der ein höheres Honorar bekommt als Sie und da hängt du</p>
-        <p><pb facs="1416743_0653"/>V.<lb/>
+        <p>
+          <pb facs="1416743_0653"/>V.<lb/>
 reiselekde.A.<lb/>
 mit der Kompensation eines andenen grossen Vorteils zusammen.<lb/>
 Ich möchte Sie nun bitten, sich damit einverstanden zu erklären,<lb/>

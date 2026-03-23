@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,7 +71,8 @@
         <note type="description">1 Doppelblatt, 3 Seiten beschrieben
 
 Antwort auf: <ref target="10203">1907-11-16 AS an SF</ref>
-Beantwortet in <ref target="10205">1907-11-21 AS an SF</ref></note>
+Beantwortet in <ref target="10205">1907-11-21 AS an SF</ref>
+        </note>
         <note type="published_in">Rodewald, 78-79 [Nr. 113]</note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1907-11-18.html</note>
@@ -87,6 +89,14 @@ Beantwortet in <ref target="10205">1907-11-21 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2914">Bie, Oskar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb26937">Vengerova, Zinaida A.</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10204.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -94,22 +104,6 @@ Beantwortet in <ref target="10205">1907-11-21 AS an SF</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2914" source="https://pmb.acdh.oeaw.ac.at/entity/2914/">
-          <persName>Bie, Oskar</persName>
-        </person>
-        <person ref="#pmb26937" source="https://pmb.acdh.oeaw.ac.at/entity/26937/">
-          <persName>Vengerova, Zinaida A.</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -121,10 +115,12 @@ Beantwortet in <ref target="10205">1907-11-21 AS an SF</ref></note>
         <p>1 Doppelblatt, 3 Seiten beschrieben
 
 Antwort auf: <ref target="10203">1907-11-16 AS an SF</ref>
-Beantwortet in <ref target="10205">1907-11-21 AS an SF</ref></p>
+Beantwortet in <ref target="10205">1907-11-21 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0305"/>160<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0305"/>160<lb/>
 EISCHER, VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
 viter xxxbe e<lb/>
 BERene W., DEN 18. Nov. 07<lb/>
@@ -149,7 +145,8 @@ Dass Sie und ich (das Manuscript haben nur wir<lb/>
 seide gelesen) jede Fortsetzung mit grösster Neu<lb/>
 gierde erwartet haben und dass wir uns in keiner<lb/>
 Meine enttäuscht fühlen. Die Kürzungsverschläge</p>
-        <p><pb facs="1416742_0306"/>21<lb/>
+        <p>
+          <pb facs="1416742_0306"/>21<lb/>
 was ich an dieser Stelle noch eismal wieder-<lb/>
 ###, xxx mit Rücksicht auf die Rausfrage<lb/>
 auf die Wirkung der fortsatzungeweisen Veröf-<lb/>
@@ -173,7 +170,8 @@ als in der deutschen Ausgabe, Nach seiner Auffasser<lb/>
 wäre das auch garnicht notwendig, denn wenn die<lb/>
 Gebersetz<lb/>
 nagweise Veröffentlichungen</p>
-        <p><pb facs="1416742_0307"/>Cette<lb/>
+        <p>
+          <pb facs="1416742_0307"/>Cette<lb/>
 absolut ge<lb/>
 am 24. Februar<lb/>
 sten Grüsse<lb/>

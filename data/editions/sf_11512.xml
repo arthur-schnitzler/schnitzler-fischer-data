@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -93,7 +94,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Antwort auf: <ref target="11507">1929-10-07 SF (Berlin) an AS (Wien)</ref>, <ref target="11508">1929-10-09 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11507">1929-10-07 SF (Berlin) an AS (Wien)</ref>, <ref target="11508">1929-10-09 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1929-10-19.html</note>
       </notesStmt>
@@ -110,6 +112,12 @@ Antwort auf: <ref target="11507">1929-10-07 SF (Berlin) an AS (Wien)</ref>, <ref
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4455">Zsolnay, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb378">Rumänien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11512.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -122,16 +130,6 @@ Antwort auf: <ref target="11507">1929-10-07 SF (Berlin) an AS (Wien)</ref>, <ref
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4455" source="https://pmb.acdh.oeaw.ac.at/entity/4455/">
-          <persName>Zsolnay, Paul</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb378" source="https://pmb.acdh.oeaw.ac.at/entity/378/">
-          <placeName>Rumänien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -141,10 +139,12 @@ Antwort auf: <ref target="11507">1929-10-07 SF (Berlin) an AS (Wien)</ref>, <ref
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Antwort auf: <ref target="11507">1929-10-07 SF (Berlin) an AS (Wien)</ref>, <ref target="11508">1929-10-09 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11507">1929-10-07 SF (Berlin) an AS (Wien)</ref>, <ref target="11508">1929-10-09 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0104"/>19 x<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0104"/>19 x<lb/>
 Tischler.<lb/>
 19.10.1929.<lb/>
 Lieber Herr Doktor Maril.<lb/>

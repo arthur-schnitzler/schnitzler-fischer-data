@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10110">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -90,6 +91,11 @@ Beantwortet in: 1900-01-04post/1901-02-07ante AS an SF (Einbandgestaltung, Iluus
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb28645">Coschell, Moritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10110.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -98,11 +104,6 @@ Beantwortet in: 1900-01-04post/1901-02-07ante AS an SF (Einbandgestaltung, Iluus
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb28645" source="https://pmb.acdh.oeaw.ac.at/entity/28645/">
-          <persName>Coschell, Moritz</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -117,8 +118,9 @@ Anlage: Vertragsentwurf (nicht überliefert)
 Antwort auf: 1900-12-28post/1901-01-04ante AS an SF (Generalvertrag; nicht überliefert)
 Beantwortet in: 1900-01-04post/1901-02-07ante AS an SF (Einbandgestaltung, Iluustration 'Gustl'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0144"/>FISCHER. VERLAG<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0144"/>FISCHER. VERLAG<lb/>
 TELEPHON: AMT VI, No. 1662.<lb/>
 BERLIN W., DEN 4/1. 1900<lb/>
 Monsieur M. A.<lb/>
@@ -150,7 +152,8 @@ er auch diesmal die Arbeit verfehlen sollte.<lb/>
 ich glaube, Sie haben ein scharfes Charakterbild, den Typus eines ceste<lb/>
 aus gestaltet. Hoffentlich findet Co###<lb/>
 chischen Offiziers, von innen he</p>
-        <p><pb facs="1416742_0145"/>r.<lb/>
+        <p>
+          <pb facs="1416742_0145"/>r.<lb/>
 0<lb/>
 dafür den richtigen Stil.<lb/>
 Ich lasse heute für Sie bei der Oesterreichischen Boden-Credit-Anstalt<lb/>

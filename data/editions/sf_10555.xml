@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -73,7 +74,8 @@
 Anlage: Satzproben zur 'Geronimo'-Ausgabe (nicht überliefert)
 
 Antwort auf: <ref target="10554">1915-03-10 AS an SF</ref> (ein als erste zustimmende Antwort übersandtes Telegramm ist nicht nicht überliefert) 
-Beantwortet in: <ref target="10556">1915-03-22 AS an SF</ref></note>
+Beantwortet in: <ref target="10556">1915-03-22 AS an SF</ref>
+        </note>
         <note type="published_in">Rodewald, 108-109 [Nr. 148]</note>
         <note type="type">Typoskript (eigenhändige Unterschrift) (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm) AS)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1915-03-16.html</note>
@@ -90,6 +92,12 @@ Beantwortet in: <ref target="10556">1915-03-22 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12689">Schmutzer, Ferdinand</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb864">Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10555.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -97,16 +105,6 @@ Beantwortet in: <ref target="10556">1915-03-22 AS an SF</ref></note>
           <term>Typographie</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb12689" source="https://pmb.acdh.oeaw.ac.at/entity/12689/">
-          <persName>Schmutzer, Ferdinand</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb864" source="https://pmb.acdh.oeaw.ac.at/entity/864/">
-          <placeName>Leipzig</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -119,10 +117,12 @@ Beantwortet in: <ref target="10556">1915-03-22 AS an SF</ref></note>
 Anlage: Satzproben zur 'Geronimo'-Ausgabe (nicht überliefert)
 
 Antwort auf: <ref target="10554">1915-03-10 AS an SF</ref> (ein als erste zustimmende Antwort übersandtes Telegramm ist nicht nicht überliefert) 
-Beantwortet in: <ref target="10556">1915-03-22 AS an SF</ref></p>
+Beantwortet in: <ref target="10556">1915-03-22 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0676"/>l.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0676"/>l.<lb/>
 A<lb/>
 &amp; C.<lb/>
 S. Fischer, Verlag, Berlin M., Bülowstrasse 90<lb/>
@@ -157,7 +157,8 @@ bar und nicht auch in Kommission liefern, wir werden uns hier den<lb/>
 Erfahrungen aus der Praxis anpassen müssen, und ich habe doch wohl<lb/>
 die Vollmacht, den Vertrieb so zu gestalten, wie er sich praktisch<lb/>
 F. 121</p>
-        <p><pb facs="1416742_0677"/>A<lb/>
+        <p>
+          <pb facs="1416742_0677"/>A<lb/>
 Blatt 2<lb/>
 S. FISCHER, VERLAG, BERLIN,<lb/>
 durchführen lässt.<lb/>

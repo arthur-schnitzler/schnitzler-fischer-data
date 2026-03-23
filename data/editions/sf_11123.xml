@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -64,7 +65,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
 Antwort auf: <ref target="11122">1924-09-17 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11125">1924-09-23 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="11125">1924-09-23 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-09-19.html</note>
       </notesStmt>
@@ -81,6 +83,18 @@ Beantwortet in: <ref target="11125">1924-09-23 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10836">Bartsch, Rudolf Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3105">Karczag, Wilhelm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb92768">Woticky, Edward</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb677">Breslau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb145">Köln</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb883">Wiesbaden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11123.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,34 +105,6 @@ Beantwortet in: <ref target="11125">1924-09-23 AS (Wien) an SF (Berlin)</ref></n
           <term>Uraufführung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
-          <persName>Bartsch, Rudolf Hans</persName>
-        </person>
-        <person ref="#pmb3105" source="https://pmb.acdh.oeaw.ac.at/entity/3105/">
-          <persName>Karczag, Wilhelm</persName>
-        </person>
-        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
-          <persName>Woticky, Edward</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb677" source="https://pmb.acdh.oeaw.ac.at/entity/677/">
-          <placeName>Breslau</placeName>
-        </place>
-        <place ref="#pmb145" source="https://pmb.acdh.oeaw.ac.at/entity/145/">
-          <placeName>Köln</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb883" source="https://pmb.acdh.oeaw.ac.at/entity/883/">
-          <placeName>Wiesbaden</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -129,10 +115,12 @@ Beantwortet in: <ref target="11125">1924-09-23 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>1 Blatt, 2 Seiten
 Antwort auf: <ref target="11122">1924-09-17 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11125">1924-09-23 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="11125">1924-09-23 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0779"/>in<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0779"/>in<lb/>
 2<lb/>
 699<lb/>
 S. Fischer/Verlag/Berlin M 57/Bülowstraße 90<lb/>
@@ -206,7 +194,8 @@ Auf die Aufführung nicht allzugrossen Wert legen.<lb/>
 Der Schutz der Autorenrechte bildet wirklich den<lb/>
 Gegenstand einer Eingabe an die Regierung. Doch glauben wir, dass<lb/>
 dies der langwierigste Weg ist um praktisch Resultate zu zeitigen.</p>
-        <p><pb facs="1416743_0780"/>in<lb/>
+        <p>
+          <pb facs="1416743_0780"/>in<lb/>
 ,op a&amp;rflcioliiâi, s* niiin&amp; nahw ndiiit<lb/>
 Ceédé ai nt :t :o/n4* rt:r* |v.v. rt*<lb/>
 OMUJISTAASIAH1<lb/>

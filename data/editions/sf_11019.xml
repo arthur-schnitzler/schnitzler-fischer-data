@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -63,7 +64,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="11017">1923-09-28 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11017">1923-09-28 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-10-01.html</note>
       </notesStmt>
@@ -79,6 +81,15 @@ Antwort auf: <ref target="11017">1923-09-28 SF (Berlin) an AS (Wien)</ref></note
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43570">Dänemark</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11019.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -88,23 +99,6 @@ Antwort auf: <ref target="11017">1923-09-28 SF (Berlin) an AS (Wien)</ref></note
           <term>österreichisch</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb43570" source="https://pmb.acdh.oeaw.ac.at/entity/43570/">
-          <placeName>Dänemark</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -114,10 +108,12 @@ Antwort auf: <ref target="11017">1923-09-28 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="11017">1923-09-28 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11017">1923-09-28 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0286"/>1.10.1923.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0286"/>1.10.1923.<lb/>
 Fischer<lb/>
 Lieber Freund.<lb/>
 Schläge bisher<lb/>
@@ -272,7 +268,8 @@ lich nicht eingelangt ist.<lb/>
 Herr Dr. Pollitzer von Hertz-Verlas<lb/>
 bei mir. Gegen den Ahdruck des „Geronimo“<lb/>
 der Novellensammlung habe ich nichts einzu-</p>
-        <p><pb facs="1416739_0287"/>wenden und habe mich mit der vorgeschlagenen<lb/>
+        <p>
+          <pb facs="1416739_0287"/>wenden und habe mich mit der vorgeschlagenen<lb/>
 Honorarzahlung vorerst für eine zahlenmässig<lb/>
 noch nicht bestimmte) Reihe von Auflageneinver-<lb/>
 standen erklärt. Auch über die Möglichkeit im<lb/>

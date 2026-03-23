@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -80,7 +81,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten beschrieben
 
-Antwort auf: <ref target="10227">1908-06-16b AS an SF</ref></note>
+Antwort auf: <ref target="10227">1908-06-16b AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1908-06-19.html</note>
       </notesStmt>
@@ -96,6 +98,14 @@ Antwort auf: <ref target="10227">1908-06-16b AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb864">Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10228.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -105,20 +115,6 @@ Antwort auf: <ref target="10227">1908-06-16b AS an SF</ref></note>
           <term>Konfiskation/Verbot/Zensur</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb864" source="https://pmb.acdh.oeaw.ac.at/entity/864/">
-          <placeName>Leipzig</placeName>
-        </place>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -129,10 +125,12 @@ Antwort auf: <ref target="10227">1908-06-16b AS an SF</ref></note>
       <div type="letter">
         <p>2 Blatt, 3 Seiten beschrieben
 
-Antwort auf: <ref target="10227">1908-06-16b AS an SF</ref></p>
+Antwort auf: <ref target="10227">1908-06-16b AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0335"/>730<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0335"/>730<lb/>
 S. FISCHER, VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
 19.: Juni:08<lb/>
 BERLIN W., DEN<lb/>
@@ -154,7 +152,8 @@ nach dieser Richtung hin wohl missverstanden. Ich<lb/>
 habe gesagt, dass ein erfolgreicher Prozess in<lb/>
 einer Stadt die abermaliger Konfiskation an anderer<lb/>
 Stelle nicht ausschliessen würde, was nicht heissen</p>
-        <p><pb facs="1416742_0336"/>soll, dass das Buch an anderer Stelle erlautt ist,<lb/>
+        <p>
+          <pb facs="1416742_0336"/>soll, dass das Buch an anderer Stelle erlautt ist,<lb/>
 wenn es in irgend einem Ort in Deutschland verboten<lb/>
 erzejeßl<lb/>
 Heb Sim Rew<lb/>
@@ -191,7 +190,8 @@ gedruckt, und wenn ich die Umschläge und Titelblät-<lb/>
 ter entfernen soll, so ist das eine höchst kostspie¬<lb/>
 lige und umständliche Angelegenheit. Da Sie das<lb/>
 Honorar für die vorrätigen Exemplare bekommen haben,</p>
-        <p><pb facs="1416742_0337"/>Vai dans<lb/>
+        <p>
+          <pb facs="1416742_0337"/>Vai dans<lb/>
 so haben Sie ja kein materielles Interesse daran,<lb/>
 Saadt<lb/>
 rejedre<lb/>

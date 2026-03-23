@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -87,6 +88,14 @@ Von AS erwähnte zwischenzeitliche Karte (bzgl. 'Reigen') nicht überliefert.</n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10788">Auernheimer, Raoul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11374">Freund, Fritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb969">Südtirol</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10226.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -94,22 +103,6 @@ Von AS erwähnte zwischenzeitliche Karte (bzgl. 'Reigen') nicht überliefert.</n
           <term>Reise/Urlaub</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10788" source="https://pmb.acdh.oeaw.ac.at/entity/10788/">
-          <persName>Auernheimer, Raoul</persName>
-        </person>
-        <person ref="#pmb11374" source="https://pmb.acdh.oeaw.ac.at/entity/11374/">
-          <persName>Freund, Fritz</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb969" source="https://pmb.acdh.oeaw.ac.at/entity/969/">
-          <placeName>Südtirol</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>

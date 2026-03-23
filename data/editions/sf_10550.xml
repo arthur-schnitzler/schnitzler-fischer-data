@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -80,7 +81,8 @@
       <notesStmt>
         <note type="description">3 Blatt, 6 Seiten beschrieben
 
-Antwort auf: 1915-01-07 und <ref target="10549">1915-01-25 SF an AS</ref></note>
+Antwort auf: 1915-01-07 und <ref target="10549">1915-01-25 SF an AS</ref>
+        </note>
         <note type="published_in">Schnitzler B II, 77-80</note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1915-02-05.html</note>
@@ -97,6 +99,23 @@ Antwort auf: 1915-01-07 und <ref target="10549">1915-01-25 SF an AS</ref></note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3256">Block, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11676">Herzog, Wilhelm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12543">Rolland, Romain</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb146">Frankfurt am Main</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb166">Frankreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb652">Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43435">Schweiz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb88756">Frankfurter Schauspielhaus</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="1231430-4">Königliches Deutsches Landestheater Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb47085">Münchner Kammerspiele</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb300058">Neues Theater Frankfurt am Main</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10550.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -110,51 +129,6 @@ Antwort auf: 1915-01-07 und <ref target="10549">1915-01-25 SF an AS</ref></note>
           <term>Rezension</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb3256" source="https://pmb.acdh.oeaw.ac.at/entity/3256/">
-          <persName>Block, Paul</persName>
-        </person>
-        <person ref="#pmb11676" source="https://pmb.acdh.oeaw.ac.at/entity/11676/">
-          <persName>Herzog, Wilhelm</persName>
-        </person>
-        <person ref="#pmb12543" source="https://pmb.acdh.oeaw.ac.at/entity/12543/">
-          <persName>Rolland, Romain</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb146" source="https://pmb.acdh.oeaw.ac.at/entity/146/">
-          <placeName>Frankfurt am Main</placeName>
-        </place>
-        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
-          <placeName>Frankreich</placeName>
-        </place>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
-          <placeName>Prag</placeName>
-        </place>
-        <place ref="#pmb43435" source="https://pmb.acdh.oeaw.ac.at/entity/43435/">
-          <placeName>Schweiz</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb88756" source="https://pmb.acdh.oeaw.ac.at/entity/88756/">
-          <orgName>Frankfurter Schauspielhaus</orgName>
-        </org>
-        <org ref="1231430-4" source="https://d-nb.info/gnd/1231430-4">
-          <orgName>Königliches Deutsches Landestheater Prag</orgName>
-        </org>
-        <org ref="#pmb47085" source="https://pmb.acdh.oeaw.ac.at/entity/47085/">
-          <orgName>Münchner Kammerspiele</orgName>
-        </org>
-        <org ref="#pmb300058" source="https://pmb.acdh.oeaw.ac.at/entity/300058/">
-          <orgName>Neues Theater Frankfurt am Main</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -165,7 +139,8 @@ Antwort auf: 1915-01-07 und <ref target="10549">1915-01-25 SF an AS</ref></note>
       <div type="letter">
         <p>3 Blatt, 6 Seiten beschrieben
 
-Antwort auf: 1915-01-07 und <ref target="10549">1915-01-25 SF an AS</ref></p>
+Antwort auf: 1915-01-07 und <ref target="10549">1915-01-25 SF an AS</ref>
+        </p>
       </div>
     </body>
   </text>

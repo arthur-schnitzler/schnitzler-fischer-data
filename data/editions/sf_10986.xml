@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,7 +77,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
 Antwort auf: <ref target="10984">1923-03-14 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10989">1923-03-29 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10989">1923-03-29 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-03-19.html</note>
       </notesStmt>
@@ -93,6 +95,21 @@ Beantwortet in: <ref target="10989">1923-03-29 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="123488729">Araquistáin, Luis</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11227">Eger, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3105">Karczag, Wilhelm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb22669">Pohli-McLeod, Kate</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb64465">Norwegen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb38216">San Francisco</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb388">Spanien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb484">Zürich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10986.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -102,43 +119,6 @@ Beantwortet in: <ref target="10989">1923-03-29 SF (Berlin) an AS (Wien)</ref></n
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="123488729" source="https://d-nb.info/gnd/123488729">
-          <persName>Araquistáin, Luis</persName>
-        </person>
-        <person ref="#pmb11227" source="https://pmb.acdh.oeaw.ac.at/entity/11227/">
-          <persName>Eger, Paul</persName>
-        </person>
-        <person ref="#pmb3105" source="https://pmb.acdh.oeaw.ac.at/entity/3105/">
-          <persName>Karczag, Wilhelm</persName>
-        </person>
-        <person ref="#pmb22669" source="https://pmb.acdh.oeaw.ac.at/entity/22669/">
-          <persName>Pohli-McLeod, Kate</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb64465" source="https://pmb.acdh.oeaw.ac.at/entity/64465/">
-          <placeName>Norwegen</placeName>
-        </place>
-        <place ref="#pmb38216" source="https://pmb.acdh.oeaw.ac.at/entity/38216/">
-          <placeName>San Francisco</placeName>
-        </place>
-        <place ref="#pmb388" source="https://pmb.acdh.oeaw.ac.at/entity/388/">
-          <placeName>Spanien</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb484" source="https://pmb.acdh.oeaw.ac.at/entity/484/">
-          <placeName>Zürich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -149,10 +129,12 @@ Beantwortet in: <ref target="10989">1923-03-29 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>1 Blatt, 2 Seiten
 Antwort auf: <ref target="10984">1923-03-14 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10989">1923-03-29 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10989">1923-03-29 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0272"/>Ficher<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0272"/>Ficher<lb/>
 1<lb/>
 rih.<lb/>
 e e e e<lb/>
@@ -202,7 +184,8 @@ unverb<lb/>
 usp’<lb/>
 hirter H<lb/>
 Toulouse</p>
-        <p><pb facs="1416739_0273"/>4:6<lb/>
+        <p>
+          <pb facs="1416739_0273"/>4:6<lb/>
 Gedäänissä<lb/>
 +.— » » » — »<lb/>
 uswaltuja<lb/>

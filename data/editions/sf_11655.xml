@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11655">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -81,17 +82,17 @@ Anlage: Kopie der Abrechnung für "Therese"</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb886">Mailand</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11655.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Abrechnung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb886" source="https://pmb.acdh.oeaw.ac.at/entity/886/">
-          <placeName>Mailand</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -103,8 +104,9 @@ Anlage: Kopie der Abrechnung für "Therese"</note>
         <p>1 Blatt, 1 Seite
 Anlage: Kopie der Abrechnung für "Therese"</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416744_0116"/>1025<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416744_0116"/>1025<lb/>
 Rey<lb/>
 S. Fischer Verlag/Berlin W57 Bülowstratze 90<lb/>
 AKTIENGESELISCHAFT<lb/>

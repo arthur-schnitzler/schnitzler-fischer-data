@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -81,6 +82,15 @@ Antwort auf: 1931-03- AS (Wien) an SF (Berlin)</note>
           <persName/>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb49582">Chemnitz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb146">Frankfurt am Main</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb910">Giessen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb890">Hannover</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb883">Wiesbaden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11642.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,23 +101,6 @@ Antwort auf: 1931-03- AS (Wien) an SF (Berlin)</note>
           <term>Rundfunkrecht/Senderecht</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb49582" source="https://pmb.acdh.oeaw.ac.at/entity/49582/">
-          <placeName>Chemnitz</placeName>
-        </place>
-        <place ref="#pmb146" source="https://pmb.acdh.oeaw.ac.at/entity/146/">
-          <placeName>Frankfurt am Main</placeName>
-        </place>
-        <place ref="#pmb910" source="https://pmb.acdh.oeaw.ac.at/entity/910/">
-          <placeName>Giessen</placeName>
-        </place>
-        <place ref="#pmb890" source="https://pmb.acdh.oeaw.ac.at/entity/890/">
-          <placeName>Hannover</placeName>
-        </place>
-        <place ref="#pmb883" source="https://pmb.acdh.oeaw.ac.at/entity/883/">
-          <placeName>Wiesbaden</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -119,8 +112,9 @@ Antwort auf: 1931-03- AS (Wien) an SF (Berlin)</note>
         <p>1 Blatt, 1 Seite
 Antwort auf: 1931-03- AS (Wien) an SF (Berlin)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416744_0105"/>1015<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416744_0105"/>1015<lb/>
 S. FISCHER Verl'AG A.-G. / BERLIN W 57<lb/>
 Theaterabteilung<lb/>
 Telegramm=Adresse: Fischerverlag 6162 Berlinlützow<lb/>

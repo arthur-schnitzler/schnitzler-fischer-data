@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -85,6 +86,12 @@ Antwort auf: 1893-12-30ante AS an SF (Bitte um Rücksendung Ms 'Das Märchen'; n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10928">Bierbaum, Otto Julius</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11061">Bölsche, Wilhelm Karl Eduard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10009.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -92,14 +99,6 @@ Antwort auf: 1893-12-30ante AS an SF (Bitte um Rücksendung Ms 'Das Märchen'; n
           <term>Veröffentlichungsplan/-projekt</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10928" source="https://pmb.acdh.oeaw.ac.at/entity/10928/">
-          <persName>Bierbaum, Otto Julius</persName>
-        </person>
-        <person ref="#pmb11061" source="https://pmb.acdh.oeaw.ac.at/entity/11061/">
-          <persName>Bölsche, Wilhelm Karl Eduard</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -112,8 +111,9 @@ Antwort auf: 1893-12-30ante AS an SF (Bitte um Rücksendung Ms 'Das Märchen'; n
 
 Antwort auf: 1893-12-30ante AS an SF (Bitte um Rücksendung Ms 'Das Märchen'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0003"/>Lig<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0003"/>Lig<lb/>
 S. FISCHER, Verl'AG, HOFBUCHHANDLUNG<lb/>
 Berlin W, den 30. December 1893.<lb/>
 Fernsprecher Amt VI, 1662.<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -83,6 +84,18 @@ Beantwortet in: <ref target="10670">1918-08-28 SF (Travemünde) an AS</ref> (Wie
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1270199579">Beer, Mathilde</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2173">Schnitzler, Olga</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb808">Haus Tannenberg (Partenkirchen)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb420">Odessa</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb2318">Partenkirchen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb49115">Travemünde</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10667.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -95,34 +108,6 @@ Beantwortet in: <ref target="10670">1918-08-28 SF (Travemünde) an AS</ref> (Wie
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="1270199579" source="https://d-nb.info/gnd/1270199579">
-          <persName>Beer, Mathilde</persName>
-        </person>
-        <person ref="#pmb2173" source="https://pmb.acdh.oeaw.ac.at/entity/2173/">
-          <persName>Schnitzler, Olga</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb808" source="https://pmb.acdh.oeaw.ac.at/entity/808/">
-          <placeName>Haus Tannenberg (Partenkirchen)</placeName>
-        </place>
-        <place ref="#pmb420" source="https://pmb.acdh.oeaw.ac.at/entity/420/">
-          <placeName>Odessa</placeName>
-        </place>
-        <place ref="#pmb2318" source="https://pmb.acdh.oeaw.ac.at/entity/2318/">
-          <placeName>Partenkirchen</placeName>
-        </place>
-        <place ref="#pmb49115" source="https://pmb.acdh.oeaw.ac.at/entity/49115/">
-          <placeName>Travemünde</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -134,8 +119,9 @@ Beantwortet in: <ref target="10670">1918-08-28 SF (Travemünde) an AS</ref> (Wie
         <p>1 Blatt, 2 Seiten
 Beantwortet in: <ref target="10670">1918-08-28 SF (Travemünde) an AS</ref> (Wien)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0065"/>wieder beigeben zu wollen.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0065"/>wieder beigeben zu wollen.<lb/>
 4) Ich erbitte freundliche Zusendung von<lb/>
 (alles womöglich gebunden): 3 Exemplare „Gräs-<lb/>
 1er",2 Exemplare „Einsamer Weg“, 2 Exemplare<lb/>
@@ -213,7 +199,8 @@ scheinenden Bücher selbstverständlich streng<lb/>
 nach dem alten Honorarsatz behandelt würden wür-<lb/>
 den. Daraufhin hatte ich mein Einverständnis<lb/>
 me Ihren Vorschlägen durch meine Unterschrift</p>
-        <p><pb facs="1416739_0066"/>0<lb/>
+        <p>
+          <pb facs="1416739_0066"/>0<lb/>
 bekräftigt. Wenn Sie es sich aber nun im Allge-<lb/>
 meinen oder in einzelnen Fällen so z.B. jetzt<lb/>
 bei meiner Novelle vorbehalten wollen das Buch<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -63,7 +64,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Antwort auf: <ref target="11435">1928-08-11 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11435">1928-08-11 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1928-08-11.html</note>
       </notesStmt>
@@ -80,6 +82,15 @@ Antwort auf: <ref target="11435">1928-08-11 SF (Berlin) an AS (Wien)</ref></note
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2238">Schnitzler, Lili</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb90895">Hohenschwangau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb248986">Hotel Alpenrose (Hohenschwangau)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb955">Teplitz–Schönau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11434.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -92,25 +103,6 @@ Antwort auf: <ref target="11435">1928-08-11 SF (Berlin) an AS (Wien)</ref></note
           <term>Verhandlung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb2238" source="https://pmb.acdh.oeaw.ac.at/entity/2238/">
-          <persName>Schnitzler, Lili</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb90895" source="https://pmb.acdh.oeaw.ac.at/entity/90895/">
-          <placeName>Hohenschwangau</placeName>
-        </place>
-        <place ref="#pmb248986" source="https://pmb.acdh.oeaw.ac.at/entity/248986/">
-          <placeName>Hotel Alpenrose (Hohenschwangau)</placeName>
-        </place>
-        <place ref="#pmb955" source="https://pmb.acdh.oeaw.ac.at/entity/955/">
-          <placeName>Teplitz–Schönau</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -120,10 +112,12 @@ Antwort auf: <ref target="11435">1928-08-11 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Antwort auf: <ref target="11435">1928-08-11 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11435">1928-08-11 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0064"/>Tischer<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0064"/>Tischer<lb/>
 11.8.1928.<lb/>
 Lieber Herr Dr.Maril,<lb/>
 G.H<lb/>

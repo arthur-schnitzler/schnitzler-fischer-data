@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -54,7 +55,8 @@
       <notesStmt>
         <note type="description">3 Blatt, 5 Seiten
 Antwort auf: <ref target="11007">1923-07-30 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11012">1923-09-17 SF (Berlin) an AS (Wien)</ref>, <ref target="11014">1923-09-19 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11012">1923-09-17 SF (Berlin) an AS (Wien)</ref>, <ref target="11014">1923-09-19 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="published_in">Schnitzler B II, 323-325</note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-08-28.html</note>
@@ -71,6 +73,16 @@ Beantwortet in: <ref target="11012">1923-09-17 SF (Berlin) an AS (Wien)</ref>, <
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19016">Kalckar, Marc</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20474">Linden, Gustaf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43570">Dänemark</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb64465">Norwegen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43435">Schweiz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11010.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -82,28 +94,6 @@ Beantwortet in: <ref target="11012">1923-09-17 SF (Berlin) an AS (Wien)</ref>, <
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb19016" source="https://pmb.acdh.oeaw.ac.at/entity/19016/">
-          <persName>Kalckar, Marc</persName>
-        </person>
-        <person ref="#pmb20474" source="https://pmb.acdh.oeaw.ac.at/entity/20474/">
-          <persName>Linden, Gustaf</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43570" source="https://pmb.acdh.oeaw.ac.at/entity/43570/">
-          <placeName>Dänemark</placeName>
-        </place>
-        <place ref="#pmb64465" source="https://pmb.acdh.oeaw.ac.at/entity/64465/">
-          <placeName>Norwegen</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-        <place ref="#pmb43435" source="https://pmb.acdh.oeaw.ac.at/entity/43435/">
-          <placeName>Schweiz</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -114,10 +104,12 @@ Beantwortet in: <ref target="11012">1923-09-17 SF (Berlin) an AS (Wien)</ref>, <
       <div type="letter">
         <p>3 Blatt, 5 Seiten
 Antwort auf: <ref target="11007">1923-07-30 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11012">1923-09-17 SF (Berlin) an AS (Wien)</ref>, <ref target="11014">1923-09-19 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11012">1923-09-17 SF (Berlin) an AS (Wien)</ref>, <ref target="11014">1923-09-19 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0279"/>in die Schweiz.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0279"/>in die Schweiz.<lb/>
 Wie stellt nun unser rechtliches Ver¬<lb/>
 hältnis zu Motitzky wegen des „Weiten Land“?<lb/>
 Bis zu welchem Tag läuft seine Opt von? Ich weise<lb/>
@@ -154,7 +146,8 @@ Verkauf von 25-30 Exemplaren meiner Bücher, etwa<lb/>
 entsprechen. Ist es vielleicht doch zum Teil die<lb/>
 nehnbarkeit,die unkontrollierbare Vagheit des Be-<lb/>
 griffs Verlagserlös, das meine Bucheinnahmenauf</p>
-        <p><pb facs="1416739_0280"/>so grotesk lächerliches Niveau heraüdrück 22 Einmal<lb/>
+        <p>
+          <pb facs="1416739_0280"/>so grotesk lächerliches Niveau heraüdrück 22 Einmal<lb/>
 hatte ich 25.dann 20, dann 15% vom Ladenpreis<lb/>
 des brosch. Expl.; ich war genötigt auf alle diese<lb/>
 Vertragsänderungen einzugehen,da Sie sonst un-<lb/>
@@ -199,7 +192,8 @@ sehbarer Zeit näher rücken könnte) abstrahieren so<lb/>
 lange die allgemeinen und besonderen Verhältnisse<lb/>
 im Buchhandel so jammervoll bleiben, dass ein Autor<lb/>
 meines Ranges und Namens sich eine Akontozahlung</p>
-        <p><pb facs="1416739_0281"/>von 10 Mark (und wären es meinethalben100) gefal-<lb/>
+        <p>
+          <pb facs="1416739_0281"/>von 10 Mark (und wären es meinethalben100) gefal-<lb/>
 len lassen muss. Auch eine Akontozahlung für Thea-<lb/>
 tertantiemen habe ich erhalten  zwei Millionen<lb/>
 Mark, also gut gerechnet 2'3 Mark.Auch hier sind<lb/>
@@ -245,7 +239,8 @@ erscheint mir, wie ich zum Schlusse noch einmal<lb/>
 bemerke,absolut geboten. Mit herzlichem Gruss<lb/>
 c. Fischer, Berlin.<lb/>
 Ihr</p>
-        <p><pb facs="1416739_0282"/>neiter xxx selbst<lb/>
+        <p>
+          <pb facs="1416739_0282"/>neiter xxx selbst<lb/>
 adlaae<lb/>
 G.H.F.P.<lb/>
 dreid jeldendos<lb/>
@@ -316,7 +311,8 @@ und Glauben hinnehmen. Ohne die Bedeutung<lb/>
 Ihrer Vertriebstätigkeit auch nur im geringste<lb/>
 verkleinern zu wollen, möchte ich doch be¬<lb/>
 merken, dass die Annahme meiner Stücke</p>
-        <p><pb facs="1416739_0283"/>Dänemark oder in Schweden doch kaum jemals<lb/>
+        <p>
+          <pb facs="1416739_0283"/>Dänemark oder in Schweden doch kaum jemals<lb/>
 auf Ihre direkte Intervention zurückzuführen<lb/>
 sein dürfte, eher noch könnten es Linden<lb/>
 oder Kalckar sein, die gelegentlich bei den<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -84,7 +85,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">3 Blatt, 5 Seiten
-Antwort auf: <ref target="10682">1918-12-25 SF (Grunewald) an AS (Wien)</ref></note>
+Antwort auf: <ref target="10682">1918-12-25 SF (Grunewald) an AS (Wien)</ref>
+        </note>
         <note type="published_in">Rodewald, 122-124 [Nr. 161]; Schnitzler B II, 170-172</note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1919-01-15.html</note>
@@ -101,6 +103,24 @@ Antwort auf: <ref target="10682">1918-12-25 SF (Grunewald) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb178500">Bloch, Eduard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12170">Mann, Heinrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12176">Mann, Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2556">Orloff, Ida</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12504">Reinhardt, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23675">Rotter, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb869">Moskau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb2318">Partenkirchen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb288834">Königlich Sächsisches Hoftheater zu Dresden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb61673">Trianon-Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10685.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -117,54 +137,6 @@ Antwort auf: <ref target="10682">1918-12-25 SF (Grunewald) an AS (Wien)</ref></n
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb178500" source="https://pmb.acdh.oeaw.ac.at/entity/178500/">
-          <persName>Bloch, Eduard</persName>
-        </person>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb12170" source="https://pmb.acdh.oeaw.ac.at/entity/12170/">
-          <persName>Mann, Heinrich</persName>
-        </person>
-        <person ref="#pmb12176" source="https://pmb.acdh.oeaw.ac.at/entity/12176/">
-          <persName>Mann, Thomas</persName>
-        </person>
-        <person ref="#pmb2556" source="https://pmb.acdh.oeaw.ac.at/entity/2556/">
-          <persName>Orloff, Ida</persName>
-        </person>
-        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
-          <persName>Reinhardt, Max</persName>
-        </person>
-        <person ref="#pmb23675" source="https://pmb.acdh.oeaw.ac.at/entity/23675/">
-          <persName>Rotter, Alfred</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb869" source="https://pmb.acdh.oeaw.ac.at/entity/869/">
-          <placeName>Moskau</placeName>
-        </place>
-        <place ref="#pmb2318" source="https://pmb.acdh.oeaw.ac.at/entity/2318/">
-          <placeName>Partenkirchen</placeName>
-        </place>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb288834" source="https://pmb.acdh.oeaw.ac.at/entity/288834/">
-          <orgName>Königlich Sächsisches Hoftheater zu Dresden</orgName>
-        </org>
-        <org ref="#pmb61673" source="https://pmb.acdh.oeaw.ac.at/entity/61673/">
-          <orgName>Trianon-Theater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -174,10 +146,12 @@ Antwort auf: <ref target="10682">1918-12-25 SF (Grunewald) an AS (Wien)</ref></n
     <body>
       <div type="letter">
         <p>3 Blatt, 5 Seiten
-Antwort auf: <ref target="10682">1918-12-25 SF (Grunewald) an AS (Wien)</ref></p>
+Antwort auf: <ref target="10682">1918-12-25 SF (Grunewald) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0079"/>P.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0079"/>P.<lb/>
 dem neuen Verleger übernommen werden. Hinzu-<lb/>
 fügen möchte ich noch - wenn das auch bei dem<lb/>
 heutigen Stahd der Dinge xxxx bedeutungslos<lb/>
@@ -216,7 +190,8 @@ restierenden Exemplare zum Buchhändlerpreise<lb/>
 übernimmt, weiter überlassen kann. Ueberdies<lb/>
 habe ich mir kontraktlich das weitestgehende<lb/>
 Kontrollrecht gesichert.</p>
-        <p><pb facs="1416739_0080"/>Indess gehen immer weitere Anfragen<lb/>
+        <p>
+          <pb facs="1416739_0080"/>Indess gehen immer weitere Anfragen<lb/>
 zu telegraphieren wusste. Von den xxxigxx Auf-<lb/>
 und Anbote betreffs einer Aufführung des mei¬<lb/>
 führungen - des „Reigen“ in Russland habe ich ih-<lb/>
@@ -262,7 +237,8 @@ zuschreiten. Mir fiel es auf, dass das Albert-<lb/>
 Honor<lb/>
 mehr, selbst wenn schon ein Exemplar fällig ge-<lb/>
 Theater mir gar schon einen bestimmten Termin</p>
-        <p><pb facs="1416739_0081"/>worden sein sollte, es vorläufig nicht an mich<lb/>
+        <p>
+          <pb facs="1416739_0081"/>worden sein sollte, es vorläufig nicht an mich<lb/>
 auszubezahlen.<lb/>
 neuen<lb/>
 Das Honorar für die Auflagen des „Bern-<lb/>
@@ -304,7 +280,8 @@ auch dort,wo sie es gerne wollten,wirklich Po¬<lb/>
 litiker zu sein. Zu küsse<lb/>
 Mit herzliche Grüssen<lb/>
 Ihr</p>
-        <p><pb facs="1416739_0082"/>^ is cher<lb/>
+        <p>
+          <pb facs="1416739_0082"/>^ is cher<lb/>
 20.1.1919.<lb/>
 Lieber Freund.<lb/>
 Was Sie mir über Ihre Stimmung gegen¬<lb/>
@@ -328,7 +305,8 @@ gebührt. Das eigentliche Problem liegt freilich<lb/>
 bei der Frage,welche Art von Arbeiteund Vertre-<lb/>
 tung Sie von R. wünschen, und inwieweit Sie<lb/>
 ihm überhaupt Selbständigkeit der Entschlusse</p>
-        <p><pb facs="1416739_0083"/>gewahrte isten wollen. Dass er augenblicklich<lb/>
+        <p>
+          <pb facs="1416739_0083"/>gewahrte isten wollen. Dass er augenblicklich<lb/>
 nicht viel mehr tun kann als er tut, das besta-<lb/>
 tigen sie ja selbst mit der Bemerkung, dass unter<lb/>
 den derzeitigen Umständen die Neuherstellung<lb/>

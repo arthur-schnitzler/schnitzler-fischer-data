@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,7 +71,8 @@
         <note type="description">1 Blatt, 2 Seiten beschrieben
 
 Antwort auf: 1912-12-07 AS an SF (referiert bei Rodewald, 869 [Anm. zu Nr. 137]; in den von AS verwahrten Durchschlägen nicht vorhanden)
-Beantwortet in: <ref target="10479">1912-12-16 AS an SF</ref></note>
+Beantwortet in: <ref target="10479">1912-12-16 AS an SF</ref>
+        </note>
         <note type="published_in">Rodewald, 99 [Nr. 137]</note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1912-12-10.html</note>
@@ -88,6 +90,13 @@ Beantwortet in: <ref target="10479">1912-12-16 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11527">Großmann, Stefan</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3183">Rundt, Arthur</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb36430">Volkstheater Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10477.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -96,19 +105,6 @@ Beantwortet in: <ref target="10479">1912-12-16 AS an SF</ref></note>
           <term>Ministerium</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11527" source="https://pmb.acdh.oeaw.ac.at/entity/11527/">
-          <persName>Großmann, Stefan</persName>
-        </person>
-        <person ref="#pmb3183" source="https://pmb.acdh.oeaw.ac.at/entity/3183/">
-          <persName>Rundt, Arthur</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="#pmb36430" source="https://pmb.acdh.oeaw.ac.at/entity/36430/">
-          <orgName>Volkstheater Wien</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -120,10 +116,12 @@ Beantwortet in: <ref target="10479">1912-12-16 AS an SF</ref></note>
         <p>1 Blatt, 2 Seiten beschrieben
 
 Antwort auf: 1912-12-07 AS an SF (referiert bei Rodewald, 869 [Anm. zu Nr. 137]; in den von AS verwahrten Durchschlägen nicht vorhanden)
-Beantwortet in: <ref target="10479">1912-12-16 AS an SF</ref></p>
+Beantwortet in: <ref target="10479">1912-12-16 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0597"/>305<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0597"/>305<lb/>
 S. FISCHER, VERLAG,’ BERLIN W., BÜLowSTR. 90<lb/>
 THEATERABTEILUNG<lb/>
 BERene W., DEN 10. Dez.12<lb/>
@@ -146,7 +144,8 @@ Deutsche Volkstheater moralisch verpflich-<lb/>
 tet, den Versuch der geschlossenen Vorstel-<lb/>
 lung durchzuführen. Wir haben die Direktion<lb/>
 Grossman-Rundt nur deshalb proponiert</p>
-        <p><pb facs="1416742_0598"/>weil wir eine Ablehnung dieses Vorschlags<lb/>
+        <p>
+          <pb facs="1416742_0598"/>weil wir eine Ablehnung dieses Vorschlags<lb/>
 am Deutschen Volkstheater vorausgesehen<lb/>
 haben und weil die Direktion Grossmann-Rundt<lb/>
 aus Gründen des Ehrgeizes diese einmalige<lb/>

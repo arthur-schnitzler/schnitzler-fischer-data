@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -75,7 +76,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="10602">1917-02-19 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="10602">1917-02-19 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1917-03-01.html</note>
       </notesStmt>
@@ -91,6 +93,14 @@ Antwort auf: <ref target="10602">1917-02-19 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8076">Kainer, Ludwig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116802529">Martin, Anton Karl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="507255-4">Schauspielhaus Bremen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10603.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,22 +110,6 @@ Antwort auf: <ref target="10602">1917-02-19 AS (Wien) an SF (Berlin)</ref></note
           <term>Presse/Feuilleton</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb8076" source="https://pmb.acdh.oeaw.ac.at/entity/8076/">
-          <persName>Kainer, Ludwig</persName>
-        </person>
-        <person ref="116802529" source="https://d-nb.info/gnd/116802529">
-          <persName>Martin, Anton Karl</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="507255-4" source="https://d-nb.info/gnd/507255-4">
-          <orgName>Schauspielhaus Bremen</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -125,10 +119,12 @@ Antwort auf: <ref target="10602">1917-02-19 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="10602">1917-02-19 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="10602">1917-02-19 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0054"/>38.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0054"/>38.<lb/>
 38.<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
 1/3. 1917<lb/>
@@ -160,7 +156,8 @@ Leider wird sich auch nichts gegen das Verbot des "Kakidn" machen<lb/>
 lassen, ebenso wenig wie gegen das „Anatel“- Verbot. Ich bin nicht<lb/>
 legitimiert, gegen das Verbot etwas zu unternehmen, das kann nur der<lb/>
 F. 270</p>
-        <p><pb facs="1416743_0055"/>188<lb/>
+        <p>
+          <pb facs="1416743_0055"/>188<lb/>
 Blatt 2<lb/>
 „VERLAG, BERLIN,<lb/>
 davon betroffene Theaterdirektor tun. Eine rechtliche Grundlage<lb/>

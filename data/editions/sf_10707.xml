@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -81,6 +82,14 @@
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb16704">Friese, Otto</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10707.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -94,22 +103,6 @@
           <term>österreichisch</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb16704" source="https://pmb.acdh.oeaw.ac.at/entity/16704/">
-          <persName>Friese, Otto</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -120,8 +113,9 @@
       <div type="letter">
         <p>3 Blatt, 5 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0098"/>4. Juli 1919.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0098"/>4. Juli 1919.<lb/>
 Fischer<lb/>
 G.F.P.<lb/>
 Lieber Freund.<lb/>
@@ -142,7 +136,8 @@ Ihrem Verlag bei ihm liegenden Bücher oder nach<lb/>
 Rücksendung des grössten Teils dieses Lagers<lb/>
 schon deshalb nicht gefasst gewesen zu sein,<lb/>
 weil eine solche Forderung Ihrerseits nach den</p>
-        <p><pb facs="1416739_0099"/>schriftlich zwischen Ihnen und ihm getroffenen<lb/>
+        <p>
+          <pb facs="1416739_0099"/>schriftlich zwischen Ihnen und ihm getroffenen<lb/>
 vereinbarungen nicht vorherzusehen gewesen<lb/>
 wäre und weil sie selbst mit Rücksicht auf die<lb/>
 seit zwanzig Jahren bestehende Geschäftsver¬<lb/>
@@ -184,7 +179,8 @@ Ungern erfahre ich auch dass so gut<lb/>
 wie zar keine broschierten Exemplare nach Wien<lb/>
 kommen. Darüber haben sich schon manche Fuch¬<lb/>
 händler und private Käufer bei mir beklagt,</p>
-        <p><pb facs="1416739_0100"/>die gera gemeigt waren, für ein Buch drei oder<lb/>
+        <p>
+          <pb facs="1416739_0100"/>die gera gemeigt waren, für ein Buch drei oder<lb/>
 vier oder fünf Mark, nicht aber für einen<lb/>
 schlechten einband zwei bis drei Mark zu bezah-<lb/>
 len. Es gibt auch Leute, die sich ihre Bücher<lb/>
@@ -219,7 +215,8 @@ parzentuellen Masstab doch auch gewisser massen<lb/>
 die reine ist.<lb/>
 Mit herzlichen Gruss<lb/>
 Ihr</p>
-        <p><pb facs="1416739_0101"/>7.Juli 19191.<lb/>
+        <p>
+          <pb facs="1416739_0101"/>7.Juli 19191.<lb/>
 An den Theatervertrieb<lb/>
 S.Fischer,<lb/>
 a<lb/>
@@ -239,7 +236,8 @@ Ihrer Quartalabeschnung zu finden.Falle Ihnen<lb/>
 das Präger Deutsche Landestheater die Abreck-<lb/>
 nung noch nicht geschickt hat, weisen die Di-<lb/>
 rektion vielleicht an besten an. Sie bis auf</p>
-        <p><pb facs="1416739_0102"/>Weiteres direkt an mich zu schicken.<lb/>
+        <p>
+          <pb facs="1416739_0102"/>Weiteres direkt an mich zu schicken.<lb/>
 Zugleich bitte ich die im Juli fällig<lb/>
 werdende Bühnesvertriebssumme für das 2.Quar¬<lb/>
 tal an mein ronto, Berlin,Deutsche Bank, Depo¬<lb/>

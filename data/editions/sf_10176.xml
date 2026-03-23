@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10176">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -88,78 +89,34 @@ Antwort auf: 1907-02-23ante SF an AS (Liste Freiexemplarversand 'Dämmerseelen';
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10799">Bab, Julius</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10863">Beer-Hofmann, Richard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="11674748X">Fred, Alfred W.</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11469">Gold, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb267828">Goth, Ernst</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2229">Handl, Willi</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11701">Hirschfeld, Georg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11740">Hofmannsthal, Hugo von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11771">Holzer, Rudolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11910">Kerr, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8214">Klaar, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb48928">Kronfeld, Ernst Moritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb161049">Lesser, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12408">Pernerstorfer, Engelbert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12441">Poppenberg, Felix</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2167">Salten, Felix</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13055">Wassermann, Jakob</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2226">Wechsler, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13071">Weilen, Alexander von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2725">Wymetal, Wilhelm von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43471">Budapest</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10176.xml"/>
+        </note>
       </correspDesc>
       <textClass/>
-      <listPerson>
-        <person ref="#pmb10799" source="https://pmb.acdh.oeaw.ac.at/entity/10799/">
-          <persName>Bab, Julius</persName>
-        </person>
-        <person ref="#pmb10863" source="https://pmb.acdh.oeaw.ac.at/entity/10863/">
-          <persName>Beer-Hofmann, Richard</persName>
-        </person>
-        <person ref="11674748X" source="https://d-nb.info/gnd/11674748X">
-          <persName>Fred, Alfred W.</persName>
-        </person>
-        <person ref="#pmb11469" source="https://pmb.acdh.oeaw.ac.at/entity/11469/">
-          <persName>Gold, Alfred</persName>
-        </person>
-        <person ref="#pmb267828" source="https://pmb.acdh.oeaw.ac.at/entity/267828/">
-          <persName>Goth, Ernst</persName>
-        </person>
-        <person ref="#pmb2229" source="https://pmb.acdh.oeaw.ac.at/entity/2229/">
-          <persName>Handl, Willi</persName>
-        </person>
-        <person ref="#pmb11701" source="https://pmb.acdh.oeaw.ac.at/entity/11701/">
-          <persName>Hirschfeld, Georg</persName>
-        </person>
-        <person ref="#pmb11740" source="https://pmb.acdh.oeaw.ac.at/entity/11740/">
-          <persName>Hofmannsthal, Hugo von</persName>
-        </person>
-        <person ref="#pmb11771" source="https://pmb.acdh.oeaw.ac.at/entity/11771/">
-          <persName>Holzer, Rudolf</persName>
-        </person>
-        <person ref="#pmb11910" source="https://pmb.acdh.oeaw.ac.at/entity/11910/">
-          <persName>Kerr, Alfred</persName>
-        </person>
-        <person ref="#pmb8214" source="https://pmb.acdh.oeaw.ac.at/entity/8214/">
-          <persName>Klaar, Alfred</persName>
-        </person>
-        <person ref="#pmb48928" source="https://pmb.acdh.oeaw.ac.at/entity/48928/">
-          <persName>Kronfeld, Ernst Moritz</persName>
-        </person>
-        <person ref="#pmb161049" source="https://pmb.acdh.oeaw.ac.at/entity/161049/">
-          <persName>Lesser, Max</persName>
-        </person>
-        <person ref="#pmb12408" source="https://pmb.acdh.oeaw.ac.at/entity/12408/">
-          <persName>Pernerstorfer, Engelbert</persName>
-        </person>
-        <person ref="#pmb12441" source="https://pmb.acdh.oeaw.ac.at/entity/12441/">
-          <persName>Poppenberg, Felix</persName>
-        </person>
-        <person ref="#pmb2167" source="https://pmb.acdh.oeaw.ac.at/entity/2167/">
-          <persName>Salten, Felix</persName>
-        </person>
-        <person ref="#pmb13055" source="https://pmb.acdh.oeaw.ac.at/entity/13055/">
-          <persName>Wassermann, Jakob</persName>
-        </person>
-        <person ref="#pmb2226" source="https://pmb.acdh.oeaw.ac.at/entity/2226/">
-          <persName>Wechsler, Alfred</persName>
-        </person>
-        <person ref="#pmb13071" source="https://pmb.acdh.oeaw.ac.at/entity/13071/">
-          <persName>Weilen, Alexander von</persName>
-        </person>
-        <person ref="#pmb2725" source="https://pmb.acdh.oeaw.ac.at/entity/2725/">
-          <persName>Wymetal, Wilhelm von</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43471" source="https://pmb.acdh.oeaw.ac.at/entity/43471/">
-          <placeName>Budapest</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>

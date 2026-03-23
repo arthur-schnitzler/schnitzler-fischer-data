@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -101,6 +102,13 @@ Antwort auf: 1923-01-03 SF (Berlin) a AS (Wien)</note>
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11646">Heller, Hugo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb313">Polen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb388">Spanien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10961.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -111,19 +119,6 @@ Antwort auf: 1923-01-03 SF (Berlin) a AS (Wien)</note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11646" source="https://pmb.acdh.oeaw.ac.at/entity/11646/">
-          <persName>Heller, Hugo</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
-          <placeName>Polen</placeName>
-        </place>
-        <place ref="#pmb388" source="https://pmb.acdh.oeaw.ac.at/entity/388/">
-          <placeName>Spanien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -135,8 +130,9 @@ Antwort auf: 1923-01-03 SF (Berlin) a AS (Wien)</note>
         <p>1 Blatt, 2 Seiten
 Antwort auf: 1923-01-03 SF (Berlin) a AS (Wien)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0260"/>2 k -9 m<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0260"/>2 k -9 m<lb/>
 — 80<lb/>
 tsch=<lb/>
 — P: P:<lb/>
@@ -342,7 +338,8 @@ näyttää, että nykyäärät järjestät<lb/>
 O.L.I.S.O.F.C.H.P.S..<lb/>
 Höyttämään L o--<lb/>
 määrätä aikaisestä, jotka nykyään ai-</p>
-        <p><pb facs="1416739_0261"/>P.M. S. +<lb/>
+        <p>
+          <pb facs="1416739_0261"/>P.M. S. +<lb/>
 «y »<lb/>
 o o ro<lb/>
 c.<lb/>

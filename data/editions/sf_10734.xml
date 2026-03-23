@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -83,6 +84,15 @@ Anlage: 1919-12-30 Kantorowitz, M. (Zürich) an SF (Berlin)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb301126">Kantorowitz, Michael</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23303">Reucker, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45530">Deutsches Schauspielhaus in Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb250435">Hamburger Kammerspiele</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb265652">Stadttheater Zürich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10734.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -93,25 +103,6 @@ Anlage: 1919-12-30 Kantorowitz, M. (Zürich) an SF (Berlin)</note>
           <term>Tantiemen</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb301126" source="https://pmb.acdh.oeaw.ac.at/entity/301126/">
-          <persName>Kantorowitz, Michael</persName>
-        </person>
-        <person ref="#pmb23303" source="https://pmb.acdh.oeaw.ac.at/entity/23303/">
-          <persName>Reucker, Alfred</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="#pmb45530" source="https://pmb.acdh.oeaw.ac.at/entity/45530/">
-          <orgName>Deutsches Schauspielhaus in Hamburg</orgName>
-        </org>
-        <org ref="#pmb250435" source="https://pmb.acdh.oeaw.ac.at/entity/250435/">
-          <orgName>Hamburger Kammerspiele</orgName>
-        </org>
-        <org ref="#pmb265652" source="https://pmb.acdh.oeaw.ac.at/entity/265652/">
-          <orgName>Stadttheater Zürich</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -123,8 +114,9 @@ Anlage: 1919-12-30 Kantorowitz, M. (Zürich) an SF (Berlin)</note>
         <p>3 Blatt, 3 Seiten
 Anlage: 1919-12-30 Kantorowitz, M. (Zürich) an SF (Berlin)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0214"/>E40 442<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0214"/>E40 442<lb/>
 S. Fischer. Verlag. Berlin<lb/>
 ummmme<lb/>
 Amt Lützow 1662 n. 6162 Theaterabteilung postscheckkonto Nr. 16892<lb/>
@@ -162,7 +154,8 @@ Die oben genannten Bedingungen haben Sältigkeit bis zum „ Sollten wir an dies
 entscheidende Antwort erhalten haben, so nehmen wir an, daß wir über das in Frage stehende Werk anderwettig verfügen können<lb/>
 6. 28.<lb/>
 entscheidende Antwort erhalten haben, so nehmen wir</p>
-        <p><pb facs="1416743_0215"/>44 g<lb/>
+        <p>
+          <pb facs="1416743_0215"/>44 g<lb/>
 mili-e. golta G. rschli<lb/>
 G.C.H.P<lb/>
 (1) 1/2 rt. t.t. m...v. r. p.. r.... m.. r. mai n. m. a. r: m.. m..<lb/>
@@ -201,7 +194,8 @@ Die TÜW meldose überallassen kaufen.<lb/>
 nicht auf der xxx nachrichten und wiederholt wurde sich<lb/>
 nennet möglichne mitzuräbung Ihrück abmacht schonl. n. auch redt um gibt, so ihm münden ei würden natimällst abnebrachten.<lb/>
 vraisï oi T oiaiib oi iiai oaUa2</p>
-        <p><pb facs="1416743_0216"/>4.<lb/>
+        <p>
+          <pb facs="1416743_0216"/>4.<lb/>
 ren. In dieser Weise abgesetiget. I. Schwermit<lb/>
 suliert, wir fragen in, ob<lb/>
 Dieu et M.<lb/>

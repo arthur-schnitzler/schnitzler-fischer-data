@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -88,6 +89,12 @@ Anhang: 1928-03-28 AS an Harz</note>
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="118509683">Bermann, Gottfried</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11401.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -99,14 +106,6 @@ Anhang: 1928-03-28 AS an Harz</note>
           <term>Urheberrecht/Copyright</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="118509683" source="https://d-nb.info/gnd/118509683">
-          <persName>Bermann, Gottfried</persName>
-        </person>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -120,8 +119,9 @@ Antwort auf: <ref target="11399">1928-03-26 SF (Berlin) an AS (Wien)</ref>, <ref
 Beantwortet in: <ref target="11413">1928-05-16 SF (Berlin) an AS (Wien)</ref>
 Anhang: 1928-03-28 AS an Harz</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0036"/>29.3.1928.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0036"/>29.3.1928.<lb/>
 J. Tischer,<lb/>
 /Hary<lb/>
 Sehr verehrter Herr Doktor Maril.<lb/>
@@ -158,7 +158,8 @@ der Beschlagnahme bei, das von dem seinerzeitigen<lb/>
 Verleger (Singer &amp; Co.) eingereicht wurde. Ich<lb/>
 weiss auch nicht, wie die Sache demals ausging. Es<lb/>
 scheint ja, dass auch die Behörden im Falle "Reigen"</p>
-        <p><pb facs="1416741_0037"/>niemals eigentlich so recht Farbe bekennen wollen.<lb/>
+        <p>
+          <pb facs="1416741_0037"/>niemals eigentlich so recht Farbe bekennen wollen.<lb/>
 Nächstens mehr. I der Einbandfrage, über<lb/>
 die mir Herr Hermann neulich geschrieben, habe ich<lb/>
 natürlich nichts mehr zu bemerken, meine Liste er-<lb/>

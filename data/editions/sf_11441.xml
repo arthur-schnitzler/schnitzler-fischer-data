@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -73,7 +74,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
 Antwort auf: <ref target="11440">1928-09-13 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11444">1928-10-01 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="11444">1928-10-01 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift, eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1928-09-21.html</note>
       </notesStmt>
@@ -89,6 +91,15 @@ Beantwortet in: <ref target="11444">1928-10-01 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4374">Maril, Konrad</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb54787">Zuckerkandl, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34946">Pontresina</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11441.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -114,25 +125,6 @@ Beantwortet in: <ref target="11444">1928-10-01 AS (Wien) an SF (Berlin)</ref></n
           <term>Zeitschrift</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb4374" source="https://pmb.acdh.oeaw.ac.at/entity/4374/">
-          <persName>Maril, Konrad</persName>
-        </person>
-        <person ref="#pmb54787" source="https://pmb.acdh.oeaw.ac.at/entity/54787/">
-          <persName>Zuckerkandl, Victor</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb34946" source="https://pmb.acdh.oeaw.ac.at/entity/34946/">
-          <placeName>Pontresina</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -143,10 +135,12 @@ Beantwortet in: <ref target="11444">1928-10-01 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>2 Blatt, 2 Seiten
 Antwort auf: <ref target="11440">1928-09-13 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11444">1928-10-01 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="11444">1928-10-01 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_1054"/>ooc<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_1054"/>ooc<lb/>
 selbe<lb/>
 S. Fischer / Verlag / A.-G. Berlin W 57<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto. Berlin Nr. 1669a<lb/>
@@ -190,7 +184,8 @@ oder im Rahmen der gesammelten Werke verrechnen. Die obändige Reihe wird<lb/>
 Anfang November erscheinen. Wir haben davon je 4000 Exemplare gedruck<lb/>
 einstweilen.<lb/>
 vom Ergänzungsband 5006 Exemplare. Wir werden, wie wir vereinbart</p>
-        <p><pb facs="1416743_1055"/>decr.<lb/>
+        <p>
+          <pb facs="1416743_1055"/>decr.<lb/>
 S. Fischer / Verlag / A.=G. Berlin W 57.<lb/>
 u<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P in Berlin/Postscherkkonto: Berlin Nr. 1669.<lb/>

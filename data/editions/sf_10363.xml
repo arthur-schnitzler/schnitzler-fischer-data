@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -85,7 +86,8 @@
         <note type="description">2 Blatt, 2 Seiten beschrieben
 
 Antwort auf: <ref target="10362">1911-01-14 AS an SF</ref>
-Beantwortet in: <ref target="10364">1911-01-23 AS an SF</ref></note>
+Beantwortet in: <ref target="10364">1911-01-23 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1911-01-16.html</note>
       </notesStmt>
@@ -101,40 +103,24 @@ Beantwortet in: <ref target="10364">1911-01-23 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12438">Adam, Robert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb14344">Bock, Philipp</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2229">Handl, Willi</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb24477">Schott, Richard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3365">Stollberg, Ignaz Georg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29265">Akademisch-dramatischer Verein (Neuer Verein) München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="63304-5">Königlich Württembergisches Hof-Theater Stuttgart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="44467-4">Münchner Schauspielhaus</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10363.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Aufführung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb12438" source="https://pmb.acdh.oeaw.ac.at/entity/12438/">
-          <persName>Adam, Robert</persName>
-        </person>
-        <person ref="#pmb14344" source="https://pmb.acdh.oeaw.ac.at/entity/14344/">
-          <persName>Bock, Philipp</persName>
-        </person>
-        <person ref="#pmb2229" source="https://pmb.acdh.oeaw.ac.at/entity/2229/">
-          <persName>Handl, Willi</persName>
-        </person>
-        <person ref="#pmb24477" source="https://pmb.acdh.oeaw.ac.at/entity/24477/">
-          <persName>Schott, Richard</persName>
-        </person>
-        <person ref="#pmb3365" source="https://pmb.acdh.oeaw.ac.at/entity/3365/">
-          <persName>Stollberg, Ignaz Georg</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="#pmb29265" source="https://pmb.acdh.oeaw.ac.at/entity/29265/">
-          <orgName>Akademisch-dramatischer Verein (Neuer Verein) München</orgName>
-        </org>
-        <org ref="63304-5" source="https://d-nb.info/gnd/63304-5">
-          <orgName>Königlich Württembergisches Hof-Theater Stuttgart</orgName>
-        </org>
-        <org ref="44467-4" source="https://d-nb.info/gnd/44467-4">
-          <orgName>Münchner Schauspielhaus</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -146,10 +132,12 @@ Beantwortet in: <ref target="10364">1911-01-23 AS an SF</ref></note>
         <p>2 Blatt, 2 Seiten beschrieben
 
 Antwort auf: <ref target="10362">1911-01-14 AS an SF</ref>
-Beantwortet in: <ref target="10364">1911-01-23 AS an SF</ref></p>
+Beantwortet in: <ref target="10364">1911-01-23 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0470"/>238.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0470"/>238.<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstraße 90<lb/>
 den 16/1. 1911<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -175,7 +163,8 @@ andern Einakter aus dem Zyklus einfügen will. Die Aufführung des Neuen<lb/>
 Vereins in München hat keinen Zweck und müsste jedenfalls abgelehnt werden.<lb/>
 Ausser den Ihnen neulich aufgegebenen Bühnen, die den Anatol-zyklus<lb/>
 aufgenommen haben, schweben neuerdings auch noch Verhandlungen mit dem</p>
-        <p><pb facs="1416742_0471"/>Blatt 2<lb/>
+        <p>
+          <pb facs="1416742_0471"/>Blatt 2<lb/>
 S. Fischer, Verlag, Berlin, 190<lb/>
 Hoftheater in Stuttgart.<lb/>
 Handl hat sich bereit erklärt, die vielerwähnte Monographie zu schrei-<lb/>

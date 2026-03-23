@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -78,7 +79,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
-Antwort auf: <ref target="10968">1923-01-26 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="10968">1923-01-26 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-01-29.html</note>
       </notesStmt>
@@ -95,6 +97,21 @@ Antwort auf: <ref target="10968">1923-01-26 SF (Berlin) an AS (Wien)</ref></note
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19016">Kalckar, Marc</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4423">Knopf, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5031">Samuel, Horace Barnett</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb24825">Seltzer, Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb26030">Thomsen, Niels Thingberg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43570">Dänemark</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb224">London</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb64465">Norwegen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45530">Deutsches Schauspielhaus in Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10970.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -106,45 +123,6 @@ Antwort auf: <ref target="10968">1923-01-26 SF (Berlin) an AS (Wien)</ref></note
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb19016" source="https://pmb.acdh.oeaw.ac.at/entity/19016/">
-          <persName>Kalckar, Marc</persName>
-        </person>
-        <person ref="#pmb4423" source="https://pmb.acdh.oeaw.ac.at/entity/4423/">
-          <persName>Knopf, Alfred</persName>
-        </person>
-        <person ref="#pmb5031" source="https://pmb.acdh.oeaw.ac.at/entity/5031/">
-          <persName>Samuel, Horace Barnett</persName>
-        </person>
-        <person ref="#pmb24825" source="https://pmb.acdh.oeaw.ac.at/entity/24825/">
-          <persName>Seltzer, Thomas</persName>
-        </person>
-        <person ref="#pmb26030" source="https://pmb.acdh.oeaw.ac.at/entity/26030/">
-          <persName>Thomsen, Niels Thingberg</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43570" source="https://pmb.acdh.oeaw.ac.at/entity/43570/">
-          <placeName>Dänemark</placeName>
-        </place>
-        <place ref="#pmb224" source="https://pmb.acdh.oeaw.ac.at/entity/224/">
-          <placeName>London</placeName>
-        </place>
-        <place ref="#pmb64465" source="https://pmb.acdh.oeaw.ac.at/entity/64465/">
-          <placeName>Norwegen</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb45530" source="https://pmb.acdh.oeaw.ac.at/entity/45530/">
-          <orgName>Deutsches Schauspielhaus in Hamburg</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -154,10 +132,12 @@ Antwort auf: <ref target="10968">1923-01-26 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 4 Seiten
-Antwort auf: <ref target="10968">1923-01-26 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="10968">1923-01-26 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0264"/>bleiben. Ihr holländischer vermittler hat mit<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0264"/>bleiben. Ihr holländischer vermittler hat mit<lb/>
 diesem Gastspiel jedesfall nichts zu tun.<lb/>
 Haben Sie von Wottitzky etwas gehört?<lb/>
 Die Angelegenheit wird mir aus verschiedenen<lb/>
@@ -281,7 +261,8 @@ täin läänissä wäärät wähden ai-<lb/>
 määränä. Oulun lääneissä se<lb/>
 Vuodentulksen määrätä.<lb/>
 tää- siiHäisestäis.</p>
-        <p><pb facs="1416739_0265"/>Zi<lb/>
+        <p>
+          <pb facs="1416739_0265"/>Zi<lb/>
 määrätä. Uudenmaan lääneissä sekä<lb/>
 Oulun läänin määrän.<lb/>
 määrätä. Uudenmaan sekä<lb/>
@@ -507,7 +488,8 @@ korteja nykyään wäärän ai-<lb/>
 määräänissä ai ikkeuksesti.<lb/>
 ...<lb/>
 Vuodentulksen määränissä.</p>
-        <p><pb facs="1416739_0266"/>R.A.B.F.K.L.S. &amp; P.D.<lb/>
+        <p>
+          <pb facs="1416739_0266"/>R.A.B.F.K.L.S. &amp; P.D.<lb/>
 O w — m — —<lb/>
 T.O.B. P.F.E.P.S.<lb/>
 G.HO.O.<lb/>
@@ -699,7 +681,8 @@ Wm<lb/>
 :-4<lb/>
 G:n<lb/>
 T</p>
-        <p><pb facs="1416739_0267"/>P.S.C<lb/>
+        <p>
+          <pb facs="1416739_0267"/>P.S.C<lb/>
 +<lb/>
 19.2.1923.<lb/>
 Sehr geehrter Herr Greiner.<lb/>

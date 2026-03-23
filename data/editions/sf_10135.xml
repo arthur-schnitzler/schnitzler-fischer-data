@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10135">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,6 +80,40 @@ Antwort auf: 1903-12-15post/1903-12-21ante AS an SF (Bühnenexemplare 'Der einsa
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10986">Brahm, Otto</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb913">Bonn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb891">Bremen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb677">Breslau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb866">Dresden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb146">Frankfurt am Main</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb860">Graz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb890">Hannover</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb145">Köln</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb864">Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44176">Olmütz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb652">Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb872">Stuttgart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb47927">Washington</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb883">Wiesbaden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45530">Deutsches Schauspielhaus in Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb57303">Deutsches Theater Hannover</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb288834">Königlich Sächsisches Hoftheater zu Dresden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="63304-5">Königlich Württembergisches Hof-Theater Stuttgart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb195328">Königliche Schauspiele Wiesbaden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="1231430-4">Königliches Deutsches Landestheater Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="44467-4">Münchner Schauspielhaus</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb57345">Schauspielhaus Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="217619-1">Stadttheater Bonn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="216498-X">Vereinigte Stadttheater Köln</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb239010">Vereinigte Theater Breslau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10135.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -88,102 +123,6 @@ Antwort auf: 1903-12-15post/1903-12-21ante AS an SF (Bühnenexemplare 'Der einsa
           <term>Urheberrecht/Copyright</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10986" source="https://pmb.acdh.oeaw.ac.at/entity/10986/">
-          <persName>Brahm, Otto</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb913" source="https://pmb.acdh.oeaw.ac.at/entity/913/">
-          <placeName>Bonn</placeName>
-        </place>
-        <place ref="#pmb891" source="https://pmb.acdh.oeaw.ac.at/entity/891/">
-          <placeName>Bremen</placeName>
-        </place>
-        <place ref="#pmb677" source="https://pmb.acdh.oeaw.ac.at/entity/677/">
-          <placeName>Breslau</placeName>
-        </place>
-        <place ref="#pmb866" source="https://pmb.acdh.oeaw.ac.at/entity/866/">
-          <placeName>Dresden</placeName>
-        </place>
-        <place ref="#pmb146" source="https://pmb.acdh.oeaw.ac.at/entity/146/">
-          <placeName>Frankfurt am Main</placeName>
-        </place>
-        <place ref="#pmb860" source="https://pmb.acdh.oeaw.ac.at/entity/860/">
-          <placeName>Graz</placeName>
-        </place>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-        <place ref="#pmb890" source="https://pmb.acdh.oeaw.ac.at/entity/890/">
-          <placeName>Hannover</placeName>
-        </place>
-        <place ref="#pmb145" source="https://pmb.acdh.oeaw.ac.at/entity/145/">
-          <placeName>Köln</placeName>
-        </place>
-        <place ref="#pmb864" source="https://pmb.acdh.oeaw.ac.at/entity/864/">
-          <placeName>Leipzig</placeName>
-        </place>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-        <place ref="#pmb44176" source="https://pmb.acdh.oeaw.ac.at/entity/44176/">
-          <placeName>Olmütz</placeName>
-        </place>
-        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
-          <placeName>Prag</placeName>
-        </place>
-        <place ref="#pmb872" source="https://pmb.acdh.oeaw.ac.at/entity/872/">
-          <placeName>Stuttgart</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb47927" source="https://pmb.acdh.oeaw.ac.at/entity/47927/">
-          <placeName>Washington</placeName>
-        </place>
-        <place ref="#pmb883" source="https://pmb.acdh.oeaw.ac.at/entity/883/">
-          <placeName>Wiesbaden</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb45530" source="https://pmb.acdh.oeaw.ac.at/entity/45530/">
-          <orgName>Deutsches Schauspielhaus in Hamburg</orgName>
-        </org>
-        <org ref="#pmb57303" source="https://pmb.acdh.oeaw.ac.at/entity/57303/">
-          <orgName>Deutsches Theater Hannover</orgName>
-        </org>
-        <org ref="#pmb288834" source="https://pmb.acdh.oeaw.ac.at/entity/288834/">
-          <orgName>Königlich Sächsisches Hoftheater zu Dresden</orgName>
-        </org>
-        <org ref="63304-5" source="https://d-nb.info/gnd/63304-5">
-          <orgName>Königlich Württembergisches Hof-Theater Stuttgart</orgName>
-        </org>
-        <org ref="#pmb195328" source="https://pmb.acdh.oeaw.ac.at/entity/195328/">
-          <orgName>Königliche Schauspiele Wiesbaden</orgName>
-        </org>
-        <org ref="1231430-4" source="https://d-nb.info/gnd/1231430-4">
-          <orgName>Königliches Deutsches Landestheater Prag</orgName>
-        </org>
-        <org ref="44467-4" source="https://d-nb.info/gnd/44467-4">
-          <orgName>Münchner Schauspielhaus</orgName>
-        </org>
-        <org ref="#pmb57345" source="https://pmb.acdh.oeaw.ac.at/entity/57345/">
-          <orgName>Schauspielhaus Leipzig</orgName>
-        </org>
-        <org ref="217619-1" source="https://d-nb.info/gnd/217619-1">
-          <orgName>Stadttheater Bonn</orgName>
-        </org>
-        <org ref="216498-X" source="https://d-nb.info/gnd/216498-X">
-          <orgName>Vereinigte Stadttheater Köln</orgName>
-        </org>
-        <org ref="#pmb239010" source="https://pmb.acdh.oeaw.ac.at/entity/239010/">
-          <orgName>Vereinigte Theater Breslau</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -197,8 +136,9 @@ Antwort auf: 1903-12-15post/1903-12-21ante AS an SF (Bühnenexemplare 'Der einsa
 ##Tag nachtragen: 'Der einsame Weg'
 Antwort auf: 1903-12-15post/1903-12-21ante AS an SF (Bühnenexemplare 'Der einsame Weg'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0193"/>S. FISCHER, VerlaG<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0193"/>S. FISCHER, VerlaG<lb/>
 nipzig, etc. falls es mit<lb/>
 schen.<lb/>
 aufführung zu einem Abschluss kommen sollte,<lb/>
@@ -247,7 +187,8 @@ Werk bereits am Deutschen Theater zu Hannover untergebracht haben. Die<lb/>
 Bedingungen sind: 10 % und eine Mindest-Garantie von M 500.-, die bereits<lb/>
 gezahlt ist. Wir hoffen, gegebenen Falls auch beim Hamburger Schauspiel-<lb/>
 haus eine Garantie in gleicher Höhe durchzusetzen. Ob dies auch in Breslau,</p>
-        <p><pb facs="1416742_0194"/>Vied<lb/>
+        <p>
+          <pb facs="1416742_0194"/>Vied<lb/>
 München. Leipzig, etc. falls es mit jenen Städten vor der Berliner Erst-<lb/>
 aufführung zu einem Abschluss kommen sollte, möglich sein wird, wissen<lb/>
 wir nicht. Doch dürfen Sie überzeugt sein, dass von hier aus alles ver-<lb/>

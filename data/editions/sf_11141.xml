@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -69,7 +70,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="11146">1931-10-10 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="11146">1931-10-10 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1931-10-17.html</note>
       </notesStmt>
@@ -86,6 +88,16 @@ Antwort auf: <ref target="11146">1931-10-10 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7196">Forster, Rudolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Rökk-Richter, Stefano (Theateragent und Schriftsteller, Italien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="62532-2">Neue Freie Volksbühne Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="5193996-4">Preußische Staatstheater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11141.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -96,30 +108,6 @@ Antwort auf: <ref target="11146">1931-10-10 AS (Wien) an SF (Berlin)</ref></note
           <term>Rundfunkrecht/Senderecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb7196" source="https://pmb.acdh.oeaw.ac.at/entity/7196/">
-          <persName>Forster, Rudolf</persName>
-        </person>
-        <person>
-          <persName>Rökk-Richter, Stefano (Theateragent und Schriftsteller, Italien)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="62532-2" source="https://d-nb.info/gnd/62532-2">
-          <orgName>Neue Freie Volksbühne Berlin</orgName>
-        </org>
-        <org ref="5193996-4" source="https://d-nb.info/gnd/5193996-4">
-          <orgName>Preußische Staatstheater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -129,10 +117,12 @@ Antwort auf: <ref target="11146">1931-10-10 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="11146">1931-10-10 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="11146">1931-10-10 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416744_0175"/>1071<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416744_0175"/>1071<lb/>
 S. FISCHERVERLAG A.=G. / BERLIN W 57<lb/>
 Theaterabteilung<lb/>
 Fernsprecher: Lützow Nr. 6162=6164<lb/>
@@ -166,7 +156,8 @@ könnten.<lb/>
 Wir verhandeln mit der Volksbühne wegen Uebernahme eines<lb/>
 Einakters in ihr nächstes Programm. Die Direktion möchte den<lb/>
 10000. s. 50. V.</p>
-        <p><pb facs="1416744_0176"/>S. FISCHER VerlAG A.G. :: BERLIN W 57<lb/>
+        <p>
+          <pb facs="1416744_0176"/>S. FISCHER VerlAG A.G. :: BERLIN W 57<lb/>
 1<lb/>
 Blatt 2 zum Brief an Herrn Dr. A. Schnitzler,Wien v.17.X.31.<lb/>
 "Grünen Kakadu" mit Rudolf Forster herausbringen, behauptet<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,6 +77,12 @@ Anlage: Telegramm bezüglich einer norwegischen Angelegenheit "Liebelei"</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19583">Koos, Geza de</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10965.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -83,16 +90,6 @@ Anlage: Telegramm bezüglich einer norwegischen Angelegenheit "Liebelei"</note>
           <term>niederländisch</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb19583" source="https://pmb.acdh.oeaw.ac.at/entity/19583/">
-          <persName>Koos, Geza de</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -105,8 +102,9 @@ Anlage: Telegramm bezüglich einer norwegischen Angelegenheit "Liebelei"</note>
 Beantwortet in: <ref target="10967">1923-01-22 AS (Wien) an SF (Berlin)</ref>
 Anlage: Telegramm bezüglich einer norwegischen Angelegenheit "Liebelei"</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0580"/>S'FISCHER-VERLAG' THEATERABTEILUNG'BERLIN<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0580"/>S'FISCHER-VERLAG' THEATERABTEILUNG'BERLIN<lb/>
 W 57: BÜLÖW STR90<lb/>
 . en<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>

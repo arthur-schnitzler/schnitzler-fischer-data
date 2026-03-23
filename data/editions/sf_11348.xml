@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -69,7 +70,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
-Beantwortet in: <ref target="11349">1927-10-29 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11349">1927-10-29 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1927-10-27.html</note>
       </notesStmt>
@@ -86,6 +88,15 @@ Beantwortet in: <ref target="11349">1927-10-29 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb38364">Heine, Wolfgang</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23675">Rotter, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3876">Rotter, Fritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23921">Saltenburg, Heinz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb142471">Ziegel, Erich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11348.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -103,23 +114,6 @@ Beantwortet in: <ref target="11349">1927-10-29 SF (Berlin) an AS (Wien)</ref></n
           <term>Verhandlung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb38364" source="https://pmb.acdh.oeaw.ac.at/entity/38364/">
-          <persName>Heine, Wolfgang</persName>
-        </person>
-        <person ref="#pmb23675" source="https://pmb.acdh.oeaw.ac.at/entity/23675/">
-          <persName>Rotter, Alfred</persName>
-        </person>
-        <person ref="#pmb3876" source="https://pmb.acdh.oeaw.ac.at/entity/3876/">
-          <persName>Rotter, Fritz</persName>
-        </person>
-        <person ref="#pmb23921" source="https://pmb.acdh.oeaw.ac.at/entity/23921/">
-          <persName>Saltenburg, Heinz</persName>
-        </person>
-        <person ref="#pmb142471" source="https://pmb.acdh.oeaw.ac.at/entity/142471/">
-          <persName>Ziegel, Erich</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -129,10 +123,12 @@ Beantwortet in: <ref target="11349">1927-10-29 SF (Berlin) an AS (Wien)</ref></n
     <body>
       <div type="letter">
         <p>2 Blatt, 2 Seiten
-Beantwortet in: <ref target="11349">1927-10-29 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11349">1927-10-29 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0134"/>Ich merke eben, dass ich Ihre Anfrage wegen<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0134"/>Ich merke eben, dass ich Ihre Anfrage wegen<lb/>
 Doktor Graesler noch nicht beantwortet habe,<lb/>
 Pauschalbeträge sind meiner Ansicht nach über<lb/>
 haupt abzulehnen, Bedingungen wären, wenn Sie<lb/>
@@ -184,7 +180,8 @@ unverbindlich einen Besetzungsvorso<lb/>
 h dreiik<lb/>
 einsichtlich des G.<lb/>
 ten? Er soll ja einige sehr gute Kräfte ha</p>
-        <p><pb facs="1416740_0135"/>G.C.F.P.<lb/>
+        <p>
+          <pb facs="1416740_0135"/>G.C.F.P.<lb/>
 Im vorigen Jahr korrespondierten wir<lb/>
 einmal im Zusammenhang mit dem Weihergang<lb/>
 über Saltenburg. Von dieser Seite haben sie<lb/>

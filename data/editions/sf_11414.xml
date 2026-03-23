@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -121,7 +122,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten
 Antwort auf: <ref target="11413">1928-05-16 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11415">1928-05-21 SF (Berlin) an AS (Wien)</ref>, <ref target="11418">1928-06-07 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11415">1928-05-21 SF (Berlin) an AS (Wien)</ref>, <ref target="11418">1928-06-07 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1928-05-19.html</note>
       </notesStmt>
@@ -137,6 +139,28 @@ Beantwortet in: <ref target="11415">1928-05-21 SF (Berlin) an AS (Wien)</ref>, <
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4423">Knopf, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20474">Linden, Gustaf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="nm0886327">Lugt Melsert, Cor van der</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116289791">Price, Lawrence Marsden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23787">Rémon, Maurice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Rökk-Richter, Stefano (Theateragent und Schriftsteller, Italien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb25736">Sulzbach, Ernst</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb38195">Berkeley</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb166">Frankreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb313">Polen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43430">Tschechien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11414.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -175,64 +199,6 @@ Beantwortet in: <ref target="11415">1928-05-21 SF (Berlin) an AS (Wien)</ref>, <
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb4423" source="https://pmb.acdh.oeaw.ac.at/entity/4423/">
-          <persName>Knopf, Alfred</persName>
-        </person>
-        <person ref="#pmb20474" source="https://pmb.acdh.oeaw.ac.at/entity/20474/">
-          <persName>Linden, Gustaf</persName>
-        </person>
-        <person ref="nm0886327" source="https://www.imdb.com/name/nm0886327/">
-          <persName>Lugt Melsert, Cor van der</persName>
-        </person>
-        <person ref="116289791" source="https://d-nb.info/gnd/116289791">
-          <persName>Price, Lawrence Marsden</persName>
-        </person>
-        <person ref="#pmb23787" source="https://pmb.acdh.oeaw.ac.at/entity/23787/">
-          <persName>Rémon, Maurice</persName>
-        </person>
-        <person>
-          <persName>Rökk-Richter, Stefano (Theateragent und Schriftsteller, Italien)</persName>
-        </person>
-        <person ref="#pmb25736" source="https://pmb.acdh.oeaw.ac.at/entity/25736/">
-          <persName>Sulzbach, Ernst</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb38195" source="https://pmb.acdh.oeaw.ac.at/entity/38195/">
-          <placeName>Berkeley</placeName>
-        </place>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
-          <placeName>Frankreich</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
-          <placeName>Polen</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-        <place ref="#pmb43430" source="https://pmb.acdh.oeaw.ac.at/entity/43430/">
-          <placeName>Tschechien</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -243,10 +209,12 @@ Beantwortet in: <ref target="11415">1928-05-21 SF (Berlin) an AS (Wien)</ref>, <
       <div type="letter">
         <p>2 Blatt, 3 Seiten
 Antwort auf: <ref target="11413">1928-05-16 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11415">1928-05-21 SF (Berlin) an AS (Wien)</ref>, <ref target="11418">1928-06-07 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11415">1928-05-21 SF (Berlin) an AS (Wien)</ref>, <ref target="11418">1928-06-07 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0045"/>Fischer,<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0045"/>Fischer,<lb/>
 19.5.1928.<lb/>
 here<lb/>
 Ce<lb/>
@@ -291,7 +259,8 @@ auf diese forme<lb/>
 Ankünd 1 gun¬<lb/>
 önnte man in d<lb/>
 Geschied</p>
-        <p><pb facs="1416741_0046"/>G.C.P.<lb/>
+        <p>
+          <pb facs="1416741_0046"/>G.C.P.<lb/>
 G.H.F.P<lb/>
 be<lb/>
 S.Fischer<lb/>
@@ -371,7 +340,8 @@ S.F.S.<lb/>
 Anfrage von Dr. Sulzbach erhalten. Hat Linden noch<lb/>
 ein Optionsrecht? Wie lange währt eine solche Option?<lb/>
 at er sich in der Rantfunksache irgendwie geäussert?</p>
-        <p><pb facs="1416741_0047"/>at<lb/>
+        <p>
+          <pb facs="1416741_0047"/>at<lb/>
 Fischer<lb/>
 31.5.1928.<lb/>
 von der Stadt zu verständen<lb/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11325">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -71,25 +72,19 @@ in Kurrentschrift geschrieben</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11740">Hofmannsthal, Hugo von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb842">Karlsbad</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50822">Klobenstein</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11325.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Reise/Urlaub</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11740" source="https://pmb.acdh.oeaw.ac.at/entity/11740/">
-          <persName>Hofmannsthal, Hugo von</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb842" source="https://pmb.acdh.oeaw.ac.at/entity/842/">
-          <placeName>Karlsbad</placeName>
-        </place>
-        <place ref="#pmb50822" source="https://pmb.acdh.oeaw.ac.at/entity/50822/">
-          <placeName>Klobenstein</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -101,8 +96,9 @@ in Kurrentschrift geschrieben</note>
         <p>3 Blatt, 4 Seiten
 in Kurrentschrift geschrieben</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0951"/>Juli 27<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0951"/>Juli 27<lb/>
 Colter<lb/>
 Verehrter Herr<lb/>
 haben leider vongebens ver¬<lb/>
@@ -119,7 +115,8 @@ hie Tochter, auch im Ewendenkunde,<lb/>
 eine glückliche Fund werden. Da<lb/>
 den ich mier als einen klein¬<lb/>
 Janhenner erlebt habe einen</p>
-        <p><pb facs="1416743_0952"/>Bamam<lb/>
+        <p>
+          <pb facs="1416743_0952"/>Bamam<lb/>
 so guten Eindruck am dem<lb/>
 fungen kleine hätten, so<lb/>
 kann nun in das beste hoffen<lb/>
@@ -152,7 +149,8 @@ mir oft Ein dieselben Dinge und<lb/>
 Menschen, Seite an Seite, getümpft<lb/>
 Er staob durch eine Mittelohn-Schrei¬<lb/>
 P.S.</p>
-        <p><pb facs="1416743_0953"/>nicht schrieb, schon es<lb/>
+        <p>
+          <pb facs="1416743_0953"/>nicht schrieb, schon es<lb/>
 hier zu kömmelten zu wissen<lb/>
 nachher<lb/>
 Heeling Kächner<lb/>
@@ -181,7 +179,8 @@ dispositionen zu lassen. Mir wollen<lb/>
 das bis Ende August bleiben — Auf dem<lb/>
 zu Klobensbein auss.<lb/>
 Wege mich xyz</p>
-        <p><pb facs="1416743_0954"/>Leaterabteilung<lb/>
+        <p>
+          <pb facs="1416743_0954"/>Leaterabteilung<lb/>
 ankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postechenkkonto: Berlin Nr.<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 6162 bis 6164<lb/>
 Telegramm - Adresse: Fischerverlag 6162, Berlinlütsow<lb/>

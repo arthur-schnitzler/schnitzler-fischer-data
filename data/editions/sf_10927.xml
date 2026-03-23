@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -90,6 +91,18 @@ Anlage: Übersetzer Brief von Brandt &amp; Kirpatrik (1922-07-17) und Brief von 
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb53150">Feldafing</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1140452606">Bernstein, Hermann</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3105">Karczag, Wilhelm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb22595">Pinner, Leo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb142471">Ziegel, Erich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb313">Polen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44303">Rotterdam</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10927.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -104,34 +117,6 @@ Anlage: Übersetzer Brief von Brandt &amp; Kirpatrik (1922-07-17) und Brief von 
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="1140452606" source="https://d-nb.info/gnd/1140452606">
-          <persName>Bernstein, Hermann</persName>
-        </person>
-        <person ref="#pmb3105" source="https://pmb.acdh.oeaw.ac.at/entity/3105/">
-          <persName>Karczag, Wilhelm</persName>
-        </person>
-        <person ref="#pmb22595" source="https://pmb.acdh.oeaw.ac.at/entity/22595/">
-          <persName>Pinner, Leo</persName>
-        </person>
-        <person ref="#pmb142471" source="https://pmb.acdh.oeaw.ac.at/entity/142471/">
-          <persName>Ziegel, Erich</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
-          <placeName>Polen</placeName>
-        </place>
-        <place ref="#pmb44303" source="https://pmb.acdh.oeaw.ac.at/entity/44303/">
-          <placeName>Rotterdam</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -144,8 +129,9 @@ Anlage: Übersetzer Brief von Brandt &amp; Kirpatrik (1922-07-17) und Brief von 
 Bezug auf: 1922-08-01 AS (Wien) an SF (Berlin) (erschlossen)
 Anlage: Übersetzer Brief von Brandt &amp; Kirpatrik (1922-07-17) und Brief von Leo Greiner an Erich Ziegel (1922-08-03)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0515"/>57<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0515"/>57<lb/>
 S. Fischer/Verlag/Berlin W 57/Bülowstraße ho-<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 1662. 6162 und 9292 / Postscheckkonto: Berlin Nr 16692<lb/>
 THEATERABTEILUNG<lb/>
@@ -181,11 +167,12 @@ for 'T<lb/>
 entstend<lb/>
 voor robet tov auszov aab ausdlew Jlsdbegrbä<lb/>
 xxxich enie als mellovdrew amed.ebuw neda nedem</p>
-        <p><pb facs="1416743_0516"/>1 rt 1 m r. mai<lb/>
+        <p>
+          <pb facs="1416743_0516"/>1 rt 1 m r. mai<lb/>
 o0 oa n<lb/>
 22<lb/>
 e bai x*v* 't" 't 't' :t 'i 'w 'i'i 'iit 'u 'd.w.i '.o lu<lb/>
-G.C.F.Jt. â&#x80;¢ n<lb/>
+G.C.F.Jt. â¢ n<lb/>
 DUJISTEASITABT<lb/>
 Es konnte also immerhin bei diesem der Eindruck entstehen ( oder<lb/>
 er kann vorgeben, dass er entstanden ist), dass, sofern nur die<lb/>
@@ -216,7 +203,8 @@ schon eine Kaution anstatt der Garantie von Ihnen selbst nun ein-<lb/>
 mal gefordert war, ich vom kaufmännischen Gesichtspunkt dieser<lb/>
 Bürgschaft weitaus den Vorzug vor jeder noch so hohen Kaution ge-<lb/>
 geben haben würde. Denn wertvoller als eine Vorausbezahlung wäre</p>
-        <p><pb facs="1416743_0517"/>Blatt<lb/>
+        <p>
+          <pb facs="1416743_0517"/>Blatt<lb/>
 ..g.<lb/>
 S. FISCHER, VERLAG, BERLIN,<lb/>
 Theaterabteilung<lb/>
@@ -285,7 +273,8 @@ Jno Ih xxx<lb/>
 Deinem xxx<lb/>
 brijw meaaie<lb/>
 Bank die Bürgschaftsleistung verweigert hat, dann natürlich wäre</p>
-        <p><pb facs="1416743_0518"/>M.O.A.F.K.V.<lb/>
+        <p>
+          <pb facs="1416743_0518"/>M.O.A.F.K.V.<lb/>
 "    "<lb/>
 meine hier geschilderte Auffassung vollends hinfällig und die<lb/>
 DnstamU reb<lb/>
@@ -340,7 +329,8 @@ befels.<lb/>
 Il sa mr.<lb/>
 .3.<lb/>
 Dv Votr.</p>
-        <p><pb facs="1416743_0519"/>Blatt<lb/>
+        <p>
+          <pb facs="1416743_0519"/>Blatt<lb/>
 S. FISCHER, VERLAG,'BERLIN.<lb/>
 Theaterabteilung<lb/>
 dem sämtliche Korrespondenzen Brandts über uns zu leiten sind.<lb/>

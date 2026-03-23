@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -92,28 +93,20 @@ In der Mappe folgt: 1910-01-29 J.E. Geiringer (Wien) an Paul Jonas (Berlin); 1 B
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb38269">Geiringer, Josef Eduard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4532">Jonas, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1073506126">Szelinski, Georg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb54988">Wertheim</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10298.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Auflage/Neuauflage/Neuausgabe</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb38269" source="https://pmb.acdh.oeaw.ac.at/entity/38269/">
-          <persName>Geiringer, Josef Eduard</persName>
-        </person>
-        <person ref="#pmb4532" source="https://pmb.acdh.oeaw.ac.at/entity/4532/">
-          <persName>Jonas, Paul</persName>
-        </person>
-        <person ref="1073506126" source="https://d-nb.info/gnd/1073506126">
-          <persName>Szelinski, Georg</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb54988" source="https://pmb.acdh.oeaw.ac.at/entity/54988/">
-          <placeName>Wertheim</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -128,8 +121,9 @@ Beantwortet in: <ref target="10299">1910-02-01 AS an SF</ref>
 
 In der Mappe folgt: 1910-01-29 J.E. Geiringer (Wien) an Paul Jonas (Berlin); 1 Blatt, 1 Seite (Wortlaut eines Telegramms, das AS durch seinen Anwalt Geiringer an Jonas senden ließ und in <ref target="10299">1910-02-01 AS an SF</ref> zitiert); hierauf referiert wohl die ehN AS: "Jonasbeleg"</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0406"/>207<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0406"/>207<lb/>
 S. FISCHER, VERLAG,’ BERLIN W., BÜLowSTR. 90<lb/>
 BERene W., DEN 26. Jan. 1910<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -152,7 +146,8 @@ jedenfalls haben Sie daraufhin Veranlassung, den<lb/>
 Globus-Verlag Ihren Standpunkt zur Verlagsfrage<lb/>
 mitzuteilen; und vielleicht gelingt es Ihnen auch<lb/>
 dingungen in dieser Höhe zu stellen.</p>
-        <p><pb facs="1416742_0407"/>bei dieser Gelegenheit, über die Höhe der Restvorrä-<lb/>
+        <p>
+          <pb facs="1416742_0407"/>bei dieser Gelegenheit, über die Höhe der Restvorrä-<lb/>
 te aufgeklärt zu werden. Am besten ist, Sie fordern<lb/>
 Auskunft darüber, wieviel Exemplare von Szelinski<lb/>
 übernommen wurden, da Szelinski doch nur das Recht<lb/>

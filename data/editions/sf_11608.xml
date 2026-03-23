@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -75,7 +76,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="11607">1930-12-11 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11607">1930-12-11 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="published_in">Rodewald, 163-164 [Nr. 197]</note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1930-12-13.html</note>
@@ -92,6 +94,11 @@ Antwort auf: <ref target="11607">1930-12-11 SF (Berlin) an AS (Wien)</ref></note
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11995">Krell, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11608.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -101,11 +108,6 @@ Antwort auf: <ref target="11607">1930-12-11 SF (Berlin) an AS (Wien)</ref></note
           <term>Novellenband</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11995" source="https://pmb.acdh.oeaw.ac.at/entity/11995/">
-          <persName>Krell, Max</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -115,10 +117,12 @@ Antwort auf: <ref target="11607">1930-12-11 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="11607">1930-12-11 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11607">1930-12-11 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0145"/>P. Tischet<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0145"/>P. Tischet<lb/>
 13.12.1930.<lb/>
 G.H.F.P.<lb/>
 dson 13m<lb/>
@@ -159,7 +163,8 @@ und ich gestehe Ihnen auch heute zu, dass rein<lb/>
 hätte geschehen müssen. Ich will mich nicht ein-<lb/>
 mal darauf ausreden, dass der Mord, ebenso wie der<lb/>
 Selbstmord hier wie in so vielen anderen Fällen</p>
-        <p><pb facs="1416741_0146"/>eine nur oder eine überdies noch symbolische<lb/>
+        <p>
+          <pb facs="1416741_0146"/>eine nur oder eine überdies noch symbolische<lb/>
 Bedeutung hat, aber ich glaube, es ist beinahe<lb/>
 immer noch der versöhnlichete Schluss, den die-<lb/>
 sen finsterenSchicksal beschieden sein konnte.<lb/>

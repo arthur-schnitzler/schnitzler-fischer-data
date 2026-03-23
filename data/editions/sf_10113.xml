@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10113">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -92,6 +93,14 @@ Beantwortet in: 1901-07-05 AS an SF (erwähnt in Folgebrief; nicht überliefert)
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10928">Bierbaum, Otto Julius</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb28645">Coschell, Moritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116600446">Roland, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10113.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,22 +109,6 @@ Beantwortet in: 1901-07-05 AS an SF (erwähnt in Folgebrief; nicht überliefert)
           <term>Buchillustration</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10928" source="https://pmb.acdh.oeaw.ac.at/entity/10928/">
-          <persName>Bierbaum, Otto Julius</persName>
-        </person>
-        <person ref="#pmb28645" source="https://pmb.acdh.oeaw.ac.at/entity/28645/">
-          <persName>Coschell, Moritz</persName>
-        </person>
-        <person ref="116600446" source="https://d-nb.info/gnd/116600446">
-          <persName>Roland, Paul</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -130,8 +123,9 @@ Beilage: Paul Roland an AS 1901-06-22 (offener Brief in 'Der Tag'). Vgl. ZA A_10
 Wohl Antwort auf: 1901-05-20post/1901-06-22ante AS an SF (Drucklegung 'Märchen', Absatz und Illustrationen 'Gustl'; nicht überliefert)
 Beantwortet in: 1901-07-05 AS an SF (erwähnt in Folgebrief; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0148"/>ERL/<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0148"/>ERL/<lb/>
 S. FIS<lb/>
 Fredürab 618 nachneb elv.nehrew niea Jnnaded Jdolellelv nendl elb<lb/>
 BERene W., DEN 22. Juni 1901<lb/>
@@ -166,7 +160,8 @@ anhalten, so hätte ich fast Last, die noch auf Lager befindlich<lb/>
 tausend Exemplare einzustampfen und das Buch in kleinen Format und hüb-<lb/>
 schen Druck ohne Illustrationen herauszugeben. Ich dachte dabei an etwas<lb/>
 Ausstattung ähnlich der von Bierbaum habe.</p>
-        <p><pb facs="1416742_0149"/>JÆBÈV, ΛηΟΙηῃ<lb/>
+        <p>
+          <pb facs="1416742_0149"/>JÆBÈV, ΛηΟΙηῃ<lb/>
 sons" die Ihnen vielleicht bekannt sein werden. Wie denken Sie darüber?<lb/>
 1061 insl.ss<lb/>
 MI. S3G<lb/>

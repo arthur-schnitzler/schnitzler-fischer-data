@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -71,7 +72,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 1 Wort
 Antwort auf: <ref target="11629">1931-02-11 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11634">1931-02-19 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11634">1931-02-19 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1931-02-16.html</note>
       </notesStmt>
@@ -87,6 +89,14 @@ Beantwortet in: <ref target="11634">1931-02-19 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11593">Harris, Frank</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb44005">Guild Theatre New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11631.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -98,24 +108,6 @@ Beantwortet in: <ref target="11634">1931-02-19 SF (Berlin) an AS (Wien)</ref></n
           <term>Zeitung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11593" source="https://pmb.acdh.oeaw.ac.at/entity/11593/">
-          <persName>Harris, Frank</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb44005" source="https://pmb.acdh.oeaw.ac.at/entity/44005/">
-          <orgName>Guild Theatre New York</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -126,10 +118,12 @@ Beantwortet in: <ref target="11634">1931-02-19 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>1 Blatt, 1 Wort
 Antwort auf: <ref target="11629">1931-02-11 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11634">1931-02-19 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11634">1931-02-19 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0157"/>S. Fischer<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0157"/>S. Fischer<lb/>
 16.2.1931.<lb/>
 Lieber Freund.<lb/>
 Das Guildtheatre bitte nur einfach an mich<lb/>

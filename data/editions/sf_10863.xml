@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -61,7 +62,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
-Antwort auf: <ref target="10861">1921-10-31 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="10861">1921-10-31 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1921-11-08.html</note>
       </notesStmt>
@@ -78,6 +80,20 @@ Antwort auf: <ref target="10861">1921-10-31 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12274">Moissi, Alexander</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23675">Rotter, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3876">Rotter, Fritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40709">Amsterdam</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb677">Breslau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb49582">Chemnitz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb49108">Krietern (bei Breslau)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb57262">Kleines Theater Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10863.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -89,42 +105,6 @@ Antwort auf: <ref target="10861">1921-10-31 AS (Wien) an SF (Berlin)</ref></note
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb12274" source="https://pmb.acdh.oeaw.ac.at/entity/12274/">
-          <persName>Moissi, Alexander</persName>
-        </person>
-        <person ref="#pmb23675" source="https://pmb.acdh.oeaw.ac.at/entity/23675/">
-          <persName>Rotter, Alfred</persName>
-        </person>
-        <person ref="#pmb3876" source="https://pmb.acdh.oeaw.ac.at/entity/3876/">
-          <persName>Rotter, Fritz</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb40709" source="https://pmb.acdh.oeaw.ac.at/entity/40709/">
-          <placeName>Amsterdam</placeName>
-        </place>
-        <place ref="#pmb677" source="https://pmb.acdh.oeaw.ac.at/entity/677/">
-          <placeName>Breslau</placeName>
-        </place>
-        <place ref="#pmb49582" source="https://pmb.acdh.oeaw.ac.at/entity/49582/">
-          <placeName>Chemnitz</placeName>
-        </place>
-        <place ref="#pmb49108" source="https://pmb.acdh.oeaw.ac.at/entity/49108/">
-          <placeName>Krietern (bei Breslau)</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb57262" source="https://pmb.acdh.oeaw.ac.at/entity/57262/">
-          <orgName>Kleines Theater Leipzig</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -134,10 +114,12 @@ Antwort auf: <ref target="10861">1921-10-31 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>2 Blatt, 4 Seiten
-Antwort auf: <ref target="10861">1921-10-31 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="10861">1921-10-31 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0432"/>5,28<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0432"/>5,28<lb/>
 S. Fischer/Verlag/Berlin W 57/Bülowstraße 9o.<lb/>
 Postscheckkonto Nr. 16 692<lb/>
 Amt Lützow 1662, 6162, 9292 Theaterabteilung<lb/>
@@ -180,7 +162,8 @@ ein diesders modom xxxn Jnieden siiänredoloe<lb/>
 G.H.F.P.<lb/>
 GedT seb schreibe seiknub dann neacltsmedeixo<lb/>
 R. 1000.0.20.</p>
-        <p><pb facs="1416743_0433"/>32 niiinä peinl ndtt<lb/>
+        <p>
+          <pb facs="1416743_0433"/>32 niiinä peinl ndtt<lb/>
 von ZÄBuchmoliä<lb/>
 .... s. m. r,. m.<lb/>
 ....<lb/>
@@ -216,7 +199,8 @@ solcher Fälle scheint mir schon deshalb wünschenswert, weil sich alle<lb/>
 aussi<lb/>
 existenzilosen und dunklen Elemente des Theaters, des Kobaretts und<lb/>
 Votre très bien</p>
-        <p><pb facs="1416743_0434"/>Blatt...<lb/>
+        <p>
+          <pb facs="1416743_0434"/>Blatt...<lb/>
 S. FISCHER,VERLAG, BERLIN,<lb/>
 Theaterabteilung<lb/>
 Parités an den "Reigen " herandrängen und mit allen wenn nötig<lb/>
@@ -253,7 +237,8 @@ holländischen Gastspiels sich verwirklichen, so ersuche ich höflichst<lb/>
 um Verständigung, damit ich meinerseits unserem Amsterdamer Vertreter<lb/>
 der beauftragt ist, diese Sache nicht einschlafen zu lassen, davon<lb/>
 benachrichtigen kann.</p>
-        <p><pb facs="1416743_0435"/>D'O.S.B.V.<lb/>
+        <p>
+          <pb facs="1416743_0435"/>D'O.S.B.V.<lb/>
 G.C.H.F.P.<lb/>
 Was Ihr Verlangen nach einem sofortigen Abzug der<lb/>
 G.C.H.F.P.<lb/>

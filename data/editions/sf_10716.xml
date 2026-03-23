@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -78,7 +79,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">3 Blatt, 5 Seiten
-Antwort auf: <ref target="10715">1919-09-05 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="10715">1919-09-05 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1919-09-24.html</note>
       </notesStmt>
@@ -95,6 +97,19 @@ Antwort auf: <ref target="10715">1919-09-05 SF (Berlin) an AS (Wien)</ref></note
           <persName type="coworker">NN, </persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7777">Hellmer, Arthur</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12837">Steinrück, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="11697088X">Zeiss, Karl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb142471">Ziegel, Erich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb146">Frankfurt am Main</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb250435">Hamburger Kammerspiele</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Kur- und Stadttheater Bad Kolberg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="1231430-4">Königliches Deutsches Landestheater Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10716.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -112,39 +127,6 @@ Antwort auf: <ref target="10715">1919-09-05 SF (Berlin) an AS (Wien)</ref></note
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb7777" source="https://pmb.acdh.oeaw.ac.at/entity/7777/">
-          <persName>Hellmer, Arthur</persName>
-        </person>
-        <person ref="#pmb12837" source="https://pmb.acdh.oeaw.ac.at/entity/12837/">
-          <persName>Steinrück, Albert</persName>
-        </person>
-        <person ref="11697088X" source="https://d-nb.info/gnd/11697088X">
-          <persName>Zeiss, Karl</persName>
-        </person>
-        <person ref="#pmb142471" source="https://pmb.acdh.oeaw.ac.at/entity/142471/">
-          <persName>Ziegel, Erich</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb146" source="https://pmb.acdh.oeaw.ac.at/entity/146/">
-          <placeName>Frankfurt am Main</placeName>
-        </place>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb250435" source="https://pmb.acdh.oeaw.ac.at/entity/250435/">
-          <orgName>Hamburger Kammerspiele</orgName>
-        </org>
-        <org>
-          <orgName>Kur- und Stadttheater Bad Kolberg</orgName>
-        </org>
-        <org ref="1231430-4" source="https://d-nb.info/gnd/1231430-4">
-          <orgName>Königliches Deutsches Landestheater Prag</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -154,10 +136,12 @@ Antwort auf: <ref target="10715">1919-09-05 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>3 Blatt, 5 Seiten
-Antwort auf: <ref target="10715">1919-09-05 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="10715">1919-09-05 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0111"/>12.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0111"/>12.<lb/>
 24.8.1919.<lb/>
 Prag. Das Honorar zu für die 17.-19. Auflage bit-<lb/>
 te ich sie freundlichst an mein Konto, Deutsche<lb/>
@@ -193,7 +177,8 @@ so sind mit dieser Sendung von 621 österr.Kro-<lb/>
 nen noch nicht einmal diese Ausstände beglichen<lb/>
 umso weniger als es sich bei „Liebelei“ und „li<lb/>
 teratur" (April) jedesfalls schon um czechische</p>
-        <p><pb facs="1416739_0112"/>Kronen handelt.<lb/>
+        <p>
+          <pb facs="1416739_0112"/>Kronen handelt.<lb/>
 Ueberdies aber sind auch die Tantieren für<lb/>
 „Professor Bernhardi“ vom 8.u.16.5. noch nicht<lb/>
 bezahlt, dazu kam noch eine Aufführung des „Ana¬<lb/>
@@ -240,7 +225,8 @@ pühnenleiter. Ich hoffe Ihnen damit keine zu,<lb/>
 grosse Mühe zu verursachen. Ihre Bemerkung<lb/>
 betreffend die drohende Unterbilanz hat sich ein<lb/>
 wenig befremdet. Die Provision von 7% hat mir</p>
-        <p><pb facs="1416739_0113"/>4/815<lb/>
+        <p>
+          <pb facs="1416739_0113"/>4/815<lb/>
 4<lb/>
 stimmung des Generalvertrages die Annahme einer<lb/>
 Herr Fischer persönlich in Vorschlag gebracht,<lb/>
@@ -278,7 +264,8 @@ Direktor Ziegel dankt mir eben für die<lb/>
 neberlas un. des „Reigen“ und erklärt sich aus-<lb/>
 drücklich bereitt eine hohe Garantie zu zahlen.<lb/>
 Nachdem uns also die ausnehmend thörichte Be-</p>
-        <p><pb facs="1416739_0114"/>1.10.1919.<lb/>
+        <p>
+          <pb facs="1416739_0114"/>1.10.1919.<lb/>
 Herrn S.Fischen,Verlag,<lb/>
 G.C.H.F.S<lb/>
 Berlin.<lb/>
@@ -299,7 +286,8 @@ ich wegen der Uebersetzungsrechte für „Rekten“<lb/>
 G.C.F.P<lb/>
 (erschienen bei Harz) direkt telegraphiert.<lb/>
 4. Ich erhielt eine Art Geschäftsan¬</p>
-        <p><pb facs="1416739_0115"/>2<lb/>
+        <p>
+          <pb facs="1416739_0115"/>2<lb/>
 zeige von Hans Bartsch in New York, der ja wie<lb/>
 Gouillez lʼhonneur dʼêtre<lb/>
 G.C.H.F.P<lb/>

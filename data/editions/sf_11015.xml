@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -59,7 +60,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten
 Antwort auf: <ref target="11012">1923-09-17 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11017">1923-09-28 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11017">1923-09-28 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-09-24.html</note>
       </notesStmt>
@@ -75,6 +77,13 @@ Beantwortet in: <ref target="11017">1923-09-28 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb16125">Feilchenfeld, Franz Karl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11515">Greiner, Leo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11015.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -87,19 +96,6 @@ Beantwortet in: <ref target="11017">1923-09-28 SF (Berlin) an AS (Wien)</ref></n
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb16125" source="https://pmb.acdh.oeaw.ac.at/entity/16125/">
-          <persName>Feilchenfeld, Franz Karl</persName>
-        </person>
-        <person ref="#pmb11515" source="https://pmb.acdh.oeaw.ac.at/entity/11515/">
-          <persName>Greiner, Leo</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -110,10 +106,12 @@ Beantwortet in: <ref target="11017">1923-09-28 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>2 Blatt, 3 Seiten
 Antwort auf: <ref target="11012">1923-09-17 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11017">1923-09-28 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11017">1923-09-28 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0284"/>„Casanovas Heimfahrt“ Cechoslowakei<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0284"/>„Casanovas Heimfahrt“ Cechoslowakei<lb/>
 Durieux, Amerika - sind wohl als erkaigt<lb/>
 betrachten? Was „Komödie der Worte“ in Holland<lb/>
 anbelangt, lege ich den Brief des Direktors<lb/>
@@ -175,7 +173,8 @@ auch 30, die Vorauszahlung geschah aber auf<lb/>
 Grund der Schlüsselzahl 14.Sie aber verkaufen<lb/>
 doch diese vorausgezahlten Exemplare nach der<lb/>
 neuen Schlüsselzahl, also mindestens undas</p>
-        <p><pb facs="1416739_0285"/>Doppelte. So kann doch diese an mich geleistete<lb/>
+        <p>
+          <pb facs="1416739_0285"/>Doppelte. So kann doch diese an mich geleistete<lb/>
 Vorauszahlung doch wieder nur als Akontozahlung<lb/>
 gelten.<lb/>
 Auch bezüglich der Grundzahlen ist mir<lb/>
@@ -234,7 +233,8 @@ Mit herzlichen Cruss<lb/>
 Ihr<lb/>
 Herrn S.Fischer,Verlag,<lb/>
 Berlin.</p>
-        <p><pb facs="1416739_0286"/>1.10.1923.<lb/>
+        <p>
+          <pb facs="1416739_0286"/>1.10.1923.<lb/>
 Fischer<lb/>
 Lieber Freund.<lb/>
 Schläge bisher<lb/>

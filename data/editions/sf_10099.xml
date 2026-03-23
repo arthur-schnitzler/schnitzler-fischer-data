@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10099">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -91,6 +92,12 @@ Beantwortet in: 1900-04-28post/1900-06-25ante AS an SF (Anfrage 'Bertha Garlan',
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb28645">Coschell, Moritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10099.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,16 +107,6 @@ Beantwortet in: 1900-04-28post/1900-06-25ante AS an SF (Anfrage 'Bertha Garlan',
           <term>Zeichnung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb28645" source="https://pmb.acdh.oeaw.ac.at/entity/28645/">
-          <persName>Coschell, Moritz</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -123,8 +120,9 @@ Beantwortet in: 1900-04-28post/1900-06-25ante AS an SF (Anfrage 'Bertha Garlan',
 Antwort auf: 1900-04-28ante AS an SF (Nachfrage 'Anatol' und 'Liebelei'; nicht überliefert)
 Beantwortet in: 1900-04-28post/1900-06-25ante AS an SF (Anfrage 'Bertha Garlan', Nachfrage 'Anatol'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0120"/>BERene W., DEN 28/4, 1900.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0120"/>BERene W., DEN 28/4, 1900.<lb/>
 LEPHON: AAT VI, No. 1662.<lb/>
 8.<lb/>
 BÜLÖWSTRAS<lb/>

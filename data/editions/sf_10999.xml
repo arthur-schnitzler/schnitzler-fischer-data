@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -66,7 +67,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="10996">1923-04-20 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="10996">1923-04-20 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-04-27.html</note>
       </notesStmt>
@@ -83,6 +85,16 @@ Antwort auf: <ref target="10996">1923-04-20 SF (Berlin) an AS (Wien)</ref></note
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1136979557">Leonard, Oscar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23675">Rotter, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3876">Rotter, Fritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb92768">Woticky, Edward</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb142471">Ziegel, Erich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10999.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -90,28 +102,6 @@ Antwort auf: <ref target="10996">1923-04-20 SF (Berlin) an AS (Wien)</ref></note
           <term>englisch</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="1136979557" source="https://d-nb.info/gnd/1136979557">
-          <persName>Leonard, Oscar</persName>
-        </person>
-        <person ref="#pmb23675" source="https://pmb.acdh.oeaw.ac.at/entity/23675/">
-          <persName>Rotter, Alfred</persName>
-        </person>
-        <person ref="#pmb3876" source="https://pmb.acdh.oeaw.ac.at/entity/3876/">
-          <persName>Rotter, Fritz</persName>
-        </person>
-        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
-          <persName>Woticky, Edward</persName>
-        </person>
-        <person ref="#pmb142471" source="https://pmb.acdh.oeaw.ac.at/entity/142471/">
-          <persName>Ziegel, Erich</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -121,10 +111,12 @@ Antwort auf: <ref target="10996">1923-04-20 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="10996">1923-04-20 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="10996">1923-04-20 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0275"/>21.4.1923.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0275"/>21.4.1923.<lb/>
 Fischer<lb/>
 au moins ou le<lb/>
 Lieber Freund.<lb/>
@@ -277,7 +269,8 @@ C, nur je<lb/>
 den 10.Teil (und wie man behauptet in<lb/>
 ungädiger Weise) auszufolgen sich entschliessen<lb/>
 konnte. -Mit herzlichen Grüssen</p>
-        <p><pb facs="1416739_0276"/>27.4.1923.<lb/>
+        <p>
+          <pb facs="1416739_0276"/>27.4.1923.<lb/>
 Sehr verehrter Herr Creiner<lb/>
 G.C.F.M<lb/>
 Aus dem letzten Brief von Wotitzky, den<lb/>

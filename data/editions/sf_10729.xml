@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10729">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -87,6 +88,16 @@ Antwort auf: 1919-XX-XX AS (Wien) an SF (Berlin) (erschlossen)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43471">Budapest</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10729.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -106,28 +117,6 @@ Antwort auf: 1919-XX-XX AS (Wien) an SF (Berlin) (erschlossen)</note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43471" source="https://pmb.acdh.oeaw.ac.at/entity/43471/">
-          <placeName>Budapest</placeName>
-        </place>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -140,8 +129,9 @@ Antwort auf: 1919-XX-XX AS (Wien) an SF (Berlin) (erschlossen)</note>
 Anlage: Gutschrift Honorar (erschlossen)
 Antwort auf: 1919-XX-XX AS (Wien) an SF (Berlin) (erschlossen)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0212"/>3<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0212"/>3<lb/>
 44<lb/>
 S. FISCHER/VERLAG<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P Berlin / Postscheckkontos: Berlin 1000###<lb/>
@@ -171,7 +161,8 @@ Erscheinen der "Schwestern" war für dieses Jahr nicht sichergestellt,<lb/>
 der Prospekt ist schon im Oktober gedruckt worden, somit konnte<lb/>
 dieses Werk an dieser Stelle nicht angekündigt werden. Die "Schwestern"<lb/>
 sind übrigens schon Anfang dieses Jahres gedruckt worden, Ihre</p>
-        <p><pb facs="1416743_0213"/>S. FISCHER /VERLAG<lb/>
+        <p>
+          <pb facs="1416743_0213"/>S. FISCHER /VERLAG<lb/>
 2. Blatt<lb/>
 Bemerkungen wegen der Druckfehler kamen also zu spät.<lb/>
 Wir werden die „Schwestern“ bei uns in Deutschland erst nach<lb/>

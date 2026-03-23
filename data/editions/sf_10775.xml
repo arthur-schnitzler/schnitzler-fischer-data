@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -63,7 +64,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="10773">1920-10-19 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="10773">1920-10-19 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1920-10-23.html</note>
       </notesStmt>
@@ -80,6 +82,14 @@ Antwort auf: <ref target="10773">1920-10-19 SF (Berlin) an AS (Wien)</ref></note
           <persName type="coworker">NN, </persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Cutti, B. (Übersetzer/Literaturagent, Mailand)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb25418">Steininger, Emil</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb886">Mailand</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10775.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -94,22 +104,6 @@ Antwort auf: <ref target="10773">1920-10-19 SF (Berlin) an AS (Wien)</ref></note
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person>
-          <persName>Cutti, B. (Übersetzer/Literaturagent, Mailand)</persName>
-        </person>
-        <person ref="#pmb25418" source="https://pmb.acdh.oeaw.ac.at/entity/25418/">
-          <persName>Steininger, Emil</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-        <place ref="#pmb886" source="https://pmb.acdh.oeaw.ac.at/entity/886/">
-          <placeName>Mailand</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -119,10 +113,12 @@ Antwort auf: <ref target="10773">1920-10-19 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="10773">1920-10-19 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="10773">1920-10-19 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0163"/>23.10.1920.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0163"/>23.10.1920.<lb/>
 An<lb/>
 S. Fischer, Verlag,<lb/>
 Theaterabetilung,Ausland,<lb/>
@@ -159,7 +155,8 @@ Die Veränderungen, die Sie diesmal vorschlagen,<lb/>
 sind mir nicht recht verständlich, insbesonde<lb/>
 re der Unterschied zwischen der Tantiemenbe-<lb/>
 rechnung bei Werken, die in den ersten 6 Mona¬</p>
-        <p><pb facs="1416739_0164"/>ten und solchen, die später durch sie ange-<lb/>
+        <p>
+          <pb facs="1416739_0164"/>ten und solchen, die später durch sie ange-<lb/>
 bracht würden. Ich weiss auch nicht, welches<lb/>
 die „Ueberschüsse“ sein könnten, die Ihrer<lb/>
 Vertretung gehören sollen,die dafür die Ver-<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -103,7 +104,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten
 Antwort auf: <ref target="11428">1928-07-03 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11430">1928-07-11 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11430">1928-07-11 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="published_in">Rodewald, 152-153 [Nr. 188]</note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1928-07-07.html</note>
@@ -120,6 +122,20 @@ Beantwortet in: <ref target="11430">1928-07-11 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11740">Hofmannsthal, Hugo von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11798">Ibsen, Henrik</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12176">Mann, Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2381">Shaw, George Bernard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13055">Wassermann, Jakob</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4455">Zsolnay, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb166">Frankreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50822">Klobenstein</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11429.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -138,40 +154,6 @@ Beantwortet in: <ref target="11430">1928-07-11 SF (Berlin) an AS (Wien)</ref></n
           <term>Verlagswerbung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-        <person ref="#pmb11740" source="https://pmb.acdh.oeaw.ac.at/entity/11740/">
-          <persName>Hofmannsthal, Hugo von</persName>
-        </person>
-        <person ref="#pmb11798" source="https://pmb.acdh.oeaw.ac.at/entity/11798/">
-          <persName>Ibsen, Henrik</persName>
-        </person>
-        <person ref="#pmb12176" source="https://pmb.acdh.oeaw.ac.at/entity/12176/">
-          <persName>Mann, Thomas</persName>
-        </person>
-        <person ref="#pmb2381" source="https://pmb.acdh.oeaw.ac.at/entity/2381/">
-          <persName>Shaw, George Bernard</persName>
-        </person>
-        <person ref="#pmb13055" source="https://pmb.acdh.oeaw.ac.at/entity/13055/">
-          <persName>Wassermann, Jakob</persName>
-        </person>
-        <person ref="#pmb4455" source="https://pmb.acdh.oeaw.ac.at/entity/4455/">
-          <persName>Zsolnay, Paul</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
-          <placeName>Frankreich</placeName>
-        </place>
-        <place ref="#pmb50822" source="https://pmb.acdh.oeaw.ac.at/entity/50822/">
-          <placeName>Klobenstein</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -182,10 +164,12 @@ Beantwortet in: <ref target="11430">1928-07-11 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>2 Blatt, 3 Seiten
 Antwort auf: <ref target="11428">1928-07-03 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11430">1928-07-11 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11430">1928-07-11 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0056"/>von der Auferge irgend eines anderen hoecandischen<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0056"/>von der Auferge irgend eines anderen hoecandischen<lb/>
 Verlags über „Therese“, die wohl weiter keine Folge<lb/>
 gehabt hat.<lb/>
 Nimmt die Angelegenheit "Bernhardi", Lugt,<lb/>
@@ -246,7 +230,8 @@ später glaube ich erschienen die "Plays for Puritans<lb/>
 Oh die "Komödien des Glaubens" auch in England zu-<lb/>
 sammen in einem Band erschienen sind, weiss ich<lb/>
 nicht.</p>
-        <p><pb facs="1416741_0057"/>Folgerichtig müssten Sie mich nun vor die<lb/>
+        <p>
+          <pb facs="1416741_0057"/>Folgerichtig müssten Sie mich nun vor die<lb/>
 Wahl stellen, für die 4 Bände der Tiesterstücke je<lb/>
 einen zusammenfasenden Titel zu finden oder auf<lb/>
 einen Neudruck zu verzichten, doch hoffe ich von<lb/>
@@ -312,7 +297,8 @@ Mit herzlichem Gruss<lb/>
 Ihr<lb/>
 Herrn.Fischer, Verlog.<lb/>
 Berlin.</p>
-        <p><pb facs="1416741_0058"/>28th/7<lb/>
+        <p>
+          <pb facs="1416741_0058"/>28th/7<lb/>
 7.7.1928.<lb/>
 Hscher<lb/>
 us to<lb/>

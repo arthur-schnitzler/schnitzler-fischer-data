@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -102,6 +103,14 @@ Antwort auf: 1914-03-11 SF as AS</note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb116076">Goschen, William Edward (?)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17355">Grein, Jack Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11904">Kellner, Leon</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb374">Gardone</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10528.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -111,22 +120,6 @@ Antwort auf: 1914-03-11 SF as AS</note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb116076" source="https://pmb.acdh.oeaw.ac.at/entity/116076/">
-          <persName>Goschen, William Edward (?)</persName>
-        </person>
-        <person ref="#pmb17355" source="https://pmb.acdh.oeaw.ac.at/entity/17355/">
-          <persName>Grein, Jack Thomas</persName>
-        </person>
-        <person ref="#pmb11904" source="https://pmb.acdh.oeaw.ac.at/entity/11904/">
-          <persName>Kellner, Leon</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb374" source="https://pmb.acdh.oeaw.ac.at/entity/374/">
-          <placeName>Gardone</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>

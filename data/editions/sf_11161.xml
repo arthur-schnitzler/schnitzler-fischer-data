@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -75,6 +76,12 @@ Beantwortet in: <ref target="11162">1925-01-07 SF (Berlin) an AS</ref> (Wien)</n
           <persName type="coworker">Rosenbaum, Regina</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb16125">Feilchenfeld, Franz Karl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb872">Stuttgart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11161.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -86,16 +93,6 @@ Beantwortet in: <ref target="11162">1925-01-07 SF (Berlin) an AS</ref> (Wien)</n
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb16125" source="https://pmb.acdh.oeaw.ac.at/entity/16125/">
-          <persName>Feilchenfeld, Franz Karl</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb872" source="https://pmb.acdh.oeaw.ac.at/entity/872/">
-          <placeName>Stuttgart</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -107,8 +104,9 @@ Beantwortet in: <ref target="11162">1925-01-07 SF (Berlin) an AS</ref> (Wien)</n
         <p>1 Blatt, 2 Seiten
 Beantwortet in: <ref target="11162">1925-01-07 SF (Berlin) an AS</ref> (Wien)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0050"/>Fischer<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0050"/>Fischer<lb/>
 5.1.1925.<lb/>
 m m m m r<lb/>
 f. xxx xxx a. m. eif. a<lb/>
@@ -151,7 +149,8 @@ tragareise und teile für alle Fälle mit, dass ich<lb/>
 am 5.1. in Stuttgart lege (Hotel Marquart, am<lb/>
 12. In Freiburg i.Br. Zaeringerhof,13.Bas<lb/>
 Schweizerhof,15.Bern,Hotel Bellevue, 15. in Bern</p>
-        <p><pb facs="1416740_0051"/>am 16. in St.Gallen, Notarkeerkt: 19. Zürich,Hotel<lb/>
+        <p>
+          <pb facs="1416740_0051"/>am 16. in St.Gallen, Notarkeerkt: 19. Zürich,Hotel<lb/>
 Gottharet.<lb/>
 wit verbindlichen Grüssen<lb/>
 Ihr sehr ergebener<lb/>

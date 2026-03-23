@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,6 +80,13 @@ Evtl. Anlage: 1920-02-20 Loving, Edward Pierre (New York) an SF (Berlin)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12504">Reinhardt, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb652">Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10744.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,19 +99,6 @@ Evtl. Anlage: 1920-02-20 Loving, Edward Pierre (New York) an SF (Berlin)</note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
-          <persName>Reinhardt, Max</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
-          <placeName>Prag</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -116,8 +111,9 @@ Evtl. Anlage: 1920-02-20 Loving, Edward Pierre (New York) an SF (Berlin)</note>
 Antwort auf: <ref target="10743">1920-03-09 AS (Wien) an SF (Berlin)</ref>
 Evtl. Anlage: 1920-02-20 Loving, Edward Pierre (New York) an SF (Berlin)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0238"/>44S<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0238"/>44S<lb/>
 Berlin<lb/>
 S. Fischer Verlag<lb/>
 7<lb/>
@@ -161,7 +157,8 @@ Sollten wir an diesem Tag noch keine<lb/>
 Die oben genannten Bedingungen haben Sültigkeit bis zum<lb/>
 entscheidende Antwort erhalten haben, so nehmen wir an, daß wir aber das in Frage frehende Werk anderweitig verfügen können<lb/>
 6I. 226.</p>
-        <p><pb facs="1416743_0239"/>milis &amp;a. xxx<lb/>
+        <p>
+          <pb facs="1416743_0239"/>milis &amp;a. xxx<lb/>
 mmn<lb/>
 ««n»n«i"i!«i«««"i"««i!i!B^i«iB«i.««:««.«:.«.<lb/>
 be<lb/>

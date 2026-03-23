@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -58,7 +59,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Beantwortet in: <ref target="11316">1927-06-11 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11316">1927-06-11 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1927-06-07.html</note>
       </notesStmt>
@@ -75,17 +77,17 @@ Beantwortet in: <ref target="11316">1927-06-11 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb15434">Donath, Stanley F.</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11313.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Manuskript</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb15434" source="https://pmb.acdh.oeaw.ac.at/entity/15434/">
-          <persName>Donath, Stanley F.</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -95,10 +97,12 @@ Beantwortet in: <ref target="11316">1927-06-11 SF (Berlin) an AS (Wien)</ref></n
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Beantwortet in: <ref target="11316">1927-06-11 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11316">1927-06-11 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0120"/>7.6.1927.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0120"/>7.6.1927.<lb/>
 Lieber Herr Dr.Maril.<lb/>
 (V.T.K.V.W.M)T<lb/>
 Sie waren so freundlich mir zuzusa-<lb/>

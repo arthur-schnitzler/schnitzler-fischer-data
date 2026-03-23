@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -62,7 +63,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
 Antwort auf: <ref target="11188">1925-07-09 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11190">1925-07-23 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11190">1925-07-23 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1925-07-16.html</note>
       </notesStmt>
@@ -78,6 +80,12 @@ Beantwortet in: <ref target="11190">1925-07-23 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7823">Herzmansky, Bernhard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12861">Straus, Oscar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11189.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -88,14 +96,6 @@ Beantwortet in: <ref target="11190">1925-07-23 SF (Berlin) an AS (Wien)</ref></n
           <term>Reise/Urlaub</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb7823" source="https://pmb.acdh.oeaw.ac.at/entity/7823/">
-          <persName>Herzmansky, Bernhard</persName>
-        </person>
-        <person ref="#pmb12861" source="https://pmb.acdh.oeaw.ac.at/entity/12861/">
-          <persName>Straus, Oscar</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -106,10 +106,12 @@ Beantwortet in: <ref target="11190">1925-07-23 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>1 Blatt, 2 Seiten
 Antwort auf: <ref target="11188">1925-07-09 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11190">1925-07-23 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11190">1925-07-23 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0060"/>Fischer<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0060"/>Fischer<lb/>
 ful<lb/>
 16. 7.1925.<lb/>
 Lieber Freund.<lb/>
@@ -147,7 +149,8 @@ be bis Anfang August in Wien und fahre dann<lb/>
 vem utlich wieder nach Südtirol,zuerst wahr<lb/>
 scheinlich nach Karersee, das weitere Programm<lb/>
 steht noch nicht fest. Lassen sie mich jedes-</p>
-        <p><pb facs="1416740_0061"/>falls immer wissen,wo Sie sich aufhalten, ich<lb/>
+        <p>
+          <pb facs="1416740_0061"/>falls immer wissen,wo Sie sich aufhalten, ich<lb/>
 würde mich sehr freuen Sie und die Ihren noch<lb/>
 vor dem Herbst wiederzusehen.<lb/>
 Mit den herzlichsten Grüssen<lb/>

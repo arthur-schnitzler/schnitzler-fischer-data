@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -72,7 +73,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Beantwortet in: <ref target="11205">1925-11-27 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11205">1925-11-27 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1925-11-26.html</note>
       </notesStmt>
@@ -88,6 +90,12 @@ Beantwortet in: <ref target="11205">1925-11-27 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb313">Polen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11204.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -101,14 +109,6 @@ Beantwortet in: <ref target="11205">1925-11-27 SF (Berlin) an AS (Wien)</ref></n
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
-          <placeName>Polen</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -118,10 +118,12 @@ Beantwortet in: <ref target="11205">1925-11-27 SF (Berlin) an AS (Wien)</ref></n
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Beantwortet in: <ref target="11205">1925-11-27 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11205">1925-11-27 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0064"/>praktischen Rücksichten am stärksten verbun-<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0064"/>praktischen Rücksichten am stärksten verbun-<lb/>
 den fühle. Andererseits habe ich Ihnen, lieber<lb/>
 Freund „kein Hehl daraus gemacht, was mich<lb/>
 schwanken machte und sie haben nach unserem<lb/>
@@ -208,7 +210,8 @@ deutung, immerhin setze ich Sie davon hiemit<lb/>
 in Kenntnis. Gegen die von dem Verlag erteil-<lb/>
 te Abdruckserlaubnis von der Züricher Volks-<lb/>
 B. W.</p>
-        <p><pb facs="1416740_0065"/>zeitung (Der Blinde Geronimo) habe ich na-<lb/>
+        <p>
+          <pb facs="1416740_0065"/>zeitung (Der Blinde Geronimo) habe ich na-<lb/>
 türlich nichts einzuwenden. Ich mache Sie zu<lb/>
 gleicher Zeit aufmerksam,dass vor kurzem<lb/>
 Im Giessner Anzeiger ein unrechtmässiger Nach-<lb/>

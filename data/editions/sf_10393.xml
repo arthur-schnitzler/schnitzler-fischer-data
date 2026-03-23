@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10393">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -87,54 +88,28 @@ Antwort auf: 1911-08-22ante AS an SF (Anfrage Ratislav, Slevogt als Illustrator 
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb117673">Engels, Robert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="117078778">Jank, Angelo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb18900">Jonas, Clara</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4532">Jonas, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8729">Lucka, Emil</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb43450">Münger, Rudolf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb260151">Preetorius, Emil</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23079">Ratislav, Josef Karl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb25035">Slevogt, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb259879">Woelfle, Alphons</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb189">Semmering</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="7659602-3">Hebbeltheater (Theater in der Königgrätzer Straße) Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10393.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Buchillustration</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb117673" source="https://pmb.acdh.oeaw.ac.at/entity/117673/">
-          <persName>Engels, Robert</persName>
-        </person>
-        <person ref="117078778" source="https://d-nb.info/gnd/117078778">
-          <persName>Jank, Angelo</persName>
-        </person>
-        <person ref="#pmb18900" source="https://pmb.acdh.oeaw.ac.at/entity/18900/">
-          <persName>Jonas, Clara</persName>
-        </person>
-        <person ref="#pmb4532" source="https://pmb.acdh.oeaw.ac.at/entity/4532/">
-          <persName>Jonas, Paul</persName>
-        </person>
-        <person ref="#pmb8729" source="https://pmb.acdh.oeaw.ac.at/entity/8729/">
-          <persName>Lucka, Emil</persName>
-        </person>
-        <person ref="#pmb43450" source="https://pmb.acdh.oeaw.ac.at/entity/43450/">
-          <persName>Münger, Rudolf</persName>
-        </person>
-        <person ref="#pmb260151" source="https://pmb.acdh.oeaw.ac.at/entity/260151/">
-          <persName>Preetorius, Emil</persName>
-        </person>
-        <person ref="#pmb23079" source="https://pmb.acdh.oeaw.ac.at/entity/23079/">
-          <persName>Ratislav, Josef Karl</persName>
-        </person>
-        <person ref="#pmb25035" source="https://pmb.acdh.oeaw.ac.at/entity/25035/">
-          <persName>Slevogt, Max</persName>
-        </person>
-        <person ref="#pmb259879" source="https://pmb.acdh.oeaw.ac.at/entity/259879/">
-          <persName>Woelfle, Alphons</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb189" source="https://pmb.acdh.oeaw.ac.at/entity/189/">
-          <placeName>Semmering</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="7659602-3" source="https://d-nb.info/gnd/7659602-3">
-          <orgName>Hebbeltheater (Theater in der Königgrätzer Straße) Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -147,8 +122,9 @@ Antwort auf: 1911-08-22ante AS an SF (Anfrage Ratislav, Slevogt als Illustrator 
 
 Antwort auf: 1911-08-22ante AS an SF (Anfrage Ratislav, Slevogt als Illustrator 'Hirtenflöte'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0504"/>255<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0504"/>255<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
 z. Zt. Badgastein<lb/>
 Hotel Elisabethof<lb/>
@@ -199,7 +175,8 @@ schaupt<lb/>
 Radierkunst<lb/>
 seine Verknitt,<lb/>
 mir für das Buch an das wir danken</p>
-        <p><pb facs="1416742_0505"/>sessenscholue.<lb/>
+        <p>
+          <pb facs="1416742_0505"/>sessenscholue.<lb/>
 nimmä pehnen ischt.<lb/>
 faire<lb/>
 vadt<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -67,7 +68,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Beantwortet in: <ref target="11006">1923-07-27 SF (Berlin) an AS (Wien)</ref>, <ref target="11007">1923-07-30 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11006">1923-07-27 SF (Berlin) an AS (Wien)</ref>, <ref target="11007">1923-07-30 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-07-23.html</note>
       </notesStmt>
@@ -83,6 +85,12 @@ Beantwortet in: <ref target="11006">1923-07-27 SF (Berlin) an AS (Wien)</ref>, <
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2334">Langmann, Philipp</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb92768">Woticky, Edward</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11005.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -93,14 +101,6 @@ Beantwortet in: <ref target="11006">1923-07-27 SF (Berlin) an AS (Wien)</ref>, <
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2334" source="https://pmb.acdh.oeaw.ac.at/entity/2334/">
-          <persName>Langmann, Philipp</persName>
-        </person>
-        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
-          <persName>Woticky, Edward</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -110,10 +110,12 @@ Beantwortet in: <ref target="11006">1923-07-27 SF (Berlin) an AS (Wien)</ref>, <
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Beantwortet in: <ref target="11006">1923-07-27 SF (Berlin) an AS (Wien)</ref>, <ref target="11007">1923-07-30 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11006">1923-07-27 SF (Berlin) an AS (Wien)</ref>, <ref target="11007">1923-07-30 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0278"/>23.7.1923.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0278"/>23.7.1923.<lb/>
 Rchen<lb/>
 Falls die letzte Bühnenvertriebssumme<lb/>
 Lieber Freund.<lb/>
@@ -163,7 +165,8 @@ Berlin.<lb/>
 Ob Sie dieser brief noch in Berlin<lb/>
 trifft? Ich bleibe in Wien noch etwa bis Anfang<lb/>
 August, fahre dann vermutlich über Baden-Baden</p>
-        <p><pb facs="1416739_0279"/>in die Schweiz.<lb/>
+        <p>
+          <pb facs="1416739_0279"/>in die Schweiz.<lb/>
 Wie stellt nun unser rechtliches Ver¬<lb/>
 hältnis zu Motitzky wegen des „Weiten Land“?<lb/>
 Bis zu welchem Tag läuft seine Opt von? Ich weise<lb/>

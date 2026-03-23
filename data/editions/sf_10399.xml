@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -88,6 +89,12 @@ Die von AS erbetene telegraphische Antwort ist nicht überliefert</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10399.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -96,14 +103,6 @@ Die von AS erbetene telegraphische Antwort ist nicht überliefert</note>
           <term>Verlagsjubiläum</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -117,8 +116,9 @@ Die von AS erbetene telegraphische Antwort ist nicht überliefert</note>
 Antwort auf: <ref target="10395">1911-09-22 AS an SF/CS</ref>
 Die von AS erbetene telegraphische Antwort ist nicht überliefert</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0510"/>accct<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0510"/>accct<lb/>
 258<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
 den 9. Okt. 1911<lb/>
@@ -144,7 +144,8 @@ ergibt sich bei der Versendung an den Buchhandel eine technische<lb/>
 Schwierigkeit. Es ist wünschenswert, dass Ihr Buch spätestens am 16.<lb/>
 in allen Buchhandlungen zu haben ist. Die Leipsiger Expedition, die<lb/>
 die Gesamtversendung an den Buchhandel organisiert, geschieht in der</p>
-        <p><pb facs="1416742_0511"/>all<lb/>
+        <p>
+          <pb facs="1416742_0511"/>all<lb/>
 S. FISCHER, VERLAG, BERLIN,<lb/>
 Blatt 2<lb/>
 Regel so, dass an jedem Freitag, in diesem Fall also am 13., die<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -72,7 +73,8 @@
 Anlage: Ausschnitt aus New Yorker Presse (wohl zu 'Anatol'-Aufführung)
 
 Antwort auf: <ref target="10443">1912-06-07 SF an AS</ref>
-Beantwortet in: 1912-06-18 und <ref target="10446">1912-06-21 SF an AS</ref></note>
+Beantwortet in: 1912-06-18 und <ref target="10446">1912-06-21 SF an AS</ref>
+        </note>
         <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1912-06-13.html</note>
       </notesStmt>
@@ -88,6 +90,20 @@ Beantwortet in: 1912-06-18 und <ref target="10446">1912-06-21 SF an AS</ref></no
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116298065">Ames, Winthrop</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="11674748X">Fred, Alfred W.</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5369">Granville-Barker, Harley</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb27939">Matern, Emil E.</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45260">Brioni (Brijuni)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb869">Moskau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb877">Unterach</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10444.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -105,40 +121,6 @@ Beantwortet in: 1912-06-18 und <ref target="10446">1912-06-21 SF an AS</ref></no
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="116298065" source="https://d-nb.info/gnd/116298065">
-          <persName>Ames, Winthrop</persName>
-        </person>
-        <person ref="11674748X" source="https://d-nb.info/gnd/11674748X">
-          <persName>Fred, Alfred W.</persName>
-        </person>
-        <person ref="#pmb5369" source="https://pmb.acdh.oeaw.ac.at/entity/5369/">
-          <persName>Granville-Barker, Harley</persName>
-        </person>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-        <person ref="#pmb27939" source="https://pmb.acdh.oeaw.ac.at/entity/27939/">
-          <persName>Matern, Emil E.</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb45260" source="https://pmb.acdh.oeaw.ac.at/entity/45260/">
-          <placeName>Brioni (Brijuni)</placeName>
-        </place>
-        <place ref="#pmb869" source="https://pmb.acdh.oeaw.ac.at/entity/869/">
-          <placeName>Moskau</placeName>
-        </place>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-        <place ref="#pmb877" source="https://pmb.acdh.oeaw.ac.at/entity/877/">
-          <placeName>Unterach</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -151,7 +133,8 @@ Beantwortet in: 1912-06-18 und <ref target="10446">1912-06-21 SF an AS</ref></no
 Anlage: Ausschnitt aus New Yorker Presse (wohl zu 'Anatol'-Aufführung)
 
 Antwort auf: <ref target="10443">1912-06-07 SF an AS</ref>
-Beantwortet in: 1912-06-18 und <ref target="10446">1912-06-21 SF an AS</ref></p>
+Beantwortet in: 1912-06-18 und <ref target="10446">1912-06-21 SF an AS</ref>
+        </p>
       </div>
     </body>
   </text>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -86,6 +87,13 @@ Anlage: Amerikanischer Interessent "Weites Land" und handschriftlicher Brief von
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2456">Specht, Richard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb92768">Woticky, Edward</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10866.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -93,17 +101,6 @@ Anlage: Amerikanischer Interessent "Weites Land" und handschriftlicher Brief von
           <term>Manuskript</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb2456" source="https://pmb.acdh.oeaw.ac.at/entity/2456/">
-          <persName>Specht, Richard</persName>
-        </person>
-        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
-          <persName>Woticky, Edward</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -116,8 +113,9 @@ Anlage: Amerikanischer Interessent "Weites Land" und handschriftlicher Brief von
 Antwort auf: <ref target="10864">1921-11-17 AS (Wien) an SF (Berlin)</ref>
 Anlage: Amerikanischer Interessent "Weites Land" und handschriftlicher Brief von Edward Woticky</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0437"/>530<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0437"/>530<lb/>
 S. Fischer/Verlag/Berlin W 57/ Bülowstrasse 9o<lb/>
 Baukkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto: Berlin Nr. 16892<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 1662, 6162 und 9292<lb/>

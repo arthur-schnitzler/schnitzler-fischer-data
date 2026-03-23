@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10770">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -83,6 +84,15 @@ Antwort auf: Postkarte 1920-XX-XX AS (X) an SF (Berlin) (erschlossen)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2381">Shaw, George Bernard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb89711">Williams, George Valentine</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb54025">Birmingham</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="1800987-6">Birmingham Repertory Theatre</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10770.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -92,27 +102,6 @@ Antwort auf: Postkarte 1920-XX-XX AS (X) an SF (Berlin) (erschlossen)</note>
           <term>Währung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2381" source="https://pmb.acdh.oeaw.ac.at/entity/2381/">
-          <persName>Shaw, George Bernard</persName>
-        </person>
-        <person ref="#pmb89711" source="https://pmb.acdh.oeaw.ac.at/entity/89711/">
-          <persName>Williams, George Valentine</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb54025" source="https://pmb.acdh.oeaw.ac.at/entity/54025/">
-          <placeName>Birmingham</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="1800987-6" source="https://d-nb.info/gnd/1800987-6">
-          <orgName>Birmingham Repertory Theatre</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -124,8 +113,9 @@ Antwort auf: Postkarte 1920-XX-XX AS (X) an SF (Berlin) (erschlossen)</note>
         <p>2 Blatt, 2 Seiten
 Antwort auf: Postkarte 1920-XX-XX AS (X) an SF (Berlin) (erschlossen)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0292"/>bele<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0292"/>bele<lb/>
 wurde<lb/>
 Verlag. Berlin<lb/>
 Fischer.<lb/>
@@ -165,7 +155,8 @@ Werden aber der Angelegenheit an der<lb/>
 Die oben genannten Bedingung.<lb/>
 daß wir über das in<lb/>
 entscheidende Antwort erhalten haben, so nehmen</p>
-        <p><pb facs="1416743_0293"/>nuliafdoisiosd.<lb/>
+        <p>
+          <pb facs="1416743_0293"/>nuliafdoisiosd.<lb/>
 und xxx, xxx. xxx<lb/>
 Ueber die Angelegenheit „Schwestern“ in Holland<lb/>
 en wir uns wieder mit dem Internationalten Bureau in Amsterdam<lb/>

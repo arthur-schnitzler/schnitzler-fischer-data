@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -94,7 +95,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
 Antwort auf: <ref target="10778">1920-11-05 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10784">1920-11-23 SF (Berlin) an AS (Wien)</ref>, <ref target="10786">1920-12-01 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10784">1920-11-23 SF (Berlin) an AS (Wien)</ref>, <ref target="10786">1920-12-01 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1920-11-11.html</note>
       </notesStmt>
@@ -110,6 +112,27 @@ Beantwortet in: <ref target="10784">1920-11-23 SF (Berlin) an AS (Wien)</ref>, <
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10836">Bartsch, Rudolf Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4040">Bernau, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Cutti, B. (Übersetzer/Literaturagent, Mailand)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116575875">Eugen, Robert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Giordani, Paolo (Präsident Società italiana del teatro drammatico, Rom)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb261838">Holländer, Felix</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb64874">Johann (Literaturagent?, Den Haag)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11981">Kramer, Leopold</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12170">Mann, Heinrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb58810">Den Haag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb57051">Südamerika</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb37123">Renaissance Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10779.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -135,63 +158,6 @@ Beantwortet in: <ref target="10784">1920-11-23 SF (Berlin) an AS (Wien)</ref>, <
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
-          <persName>Bartsch, Rudolf Hans</persName>
-        </person>
-        <person ref="#pmb4040" source="https://pmb.acdh.oeaw.ac.at/entity/4040/">
-          <persName>Bernau, Alfred</persName>
-        </person>
-        <person>
-          <persName>Cutti, B. (Übersetzer/Literaturagent, Mailand)</persName>
-        </person>
-        <person ref="116575875" source="https://d-nb.info/gnd/116575875">
-          <persName>Eugen, Robert</persName>
-        </person>
-        <person>
-          <persName>Giordani, Paolo (Präsident Società italiana del teatro drammatico, Rom)</persName>
-        </person>
-        <person ref="#pmb261838" source="https://pmb.acdh.oeaw.ac.at/entity/261838/">
-          <persName>Holländer, Felix</persName>
-        </person>
-        <person ref="#pmb64874" source="https://pmb.acdh.oeaw.ac.at/entity/64874/">
-          <persName>Johann (Literaturagent?, Den Haag)</persName>
-        </person>
-        <person ref="#pmb11981" source="https://pmb.acdh.oeaw.ac.at/entity/11981/">
-          <persName>Kramer, Leopold</persName>
-        </person>
-        <person ref="#pmb12170" source="https://pmb.acdh.oeaw.ac.at/entity/12170/">
-          <persName>Mann, Heinrich</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb58810" source="https://pmb.acdh.oeaw.ac.at/entity/58810/">
-          <placeName>Den Haag</placeName>
-        </place>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb57051" source="https://pmb.acdh.oeaw.ac.at/entity/57051/">
-          <placeName>Südamerika</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb37123" source="https://pmb.acdh.oeaw.ac.at/entity/37123/">
-          <orgName>Renaissance Theater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -202,10 +168,12 @@ Beantwortet in: <ref target="10784">1920-11-23 SF (Berlin) an AS (Wien)</ref>, <
       <div type="letter">
         <p>2 Blatt, 4 Seiten
 Antwort auf: <ref target="10778">1920-11-05 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10784">1920-11-23 SF (Berlin) an AS (Wien)</ref>, <ref target="10786">1920-12-01 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10784">1920-11-23 SF (Berlin) an AS (Wien)</ref>, <ref target="10786">1920-12-01 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0165"/>so hohe Auflagenziffer erreichen dürfte.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0165"/>so hohe Auflagenziffer erreichen dürfte.<lb/>
 Denn logisch wäre es natürlich, dass von Auf-<lb/>
 lage zu Auflage,da die Kosten des Verlegers<lb/>
 sich ja eher verringern, mehr und nicht we-<lb/>
@@ -256,7 +224,8 @@ dürfte, nicht meine Meinung allein und manche<lb/>
 schriftstellerische Verbände beschäftigen sich,<lb/>
 wie Sie auch wissen, aufs Lebhafteste mit dieser<lb/>
 Frage. Es wird Sie gewiss interessieren, wenn ich</p>
-        <p><pb facs="1416739_0166"/>Ihnen eine Stelle aus einem Brief von Heinrich<lb/>
+        <p>
+          <pb facs="1416739_0166"/>Ihnen eine Stelle aus einem Brief von Heinrich<lb/>
 dann zitiere, der vor kurzem an mich gelangt<lb/>
 Ist. Ich bemerke, dass nicht etwa ich das The-<lb/>
 ma in der Korrespondenz mit ihm zuerst ange¬<lb/>
@@ -334,7 +303,8 @@ sichten, die über B. verbreitet zu sein<lb/>
 scheinen, würde ich bitten die Angelegenheit,<lb/>
 wenn nötig mit aller Energie weiter zu be¬<lb/>
 treiben.</p>
-        <p><pb facs="1416739_0167"/>11/11 810<lb/>
+        <p>
+          <pb facs="1416739_0167"/>11/11 810<lb/>
 tischer<lb/>
 20.11.1900.<lb/>
 2<lb/>
@@ -414,7 +384,8 @@ freilich schön, wenn wir uns bald wieder einmal<lb/>
 mündlich und nicht nur über<lb/>
 r geschäftliche Din-<lb/>
 ...</p>
-        <p><pb facs="1416739_0168"/>Miss Fanny Johnson, die vor dem Krieg<lb/>
+        <p>
+          <pb facs="1416739_0168"/>Miss Fanny Johnson, die vor dem Krieg<lb/>
 wiederholt über meine Werke in der literari-<lb/>
 schen Beilage der Times berichtet hat, bittet<lb/>
 mich durch den hiesigen Universitätsprofessor<lb/>

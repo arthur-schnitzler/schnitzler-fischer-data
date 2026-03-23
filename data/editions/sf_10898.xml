@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -103,6 +104,24 @@ Anlage: Rechnung der Bücherlieferung an den Karczag Verlag</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11423">Gerasch, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3105">Karczag, Wilhelm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb146243">Marton, Alexander</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="117093246">Wagenvoort, Maurits</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb92768">Woticky, Edward</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb145">Köln</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb745">Skandinavien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb484">Zürich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10898.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -113,52 +132,6 @@ Anlage: Rechnung der Bücherlieferung an den Karczag Verlag</note>
           <term>skandinavisch</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11423" source="https://pmb.acdh.oeaw.ac.at/entity/11423/">
-          <persName>Gerasch, Alfred</persName>
-        </person>
-        <person ref="#pmb3105" source="https://pmb.acdh.oeaw.ac.at/entity/3105/">
-          <persName>Karczag, Wilhelm</persName>
-        </person>
-        <person ref="#pmb146243" source="https://pmb.acdh.oeaw.ac.at/entity/146243/">
-          <persName>Marton, Alexander</persName>
-        </person>
-        <person ref="117093246" source="https://d-nb.info/gnd/117093246">
-          <persName>Wagenvoort, Maurits</persName>
-        </person>
-        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
-          <persName>Woticky, Edward</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-        <place ref="#pmb145" source="https://pmb.acdh.oeaw.ac.at/entity/145/">
-          <placeName>Köln</placeName>
-        </place>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb745" source="https://pmb.acdh.oeaw.ac.at/entity/745/">
-          <placeName>Skandinavien</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb484" source="https://pmb.acdh.oeaw.ac.at/entity/484/">
-          <placeName>Zürich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -172,8 +145,9 @@ Antwort auf: <ref target="10895">1922-03-10 AS (Wien) an SF (Berlin)</ref>, <ref
 Beantwortet in: <ref target="10900">1922-03-23 AS (Wien) an SF (Berlin)</ref>
 Anlage: Rechnung der Bücherlieferung an den Karczag Verlag</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0479"/>ste<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0479"/>ste<lb/>
 S. Fischer/Verlag/Berlin M 57/Bülowstraße go-<lb/>
 Postscheckkonto Nr. 16 692<lb/>
 Amt Lützow 1662, 6162, 9292 Theaterabteilung<lb/>
@@ -236,7 +210,8 @@ ohne weiteres zurück.<lb/>
 werden mögen.<lb/>
 G. A. P.<lb/>
 Geschäft nicht angeben.</p>
-        <p><pb facs="1416743_0480"/>gefolügt geenwärtig sein<lb/>
+        <p>
+          <pb facs="1416743_0480"/>gefolügt geenwärtig sein<lb/>
 716 einwächsset.<lb/>
 rese sotb rnnt araus. mik<lb/>
 1 u/ia 1 o m2 a d<lb/>
@@ -327,7 +302,8 @@ riw namden renöth. xxxnewiev Jdoi.tov nun nohremessive<lb/>
 Zeit, mir freundlichst mitzuteilen wie Sie prinzipiell zu dergleichen<lb/>
 geleitev<lb/>
 von den Bühnen gewünschten Vertragsauflösungen stehen.</p>
-        <p><pb facs="1416743_0481"/>Blatt<lb/>
+        <p>
+          <pb facs="1416743_0481"/>Blatt<lb/>
 S. FISCHER,VERLAG, BERLIN,<lb/>
 P.P.<lb/>
 Theaterabteilung<lb/>
@@ -361,7 +337,8 @@ ein Rundschreiben an die deutschen Bühnen hinausgeht, mit der Auf-<lb/>
 forderung Ihre Werke gelegentlich Ihres 60t Geburtstages auf den<lb/>
 Spielplan zu setzen. Ich erhoffe mir davon eine Ehrung und Förderung<lb/>
 Ihres Gesamtwerkes,an der ich für mein bescheidenes Teil wenigstens</p>
-        <p><pb facs="1416743_0482"/>A.J.S.H.V. S. H.I.D.B.<lb/>
+        <p>
+          <pb facs="1416743_0482"/>A.J.S.H.V. S. H.I.D.B.<lb/>
 J.H.<lb/>
 G.C.F.P.<lb/>
 auf diese Weise Anteil nehmen möchte.<lb/>

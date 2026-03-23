@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -90,6 +91,15 @@ Anlage: Abschrift 1919-07-22 SF (Leipzig) an Friese &amp; Lang (Wien) (in Teilen
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb864">Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44599">Ostsee</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb113376">Schleswig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10711.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -108,23 +118,6 @@ Anlage: Abschrift 1919-07-22 SF (Leipzig) an Friese &amp; Lang (Wien) (in Teilen
           <term>österreichisch</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb864" source="https://pmb.acdh.oeaw.ac.at/entity/864/">
-          <placeName>Leipzig</placeName>
-        </place>
-        <place ref="#pmb44599" source="https://pmb.acdh.oeaw.ac.at/entity/44599/">
-          <placeName>Ostsee</placeName>
-        </place>
-        <place ref="#pmb113376" source="https://pmb.acdh.oeaw.ac.at/entity/113376/">
-          <placeName>Schleswig</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -138,8 +131,9 @@ Antwort auf: 1919-06-06 AS (Wien) an SF (Berlin)
 Beantwortet in: <ref target="10714">1919-08-20 AS (Wien) an SF (Berlin)</ref>
 Anlage: Abschrift 1919-07-22 SF (Leipzig) an Friese &amp; Lang (Wien) (in Teilen nicht lesbar)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0177"/>430<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0177"/>430<lb/>
 S. FISCHER / VerLAG<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P Berlin / Postscheckkonto. Berlin 1662<lb/>
 BERLIN W 57 BULÖWSTRASSE 90<lb/>
@@ -169,7 +163,8 @@ auf Lager fehlende,<lb/>
 reichischen Sortiment xxx fehlende Bücher schnell zu<lb/>
 liefern. Das war der Sinn und der Zweck der Barauslieferung, wie sie<lb/>
 auch an andern Orten besteht. Im vorigen Jahr, als ich die Wiener</p>
-        <p><pb facs="1416743_0178"/>2. Blatt<lb/>
+        <p>
+          <pb facs="1416743_0178"/>2. Blatt<lb/>
 S. FISCHER / VerLAG<lb/>
 Filiale einrichten wollte, habe ich Friese &amp; Lang selbst angeboten,<lb/>
 ihm besonders mit Rücksicht auf die in Wien zu druckenden Bücher<lb/>
@@ -198,7 +193,8 @@ und was wir dort behalten wollen. Ein Druck auf Friese, das Lager zu<lb/>
 bezahlen, besteht nicht, aber er muss natürlich das bezahien, was er<lb/>
 verkauft hat, und das soll er, wie bisher, immer vierteljährlich ab-<lb/>
 rechnen.</p>
-        <p><pb facs="1416743_0179"/>3 Blatt<lb/>
+        <p>
+          <pb facs="1416743_0179"/>3 Blatt<lb/>
 S. FISCHER /VERLAG<lb/>
 Dass wir Friese hauptsächlich gebundene Exemplare geliefert haben,<lb/>
 liegt daran, dass das Lager doppelt so gross se<lb/>
@@ -231,7 +227,8 @@ versagt und sein eigenes Lager so beobachtet, dass er immer genügend<lb/>
 Exemplare für den vorkommenden Bedarf vorrätig hat.<lb/>
 Von "Weiten Land» haben wir noch 350 Exemplare vorrätig, von<lb/>
 «Bernhardi» ist eine neue Auflage gedruckt worden. Wir haben reichlichen</p>
-        <p><pb facs="1416743_0180"/>4. Blatt<lb/>
+        <p>
+          <pb facs="1416743_0180"/>4. Blatt<lb/>
 S. FISCHER /VERLAG<lb/>
 Vorrat und können die Bestellungen Frieses ohne weiteres expedieren.<lb/>
 Im Uebrigen ist die Papiernot in Deutschland nur dadurch kleiner<lb/>

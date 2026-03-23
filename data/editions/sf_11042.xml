@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -53,7 +54,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten
-Beantwortet in: <ref target="11043">1923-11-22 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="11043">1923-11-22 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-11-19.html</note>
       </notesStmt>
@@ -69,6 +71,13 @@ Beantwortet in: <ref target="11043">1923-11-22 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4445">Jacob, Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11042.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -80,19 +89,6 @@ Beantwortet in: <ref target="11043">1923-11-22 AS (Wien) an SF (Berlin)</ref></n
           <term>Verkaufspreis/Ladenpreis</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4445" source="https://pmb.acdh.oeaw.ac.at/entity/4445/">
-          <persName>Jacob, Hans</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -102,10 +98,12 @@ Beantwortet in: <ref target="11043">1923-11-22 AS (Wien) an SF (Berlin)</ref></n
     <body>
       <div type="letter">
         <p>2 Blatt, 3 Seiten
-Beantwortet in: <ref target="11043">1923-11-22 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="11043">1923-11-22 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0676"/>ken3<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0676"/>ken3<lb/>
 S. Fischer/Verlag/Berlin M. 57/Bülowstraße 90<lb/>
 Baukkonto: Deutsche Bank. Depositenkasse P in Berlin / Postscheckkonto: Berlin Nr. 16892<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr.<lb/>
@@ -153,7 +151,8 @@ Wegen der Einnahmen aus dem Ausland<lb/>
 schliessen, Ihren Wünschen zu folgen, abgesehen davon, dass kein recht-<lb/>
 licher Anspruch an einen deutschen Verleger besteht, dass er aus seinen<lb/>
 er anderen Währung als der deutschen, ver-</p>
-        <p><pb facs="1416743_0677"/>B.T.W.O.lta<lb/>
+        <p>
+          <pb facs="1416743_0677"/>B.T.W.O.lta<lb/>
 et<lb/>
 P.S.<lb/>
 Dahin in der<lb/>
@@ -192,7 +191,8 @@ vom Ladenpreis des broschierten, Exemplarz. Die Verrechnung der Ausland-<lb/>
 friedensrelation 1 Urk = 1.25 schw. franke<lb/>
 Exemplare, die zum Teil zu höheren Preisen wie im Inland verkauft wer-<lb/>
 den, wäre eine sehr mühselige und langwierige Rechnungsarbeit, der</p>
-        <p><pb facs="1416743_0678"/>ISCHER/VERLACG.<lb/>
+        <p>
+          <pb facs="1416743_0678"/>ISCHER/VERLACG.<lb/>
 Dr.A. Schnitzler 19/11. 28<lb/>
 1744<lb/>
 wir nicht gewachsen sind, da wir in Abrechnungsarbeiten, die monatlich<lb/>

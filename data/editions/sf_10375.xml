@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -78,6 +79,15 @@ Im April war SF auf einer längeren Italien-Reise, auch AS war in der zweiten Ap
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb994">Genua</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb445">Rom</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb629">Sorrent</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb462">Venedig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10375.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -85,25 +95,6 @@ Im April war SF auf einer längeren Italien-Reise, auch AS war in der zweiten Ap
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb994" source="https://pmb.acdh.oeaw.ac.at/entity/994/">
-          <placeName>Genua</placeName>
-        </place>
-        <place ref="#pmb445" source="https://pmb.acdh.oeaw.ac.at/entity/445/">
-          <placeName>Rom</placeName>
-        </place>
-        <place ref="#pmb629" source="https://pmb.acdh.oeaw.ac.at/entity/629/">
-          <placeName>Sorrent</placeName>
-        </place>
-        <place ref="#pmb462" source="https://pmb.acdh.oeaw.ac.at/entity/462/">
-          <placeName>Venedig</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -117,8 +108,9 @@ Im April war SF auf einer längeren Italien-Reise, auch AS war in der zweiten Ap
 Antwort auf: <ref target="10374">1911-03-28 AS an SF</ref>
 Im April war SF auf einer längeren Italien-Reise, auch AS war in der zweiten April-Hälfte 1911 in Oberitalien, Südfrankreich und den Alpen unterwegs. Zu dem in vorliegendem Brief vorgeschlagenen Treffen kam es wohl nicht. Die Korrespondenz setzt daher erst im Mai 1911 wieder ein. Zwischenzeitlich korrespondierte die SF-Theaterabt. mit AS.</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0481"/>245<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0481"/>245<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstraße 90<lb/>
 den 31. März 1911<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -143,7 +135,8 @@ etwas anderes bestimmt ist, immer ein aussehliessliches ist. Die Schäden,<lb/>
 die Sie anführen, können Sie verhüten, wenn Sie sich im Vertrag mit<lb/>
 Uebersetzern durch den Vorbehalt schützen, dass das Verk, wenn es nicht<lb/>
 „Einzelne“ ist aber eine Interpretation von mir.</p>
-        <p><pb facs="1416742_0482"/>Blatt<lb/>
+        <p>
+          <pb facs="1416742_0482"/>Blatt<lb/>
 S. Fischer, Verlag, Berlin, 190.<lb/>
 gut übersetzt ist oder wenn es nicht innerhalb eines gewissen Zeitraums<lb/>
 veröffentlicht ist, Ihrer freien Verfügung wieder anheimfällt.<lb/>

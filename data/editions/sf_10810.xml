@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -85,6 +86,29 @@ Anlage: Abschrift eines Briefes vom Deutschen Landestheater Prag</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11981">Kramer, Leopold</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2242">Levi, Cesare</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12504">Reinhardt, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4441">Sladek, Maximilian</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb263">Florenz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40700">Göteborg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb36300">Kopenhagen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb335756">Kopenhagen-Christiania</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb652">Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb378">Rumänien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43435">Schweiz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb745">Skandinavien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb1119">Stockholm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43430">Tschechien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb484">Zürich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb35597">Deutsches Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10810.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -102,69 +126,6 @@ Anlage: Abschrift eines Briefes vom Deutschen Landestheater Prag</note>
           <term>tschechisch</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11981" source="https://pmb.acdh.oeaw.ac.at/entity/11981/">
-          <persName>Kramer, Leopold</persName>
-        </person>
-        <person ref="#pmb2242" source="https://pmb.acdh.oeaw.ac.at/entity/2242/">
-          <persName>Levi, Cesare</persName>
-        </person>
-        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
-          <persName>Reinhardt, Max</persName>
-        </person>
-        <person ref="#pmb4441" source="https://pmb.acdh.oeaw.ac.at/entity/4441/">
-          <persName>Sladek, Maximilian</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb263" source="https://pmb.acdh.oeaw.ac.at/entity/263/">
-          <placeName>Florenz</placeName>
-        </place>
-        <place ref="#pmb40700" source="https://pmb.acdh.oeaw.ac.at/entity/40700/">
-          <placeName>Göteborg</placeName>
-        </place>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-        <place ref="#pmb36300" source="https://pmb.acdh.oeaw.ac.at/entity/36300/">
-          <placeName>Kopenhagen</placeName>
-        </place>
-        <place ref="#pmb335756" source="https://d-nb.info/gnd/4096769-4">
-          <placeName>Kopenhagen-Christiania</placeName>
-        </place>
-        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
-          <placeName>Prag</placeName>
-        </place>
-        <place ref="#pmb378" source="https://pmb.acdh.oeaw.ac.at/entity/378/">
-          <placeName>Rumänien</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-        <place ref="#pmb43435" source="https://pmb.acdh.oeaw.ac.at/entity/43435/">
-          <placeName>Schweiz</placeName>
-        </place>
-        <place ref="#pmb745" source="https://pmb.acdh.oeaw.ac.at/entity/745/">
-          <placeName>Skandinavien</placeName>
-        </place>
-        <place ref="#pmb1119" source="https://pmb.acdh.oeaw.ac.at/entity/1119/">
-          <placeName>Stockholm</placeName>
-        </place>
-        <place ref="#pmb43430" source="https://pmb.acdh.oeaw.ac.at/entity/43430/">
-          <placeName>Tschechien</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb484" source="https://pmb.acdh.oeaw.ac.at/entity/484/">
-          <placeName>Zürich</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb35597" source="https://pmb.acdh.oeaw.ac.at/entity/35597/">
-          <orgName>Deutsches Theater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -178,8 +139,9 @@ Antwort auf: <ref target="10807">1921-03-21 AS (Wien) an SF (Berlin)</ref>
 Beantwortet in: <ref target="10812">1921-04-14 AS (Wien) an SF (Berlin)</ref>
 Anlage: Abschrift eines Briefes vom Deutschen Landestheater Prag</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0348"/>493<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0348"/>493<lb/>
 S. Fischer. Verlag. Berlin<lb/>
 Bmwwwimittin<lb/>
 Amt Lützow 1662 u. 6162 Theaterabteilung postscheckkonto Nr. 16692<lb/>
@@ -225,7 +187,8 @@ Die oben genannten Bedingungen haben Sältigkeit die zum<lb/>
 entscheidende Antwort erhalten haben, so nehmen wir an, daß wir über das in Frage stehende Werk anderweitig verfügen können<lb/>
 "<lb/>
 mit Herrn Direktor Wänzler in dem von Ihnen gewünschten Sinne</p>
-        <p><pb facs="1416743_0349"/>2.<lb/>
+        <p>
+          <pb facs="1416743_0349"/>2.<lb/>
 1UilI3E. pvh 3 C<lb/>
 ̃ M<lb/>
 G.T.K.P<lb/>
@@ -263,7 +226,8 @@ wenden, die evtl. damit garnichts zu tun hatten. Tatsächlich<lb/>
 Vonrittung og überallisesten mai<lb/>
 â¢ n<lb/>
 o).ndod uxdodn noonnfl abmabtachim</p>
-        <p><pb facs="1416743_0350"/>Abschrift<lb/>
+        <p>
+          <pb facs="1416743_0350"/>Abschrift<lb/>
 Bezugnehmend auf Ihr wertes Schreiben vom 28.4.<lb/>
 betreffend Uraufführung von Schnitzler " Reigen" teilen wir<lb/>
 Ihnen mit, dass wir zwar auf dem Standpunkt stehen, dieses<lb/>
@@ -272,7 +236,8 @@ mit Rücksicht auf die bisherigen guten Beziehungen zum S. Fischer<lb/>
 Verlag aber von einer Aufführung nach dem Wunsch des Verlages<lb/>
 absehen wollen.<lb/>
 gez. Deutsches Landestheater,Prag</p>
-        <p><pb facs="1416743_0351"/>1499<lb/>
+        <p>
+          <pb facs="1416743_0351"/>1499<lb/>
 Blatt 2....<lb/>
 S. FISCHER, VERLAG, BERLIN, Sohnitzler 6. April<lb/>
 Theaterabteilung<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -86,7 +87,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
 Bezug auf: Telegramm XXXX-XX-XX AS (Wien) an SF (Berlin) (erschlossen)
-Antwort auf: <ref target="10621">1917-09-21 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="10621">1917-09-21 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1917-10-01.html</note>
       </notesStmt>
@@ -103,6 +105,23 @@ Antwort auf: <ref target="10621">1917-09-21 SF (Berlin) an AS (Wien)</ref></note
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Bolin, K. J. (Verleger, Stockholm)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7777">Hellmer, Arthur</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Palmgren, Elly (Literaturagentin?, Übersetzerin?, Schweden)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="11697088X">Zeiss, Karl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb677">Breslau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb652">Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45530">Deutsches Schauspielhaus in Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb44112">Nationaltheater München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10622.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -121,51 +140,6 @@ Antwort auf: <ref target="10621">1917-09-21 SF (Berlin) an AS (Wien)</ref></note
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person>
-          <persName>Bolin, K. J. (Verleger, Stockholm)</persName>
-        </person>
-        <person ref="#pmb7777" source="https://pmb.acdh.oeaw.ac.at/entity/7777/">
-          <persName>Hellmer, Arthur</persName>
-        </person>
-        <person>
-          <persName>Palmgren, Elly (Literaturagentin?, Übersetzerin?, Schweden)</persName>
-        </person>
-        <person ref="11697088X" source="https://d-nb.info/gnd/11697088X">
-          <persName>Zeiss, Karl</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb677" source="https://pmb.acdh.oeaw.ac.at/entity/677/">
-          <placeName>Breslau</placeName>
-        </place>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
-          <placeName>Prag</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb45530" source="https://pmb.acdh.oeaw.ac.at/entity/45530/">
-          <orgName>Deutsches Schauspielhaus in Hamburg</orgName>
-        </org>
-        <org ref="#pmb44112" source="https://pmb.acdh.oeaw.ac.at/entity/44112/">
-          <orgName>Nationaltheater München</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -176,10 +150,12 @@ Antwort auf: <ref target="10621">1917-09-21 SF (Berlin) an AS (Wien)</ref></note
       <div type="letter">
         <p>2 Blatt, 4 Seiten
 Bezug auf: Telegramm XXXX-XX-XX AS (Wien) an SF (Berlin) (erschlossen)
-Antwort auf: <ref target="10621">1917-09-21 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="10621">1917-09-21 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0035"/>Etit<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0035"/>Etit<lb/>
 1.10.1917.<lb/>
 Fischer<lb/>
 Woller Sie der Wunsch des Hein Rudolf A het durch<lb/>
@@ -205,7 +181,8 @@ werden, unter 10% keinesfalls heruntergegangen.<lb/>
 Dass Prag immer nur 5% zahlt, ist ein Irrtum,<lb/>
 bei flüchtiger Durchsicht Ihrer Abrechnungen<lb/>
 fand ich eben „Einsamer Weg“ mit 7¾. Ich bat</p>
-        <p><pb facs="1416739_0036"/>schon neulich einmal die Verträge mit Prag<lb/>
+        <p>
+          <pb facs="1416739_0036"/>schon neulich einmal die Verträge mit Prag<lb/>
 gelegentlich zu revidieren.<lb/>
 Werden auch die Bühnenexemplare erst<lb/>
 Anfang November fertig?, so dass bis xxxx<lb/>
@@ -250,7 +227,8 @@ le reste des<lb/>
 reflektieren werden) im Jänner-Feber-und<lb/>
 Neuen<lb/>
 März-Heft der Rundschau gedruckt werden</p>
-        <p><pb facs="1416739_0037"/>könnte und ob Sie in der Lage wären ein<lb/>
+        <p>
+          <pb facs="1416739_0037"/>könnte und ob Sie in der Lage wären ein<lb/>
 Henerar von 5000 Mark für sie zu zahlen,<lb/>
 (d.h.für den Vorabdruck in der Neuen Rund-<lb/>
 schau). Sie könnten die Maschinschrift in<lb/>
@@ -293,7 +271,8 @@ G.H.F.P<lb/>
 Herr Greiner, seinen standpunkt zu dieser Ange¬<lb/>
 legenheit und ich möchte nur noch ein paar Wer-<lb/>
 te zur näheren Erklärung hinzufügen. Es ist</p>
-        <p><pb facs="1416739_0038"/>schade, dass Sie Ihrem freundlichen Telegramm<lb/>
+        <p>
+          <pb facs="1416739_0038"/>schade, dass Sie Ihrem freundlichen Telegramm<lb/>
 nicht gleich die Ursache Ihrer Befürwortung an-<lb/>
 unfacht<lb/>
 et Sache wesenterez<lb/>

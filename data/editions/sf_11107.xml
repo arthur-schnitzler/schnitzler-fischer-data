@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -66,7 +67,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="11106">1924-07-26 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11106">1924-07-26 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-07-28.html</note>
       </notesStmt>
@@ -82,6 +84,17 @@ Antwort auf: <ref target="11106">1924-07-26 SF (Berlin) an AS (Wien)</ref></note
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb121644">Richter, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb335749">Bad Charlottenbrunn (Jedlina-Zdrój)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb677">Breslau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb36247">Burgtheater Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Kurtheater Bad Charlottenbrunn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb62965">Lobe-Theater Breslau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="1235081362">Stadttheater Schweidnitz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11107.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -93,33 +106,6 @@ Antwort auf: <ref target="11106">1924-07-26 SF (Berlin) an AS (Wien)</ref></note
           <term>Novelle</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb121644" source="https://pmb.acdh.oeaw.ac.at/entity/121644/">
-          <persName>Richter, Paul</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb335749" >
-          <placeName>Bad Charlottenbrunn (Jedlina-Zdrój)</placeName>
-        </place>
-        <place ref="#pmb677" source="https://pmb.acdh.oeaw.ac.at/entity/677/">
-          <placeName>Breslau</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb36247" source="https://pmb.acdh.oeaw.ac.at/entity/36247/">
-          <orgName>Burgtheater Wien</orgName>
-        </org>
-        <org>
-          <orgName>Kurtheater Bad Charlottenbrunn</orgName>
-        </org>
-        <org ref="#pmb62965" source="https://pmb.acdh.oeaw.ac.at/entity/62965/">
-          <orgName>Lobe-Theater Breslau</orgName>
-        </org>
-        <org ref="1235081362" source="https://d-nb.info/gnd/1235081362">
-          <orgName>Stadttheater Schweidnitz</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -129,10 +115,12 @@ Antwort auf: <ref target="11106">1924-07-26 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="11106">1924-07-26 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11106">1924-07-26 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0035"/>letzten Verrechnung fehlt das Frankfurter Neu<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0035"/>letzten Verrechnung fehlt das Frankfurter Neu<lb/>
 noch immer.<lb/>
 -Bessermann-Gastspiel<lb/>
 Und wohl manches andere, was schwerer zu kon-<lb/>
@@ -183,7 +171,8 @@ auf dem Spielplan des Lobetheaters Reigen etc.<lb/>
 Charlottenbrunn sich nicht an Sie gewandt hat<lb/>
 und gewiss keinen Vorschuss bezahlt hat. Die<lb/>
 Theater tun ja wirklich was sie wollen. Ich</p>
-        <p><pb facs="1416740_0036"/>glaube es liegt zum Teil auch daran, dass man<lb/>
+        <p>
+          <pb facs="1416740_0036"/>glaube es liegt zum Teil auch daran, dass man<lb/>
 niemals gegen die Willkürlichkeiten und Ueber-<lb/>
 griffe der Direktoren wirklich Ennst macht.<lb/>
 Ist es überhaupt möglich in solchen Fällen<lb/>

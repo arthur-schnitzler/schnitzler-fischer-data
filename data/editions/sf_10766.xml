@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -100,7 +101,8 @@
       <notesStmt>
         <note type="description">5 Blatt, 5 Seiten
 Anlage: Honorare Schnitzler 01. Juli 1918 bis 30.06.1919
-Antwort auf: <ref target="10765">1920-07-05 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="10765">1920-07-05 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="published_in">Rodewald, 126-128 [Nr. 164]</note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1920-07-12.html</note>
@@ -117,6 +119,13 @@ Antwort auf: <ref target="10765">1920-07-05 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11515">Greiner, Leo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb2318">Partenkirchen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10766.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -135,19 +144,6 @@ Antwort auf: <ref target="10765">1920-07-05 AS (Wien) an SF (Berlin)</ref></note
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11515" source="https://pmb.acdh.oeaw.ac.at/entity/11515/">
-          <persName>Greiner, Leo</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb2318" source="https://pmb.acdh.oeaw.ac.at/entity/2318/">
-          <placeName>Partenkirchen</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -158,10 +154,12 @@ Antwort auf: <ref target="10765">1920-07-05 AS (Wien) an SF (Berlin)</ref></note
       <div type="letter">
         <p>5 Blatt, 5 Seiten
 Anlage: Honorare Schnitzler 01. Juli 1918 bis 30.06.1919
-Antwort auf: <ref target="10765">1920-07-05 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="10765">1920-07-05 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0283"/>L<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0283"/>L<lb/>
 Deponitenhame P in Berlin / Postesheckkontor Berlin Nr. 1652 / Perasprach-Anschlässen: Amt Lützow Nc. 1662. b<lb/>
 Dertach<lb/>
 ERLIN W 57. BÜLowSTRASSE 90<lb/>
@@ -191,7 +189,8 @@ nicht ganz verschliessen kann, zurückkommen. Ich möchte nur sovi<lb/>
 sagen: dass wir weit davon entfernt sind, Ihnen eine "Steuer"<lb/>
 ihre ausländischen Angelegenheiten aufzuerlegen, dass aber die<lb/>
 Schwierigkeiten eines mit Ausnahmefällen belastet</p>
-        <p><pb facs="1416743_0284"/>FISCHER,VERLA.<lb/>
+        <p>
+          <pb facs="1416743_0284"/>FISCHER,VERLA.<lb/>
 ein Dauer vielleicht doch zu Unzuträglichkeiten und Ungenauigkelten<lb/>
 führen müssen.<lb/>
 Wenn Sie von einer "konstanten Herabsetzung einer prozentualen<lb/>
@@ -222,7 +221,8 @@ die nur in 2-3000 Exemplaren gedruckt wurden, ist es bei den heutigen<lb/>
 Preisen ganz unmöglich, einen Gewinn heraus zu kalkulieren, selbst<lb/>
 wenn die vollen Auflagen verkauft werden. Die Bücher hätten fünfmal<lb/>
 so teuer sein müssen, als sie in Wahrheit sind, und auch xxx den Effect</p>
-        <p><pb facs="1416743_0285"/>vot<lb/>
+        <p>
+          <pb facs="1416743_0285"/>vot<lb/>
 Schm.<lb/>
 Honor<lb/>
 Komödie der Wohnung,<lb/>
@@ -253,7 +253,8 @@ ant Gulden<lb/>
 d. Bestr.<lb/>
 Schlerer<lb/>
 Der junge Meda</p>
-        <p><pb facs="1416743_0286"/>FISCHER /VERLAG<lb/>
+        <p>
+          <pb facs="1416743_0286"/>FISCHER /VERLAG<lb/>
 wäre eine<lb/>
 Steigerung des Risikos durch den zu hohen Verkaufspreis, aber nicht<lb/>
 ein Aequivalent für die investierten Kosten und Honorare. Das<lb/>
@@ -285,7 +286,8 @@ einen viel grösseren Prozentsatz erhöht haben.<lb/>
 Ich habe zugleich mit Dank davon Notiz genommen - und muss es<lb/>
 übrigens auch bei andern Autoren einführen - dass nicht die vollen<lb/>
 gedruckten Auflagen voraushonordert werden, und so habe ich Ihnen ja</p>
-        <p><pb facs="1416743_0287"/>FISCHER /VERLAG<lb/>
+        <p>
+          <pb facs="1416743_0287"/>FISCHER /VERLAG<lb/>
 auch für die erste Abteilung der Gesamtausgabe und für den "Weg ins<lb/>
 Freie" die Hälfte des Honorars angeboten. Die Abrechnung lege ich bei<lb/>
 wenige Bücher von Ihnen<lb/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10031">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -100,6 +101,12 @@ Beantwortet: 1895-07-08post/1895-07-20ante AS an SF (nicht sicher zu erschließe
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2595">Pierson, Edgar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4785">Zasche, Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10031.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -109,14 +116,6 @@ Beantwortet: 1895-07-08post/1895-07-20ante AS an SF (nicht sicher zu erschließe
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2595" source="https://pmb.acdh.oeaw.ac.at/entity/2595/">
-          <persName>Pierson, Edgar</persName>
-        </person>
-        <person ref="#pmb4785" source="https://pmb.acdh.oeaw.ac.at/entity/4785/">
-          <persName>Zasche, Theodor</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -130,8 +129,9 @@ Beantwortet: 1895-07-08post/1895-07-20ante AS an SF (nicht sicher zu erschließe
 Antwort auf: 1895-06-26post/1895-07-08ante AS an SF (Vertrag für 'Die kleine Komödie'; nicht überliefert)
 Beantwortet: 1895-07-08post/1895-07-20ante AS an SF (nicht sicher zu erschließen, wohl weitere Überlegungen zur Verlagsübernahme 'Anatol': nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0033"/>Heringsdorf 8/7. 95<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0033"/>Heringsdorf 8/7. 95<lb/>
 Sehr geehrter Herr Doktor,<lb/>
 Thren Graaf nebst derweg<lb/>
 nabe ich empfangen.<lb/>
@@ -149,7 +149,8 @@ schlechte Erfahrungen,<lb/>
 gemacht wurden. Sy<lb/>
 werde ved Buch im Sommer<lb/>
 der Stimmen bekannten</p>
-        <p><pb facs="1416742_0034"/>d'agrière<lb/>
+        <p>
+          <pb facs="1416742_0034"/>d'agrière<lb/>
 Collection Fischer erscheinen<lb/>
 lassen. Ich bitte davon Herrn<lb/>
 Zasche Mittheilung zu machen,<lb/>
@@ -172,7 +173,8 @@ gend werden Sie wohl gehört<lb/>
 haben, daß das Bibliogr.<lb/>
 Bureau inzwischen verkreicht<lb/>
 ist</p>
-        <p><pb facs="1416742_0035"/>4<lb/>
+        <p>
+          <pb facs="1416742_0035"/>4<lb/>
 Wenn Sie die Kosten für<lb/>
 Anatol" begahlt haben<lb/>
 so ist das Buch Hr Eigen<lb/>
@@ -193,7 +195,8 @@ Sie also Erdl. bei ihm<lb/>
 an wirkiel hert. er noch<lb/>
 hat. Ihre nächsten Grünfe<lb/>
 bitte ich ein mein</p>
-        <p><pb facs="1416742_0036"/>décile<lb/>
+        <p>
+          <pb facs="1416742_0036"/>décile<lb/>
 n'a pas<lb/>
 Herlliner Adresse zu.<lb/>
 dirigiren.<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -128,7 +129,8 @@
         <note type="description">3 Blatt, 3 Seiten beschrieben
 
 Antwort auf: 1906-11-12ante SF an AS (Zusendung Brief Frl. von Probizer; nicht überliefert)
-Beantwortet in: <ref target="10169">1906-11-14 SF an AS</ref></note>
+Beantwortet in: <ref target="10169">1906-11-14 SF an AS</ref>
+        </note>
         <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1906-11-12.html</note>
       </notesStmt>
@@ -144,6 +146,20 @@ Beantwortet in: <ref target="10169">1906-11-14 SF an AS</ref></note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3283">Björkman, Edwin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2871">Entsch, Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb16802">Fumagalli, Giuseppe</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Lahmann (Lehrer, Vicenza)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2242">Levi, Cesare</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb21787">Nani, Gerolamo Enrico</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Probizer, Frl. von (Übersetzerin, wohl Italien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10168.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -155,40 +171,6 @@ Beantwortet in: <ref target="10169">1906-11-14 SF an AS</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb3283" source="https://pmb.acdh.oeaw.ac.at/entity/3283/">
-          <persName>Björkman, Edwin</persName>
-        </person>
-        <person ref="#pmb2871" source="https://pmb.acdh.oeaw.ac.at/entity/2871/">
-          <persName>Entsch, Theodor</persName>
-        </person>
-        <person ref="#pmb16802" source="https://pmb.acdh.oeaw.ac.at/entity/16802/">
-          <persName>Fumagalli, Giuseppe</persName>
-        </person>
-        <person>
-          <persName>Lahmann (Lehrer, Vicenza)</persName>
-        </person>
-        <person ref="#pmb2242" source="https://pmb.acdh.oeaw.ac.at/entity/2242/">
-          <persName>Levi, Cesare</persName>
-        </person>
-        <person ref="#pmb21787" source="https://pmb.acdh.oeaw.ac.at/entity/21787/">
-          <persName>Nani, Gerolamo Enrico</persName>
-        </person>
-        <person>
-          <persName>Probizer, Frl. von (Übersetzerin, wohl Italien)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -200,7 +182,8 @@ Beantwortet in: <ref target="10169">1906-11-14 SF an AS</ref></note>
         <p>3 Blatt, 3 Seiten beschrieben
 
 Antwort auf: 1906-11-12ante SF an AS (Zusendung Brief Frl. von Probizer; nicht überliefert)
-Beantwortet in: <ref target="10169">1906-11-14 SF an AS</ref></p>
+Beantwortet in: <ref target="10169">1906-11-14 SF an AS</ref>
+        </p>
       </div>
     </body>
   </text>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -103,7 +104,8 @@
       <notesStmt>
         <note type="description">3 Blatt, 6 Seiten
 Antwort auf: <ref target="10599">1916-12-19 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10601">1917-01-18 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10601">1917-01-18 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="published_in">Rodewald, 110-112 [Nr. 150]</note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1916-12-30.html</note>
@@ -120,6 +122,17 @@ Beantwortet in: <ref target="10601">1917-01-18 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2914">Bie, Oskar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb21558">Molnár, Ferenc</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2357">Nansen, Peter</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Requadt, Rudolph (Schriftsteller)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb65061">Weyssenhoff, Józef</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb864">Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb888">Warschau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10600.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -135,31 +148,6 @@ Beantwortet in: <ref target="10601">1917-01-18 SF (Berlin) an AS (Wien)</ref></n
           <term>Vertrieb</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2914" source="https://pmb.acdh.oeaw.ac.at/entity/2914/">
-          <persName>Bie, Oskar</persName>
-        </person>
-        <person ref="#pmb21558" source="https://pmb.acdh.oeaw.ac.at/entity/21558/">
-          <persName>Molnár, Ferenc</persName>
-        </person>
-        <person ref="#pmb2357" source="https://pmb.acdh.oeaw.ac.at/entity/2357/">
-          <persName>Nansen, Peter</persName>
-        </person>
-        <person>
-          <persName>Requadt, Rudolph (Schriftsteller)</persName>
-        </person>
-        <person ref="#pmb65061" source="https://pmb.acdh.oeaw.ac.at/entity/65061/">
-          <persName>Weyssenhoff, Józef</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb864" source="https://pmb.acdh.oeaw.ac.at/entity/864/">
-          <placeName>Leipzig</placeName>
-        </place>
-        <place ref="#pmb888" source="https://pmb.acdh.oeaw.ac.at/entity/888/">
-          <placeName>Warschau</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -170,10 +158,12 @@ Beantwortet in: <ref target="10601">1917-01-18 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>3 Blatt, 6 Seiten
 Antwort auf: <ref target="10599">1916-12-19 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10601">1917-01-18 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10601">1917-01-18 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0013"/>30.12.1916.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0013"/>30.12.1916.<lb/>
 Tischer<lb/>
 Lieber Freund.<lb/>
 Vorerst Ihrer freundlichen Anregung<lb/>
@@ -196,7 +186,8 @@ nen wohl schicken und xxxx werde dann, im<lb/>
 Falle sie auch Ihnen und Bie zum Abdruck in der<lb/>
 Neuen Rundschau geeignet erschiene.Ihrem Hono¬<lb/>
 e</p>
-        <p><pb facs="1416739_0014"/>rarvorschlag, der wie Sie aus-drücklich bemerken,<lb/>
+        <p>
+          <pb facs="1416739_0014"/>rarvorschlag, der wie Sie aus-drücklich bemerken,<lb/>
 mich befriedigen soll,also den letztgemachten<lb/>
 wohl überschreiten dürfte,gerne entgegensehen.<lb/>
 Eine dritte Novelle, im Wesentlichen abgeschlos-<lb/>
@@ -218,7 +209,8 @@ zu Gebote stünden, als Ihre Romanbibliothek sie<lb/>
 im Allgemeinen bietet, wie ich denn nicht ver-<lb/>
 hehlen will, dass mir die zehnperzentige Beteili-<lb/>
 gung, insbesondere bei einer Auflagenziffer von</p>
-        <p><pb facs="1416739_0015"/>30 bis 40 unverhältnismässig gering vorkommt.<lb/>
+        <p>
+          <pb facs="1416739_0015"/>30 bis 40 unverhältnismässig gering vorkommt.<lb/>
 Freilich wäre auch die Zusammenfassung der drei<lb/>
 Novellen in einen Band zu erwägen, der dann für<lb/>
 die von Ihnen projektierte neue Drei-Mark fünf-<lb/>
@@ -239,7 +231,8 @@ Da ich hiemit auf die Fage des Theatervertriebs<lb/>
 geraten bin, möchte ich zu Beginn des neuen Jah-<lb/>
 res neuerdings dringend ersuchen den Direktoren<lb/>
 auch für meine alten Stücke Herabsetzung der</p>
-        <p><pb facs="1416739_0016"/>Tantiemen keineswegs zu bewilligen. In den letz-<lb/>
+        <p>
+          <pb facs="1416739_0016"/>Tantiemen keineswegs zu bewilligen. In den letz-<lb/>
 ten Verrechnungen fand ich wieder ganz unbegrün-<lb/>
 deter Weise da und dort etwas abgeknapst und<lb/>
 verschliege mich nach wie vor der Einsicht, dass<lb/>
@@ -260,7 +253,8 @@ beträchtlich überschreitet, was sich hoffentlich<lb/>
 bei der indes wohl schon eingelangten Abrechnung<lb/>
 über die K.d.W. herausgestellt haben dürfte.<lb/>
 Darf ich hier gleich das Einsuchen anschliessen,</p>
-        <p><pb facs="1416739_0017"/>5<lb/>
+        <p>
+          <pb facs="1416739_0017"/>5<lb/>
 dass Sie mir die im Laufe der nächsten Zeit<lb/>
 fälligen Summen mir oder meiner Bank (wie diese<lb/>
 mir rät) in Mark bar zusenden mögen.<lb/>
@@ -284,7 +278,8 @@ denssie eine ganze Anzahl von Namen und Werken<lb/>
 verzeichnet finden, deren Bedeutung sowohl für<lb/>
 den Buchhandel als für die Literatur zum Min-<lb/>
 desten zweifelhaft sein dürfte.Die Angelegenheit</p>
-        <p><pb facs="1416739_0018"/>S<lb/>
+        <p>
+          <pb facs="1416739_0018"/>S<lb/>
 ist vielleicht nicht geschäftlich, aber doch<lb/>
 prinzipiell einigermassen wichtig, und ich glau¬<lb/>
 be nicht, dass ein grosser Verlag wie der Ihre<lb/>

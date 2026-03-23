@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -85,13 +86,13 @@ Beantwortet in: <ref target="10203">1907-11-16 AS an SF</ref> (vorangehendes Tel
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10202.xml"/>
+        </note>
       </correspDesc>
       <textClass/>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -106,8 +107,9 @@ Anlage: Anzeigenentwurf 'Weg ins Freie' mit hs. Korr. AS (1 Blatt)
 Antwort auf: <ref target="10200">1907-11-13 AS an SF</ref> bzw. auf (nicht überlieferte) separate Übersendung des Anzeigenentwurfs
 Beantwortet in: <ref target="10203">1907-11-16 AS an SF</ref> (vorangehendes Telegramm nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0303"/>159<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0303"/>159<lb/>
 S. FISCHER, VERLAG,’ BERLIN W., BÜLÖWSTR. 90<lb/>
 BERene W., DEN 15. Nov. 07<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -58,7 +59,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="11155">1924-12-10 SF (Berlin) an AS (Wien)</ref>, <ref target="11156">1924-12-11 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11155">1924-12-10 SF (Berlin) an AS (Wien)</ref>, <ref target="11156">1924-12-11 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-12-13.html</note>
       </notesStmt>
@@ -75,6 +77,13 @@ Antwort auf: <ref target="11155">1924-12-10 SF (Berlin) an AS (Wien)</ref>, <ref
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8612">Lewisohn, Ludwig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb883">Wiesbaden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11157.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -85,19 +94,6 @@ Antwort auf: <ref target="11155">1924-12-10 SF (Berlin) an AS (Wien)</ref>, <ref
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb8612" source="https://pmb.acdh.oeaw.ac.at/entity/8612/">
-          <persName>Lewisohn, Ludwig</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb883" source="https://pmb.acdh.oeaw.ac.at/entity/883/">
-          <placeName>Wiesbaden</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -107,10 +103,12 @@ Antwort auf: <ref target="11155">1924-12-10 SF (Berlin) an AS (Wien)</ref>, <ref
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="11155">1924-12-10 SF (Berlin) an AS (Wien)</ref>, <ref target="11156">1924-12-11 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11155">1924-12-10 SF (Berlin) an AS (Wien)</ref>, <ref target="11156">1924-12-11 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0048"/>G. A.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0048"/>G. A.<lb/>
 Fischer<lb/>
 que les<lb/>
 sgl. 21.8<lb/>
@@ -158,7 +156,8 @@ eine Anzahl von Autorisationen überdies abge¬<lb/>
 laufen ist. In Ihrer Liste resp. in meiner<lb/>
 Ihnen vor 2 oder 3 Jahren zugesandten finden<lb/>
 Sie all das genau verzeichnet.</p>
-        <p><pb facs="1416740_0049"/>sel. sf.<lb/>
+        <p>
+          <pb facs="1416740_0049"/>sel. sf.<lb/>
 Die Abrechnung habe ich dankend erhal<lb/>
 ten, erfreulich ist sie ja nicht; insbesondere<lb/>
 abaden hat mich enttauscht. Es gibt wohl<lb/>

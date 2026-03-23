@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -94,6 +95,12 @@ Antwort auf: <ref target="10430">1912-03-30 AS an SF</ref> und einen weiteren, n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb30">Salzburg</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2167">Salten, Felix</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb116483">Tiemann, Walter</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10431.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -105,14 +112,6 @@ Antwort auf: <ref target="10430">1912-03-30 AS an SF</ref> und einen weiteren, n
           <term>Zeichnung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2167" source="https://pmb.acdh.oeaw.ac.at/entity/2167/">
-          <persName>Salten, Felix</persName>
-        </person>
-        <person ref="#pmb116483" source="https://pmb.acdh.oeaw.ac.at/entity/116483/">
-          <persName>Tiemann, Walter</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -125,8 +124,9 @@ Antwort auf: <ref target="10430">1912-03-30 AS an SF</ref> und einen weiteren, n
 
 Antwort auf: <ref target="10430">1912-03-30 AS an SF</ref> und einen weiteren, nicht überlieferten Brief (um 1912-03-31; zur Disposition der Gesamtausgabe)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0543"/>276<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0543"/>276<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstrasse 9o<lb/>
 1/4. 1912<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -157,7 +157,8 @@ von selbst aus. Der Umschlag wird ohne figürliche Darstellung, eine<lb/>
 geschmackvolle Schrift im Rahmen, von einem guten Künstler gezeichnet<lb/>
 werden.<lb/>
 Für die gesammelten Werke werden wir Ihnen wegen der Einbände Vor-</p>
-        <p><pb facs="1416742_0544"/>schäge machen. Es wird sich bei dem billigen Preis dieser Ausgabe zwar<lb/>
+        <p>
+          <pb facs="1416742_0544"/>schäge machen. Es wird sich bei dem billigen Preis dieser Ausgabe zwar<lb/>
 um einfäche, aber doch geschmackvolle Einbände handeln. Ich habe die<lb/>
 Zeichnung des Einbands Herrn Prof. Walter Ehemann in Leipzig übertragen,<lb/>
 ich werde Ihnen die Proben zur Zeit zugehen lassen.<lb/>

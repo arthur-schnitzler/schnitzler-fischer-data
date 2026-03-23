@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10059">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -81,6 +82,12 @@ gleichzeitig persönliche Treffen in Berlin (Tgb 1896-10-29, 1896-10-31, 1896-11
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb35597">Deutsches Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10059.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -95,16 +102,6 @@ gleichzeitig persönliche Treffen in Berlin (Tgb 1896-10-29, 1896-10-31, 1896-11
           <term>Verlagswerbung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb35597" source="https://pmb.acdh.oeaw.ac.at/entity/35597/">
-          <orgName>Deutsches Theater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -117,8 +114,9 @@ gleichzeitig persönliche Treffen in Berlin (Tgb 1896-10-29, 1896-10-31, 1896-11
 
 gleichzeitig persönliche Treffen in Berlin (Tgb 1896-10-29, 1896-10-31, 1896-11-06)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0068"/>VERLAG<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0068"/>VERLAG<lb/>
 FISCHER,<lb/>
 P.<lb/>
 Berlin 20., den 4/11 1896<lb/>

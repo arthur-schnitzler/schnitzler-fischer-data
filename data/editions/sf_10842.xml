@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -72,7 +73,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
-Antwort auf: <ref target="10839">1921-08-02 AS (Wien) an SF (Berlin)</ref>, 1921-08-04 AS (Wien) an SF (Berlin), <ref target="10840">1921-08-08 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="10839">1921-08-02 AS (Wien) an SF (Berlin)</ref>, 1921-08-04 AS (Wien) an SF (Berlin), <ref target="10840">1921-08-08 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1921-08-09.html</note>
       </notesStmt>
@@ -89,6 +91,22 @@ Antwort auf: <ref target="10839">1921-08-02 AS (Wien) an SF (Berlin)</ref>, 1921
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1064903746">Demetz, Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3105">Karczag, Wilhelm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23675">Rotter, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3876">Rotter, Fritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb677">Breslau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb49582">Chemnitz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb54951">Harzburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb36300">Kopenhagen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb35597">Deutsches Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb62965">Lobe-Theater Breslau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Rotter-Bühnen Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb37019">Thaliatheater Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10842.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,48 +118,6 @@ Antwort auf: <ref target="10839">1921-08-02 AS (Wien) an SF (Berlin)</ref>, 1921
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="1064903746" source="https://d-nb.info/gnd/1064903746">
-          <persName>Demetz, Hans</persName>
-        </person>
-        <person ref="#pmb3105" source="https://pmb.acdh.oeaw.ac.at/entity/3105/">
-          <persName>Karczag, Wilhelm</persName>
-        </person>
-        <person ref="#pmb23675" source="https://pmb.acdh.oeaw.ac.at/entity/23675/">
-          <persName>Rotter, Alfred</persName>
-        </person>
-        <person ref="#pmb3876" source="https://pmb.acdh.oeaw.ac.at/entity/3876/">
-          <persName>Rotter, Fritz</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb677" source="https://pmb.acdh.oeaw.ac.at/entity/677/">
-          <placeName>Breslau</placeName>
-        </place>
-        <place ref="#pmb49582" source="https://pmb.acdh.oeaw.ac.at/entity/49582/">
-          <placeName>Chemnitz</placeName>
-        </place>
-        <place ref="#pmb54951" source="https://pmb.acdh.oeaw.ac.at/entity/54951/">
-          <placeName>Harzburg</placeName>
-        </place>
-        <place ref="#pmb36300" source="https://pmb.acdh.oeaw.ac.at/entity/36300/">
-          <placeName>Kopenhagen</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb35597" source="https://pmb.acdh.oeaw.ac.at/entity/35597/">
-          <orgName>Deutsches Theater Berlin</orgName>
-        </org>
-        <org ref="#pmb62965" source="https://pmb.acdh.oeaw.ac.at/entity/62965/">
-          <orgName>Lobe-Theater Breslau</orgName>
-        </org>
-        <org>
-          <orgName>Rotter-Bühnen Berlin</orgName>
-        </org>
-        <org ref="#pmb37019" source="https://pmb.acdh.oeaw.ac.at/entity/37019/">
-          <orgName>Thaliatheater Hamburg</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -151,10 +127,12 @@ Antwort auf: <ref target="10839">1921-08-02 AS (Wien) an SF (Berlin)</ref>, 1921
     <body>
       <div type="letter">
         <p>2 Blatt, 4 Seiten
-Antwort auf: <ref target="10839">1921-08-02 AS (Wien) an SF (Berlin)</ref>, 1921-08-04 AS (Wien) an SF (Berlin), <ref target="10840">1921-08-08 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="10839">1921-08-02 AS (Wien) an SF (Berlin)</ref>, 1921-08-04 AS (Wien) an SF (Berlin), <ref target="10840">1921-08-08 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0396"/>511<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0396"/>511<lb/>
 Berlin<lb/>
 S. Fischer. Verlag<lb/>
 xx<lb/>
@@ -215,7 +193,8 @@ Geschärke<lb/>
 Die oben genannten Bedingungen haben Seltigkeit bis zum   Sollten wir an diesem Tag noch keine<lb/>
 entscheidende Antwort erhalten haben, so nehmen wir an, daß wir über das in Frage frehende Werk anderweitig verfügen können<lb/>
 G. M.</p>
-        <p><pb facs="1416743_0397"/>1 - 9 - 10(1)8<lb/>
+        <p>
+          <pb facs="1416743_0397"/>1 - 9 - 10(1)8<lb/>
 «««»«i*i««i«i!««*«*j*j^*i^***i.«**<lb/>
 m m m m r, r, t t t r, m r : t<lb/>
 stehen<lb/>
@@ -262,7 +241,8 @@ Von m. I. nen 1<lb/>
 nommen zu kommen.<lb/>
 ohne den xxx in xxx nach xxx<lb/>
 vandauf xxx</p>
-        <p><pb facs="1416743_0398"/>Blatt2<lb/>
+        <p>
+          <pb facs="1416743_0398"/>Blatt2<lb/>
 S. FISCHER,VERLAG, BERLIN,<lb/>
 Theaterabteilung<lb/>
 allerdings, ob es sich bei den an Karozag übertragenen Rechten<lb/>
@@ -311,7 +291,8 @@ landstätigkeit und zwar sowohl die der Theater- wie der Auslandab-<lb/>
 teilung sich natürlich keineswegs damit begnügen kann, eintreffende<lb/>
 Im Gegenteil bildet dieser sozusagen<lb/>
 Anfragen zu erledigen.</p>
-        <p><pb facs="1416743_0399"/>passive Teil unserer Tätigkeit das weit undankbarere Geschäft,<lb/>
+        <p>
+          <pb facs="1416743_0399"/>passive Teil unserer Tätigkeit das weit undankbarere Geschäft,<lb/>
 gegenüber dem, was wir aktiv im Interesse unserer Autoren unter-<lb/>
 nehmen. Derartige Anfragen führen in kaum mehr als 5% der Fälle<lb/>
 zu einem positiven Resultat und sind fast immer nur Versuchs-<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -82,6 +83,32 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1064903746">Demetz, Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2874">Eirich, Oskar Friedrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb15764">Eirich, Otto</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11981">Kramer, Leopold</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb301408">Münchheim, Ernestine</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12504">Reinhardt, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb9756">Scholz, Wilhelm von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4441">Sladek, Maximilian</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb866">Dresden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40700">Göteborg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb335756">Kopenhagen-Christiania</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb884">Lübeck</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb652">Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb745">Skandinavien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb1119">Stockholm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43430">Tschechien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb38444">Tschechoslowakei</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb35597">Deutsches Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Kammerspiele Dresden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="7628824-9">Residenztheater Hannover</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10817.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -97,78 +124,6 @@
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="1064903746" source="https://d-nb.info/gnd/1064903746">
-          <persName>Demetz, Hans</persName>
-        </person>
-        <person ref="#pmb2874" source="https://pmb.acdh.oeaw.ac.at/entity/2874/">
-          <persName>Eirich, Oskar Friedrich</persName>
-        </person>
-        <person ref="#pmb15764" source="https://pmb.acdh.oeaw.ac.at/entity/15764/">
-          <persName>Eirich, Otto</persName>
-        </person>
-        <person ref="#pmb11981" source="https://pmb.acdh.oeaw.ac.at/entity/11981/">
-          <persName>Kramer, Leopold</persName>
-        </person>
-        <person ref="#pmb301408" source="https://pmb.acdh.oeaw.ac.at/entity/301408/">
-          <persName>Münchheim, Ernestine</persName>
-        </person>
-        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
-          <persName>Reinhardt, Max</persName>
-        </person>
-        <person ref="#pmb9756" source="https://pmb.acdh.oeaw.ac.at/entity/9756/">
-          <persName>Scholz, Wilhelm von</persName>
-        </person>
-        <person ref="#pmb4441" source="https://pmb.acdh.oeaw.ac.at/entity/4441/">
-          <persName>Sladek, Maximilian</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb866" source="https://pmb.acdh.oeaw.ac.at/entity/866/">
-          <placeName>Dresden</placeName>
-        </place>
-        <place ref="#pmb40700" source="https://pmb.acdh.oeaw.ac.at/entity/40700/">
-          <placeName>Göteborg</placeName>
-        </place>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-        <place ref="#pmb335756" source="https://d-nb.info/gnd/4096769-4">
-          <placeName>Kopenhagen-Christiania</placeName>
-        </place>
-        <place ref="#pmb884" source="https://pmb.acdh.oeaw.ac.at/entity/884/">
-          <placeName>Lübeck</placeName>
-        </place>
-        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
-          <placeName>Prag</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-        <place ref="#pmb745" source="https://pmb.acdh.oeaw.ac.at/entity/745/">
-          <placeName>Skandinavien</placeName>
-        </place>
-        <place ref="#pmb1119" source="https://pmb.acdh.oeaw.ac.at/entity/1119/">
-          <placeName>Stockholm</placeName>
-        </place>
-        <place ref="#pmb43430" source="https://pmb.acdh.oeaw.ac.at/entity/43430/">
-          <placeName>Tschechien</placeName>
-        </place>
-        <place ref="#pmb38444" source="https://pmb.acdh.oeaw.ac.at/entity/38444/">
-          <placeName>Tschechoslowakei</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb35597" source="https://pmb.acdh.oeaw.ac.at/entity/35597/">
-          <orgName>Deutsches Theater Berlin</orgName>
-        </org>
-        <org>
-          <orgName>Kammerspiele Dresden</orgName>
-        </org>
-        <org ref="7628824-9" source="https://d-nb.info/gnd/7628824-9">
-          <orgName>Residenztheater Hannover</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -179,8 +134,9 @@
       <div type="letter">
         <p>2 Blatt, 4 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0365"/>4975<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0365"/>4975<lb/>
 S. Fischer. Verlag. Berlin<lb/>
 B. v.<lb/>
 mässä<lb/>
@@ -241,7 +197,8 @@ Die oben genannten Bedingungen haben Sältigkeit bis zum „Solliten wir an dies
 entscheidende Antwort erhalten haben, so nehmen wir an, daß wir aber das in Frage stehende Werk anderweitig verfügen können<lb/>
 .nein<lb/>
 O.W.</p>
-        <p><pb facs="1416743_0366"/>T3chjr<lb/>
+        <p>
+          <pb facs="1416743_0366"/>T3chjr<lb/>
 2.8.<lb/>
 e. golte<lb/>
 und sein Mangel an Offenheit bei den Verhandlungen, Nichts-<lb/>
@@ -279,7 +236,8 @@ führt haben, eine Hinterung eingetreten wäre. Unserer Ansicht nach<lb/>
 steht die Sache mit dem tschechischen "Reigen" jetzt doch wohl<lb/>
 so, dass wir das darauf besügliche Recht als frei betrachten dürfen.<lb/>
 wandt machtiger Herrspaar beträffte abmordert zwar. Die sich wohl schon zwischen wircken, wie ein mannenden werden, nachmacht abendlichsten</p>
-        <p><pb facs="1416743_0367"/>S. FISCHER,﻿VERLAG, BERLIN, Herrn Schnitzler den 29. Arbeit Blatt 2<lb/>
+        <p>
+          <pb facs="1416743_0367"/>S. FISCHER,﻿VERLAG, BERLIN, Herrn Schnitzler den 29. Arbeit Blatt 2<lb/>
 Theaterabteilung<lb/>
 Was Kramer anbelangt, so haben wir die unberechtigten “Reigen“<lb/>
 ###<lb/>
@@ -316,7 +274,8 @@ verzichten mochten.<lb/>
 Noch ein Wort über den Plan des Herrn Willi Scholz<lb/>
 Wir sind für Ablehnung. Der einzige Ort, der<lb/>
 mit "Reigen"</p>
-        <p><pb facs="1416743_0368"/>.1.<lb/>
+        <p>
+          <pb facs="1416743_0368"/>.1.<lb/>
 innerhalb der von Herrn Scholz genannten Städte ernsthaft in Frage<lb/>
 kommt, ist Lübeck, Dort aber stehen wir mit dem Stadttheater bereits<lb/>
 direkt in Unterhandlung, die wir zumindest nicht durch dieses andere<lb/>

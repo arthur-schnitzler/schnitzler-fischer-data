@@ -14,11 +14,11 @@
       <editionStmt>
         <edition>schnitzler-fischer</edition>
         <respStmt>
-          <resp>Regestausgabe</resp>
+          <resp>Regestausgabe</resp> <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -81,6 +81,29 @@ Anlagen (evtl. zwei davon zu 1906-11-30 gehörig?): Abrechnung; 1906-09-13 Mouru
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+            <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson"
+                 target="101834586">Dampierre, Jacques de</ref>
+            <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson"
+                 target="pmb161144">Löwe, Theodor</ref>
+            <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson"
+                 target="pmb10729">Schmoranz, Gustav</ref>
+            <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace"
+                 target="pmb710">Belgien</ref>
+            <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace"
+                 target="pmb168">Berlin</ref>
+            <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace"
+                 target="pmb166">Frankreich</ref>
+            <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace"
+                 target="pmb335759">Le Louroux-Béconnais</ref>
+            <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace"
+                 target="pmb272">Lüttich</ref>
+            <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace"
+                 target="pmb652">Prag</ref>
+            <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+            <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile"
+                 target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10167.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -89,37 +112,6 @@ Anlagen (evtl. zwei davon zu 1906-11-30 gehörig?): Abrechnung; 1906-09-13 Mouru
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="101834586" source="https://d-nb.info/gnd/101834586">
-          <persName>Dampierre, Jacques de</persName>
-        </person>
-        <person ref="#pmb161144" source="https://pmb.acdh.oeaw.ac.at/entity/161144/">
-          <persName>Löwe, Theodor</persName>
-        </person>
-        <person ref="#pmb10729" source="https://pmb.acdh.oeaw.ac.at/entity/10729/">
-          <persName>Schmoranz, Gustav</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb710" source="https://pmb.acdh.oeaw.ac.at/entity/710/">
-          <placeName>Belgien</placeName>
-        </place>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
-          <placeName>Frankreich</placeName>
-        </place>
-        <place ref="#pmb335759" source="https://d-nb.info/gnd/4288054-3">
-          <placeName>Le Louroux-Béconnais</placeName>
-        </place>
-        <place ref="#pmb272" source="https://pmb.acdh.oeaw.ac.at/entity/272/">
-          <placeName>Lüttich</placeName>
-        </place>
-        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
-          <placeName>Prag</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>

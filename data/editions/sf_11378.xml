@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -64,7 +65,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Antwort auf: <ref target="11375">1928-02-15 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11375">1928-02-15 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1928-02-18.html</note>
       </notesStmt>
@@ -81,6 +83,13 @@ Antwort auf: <ref target="11375">1928-02-15 SF (Berlin) an AS (Wien)</ref></note
           <persName type="coworker">Eipper, Paul</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb24041">Schalit, Leon</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13055">Wassermann, Jakob</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11378.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -93,19 +102,6 @@ Antwort auf: <ref target="11375">1928-02-15 SF (Berlin) an AS (Wien)</ref></note
           <term>Verlagswerbung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb24041" source="https://pmb.acdh.oeaw.ac.at/entity/24041/">
-          <persName>Schalit, Leon</persName>
-        </person>
-        <person ref="#pmb13055" source="https://pmb.acdh.oeaw.ac.at/entity/13055/">
-          <persName>Wassermann, Jakob</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -115,10 +111,12 @@ Antwort auf: <ref target="11375">1928-02-15 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Antwort auf: <ref target="11375">1928-02-15 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11375">1928-02-15 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0015"/>ind'<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0015"/>ind'<lb/>
 S. Fischer.<lb/>
 P.<lb/>
 18.2.1928.<lb/>

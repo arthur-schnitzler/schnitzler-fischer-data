@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -99,6 +100,31 @@ Anlage: Entwurf des Briefes an Benjamin Harz (1928-07-14)</note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb15173">Curtis Brown, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb15449">Dorsch, Käthe</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Koller, Paul (Literaturagent?, Wien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2249">Korff, Arnold</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="nm0886327">Lugt Melsert, Cor van der</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116907940">Merwin, Bertold</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb291990">Nahuys, Alice van</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12537">Robert, Eugen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Rosenzweig, Helene (Literaturagentin? Übersetzerin?, Krakau)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Rökk-Richter, Stefano (Theateragent und Schriftsteller, Italien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb25736">Sulzbach, Ernst</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb166">Frankreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb182">Paris</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb313">Polen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb35597">Deutsches Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11427.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -127,75 +153,6 @@ Anlage: Entwurf des Briefes an Benjamin Harz (1928-07-14)</note>
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb15173" source="https://pmb.acdh.oeaw.ac.at/entity/15173/">
-          <persName>Curtis Brown, Albert</persName>
-        </person>
-        <person ref="#pmb15449" source="https://pmb.acdh.oeaw.ac.at/entity/15449/">
-          <persName>Dorsch, Käthe</persName>
-        </person>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person>
-          <persName>Koller, Paul (Literaturagent?, Wien)</persName>
-        </person>
-        <person ref="#pmb2249" source="https://pmb.acdh.oeaw.ac.at/entity/2249/">
-          <persName>Korff, Arnold</persName>
-        </person>
-        <person ref="nm0886327" source="https://www.imdb.com/name/nm0886327/">
-          <persName>Lugt Melsert, Cor van der</persName>
-        </person>
-        <person ref="116907940" source="https://d-nb.info/gnd/116907940">
-          <persName>Merwin, Bertold</persName>
-        </person>
-        <person ref="#pmb291990" source="https://pmb.acdh.oeaw.ac.at/entity/291990/">
-          <persName>Nahuys, Alice van</persName>
-        </person>
-        <person ref="#pmb12537" source="https://pmb.acdh.oeaw.ac.at/entity/12537/">
-          <persName>Robert, Eugen</persName>
-        </person>
-        <person>
-          <persName>Rosenzweig, Helene (Literaturagentin? Übersetzerin?, Krakau)</persName>
-        </person>
-        <person>
-          <persName>Rökk-Richter, Stefano (Theateragent und Schriftsteller, Italien)</persName>
-        </person>
-        <person ref="#pmb25736" source="https://pmb.acdh.oeaw.ac.at/entity/25736/">
-          <persName>Sulzbach, Ernst</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
-          <placeName>Frankreich</placeName>
-        </place>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb182" source="https://pmb.acdh.oeaw.ac.at/entity/182/">
-          <placeName>Paris</placeName>
-        </place>
-        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
-          <placeName>Polen</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb35597" source="https://pmb.acdh.oeaw.ac.at/entity/35597/">
-          <orgName>Deutsches Theater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -209,8 +166,9 @@ Antwort auf: <ref target="11422">1928-06-22 SF (Berlin) an AS (Wien)</ref>, <ref
 Beantwortet in: <ref target="11430">1928-07-11 SF (Berlin) an AS (Wien)</ref>
 Anlage: Entwurf des Briefes an Benjamin Harz (1928-07-14)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0055"/>21<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0055"/>21<lb/>
 Ascher<lb/>
 7<lb/>
 2.7.1928.<lb/>
@@ -252,7 +210,8 @@ Holland will ich gerne persönlich zu Ende führen.<lb/>
 hso mehr als ich ja über alle meine Novellen in<lb/>
 der letzten Zeit mit Alice v. Nahuys persönlich<lb/>
 abgeschlossen habe. Sie schrieben mir vor xxx</p>
-        <p><pb facs="1416741_0056"/>von der Auferge irgend eines anderen hoecandischen<lb/>
+        <p>
+          <pb facs="1416741_0056"/>von der Auferge irgend eines anderen hoecandischen<lb/>
 Verlags über „Therese“, die wohl weiter keine Folge<lb/>
 gehabt hat.<lb/>
 Nimmt die Angelegenheit "Bernhardi", Lugt,<lb/>

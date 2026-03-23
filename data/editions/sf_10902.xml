@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -88,6 +89,17 @@
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10836">Bartsch, Rudolf Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb22388">Paukner, Grete</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb25499">Sternberg, Joseph von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10902.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,31 +112,6 @@
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
-          <persName>Bartsch, Rudolf Hans</persName>
-        </person>
-        <person ref="#pmb22388" source="https://pmb.acdh.oeaw.ac.at/entity/22388/">
-          <persName>Paukner, Grete</persName>
-        </person>
-        <person ref="#pmb25499" source="https://pmb.acdh.oeaw.ac.at/entity/25499/">
-          <persName>Sternberg, Joseph von</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -135,8 +122,9 @@
       <div type="letter">
         <p>2 Blatt, 3 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0225"/>Hebernehme und wohlfeil rücksichtsloser Ab<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0225"/>Hebernehme und wohlfeil rücksichtsloser Ab<lb/>
 schüttelung von Verpflichtungen durch unan<lb/>
 gebrachte Nachsicht zu unterstützen. Ich hoffe<lb/>
 Sie, verehrter Herr Greimer, und den Verlag<lb/>
@@ -186,7 +174,8 @@ dass die Creenich-Plagers nach Herrn Bartsohs<lb/>
 ngaben ausser den 300 Dollar,die bei der A.<lb/>
 erliegen, noch eine weitere Summe von<lb/>
 gleichfalls mindestens 300 Dollar entweder</p>
-        <p><pb facs="1416739_0226"/>Ficher Co<lb/>
+        <p>
+          <pb facs="1416739_0226"/>Ficher Co<lb/>
 .1<lb/>
 Esche<lb/>
 der wie leichtfertig manchmal Plagiatbeschul-<lb/>
@@ -248,7 +237,8 @@ Zeitschrift mit dem Stück von Wagenwert, es hat<lb/>
 tatsächlich nicht die geringste Aehnlichkeit<lb/>
 mit den Schwestern, die schon aus dem Personen-<lb/>
 verzeichnls zu ersehen ist, und man sieht wie-</p>
-        <p><pb facs="1416739_0227"/>Sider<lb/>
+        <p>
+          <pb facs="1416739_0227"/>Sider<lb/>
 Kayser<lb/>
 23.3.1922.<lb/>
 G.C.H.F.P<lb/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10074">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -83,6 +84,11 @@ Beantwortet in: 1897-12-18post/1898-01-11ante AS an SF (Ms. 'Reigen', Druck 'Ana
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11643">Heine, Thomas Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10074.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -95,11 +101,6 @@ Beantwortet in: 1897-12-18post/1898-01-11ante AS an SF (Ms. 'Reigen', Druck 'Ana
           <term>Zeichnung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11643" source="https://pmb.acdh.oeaw.ac.at/entity/11643/">
-          <persName>Heine, Thomas Theodor</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -113,8 +114,9 @@ Beantwortet in: 1897-12-18post/1898-01-11ante AS an SF (Ms. 'Reigen', Druck 'Ana
 Antwort auf: 1897-12-10post/1897-12-18ante AS an SF (Illustrationen 'Anatol'; nicht überliefert)
 Beantwortet in: 1897-12-18post/1898-01-11ante AS an SF (Ms. 'Reigen', Druck 'Anatol' und 'Freiwild'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0083"/>51<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0083"/>51<lb/>
 50<lb/>
 VERLAG.<lb/>
 S. FISCHER,<lb/>

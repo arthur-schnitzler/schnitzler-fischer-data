@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -67,7 +68,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten
 Antwort auf: <ref target="10867">1921-12-02 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="10870">1921-12-15 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="10870">1921-12-15 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1921-12-06.html</note>
       </notesStmt>
@@ -83,6 +85,12 @@ Beantwortet in: <ref target="10870">1921-12-15 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19941">König, Karl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10868.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -94,14 +102,6 @@ Beantwortet in: <ref target="10870">1921-12-15 AS (Wien) an SF (Berlin)</ref></n
           <term>Preiserhöhung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb19941" source="https://pmb.acdh.oeaw.ac.at/entity/19941/">
-          <persName>König, Karl</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -112,10 +112,12 @@ Beantwortet in: <ref target="10870">1921-12-15 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>2 Blatt, 3 Seiten
 Antwort auf: <ref target="10867">1921-12-02 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="10870">1921-12-15 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="10870">1921-12-15 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0440"/>532<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0440"/>532<lb/>
 Fischer/Verlag/Berlin M 57/Bülowstraße 9o<lb/>
 konto: Deutsche Bank. Depositenkasse P in Berlin / Postscheckkonto; Berlin Nr. 16692<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 1662. 6162 und 9292<lb/>
@@ -150,7 +152,8 @@ aus dem Ausland hereinbekommen, ein Zustand, dessen Dauer nicht zu<lb/>
 überschen ist. Es scheint, dass überdies ganz enorme Preissteigerungen<lb/>
 dafür bevorstehen; auch für Druck und Einbände sind die Preise inzwi-<lb/>
 R 6000.1.21.</p>
-        <p><pb facs="1416743_0441"/>S. FISCHER / VerLAG<lb/>
+        <p>
+          <pb facs="1416743_0441"/>S. FISCHER / VerLAG<lb/>
 2. Blatt<lb/>
 Dr.A.Schnitzler 6/12. 21<lb/>
 schen colossal gestiegen. Um die notwendigsten Erhöhungen der Ver-<lb/>
@@ -187,7 +190,8 @@ von dem Ladenpreis des broschierten Exemplars gültig. Da wir aber von<lb/>
 diesen Ausgaben broschierte Exemplare garnicht herstellen, so wird der<lb/>
 broschierte Preis verrechnet aus der Differenz zum Pappband. Die Papp-<lb/>
 bände sind wie alle anderen Einbünde auch riesig im Preis gestiegen und</p>
-        <p><pb facs="1416743_0442"/>S. FISCHER / VerLAG<lb/>
+        <p>
+          <pb facs="1416743_0442"/>S. FISCHER / VerLAG<lb/>
 3. Blatt<lb/>
 Dr.A. Schnitzler 6/12. 21<lb/>
 die Berechnung daher schwankend. Es wäre ja nun freilich in diesem<lb/>

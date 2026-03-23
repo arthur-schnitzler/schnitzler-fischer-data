@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -94,6 +95,12 @@ Beantwortet in: 1898-11-02post/1898-11-15ante AS an SF (UA und Erscheinungstermi
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb18308">Feld, Leo (Ps. Leo Hirschfeld)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10083.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -102,14 +109,6 @@ Beantwortet in: 1898-11-02post/1898-11-15ante AS an SF (UA und Erscheinungstermi
           <term>Lektor</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb18308" source="https://pmb.acdh.oeaw.ac.at/entity/18308/">
-          <persName>Feld, Leo (Ps. Leo Hirschfeld)</persName>
-        </person>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -123,8 +122,9 @@ Beantwortet in: 1898-11-02post/1898-11-15ante AS an SF (UA und Erscheinungstermi
 Antwort auf: 1898-11-02ante AS an SF (Empfehlung Drama Hirschfeld, Druck 'Vermächtnis'; nicht überliefert)
 Beantwortet in: 1898-11-02post/1898-11-15ante AS an SF (UA und Erscheinungstermin 'Vermächtnis', Empfehlung Hirschfeld Drama und Trebitsch Gedichte; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0094"/>S. FISCHER, VERLAG<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0094"/>S. FISCHER, VERLAG<lb/>
 BERLIN W., den 2. November 1898.<lb/>
 Telephon: Amt VI, No. 1662.<lb/>
 strasse 91.<lb/>
@@ -159,7 +159,8 @@ meines Verlages, habe ich die lediglich fünfte<lb/>
 N. B. Wie bei all<lb/>
 merkungen, Auftritt und Wiederholung<lb/>
 den Regisseur bestimmter</p>
-        <p><pb facs="1416742_0095"/>Namen<lb/>
+        <p>
+          <pb facs="1416742_0095"/>Namen<lb/>
 schon auf der Scepe befindlichen Personen gestrichen, da für die Lek-<lb/>
 türe diese Bemerkungen störend sind und das Bild des Dialogs im Satz<lb/>
 zerhacken. Vielleicht sehen Sie sich daraufhin die Dramen von Hauptmann<lb/>

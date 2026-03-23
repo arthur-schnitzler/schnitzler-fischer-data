@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -77,7 +78,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten beschrieben
 
-Antwort auf: <ref target="10519">1914-02-18 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="10519">1914-02-18 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1914-02-21.html</note>
       </notesStmt>
@@ -93,6 +95,19 @@ Antwort auf: <ref target="10519">1914-02-18 SF (Berlin) an AS (Wien)</ref></note
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13408">Andrews, E.</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10893">Bernard, Tristan</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17355">Grein, Jack Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Hondula, John (Übersetzer, England)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5031">Samuel, Horace Barnett</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Stock, Frieda (russ. Übersetzerin, Wien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10520.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -101,37 +116,6 @@ Antwort auf: <ref target="10519">1914-02-18 SF (Berlin) an AS (Wien)</ref></note
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb13408" source="https://pmb.acdh.oeaw.ac.at/entity/13408/">
-          <persName>Andrews, E.</persName>
-        </person>
-        <person ref="#pmb10893" source="https://pmb.acdh.oeaw.ac.at/entity/10893/">
-          <persName>Bernard, Tristan</persName>
-        </person>
-        <person ref="#pmb17355" source="https://pmb.acdh.oeaw.ac.at/entity/17355/">
-          <persName>Grein, Jack Thomas</persName>
-        </person>
-        <person>
-          <persName>Hondula, John (Übersetzer, England)</persName>
-        </person>
-        <person ref="#pmb5031" source="https://pmb.acdh.oeaw.ac.at/entity/5031/">
-          <persName>Samuel, Horace Barnett</persName>
-        </person>
-        <person>
-          <persName>Stock, Frieda (russ. Übersetzerin, Wien)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -142,7 +126,8 @@ Antwort auf: <ref target="10519">1914-02-18 SF (Berlin) an AS (Wien)</ref></note
       <div type="letter">
         <p>2 Blatt, 3 Seiten beschrieben
 
-Antwort auf: <ref target="10519">1914-02-18 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="10519">1914-02-18 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
     </body>
   </text>

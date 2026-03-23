@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -73,7 +74,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten beschrieben
 
-Antwort auf: <ref target="10314">1910-04-23 AS an SF</ref></note>
+Antwort auf: <ref target="10314">1910-04-23 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1910-04-29.html</note>
       </notesStmt>
@@ -90,6 +92,13 @@ Antwort auf: <ref target="10314">1910-04-23 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb301663">Schmederer, Cajetan</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3365">Stollberg, Ignaz Georg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10316.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,19 +109,6 @@ Antwort auf: <ref target="10314">1910-04-23 AS an SF</ref></note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb301663" source="https://pmb.acdh.oeaw.ac.at/entity/301663/">
-          <persName>Schmederer, Cajetan</persName>
-        </person>
-        <person ref="#pmb3365" source="https://pmb.acdh.oeaw.ac.at/entity/3365/">
-          <persName>Stollberg, Ignaz Georg</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -123,10 +119,12 @@ Antwort auf: <ref target="10314">1910-04-23 AS an SF</ref></note>
       <div type="letter">
         <p>2 Blatt, 2 Seiten beschrieben
 
-Antwort auf: <ref target="10314">1910-04-23 AS an SF</ref></p>
+Antwort auf: <ref target="10314">1910-04-23 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0419"/>219.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0419"/>219.<lb/>
 —    —  —.  —<lb/>
 213<lb/>
 FSCHER, VerLAG, BERLIN W., BÜLowSTR. 90<lb/>
@@ -152,7 +150,8 @@ Wir unsererseits können diesen Aus-<lb/>
 führungen nur beipflichten und wir nehmen<lb/>
 an, dass auch Sie sich von ihrer Richtig-<lb/>
 keit überzeugen. Wir setzen deshalb Ihr</p>
-        <p><pb facs="1416742_0420"/>219.<lb/>
+        <p>
+          <pb facs="1416742_0420"/>219.<lb/>
 Einverständnis voraus, wenn wir, sobald<lb/>
 die Auswahl der Stücke in gewünschter<lb/>
 Weise getroffen ist, den Vertrag abschlies-<lb/>

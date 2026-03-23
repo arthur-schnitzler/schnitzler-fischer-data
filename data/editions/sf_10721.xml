@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10721">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -84,6 +85,14 @@ Antwort auf: 1919-10-29  AS (Wien) an SF (Berlin) (erschlossen)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10836">Bartsch, Rudolf Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Deutsches Theater New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Pabst-Theater Milwaukee</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10721.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -94,24 +103,6 @@ Antwort auf: 1919-10-29  AS (Wien) an SF (Berlin) (erschlossen)</note>
           <term>Vertreter/Vertretung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
-          <persName>Bartsch, Rudolf Hans</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org>
-          <orgName>Deutsches Theater New York</orgName>
-        </org>
-        <org>
-          <orgName>Pabst-Theater Milwaukee</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -123,8 +114,9 @@ Antwort auf: 1919-10-29  AS (Wien) an SF (Berlin) (erschlossen)</note>
         <p>1 Blatt, 1 Seite
 Antwort auf: 1919-10-29  AS (Wien) an SF (Berlin) (erschlossen)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0195"/>43.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0195"/>43.<lb/>
 W4 35<lb/>
 B. Fischer. Verlag. Berlin,<lb/>
 auch die<lb/>

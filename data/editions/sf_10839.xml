@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -78,7 +79,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Beantwortet in: <ref target="10842">1921-08-09 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10842">1921-08-09 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1921-08-02.html</note>
       </notesStmt>
@@ -94,6 +96,16 @@ Beantwortet in: <ref target="10842">1921-08-09 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13499">Arnoldi, Heiko</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23544">Rosen, Karl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23675">Rotter, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3876">Rotter, Fritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb38444">Tschechoslowakei</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10839.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -104,28 +116,6 @@ Beantwortet in: <ref target="10842">1921-08-09 SF (Berlin) an AS (Wien)</ref></n
           <term>Vorschuss</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb13499" source="https://pmb.acdh.oeaw.ac.at/entity/13499/">
-          <persName>Arnoldi, Heiko</persName>
-        </person>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-        <person ref="#pmb23544" source="https://pmb.acdh.oeaw.ac.at/entity/23544/">
-          <persName>Rosen, Karl</persName>
-        </person>
-        <person ref="#pmb23675" source="https://pmb.acdh.oeaw.ac.at/entity/23675/">
-          <persName>Rotter, Alfred</persName>
-        </person>
-        <person ref="#pmb3876" source="https://pmb.acdh.oeaw.ac.at/entity/3876/">
-          <persName>Rotter, Fritz</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb38444" source="https://pmb.acdh.oeaw.ac.at/entity/38444/">
-          <placeName>Tschechoslowakei</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -135,10 +125,12 @@ Beantwortet in: <ref target="10842">1921-08-09 SF (Berlin) an AS (Wien)</ref></n
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Beantwortet in: <ref target="10842">1921-08-09 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10842">1921-08-09 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0195"/>ich gar nicht gedacht. Hier sind Sie mit Ihren<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0195"/>ich gar nicht gedacht. Hier sind Sie mit Ihren<lb/>
 sprüchen völlig im Recht. Ich werde das noch in<lb/>
 persönlicher Aussprache mit Frl. Herz in Ordnung brin<lb/>
 gen.<lb/>
@@ -210,7 +202,8 @@ schlamperte Wirtschaft zu sein. Aus Breslau habe ich<lb/>
 einen Brief, in dem oich das Lobetheater recht sehr<lb/>
 beklagt, das Ihr Verlag für Treslau das "Weite Land"<lb/>
 den Gebrüder Rotters gegeben habe, es sei wie übrigens</p>
-        <p><pb facs="1416739_0196"/>auch aus sämtlichen Kritiken hervorgeht, bejammernawürdig<lb/>
+        <p>
+          <pb facs="1416739_0196"/>auch aus sämtlichen Kritiken hervorgeht, bejammernawürdig<lb/>
 schlecht gespielt worden.<lb/>
 6. Die Theatervertriebssumme für das zweite<lb/>
 Quartal bitte an mein Honto Daulache Bank, Berlin, Depositen<lb/>

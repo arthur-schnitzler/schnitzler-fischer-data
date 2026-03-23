@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10065">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -86,6 +87,11 @@ Beantwortet in: 1897-02-09post/1897-05-02ante AS an SF (keine Publikation 'Mimi'
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12435">Pollaczek, Clara Katharina</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10065.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -96,11 +102,6 @@ Beantwortet in: 1897-02-09post/1897-05-02ante AS an SF (keine Publikation 'Mimi'
           <term>Veröffentlichungsplan/-projekt</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb12435" source="https://pmb.acdh.oeaw.ac.at/entity/12435/">
-          <persName>Pollaczek, Clara Katharina</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -114,8 +115,9 @@ Beantwortet in: 1897-02-09post/1897-05-02ante AS an SF (keine Publikation 'Mimi'
 Antwort auf: 1897-02-03post/1897-02-09ante AS an SF (Vertrag Pollaczek 'Mimi'; nicht überliefert)
 Beantwortet in: 1897-02-09post/1897-05-02ante AS an SF (keine Publikation 'Mimi'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0072"/>41<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0072"/>41<lb/>
 FISCHER, VerLAG.<lb/>
 P.S.<lb/>
 Berlin W., den 9. Februar 1897<lb/>

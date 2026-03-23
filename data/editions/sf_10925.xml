@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10925">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -78,6 +79,14 @@ Schreiben von Herrn Erich Ziegel an Leo Greiner (S. Fischer Verlag), das ebenfal
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11515">Greiner, Leo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb142471">Ziegel, Erich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44303">Rotterdam</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10925.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -90,22 +99,6 @@ Schreiben von Herrn Erich Ziegel an Leo Greiner (S. Fischer Verlag), das ebenfal
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11515" source="https://pmb.acdh.oeaw.ac.at/entity/11515/">
-          <persName>Greiner, Leo</persName>
-        </person>
-        <person ref="#pmb142471" source="https://pmb.acdh.oeaw.ac.at/entity/142471/">
-          <persName>Ziegel, Erich</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb44303" source="https://pmb.acdh.oeaw.ac.at/entity/44303/">
-          <placeName>Rotterdam</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -118,8 +111,9 @@ Schreiben von Herrn Erich Ziegel an Leo Greiner (S. Fischer Verlag), das ebenfal
 Schreiben von Herrn Erich Ziegel an Leo Greiner (S. Fischer Verlag), das ebenfalls an AS geschickt wurde.
 ##besser nur in 1922-08-03 nennen, nicht einzeln verzeichnen</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0508"/>56<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0508"/>56<lb/>
 2. August. 1922<lb/>
 ###ebesdarevate re¬<lb/>
 auf xxx xxx<lb/>
@@ -187,7 +181,8 @@ dier ausdrücklich.<lb/>
 nur<lb/>
 a sel<lb/>
 Lugt in Scheeveningen, erhielt ich heute</p>
-        <p><pb facs="1416743_0509"/>Schnitzler einverstanden, wenn keineswegs Reigen eröffnet 10% tige<lb/>
+        <p>
+          <pb facs="1416743_0509"/>Schnitzler einverstanden, wenn keineswegs Reigen eröffnet 10% tige<lb/>
 Tantiene 2000 Gulden Garantie vor Beginn bei Holland Bank auf Schnitzlers<lb/>
 Namen einzahlbar. Fischer Verlag.“ Es ergiebt sich also ein ganz wesent-<lb/>
 licher Unterschied zwischen den Bedingungen Dr. Schnitzlers, der nur eine<lb/>
@@ -252,7 +247,8 @@ BrodmeH mit<lb/>
 2 handpunkt<lb/>
 Lugt in Scheeveningen,<lb/>
 ernielt ich heute.</p>
-        <p><pb facs="1416743_0510"/>M a0 31<lb/>
+        <p>
+          <pb facs="1416743_0510"/>M a0 31<lb/>
 G.C.H.F.P.P<lb/>
 G.C.R.M.<lb/>
 G.C.F:P:S<lb/>

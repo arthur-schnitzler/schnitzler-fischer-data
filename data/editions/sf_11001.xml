@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11001">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -89,6 +90,13 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11515">Greiner, Leo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11001.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -97,19 +105,6 @@
           <term>italienisch</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11515" source="https://pmb.acdh.oeaw.ac.at/entity/11515/">
-          <persName>Greiner, Leo</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -120,8 +115,9 @@
       <div type="letter">
         <p>1 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0632"/>S·FISCHER/VERLAG/THEATERABTEILUNG·BERLIN<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0632"/>S·FISCHER/VERLAG/THEATERABTEILUNG·BERLIN<lb/>
 W 57. BÜLÖWSTR90<lb/>
 Herrn Dr. Arthur Schnitzler, Wien<lb/>
 19 23<lb/>
@@ -137,7 +133,8 @@ Mizzi " und " Abschiedsspuper" Frs. 1372.— verrechnet, die mit den 1342.<lb/>
 nach denen Sie fragen, identisch sein müssen. Sollte also nicht ein<lb/>
 Schreibfehler Ihrerseits vorliegen, so müsste dieser entweder bei unserer<lb/>
 oder bei Ihrer Bank vorgekommen sein. Von unserer schweizer Bank ist uns</p>
-        <p><pb facs="1416743_0633"/>de laisser et<lb/>
+        <p>
+          <pb facs="1416743_0633"/>de laisser et<lb/>
 V.<lb/>
 ordnungsmässig bestätigt, dass Frs. 1372.— auf Ihr Konto bei der<lb/>
 Eidgenössischen Bank überwiesen worden sind.<lb/>

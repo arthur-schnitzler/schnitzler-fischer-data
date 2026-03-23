@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,6 +80,16 @@ Anlage: Telegramm bezüglich Nygaard Bergen Rechtsverhältnis "Liebelei"</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19016">Kalckar, Marc</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb335756">Kopenhagen-Christiania</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb250435">Hamburger Kammerspiele</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb117961">Le Chat Noir Paris</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10977.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -89,30 +100,6 @@ Anlage: Telegramm bezüglich Nygaard Bergen Rechtsverhältnis "Liebelei"</note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb19016" source="https://pmb.acdh.oeaw.ac.at/entity/19016/">
-          <persName>Kalckar, Marc</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-        <place ref="#pmb335756" source="https://d-nb.info/gnd/4096769-4">
-          <placeName>Kopenhagen-Christiania</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb250435" source="https://pmb.acdh.oeaw.ac.at/entity/250435/">
-          <orgName>Hamburger Kammerspiele</orgName>
-        </org>
-        <org ref="#pmb117961" source="https://pmb.acdh.oeaw.ac.at/entity/117961/">
-          <orgName>Le Chat Noir Paris</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -125,8 +112,9 @@ Anlage: Telegramm bezüglich Nygaard Bergen Rechtsverhältnis "Liebelei"</note>
 Antwort auf: <ref target="10975">1923-02-19 AS (Wien) an SF (Berlin)</ref>
 Anlage: Telegramm bezüglich Nygaard Bergen Rechtsverhältnis "Liebelei"</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0596"/>604<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0596"/>604<lb/>
 Fischer/Verlag/Berlin M 57/Bülowstraße 90.<lb/>
 lüsse: Amt Lützow Nr. 1662. 6162 und 9292 / Postscheckkonto: Berlin Nr 1662<lb/>
 THEATERABTEILUNG<lb/>
@@ -169,7 +157,8 @@ bei.<lb/>
 spiel<lb/>
 Komm.<lb/>
 urg.</p>
-        <p><pb facs="1416743_0597"/>1 mils 3<lb/>
+        <p>
+          <pb facs="1416743_0597"/>1 mils 3<lb/>
 G.C.F.P<lb/>
 xxx<lb/>
 0 M UJISTHASHTASHT<lb/>

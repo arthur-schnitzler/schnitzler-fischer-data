@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,7 +77,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Beantwortet in: <ref target="11305">1927-05-20 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11305">1927-05-20 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1927-05-16.html</note>
       </notesStmt>
@@ -93,6 +95,15 @@ Beantwortet in: <ref target="11305">1927-05-20 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8288">Konstantin, Leopoldine</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Schierning, Maria (Übersetzerin, Helsingør)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12749">Schönherr, Karl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43570">Dänemark</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11304.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -106,25 +117,6 @@ Beantwortet in: <ref target="11305">1927-05-20 SF (Berlin) an AS (Wien)</ref></n
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb8288" source="https://pmb.acdh.oeaw.ac.at/entity/8288/">
-          <persName>Konstantin, Leopoldine</persName>
-        </person>
-        <person>
-          <persName>Schierning, Maria (Übersetzerin, Helsingør)</persName>
-        </person>
-        <person ref="#pmb12749" source="https://pmb.acdh.oeaw.ac.at/entity/12749/">
-          <persName>Schönherr, Karl</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43570" source="https://pmb.acdh.oeaw.ac.at/entity/43570/">
-          <placeName>Dänemark</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -134,10 +126,12 @@ Beantwortet in: <ref target="11305">1927-05-20 SF (Berlin) an AS (Wien)</ref></n
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Beantwortet in: <ref target="11305">1927-05-20 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11305">1927-05-20 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0116"/>S. Fischer<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0116"/>S. Fischer<lb/>
 16.5.1927.<lb/>
 Ilmoit ai lʼannée de luisant ai-<lb/>
 Lieber Dr.Maril.<lb/>

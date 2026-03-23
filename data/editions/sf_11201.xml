@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -75,7 +76,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="11200">1925-10-28 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11200">1925-10-28 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="published_in">Rodewald, 145-146 [Nr. 181]</note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1925-10-31.html</note>
@@ -92,6 +94,11 @@ Antwort auf: <ref target="11200">1925-10-28 SF (Berlin) an AS (Wien)</ref></note
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4374">Maril, Konrad</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11201.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -102,11 +109,6 @@ Antwort auf: <ref target="11200">1925-10-28 SF (Berlin) an AS (Wien)</ref></note
           <term>Zeitung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4374" source="https://pmb.acdh.oeaw.ac.at/entity/4374/">
-          <persName>Maril, Konrad</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -116,10 +118,12 @@ Antwort auf: <ref target="11200">1925-10-28 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="11200">1925-10-28 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11200">1925-10-28 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0063"/>Rischen<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0063"/>Rischen<lb/>
 31.10.1925.<lb/>
 nommée avec un autre rue de ses<lb/>
 Lieber Freund.<lb/>
@@ -161,7 +165,8 @@ ich mich nach wie vor dem Verlag S.Fischer<lb/>
 und insbesondere Ihnen persönlich keineswegs<lb/>
 iuridisch und mehr noch sefühlsmässig als aus<lb/>
 P.S.</p>
-        <p><pb facs="1416740_0064"/>praktischen Rücksichten am stärksten verbun-<lb/>
+        <p>
+          <pb facs="1416740_0064"/>praktischen Rücksichten am stärksten verbun-<lb/>
 den fühle. Andererseits habe ich Ihnen, lieber<lb/>
 Freund „kein Hehl daraus gemacht, was mich<lb/>
 schwanken machte und sie haben nach unserem<lb/>

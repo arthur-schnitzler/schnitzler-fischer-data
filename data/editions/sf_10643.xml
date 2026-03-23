@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -77,7 +78,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
 Antwort auf: <ref target="10642">1918-02-22 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="10646">1918-03-04 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="10646">1918-03-04 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="published_in">Rodewald, 116 [Nr. 153]</note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1918-02-26.html</note>
@@ -94,6 +96,14 @@ Beantwortet in: <ref target="10646">1918-03-04 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12274">Moissi, Alexander</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12504">Reinhardt, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4621">Tal, Ernst Peter</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10643.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -105,22 +115,6 @@ Beantwortet in: <ref target="10646">1918-03-04 AS (Wien) an SF (Berlin)</ref></n
           <term>vergriffen</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb12274" source="https://pmb.acdh.oeaw.ac.at/entity/12274/">
-          <persName>Moissi, Alexander</persName>
-        </person>
-        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
-          <persName>Reinhardt, Max</persName>
-        </person>
-        <person ref="#pmb4621" source="https://pmb.acdh.oeaw.ac.at/entity/4621/">
-          <persName>Tal, Ernst Peter</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -131,10 +125,12 @@ Beantwortet in: <ref target="10646">1918-03-04 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>2 Blatt, 2 Seiten
 Antwort auf: <ref target="10642">1918-02-22 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="10646">1918-03-04 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="10646">1918-03-04 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0104"/>400<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0104"/>400<lb/>
 FISCHER/VERLAG<lb/>
 ###nkkonto: Deutsche Bank, Depositenkasse P Berlin, Postschenkonto: Berlin 16892<lb/>
 BERLIN W 57 / BÜLowSTRASSE 90<lb/>
@@ -162,7 +158,8 @@ so werde ich gegen Mitte März in Wien sein, um den Abschluss zu<lb/>
 machen, dann werden Ihre Gesammelten Werke das erste Werk sein,<lb/>
 das in Wien gedruckt wird.<lb/>
 Das Manuskript der -Schwesterne habe ich von Reinhardt bekommen</p>
-        <p><pb facs="1416743_0105"/>S. FISCHER /VERLAG<lb/>
+        <p>
+          <pb facs="1416743_0105"/>S. FISCHER /VERLAG<lb/>
 Blat<lb/>
 und auch schon längst mit vielem Interesse gelesen. Ich hoffe,<lb/>
 Sie stellen zur Bedingung, dass Moissi den Casanova spielt.<lb/>

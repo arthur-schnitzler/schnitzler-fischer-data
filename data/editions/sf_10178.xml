@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10178">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -82,6 +83,14 @@ Antwort auf: AS an SF 1907-03-08</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb15048">Colbron, Grace Isabel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10178.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -92,22 +101,6 @@ Antwort auf: AS an SF 1907-03-08</note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb15048" source="https://pmb.acdh.oeaw.ac.at/entity/15048/">
-          <persName>Colbron, Grace Isabel</persName>
-        </person>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -120,8 +113,9 @@ Antwort auf: AS an SF 1907-03-08</note>
 
 Antwort auf: AS an SF 1907-03-08</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0259"/>Herrn Dr. Arthur Schnitzler<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0259"/>Herrn Dr. Arthur Schnitzler<lb/>
 Wien XV<lb/>
 Spöttelgas<lb/>
 Lieber Herr Doktor,<lb/>
@@ -139,7 +133,8 @@ g-<lb/>
 G.C.<lb/>
 alb<lb/>
 weiterer S</p>
-        <p><pb facs="1416742_0260"/>sebliese ich sich<lb/>
+        <p>
+          <pb facs="1416742_0260"/>sebliese ich sich<lb/>
 e Miss<lb/>
 dass<lb/>
 leh zu Sur<lb/>
@@ -147,7 +142,8 @@ sen einer Be<lb/>
 für England nur<lb/>
 eten könnte<lb/>
 eine grössere G</p>
-        <p><pb facs="1416742_0261"/>sobetnen Ihnen<lb/>
+        <p>
+          <pb facs="1416742_0261"/>sobetnen Ihnen<lb/>
 das zu sein, ich habe<lb/>
 ### schickt werde<lb/>
 dolm dei saaeildos<lb/>

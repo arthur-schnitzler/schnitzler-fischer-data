@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -53,7 +54,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
-Beantwortet in: <ref target="11057">1924-02-05 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="11057">1924-02-05 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-01-31.html</note>
       </notesStmt>
@@ -69,6 +71,13 @@ Beantwortet in: <ref target="11057">1924-02-05 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43430">Tschechien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11056.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -81,17 +90,6 @@ Beantwortet in: <ref target="11057">1924-02-05 AS (Wien) an SF (Berlin)</ref></n
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb43430" source="https://pmb.acdh.oeaw.ac.at/entity/43430/">
-          <placeName>Tschechien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -101,10 +99,12 @@ Beantwortet in: <ref target="11057">1924-02-05 AS (Wien) an SF (Berlin)</ref></n
     <body>
       <div type="letter">
         <p>2 Blatt, 4 Seiten
-Beantwortet in: <ref target="11057">1924-02-05 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="11057">1924-02-05 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0706"/>5<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0706"/>5<lb/>
 1652<lb/>
 Fischer/Verlag/Berlin W 57/Bülowstraße 90.<lb/>
 S.<lb/>
@@ -158,7 +158,8 @@ Ihnen für jedes nach dem Aus¬<lb/>
 land verkaufte Exemplar das Datum und den Umrechnungskurs in den je¬<lb/>
 weiligen ausländischen Valuten<lb/>
 zustellen. Das wäre ja praktisch</p>
-        <p><pb facs="1416743_0707"/>Une<lb/>
+        <p>
+          <pb facs="1416743_0707"/>Une<lb/>
 Et e e ee<lb/>
 ganz unmöglich. Die Abrechnung ist immer monatlich geschehen und<lb/>
 P.S<lb/>
@@ -197,7 +198,8 @@ die Herstellungskosten auf das normale Mass zurückgegangen sind.<lb/>
 Eine Verpflichtung zum Neudruck jedes Buches zu übernehmen, bin<lb/>
 ich bereit, aber selbstverständlich erst dann, wenn von dramatischen<lb/>
 Arbeiten nicht mehr als 50, von Prozawerken nich mehr aus 100 Exemplare</p>
-        <p><pb facs="1416743_0708"/>FISCHER / VerLA<lb/>
+        <p>
+          <pb facs="1416743_0708"/>FISCHER / VerLA<lb/>
 2. Blatt<lb/>
 Dr.A. Schnitzler 31/1. 24<lb/>
 vorrätig sind.<lb/>
@@ -258,7 +260,8 @@ Ich möchte hoffen, dass nun für die Veränderten Vertragsbestimmungen<lb/>
 die Grundlage geschaffen ist und wenn Sie wollen, kann ich Ihnen einen<lb/>
 solchen Vertragsentwurf zuschicken. Eine andere Frage ist die, ob man<lb/>
 mit noch 2-3 Monate warten sollte, bis die Stabilisierung unseren</p>
-        <p><pb facs="1416743_0709"/>nte Stöcke<lb/>
+        <p>
+          <pb facs="1416743_0709"/>nte Stöcke<lb/>
 Währung sich als endgültig erwiesen hat.<lb/>
 P.S.<lb/>
 Ich verreise gegen Mitte Februar auf etwa drei Wochen ins Hochge-<lb/>

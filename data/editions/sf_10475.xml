@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -67,7 +68,8 @@
 Anlage: Anfrage aus Amsterdam (nicht überliefert)
 
 Bezug auf: Uraufführung 'Professor Bernhardi' (1912-11-28), zu der AS 1912-11-24 bis 1912-12-01 in Berlin war und SF mehrfach traf (Tgb 1912-11-27, -28, -30, -12-01)
-Beantwortet in: <ref target="10478">1912-12-12 SF an AS</ref></note>
+Beantwortet in: <ref target="10478">1912-12-12 SF an AS</ref>
+        </note>
         <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1912-12-05.html</note>
       </notesStmt>
@@ -83,6 +85,11 @@ Beantwortet in: <ref target="10478">1912-12-12 SF an AS</ref></note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20787">Reinhard (Löwy), Robert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10475.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,11 +98,6 @@ Beantwortet in: <ref target="10478">1912-12-12 SF an AS</ref></note>
           <term>Sammelband</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb20787" source="https://pmb.acdh.oeaw.ac.at/entity/20787/">
-          <persName>Reinhard (Löwy), Robert</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -108,7 +110,8 @@ Beantwortet in: <ref target="10478">1912-12-12 SF an AS</ref></note>
 Anlage: Anfrage aus Amsterdam (nicht überliefert)
 
 Bezug auf: Uraufführung 'Professor Bernhardi' (1912-11-28), zu der AS 1912-11-24 bis 1912-12-01 in Berlin war und SF mehrfach traf (Tgb 1912-11-27, -28, -30, -12-01)
-Beantwortet in: <ref target="10478">1912-12-12 SF an AS</ref></p>
+Beantwortet in: <ref target="10478">1912-12-12 SF an AS</ref>
+        </p>
       </div>
     </body>
   </text>

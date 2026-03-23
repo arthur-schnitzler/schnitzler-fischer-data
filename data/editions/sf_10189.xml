@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -74,7 +75,8 @@
 Anlage: Vertragsunterlagen (nicht überliefert)
 
 Antwort auf: 1907-09-14ante AS an SF ('Ruf des Lebens'; nicht überliefert)
-Beantwortet in: <ref target="10190">1907-09-16 AS an SF</ref></note>
+Beantwortet in: <ref target="10190">1907-09-16 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1907-09-14.html</note>
       </notesStmt>
@@ -90,6 +92,12 @@ Beantwortet in: <ref target="10190">1907-09-16 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2914">Bie, Oskar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10189.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -98,16 +106,6 @@ Beantwortet in: <ref target="10190">1907-09-16 AS an SF</ref></note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2914" source="https://pmb.acdh.oeaw.ac.at/entity/2914/">
-          <persName>Bie, Oskar</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -120,10 +118,12 @@ Beantwortet in: <ref target="10190">1907-09-16 AS an SF</ref></note>
 Anlage: Vertragsunterlagen (nicht überliefert)
 
 Antwort auf: 1907-09-14ante AS an SF ('Ruf des Lebens'; nicht überliefert)
-Beantwortet in: <ref target="10190">1907-09-16 AS an SF</ref></p>
+Beantwortet in: <ref target="10190">1907-09-16 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0288"/>152<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0288"/>152<lb/>
 S. FISCHER, VERLAG,’ BERLIN W., BÜLowSTR. 90<lb/>
 14. Sept. 07<lb/>
 BERene W., DEN.<lb/>
@@ -148,7 +148,8 @@ ses Buch von neuem wirken zu können. Auch von<lb/>
 9. und 10. Auflage. Das Honorar von M. 2500.-<lb/>
 überweisen wir Ihrem Conto bei der Allg. Oesterr.<lb/>
 Bodenoreditanstalt, Wien.</p>
-        <p><pb facs="1416742_0289"/>Von Sie höre ich, dass Ihr neuer Roman bald<lb/>
+        <p>
+          <pb facs="1416742_0289"/>Von Sie höre ich, dass Ihr neuer Roman bald<lb/>
 fertig wird. Wir legen grossen Wert darauf, dass<lb/>
 der Roman in unserer Rundschau zuerst veröffentlicht<lb/>
 wird. Ich hoffe, dass wir uns bezüglich des Hono-<lb/>

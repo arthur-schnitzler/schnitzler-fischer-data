@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,7 +71,8 @@
         <note type="description">2 Blatt, 2 Seiten beschrieben
 Anlage: Besprechungen 'Anatol'-Inszenierung New York, von Alice Kauser an SF übermittelt (nicht überliefert).
 
-Beantwortet in: <ref target="10471">1912-11-06 AS an SF</ref></note>
+Beantwortet in: <ref target="10471">1912-11-06 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1912-10-31.html</note>
       </notesStmt>
@@ -86,6 +88,22 @@ Beantwortet in: <ref target="10471">1912-11-06 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb55347">Baltimore</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb889">Boston</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb891">Bremen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb880">Chicago</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45735">Detroit</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb146">Frankfurt am Main</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb47628">Philadelphia</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb56126">Pittsburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb47927">Washington</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10468.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -94,46 +112,6 @@ Beantwortet in: <ref target="10471">1912-11-06 AS an SF</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb55347" source="https://pmb.acdh.oeaw.ac.at/entity/55347/">
-          <placeName>Baltimore</placeName>
-        </place>
-        <place ref="#pmb889" source="https://pmb.acdh.oeaw.ac.at/entity/889/">
-          <placeName>Boston</placeName>
-        </place>
-        <place ref="#pmb891" source="https://pmb.acdh.oeaw.ac.at/entity/891/">
-          <placeName>Bremen</placeName>
-        </place>
-        <place ref="#pmb880" source="https://pmb.acdh.oeaw.ac.at/entity/880/">
-          <placeName>Chicago</placeName>
-        </place>
-        <place ref="#pmb45735" source="https://pmb.acdh.oeaw.ac.at/entity/45735/">
-          <placeName>Detroit</placeName>
-        </place>
-        <place ref="#pmb146" source="https://pmb.acdh.oeaw.ac.at/entity/146/">
-          <placeName>Frankfurt am Main</placeName>
-        </place>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb47628" source="https://pmb.acdh.oeaw.ac.at/entity/47628/">
-          <placeName>Philadelphia</placeName>
-        </place>
-        <place ref="#pmb56126" source="https://pmb.acdh.oeaw.ac.at/entity/56126/">
-          <placeName>Pittsburg</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb47927" source="https://pmb.acdh.oeaw.ac.at/entity/47927/">
-          <placeName>Washington</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -145,10 +123,12 @@ Beantwortet in: <ref target="10471">1912-11-06 AS an SF</ref></note>
         <p>2 Blatt, 2 Seiten beschrieben
 Anlage: Besprechungen 'Anatol'-Inszenierung New York, von Alice Kauser an SF übermittelt (nicht überliefert).
 
-Beantwortet in: <ref target="10471">1912-11-06 AS an SF</ref></p>
+Beantwortet in: <ref target="10471">1912-11-06 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0590"/>300<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0590"/>300<lb/>
 S. Fischer, Verlag, Berlin M., Bülowstrasse 90<lb/>
 31/X. 1912<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -174,7 +154,8 @@ punkt stellen, dass die 15 Dollar für jede Aufführung nicht zu teilen<lb/>
 sind, sondern Ihnen allein gebühren. Sie müssen dabei bedenken, dass<lb/>
 sich die ganze Vereinbarung nur auf moralische Rechte bezieht, dass wir<lb/>
 also damit zufrieden sein können.</p>
-        <p><pb facs="1416742_0591"/>br.<lb/>
+        <p>
+          <pb facs="1416742_0591"/>br.<lb/>
 Sie wissen, dass wir mit Ihrer Zustimmung auch Maurice Browne<lb/>
 die Aufführung von „Anatol“ für Chicago übertragen haben. Das war zu<lb/>
 einer Zeit, als von Alice Kaiser dieser Vertrag noch nicht vorlag.<lb/>

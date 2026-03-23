@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -78,7 +79,8 @@
         <note type="description">1 Blatt, 1 Seite beschrieben
 
 Antwort auf: 1914-02-04 AS an SF
-Beantwortet in: <ref target="10520">1914-02-21 AS an SF</ref></note>
+Beantwortet in: <ref target="10520">1914-02-21 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1914-02-06.html</note>
       </notesStmt>
@@ -94,6 +96,13 @@ Beantwortet in: <ref target="10520">1914-02-21 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb257737">Biedermann (Übersetzer/LIteraturagent, USA)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44374">St. Moritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10518.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -103,19 +112,6 @@ Beantwortet in: <ref target="10520">1914-02-21 AS an SF</ref></note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb257737" source="https://pmb.acdh.oeaw.ac.at/entity/257737/">
-          <persName>Biedermann (Übersetzer/LIteraturagent, USA)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44374" source="https://pmb.acdh.oeaw.ac.at/entity/44374/">
-          <placeName>St. Moritz</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -127,10 +123,12 @@ Beantwortet in: <ref target="10520">1914-02-21 AS an SF</ref></note>
         <p>1 Blatt, 1 Seite beschrieben
 
 Antwort auf: 1914-02-04 AS an SF
-Beantwortet in: <ref target="10520">1914-02-21 AS an SF</ref></p>
+Beantwortet in: <ref target="10520">1914-02-21 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0652"/>22c<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0652"/>22c<lb/>
 332.<lb/>
 S. Fischer Verlag, Berlin W., Bülowstrasse, 90<lb/>
 6/2. 1914<lb/>

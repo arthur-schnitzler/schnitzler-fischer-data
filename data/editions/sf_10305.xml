@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10305">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -81,6 +82,13 @@ Vorangegangen waren persönliche Treffen in Wien (Tgb 1910-03-04, -05, -06)</not
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb29">Hotel Sacher (Wien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb37214">Neue Wiener Bühne</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10305.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -88,19 +96,6 @@ Vorangegangen waren persönliche Treffen in Wien (Tgb 1910-03-04, -05, -06)</not
           <term>Garantiesumme</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb29" source="https://pmb.acdh.oeaw.ac.at/entity/29/">
-          <placeName>Hotel Sacher (Wien)</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb37214" source="https://pmb.acdh.oeaw.ac.at/entity/37214/">
-          <orgName>Neue Wiener Bühne</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -113,8 +108,9 @@ Vorangegangen waren persönliche Treffen in Wien (Tgb 1910-03-04, -05, -06)</not
 
 Vorangegangen waren persönliche Treffen in Wien (Tgb 1910-03-04, -05, -06)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0411"/>212<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0411"/>212<lb/>
 206<lb/>
 Hotel Sacher<lb/>
 Wien I<lb/>
@@ -137,7 +133,8 @@ Ihren Ausfol aufzuführen.<lb/>
 Die Leure wollen Ihnen,<lb/>
 11% bei einer Garcantil<lb/>
 von</p>
-        <p><pb facs="1416742_0412"/>212<lb/>
+        <p>
+          <pb facs="1416742_0412"/>212<lb/>
 konnten; es wurde zu<lb/>
 Kronen<lb/>
 spät. Die Zeit ist uns<lb/>
@@ -167,7 +164,8 @@ Wir haben sehr bedauert,<lb/>
 dass wir gestern nicht<lb/>
 mehr zu Flinen komme<lb/>
 konnte.</p>
-        <p><pb facs="1416742_0413"/>212<lb/>
+        <p>
+          <pb facs="1416742_0413"/>212<lb/>
 210<lb/>
 S. FISCHER,VERLAG, BERLIN W., BÜLÖWSTR. 90<lb/>
 BERene W., DEN 13/4. 1910.<lb/>

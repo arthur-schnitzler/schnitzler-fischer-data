@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -99,6 +100,18 @@
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7269">Frisch, Efraim</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11515">Greiner, Leo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb21761">Münzer, Kurt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb267138">Wittner, Doris</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb54787">Zuckerkandl, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13208">Zweig, Arnold</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11274.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -113,34 +126,6 @@
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb7269" source="https://pmb.acdh.oeaw.ac.at/entity/7269/">
-          <persName>Frisch, Efraim</persName>
-        </person>
-        <person ref="#pmb11515" source="https://pmb.acdh.oeaw.ac.at/entity/11515/">
-          <persName>Greiner, Leo</persName>
-        </person>
-        <person ref="#pmb21761" source="https://pmb.acdh.oeaw.ac.at/entity/21761/">
-          <persName>Münzer, Kurt</persName>
-        </person>
-        <person ref="#pmb267138" source="https://pmb.acdh.oeaw.ac.at/entity/267138/">
-          <persName>Wittner, Doris</persName>
-        </person>
-        <person ref="#pmb54787" source="https://pmb.acdh.oeaw.ac.at/entity/54787/">
-          <persName>Zuckerkandl, Victor</persName>
-        </person>
-        <person ref="#pmb13208" source="https://pmb.acdh.oeaw.ac.at/entity/13208/">
-          <persName>Zweig, Arnold</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -151,8 +136,9 @@
       <div type="letter">
         <p>2 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0101"/>Fischer, Verlag<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0101"/>Fischer, Verlag<lb/>
 17.1.1927.<lb/>
 Lieber Freund.<lb/>
 Ich übersende hiemit die Liste der<lb/>
@@ -186,7 +172,8 @@ wenn ich diese Novellen von den bisherigen<lb/>
 Verlegern frei bekäme, in Ihren eigenen Verlag<lb/>
 zu übernehmen.<lb/>
 6. Beiliegend eine Liste der von mir</p>
-        <p><pb facs="1416740_0102"/>erbetenen Freiexemplare.<lb/>
+        <p>
+          <pb facs="1416740_0102"/>erbetenen Freiexemplare.<lb/>
 7. Noch mals rege ich an von „Casano-<lb/>
 vas Heimfahrt,welche Novelle nur in einer<lb/>
 schlechten vriegsauflage vorliest, wenn ir<lb/>

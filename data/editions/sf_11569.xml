@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,13 +71,13 @@ vielleicht Kopie von Telegrammtext</note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4401">Hoffmann, Norbert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11569.xml"/>
+        </note>
       </correspDesc>
       <textClass/>
-      <listPerson>
-        <person ref="#pmb4401" source="https://pmb.acdh.oeaw.ac.at/entity/4401/">
-          <persName>Hoffmann, Norbert</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -89,8 +90,9 @@ vielleicht Kopie von Telegrammtext</note>
 Antwort auf: <ref target="11568">1930-04-24 SF (Berlin) an AS (Wien)</ref>
 vielleicht Kopie von Telegrammtext</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0131"/>4,5:1530<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0131"/>4,5:1530<lb/>
 Fisher<lb/>
 Fischerverlag Berlin Bülewstrasse 90<lb/>
 Abendeinnahmen nicht einbezogen worden sind. Wäre<lb/>

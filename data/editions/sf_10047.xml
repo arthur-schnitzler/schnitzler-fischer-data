@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -46,7 +47,8 @@
         <note type="description">1 Postkarte, 1 Seite beschrieben
 
 Antwort auf: <ref target="10046">1896-02-24 AS an SF/OB</ref>
-Beantwortet in: <ref target="10048">1896-03-14 AS an SF/OB</ref></note>
+Beantwortet in: <ref target="10048">1896-03-14 AS an SF/OB</ref>
+        </note>
         <note type="type">Handschrift (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1896-03-13.html</note>
       </notesStmt>
@@ -63,6 +65,11 @@ Beantwortet in: <ref target="10048">1896-03-14 AS an SF/OB</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11910">Kerr, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10047.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -70,11 +77,6 @@ Beantwortet in: <ref target="10048">1896-03-14 AS an SF/OB</ref></note>
           <term>Rezension</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11910" source="https://pmb.acdh.oeaw.ac.at/entity/11910/">
-          <persName>Kerr, Alfred</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -86,7 +88,8 @@ Beantwortet in: <ref target="10048">1896-03-14 AS an SF/OB</ref></note>
         <p>1 Postkarte, 1 Seite beschrieben
 
 Antwort auf: <ref target="10046">1896-02-24 AS an SF/OB</ref>
-Beantwortet in: <ref target="10048">1896-03-14 AS an SF/OB</ref></p>
+Beantwortet in: <ref target="10048">1896-03-14 AS an SF/OB</ref>
+        </p>
       </div>
     </body>
   </text>

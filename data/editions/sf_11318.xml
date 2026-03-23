@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -59,7 +60,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
 Antwort auf: <ref target="11315">1927-06-11 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11320">1927-06-18 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="11320">1927-06-18 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1927-06-13.html</note>
       </notesStmt>
@@ -76,6 +78,17 @@ Beantwortet in: <ref target="11320">1927-06-18 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10172">Bruckner, Ferdinand (Ps. Theodor Tagger)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7713">Hartung, Gustav</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8201">Kinz, Franziska</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45530">Deutsches Schauspielhaus in Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb37123">Renaissance Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb147380">Theater des Westens Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11318.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -84,33 +97,6 @@ Beantwortet in: <ref target="11320">1927-06-18 AS (Wien) an SF (Berlin)</ref></n
           <term>Verhandlung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10172" source="https://pmb.acdh.oeaw.ac.at/entity/10172/">
-          <persName>Bruckner, Ferdinand (Ps. Theodor Tagger)</persName>
-        </person>
-        <person ref="#pmb7713" source="https://pmb.acdh.oeaw.ac.at/entity/7713/">
-          <persName>Hartung, Gustav</persName>
-        </person>
-        <person ref="#pmb8201" source="https://pmb.acdh.oeaw.ac.at/entity/8201/">
-          <persName>Kinz, Franziska</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb45530" source="https://pmb.acdh.oeaw.ac.at/entity/45530/">
-          <orgName>Deutsches Schauspielhaus in Hamburg</orgName>
-        </org>
-        <org ref="#pmb37123" source="https://pmb.acdh.oeaw.ac.at/entity/37123/">
-          <orgName>Renaissance Theater Berlin</orgName>
-        </org>
-        <org ref="#pmb147380" source="https://pmb.acdh.oeaw.ac.at/entity/147380/">
-          <orgName>Theater des Westens Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -121,10 +107,12 @@ Beantwortet in: <ref target="11320">1927-06-18 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>1 Blatt, 1 Seite
 Antwort auf: <ref target="11315">1927-06-11 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11320">1927-06-18 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="11320">1927-06-18 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0945"/>812<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0945"/>812<lb/>
 S. Fischer / Verlag / A.=G. Berlin 957<lb/>
 Theaterabteilung<lb/>
 Bankkonto; Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto: Berlin Nr. 16692<lb/>

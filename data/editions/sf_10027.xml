@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10027">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -92,6 +93,11 @@ Beantwortet in: 1895-06-11post/1895-06-15ante AS an SF (Erregung über Angebot d
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4785">Zasche, Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10027.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -105,11 +111,6 @@ Beantwortet in: 1895-06-11post/1895-06-15ante AS an SF (Erregung über Angebot d
           <term>Zinkografie</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4785" source="https://pmb.acdh.oeaw.ac.at/entity/4785/">
-          <persName>Zasche, Theodor</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -123,8 +124,9 @@ Beantwortet in: 1895-06-11post/1895-06-15ante AS an SF (Erregung über Angebot d
 Antwort auf: 1895-06-05post/1895-06-11ante AS an SF (Anfrage Honorar Abdruck 'Die kleine Komödie' in Zs., Illustration der Buchausgabe; nicht überliefert)
 Beantwortet in: 1895-06-11post/1895-06-15ante AS an SF (Erregung über Angebot des Verlags; vgl. Tgb 1895-06-07: "ich darauf energisch", nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0024"/>Neue<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0024"/>Neue<lb/>
 Peutsche Rundschau<lb/>
 Der Freien Bühne sechster Jahrgang.<lb/>
 une<lb/>
@@ -164,7 +166,8 @@ dieses bescheidene Hanarar<lb/>
 für den Abdruck anbieten,<lb/>
 der Abdruck in der<lb/>
 lieuen</p>
-        <p><pb facs="1416742_0025"/>Neue<lb/>
+        <p>
+          <pb facs="1416742_0025"/>Neue<lb/>
 Rundschau<lb/>
 Deutsche<lb/>
 freien Rühne sichert Ihnen,<lb/>
@@ -224,7 +227,8 @@ bedingt nothwendig, da Ihr<lb/>
 der Abdruck in der<lb/>
 Cornelaturen<lb/>
 weiln</p>
-        <p><pb facs="1416742_0026"/>et de ces<lb/>
+        <p>
+          <pb facs="1416742_0026"/>et de ces<lb/>
 1021.<lb/>
 26<lb/>
 die müssten das<lb/>
@@ -264,7 +268,8 @@ ahmale format de<lb/>
 ergen<lb/>
 Lection Guillaume,<lb/>
 Fischer</p>
-        <p><pb facs="1416742_0027"/>Neue<lb/>
+        <p>
+          <pb facs="1416742_0027"/>Neue<lb/>
 Rundschau<lb/>
 Deutsche<lb/>
 Der Freien Bühne sechster Jahrgang.<lb/>

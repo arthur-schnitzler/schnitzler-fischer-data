@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,6 +80,13 @@ Anhang: Bücherverzeichnis SF AS</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb18607">Huebsch, Benjamin W.</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11225.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -90,19 +98,6 @@ Anhang: Bücherverzeichnis SF AS</note>
           <term>Urheberrecht/Copyright</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-        <person ref="#pmb18607" source="https://pmb.acdh.oeaw.ac.at/entity/18607/">
-          <persName>Huebsch, Benjamin W.</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -116,8 +111,9 @@ Antwort auf: <ref target="11220">1926-01-14 AS (Wien) an SF (Berlin)</ref>
 Beantwortet in: <ref target="11228">1926-01-30 AS (Wien) an SF (Berlin)</ref>
 Anhang: Bücherverzeichnis SF AS</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0859"/>Verlag / A.=G. - Berlin d.J.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0859"/>Verlag / A.=G. - Berlin d.J.<lb/>
 cher /<lb/>
 Bankkonte: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto: Berlin Nr. I.<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 6162 bis 616<lb/>
@@ -151,7 +147,8 @@ neuen Korrekturen vorgenomme.<lb/>
 genwärt<lb/>
 deutscher Herkunft.<lb/>
 gesammelten Werke H</p>
-        <p><pb facs="1416743_0860"/>G.C.F.P.<lb/>
+        <p>
+          <pb facs="1416743_0860"/>G.C.F.P.<lb/>
 G.O.F.P<lb/>
 Erfahrungen gemacht haben. Wenn Sie wollen, könnte ich ihm die Korrek-<lb/>
 turbogen zur Lektüre übergeben.<lb/>

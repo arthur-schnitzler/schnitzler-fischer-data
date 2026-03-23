@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -75,7 +76,8 @@
         <note type="description">2 Blatt, 2 Seiten beschrieben
 Anlagen: Postkarte Emil Lind an AS (nicht überliefert); Brief Stephenson an Eirich (nicht überliefert)
 
-Antwort auf: <ref target="10251">1908-12-21 SF an AS</ref></note>
+Antwort auf: <ref target="10251">1908-12-21 SF an AS</ref>
+        </note>
         <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1908-12-23.html</note>
       </notesStmt>
@@ -91,6 +93,16 @@ Antwort auf: <ref target="10251">1908-12-21 SF an AS</ref></note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10998">Brann, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2874">Eirich, Oskar Friedrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8654">Lind, Emil</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Stephenson (unbekannter Korrespondenz von Oskar Eirich)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb186212">Marionettentheater Münchner Künstler</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10252.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,30 +112,6 @@ Antwort auf: <ref target="10251">1908-12-21 SF an AS</ref></note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10998" source="https://pmb.acdh.oeaw.ac.at/entity/10998/">
-          <persName>Brann, Paul</persName>
-        </person>
-        <person ref="#pmb2874" source="https://pmb.acdh.oeaw.ac.at/entity/2874/">
-          <persName>Eirich, Oskar Friedrich</persName>
-        </person>
-        <person ref="#pmb8654" source="https://pmb.acdh.oeaw.ac.at/entity/8654/">
-          <persName>Lind, Emil</persName>
-        </person>
-        <person>
-          <persName>Stephenson (unbekannter Korrespondenz von Oskar Eirich)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb186212" source="https://pmb.acdh.oeaw.ac.at/entity/186212/">
-          <orgName>Marionettentheater Münchner Künstler</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -135,7 +123,8 @@ Antwort auf: <ref target="10251">1908-12-21 SF an AS</ref></note>
         <p>2 Blatt, 2 Seiten beschrieben
 Anlagen: Postkarte Emil Lind an AS (nicht überliefert); Brief Stephenson an Eirich (nicht überliefert)
 
-Antwort auf: <ref target="10251">1908-12-21 SF an AS</ref></p>
+Antwort auf: <ref target="10251">1908-12-21 SF an AS</ref>
+        </p>
       </div>
     </body>
   </text>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -66,7 +67,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
-Bezug auf: <ref target="11236">1926-03-27 SF (Berlin) an AS (Wien)</ref></note>
+Bezug auf: <ref target="11236">1926-03-27 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1926-04-12.html</note>
       </notesStmt>
@@ -83,6 +85,15 @@ Bezug auf: <ref target="11236">1926-03-27 SF (Berlin) an AS (Wien)</ref></note>
           <persName type="coworker">Eipper, Paul</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4374">Maril, Konrad</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb907">Kiel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb15227">Lissabon</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb595">Neapel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11237.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -99,25 +110,6 @@ Bezug auf: <ref target="11236">1926-03-27 SF (Berlin) an AS (Wien)</ref></note>
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4374" source="https://pmb.acdh.oeaw.ac.at/entity/4374/">
-          <persName>Maril, Konrad</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb907" source="https://pmb.acdh.oeaw.ac.at/entity/907/">
-          <placeName>Kiel</placeName>
-        </place>
-        <place ref="#pmb15227" source="https://pmb.acdh.oeaw.ac.at/entity/15227/">
-          <placeName>Lissabon</placeName>
-        </place>
-        <place ref="#pmb595" source="https://pmb.acdh.oeaw.ac.at/entity/595/">
-          <placeName>Neapel</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -127,10 +119,12 @@ Bezug auf: <ref target="11236">1926-03-27 SF (Berlin) an AS (Wien)</ref></note>
     <body>
       <div type="letter">
         <p>2 Blatt, 2 Seiten
-Bezug auf: <ref target="11236">1926-03-27 SF (Berlin) an AS (Wien)</ref></p>
+Bezug auf: <ref target="11236">1926-03-27 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0082"/>hipper (T. S. hei)<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0082"/>hipper (T. S. hei)<lb/>
 12.4.1926.<lb/>
 ouvert avec les mêmes<lb/>
 Verehrter Herr Eipper.<lb/>
@@ -170,7 +164,8 @@ Pta Washin!<lb/>
 Con am 19. April: Dampfer Ma<lb/>
 agentur der Linie Cosulich, Neapel,via<lb/>
 pretis 8</p>
-        <p><pb facs="1416740_0083"/>G.C.P.<lb/>
+        <p>
+          <pb facs="1416740_0083"/>G.C.P.<lb/>
 Ferner am 24. April Lissabon poste<lb/>
 restante.<lb/>
 Erfahren Sie nichts Weiteres, so<lb/>

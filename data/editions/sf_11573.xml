@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11573">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -75,6 +76,11 @@ Beantwortet in: 1930-05-26 AS (Wien) an SF (Berlin)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Kholova, Mila (Theateragentin, Tschechien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11573.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -82,11 +88,6 @@ Beantwortet in: 1930-05-26 AS (Wien) an SF (Berlin)</note>
           <term>Inszenierung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person>
-          <persName>Kholova, Mila (Theateragentin, Tschechien)</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -98,8 +99,9 @@ Beantwortet in: 1930-05-26 AS (Wien) an SF (Berlin)</note>
         <p>1 Blatt, 1 Seite
 Beantwortet in: 1930-05-26 AS (Wien) an SF (Berlin)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416744_0041"/>her.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416744_0041"/>her.<lb/>
 S. FISCHER VERLAG A.-G. / BERLIN W 57<lb/>
 Theaterabteilung<lb/>
 Telegramm=Adresse: Fischerverlag 6162 Berlinlützow<lb/>

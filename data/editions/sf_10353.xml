@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10353">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -98,6 +99,13 @@ Antwort auf: 1910-12-15 AS an SF/CS (nicht überliefert)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb833">Brünn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb44112">Nationaltheater München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10353.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -107,19 +115,6 @@ Antwort auf: 1910-12-15 AS an SF/CS (nicht überliefert)</note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb833" source="https://pmb.acdh.oeaw.ac.at/entity/833/">
-          <placeName>Brünn</placeName>
-        </place>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb44112" source="https://pmb.acdh.oeaw.ac.at/entity/44112/">
-          <orgName>Nationaltheater München</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -132,8 +127,9 @@ Antwort auf: 1910-12-15 AS an SF/CS (nicht überliefert)</note>
 
 Antwort auf: 1910-12-15 AS an SF/CS (nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0459"/>235<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0459"/>235<lb/>
 S. Fischer. Verlaa. Berlin M Rülamstraße<lb/>
 233<lb/>
 S. FISCHER, VERLAG,’ BERLIN W., BÜLowSTR. 90<lb/>
@@ -155,7 +151,8 @@ sen, während wir von einer Garantie, die wohl<lb/>
 in diesem Fall nicht so sehr ins Gewicht fällt,<lb/>
 absehen mussten. Jedenfalls haben wir jetzt im-<lb/>
 mer an dem Tantiemensatz von 10 % unbedingt</p>
-        <p><pb facs="1416742_0460"/>235<lb/>
+        <p>
+          <pb facs="1416742_0460"/>235<lb/>
 S. Fischer. Verlaa. Berlin M Rülemstraße 90<lb/>
 festgehalten<lb/>
 Das trifft auch zu in einem neuerlichen<lb/>

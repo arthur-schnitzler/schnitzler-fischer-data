@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -85,6 +86,12 @@ Anlage: Schreiben der Intendanz des städtischen Schauspielhaus Hannover</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2381">Shaw, George Bernard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="123897-8">Schauspielhaus Hannover</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11182.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -92,16 +99,6 @@ Anlage: Schreiben der Intendanz des städtischen Schauspielhaus Hannover</note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2381" source="https://pmb.acdh.oeaw.ac.at/entity/2381/">
-          <persName>Shaw, George Bernard</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="123897-8" source="https://d-nb.info/gnd/123897-8">
-          <orgName>Schauspielhaus Hannover</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -114,8 +111,9 @@ Anlage: Schreiben der Intendanz des städtischen Schauspielhaus Hannover</note>
 Beantwortet in: <ref target="11183">1925-05-07 AS (Wien) an SF (Berlin)</ref>
 Anlage: Schreiben der Intendanz des städtischen Schauspielhaus Hannover</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0823"/>S. FISCHER.VERLAG A.-G. THEATERABTEILUNG<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0823"/>S. FISCHER.VERLAG A.-G. THEATERABTEILUNG<lb/>
 BERLIN W 57, BÜLowSTR. 90<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P in Berlin. 2 Postscheckhonto: Berlin Nr. 16692 - Fernsprechanschlüsse: Ami Litzow Nr 6162 bis 6164<lb/>
 Berlin, den 4. Mai 1925<lb/>

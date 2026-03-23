@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -91,30 +92,20 @@ Bezug auf (nicht überlieferte) zwischenzeitliche Korrespondenz sowie evtl. auf 
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10788">Auernheimer, Raoul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4621">Tal, Ernst Peter</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="44467-4">Münchner Schauspielhaus</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10486.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Garantiesumme</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10788" source="https://pmb.acdh.oeaw.ac.at/entity/10788/">
-          <persName>Auernheimer, Raoul</persName>
-        </person>
-        <person ref="#pmb4621" source="https://pmb.acdh.oeaw.ac.at/entity/4621/">
-          <persName>Tal, Ernst Peter</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-          <placeName>München</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="44467-4" source="https://d-nb.info/gnd/44467-4">
-          <orgName>Münchner Schauspielhaus</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -127,8 +118,9 @@ Bezug auf (nicht überlieferte) zwischenzeitliche Korrespondenz sowie evtl. auf 
 
 Bezug auf (nicht überlieferte) zwischenzeitliche Korrespondenz sowie evtl. auf Gespräch AS mit EPT 1912-12-31 (Tgb)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0612"/>311<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0612"/>311<lb/>
 S. FISCHER/VERLAG/BERLIN’ THEATERABTEILUNG<lb/>
 AMT: LUTZÖW 1662 &amp; 6162<lb/>
 W 57. BULÖWSTR.90<lb/>
@@ -153,7 +145,8 @@ vielleicht nicht ganz so hoch ausgefallen sind, als Sie er-<lb/>
 warteten, so liegt das eben an der geschilderten Lage, Seien<lb/>
 Sie aber versichert, dass wir prinzipiell in jedem Fall uns<lb/>
 für die höchsterreichbare Garantiesumme einsetzen und auch</p>
-        <p><pb facs="1416742_0613"/>12<lb/>
+        <p>
+          <pb facs="1416742_0613"/>12<lb/>
 das Möglichste erreichen. Bolange natürlich der Geschlossen-<lb/>
 heit der deutschen Bühnendirektoren keine Organisation der<lb/>
 Verleger gegenübersteht, sind die ganzen Verhältnisse höehet<lb/>

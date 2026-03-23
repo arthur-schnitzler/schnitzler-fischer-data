@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,6 +80,11 @@ Brief Nr. 773</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb907">Kiel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11256.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -92,11 +98,6 @@ Brief Nr. 773</note>
           <term>Verhandlung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb907" source="https://pmb.acdh.oeaw.ac.at/entity/907/">
-          <placeName>Kiel</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -110,8 +111,9 @@ Antwort auf: <ref target="11255">1926-09-15 AS (Wien) an SF (Berlin)</ref>
 Unbekannter Absender
 Brief Nr. 773</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0886"/>1773<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0886"/>1773<lb/>
 S. Fischer / Verlag / A.-G. Berlin M 57.<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto; Berlin Nr. 1669<lb/>
 um<lb/>
@@ -147,7 +149,8 @@ Auch Ihr Wunsch über die äussere Ausstattung des Bände<lb/>
 chens haben wir zur Kenntnis genommen und werden Proben her<lb/>
 lassen, die wir Ihnen wahrscheinlich schon mit den Korn<lb/>
 übersenden können. In diesen Proben woll</p>
-        <p><pb facs="1416743_0887"/>M. A. P<lb/>
+        <p>
+          <pb facs="1416743_0887"/>M. A. P<lb/>
 S.O.S.<lb/>
 die Anordnung der beiden Diogramme zeigen, wie wir sie vorse<lb/>
 gen möchten, um den Gebrauch der beiden Diogramme während<lb/>

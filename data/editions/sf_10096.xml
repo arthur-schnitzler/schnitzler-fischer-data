@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -95,6 +96,11 @@ Beantwortet in: 1899-12-05post/1900-01-09ante AS an SF (Illustrationen Coschell 
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb28645">Coschell, Moritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10096.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -105,11 +111,6 @@ Beantwortet in: 1899-12-05post/1900-01-09ante AS an SF (Illustrationen Coschell 
           <term>Verkaufspreis/Ladenpreis</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb28645" source="https://pmb.acdh.oeaw.ac.at/entity/28645/">
-          <persName>Coschell, Moritz</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -124,8 +125,9 @@ Anlage: Honorar
 Antwort auf: 1899-11-23post/1899-12-05ante AS an SF (Drucklegung 'Reigen', Illustrationen Coschell 'Anatol'; nicht überliefert)
 Beantwortet in: 1899-12-05post/1900-01-09ante AS an SF (Illustrationen Coschell 'Anatol'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0115"/>7<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0115"/>7<lb/>
 S. FISCHER,<lb/>
 1899<lb/>
 BERLIN W., DEN<lb/>
@@ -157,7 +159,8 @@ verhältnismässig billigen Preise festhalten.<lb/>
 Ich bin soeben dabei, eine neue Auf-<lb/>
 an,<lb/>
 lage, zu drucken.</p>
-        <p><pb facs="1416742_0116"/>Ist das Lesen der Correkturen. Sollten Ihnen aber irgend sel.<lb/>
+        <p>
+          <pb facs="1416742_0116"/>Ist das Lesen der Correkturen. Sollten Ihnen aber irgend sel.<lb/>
 aufgefallen sein, so könnte es auch in die Platte corrigiert werden. In<lb/>
 dem „Paracelsus“ war im Personenverzeichnis Doktor Copus als Stabsarz<lb/>
 genannt; er wird jetzt natürlich wieder Stadtarzt werden.<lb/>

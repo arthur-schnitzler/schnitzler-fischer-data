@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10174">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -102,24 +103,16 @@ Antwort auf: 1907-01-28 AS an SF (Anfrage USA, Vorauszahlung Ebermann, vgl. Tgb 
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2157">Ebermann, Leo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116851740">Lederer, Emanuel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10174.xml"/>
+        </note>
       </correspDesc>
       <textClass/>
-      <listPerson>
-        <person ref="#pmb2157" source="https://pmb.acdh.oeaw.ac.at/entity/2157/">
-          <persName>Ebermann, Leo</persName>
-        </person>
-        <person ref="116851740" source="https://d-nb.info/gnd/116851740">
-          <persName>Lederer, Emanuel</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -132,8 +125,9 @@ Antwort auf: 1907-01-28 AS an SF (Anfrage USA, Vorauszahlung Ebermann, vgl. Tgb 
 
 Antwort auf: 1907-01-28 AS an SF (Anfrage USA, Vorauszahlung Ebermann, vgl. Tgb 1907-01-09 und 1907-01-28; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0257"/>S. FISCHER,VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0257"/>S. FISCHER,VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
 BERene W., DEN 31. Jan. 07<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
 Wien XVIII<lb/>
@@ -153,7 +147,8 @@ erste Frage. Ich habe Herrn Ebermann damals ge-<lb/>
 schrieben und ihm zu verstehen gegeben, dass ich<lb/>
 ich nur prinzipiell äussern kann, und dass ich<lb/>
 Anerbieten von Gotta für durchaus billige</p>
-        <p><pb facs="1416742_0258"/>se. Es lieg<lb/>
+        <p>
+          <pb facs="1416742_0258"/>se. Es lieg<lb/>
 bach meiner Meinung prinzipiell<lb/>
 Anlass vor, Herrn Ebermann andere Beda¬<lb/>
 unge<lb/>

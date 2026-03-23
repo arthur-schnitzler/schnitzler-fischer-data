@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -73,7 +74,8 @@
         <note type="description">2 Blatt, 2 Seiten beschrieben
 
 Antwort auf: <ref target="10193">1907-10-14 AS an SF</ref>
-Beantwortet in: <ref target="10195">1907-10-21 AS an SF</ref></note>
+Beantwortet in: <ref target="10195">1907-10-21 AS an SF</ref>
+        </note>
         <note type="published_in">Rodewald, 71-72 [Nr. 105]</note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1907-10-18.html</note>
@@ -90,17 +92,17 @@ Beantwortet in: <ref target="10195">1907-10-21 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12176">Mann, Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10194.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Honorar</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb12176" source="https://pmb.acdh.oeaw.ac.at/entity/12176/">
-          <persName>Mann, Thomas</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -112,10 +114,12 @@ Beantwortet in: <ref target="10195">1907-10-21 AS an SF</ref></note>
         <p>2 Blatt, 2 Seiten beschrieben
 
 Antwort auf: <ref target="10193">1907-10-14 AS an SF</ref>
-Beantwortet in: <ref target="10195">1907-10-21 AS an SF</ref></p>
+Beantwortet in: <ref target="10195">1907-10-21 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0293"/>155<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0293"/>155<lb/>
 VERLAG<lb/>
 S. FISCHER<lb/>
 18. Okt. 67<lb/>
@@ -145,7 +149,8 @@ verändert, dann wenn das Buch sehr als acht Auflagen hat, so geht Ihnen am<lb/>
 Nenorar nichts verloren. Indessen würde ich auch hierüber, wenn Sie Gericht<lb/>
 darauf legen, dass zehn Auflagen garantiert werden, erst nach der Lektüre eine<lb/>
 endgiltige Entscheidung treffen.</p>
-        <p><pb facs="1416742_0294"/>S. FISCHER,VERLAG, BERLIN, Herrn Dr. Arthur Schnitaler, Vien Blatt 2<lb/>
+        <p>
+          <pb facs="1416742_0294"/>S. FISCHER,VERLAG, BERLIN, Herrn Dr. Arthur Schnitaler, Vien Blatt 2<lb/>
 Wenn Sie auf dieser Grundlage, was ich hoffen will, uns Einsichtnahme in<lb/>
 das Manuscript geben wollen, so wären wir Ihnen für recht baldige Zusendung<lb/>
 sehr dankbar, denn wir müssen uns in allernächster Zeit über die Dispositionen<lb/>

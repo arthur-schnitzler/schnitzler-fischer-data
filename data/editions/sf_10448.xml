@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -72,7 +73,8 @@
         <note type="description">1 Blatt, 1 Seite beschrieben
 Anlage: 1912-06-24 ante Bauer (Paris) an SF (nicht überliefert)
 
-Beantwortet in: <ref target="10449">1912-06-27 AS an SF</ref></note>
+Beantwortet in: <ref target="10449">1912-06-27 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1912-06-24.html</note>
       </notesStmt>
@@ -88,6 +90,16 @@ Beantwortet in: <ref target="10449">1912-06-27 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116298065">Ames, Winthrop</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13833">Bauer, Wilhelm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5369">Granville-Barker, Harley</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Sestan, A. (Mitarbeiter Riccardi-Verlag?, Triest)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb166">Frankreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10448.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -96,28 +108,6 @@ Beantwortet in: <ref target="10449">1912-06-27 AS an SF</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="116298065" source="https://d-nb.info/gnd/116298065">
-          <persName>Ames, Winthrop</persName>
-        </person>
-        <person ref="#pmb13833" source="https://pmb.acdh.oeaw.ac.at/entity/13833/">
-          <persName>Bauer, Wilhelm</persName>
-        </person>
-        <person ref="#pmb5369" source="https://pmb.acdh.oeaw.ac.at/entity/5369/">
-          <persName>Granville-Barker, Harley</persName>
-        </person>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-        <person>
-          <persName>Sestan, A. (Mitarbeiter Riccardi-Verlag?, Triest)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb166" source="https://pmb.acdh.oeaw.ac.at/entity/166/">
-          <placeName>Frankreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -129,7 +119,8 @@ Beantwortet in: <ref target="10449">1912-06-27 AS an SF</ref></note>
         <p>1 Blatt, 1 Seite beschrieben
 Anlage: 1912-06-24 ante Bauer (Paris) an SF (nicht überliefert)
 
-Beantwortet in: <ref target="10449">1912-06-27 AS an SF</ref></p>
+Beantwortet in: <ref target="10449">1912-06-27 AS an SF</ref>
+        </p>
       </div>
     </body>
   </text>

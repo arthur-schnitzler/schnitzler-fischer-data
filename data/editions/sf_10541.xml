@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -67,7 +68,8 @@
         <note type="description">1 Blatt, 1 Seite beschrieben
 Anlage: 1914-09-10 SF an Bartsch (Mahnung; Abschrift, nicht überliefert)
 
-Beantwortet in: <ref target="10542">1914-09-30 AS  an SF</ref></note>
+Beantwortet in: <ref target="10542">1914-09-30 AS  an SF</ref>
+        </note>
         <note type="published_in">Rodewald, 104 [Nr. 144]; Buohler 2011, 188 (Auszug)</note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1914-09-25.html</note>
@@ -84,6 +86,16 @@ Beantwortet in: <ref target="10542">1914-09-30 AS  an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10836">Bartsch, Rudolf Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4621">Tal, Ernst Peter</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb644">Galizien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10541.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -92,28 +104,6 @@ Beantwortet in: <ref target="10542">1914-09-30 AS  an SF</ref></note>
           <term>Honorar</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
-          <persName>Bartsch, Rudolf Hans</persName>
-        </person>
-        <person ref="#pmb4621" source="https://pmb.acdh.oeaw.ac.at/entity/4621/">
-          <persName>Tal, Ernst Peter</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb644" source="https://pmb.acdh.oeaw.ac.at/entity/644/">
-          <placeName>Galizien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -125,10 +115,12 @@ Beantwortet in: <ref target="10542">1914-09-30 AS  an SF</ref></note>
         <p>1 Blatt, 1 Seite beschrieben
 Anlage: 1914-09-10 SF an Bartsch (Mahnung; Abschrift, nicht überliefert)
 
-Beantwortet in: <ref target="10542">1914-09-30 AS  an SF</ref></p>
+Beantwortet in: <ref target="10542">1914-09-30 AS  an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0669"/>2 10<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0669"/>2 10<lb/>
 34a<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
 25/9. 1914<lb/>

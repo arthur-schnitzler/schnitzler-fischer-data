@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -62,7 +63,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
 Antwort auf: <ref target="11211">1925-12-10 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11213">1925-12-17 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11213">1925-12-17 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1925-12-12.html</note>
       </notesStmt>
@@ -79,6 +81,14 @@ Beantwortet in: <ref target="11213">1925-12-17 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12274">Moissi, Alexander</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12504">Reinhardt, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45417">Reinhardt-Bühnen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11212.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -86,22 +96,6 @@ Beantwortet in: <ref target="11213">1925-12-17 SF (Berlin) an AS (Wien)</ref></n
           <term>Korrektur</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb12274" source="https://pmb.acdh.oeaw.ac.at/entity/12274/">
-          <persName>Moissi, Alexander</persName>
-        </person>
-        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
-          <persName>Reinhardt, Max</persName>
-        </person>
-      </listPerson>
-      <listOrg type="theaters">
-        <org ref="#pmb45417" source="https://pmb.acdh.oeaw.ac.at/entity/45417/">
-          <orgName>Reinhardt-Bühnen</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -112,10 +106,12 @@ Beantwortet in: <ref target="11213">1925-12-17 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>1 Blatt, 2 Seiten
 Antwort auf: <ref target="11211">1925-12-10 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11213">1925-12-17 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11213">1925-12-17 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0068"/>Ouestre<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0068"/>Ouestre<lb/>
 F. Bcker (Nau)<lb/>
 G.F.P<lb/>
 12.12.1925.<lb/>
@@ -158,7 +154,8 @@ mündlich weiter reden wollen.<lb/>
 Die Korraktux erhalten sie in ciroa<lb/>
 8 Tagen zugesandt und das Buch kann dann<lb/>
 gleich ohne jede Rücksicht auf Bühnenvertrieb</p>
-        <p><pb facs="1416740_0069"/>erscheinen. Was xx in dieser Hinsicht verab-<lb/>
+        <p>
+          <pb facs="1416740_0069"/>erscheinen. Was xx in dieser Hinsicht verab-<lb/>
 wir<lb/>
 redet haben sie hoffentlich in Vormerkung<lb/>
 genommen<lb/>

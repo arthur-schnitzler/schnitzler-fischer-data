@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,7 +77,8 @@
         <note type="description">2 Blatt, 2 Seiten beschrieben
 
 Antwort auf: 1910-02-12 und <ref target="10300">1910-02-12 AS  an SF</ref>
-Beantwortet in: <ref target="10303">1910-02-25 AS an SF</ref></note>
+Beantwortet in: <ref target="10303">1910-02-25 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1910-02-21.html</note>
       </notesStmt>
@@ -93,6 +95,20 @@ Beantwortet in: <ref target="10303">1910-02-25 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10986">Brahm, Otto</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb863">Düsseldorf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb864">Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44172">Nürnberg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb189">Semmering</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb36247">Burgtheater Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb335131">Schauspielhaus Düsseldorf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb57124">Schiller-Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10302.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -101,42 +117,6 @@ Beantwortet in: <ref target="10303">1910-02-25 AS an SF</ref></note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10986" source="https://pmb.acdh.oeaw.ac.at/entity/10986/">
-          <persName>Brahm, Otto</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb863" source="https://pmb.acdh.oeaw.ac.at/entity/863/">
-          <placeName>Düsseldorf</placeName>
-        </place>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-        <place ref="#pmb864" source="https://pmb.acdh.oeaw.ac.at/entity/864/">
-          <placeName>Leipzig</placeName>
-        </place>
-        <place ref="#pmb44172" source="https://pmb.acdh.oeaw.ac.at/entity/44172/">
-          <placeName>Nürnberg</placeName>
-        </place>
-        <place ref="#pmb189" source="https://pmb.acdh.oeaw.ac.at/entity/189/">
-          <placeName>Semmering</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb36247" source="https://pmb.acdh.oeaw.ac.at/entity/36247/">
-          <orgName>Burgtheater Wien</orgName>
-        </org>
-        <org ref="#pmb335131" source="https://pmb.acdh.oeaw.ac.at/entity/335131/">
-          <orgName>Schauspielhaus Düsseldorf</orgName>
-        </org>
-        <org ref="#pmb57124" source="https://pmb.acdh.oeaw.ac.at/entity/57124/">
-          <orgName>Schiller-Theater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -148,10 +128,12 @@ Beantwortet in: <ref target="10303">1910-02-25 AS an SF</ref></note>
         <p>2 Blatt, 2 Seiten beschrieben
 
 Antwort auf: 1910-02-12 und <ref target="10300">1910-02-12 AS  an SF</ref>
-Beantwortet in: <ref target="10303">1910-02-25 AS an SF</ref></p>
+Beantwortet in: <ref target="10303">1910-02-25 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0409"/>20b<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0409"/>20b<lb/>
 S. FISCHER, VERLAG<lb/>
 21/2.10<lb/>
 BERLIN W, DEN<lb/>
@@ -181,7 +163,8 @@ ber schon auf eine Garantie von Mk. 1000.- herabgesetzt hatten, als<lb/>
 exorbitant und mit Entrüstung ablehnt. Es ist ja wohl auch im all-<lb/>
 gemeinen nicht üblich, bei Stücken, die schon aufgeführt sind, Be-<lb/>
 dingungen in dieser Höhe zu stellen.</p>
-        <p><pb facs="1416742_0410"/>10 Herrn Dr. A. Schnitsler Blatt<lb/>
+        <p>
+          <pb facs="1416742_0410"/>10 Herrn Dr. A. Schnitsler Blatt<lb/>
 S. FISCHER,VERLAG, BERLIN, 21/8.15<lb/>
 Die Angelegenheit "Der grüne Kakadu" mit dem Schillertheater<lb/>
 hat noch nicht erledigt werden können, weil Herr Direktor Brahm<lb/>

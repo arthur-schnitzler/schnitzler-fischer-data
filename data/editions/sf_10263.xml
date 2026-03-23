@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -74,7 +75,8 @@
         <note type="description">3 Blatt, 3 Seiten beschrieben
 
 Antwort auf: <ref target="10262">1909-04-19 SF an AS</ref> sowie vmtl auf ein weiteres nicht überliefertes Schreiben
-Beantwortet in: <ref target="10264">1909-05-01 SF an AS</ref></note>
+Beantwortet in: <ref target="10264">1909-05-01 SF an AS</ref>
+        </note>
         <note type="type">Typoskript (Durchschlag, ohne Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1909-04-29.html</note>
       </notesStmt>
@@ -90,6 +92,19 @@ Beantwortet in: <ref target="10264">1909-05-01 SF an AS</ref></note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb21891">Neumann, Franz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10096">Strecker, Ludwig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb866">Dresden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb652">Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb872">Stuttgart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="301714-X">Stuttgarter Schauspielhaus</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb36430">Volkstheater Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10263.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -102,39 +117,6 @@ Beantwortet in: <ref target="10264">1909-05-01 SF an AS</ref></note>
           <term>Urheberrecht/Copyright</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb21891" source="https://pmb.acdh.oeaw.ac.at/entity/21891/">
-          <persName>Neumann, Franz</persName>
-        </person>
-        <person ref="#pmb10096" source="https://pmb.acdh.oeaw.ac.at/entity/10096/">
-          <persName>Strecker, Ludwig</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb866" source="https://pmb.acdh.oeaw.ac.at/entity/866/">
-          <placeName>Dresden</placeName>
-        </place>
-        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
-          <placeName>Prag</placeName>
-        </place>
-        <place ref="#pmb872" source="https://pmb.acdh.oeaw.ac.at/entity/872/">
-          <placeName>Stuttgart</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="301714-X" source="https://d-nb.info/gnd/301714-X">
-          <orgName>Stuttgarter Schauspielhaus</orgName>
-        </org>
-        <org ref="#pmb36430" source="https://pmb.acdh.oeaw.ac.at/entity/36430/">
-          <orgName>Volkstheater Wien</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -146,7 +128,8 @@ Beantwortet in: <ref target="10264">1909-05-01 SF an AS</ref></note>
         <p>3 Blatt, 3 Seiten beschrieben
 
 Antwort auf: <ref target="10262">1909-04-19 SF an AS</ref> sowie vmtl auf ein weiteres nicht überliefertes Schreiben
-Beantwortet in: <ref target="10264">1909-05-01 SF an AS</ref></p>
+Beantwortet in: <ref target="10264">1909-05-01 SF an AS</ref>
+        </p>
       </div>
     </body>
   </text>

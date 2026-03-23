@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10122">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -87,6 +88,15 @@ Antwort auf: 1903-06-07post/1903-06-14ante AS an SF (Urlaubsgruß aus ital. Schw
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116202335">Bloch, Felix</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3379">Langen, Albert</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb129">Grunewald</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb423">Tirol</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10122.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -95,25 +105,6 @@ Antwort auf: 1903-06-07post/1903-06-14ante AS an SF (Urlaubsgruß aus ital. Schw
           <term>Mahnung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="116202335" source="https://d-nb.info/gnd/116202335">
-          <persName>Bloch, Felix</persName>
-        </person>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-        <person ref="#pmb3379" source="https://pmb.acdh.oeaw.ac.at/entity/3379/">
-          <persName>Langen, Albert</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb129" source="https://pmb.acdh.oeaw.ac.at/entity/129/">
-          <placeName>Grunewald</placeName>
-        </place>
-        <place ref="#pmb423" source="https://pmb.acdh.oeaw.ac.at/entity/423/">
-          <placeName>Tirol</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -127,8 +118,9 @@ Anlage: Mahnung/Erinnerung an "neulich übermittelt[e]" "Zuschrift" (nicht über
 
 Antwort auf: 1903-06-07post/1903-06-14ante AS an SF (Urlaubsgruß aus ital. Schweiz, wo sich AS vom 7. bis 14.6.1903 aufhielt; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0161"/>S. FISCHER,VERLAGT<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0161"/>S. FISCHER,VERLAGT<lb/>
 BERene W., DEN 26/6.03<lb/>
 TELEPHON:<lb/>
 BÜLÖWSTRASSE 90/91.<lb/>
@@ -161,7 +153,8 @@ mann heranziehe, dem die Verrechnung und die<lb/>
 Confrolle mit der Bühne seiner Stadt oder eines<lb/>
 Jezirks obliegen würde. Ich errichte durchaus<lb/>
 Reine</p>
-        <p><pb facs="1416742_0162"/>V.V.S.<lb/>
+        <p>
+          <pb facs="1416742_0162"/>V.V.S.<lb/>
 G.C.M.S.<lb/>
 décrire nombre<lb/>
 keine Bühnenagentur großen Styls; ich beschränke<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -78,7 +79,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="11136">1924-10-30 SF (Berlin) an AS (Wien)</ref>, <ref target="11138">1924-11-06 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11136">1924-10-30 SF (Berlin) an AS (Wien)</ref>, <ref target="11138">1924-11-06 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-11-08.html</note>
       </notesStmt>
@@ -94,6 +96,22 @@ Antwort auf: <ref target="11136">1924-10-30 SF (Berlin) an AS (Wien)</ref>, <ref
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3025">Kahane, Arthur</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb157361">Neff, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12504">Reinhardt, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23675">Rotter, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3876">Rotter, Fritz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2381">Shaw, George Bernard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb313">Polen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb872">Stuttgart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb883">Wiesbaden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Rotter-Bühnen Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="10086050-3">Schauspielschule Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11140.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -103,48 +121,6 @@ Antwort auf: <ref target="11136">1924-10-30 SF (Berlin) an AS (Wien)</ref>, <ref
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb3025" source="https://pmb.acdh.oeaw.ac.at/entity/3025/">
-          <persName>Kahane, Arthur</persName>
-        </person>
-        <person ref="#pmb157361" source="https://pmb.acdh.oeaw.ac.at/entity/157361/">
-          <persName>Neff, Paul</persName>
-        </person>
-        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
-          <persName>Reinhardt, Max</persName>
-        </person>
-        <person ref="#pmb23675" source="https://pmb.acdh.oeaw.ac.at/entity/23675/">
-          <persName>Rotter, Alfred</persName>
-        </person>
-        <person ref="#pmb3876" source="https://pmb.acdh.oeaw.ac.at/entity/3876/">
-          <persName>Rotter, Fritz</persName>
-        </person>
-        <person ref="#pmb2381" source="https://pmb.acdh.oeaw.ac.at/entity/2381/">
-          <persName>Shaw, George Bernard</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
-          <placeName>Polen</placeName>
-        </place>
-        <place ref="#pmb872" source="https://pmb.acdh.oeaw.ac.at/entity/872/">
-          <placeName>Stuttgart</placeName>
-        </place>
-        <place ref="#pmb883" source="https://pmb.acdh.oeaw.ac.at/entity/883/">
-          <placeName>Wiesbaden</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org>
-          <orgName>Rotter-Bühnen Berlin</orgName>
-        </org>
-        <org ref="10086050-3" source="https://d-nb.info/gnd/10086050-3">
-          <orgName>Schauspielschule Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -154,10 +130,12 @@ Antwort auf: <ref target="11136">1924-10-30 SF (Berlin) an AS (Wien)</ref>, <ref
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="11136">1924-10-30 SF (Berlin) an AS (Wien)</ref>, <ref target="11138">1924-11-06 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11136">1924-10-30 SF (Berlin) an AS (Wien)</ref>, <ref target="11138">1924-11-06 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0045"/>Fischer<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0045"/>Fischer<lb/>
 8.11.1924.<lb/>
 Lieber Freund<lb/>
 Beigeschlossen die mir freundlichst<lb/>
@@ -191,7 +169,8 @@ Bedauern nicht von mir, nicht einmal die<lb/>
 Uebersetzung,was ich eher verschmerzen kann.<lb/>
 Aus Stuttgart hat man sich das we¬<lb/>
 gen des Vorträgs an mich persönlich gewen-</p>
-        <p><pb facs="1416740_0046"/>det - vielleicht auf Ihre Anregung.Ich<lb/>
+        <p>
+          <pb facs="1416740_0046"/>det - vielleicht auf Ihre Anregung.Ich<lb/>
 schreibe nun direkt an Herrn Neff und bit-<lb/>
 te sich in dieser Angelegenheit nicht weiter<lb/>
 zu bemühen.<lb/>

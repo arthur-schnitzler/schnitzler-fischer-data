@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10371">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -77,17 +78,17 @@ Anlagen: Eirich an SF (nicht überliefert)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2874">Eirich, Oskar Friedrich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10371.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Vollmacht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2874" source="https://pmb.acdh.oeaw.ac.at/entity/2874/">
-          <persName>Eirich, Oskar Friedrich</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -99,8 +100,9 @@ Anlagen: Eirich an SF (nicht überliefert)</note>
         <p>1 Blatt, 2 Seiten beschrieben
 Anlagen: Eirich an SF (nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0476"/>242<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0476"/>242<lb/>
 S. FISCHER, VERLAG,“ BERLIN W., BÜLowSTR. 90<lb/>
 THEATERABTEILUNG<lb/>
 BERene W., DEN 21. März 1911<lb/>
@@ -120,7 +122,8 @@ mit Umständen verknüpft sind. Es dürfte<lb/>
 unserer Ansicht nach die Angelegenheit<lb/>
 erleichtern, wenn Sie selbst Herrn Dr.<lb/>
 Eirich eine entsprechende Erklärung bezw.</p>
-        <p><pb facs="1416742_0477"/>Vollmacht geben, vorausgesetzt natürlich,<lb/>
+        <p>
+          <pb facs="1416742_0477"/>Vollmacht geben, vorausgesetzt natürlich,<lb/>
 dass Sie dem Vorgehen des Herrn Dr. Hirich<lb/>
 zustimmen.<lb/>
 Hochachtungseoll<lb/>

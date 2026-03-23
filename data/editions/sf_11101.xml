@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -64,7 +65,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="11100">1924-07-14 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11100">1924-07-14 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-07-17.html</note>
       </notesStmt>
@@ -80,6 +82,13 @@ Antwort auf: <ref target="11100">1924-07-14 SF (Berlin) an AS (Wien)</ref></note
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb300494">Barnay, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11101.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,19 +100,6 @@ Antwort auf: <ref target="11100">1924-07-14 SF (Berlin) an AS (Wien)</ref></note
           <term>Uraufführung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb300494" source="https://pmb.acdh.oeaw.ac.at/entity/300494/">
-          <persName>Barnay, Paul</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -113,10 +109,12 @@ Antwort auf: <ref target="11100">1924-07-14 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="11100">1924-07-14 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11100">1924-07-14 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0033"/>Wie lange zeit müsste denn vom Imprimatur<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0033"/>Wie lange zeit müsste denn vom Imprimatur<lb/>
 bis zur Fertigstellung des Buches gerechnet<lb/>
 werden?<lb/>
 Dass die Autoren unentwegt ihren Res-<lb/>
@@ -189,7 +187,8 @@ Auch die Besetzung am Burgtheater macht erheb-<lb/>
 liche Schwierigkeiten.<lb/>
 Herr Paulm Barnay hat mir wegen des<lb/>
 „Reigen“ telegraphiert. Gegen eine vor der</p>
-        <p><pb facs="1416740_0034"/>premiere zahlbare Garantie von 2000 Goldmark<lb/>
+        <p>
+          <pb facs="1416740_0034"/>premiere zahlbare Garantie von 2000 Goldmark<lb/>
 habe ich mich rinzipiebl zu ausnahmsweiser<lb/>
 Erlaubnis bereit erklärt. Die gefahr ist ge-<lb/>
 ring, dass Herr Barnay von dieser erlaubnis Ge-<lb/>

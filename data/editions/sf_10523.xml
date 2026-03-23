@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -126,6 +127,21 @@ Beantwortet in: <ref target="10524">1914-03-04 SF an AS</ref> und 1914-03-04 SF/
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11910">Kerr, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8386">Kyser, Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Murray, Marr (Übersetzer, England)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="nm0461721">Skram-Knudsen, Johanne</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Wisdom, J. H. (Übersetzer, England)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb903">Elberfeld</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb1119">Stockholm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45530">Deutsches Schauspielhaus in Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="46022-9">Schillertheater Altona (Hamburg)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10523.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -134,45 +150,6 @@ Beantwortet in: <ref target="10524">1914-03-04 SF an AS</ref> und 1914-03-04 SF/
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11910" source="https://pmb.acdh.oeaw.ac.at/entity/11910/">
-          <persName>Kerr, Alfred</persName>
-        </person>
-        <person ref="#pmb8386" source="https://pmb.acdh.oeaw.ac.at/entity/8386/">
-          <persName>Kyser, Hans</persName>
-        </person>
-        <person>
-          <persName>Murray, Marr (Übersetzer, England)</persName>
-        </person>
-        <person ref="nm0461721" source="https://www.imdb.com/name/nm0461721/">
-          <persName>Skram-Knudsen, Johanne</persName>
-        </person>
-        <person>
-          <persName>Wisdom, J. H. (Übersetzer, England)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb903" source="https://pmb.acdh.oeaw.ac.at/entity/903/">
-          <placeName>Elberfeld</placeName>
-        </place>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb1119" source="https://pmb.acdh.oeaw.ac.at/entity/1119/">
-          <placeName>Stockholm</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb45530" source="https://pmb.acdh.oeaw.ac.at/entity/45530/">
-          <orgName>Deutsches Schauspielhaus in Hamburg</orgName>
-        </org>
-        <org ref="46022-9" source="https://d-nb.info/gnd/46022-9">
-          <orgName>Schillertheater Altona (Hamburg)</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>

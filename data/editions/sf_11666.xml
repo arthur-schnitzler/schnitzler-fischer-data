@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -67,7 +68,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="11664">1931-04-23 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11664">1931-04-23 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1931-04-25.html</note>
       </notesStmt>
@@ -83,6 +85,16 @@ Antwort auf: <ref target="11664">1931-04-23 SF (Berlin) an AS (Wien)</ref></note
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11187">Duhamel, Georges</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11205">Döblin, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7740">Hausmann, Manfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb36456">Menton</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="5193996-4">Preußische Staatstheater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11666.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -93,30 +105,6 @@ Antwort auf: <ref target="11664">1931-04-23 SF (Berlin) an AS (Wien)</ref></note
           <term>Zeitung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11187" source="https://pmb.acdh.oeaw.ac.at/entity/11187/">
-          <persName>Duhamel, Georges</persName>
-        </person>
-        <person ref="#pmb11205" source="https://pmb.acdh.oeaw.ac.at/entity/11205/">
-          <persName>Döblin, Alfred</persName>
-        </person>
-        <person ref="#pmb7740" source="https://pmb.acdh.oeaw.ac.at/entity/7740/">
-          <persName>Hausmann, Manfred</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb36456" source="https://pmb.acdh.oeaw.ac.at/entity/36456/">
-          <placeName>Menton</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="5193996-4" source="https://d-nb.info/gnd/5193996-4">
-          <orgName>Preußische Staatstheater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -126,10 +114,12 @@ Antwort auf: <ref target="11664">1931-04-23 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="11664">1931-04-23 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11664">1931-04-23 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0169"/>J. Tischer<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0169"/>J. Tischer<lb/>
 25.4.1931.<lb/>
 Lieber Freund.<lb/>
 Die übersandten Umschläge Döblin,Hausmann<lb/>
@@ -167,7 +157,8 @@ zum Weiher spielen will. Da ich mit Berlin gern<lb/>
 selbst ver handle, wie Sie wissen, darf ich vielleicht<lb/>
 bitten die Intendanz, von der ich persönlich bisher<lb/>
 kein Wort gehört habe. an mich zu verweisen.</p>
-        <p><pb facs="1416741_0170"/>Meine Karte nach Mentone haben Sie wohl<lb/>
+        <p>
+          <pb facs="1416741_0170"/>Meine Karte nach Mentone haben Sie wohl<lb/>
 noch erhalten? Ich hoffe, Sie haben dort unten schön<lb/>
 Tage gehabt.<lb/>
 Mit den herzlichsten Grüssen<lb/>

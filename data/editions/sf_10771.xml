@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10771">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -76,6 +77,15 @@ Antwort auf: 1920-XX-XX AS (Wien) an SF (Berlin) (erschlossen)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Campbell, John Arthur (1878-1947; Birmingham Repertory Theatre)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb62373">Shand, Morton</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb89711">Williams, George Valentine</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb224">London</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="1800987-6">Birmingham Repertory Theatre</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10771.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -85,27 +95,6 @@ Antwort auf: 1920-XX-XX AS (Wien) an SF (Berlin) (erschlossen)</note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person>
-          <persName>Campbell, John Arthur (1878-1947; Birmingham Repertory Theatre)</persName>
-        </person>
-        <person ref="#pmb62373" source="https://pmb.acdh.oeaw.ac.at/entity/62373/">
-          <persName>Shand, Morton</persName>
-        </person>
-        <person ref="#pmb89711" source="https://pmb.acdh.oeaw.ac.at/entity/89711/">
-          <persName>Williams, George Valentine</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb224" source="https://pmb.acdh.oeaw.ac.at/entity/224/">
-          <placeName>London</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="1800987-6" source="https://d-nb.info/gnd/1800987-6">
-          <orgName>Birmingham Repertory Theatre</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -118,8 +107,9 @@ Antwort auf: 1920-XX-XX AS (Wien) an SF (Berlin) (erschlossen)</note>
 Anlage: XX-XX-XX Shand, X. (X) an AS (Wien) (erschlossen)
 Antwort auf: 1920-XX-XX AS (Wien) an SF (Berlin) (erschlossen)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0294"/>rebelà<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0294"/>rebelà<lb/>
 her - Verlag<lb/>
 ###: Lützow 1662 u. 6162 Theaterabteilung postscheckkonto Nr. 1669a<lb/>
 Berlin W 57, Bülowstraße Nr. 90<lb/>

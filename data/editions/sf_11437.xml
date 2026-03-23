@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -64,7 +65,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
 Antwort auf: <ref target="11436">1928-08-14 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11439">1928-08-20 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11439">1928-08-20 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1928-08-16.html</note>
       </notesStmt>
@@ -81,6 +83,14 @@ Beantwortet in: <ref target="11439">1928-08-20 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Rökk-Richter, Stefano (Theateragent und Schriftsteller, Italien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb90895">Hohenschwangau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb248986">Hotel Alpenrose (Hohenschwangau)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11437.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -95,22 +105,6 @@ Beantwortet in: <ref target="11439">1928-08-20 SF (Berlin) an AS (Wien)</ref></n
           <term>Vorschuss</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person>
-          <persName>Rökk-Richter, Stefano (Theateragent und Schriftsteller, Italien)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb90895" source="https://pmb.acdh.oeaw.ac.at/entity/90895/">
-          <placeName>Hohenschwangau</placeName>
-        </place>
-        <place ref="#pmb248986" source="https://pmb.acdh.oeaw.ac.at/entity/248986/">
-          <placeName>Hotel Alpenrose (Hohenschwangau)</placeName>
-        </place>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -121,10 +115,12 @@ Beantwortet in: <ref target="11439">1928-08-20 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>1 Blatt, 1 Seite
 Antwort auf: <ref target="11436">1928-08-14 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11439">1928-08-20 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11439">1928-08-20 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0065"/>1<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0065"/>1<lb/>
 Berlin<lb/>
 S. Fischer.<lb/>
 16.8.1928.<lb/>

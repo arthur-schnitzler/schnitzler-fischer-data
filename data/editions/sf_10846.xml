@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -82,6 +83,13 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb58067">Kosztolányi, Dezső</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb146243">Marton, Alexander</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43471">Budapest</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10846.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,19 +99,6 @@
           <term>Urheberrecht/Copyright</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb58067" source="https://pmb.acdh.oeaw.ac.at/entity/58067/">
-          <persName>Kosztolányi, Dezső</persName>
-        </person>
-        <person ref="#pmb146243" source="https://pmb.acdh.oeaw.ac.at/entity/146243/">
-          <persName>Marton, Alexander</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43471" source="https://pmb.acdh.oeaw.ac.at/entity/43471/">
-          <placeName>Budapest</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -114,8 +109,9 @@
       <div type="letter">
         <p>1 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0404"/>„<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0404"/>„<lb/>
 S. Fischer/Verlag/Berlin W 57/Bülowstraße 9o<lb/>
 Bankkonto: Deutsche Bank. Depositenkasse P in Berlin / Postscheckkonto; Berlin Nr. 16892<lb/>
 Durchlüsse: Amt Lützow Nr. 1662, 6162 und 9292<lb/>
@@ -147,7 +143,8 @@ lanyi eine Uebersetzung der „Schwestern“ hergestellt wurde und für<lb/>
 die Aufführungsrechte damals eine garantie von 5000 Kronen bezahlt<lb/>
 werden sollte. Sie korrespondierten in dieser Angelegenheit auch selbst<lb/>
 und teilten uns gelegentlich mit, dass das Budapesten Athenäum von</p>
-        <p><pb facs="1416743_0405"/>S. FISCHER / VerLAG<lb/>
+        <p>
+          <pb facs="1416743_0405"/>S. FISCHER / VerLAG<lb/>
 2. Blatt<lb/>
 Dr.A. Schnitzler 31/8. 21<lb/>
 der Sache zurückgekommen sei. Es scheint sich aber hierbei nicht um<lb/>

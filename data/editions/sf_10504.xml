@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -77,7 +78,8 @@ Anlage: Honorarabrechnung (nicht überliefert)
 
 Bezug auf: <ref target="10497">1913-04-13 SF an AS</ref>
 Antwort auf: <ref target="10499">1913-04-19 AS an SF</ref>
-Beantwortet in: <ref target="10507">1913-06-02 AS an SF</ref></note>
+Beantwortet in: <ref target="10507">1913-06-02 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1913-05-17.html</note>
       </notesStmt>
@@ -93,6 +95,13 @@ Beantwortet in: <ref target="10507">1913-06-02 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5031">Samuel, Horace Barnett</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10504.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -105,19 +114,6 @@ Beantwortet in: <ref target="10507">1913-06-02 AS an SF</ref></note>
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb5031" source="https://pmb.acdh.oeaw.ac.at/entity/5031/">
-          <persName>Samuel, Horace Barnett</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -131,10 +127,12 @@ Anlage: Honorarabrechnung (nicht überliefert)
 
 Bezug auf: <ref target="10497">1913-04-13 SF an AS</ref>
 Antwort auf: <ref target="10499">1913-04-19 AS an SF</ref>
-Beantwortet in: <ref target="10507">1913-06-02 AS an SF</ref></p>
+Beantwortet in: <ref target="10507">1913-06-02 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0636"/>am 324.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0636"/>am 324.<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
 7/6. 1883<lb/>
 Herrn Dr. Art###r Schmitaler<lb/>
@@ -159,7 +157,8 @@ Sie haben sodann auch meine Bemerkung wegen der Gesamtausgabe,<lb/>
 die wir durch Reisebuchhandlungen vertreiben wollen, missverstanden.<lb/>
 Hier handelt es sich nicht um Bahnhofsbuchhandlungen, sondern um<lb/>
 Kolportage-Buchhandlungen, die durch Reisende den Publikum die Bücher</p>
-        <p><pb facs="1416742_0637"/>F.O.G.<lb/>
+        <p>
+          <pb facs="1416742_0637"/>F.O.G.<lb/>
 direkt verkaufen. Für diesen Zweig des Buchdundels kommen fast nur<lb/>
 Gesamtansgaben, Laxibus und teure fachwissenschaftliche Werke in<lb/>
 Betracht, und diese Buchhandlungen arbeiten nicht unter einem<lb/>

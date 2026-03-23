@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -36,7 +37,8 @@
       <notesStmt>
         <note type="description">1 Doppelblatt, 4 Seiten beschrieben
 
-Antwort auf: <ref target="10056">1896-09-24 SF/OB an AS</ref></note>
+Antwort auf: <ref target="10056">1896-09-24 SF/OB an AS</ref>
+        </note>
         <note type="type">Handschrift (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1896-09-26.html</note>
       </notesStmt>
@@ -53,13 +55,13 @@ Antwort auf: <ref target="10056">1896-09-24 SF/OB an AS</ref></note>
           <persName type="coworker">Bie, Oskar</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10058.xml"/>
+        </note>
       </correspDesc>
       <textClass/>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -70,7 +72,8 @@ Antwort auf: <ref target="10056">1896-09-24 SF/OB an AS</ref></note>
       <div type="letter">
         <p>1 Doppelblatt, 4 Seiten beschrieben
 
-Antwort auf: <ref target="10056">1896-09-24 SF/OB an AS</ref></p>
+Antwort auf: <ref target="10056">1896-09-24 SF/OB an AS</ref>
+        </p>
       </div>
     </body>
   </text>

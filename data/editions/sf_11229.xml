@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11229">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -69,6 +70,11 @@
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb43962">Semperoper Dresden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11229.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -76,11 +82,6 @@
           <term>Korrektur</term>
         </keywords>
       </textClass>
-      <listOrg type="theaters">
-        <org ref="#pmb43962" source="https://pmb.acdh.oeaw.ac.at/entity/43962/">
-          <orgName>Semperoper Dresden</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -91,8 +92,9 @@
       <div type="letter">
         <p>1 Blatt, 1 Seite</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0076"/>geben wollte, erschienen ist,<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0076"/>geben wollte, erschienen ist,<lb/>
 Ihr Büro frägt wieder wegen Varge<lb/>
 bung von Eilmrechten im allgemeßnen bei mir<lb/>
 an. Es ist und blebt das Einfachste, dass Sie<lb/>

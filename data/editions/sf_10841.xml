@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,7 +80,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
 Beantwortet in: <ref target="10842">1921-08-09 SF (Berlin) an AS (Wien)</ref>, <ref target="10845">1921-08-19 SF (Berlin) an AS (Wien)</ref>
-Antwort auf: <ref target="10834">1921-07-18 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="10834">1921-07-18 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1921-08-09.html</note>
       </notesStmt>
@@ -95,6 +97,14 @@ Antwort auf: <ref target="10834">1921-07-18 SF (Berlin) an AS (Wien)</ref></note
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3283">Björkman, Edwin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5031">Samuel, Horace Barnett</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10841.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -103,22 +113,6 @@ Antwort auf: <ref target="10834">1921-07-18 SF (Berlin) an AS (Wien)</ref></note
           <term>Urheberrecht/Copyright</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb3283" source="https://pmb.acdh.oeaw.ac.at/entity/3283/">
-          <persName>Björkman, Edwin</persName>
-        </person>
-        <person ref="#pmb5031" source="https://pmb.acdh.oeaw.ac.at/entity/5031/">
-          <persName>Samuel, Horace Barnett</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -129,10 +123,12 @@ Antwort auf: <ref target="10834">1921-07-18 SF (Berlin) an AS (Wien)</ref></note
       <div type="letter">
         <p>1 Blatt, 2 Seiten
 Beantwortet in: <ref target="10842">1921-08-09 SF (Berlin) an AS (Wien)</ref>, <ref target="10845">1921-08-19 SF (Berlin) an AS (Wien)</ref>
-Antwort auf: <ref target="10834">1921-07-18 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="10834">1921-07-18 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0191"/>0 à 4 a 2,2,2 s. p. a.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0191"/>0 à 4 a 2,2,2 s. p. a.<lb/>
 Hämeen ja Oulun lääneissä sekä se<lb/>
 † ̃ —<lb/>
 O H<lb/>
@@ -399,7 +395,8 @@ Lähele.<lb/>
 Wm<lb/>
 Päiwä<lb/>
 40 44</p>
-        <p><pb facs="1416739_0192"/>Fischer<lb/>
+        <p>
+          <pb facs="1416739_0192"/>Fischer<lb/>
 15.9.1921.<lb/>
 Päivärä<lb/>
 euwä:<lb/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11142">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -77,6 +78,12 @@ müsste sich doch auch 'Flucht in die Finsternis' beziehen, Beilage zuordnen, ni
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb378">Rumänien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="5193996-4">Preußische Staatstheater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11142.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -88,16 +95,6 @@ müsste sich doch auch 'Flucht in die Finsternis' beziehen, Beilage zuordnen, ni
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb378" source="https://pmb.acdh.oeaw.ac.at/entity/378/">
-          <placeName>Rumänien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="5193996-4" source="https://d-nb.info/gnd/5193996-4">
-          <orgName>Preußische Staatstheater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -109,8 +106,9 @@ müsste sich doch auch 'Flucht in die Finsternis' beziehen, Beilage zuordnen, ni
         <p>1 Blatt, 1 Seite
 müsste sich doch auch 'Flucht in die Finsternis' beziehen, Beilage zuordnen, nicht einzeln</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0148"/>Von der Aufführung des “Reigen” in<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0148"/>Von der Aufführung des “Reigen” in<lb/>
 London habe ich neulich auch privat gehört. Es<lb/>
 soll mich freuen, wenn von dort Tantiemen zu<lb/>
 erhalten sein werden.<lb/>

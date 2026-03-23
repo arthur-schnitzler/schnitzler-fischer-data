@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10239">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -103,6 +104,11 @@ wohl Antwort auf nicht überlieferte Anfrage AS zu Drucklegung 'Komtesse Mizzi'<
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10239.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -111,11 +117,6 @@ wohl Antwort auf nicht überlieferte Anfrage AS zu Drucklegung 'Komtesse Mizzi'<
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -128,8 +129,9 @@ wohl Antwort auf nicht überlieferte Anfrage AS zu Drucklegung 'Komtesse Mizzi'<
 
 wohl Antwort auf nicht überlieferte Anfrage AS zu Drucklegung 'Komtesse Mizzi'</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0355"/>Pr.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0355"/>Pr.<lb/>
 62<lb/>
 183<lb/>
 S. FISCHER, VERLAG, BERLIN W., BÜLowSTR. 90<lb/>
@@ -150,7 +152,8 @@ Ich würde den Schriftumschlag zeichnen lassen, in<lb/>
 einer ähnlichen Schrift wie die des Einbands der<lb/>
 „Marionetten“. Den Ladenpreis setzen wir am besten<lb/>
 mit M. 1.- für das broschierte Exemplar an. Wenn Sie</p>
-        <p><pb facs="1416742_0356"/>damit einverstanden sind und mir ein Wort depe¬<lb/>
+        <p>
+          <pb facs="1416742_0356"/>damit einverstanden sind und mir ein Wort depe¬<lb/>
 schieren, so kann das Buch morgen in Satz gehen.<lb/>
 Mit besten Grüssen<lb/>
 Ihr<lb/>

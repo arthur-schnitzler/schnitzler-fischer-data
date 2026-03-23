@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -94,7 +95,8 @@
       <notesStmt>
         <note type="description">6 Blatt, 12 Seiten
 Antwort auf: 1919-04-20 SF (Berlin) an AS (Wien)
-Beantwortet in: <ref target="10755">1920-05-10 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10755">1920-05-10 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1920-05-01.html</note>
       </notesStmt>
@@ -110,6 +112,28 @@ Beantwortet in: <ref target="10755">1920-05-10 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10836">Bartsch, Rudolf Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb6960">Eipper, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7777">Hellmer, Arthur</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8001">Jahnn, Hans Henny</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb58067">Kosztolányi, Dezső</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20142">Lasswitz, Koloman</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb146243">Marton, Alexander</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8885">Meid, Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb22728">Pollak, Frieda</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12504">Reinhardt, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb168298">Theis, O. F.</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb27362">Wunderlich, Ernst Rainer</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb142471">Ziegel, Erich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10751.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -134,64 +158,6 @@ Beantwortet in: <ref target="10755">1920-05-10 SF (Berlin) an AS (Wien)</ref></n
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
-          <persName>Bartsch, Rudolf Hans</persName>
-        </person>
-        <person ref="#pmb6960" source="https://pmb.acdh.oeaw.ac.at/entity/6960/">
-          <persName>Eipper, Paul</persName>
-        </person>
-        <person ref="#pmb7777" source="https://pmb.acdh.oeaw.ac.at/entity/7777/">
-          <persName>Hellmer, Arthur</persName>
-        </person>
-        <person ref="#pmb8001" source="https://pmb.acdh.oeaw.ac.at/entity/8001/">
-          <persName>Jahnn, Hans Henny</persName>
-        </person>
-        <person ref="#pmb58067" source="https://pmb.acdh.oeaw.ac.at/entity/58067/">
-          <persName>Kosztolányi, Dezső</persName>
-        </person>
-        <person ref="#pmb20142" source="https://pmb.acdh.oeaw.ac.at/entity/20142/">
-          <persName>Lasswitz, Koloman</persName>
-        </person>
-        <person ref="#pmb146243" source="https://pmb.acdh.oeaw.ac.at/entity/146243/">
-          <persName>Marton, Alexander</persName>
-        </person>
-        <person ref="#pmb8885" source="https://pmb.acdh.oeaw.ac.at/entity/8885/">
-          <persName>Meid, Hans</persName>
-        </person>
-        <person ref="#pmb22728" source="https://pmb.acdh.oeaw.ac.at/entity/22728/">
-          <persName>Pollak, Frieda</persName>
-        </person>
-        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
-          <persName>Reinhardt, Max</persName>
-        </person>
-        <person ref="#pmb168298" source="https://pmb.acdh.oeaw.ac.at/entity/168298/">
-          <persName>Theis, O. F.</persName>
-        </person>
-        <person ref="#pmb27362" source="https://pmb.acdh.oeaw.ac.at/entity/27362/">
-          <persName>Wunderlich, Ernst Rainer</persName>
-        </person>
-        <person ref="#pmb142471" source="https://pmb.acdh.oeaw.ac.at/entity/142471/">
-          <persName>Ziegel, Erich</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -202,10 +168,12 @@ Beantwortet in: <ref target="10755">1920-05-10 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>6 Blatt, 12 Seiten
 Antwort auf: 1919-04-20 SF (Berlin) an AS (Wien)
-Beantwortet in: <ref target="10755">1920-05-10 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10755">1920-05-10 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0142"/>1. Mai 1920.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0142"/>1. Mai 1920.<lb/>
 Fischer<lb/>
 Ihnen zu übermitteln.<lb/>
 Lieber Freund.<lb/>
@@ -267,7 +235,8 @@ was ja in keinem Fall in das Bereich Ihrer<lb/>
 Verlagsinteressen fällt. Die Bedingungen für<lb/>
 die amerikanische Gesamtausgabe 10-15% (hof-<lb/>
 fentlich werden es 15) vom verkaufte Exemplark</p>
-        <p><pb facs="1416739_0143"/>sind gewiss günstig genug. Die Garantiesumme<lb/>
+        <p>
+          <pb facs="1416739_0143"/>sind gewiss günstig genug. Die Garantiesumme<lb/>
 von 1000 Dollars mit Rücksucht auf die Grös-<lb/>
 se des unternehmens etwas mässig (wir dürfen<lb/>
 nicht immer umrechnen), aber wenn es sich<lb/>
@@ -310,7 +279,8 @@ direkt mit Ihnen ins Einvernehmen setzen.<lb/>
 neuen bestimmten Termin für die Aufführung<lb/>
 des „Reigen" mit Reinhardt noch nicht überein-<lb/>
 gekommen bin. Dassim Laufe der letzten Monate</p>
-        <p><pb facs="1416739_0144"/>der Zeitpunkt nicht günstig gewesen wäre,<lb/>
+        <p>
+          <pb facs="1416739_0144"/>der Zeitpunkt nicht günstig gewesen wäre,<lb/>
 darüber sind wir wohl alle einig. Dass ein<lb/>
 günstigerer in ziemlich unverantwortlicher<lb/>
 Weise versäumt worden ist, aus dieser Meiner<lb/>
@@ -352,7 +322,8 @@ wünschte nur, dass Sie, lieber Freund, stets mit<lb/>
 der gleichen Bereitwilligkeit meine Erwägun-<lb/>
 gen zu würdigen geneigt wären als ich die<lb/>
 Ihren. Auch diesmal bin ich fern davon die un-</p>
-        <p><pb facs="1416739_0145"/>geheueren Anforderungen zu unterschätzen, die<lb/>
+        <p>
+          <pb facs="1416739_0145"/>geheueren Anforderungen zu unterschätzen, die<lb/>
 gerade in dieser Zeit an ein Untennehmen wie<lb/>
 das Ihre gestellt werden oder Ihrer Energie<lb/>
 und Arbeitskraft die schuldige Anerkennung zu<lb/>
@@ -396,7 +367,8 @@ das gewiss relativ grosse Einkommen, das ich<lb/>
 aus meinen Stücken und Büchern beziehe,besten-<lb/>
 falls den 25.Teil seines früheren Wertes be-<lb/>
 deutet, dass es sich also nur um eine schein-</p>
-        <p><pb facs="1416739_0146"/>bare Steigerung der Einnahmen handelt, genau<lb/>
+        <p>
+          <pb facs="1416739_0146"/>bare Steigerung der Einnahmen handelt, genau<lb/>
 so wie bei, Ihnen, lieber Freund, der natürlich<lb/>
 auch ziffernnässig viel grossere Umsätze er-<lb/>
 zielt und erzielen muss als in den früheren<lb/>
@@ -439,7 +411,8 @@ werde ich von Frl. Pollak dahin aufgeklärt,<lb/>
 dass es sich hier nicht um eine eigentliche<lb/>
 Nachzahlung handeln solle, sondern nur um ei-<lb/>
 nen prlag dieser Summe, für die Sie den Gegen-</p>
-        <p><pb facs="1416739_0147"/>wert in Kronen ausbezahlt erhalten sollen.<lb/>
+        <p>
+          <pb facs="1416739_0147"/>wert in Kronen ausbezahlt erhalten sollen.<lb/>
 Es scheint sich hier um irgend eine natio-<lb/>
 nalökonomisch wichtige Abmachung zwischen<lb/>
 Oesterreich und Deutschland zu handeln, von<lb/>
@@ -478,7 +451,8 @@ einzelnen Bände erscheinen?<lb/>
 7. Bis zu welchem Termin sollte das Gan-<lb/>
 ze erschienen sein?<lb/>
 8. Sollen die einzelnen Bände einzeln</p>
-        <p><pb facs="1416739_0148"/>käuflich sein?<lb/>
+        <p>
+          <pb facs="1416739_0148"/>käuflich sein?<lb/>
 9. Bekanntlich ist das Wenige, das bisher<lb/>
 in Buchform in Amerika erschienen istentweder<lb/>
 gar nicht oder ganz lächerlich honoriert worden.<lb/>
@@ -518,7 +492,8 @@ ein Vertrag mit dem Verbande deutscher Filmau-<lb/>
 toren, den ich mit den mir nötig erscheinenden<lb/>
 Klauseln abzuschliessen eben im Begriffe bin.<lb/>
 Gern überlasse ich die Angelegenheit ei-</p>
-        <p><pb facs="1416739_0149"/>Provincesse<lb/>
+        <p>
+          <pb facs="1416739_0149"/>Provincesse<lb/>
 Fischer<lb/>
 28.5.1920.<lb/>
 que les ames.<lb/>
@@ -560,7 +535,8 @@ Kölosönkönyvtar, Budapest VII. Dohany-Utoa 1<lb/>
 Ihr<lb/>
 sich wegen des Uebersetzungsrechtes von.Dok<lb/>
 tor Gräsler" (ebenso wie von -Frau Berta Gar¬</p>
-        <p><pb facs="1416739_0150"/>¬<lb/>
+        <p>
+          <pb facs="1416739_0150"/>¬<lb/>
 Aufenthaltes in Berlin mit Ihnen geschäftlich<lb/>
 lan' und.Der Weg ins Freie" an mich gemaddt<lb/>
 ins Reine zu bringen. Schon am 1.Mai 1900<lb/>
@@ -605,7 +581,8 @@ reichische Autoren, sowie deutsche und österrei-<lb/>
 zu machen und ich habe ihn ersucht die Angele-<lb/>
 chische Verlagsanstalten zu bestehlen ist un<lb/>
 genheit anlässlich seines bevorstehenden Be-</p>
-        <p><pb facs="1416739_0151"/>ja bekannt, stellt sich jedoch,was nun doch im-<lb/>
+        <p>
+          <pb facs="1416739_0151"/>ja bekannt, stellt sich jedoch,was nun doch im-<lb/>
 mer häufiger vorzukommen scheint, ein ungari-<lb/>
 scher Verleger auf den Boden eines wirklichen<lb/>
 Urheberrechtes, nicht auf den überlebter Raub-<lb/>
@@ -650,7 +627,8 @@ räge, die mir von ihnen übermittelt wei-<lb/>
 nicht etwa persönlich weiterbehandle,sonders<lb/>
 dass, wenn mir dieser Antrag überhaupt und<lb/>
 erscheint, ihn in Ihre Hände überallen.</p>
-        <p><pb facs="1416739_0152"/>Auch wenn ich Ihnen Anträge, die direkt<lb/>
+        <p>
+          <pb facs="1416739_0152"/>Auch wenn ich Ihnen Anträge, die direkt<lb/>
 an mich gelangen, zu weiterer Behandlung über-<lb/>
 lasse,gelten die gleichen Provisionsbedingun-<lb/>
 gen, als wenn der Antrag direkt an Sie gelangt<lb/>
@@ -693,7 +671,8 @@ lich gebessert. Herr Revesz sagt mir, dass ich<lb/>
 automatisch durch die Aufführung Meines mei<lb/>
 ner Stücke Mitglied der spanischen Sociedad<lb/>
 des Autores werde und dass der Autor (auch</p>
-        <p><pb facs="1416739_0153"/>der übersetzte) durch ein vortreffliches Kon-<lb/>
+        <p>
+          <pb facs="1416739_0153"/>der übersetzte) durch ein vortreffliches Kon-<lb/>
 trollsystem, das dem der französischen Societé<lb/>
 entspricht, vollkommen gegen Missbräuche aller<lb/>
 Art geschützt sei. Es wird sich also empfhlen.,<lb/>

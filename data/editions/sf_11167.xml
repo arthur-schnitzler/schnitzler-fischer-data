@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -93,7 +94,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten,
-Antwort auf: <ref target="11166">1925-02-05 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11166">1925-02-05 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1925-01-07.html</note>
       </notesStmt>
@@ -110,6 +112,17 @@ Antwort auf: <ref target="11166">1925-02-05 SF (Berlin) an AS (Wien)</ref></note
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7713">Hartung, Gustav</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb92768">Woticky, Edward</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35572">Braunschweig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb145">Köln</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb883">Wiesbaden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11167.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -119,31 +132,6 @@ Antwort auf: <ref target="11166">1925-02-05 SF (Berlin) an AS (Wien)</ref></note
           <term>Honorar</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb7713" source="https://pmb.acdh.oeaw.ac.at/entity/7713/">
-          <persName>Hartung, Gustav</persName>
-        </person>
-        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
-          <persName>Woticky, Edward</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb35572" source="https://pmb.acdh.oeaw.ac.at/entity/35572/">
-          <placeName>Braunschweig</placeName>
-        </place>
-        <place ref="#pmb145" source="https://pmb.acdh.oeaw.ac.at/entity/145/">
-          <placeName>Köln</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb883" source="https://pmb.acdh.oeaw.ac.at/entity/883/">
-          <placeName>Wiesbaden</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -153,10 +141,12 @@ Antwort auf: <ref target="11166">1925-02-05 SF (Berlin) an AS (Wien)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten,
-Antwort auf: <ref target="11166">1925-02-05 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11166">1925-02-05 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0051"/>am 16. in St.Gallen, Notarkeerkt: 19. Zürich,Hotel<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0051"/>am 16. in St.Gallen, Notarkeerkt: 19. Zürich,Hotel<lb/>
 Gottharet.<lb/>
 wit verbindlichen Grüssen<lb/>
 Ihr sehr ergebener<lb/>
@@ -205,7 +195,8 @@ selbst sagt, nicht in der Lage gewesen wäre<lb/>
 (welcher Direktor ist es wohl heute?) das<lb/>
 schwierige Stück in allen Partien richtig zu<lb/>
 l e de</p>
-        <p><pb facs="1416740_0052"/>ischer (Maril)<lb/>
+        <p>
+          <pb facs="1416740_0052"/>ischer (Maril)<lb/>
 23.2.1925.<lb/>
 besetzen.<lb/>
 Verehrtester Herr Doktor.<lb/>

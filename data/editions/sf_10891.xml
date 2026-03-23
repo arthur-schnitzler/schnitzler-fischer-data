@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10891">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -97,6 +98,18 @@ Anlage; Einverständniserklärung für Luxusausgabe Cassian</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8288">Konstantin, Leopoldine</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19941">König, Karl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb22388">Paukner, Grete</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb25499">Sternberg, Joseph von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb92768">Woticky, Edward</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10891.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -108,34 +121,6 @@ Anlage; Einverständniserklärung für Luxusausgabe Cassian</note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb8288" source="https://pmb.acdh.oeaw.ac.at/entity/8288/">
-          <persName>Konstantin, Leopoldine</persName>
-        </person>
-        <person ref="#pmb19941" source="https://pmb.acdh.oeaw.ac.at/entity/19941/">
-          <persName>König, Karl</persName>
-        </person>
-        <person ref="#pmb22388" source="https://pmb.acdh.oeaw.ac.at/entity/22388/">
-          <persName>Paukner, Grete</persName>
-        </person>
-        <person ref="#pmb25499" source="https://pmb.acdh.oeaw.ac.at/entity/25499/">
-          <persName>Sternberg, Joseph von</persName>
-        </person>
-        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
-          <persName>Woticky, Edward</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -147,8 +132,9 @@ Anlage; Einverständniserklärung für Luxusausgabe Cassian</note>
         <p>1 Blatt, 2 Seiten
 Anlage; Einverständniserklärung für Luxusausgabe Cassian</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0471"/>549<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0471"/>549<lb/>
 d'éloire<lb/>
 27.2.1922.<lb/>
 Lieber Freund.<lb/>
@@ -171,7 +157,8 @@ Ich habe heute die zwei einzigen Menschen, die mit<lb/>
 meiner Erlaubnis Werke von mir in Amerika anbieten durften,<lb/>
 anewiesen dies weiterhin zu unterlassen. Es sind dies Frau<lb/>
 Dr. Paukner und der Vertreter des Verlages Frisch &amp; Co,Herr</p>
-        <p><pb facs="1416743_0472"/>Jose Sternberg. De facto steht es also augenblick so, dass<lb/>
+        <p>
+          <pb facs="1416743_0472"/>Jose Sternberg. De facto steht es also augenblick so, dass<lb/>
 sich niemand in Amerika als mein Vertreter gerieren darf<lb/>
 wie schon bisher niemand ohne meine ausdrückliche Genehmi<lb/>
 gung einen Abschluss machen durfte. Nur hinsichtlich der<lb/>

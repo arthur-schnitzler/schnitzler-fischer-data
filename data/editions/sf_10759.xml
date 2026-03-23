@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -67,7 +68,8 @@
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
 Anlage: Abschrift XXXX-XX-XX Vertreter SF (Ungarn) an SF (Berlin) (erschlossen)
-Antwort auf: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1920-06-08.html</note>
       </notesStmt>
@@ -84,6 +86,18 @@ Antwort auf: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb7777">Hellmer, Arthur</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12504">Reinhardt, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb142471">Ziegel, Erich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb914">Madrid</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb652">Prag</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10759.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -100,34 +114,6 @@ Antwort auf: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref></note
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb7777" source="https://pmb.acdh.oeaw.ac.at/entity/7777/">
-          <persName>Hellmer, Arthur</persName>
-        </person>
-        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
-          <persName>Reinhardt, Max</persName>
-        </person>
-        <person ref="#pmb142471" source="https://pmb.acdh.oeaw.ac.at/entity/142471/">
-          <persName>Ziegel, Erich</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb914" source="https://pmb.acdh.oeaw.ac.at/entity/914/">
-          <placeName>Madrid</placeName>
-        </place>
-        <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
-          <placeName>Prag</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -138,10 +124,12 @@ Antwort auf: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref></note
       <div type="letter">
         <p>2 Blatt, 2 Seiten
 Anlage: Abschrift XXXX-XX-XX Vertreter SF (Ungarn) an SF (Berlin) (erschlossen)
-Antwort auf: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="10758">1920-05-28 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0269"/>étoar<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0269"/>étoar<lb/>
 S. Fischer - Verlag.Berlin<lb/>
 Immeuble<lb/>
 määrä<lb/>
@@ -201,7 +189,8 @@ ergebenst mit, dass der mit Prag versehentlich geschlossene Vertrag<lb/>
 Die oben genannten Bedingungen haben Sältigkeit bis zum. Sollten wir an diesem Tag noch keine<lb/>
 entscheidende Antwort erhalten haben, so nehmen wir an, daß wir über das in Frage stehende Werk anderweitig verfügen können<lb/>
 J. 226.</p>
-        <p><pb facs="1416743_0270"/>Kreisämtl E<lb/>
+        <p>
+          <pb facs="1416743_0270"/>Kreisämtl E<lb/>
 autres<lb/>
 G.H.F.P<lb/>
 2.000 rt. pnuliojdennod..t.oii wyfti<lb/>

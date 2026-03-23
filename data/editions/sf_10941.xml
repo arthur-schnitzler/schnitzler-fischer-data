@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -97,7 +98,8 @@
       <notesStmt>
         <note type="description">4 Blatt, 7 Seiten
 Antwort auf: <ref target="10938">1922-10-06 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="10943">1922-10-24 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="10943">1922-10-24 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-10-13.html</note>
       </notesStmt>
@@ -114,6 +116,22 @@ Beantwortet in: <ref target="10943">1922-10-24 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10836">Bartsch, Rudolf Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11679">Hesse, Hermann</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19016">Kalckar, Marc</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12176">Mann, Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb36300">Kopenhagen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb313">Polen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb388">Spanien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Greenwich Village Theatre New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10941.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -126,48 +144,6 @@ Beantwortet in: <ref target="10943">1922-10-24 AS (Wien) an SF (Berlin)</ref></n
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
-          <persName>Bartsch, Rudolf Hans</persName>
-        </person>
-        <person ref="#pmb11679" source="https://pmb.acdh.oeaw.ac.at/entity/11679/">
-          <persName>Hesse, Hermann</persName>
-        </person>
-        <person ref="#pmb19016" source="https://pmb.acdh.oeaw.ac.at/entity/19016/">
-          <persName>Kalckar, Marc</persName>
-        </person>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-        <person ref="#pmb12176" source="https://pmb.acdh.oeaw.ac.at/entity/12176/">
-          <persName>Mann, Thomas</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb36300" source="https://pmb.acdh.oeaw.ac.at/entity/36300/">
-          <placeName>Kopenhagen</placeName>
-        </place>
-        <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
-          <placeName>Polen</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-        <place ref="#pmb388" source="https://pmb.acdh.oeaw.ac.at/entity/388/">
-          <placeName>Spanien</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org>
-          <orgName>Greenwich Village Theatre New York</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -178,10 +154,12 @@ Beantwortet in: <ref target="10943">1922-10-24 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>4 Blatt, 7 Seiten
 Antwort auf: <ref target="10938">1922-10-06 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="10943">1922-10-24 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="10943">1922-10-24 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0543"/>Den 3<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0543"/>Den 3<lb/>
 Fischer/Verlag/ Berlin M 57/Bülowstrasse 9o<lb/>
 diese: Amt Lützow Nr. 1662. 6162 und 9292 / Postscheckkonto: Berlin Nr 1669.<lb/>
 CHEATERABTEILUNG als nam eib<lb/>
@@ -246,7 +224,8 @@ im Auslande unter 20<lb/>
 erh.<lb/>
 unbekannteren<lb/>
 comme le</p>
-        <p><pb facs="1416743_0544"/>a une<lb/>
+        <p>
+          <pb facs="1416743_0544"/>a une<lb/>
 milis.<lb/>
 ne sont pas dans les mêmes<lb/>
 die man als übertrieben ansehen könnte, Andererseits steigern<lb/>
@@ -300,7 +279,8 @@ amerikanische Bankgruppe zu bezahlen, mit der sich der Bund der<lb/>
 Auslandsdeutschen wegen Beitreibung der beschlagnahmten Gelder<lb/>
 sunt<lb/>
 reçe</p>
-        <p><pb facs="1416743_0545"/>cher/ Verlag/ Berlin M 57/ Bülowstraße 9o<lb/>
+        <p>
+          <pb facs="1416743_0545"/>cher/ Verlag/ Berlin M 57/ Bülowstraße 9o<lb/>
 Fernsprechanschlüsse: Amt Lützow Nr. 1662. 6162 und 9292 / Postscheckkonto:<lb/>
 THEATERABTEILUNG<lb/>
 Jdoladsed Tenie noV.<lb/>
@@ -377,7 +357,8 @@ anzuzelnen An-<lb/>
 geschrieben<lb/>
 briefes<lb/>
 fragen Ihres</p>
-        <p><pb facs="1416743_0546"/>milma<lb/>
+        <p>
+          <pb facs="1416743_0546"/>milma<lb/>
 nicht xxx werden mögten. Denn xxx<lb/>
 OMUJISTASSTASHT<lb/>
 1. Von einer beabsichtigten "Reigen" Aufführung in Kopen -<lb/>
@@ -427,7 +408,8 @@ setzung "Toten Gabri<lb/>
 folgt heute.<lb/>
 oveva in Spaa " (nicht<lb/>
 Die Angelegenheit Ungar</p>
-        <p><pb facs="1416743_0547"/>Fischer/Verlag/Berlin M 57/Bülowstraße 9o<lb/>
+        <p>
+          <pb facs="1416743_0547"/>Fischer/Verlag/Berlin M 57/Bülowstraße 9o<lb/>
 S.<lb/>
 schlüsse: Amt Lützow Nr. 1662. 6162 und 9292 / Postscheckkonto: Berlin Nr.. 16692<lb/>
 THEATERABTEILUNG ###<lb/>
@@ -479,7 +461,8 @@ mit 4 %<lb/>
 Wir werden<lb/>
 geschlossen, von der<lb/>
 sischen</p>
-        <p><pb facs="1416743_0548"/>G.C.H<lb/>
+        <p>
+          <pb facs="1416743_0548"/>G.C.H<lb/>
 Bank in Zürich einzahlen lassen und Sie dann bitten, die auf<lb/>
 uns entfallende Summe durch die Eidgenössische Bank in Original-<lb/>
 währung auf unser Konto bei der Kantonalbank in Bern einzahlen<lb/>
@@ -527,7 +510,8 @@ von den Greenwich P.<lb/>
 Herrn<lb/>
 verschiedene Posten,immerhin aber<lb/>
 diese Summen stets al</p>
-        <p><pb facs="1416743_0549"/>Fischer/Verlag/Berlin W 57/Bülowstrasse 9c<lb/>
+        <p>
+          <pb facs="1416743_0549"/>Fischer/Verlag/Berlin W 57/Bülowstrasse 9c<lb/>
 2.<lb/>
 ###e: Amt Lützow Nr. 1662. 6162 und 9292 / Postscheckkonto: Berlin Nr 1669<lb/>
 THEATERABTEILUNG<lb/>

@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -87,6 +88,13 @@
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20474">Linden, Gustaf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10730.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -98,19 +106,6 @@
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb20474" source="https://pmb.acdh.oeaw.ac.at/entity/20474/">
-          <persName>Linden, Gustaf</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -121,8 +116,9 @@
       <div type="letter">
         <p>1 Blatt, 2 Seiten</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0121"/>12.1912<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0121"/>12.1912<lb/>
 Lieber Freund.<lb/>
 Gern erteile ich Ihnen die Autorina<lb/>
 tion zum Abschluss eines Vertrages über die<lb/>
@@ -142,7 +138,8 @@ denn, dass ich gegenteilige Weisungen erteilen<lb/>
 sollte.<lb/>
 Aus verschiedenen Zeichen glaube ich<lb/>
 xxx entnehmen, dass das Interesse An meinem Roman</p>
-        <p><pb facs="1416739_0122"/>der Weg ins Freie" im Zunehmen ist. Wie däch -<lb/>
+        <p>
+          <pb facs="1416739_0122"/>der Weg ins Freie" im Zunehmen ist. Wie däch -<lb/>
 ten sie darüber das Buch danächst in Ihrer<lb/>
 Folge von grossen pomanen aufzunehmen.<lb/>
 Mit herzlichen Grüssen<lb/>

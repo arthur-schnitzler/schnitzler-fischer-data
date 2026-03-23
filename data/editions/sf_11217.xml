@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -62,7 +63,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
 Antwort auf: <ref target="11216">1926-01-04 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11218">1926-01-09 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="11218">1926-01-09 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift, eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1926-01-06.html</note>
       </notesStmt>
@@ -79,6 +81,16 @@ Beantwortet in: <ref target="11218">1926-01-09 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb9146">Ompteda, Georg von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23046">Ranschburg, Viktor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Rökk-Richter, Stefano (Theateragent und Schriftsteller, Italien)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11217.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -91,28 +103,6 @@ Beantwortet in: <ref target="11218">1926-01-09 AS (Wien) an SF (Berlin)</ref></n
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-        <person ref="#pmb9146" source="https://pmb.acdh.oeaw.ac.at/entity/9146/">
-          <persName>Ompteda, Georg von</persName>
-        </person>
-        <person ref="#pmb23046" source="https://pmb.acdh.oeaw.ac.at/entity/23046/">
-          <persName>Ranschburg, Viktor</persName>
-        </person>
-        <person>
-          <persName>Rökk-Richter, Stefano (Theateragent und Schriftsteller, Italien)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -123,10 +113,12 @@ Beantwortet in: <ref target="11218">1926-01-09 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>1 Blatt, 2 Seiten
 Antwort auf: <ref target="11216">1926-01-04 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11218">1926-01-09 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="11218">1926-01-09 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0853"/>Derlag Berlin<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0853"/>Derlag Berlin<lb/>
 Fischer —<lb/>
 Amt Lützow 1662 u. 6162 Theaterabteilung postscheckkonto Nr. 16692<lb/>
 Bankkonto: Deutsche Bank Depositenkasse P in Berlin<lb/>
@@ -156,7 +148,8 @@ nun.<lb/>
 talien angeknüpft haben.<lb/>
 mit um so geringerem<lb/>
 mal li</p>
-        <p><pb facs="1416743_0854"/>G.C.F.P.S.V.C,C.V,S.<lb/>
+        <p>
+          <pb facs="1416743_0854"/>G.C.F.P.S.V.C,C.V,S.<lb/>
 G. P.<lb/>
 2t ̃ J r. p. r.<lb/>
 bindung zu kommen. Dass schliesst aber nicht aus, dass Prof. Richter<lb/>

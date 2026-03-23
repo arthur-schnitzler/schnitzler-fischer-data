@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -73,7 +74,8 @@
         <note type="description">1 Blatt, 2 Seiten beschrieben
 
 Antwort auf: <ref target="10463">1912-10-19 AS an SF</ref>
-Beantwortet in: <ref target="10465">1912-10-25 AS an SF</ref></note>
+Beantwortet in: <ref target="10465">1912-10-25 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1912-10-22.html</note>
       </notesStmt>
@@ -89,6 +91,17 @@ Beantwortet in: <ref target="10465">1912-10-25 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb14182">Beöthy, Laszlo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4858">Rössler, Carl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb151">Deutschland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10464.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -101,31 +114,6 @@ Beantwortet in: <ref target="10465">1912-10-25 AS an SF</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb14182" source="https://pmb.acdh.oeaw.ac.at/entity/14182/">
-          <persName>Beöthy, Laszlo</persName>
-        </person>
-        <person ref="#pmb4858" source="https://pmb.acdh.oeaw.ac.at/entity/4858/">
-          <persName>Rössler, Carl</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb151" source="https://pmb.acdh.oeaw.ac.at/entity/151/">
-          <placeName>Deutschland</placeName>
-        </place>
-        <place ref="#pmb35512" source="https://pmb.acdh.oeaw.ac.at/entity/35512/">
-          <placeName>Ungarn</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -137,10 +125,12 @@ Beantwortet in: <ref target="10465">1912-10-25 AS an SF</ref></note>
         <p>1 Blatt, 2 Seiten beschrieben
 
 Antwort auf: <ref target="10463">1912-10-19 AS an SF</ref>
-Beantwortet in: <ref target="10465">1912-10-25 AS an SF</ref></p>
+Beantwortet in: <ref target="10465">1912-10-25 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0585"/>297<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0585"/>297<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
 22/X. 1912<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -166,7 +156,8 @@ mit ihm erledigen werden. Barnowsky will Ihr Stück Ende November<lb/>
 herausbringen.<lb/>
 Ein eventuelles Zensurverbot in Wien bezöge sich doch wohl<lb/>
 nur auf die Aufführung, da für Bücher eine Zensur auch bei Ihnen ja</p>
-        <p><pb facs="1416742_0586"/>De'<lb/>
+        <p>
+          <pb facs="1416742_0586"/>De'<lb/>
 to<lb/>
 nicht mehrebesteht.<lb/>
 Bezüglich der Berner Uebereinkunft sind Sie im Irrtum. Der<lb/>

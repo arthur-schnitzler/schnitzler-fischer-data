@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10888">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -74,33 +75,21 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1243978902">Bauer, Olla</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116484004">Harprecht, Bruno</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116446552">Pilgram, Wilhelm (Ps. Willy Favart)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45530">Deutsches Schauspielhaus in Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10888.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Aufführung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="1243978902" source="https://d-nb.info/gnd/1243978902">
-          <persName>Bauer, Olla</persName>
-        </person>
-        <person ref="116484004" source="https://d-nb.info/gnd/116484004">
-          <persName>Harprecht, Bruno</persName>
-        </person>
-        <person ref="116446552" source="https://d-nb.info/gnd/116446552">
-          <persName>Pilgram, Wilhelm (Ps. Willy Favart)</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb45530" source="https://pmb.acdh.oeaw.ac.at/entity/45530/">
-          <orgName>Deutsches Schauspielhaus in Hamburg</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -111,8 +100,9 @@
       <div type="letter">
         <p>1 Blatt, 1 Seite</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0469"/>547<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0469"/>547<lb/>
 SCHER/VERLAG' THEATERABTEILUNG’ BE<lb/>
 TR90<lb/>
 BULOMS<lb/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10034">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -91,6 +92,12 @@ Beantwortet in: 1895-08-10post/1895-09-04ante AS an SF (Nachfrage Verlagsüberna
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2595">Pierson, Edgar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4785">Zasche, Theodor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10034.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -98,14 +105,6 @@ Beantwortet in: 1895-08-10post/1895-09-04ante AS an SF (Nachfrage Verlagsüberna
           <term>Buchillustration</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb2595" source="https://pmb.acdh.oeaw.ac.at/entity/2595/">
-          <persName>Pierson, Edgar</persName>
-        </person>
-        <person ref="#pmb4785" source="https://pmb.acdh.oeaw.ac.at/entity/4785/">
-          <persName>Zasche, Theodor</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -119,8 +118,9 @@ Beantwortet in: 1895-08-10post/1895-09-04ante AS an SF (Nachfrage Verlagsüberna
 Antwort auf: 1895-08-08 AS an SF (Konditionen Verlagsübernahme 'Anatol'; nicht überliefert, erwähnt in 1895-09-04)
 Beantwortet in: 1895-08-10post/1895-09-04ante AS an SF (Nachfrage Verlagsübernahme 'Anatol'; nicht überliefert)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0040"/>10/8. 1891<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0040"/>10/8. 1891<lb/>
 BERLIN, den...<lb/>
 S. FISCHER, VerlaG<lb/>
 Herrn Dr Arthur Schnitzler<lb/>
@@ -140,7 +140,8 @@ sie für Ihre Rechnung vertreiben, gegen<lb/>
 1/3 vom Erlaß. Es thut mir sehr leid<lb/>
 halbst sie mich in diesen verdaunt klein<lb/>
 lichen Buchhändler-Geschäften vielleicht.</p>
-        <p><pb facs="1416742_0041"/>für kleinlich halten, was ich wirklich<lb/>
+        <p>
+          <pb facs="1416742_0041"/>für kleinlich halten, was ich wirklich<lb/>
 richt bin.<lb/>
 Visse Geschäfte sind so klein und<lb/>
 dabei mit soviel Arbeit verbunden, dan<lb/>

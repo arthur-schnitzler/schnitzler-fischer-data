@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,7 +71,8 @@
         <note type="description">1 Blatt, 2 Seiten beschrieben
 
 Antwort auf: <ref target="10424">1912-03-15 AS an SF</ref>
-Beantwortet in: <ref target="10427">1912-03-20 AS an SF</ref></note>
+Beantwortet in: <ref target="10427">1912-03-20 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1912-03-16.html</note>
       </notesStmt>
@@ -86,6 +88,11 @@ Beantwortet in: <ref target="10427">1912-03-20 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13055">Wassermann, Jakob</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10426.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -94,11 +101,6 @@ Beantwortet in: <ref target="10427">1912-03-20 AS an SF</ref></note>
           <term>Typographie</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb13055" source="https://pmb.acdh.oeaw.ac.at/entity/13055/">
-          <persName>Wassermann, Jakob</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -110,10 +112,12 @@ Beantwortet in: <ref target="10427">1912-03-20 AS an SF</ref></note>
         <p>1 Blatt, 2 Seiten beschrieben
 
 Antwort auf: <ref target="10424">1912-03-15 AS an SF</ref>
-Beantwortet in: <ref target="10427">1912-03-20 AS an SF</ref></p>
+Beantwortet in: <ref target="10427">1912-03-20 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0536"/>273.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0536"/>273.<lb/>
 S. Fischer, Verlag, Berlin M., Bülowstrasse 90<lb/>
 16/3. 1912<lb/>
 P.P.<lb/>
@@ -141,7 +145,8 @@ auf legen, würde ich bitten, davon abzusehen. Bei den Dramen können<lb/>
 wir die Titelblätter nicht umgehen; da muss sich auch äusserlich<lb/>
 jedes Werk scharf von dem andern trennen. Wir setzen dann auf die<lb/>
 Rückseite des Titelblattes das Personenverzeichnis.</p>
-        <p><pb facs="1416742_0537"/>Die chronologische Einteilung der Dramenbände scheint mir sehr<lb/>
+        <p>
+          <pb facs="1416742_0537"/>Die chronologische Einteilung der Dramenbände scheint mir sehr<lb/>
 zweckmässig und übersichtlich. Die Jahreszahlen können bei jedem<lb/>
 Stück natürlich hinzugefügt werden.<lb/>
 Mit herzlichen Grüssen<lb/>

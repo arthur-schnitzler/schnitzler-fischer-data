@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -58,7 +59,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten,
-Antwort auf: <ref target="11054">1924-01-30 SF (Berlin) an AS (Wien)</ref>, <ref target="11056">1924-01-31 SF (Berlin) an AS (Wien)</ref></note>
+Antwort auf: <ref target="11054">1924-01-30 SF (Berlin) an AS (Wien)</ref>, <ref target="11056">1924-01-31 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-02-05.html</note>
       </notesStmt>
@@ -74,6 +76,11 @@ Antwort auf: <ref target="11054">1924-01-30 SF (Berlin) an AS (Wien)</ref>, <ref
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb9434">Reclam, Ernst</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11057.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -82,11 +89,6 @@ Antwort auf: <ref target="11054">1924-01-30 SF (Berlin) an AS (Wien)</ref>, <ref
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb9434" source="https://pmb.acdh.oeaw.ac.at/entity/9434/">
-          <persName>Reclam, Ernst</persName>
-        </person>
-      </listPerson>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -96,10 +98,12 @@ Antwort auf: <ref target="11054">1924-01-30 SF (Berlin) an AS (Wien)</ref>, <ref
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten,
-Antwort auf: <ref target="11054">1924-01-30 SF (Berlin) an AS (Wien)</ref>, <ref target="11056">1924-01-31 SF (Berlin) an AS (Wien)</ref></p>
+Antwort auf: <ref target="11054">1924-01-30 SF (Berlin) an AS (Wien)</ref>, <ref target="11056">1924-01-31 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416740_0011"/>Wegen peklam haben Sie mir noch immer<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416740_0011"/>Wegen peklam haben Sie mir noch immer<lb/>
 nicht geantwortet. Eben gestern erhielt ich wie-<lb/>
 der ein Schriben von ihm, an dessen ende es<lb/>
 heisst: „An den Schluss des Bändchens kommt ja<lb/>
@@ -161,7 +165,8 @@ ben.<lb/>
 Ihre Zustimmung betreffs Reclam neh-<lb/>
 me ich dankend zur Kenntnis.<lb/>
 Ihr sehr ergebener</p>
-        <p><pb facs="1416740_0012"/>üeber allerlei Details behalte ich<lb/>
+        <p>
+          <pb facs="1416740_0012"/>üeber allerlei Details behalte ich<lb/>
 mir Aeusserung auch bis nach Ihrer Rückkehr<lb/>
 vor.<lb/>
 Pür heute will ich Ihnen nur eine<lb/>

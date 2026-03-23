@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10595">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -80,6 +81,13 @@ Beantwortet in: 1916-25-02 AS (WIen) an SF (Berlin)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb506">Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45530">Deutsches Schauspielhaus in Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="7590354-4">Lessing-Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10595.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -87,19 +95,6 @@ Beantwortet in: 1916-25-02 AS (WIen) an SF (Berlin)</note>
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb506" source="https://pmb.acdh.oeaw.ac.at/entity/506/">
-          <placeName>Hamburg</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb45530" source="https://pmb.acdh.oeaw.ac.at/entity/45530/">
-          <orgName>Deutsches Schauspielhaus in Hamburg</orgName>
-        </org>
-        <org ref="7590354-4" source="https://d-nb.info/gnd/7590354-4">
-          <orgName>Lessing-Theater Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -111,8 +106,9 @@ Beantwortet in: 1916-25-02 AS (WIen) an SF (Berlin)</note>
         <p>2 Blatt, 2 Seiten
 Beantwortet in: 1916-25-02 AS (WIen) an SF (Berlin)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0044"/>V.,, 1, '11.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0044"/>V.,, 1, '11.<lb/>
 374<lb/>
 S. Fischer Verlag Berlin<lb/>
 Amt Lützow 1662 u. 6162 Theaterabteilung postscheckkonto Nr. 16692<lb/>
@@ -134,7 +130,8 @@ Theater noch nicht eine so günstige Entwick-<lb/>
 lung erwarten liessen.<lb/>
 Den Vertrag mit dem lessingtheater über<lb/>
 „Zwischenspiel" haben wir am 2.Oktober 1915</p>
-        <p><pb facs="1416743_0045"/>abgeschlossen. Nach § 3 letzter Absatz<lb/>
+        <p>
+          <pb facs="1416743_0045"/>abgeschlossen. Nach § 3 letzter Absatz<lb/>
 des mit Ihnen abgeschlossenen Vertrages<lb/>
 hierüber sind für Abschlüsse, welche mit<lb/>
 Ihrem Einverständnis in Berlin, Wien und<lb/>

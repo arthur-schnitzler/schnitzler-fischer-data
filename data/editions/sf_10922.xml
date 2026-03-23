@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -84,7 +85,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Beantwortet in: <ref target="10923">1922-07-20 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="10923">1922-07-20 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-07-17.html</note>
       </notesStmt>
@@ -101,6 +103,18 @@ Beantwortet in: <ref target="10923">1922-07-20 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="1140452606">Bernstein, Hermann</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3283">Björkman, Edwin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb16432">Fraenkel, Axel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11646">Heller, Hugo</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="119523078">Kennerley, Mitchell</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb142471">Ziegel, Erich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10922.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -112,34 +126,6 @@ Beantwortet in: <ref target="10923">1922-07-20 SF (Berlin) an AS (Wien)</ref></n
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="1140452606" source="https://d-nb.info/gnd/1140452606">
-          <persName>Bernstein, Hermann</persName>
-        </person>
-        <person ref="#pmb3283" source="https://pmb.acdh.oeaw.ac.at/entity/3283/">
-          <persName>Björkman, Edwin</persName>
-        </person>
-        <person ref="#pmb16432" source="https://pmb.acdh.oeaw.ac.at/entity/16432/">
-          <persName>Fraenkel, Axel</persName>
-        </person>
-        <person ref="#pmb11646" source="https://pmb.acdh.oeaw.ac.at/entity/11646/">
-          <persName>Heller, Hugo</persName>
-        </person>
-        <person ref="119523078" source="https://d-nb.info/gnd/119523078">
-          <persName>Kennerley, Mitchell</persName>
-        </person>
-        <person ref="#pmb142471" source="https://pmb.acdh.oeaw.ac.at/entity/142471/">
-          <persName>Ziegel, Erich</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-          <placeName ref="#pmb168">Berlin</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -149,10 +135,12 @@ Beantwortet in: <ref target="10923">1922-07-20 SF (Berlin) an AS (Wien)</ref></n
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Beantwortet in: <ref target="10923">1922-07-20 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="10923">1922-07-20 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0243"/>müssten.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0243"/>müssten.<lb/>
 Wegen der Verrechnung der Einzelausgaben nach<lb/>
 Absatz noch ein Wort. Soli das ungefähr so viel<lb/>
 heissen, als dass immer eine Auflage nach voll-<lb/>
@@ -236,7 +224,8 @@ re zu setzen, dass wir aber gar freiwillig uns<lb/>
 unserer geringen Vorteile und Rechte begeben<lb/>
 sollten, das niesse doch die Nachgiebigkeit<lb/>
 etwas zu weit treiben. Es ist also, um wieder auf</p>
-        <p><pb facs="1416739_0244"/>den speziellen Fall zurückzukommen,ganz evident,<lb/>
+        <p>
+          <pb facs="1416739_0244"/>den speziellen Fall zurückzukommen,ganz evident,<lb/>
 dass die bei Mitchall Kennerley erschienenen<lb/>
 stücke auch für Amerika ganz unbestritten mein<lb/>
 und nicht des Herrn Mitonell Kennerley Eigentum<lb/>

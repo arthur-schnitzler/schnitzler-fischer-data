@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -54,7 +55,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
 Antwort auf: <ref target="11031">1923-10-29 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11037">1923-11-08 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="11037">1923-11-08 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Handschrift (eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1923-11-01.html</note>
       </notesStmt>
@@ -71,22 +73,18 @@ Beantwortet in: <ref target="11037">1923-11-08 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4374">Maril, Konrad</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11033.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Ermächtigung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb4374" source="https://pmb.acdh.oeaw.ac.at/entity/4374/">
-          <persName>Maril, Konrad</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -97,10 +95,12 @@ Beantwortet in: <ref target="11037">1923-11-08 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>1 Blatt, 2 Seiten
 Antwort auf: <ref target="11031">1923-10-29 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="11037">1923-11-08 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="11037">1923-11-08 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0667"/>Berlin W 30, 1. Nov. 1923<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0667"/>Berlin W 30, 1. Nov. 1923<lb/>
 Luitspoldstr. 41 II<lb/>
 Mein lieber und verehrter Herr Doktor,<lb/>
 vielen herzlichen Dank für Ihre Freundt¬<lb/>
@@ -123,7 +123,8 @@ Kosnvam<lb/>
 V.<lb/>
 xyz werden/ ou Sie sich nun zur à Conto-<lb/>
 Zahlung in Buchmark verstehen sollen, die an Exemplaren gemessen</p>
-        <p><pb facs="1416743_0668"/>Abreise Ihnen und Heim u. Lilli nicht<lb/>
+        <p>
+          <pb facs="1416743_0668"/>Abreise Ihnen und Heim u. Lilli nicht<lb/>
 noch einmal Zeiten Tag haben sagen zu können.<lb/>
 hoffen beide, recht bald nach Wien<lb/>
 Zu Pecke<lb/>

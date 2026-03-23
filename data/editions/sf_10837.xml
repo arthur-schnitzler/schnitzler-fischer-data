@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10837">
   <teiHeader>
     <fileDesc>
@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -74,31 +75,21 @@ Anlage: 1921-07-27 SF (Berlin) an Kantorowitz, M. (Zürich)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb15764">Eirich, Otto</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3105">Karczag, Wilhelm</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb484">Zürich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10837.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
           <term>Missverständnis</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb15764" source="https://pmb.acdh.oeaw.ac.at/entity/15764/">
-          <persName>Eirich, Otto</persName>
-        </person>
-        <person ref="#pmb3105" source="https://pmb.acdh.oeaw.ac.at/entity/3105/">
-          <persName>Karczag, Wilhelm</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb484" source="https://pmb.acdh.oeaw.ac.at/entity/484/">
-          <placeName>Zürich</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -110,8 +101,9 @@ Anlage: 1921-07-27 SF (Berlin) an Kantorowitz, M. (Zürich)</note>
         <p>1 Blatt, 2 Seiten
 Anlage: 1921-07-27 SF (Berlin) an Kantorowitz, M. (Zürich)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0392"/>50<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0392"/>50<lb/>
 Fischer/Verlag/Berlin M 57/Bülowstraße<lb/>
 to: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto: Berlin Nr. 1669<lb/>
 ernsprechanschlüsse: Amt Lützow Nr. 1662, 6162 und 9292<lb/>
@@ -144,7 +136,8 @@ Angelegenheiten den Vertrieb Ihrer Verke in deutscher Sprache für<lb/>
 das In- und Ausland in Händen und es gibt einen unmöglichen Zustand<lb/>
 wenn das Ausland unserer Einflussnahme entzogen sein soll. In unsere<lb/>
 erträgen ist lediglich offen gelassen, dass die bedingungen für die</p>
-        <p><pb facs="1416743_0393"/>S. FISCHER / VerLAG<lb/>
+        <p>
+          <pb facs="1416743_0393"/>S. FISCHER / VerLAG<lb/>
 2. Blatt<lb/>
 Dr. Schnitzler, 27/7. 21<lb/>
 Bühnen im Auslande von Fall zu Fall so vereinbaren wären und da<lb/>

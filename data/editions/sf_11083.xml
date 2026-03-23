@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -69,7 +70,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
-Antwort auf: <ref target="11082">1924-04-28 AS (Wien) an SF (Berlin)</ref></note>
+Antwort auf: <ref target="11082">1924-04-28 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift, eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1924-05-01.html</note>
       </notesStmt>
@@ -85,6 +87,14 @@ Antwort auf: <ref target="11082">1924-04-28 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb864">Leipzig</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb35597">Deutsches Theater Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="">Rotter-Bühnen Berlin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11083.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -98,22 +108,6 @@ Antwort auf: <ref target="11082">1924-04-28 AS (Wien) an SF (Berlin)</ref></note
           <term>Überweisung</term>
         </keywords>
       </textClass>
-      <listPlace>
-        <place ref="#pmb864" source="https://pmb.acdh.oeaw.ac.at/entity/864/">
-          <placeName>Leipzig</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb35597" source="https://pmb.acdh.oeaw.ac.at/entity/35597/">
-          <orgName>Deutsches Theater Berlin</orgName>
-        </org>
-        <org>
-          <orgName>Rotter-Bühnen Berlin</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -123,10 +117,12 @@ Antwort auf: <ref target="11082">1924-04-28 AS (Wien) an SF (Berlin)</ref></note
     <body>
       <div type="letter">
         <p>1 Blatt, 2 Seiten
-Antwort auf: <ref target="11082">1924-04-28 AS (Wien) an SF (Berlin)</ref></p>
+Antwort auf: <ref target="11082">1924-04-28 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0739"/>Fischer / Verlag / A.=G. Berlin W5.<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0739"/>Fischer / Verlag / A.=G. Berlin W5.<lb/>
 Bankkonto: Deutsche Bank, Depositenkasse P in Berlin / Postscheckkonto; Berlin Nr. 1669a<lb/>
 Fernsprochenschlüsse: Amt Lützow Nr. 6162 bis 6164<lb/>
 Bülowstraße 90<lb/>
@@ -171,7 +167,8 @@ Mark für ausländische Konten ohne Bewilligung des Devisen-Kommissars abge-<lb/
 lehnt und wenn das Deutsche Theater und die Rotterbühnen an die Bank für<lb/>
 auswärtigen Handel zahlungen in deutscher Währung gemacht haben, so kann<lb/>
 es wahrscheinlich nur so geschehen sein, dass sie in Raten von 450 Mark</p>
-        <p><pb facs="1416743_0740"/>G.H.F.P<lb/>
+        <p>
+          <pb facs="1416743_0740"/>G.H.F.P<lb/>
 Jahann maa<lb/>
 pro Monat höhere beträge aufgesammelt hat. Wünschen Sie diesen Modus,<lb/>
 so können wir das machen. Diese ganze Massregel ist eine vorübergehende,<lb/>

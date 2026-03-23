@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -87,6 +88,20 @@ Beantwortet in: 1919-04-20 SF (Berlin) an AS (Wien)</note>
           <persName type="coworker">NN, </persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10836">Bartsch, Rudolf Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12504">Reinhardt, Max</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23303">Reucker, Alfred</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43570">Dänemark</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb64465">Norwegen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10745.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -99,40 +114,6 @@ Beantwortet in: 1919-04-20 SF (Berlin) an AS (Wien)</note>
           <term>Verhandlung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10836" source="https://pmb.acdh.oeaw.ac.at/entity/10836/">
-          <persName>Bartsch, Rudolf Hans</persName>
-        </person>
-        <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
-          <persName>Reinhardt, Max</persName>
-        </person>
-        <person ref="#pmb23303" source="https://pmb.acdh.oeaw.ac.at/entity/23303/">
-          <persName>Reucker, Alfred</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb43570" source="https://pmb.acdh.oeaw.ac.at/entity/43570/">
-          <placeName>Dänemark</placeName>
-        </place>
-        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-          <placeName>Italien</placeName>
-        </place>
-        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
-          <placeName>New York</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb64465" source="https://pmb.acdh.oeaw.ac.at/entity/64465/">
-          <placeName>Norwegen</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -145,8 +126,9 @@ Beantwortet in: 1919-04-20 SF (Berlin) an AS (Wien)</note>
 Antwort auf: 1929-02-12 SF (Berlin) an AS (Wien)
 Beantwortet in: 1919-04-20 SF (Berlin) an AS (Wien)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0140"/>2511<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0140"/>2511<lb/>
 29.3.1920.<lb/>
 An den<lb/>
 Theatervertrieb<lb/>
@@ -166,7 +148,8 @@ Im übrigen erinnere ich aber neuerings, dass<lb/>
 das Verfügungsrecht fürs Ausland mir allein<lb/>
 zusteht resp. dass Sie sich im Falle von an<lb/>
 Sie gelangenden Anträgen meines Einverständ</p>
-        <p><pb facs="1416739_0141"/>nisses freundlichst zu versichern haben, das<lb/>
+        <p>
+          <pb facs="1416739_0141"/>nisses freundlichst zu versichern haben, das<lb/>
 ich Ihnen bekanntlich noch selten versagte.<lb/>
 Ebenso selbstverständlich bleibt es mir im<lb/>
 Sinne unseres Vertrages unbenommen pasönlich<lb/>
@@ -211,7 +194,8 @@ sen auch die andern wühnen die Aufführung hi-<lb/>
 nausschieben. Wer weiss, für wie lange nun der<lb/>
 richtige Zeitpunkt verpasst ist.<lb/>
 Hochachtungsvoll</p>
-        <p><pb facs="1416739_0142"/>1. Mai 1920.<lb/>
+        <p>
+          <pb facs="1416739_0142"/>1. Mai 1920.<lb/>
 Fischer<lb/>
 Ihnen zu übermitteln.<lb/>
 Lieber Freund.<lb/>

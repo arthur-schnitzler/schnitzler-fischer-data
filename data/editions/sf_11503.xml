@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -66,7 +67,8 @@
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
-Beantwortet in: <ref target="11510">1929-10-10 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11510">1929-10-10 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1929-09-28.html</note>
       </notesStmt>
@@ -83,6 +85,12 @@ Beantwortet in: <ref target="11510">1929-10-10 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Maril, Konrad</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb90460">Caux</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11503.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -99,16 +107,6 @@ Beantwortet in: <ref target="11510">1929-10-10 SF (Berlin) an AS (Wien)</ref></n
           <term>Vertrag</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-          <persName>Harz, Benjamin</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb90460" source="https://pmb.acdh.oeaw.ac.at/entity/90460/">
-          <placeName>Caux</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -118,10 +116,12 @@ Beantwortet in: <ref target="11510">1929-10-10 SF (Berlin) an AS (Wien)</ref></n
     <body>
       <div type="letter">
         <p>1 Blatt, 1 Seite
-Beantwortet in: <ref target="11510">1929-10-10 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11510">1929-10-10 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0093"/>Fischer<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0093"/>Fischer<lb/>
 28.9.1929.<lb/>
 Lieber Doktor Maril.<lb/>
 Tagen möchte ich Ihnen<lb/>

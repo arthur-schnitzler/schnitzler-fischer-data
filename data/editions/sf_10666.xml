@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -79,6 +80,14 @@ Beantwortet in: <ref target="10668">1918-08-21 AS (XX) an SF</ref> (XX)</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11740">Hofmannsthal, Hugo von</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8885">Meid, Hans</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10666.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -94,22 +103,6 @@ Beantwortet in: <ref target="10668">1918-08-21 AS (XX) an SF</ref> (XX)</note>
           <term>Verkaufspreis/Ladenpreis</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-        <person ref="#pmb11740" source="https://pmb.acdh.oeaw.ac.at/entity/11740/">
-          <persName>Hofmannsthal, Hugo von</persName>
-        </person>
-        <person ref="#pmb8885" source="https://pmb.acdh.oeaw.ac.at/entity/8885/">
-          <persName>Meid, Hans</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -123,8 +116,9 @@ Beantwortet in: <ref target="10668">1918-08-21 AS (XX) an SF</ref> (XX)</note>
 Antwort auf Postkarte: 1918-XX-XX AS (XX) an SF (XX) (erschlossen)
 Beantwortet in: <ref target="10668">1918-08-21 AS (XX) an SF</ref> (XX)</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0133"/>410<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0133"/>410<lb/>
 S. FISCHER/VERLAG<lb/>
 Bankkonto; Deutsche, Bank, Depositenkasse P Berlin, Postscheckkonto: Berlin 16—692<lb/>
 BERLIN W 57, BÜLowSTRASSE 90<lb/>
@@ -154,7 +148,8 @@ habe: nämlich wir drucken beliebig grosse Auflagen und honorieren<lb/>
 zehntausendweise voraus. Bei „Casanovas Heimfahrt" würde sich die<lb/>
 Sache so stellen, dass ich gleich 30 000 Exemplare drucke, 20 000<lb/>
 voraushonorieren, so dass immer eine neue Reserve von 10 000</p>
-        <p><pb facs="1416743_0134"/>S. FISCHER / VerLAG<lb/>
+        <p>
+          <pb facs="1416743_0134"/>S. FISCHER / VerLAG<lb/>
 2. Blatt<lb/>
 "<lb/>
 Exemplaren offenhalte und sie honoriere, wenn sie in Angriff ge-<lb/>
@@ -182,7 +177,8 @@ kommen soll. Es kommt weiter hinzu, dass ich kein Büttenpapier<lb/>
 zur Verfügung habe und dass es fraglich ist, ob ich ein entsprechen-<lb/>
 des Quantum und ein passendes Format auftreiben kann. In Wien gibt<lb/>
 es derlei Überhaupt nicht, wie ich mich überzeugt habe. Diese</p>
-        <p><pb facs="1416743_0135"/>S. FISCHER / VerLAG<lb/>
+        <p>
+          <pb facs="1416743_0135"/>S. FISCHER / VerLAG<lb/>
 2. Blatt<lb/>
 1<lb/>
 Ausgabe muss also bei uns hergestellt werden. Meid hat die Novelle<lb/>

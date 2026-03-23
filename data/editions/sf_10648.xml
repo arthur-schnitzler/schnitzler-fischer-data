@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -73,7 +74,8 @@
       <notesStmt>
         <note type="description">3 Blatt, 3 Seiten
 Antwort auf: <ref target="10646">1918-03-04 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="10649">1918-03-11 AS (Wien) an SF (Berlin)</ref></note>
+Beantwortet in: <ref target="10649">1918-03-11 AS (Wien) an SF (Berlin)</ref>
+        </note>
         <note type="published_in">Rodewald, 117-119 [Nr. 155]</note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Unterschrift)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1918-03-07.html</note>
@@ -90,6 +92,17 @@ Beantwortet in: <ref target="10649">1918-03-11 AS (Wien) an SF (Berlin)</ref></n
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10863">Beer-Hofmann, Richard</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11617">Hauptmann, Gerhart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13055">Wassermann, Jakob</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5156">Zifferer, Paul</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb210">Colmar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10648.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -110,31 +123,6 @@ Beantwortet in: <ref target="10649">1918-03-11 AS (Wien) an SF (Berlin)</ref></n
           <term>österreichisch</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10863" source="https://pmb.acdh.oeaw.ac.at/entity/10863/">
-          <persName>Beer-Hofmann, Richard</persName>
-        </person>
-        <person ref="#pmb11617" source="https://pmb.acdh.oeaw.ac.at/entity/11617/">
-          <persName>Hauptmann, Gerhart</persName>
-        </person>
-        <person ref="#pmb13055" source="https://pmb.acdh.oeaw.ac.at/entity/13055/">
-          <persName>Wassermann, Jakob</persName>
-        </person>
-        <person ref="#pmb5156" source="https://pmb.acdh.oeaw.ac.at/entity/5156/">
-          <persName>Zifferer, Paul</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb210" source="https://pmb.acdh.oeaw.ac.at/entity/210/">
-          <placeName>Colmar</placeName>
-        </place>
-        <place ref="#pmb50" source="https://pmb.acdh.oeaw.ac.at/entity/50/">
-          <placeName ref="#pmb50">Wien</placeName>
-        </place>
-        <place ref="#pmb41240" source="https://pmb.acdh.oeaw.ac.at/entity/41240/">
-          <placeName>Österreich</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -145,10 +133,12 @@ Beantwortet in: <ref target="10649">1918-03-11 AS (Wien) an SF (Berlin)</ref></n
       <div type="letter">
         <p>3 Blatt, 3 Seiten
 Antwort auf: <ref target="10646">1918-03-04 AS (Wien) an SF (Berlin)</ref>
-Beantwortet in: <ref target="10649">1918-03-11 AS (Wien) an SF (Berlin)</ref></p>
+Beantwortet in: <ref target="10649">1918-03-11 AS (Wien) an SF (Berlin)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416743_0107"/>402<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416743_0107"/>402<lb/>
 S. FISCHER / VerLAG<lb/>
 ankkonto: Deutsche Bank, Depositenkasse P Berlin / Postscheckkonto: Berlin 1662<lb/>
 BERLIN W 57 / BÜLowSTRASSE 90<lb/>
@@ -185,7 +175,8 @@ von dem Umfang Ihrer Gesamtausgabe nach Wien zu transportieren.<lb/>
 Die Bleiausfuhr würde nicht erlaubt werden, und wenn ich die Matrizen<lb/>
 in Wien neu giessen lassen würde, so würden daraus überflüssiger Weise<lb/>
 sehr grosse Kosten entstehen. Bekomme ich also Papier in Wien, so</p>
-        <p><pb facs="1416743_0108"/>S. FISCHER / VerLAG<lb/>
+        <p>
+          <pb facs="1416743_0108"/>S. FISCHER / VerLAG<lb/>
 werde ich in solchem Fall aus technischen Gründen Bücher österreichi-<lb/>
 scher Autoren in Deutschland, und als Kompensation wieder Bücher<lb/>
 deutscher Autoren in Oesterreich drucken müssen.<lb/>
@@ -219,7 +210,8 @@ comme au comité<lb/>
 ausgaben einteilen, das ist ja der Grund, weshalb ich Gesamtaussaben<lb/>
 nur drucken kann, wenn mir Extrazuweisungen dafür gemacht werden.<lb/>
 Sie haben wegen der "Grossen Szene" depeschiert, dass es dem</p>
-        <p><pb facs="1416743_0109"/>S. FISCHER / VerLAG<lb/>
+        <p>
+          <pb facs="1416743_0109"/>S. FISCHER / VerLAG<lb/>
 Blatz<lb/>
 Fronttheater in Colmar bewilligt werden soll. Wir haben auf eine Anfrage<lb/>
 des Fronttheaters gewartet, da sie nicht eingetroffen ist, so haben wir<lb/>

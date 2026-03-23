@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -94,6 +95,26 @@ Anlage: Ermächtigung für "Reigen" für die skandinavischen Länder</note>
           <persName type="coworker">Greiner, Leo</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10833">Barnowsky, Victor</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20474">Linden, Gustaf</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12176">Mann, Thomas</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23320">Reyding, August</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5031">Samuel, Horace Barnett</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb9862">Seldes, Gilbert Vivian</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb92768">Woticky, Edward</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb142471">Ziegel, Erich</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb745">Skandinavien</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45530">Deutsches Schauspielhaus in Hamburg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb44005">Guild Theatre New York</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10976.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -106,60 +127,6 @@ Anlage: Ermächtigung für "Reigen" für die skandinavischen Länder</note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb10833" source="https://pmb.acdh.oeaw.ac.at/entity/10833/">
-          <persName>Barnowsky, Victor</persName>
-        </person>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-        <person ref="#pmb20474" source="https://pmb.acdh.oeaw.ac.at/entity/20474/">
-          <persName>Linden, Gustaf</persName>
-        </person>
-        <person ref="#pmb12176" source="https://pmb.acdh.oeaw.ac.at/entity/12176/">
-          <persName>Mann, Thomas</persName>
-        </person>
-        <person ref="#pmb23320" source="https://pmb.acdh.oeaw.ac.at/entity/23320/">
-          <persName>Reyding, August</persName>
-        </person>
-        <person ref="#pmb5031" source="https://pmb.acdh.oeaw.ac.at/entity/5031/">
-          <persName>Samuel, Horace Barnett</persName>
-        </person>
-        <person ref="#pmb9862" source="https://pmb.acdh.oeaw.ac.at/entity/9862/">
-          <persName>Seldes, Gilbert Vivian</persName>
-        </person>
-        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
-          <persName>Woticky, Edward</persName>
-        </person>
-        <person ref="#pmb142471" source="https://pmb.acdh.oeaw.ac.at/entity/142471/">
-          <persName>Ziegel, Erich</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb254" source="https://pmb.acdh.oeaw.ac.at/entity/254/">
-          <placeName>England</placeName>
-        </place>
-        <place ref="#pmb44016" source="https://pmb.acdh.oeaw.ac.at/entity/44016/">
-          <placeName>Niederlande</placeName>
-        </place>
-        <place ref="#pmb44335" source="https://pmb.acdh.oeaw.ac.at/entity/44335/">
-          <placeName>Schweden</placeName>
-        </place>
-        <place ref="#pmb745" source="https://pmb.acdh.oeaw.ac.at/entity/745/">
-          <placeName>Skandinavien</placeName>
-        </place>
-        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-          <placeName>USA</placeName>
-        </place>
-      </listPlace>
-      <listOrg type="theaters">
-        <org ref="#pmb45530" source="https://pmb.acdh.oeaw.ac.at/entity/45530/">
-          <orgName>Deutsches Schauspielhaus in Hamburg</orgName>
-        </org>
-        <org ref="#pmb44005" source="https://pmb.acdh.oeaw.ac.at/entity/44005/">
-          <orgName>Guild Theatre New York</orgName>
-        </org>
-      </listOrg>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -173,8 +140,9 @@ Antwort auf: <ref target="10971">1923-01-31 SF (Berlin) an AS (Wien)</ref>
 Beantwortet in: <ref target="10977">1923-02-24 SF (Berlin) an AS (Wien)</ref>, <ref target="10984">1923-03-14 SF (Berlin) an AS (Wien)</ref>
 Anlage: Ermächtigung für "Reigen" für die skandinavischen Länder</p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416739_0267"/>P.S.C<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416739_0267"/>P.S.C<lb/>
 +<lb/>
 19.2.1923.<lb/>
 Sehr geehrter Herr Greiner.<lb/>
@@ -214,7 +182,8 @@ beweisen. dass es mir weniger auf die finanzille,<lb/>
 als auf die prinzipielle Seite der Urheberfragen<lb/>
 ankommt. Immerhin: das steigende Missverhältnis<lb/>
 zwischen der Verbreitung meiner Werke, und dem</p>
-        <p><pb facs="1416739_0268"/>Gewicht meines Namens einerseits und dem<lb/>
+        <p>
+          <pb facs="1416739_0268"/>Gewicht meines Namens einerseits und dem<lb/>
 Billigkeitsgefühl der Direktoren, Uebersetzer<lb/>
 Unterhändler, mit denen wir zu tun haben,<lb/>
 kommt mir immer ärgerlicher zu Bewusstsein,<lb/>
@@ -295,7 +264,8 @@ doch wäre es vielleicht an der Zeit, wie das<lb/>
 doch üblich ist, für eine entsprechende Verlän<lb/>
 gerung der Optionsfrist auch eine neue Zahlung<lb/>
 zu fordern. So wenigstens rät Gilbert Seldes</p>
-        <p><pb facs="1416739_0269"/>der übrigens nicht wegen des „Weiten Land<lb/>
+        <p>
+          <pb facs="1416739_0269"/>der übrigens nicht wegen des „Weiten Land<lb/>
 sondern wegen des „Einsamen Negs im Namen<lb/>
 des Guildtheaters mit mir gesprochen. Für<lb/>
 die heurige Saison kommt es übrigens keines<lb/>
@@ -373,7 +343,8 @@ Mit den verbindlichsten Grüssen<lb/>
 Ihr sehr ergebener<lb/>
 Herrn von Greiner<lb/>
 S.mischer,Verlag,Berlin.</p>
-        <p><pb facs="1416739_0270"/>19.2.1923.<lb/>
+        <p>
+          <pb facs="1416739_0270"/>19.2.1923.<lb/>
 Fischer<lb/>
 3t0n<lb/>
 Lieber Freund.<lb/>
@@ -395,7 +366,8 @@ Mit herzlichem Gruss<lb/>
 Ihr ergebener<lb/>
 Herrn S.Fischer,Verlag.<lb/>
 Berlin.</p>
-        <p><pb facs="1416739_0271"/>r<lb/>
+        <p>
+          <pb facs="1416739_0271"/>r<lb/>
 spörs<lb/>
 Fiche<lb/>
 —<lb/>

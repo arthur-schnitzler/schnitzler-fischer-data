@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,7 +71,8 @@
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
 Antwort auf: <ref target="11384">1928-03-05 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11392">1928-03-12 SF (Berlin) an AS (Wien)</ref></note>
+Beantwortet in: <ref target="11392">1928-03-12 SF (Berlin) an AS (Wien)</ref>
+        </note>
         <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm), eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1928-03-08.html</note>
       </notesStmt>
@@ -87,6 +89,12 @@ Beantwortet in: <ref target="11392">1928-03-12 SF (Berlin) an AS (Wien)</ref></n
           <persName type="coworker">Eipper, Paul</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb21304">Menczel, Rosa</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11388.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -106,16 +114,6 @@ Beantwortet in: <ref target="11392">1928-03-12 SF (Berlin) an AS (Wien)</ref></n
           <term>Übersetzungsrecht</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="#pmb21304" source="https://pmb.acdh.oeaw.ac.at/entity/21304/">
-          <persName>Menczel, Rosa</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -126,10 +124,12 @@ Beantwortet in: <ref target="11392">1928-03-12 SF (Berlin) an AS (Wien)</ref></n
       <div type="letter">
         <p>1 Blatt, 1 Seite
 Antwort auf: <ref target="11384">1928-03-05 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="11392">1928-03-12 SF (Berlin) an AS (Wien)</ref></p>
+Beantwortet in: <ref target="11392">1928-03-12 SF (Berlin) an AS (Wien)</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416741_0022"/>S. Fischer<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416741_0022"/>S. Fischer<lb/>
 I have by<lb/>
 8.3.1928.<lb/>
 Je w<lb/>

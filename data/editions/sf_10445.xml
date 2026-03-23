@@ -15,10 +15,11 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler Archiv</publisher>
+        <publisher>Arthur Schnitzler-Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -78,7 +79,8 @@
         <note type="description">1 Blatt, 2 Seiten
 Anlage: Abschrift Telegramm (Kabeldepesche) Alice Kauser an SF mit ehNotiz SF an AS (mit irritierender Datierung: "Am Neujahrsmorgen bei prachtvollem Frostwetter"; vielleicht hat SF die Abschrift zurückerhalten und später nochmals an AS gesandt?)
 
-Antwort auf: <ref target="10444">1912-06-13 AS an SF</ref></note>
+Antwort auf: <ref target="10444">1912-06-13 AS an SF</ref>
+        </note>
         <note type="type">Typoskript (Unterschrift-Stempel)</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1912-06-18.html</note>
       </notesStmt>
@@ -94,6 +96,15 @@ Antwort auf: <ref target="10444">1912-06-13 AS an SF</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116298065">Ames, Winthrop</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2914">Bie, Oskar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb5369">Granville-Barker, Harley</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19236">Kauser, Alice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10445.xml"/>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -108,25 +119,6 @@ Antwort auf: <ref target="10444">1912-06-13 AS an SF</ref></note>
           <term>Übersetzung</term>
         </keywords>
       </textClass>
-      <listPerson>
-        <person ref="116298065" source="https://d-nb.info/gnd/116298065">
-          <persName>Ames, Winthrop</persName>
-        </person>
-        <person ref="#pmb2914" source="https://pmb.acdh.oeaw.ac.at/entity/2914/">
-          <persName>Bie, Oskar</persName>
-        </person>
-        <person ref="#pmb5369" source="https://pmb.acdh.oeaw.ac.at/entity/5369/">
-          <persName>Granville-Barker, Harley</persName>
-        </person>
-        <person ref="#pmb19236" source="https://pmb.acdh.oeaw.ac.at/entity/19236/">
-          <persName>Kauser, Alice</persName>
-        </person>
-      </listPerson>
-      <listPlace>
-        <place ref="#pmb34438" source="https://pmb.acdh.oeaw.ac.at/entity/34438/">
-          <placeName>Russland</placeName>
-        </place>
-      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -138,10 +130,12 @@ Antwort auf: <ref target="10444">1912-06-13 AS an SF</ref></note>
         <p>1 Blatt, 2 Seiten
 Anlage: Abschrift Telegramm (Kabeldepesche) Alice Kauser an SF mit ehNotiz SF an AS (mit irritierender Datierung: "Am Neujahrsmorgen bei prachtvollem Frostwetter"; vielleicht hat SF die Abschrift zurückerhalten und später nochmals an AS gesandt?)
 
-Antwort auf: <ref target="10444">1912-06-13 AS an SF</ref></p>
+Antwort auf: <ref target="10444">1912-06-13 AS an SF</ref>
+        </p>
       </div>
-          <div type="OCR">
-        <p><pb facs="1416742_0558"/>28<lb/>
+      <div type="OCR">
+        <p>
+          <pb facs="1416742_0558"/>28<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstrasse 90<lb/>
 18/6. 1912<lb/>
 daas<lb/>
@@ -171,7 +165,8 @@ auf den Januar verschieben, die Buchausgabe kann dann zu den gün-<lb/>
 stigsten Termin: im Aprilnächsten Jahres, herauskommen. Da wir<lb/>
 Sats der Buchausgabe vahrscheinlich den Rundschausatz verwenden<lb/>
 werden, so wird sich die Kerrekturfrage für das Buch für Sie in</p>
-        <p><pb facs="1416742_0559"/>bequemer Weise erledigen.<lb/>
+        <p>
+          <pb facs="1416742_0559"/>bequemer Weise erledigen.<lb/>
 Die vier Bände "Theater" müssen Anfang September herauskommen.<lb/>
 Die Drucklegung wird auch so beschleunigt, dass Sie bis August die<lb/>
 Kerrektur aller vier Bände in Händen haben. Der erste Band liegt<lb/>
