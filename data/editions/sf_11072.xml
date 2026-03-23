@@ -49,11 +49,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
-            <title>Reigen</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb29557" source="https://pmb.acdh.oeaw.ac.at/entity/29557/">
             <orgName>A. Entsch (Wien)</orgName>
@@ -62,7 +57,7 @@
             <orgName>Wiener Verlag (Wien, Leipzig)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
@@ -83,6 +78,9 @@ Beantwortet in: <ref target="11073">1924-04-03 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>

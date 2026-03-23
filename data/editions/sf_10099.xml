@@ -57,20 +57,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
-            <title>Anatol</title>
-          </bibl>
-          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
-            <title>Liebelei</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb29636" source="https://pmb.acdh.oeaw.ac.at/entity/29636/">
             <orgName>Wiener Verlag (Wien, Leipzig)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite beschrieben
@@ -97,6 +89,8 @@ Beantwortet in: 1900-04-28post/1900-06-25ante AS an SF (Anfrage 'Bertha Garlan',
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10099.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29935">Anatol</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29917">Liebelei</ref>
         </note>
       </correspDesc>
       <textClass>

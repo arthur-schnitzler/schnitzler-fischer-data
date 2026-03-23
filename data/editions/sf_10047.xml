@@ -27,21 +27,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <listBibl>
-          <bibl ref="#pmb33806" source="https://pmb.acdh.oeaw.ac.at/entity/33806/">
-            <title>Ein Abschied</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb41289" source="https://pmb.acdh.oeaw.ac.at/entity/41289/">
-            <title>Berliner Börsen-Courier</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb53069" source="https://pmb.acdh.oeaw.ac.at/entity/53069/">
-            <title>Der Kunstwart</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb36152" source="https://pmb.acdh.oeaw.ac.at/entity/36152/">
-            <title>Neue Deutsche Rundschau</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Postkarte, 1 Seite beschrieben
@@ -69,6 +55,10 @@ Beantwortet in: <ref target="10048">1896-03-14 AS an SF/OB</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11910">Kerr, Alfred</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10047.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb33806">Ein Abschied</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb41289">Berliner Börsen-Courier</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb53069">Der Kunstwart</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb36152">Neue Deutsche Rundschau</ref>
         </note>
       </correspDesc>
       <textClass>

@@ -50,17 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
-            <title>Anatol</title>
-          </bibl>
-          <bibl ref="#pmb30215" source="https://pmb.acdh.oeaw.ac.at/entity/30215/">
-            <title>Der Schleier der Pierrette</title>
-          </bibl>
-          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
-            <title>Reigen</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="institution" ref="14184-7" source="https://d-nb.info/gnd/14184-7">
             <orgName>Società italiana degli autori es editori (Rom)</orgName>
@@ -69,7 +58,7 @@
             <orgName>USA. Alien Property Custodian</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
@@ -99,6 +88,9 @@ Antwort auf: <ref target="10867">1921-12-02 AS (Wien) an SF (Berlin)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb47927">Washington</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10871.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29935">Anatol</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30215">Der Schleier der Pierrette</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
         </note>
       </correspDesc>
       <textClass>

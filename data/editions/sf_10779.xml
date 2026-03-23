@@ -50,38 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
-            <title>Anatol</title>
-          </bibl>
-          <bibl ref="#pmb30971" source="https://pmb.acdh.oeaw.ac.at/entity/30971/">
-            <title>Casanovas Heimfahrt</title>
-          </bibl>
-          <bibl ref="#pmb30207" source="https://pmb.acdh.oeaw.ac.at/entity/30207/">
-            <title>Das weite Land</title>
-          </bibl>
-          <bibl ref="#pmb29923" source="https://pmb.acdh.oeaw.ac.at/entity/29923/">
-            <title>Der Weg ins Freie</title>
-          </bibl>
-          <bibl ref="#pmb30819" source="https://pmb.acdh.oeaw.ac.at/entity/30819/">
-            <title>Die Schwestern oder Casanova in Spa</title>
-          </bibl>
-          <bibl ref="#pmb30201" source="https://pmb.acdh.oeaw.ac.at/entity/30201/">
-            <title>Doktor Gräsler, Badearzt</title>
-          </bibl>
-          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
-            <title>Liebelei</title>
-          </bibl>
-          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
-            <title>Professor Bernhardi</title>
-          </bibl>
-          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
-            <title>Reigen</title>
-          </bibl>
-          <bibl ref="#pmb30117" source="https://pmb.acdh.oeaw.ac.at/entity/30117/">
-            <title>Sterben</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="institution" ref="63980-1" source="https://d-nb.info/gnd/63980-1">
             <orgName>Deutsche Bank (Berlin)</orgName>
@@ -90,7 +58,7 @@
             <orgName>Società italiana del teatro drammatico (Rom)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
@@ -132,6 +100,16 @@ Beantwortet in: <ref target="10784">1920-11-23 SF (Berlin) an AS (Wien)</ref>, <
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb37123">Renaissance Theater Berlin</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10779.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29935">Anatol</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30971">Casanovas Heimfahrt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30207">Das weite Land</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29923">Der Weg ins Freie</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30819">Die Schwestern oder Casanova in Spa</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30201">Doktor Gräsler, Badearzt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29917">Liebelei</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30203">Professor Bernhardi</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30117">Sterben</ref>
         </note>
       </correspDesc>
       <textClass>

@@ -50,35 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
-            <title>Anatol</title>
-          </bibl>
-          <bibl ref="#pmb30649" source="https://pmb.acdh.oeaw.ac.at/entity/30649/">
-            <title>Der blinde Geronimo und sein Bruder</title>
-          </bibl>
-          <bibl ref="#pmb29843" source="https://pmb.acdh.oeaw.ac.at/entity/29843/">
-            <title>Der grüne Kakadu</title>
-          </bibl>
-          <bibl ref="#pmb30717" source="https://pmb.acdh.oeaw.ac.at/entity/30717/">
-            <title>Komödie der Worte</title>
-          </bibl>
-          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
-            <title>Reigen</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb41531" source="https://pmb.acdh.oeaw.ac.at/entity/41531/">
-            <title>Berliner Tageblatt</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb36374" source="https://pmb.acdh.oeaw.ac.at/entity/36374/">
-            <title>Neue Freie Presse</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher">
             <orgName>Verlag der Bücher der Morgenröte (Berlin)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">3 Blatt, 3 Seiten
@@ -110,6 +87,13 @@ Beantwortet in: <ref target="10603">1917-03-01 SF (Berlin) an AS (Wien)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb36247">Burgtheater Wien</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10602.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29935">Anatol</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30649">Der blinde Geronimo und sein Bruder</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29843">Der grüne Kakadu</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30717">Komödie der Worte</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb41531">Berliner Tageblatt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb36374">Neue Freie Presse</ref>
         </note>
       </correspDesc>
       <textClass>

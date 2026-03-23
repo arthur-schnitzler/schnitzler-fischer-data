@@ -50,23 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb33760" source="https://pmb.acdh.oeaw.ac.at/entity/33760/">
-            <title>Der tote Gabriel</title>
-          </bibl>
-          <bibl ref="#pmb32816" source="https://pmb.acdh.oeaw.ac.at/entity/32816/">
-            <title>Masken und Wunder</title>
-          </bibl>
-          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
-            <title>Professor Bernhardi</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb29369" source="https://pmb.acdh.oeaw.ac.at/entity/29369/">
             <orgName>J. Singer &amp; Co. (Berlin)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten beschrieben
@@ -97,6 +86,9 @@ Antwort auf: <ref target="10536">1914-06-29 SF an AS</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb336046">Deutsches Theater New York</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10537.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb33760">Der tote Gabriel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32816">Masken und Wunder</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30203">Professor Bernhardi</ref>
         </note>
       </correspDesc>
       <textClass>

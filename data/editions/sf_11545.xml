@@ -50,18 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb32097" source="https://pmb.acdh.oeaw.ac.at/entity/32097/">
-            <title>Das Bacchusfest</title>
-          </bibl>
-          <bibl ref="#pmb31429" source="https://pmb.acdh.oeaw.ac.at/entity/31429/">
-            <title>Große Szene</title>
-          </bibl>
-          <bibl ref="#pmb30945" source="https://pmb.acdh.oeaw.ac.at/entity/30945/">
-            <title>Im Spiel der Sommerlüfte</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
@@ -90,6 +79,9 @@ Antwort auf: <ref target="11542">1930-02-15 AS (Wien) an SF (Berlin)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43430">Tschechien</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11545.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32097">Das Bacchusfest</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb31429">Große Szene</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30945">Im Spiel der Sommerlüfte</ref>
         </note>
       </correspDesc>
       <textClass>

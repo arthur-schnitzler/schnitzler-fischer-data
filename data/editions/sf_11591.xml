@@ -50,26 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
-            <title>Anatol</title>
-          </bibl>
-          <bibl ref="#pmb29823" source="https://pmb.acdh.oeaw.ac.at/entity/29823/">
-            <title>Das Märchen</title>
-          </bibl>
-          <bibl ref="#pmb29843" source="https://pmb.acdh.oeaw.ac.at/entity/29843/">
-            <title>Der grüne Kakadu</title>
-          </bibl>
-          <bibl ref="#pmb29863" source="https://pmb.acdh.oeaw.ac.at/entity/29863/">
-            <title>Lebendige Stunden</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="35742-X" source="https://d-nb.info/gnd/35742-X">
             <orgName>Velhagen &amp; Klasing (Leipzig)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
@@ -95,6 +81,10 @@ Antwort auf: <ref target="11590">1930-09-30 SF (Berlin) an AS (Wien)</ref>, <ref
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11591.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29935">Anatol</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29823">Das Märchen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29843">Der grüne Kakadu</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29863">Lebendige Stunden</ref>
         </note>
       </correspDesc>
       <textClass>

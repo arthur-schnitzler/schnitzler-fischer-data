@@ -50,27 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30057" source="https://pmb.acdh.oeaw.ac.at/entity/30057/">
-            <title>Das Schicksal des Freiherrn von Leisenbohg</title>
-          </bibl>
-          <bibl ref="#pmb33760" source="https://pmb.acdh.oeaw.ac.at/entity/33760/">
-            <title>Der tote Gabriel</title>
-          </bibl>
-          <bibl ref="#pmb30075" source="https://pmb.acdh.oeaw.ac.at/entity/30075/">
-            <title>Die Frau des Weisen</title>
-          </bibl>
-          <bibl ref="#pmb30683" source="https://pmb.acdh.oeaw.ac.at/entity/30683/">
-            <title>Die Weissagung</title>
-          </bibl>
-          <bibl ref="#pmb33776" source="https://pmb.acdh.oeaw.ac.at/entity/33776/">
-            <title>Dämmerseele</title>
-          </bibl>
-          <bibl ref="#pmb30817" source="https://pmb.acdh.oeaw.ac.at/entity/30817/">
-            <title>Therese. Chronik eines Frauenlebens</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
@@ -99,6 +79,12 @@ Beantwortet in: <ref target="11461">1929-01-17 AS (Wien) an SF (Berlin)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb64465">Norwegen</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11460.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30057">Das Schicksal des Freiherrn von Leisenbohg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb33760">Der tote Gabriel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30075">Die Frau des Weisen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30683">Die Weissagung</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb33776">Dämmerseele</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30817">Therese. Chronik eines Frauenlebens</ref>
         </note>
       </correspDesc>
       <textClass>

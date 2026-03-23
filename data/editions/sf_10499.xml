@@ -50,15 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb32133" source="https://pmb.acdh.oeaw.ac.at/entity/32133/">
-            <title>Frau Beate und ihr Sohn</title>
-          </bibl>
-          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
-            <title>Professor Bernhardi</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten beschrieben
@@ -93,6 +85,8 @@ Antwort auf: <ref target="10497">1913-04-13 SF an AS</ref> und 1913-04-14 SF/EPT
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb288854">Johann-Strauß-Theater Wien</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10499.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32133">Frau Beate und ihr Sohn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30203">Professor Bernhardi</ref>
         </note>
       </correspDesc>
       <textClass>

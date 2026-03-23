@@ -50,20 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
-            <title>Anatol</title>
-          </bibl>
-          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
-            <title>Reigen</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb146179" source="https://pmb.acdh.oeaw.ac.at/entity/146179/">
             <orgName>Benjamin Harz Verlag (Berlin, Wien)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
@@ -90,6 +82,8 @@ Beantwortet in: <ref target="10878">1922-01-16 SF (Berlin) an AS (Wien)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10876.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29935">Anatol</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
         </note>
       </correspDesc>
       <textClass>
@@ -190,7 +184,7 @@ määnissä sekä aikai-<lb/>
 B &amp; Co + 3 -<lb/>
 Läheinä, Läänille.<lb/>
 †  ==============<lb/>
-(1) „ „ N â¢<lb/>
+(1) „ „ N â&#x80;¢<lb/>
 B.0 N.T. — S.<lb/>
 ⊃ⱥⵔⵥ�ⵛⵜ s<lb/>
 G.C.H. &amp; O.P.<lb/>

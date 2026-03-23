@@ -50,56 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29923" source="https://pmb.acdh.oeaw.ac.at/entity/29923/">
-            <title>Der Weg ins Freie</title>
-          </bibl>
-          <bibl ref="#pmb32133" source="https://pmb.acdh.oeaw.ac.at/entity/32133/">
-            <title>Frau Beate und ihr Sohn</title>
-          </bibl>
-          <bibl ref="#pmb30486" source="https://pmb.acdh.oeaw.ac.at/entity/30486/">
-            <title>Frau Bertha Garlan</title>
-          </bibl>
-          <bibl ref="#pmb30717" source="https://pmb.acdh.oeaw.ac.at/entity/30717/">
-            <title>Komödie der Worte</title>
-          </bibl>
-          <bibl ref="#pmb32816" source="https://pmb.acdh.oeaw.ac.at/entity/32816/">
-            <title>Masken und Wunder</title>
-          </bibl>
-          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
-            <title>Professor Bernhardi</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb41531" source="https://pmb.acdh.oeaw.ac.at/entity/41531/">
-            <title>Berliner Tageblatt</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb36156" source="https://pmb.acdh.oeaw.ac.at/entity/36156/">
-            <title>Die neue Rundschau</title>
-          </bibl>
-          <bibl type="journal">
-            <title>Neue Romanreihe (Buchreihe, S. Fischer?)</title>
-          </bibl>
-          <bibl type="journal" ref="515644-0" source="https://ld.zdb-services.de/resource/515644-0">
-            <title>Ostpreußische Kriegshefte</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb335716">
-            <title>Ferenc Molnàr: Kriegsfahrten eines Ungar</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb79778" source="https://pmb.acdh.oeaw.ac.at/entity/79778/">
-            <title>Józef Weyssenhoff: Leben und Gedanken des Herrn Siegmund von Podfilipski (Zywot i mysli Zygmunta Podfilipskiego, dt.)</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb32095" source="https://pmb.acdh.oeaw.ac.at/entity/32095/">
-            <title>Peter Nansen: Die Brüder Menthe</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb335720">
-            <title>Rudolph Requadt: Im Kriegsflugzeug</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="107307059X" source="https://d-nb.info/gnd/107307059X">
             <orgName>Tempel-Verlag (Leipzig)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">3 Blatt, 6 Seiten
@@ -132,6 +88,19 @@ Beantwortet in: <ref target="10601">1917-01-18 SF (Berlin) an AS (Wien)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb888">Warschau</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10600.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29923">Der Weg ins Freie</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32133">Frau Beate und ihr Sohn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30486">Frau Bertha Garlan</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30717">Komödie der Worte</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32816">Masken und Wunder</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30203">Professor Bernhardi</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb41531">Berliner Tageblatt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb36156">Die neue Rundschau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="515644-0">Ostpreußische Kriegshefte</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb335716">Ferenc Molnàr: Kriegsfahrten eines Ungar</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb79778">Józef Weyssenhoff: Leben und Gedanken des Herrn Siegmund von Podfilipski (Zywot i mysli Zygmunta Podfilipskiego, dt.)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32095">Peter Nansen: Die Brüder Menthe</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb335720">Rudolph Requadt: Im Kriegsflugzeug</ref>
         </note>
       </correspDesc>
       <textClass>

@@ -57,18 +57,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
-            <title>Anatol</title>
-          </bibl>
-          <bibl ref="#pmb29905" source="https://pmb.acdh.oeaw.ac.at/entity/29905/">
-            <title>Der Ruf des Lebens</title>
-          </bibl>
-          <bibl ref="#pmb30486" source="https://pmb.acdh.oeaw.ac.at/entity/30486/">
-            <title>Frau Bertha Garlan</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Doppelblatt, 2 Seiten beschrieben
@@ -97,6 +86,9 @@ Beantwortet in: <ref target="10190">1907-09-16 AS an SF</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10189.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29935">Anatol</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29905">Der Ruf des Lebens</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30486">Frau Bertha Garlan</ref>
         </note>
       </correspDesc>
       <textClass>

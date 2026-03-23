@@ -50,21 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
-            <title>Liebelei</title>
-          </bibl>
-          <bibl ref="#pmb29903" source="https://pmb.acdh.oeaw.ac.at/entity/29903/">
-            <title>Zwischenspiel</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb335706">
-            <title>Curt Kraatz: Der Hochtourist</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb30631" source="https://pmb.acdh.oeaw.ac.at/entity/30631/">
-            <title>Rudolf Lothar: König Harlekin</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">3 Blatt, 3 Seiten beschrieben
@@ -101,6 +87,10 @@ Beantwortet in: <ref target="10327">1910-06-21 SF an AS</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb336077">Pabst-Theater Milwaukee</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10326.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29917">Liebelei</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29903">Zwischenspiel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb335706">Curt Kraatz: Der Hochtourist</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30631">Rudolf Lothar: König Harlekin</ref>
         </note>
       </correspDesc>
       <textClass>

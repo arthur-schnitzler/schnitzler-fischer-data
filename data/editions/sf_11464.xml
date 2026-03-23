@@ -50,17 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
-            <title>Liebelei</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="252788-1" source="https://d-nb.info/gnd/252788-1">
             <orgName>Nuova Casa Editore Licinio Cappelli (Bologna)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite</note>
@@ -87,6 +82,7 @@
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11464.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29917">Liebelei</ref>
         </note>
       </correspDesc>
       <textClass>

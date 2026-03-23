@@ -49,21 +49,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30075" source="https://pmb.acdh.oeaw.ac.at/entity/30075/">
-            <title>Die Frau des Weisen</title>
-          </bibl>
-          <bibl ref="#pmb30167" source="https://pmb.acdh.oeaw.ac.at/entity/30167/">
-            <title>Die griechische Tänzerin</title>
-          </bibl>
-          <bibl ref="#pmb29899" source="https://pmb.acdh.oeaw.ac.at/entity/29899/">
-            <title>Freiwild</title>
-          </bibl>
-          <bibl ref="#pmb29859" source="https://pmb.acdh.oeaw.ac.at/entity/29859/">
-            <title>Marionetten</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
@@ -83,6 +69,12 @@ Antwort auf: <ref target="10806">1921-03-17 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30075">Die Frau des Weisen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30167">Die griechische Tänzerin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29899">Freiwild</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29859">Marionetten</ref>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>

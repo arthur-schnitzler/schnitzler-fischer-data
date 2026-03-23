@@ -57,20 +57,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29905" source="https://pmb.acdh.oeaw.ac.at/entity/29905/">
-            <title>Der Ruf des Lebens</title>
-          </bibl>
-          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
-            <title>Liebelei</title>
-          </bibl>
-          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
-            <title>Reigen</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb31735" source="https://pmb.acdh.oeaw.ac.at/entity/31735/">
-            <title>Gerhart Hauptmann: Die versunkene Glocke</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb29557" source="https://pmb.acdh.oeaw.ac.at/entity/29557/">
             <orgName>A. Entsch (Wien)</orgName>
@@ -85,7 +71,7 @@
             <orgName>Buchdruckerei Roitzsch</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Doppelblatt, 3 Seiten beschrieben
@@ -120,6 +106,10 @@ Beantwortet in: <ref target="10267">1909-05-15 AS an SF</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10266.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29905">Der Ruf des Lebens</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29917">Liebelei</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb31735">Gerhart Hauptmann: Die versunkene Glocke</ref>
         </note>
       </correspDesc>
       <textClass>

@@ -50,18 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30971" source="https://pmb.acdh.oeaw.ac.at/entity/30971/">
-            <title>Casanovas Heimfahrt</title>
-          </bibl>
-          <bibl ref="#pmb29905" source="https://pmb.acdh.oeaw.ac.at/entity/29905/">
-            <title>Der Ruf des Lebens</title>
-          </bibl>
-          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
-            <title>Reigen</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
@@ -95,6 +84,9 @@ Beantwortet in: <ref target="10690">1919-01-30 SF (Berlin) an AS (Wien)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb61673">Trianon-Theater Berlin</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10687.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30971">Casanovas Heimfahrt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29905">Der Ruf des Lebens</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
         </note>
       </correspDesc>
       <textClass>

@@ -57,20 +57,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30207" source="https://pmb.acdh.oeaw.ac.at/entity/30207/">
-            <title>Das weite Land</title>
-          </bibl>
-          <bibl ref="#pmb30213" source="https://pmb.acdh.oeaw.ac.at/entity/30213/">
-            <title>Die Hirtenflöte</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb48425" source="https://pmb.acdh.oeaw.ac.at/entity/48425/">
             <orgName>Deutsch-Österreichischer Verlag (Wien)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite beschrieben
@@ -102,6 +94,8 @@ Bezug auf: 1911-10-14 ante AS an SF (Illustrierte Ausgabe 'Hirtenflöte')</note>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb35053">Lessing-Theater Berlin</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10403.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30207">Das weite Land</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30213">Die Hirtenflöte</ref>
         </note>
       </correspDesc>
       <textClass>

@@ -50,17 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30215" source="https://pmb.acdh.oeaw.ac.at/entity/30215/">
-            <title>Der Schleier der Pierrette</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb185447" source="https://pmb.acdh.oeaw.ac.at/entity/185447/">
             <orgName>Musikverlag Doblinger (Wien)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite beschrieben
@@ -92,6 +87,7 @@ kein direkter Bezug zu vorangehender Korrespondenz; möglicherweise weiteres zwi
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb186212">Marionettentheater Münchner Künstler</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10269.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30215">Der Schleier der Pierrette</ref>
         </note>
       </correspDesc>
       <textClass>

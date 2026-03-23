@@ -57,17 +57,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29923" source="https://pmb.acdh.oeaw.ac.at/entity/29923/">
-            <title>Der Weg ins Freie</title>
-          </bibl>
-          <bibl ref="#pmb30167" source="https://pmb.acdh.oeaw.ac.at/entity/30167/">
-            <title>Die griechische Tänzerin</title>
-          </bibl>
-          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
-            <title>Reigen</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb29369" source="https://pmb.acdh.oeaw.ac.at/entity/29369/">
             <orgName>J. Singer &amp; Co. (Berlin)</orgName>
@@ -76,7 +65,7 @@
             <orgName>Wiener Verlag (Wien, Leipzig)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten beschrieben
@@ -105,6 +94,9 @@ Antwort auf: <ref target="10227">1908-06-16b AS an SF</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10228.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29923">Der Weg ins Freie</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30167">Die griechische Tänzerin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
         </note>
       </correspDesc>
       <textClass>

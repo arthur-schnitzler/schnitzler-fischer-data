@@ -56,15 +56,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30486" source="https://pmb.acdh.oeaw.ac.at/entity/30486/">
-            <title>Frau Bertha Garlan</title>
-          </bibl>
-          <bibl type="journal">
-            <title>Neue Romanreihe (Buchreihe, S. Fischer?)</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten beschrieben
@@ -85,6 +77,9 @@ Beantwortet in: 1911-05-13 AS an SF</note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30486">Frau Bertha Garlan</ref>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>

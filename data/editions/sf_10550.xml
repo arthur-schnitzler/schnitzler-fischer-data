@@ -50,33 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30207" source="https://pmb.acdh.oeaw.ac.at/entity/30207/">
-            <title>Das weite Land</title>
-          </bibl>
-          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
-            <title>Professor Bernhardi</title>
-          </bibl>
-          <bibl ref="#pmb58490" source="https://pmb.acdh.oeaw.ac.at/entity/58490/">
-            <title>Une protestation</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb41531" source="https://pmb.acdh.oeaw.ac.at/entity/41531/">
-            <title>Berliner Tageblatt</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb77692" source="https://pmb.acdh.oeaw.ac.at/entity/77692/">
-            <title>Das Forum</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb36156" source="https://pmb.acdh.oeaw.ac.at/entity/36156/">
-            <title>Die neue Rundschau</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb58493" source="https://pmb.acdh.oeaw.ac.at/entity/58493/">
-            <title>Journal de Genève</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb42406" source="https://pmb.acdh.oeaw.ac.at/entity/42406/">
-            <title>Neue Zürcher Zeitung</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">3 Blatt, 6 Seiten beschrieben
@@ -115,6 +89,14 @@ Antwort auf: 1915-01-07 und <ref target="10549">1915-01-25 SF an AS</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb300058">Neues Theater Frankfurt am Main</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10550.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30207">Das weite Land</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30203">Professor Bernhardi</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb58490">Une protestation</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb41531">Berliner Tageblatt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb77692">Das Forum</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb36156">Die neue Rundschau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb58493">Journal de Genève</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb42406">Neue Zürcher Zeitung</ref>
         </note>
       </correspDesc>
       <textClass>

@@ -57,23 +57,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29857" source="https://pmb.acdh.oeaw.ac.at/entity/29857/">
-            <title>Der Schleier der Beatrice</title>
-          </bibl>
-          <bibl type="third_party">
-            <title>Paul Heinze (Hg.): Deutsches Dichterheim</title>
-          </bibl>
-          <bibl type="third_party">
-            <title>Paul Heinze: Geschichte der deutschen Literatur von Goethes Tode bis zur Gegenwart</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb29661" source="https://pmb.acdh.oeaw.ac.at/entity/29661/">
             <orgName>F. Fontane (Berlin)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite beschrieben
@@ -105,6 +94,7 @@ Antwort auf: 1900-09-15ante AS an SF (Freiexemplare an Heinze; nicht überliefer
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10104.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29857">Der Schleier der Beatrice</ref>
         </note>
       </correspDesc>
       <textClass>

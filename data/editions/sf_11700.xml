@@ -50,15 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30775" source="https://pmb.acdh.oeaw.ac.at/entity/30775/">
-            <title>Der Gang zum Weiher</title>
-          </bibl>
-          <bibl ref="#pmb30863" source="https://pmb.acdh.oeaw.ac.at/entity/30863/">
-            <title>Flucht in die Finsternis</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
@@ -85,6 +77,8 @@ Beantwortet in: 1931-09-09 SF (Berlin) an AS (Wien)</note>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8885">Meid, Hans</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11700.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30775">Der Gang zum Weiher</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30863">Flucht in die Finsternis</ref>
         </note>
       </correspDesc>
       <textClass>

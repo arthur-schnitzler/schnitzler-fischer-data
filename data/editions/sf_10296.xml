@@ -50,20 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30167" source="https://pmb.acdh.oeaw.ac.at/entity/30167/">
-            <title>Die griechische Tänzerin</title>
-          </bibl>
-          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
-            <title>Liebelei</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="institution" ref="1073083527" source="https://d-nb.info/gnd/1073083527">
             <orgName>G. Szelinski &amp; Co. (Buchhandel, Wien)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">3 Blatt, 3 Seiten beschrieben
@@ -92,6 +84,8 @@ Beantwortet in: 1910-01-18post/1910-01-23ante SF an AS (Aufführungsrecht 'Liebe
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10296.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30167">Die griechische Tänzerin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29917">Liebelei</ref>
         </note>
       </correspDesc>
       <textClass>

@@ -50,23 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30207" source="https://pmb.acdh.oeaw.ac.at/entity/30207/">
-            <title>Das weite Land</title>
-          </bibl>
-          <bibl ref="#pmb31429" source="https://pmb.acdh.oeaw.ac.at/entity/31429/">
-            <title>Große Szene</title>
-          </bibl>
-          <bibl ref="#pmb29931" source="https://pmb.acdh.oeaw.ac.at/entity/29931/">
-            <title>Komtesse Mizzi</title>
-          </bibl>
-          <bibl ref="#pmb30717" source="https://pmb.acdh.oeaw.ac.at/entity/30717/">
-            <title>Komödie der Worte</title>
-          </bibl>
-          <bibl ref="#pmb29903" source="https://pmb.acdh.oeaw.ac.at/entity/29903/">
-            <title>Zwischenspiel</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb33886" source="https://pmb.acdh.oeaw.ac.at/entity/33886/">
             <orgName>Drei Masken-Verlag (München, Berlin)</orgName>
@@ -75,7 +58,7 @@
             <orgName>Rikola Verlag (Wien)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten</note>
@@ -103,6 +86,11 @@
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb265652">Stadttheater Zürich</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10882.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30207">Das weite Land</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb31429">Große Szene</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29931">Komtesse Mizzi</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30717">Komödie der Worte</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29903">Zwischenspiel</ref>
         </note>
       </correspDesc>
       <textClass>
@@ -202,7 +190,7 @@ i. S.. m. m. a. mai-<lb/>
 r....<lb/>
 —  — —  — ̃ —<lb/>
 M ̃r<lb/>
-i-t à m m m â<lb/>
+i-t à m m m â&#x80;&#x94;<lb/>
 o O aoet S4<lb/>
 G.C.H.F.P.S<lb/>
 G.C.F. &amp; D0<lb/>
@@ -285,10 +273,10 @@ G:H &amp; B<lb/>
 P &amp; O.—<lb/>
 № ### — » »<lb/>
 ###s as<lb/>
-À<lb/>
+À&#x80;&#x94;<lb/>
 B 0 3,-i S4 B »-t<lb/>
 i0  0<lb/>
-Köyhstä, Sos &amp; C Ä¢ S<lb/>
+Köyhstä, Sos &amp; C Ä&#x80;¢ S<lb/>
 S. L. P. S.<lb/>
 + 0 + —<lb/>
 „  004<lb/>
@@ -385,7 +373,7 @@ P+O+S<lb/>
 F.T.<lb/>
 fraisia<lb/>
 O<lb/>
-W &amp; Pâ¢<lb/>
+W &amp; Pâ&#x80;¢<lb/>
 £2,000<lb/>
 Unterwalt<lb/>
 läänistä.<lb/>
@@ -407,7 +395,7 @@ Ficher<lb/>
 *« a<lb/>
 r<lb/>
 r<lb/>
-â! (2) »<lb/>
+â&#x80;&#x94;! (2) »<lb/>
 T.<lb/>
 En ceux<lb/>
 — 0:0<lb/>

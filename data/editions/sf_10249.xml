@@ -57,35 +57,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29873" source="https://pmb.acdh.oeaw.ac.at/entity/29873/">
-            <title>Der Puppenspieler</title>
-          </bibl>
-          <bibl ref="#pmb30217" source="https://pmb.acdh.oeaw.ac.at/entity/30217/">
-            <title>Der tapfere Cassian</title>
-          </bibl>
-          <bibl ref="#pmb29923" source="https://pmb.acdh.oeaw.ac.at/entity/29923/">
-            <title>Der Weg ins Freie</title>
-          </bibl>
-          <bibl ref="#pmb29931" source="https://pmb.acdh.oeaw.ac.at/entity/29931/">
-            <title>Komtesse Mizzi</title>
-          </bibl>
-          <bibl ref="#pmb29859" source="https://pmb.acdh.oeaw.ac.at/entity/29859/">
-            <title>Marionetten</title>
-          </bibl>
-          <bibl ref="#pmb29951" source="https://pmb.acdh.oeaw.ac.at/entity/29951/">
-            <title>Zum großen Wurstel</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb41560" source="https://pmb.acdh.oeaw.ac.at/entity/41560/">
-            <title>Der Tag</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb10186309-3" source="https://pmb.acdh.oeaw.ac.at/entity/10186309-3/">
             <orgName>Theaterverlag Eduard Bloch</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Doppelblatt, 3 Seiten beschrieben
@@ -118,6 +95,13 @@ Beantwortet in: <ref target="10250">1908-12-12 AS an SF</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10249.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29873">Der Puppenspieler</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30217">Der tapfere Cassian</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29923">Der Weg ins Freie</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29931">Komtesse Mizzi</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29859">Marionetten</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29951">Zum großen Wurstel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb41560">Der Tag</ref>
         </note>
       </correspDesc>
       <textClass>

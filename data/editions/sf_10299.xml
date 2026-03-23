@@ -50,20 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30649" source="https://pmb.acdh.oeaw.ac.at/entity/30649/">
-            <title>Der blinde Geronimo und sein Bruder</title>
-          </bibl>
-          <bibl ref="#pmb29905" source="https://pmb.acdh.oeaw.ac.at/entity/29905/">
-            <title>Der Ruf des Lebens</title>
-          </bibl>
-          <bibl ref="#pmb30167" source="https://pmb.acdh.oeaw.ac.at/entity/30167/">
-            <title>Die griechische Tänzerin</title>
-          </bibl>
-          <bibl ref="#pmb29893" source="https://pmb.acdh.oeaw.ac.at/entity/29893/">
-            <title>Excentric</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="1023843110" source="https://d-nb.info/gnd/1023843110">
             <orgName>Globus-Verlag (Berlin)</orgName>
@@ -72,7 +58,7 @@
             <orgName>Wiener Verlag (Wien, Leipzig)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten beschrieben
@@ -103,6 +89,10 @@ Beantwortet in: 1910-02-01post/1910-02-12ante SF an AS (Aufführungsanfrage 'Epi
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10299.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30649">Der blinde Geronimo und sein Bruder</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29905">Der Ruf des Lebens</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30167">Die griechische Tänzerin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29893">Excentric</ref>
         </note>
       </correspDesc>
       <textClass>

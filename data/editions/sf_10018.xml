@@ -26,21 +26,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <listBibl>
-          <bibl ref="#pmb30391" source="https://pmb.acdh.oeaw.ac.at/entity/30391/">
-            <title>Die überspannte Person</title>
-          </bibl>
-          <bibl ref="#pmb30117" source="https://pmb.acdh.oeaw.ac.at/entity/30117/">
-            <title>Sterben</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb36166" source="https://pmb.acdh.oeaw.ac.at/entity/36166/">
-            <title>Freie Bühne</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb36152" source="https://pmb.acdh.oeaw.ac.at/entity/36152/">
-            <title>Neue Deutsche Rundschau</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten beschrieben
@@ -63,6 +49,12 @@ Beantwortet in: <ref target="10019">1894-09-24 SF/OB an AS</ref></note>
           <persName type="coworker">Bie, Oskar</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30391">Die überspannte Person</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30117">Sterben</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb36166">Freie Bühne</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb36152">Neue Deutsche Rundschau</ref>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>

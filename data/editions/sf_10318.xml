@@ -57,15 +57,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29843" source="https://pmb.acdh.oeaw.ac.at/entity/29843/">
-            <title>Der grüne Kakadu</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb31511" source="https://pmb.acdh.oeaw.ac.at/entity/31511/">
-            <title>Gerhart Hauptmann: Hanneles Himmelfahrt</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite beschrieben
@@ -94,6 +86,8 @@ Antwort auf: <ref target="10317">1910-05-04 AS an SF</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb178957">Roosevelt, Franklin Delano</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10318.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29843">Der grüne Kakadu</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb31511">Gerhart Hauptmann: Hanneles Himmelfahrt</ref>
         </note>
       </correspDesc>
       <textClass>

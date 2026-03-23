@@ -57,30 +57,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29873" source="https://pmb.acdh.oeaw.ac.at/entity/29873/">
-            <title>Der Puppenspieler</title>
-          </bibl>
-          <bibl ref="#pmb30217" source="https://pmb.acdh.oeaw.ac.at/entity/30217/">
-            <title>Der tapfere Cassian</title>
-          </bibl>
-          <bibl ref="#pmb29931" source="https://pmb.acdh.oeaw.ac.at/entity/29931/">
-            <title>Komtesse Mizzi</title>
-          </bibl>
-          <bibl ref="#pmb29859" source="https://pmb.acdh.oeaw.ac.at/entity/29859/">
-            <title>Marionetten</title>
-          </bibl>
-          <bibl ref="#pmb29951" source="https://pmb.acdh.oeaw.ac.at/entity/29951/">
-            <title>Zum großen Wurstel</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb77248" source="https://pmb.acdh.oeaw.ac.at/entity/77248/">
-            <title>Elsa Bernstein: Königskinder</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb31735" source="https://pmb.acdh.oeaw.ac.at/entity/31735/">
-            <title>Gerhart Hauptmann: Die versunkene Glocke</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten beschrieben
@@ -111,6 +88,13 @@ Beantwortet in: <ref target="10252">1908-12-23 AS an SF</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="117010235">Zöllner, Heinrich</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10251.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29873">Der Puppenspieler</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30217">Der tapfere Cassian</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29931">Komtesse Mizzi</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29859">Marionetten</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29951">Zum großen Wurstel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb77248">Elsa Bernstein: Königskinder</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb31735">Gerhart Hauptmann: Die versunkene Glocke</ref>
         </note>
       </correspDesc>
       <textClass>

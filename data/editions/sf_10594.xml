@@ -50,15 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29903" source="https://pmb.acdh.oeaw.ac.at/entity/29903/">
-            <title>Zwischenspiel</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb335730">
-            <title>Fritz Wittels: Ethischer Zweck des Kriegs</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
@@ -84,6 +76,8 @@ Antwort auf: <ref target="10591">1916-01-15 AS (Wien) an SF (Berlin)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10574">Wittels, Fritz (Ps. Avicenna)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10594.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29903">Zwischenspiel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb335730">Fritz Wittels: Ethischer Zweck des Kriegs</ref>
         </note>
       </correspDesc>
       <textClass>

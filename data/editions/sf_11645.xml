@@ -50,18 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30775" source="https://pmb.acdh.oeaw.ac.at/entity/30775/">
-            <title>Der Gang zum Weiher</title>
-          </bibl>
-          <bibl ref="#pmb29845" source="https://pmb.acdh.oeaw.ac.at/entity/29845/">
-            <title>Die Gefährtin</title>
-          </bibl>
-          <bibl ref="#pmb335680">
-            <title>La Compagna (Die Gefährtin, ital.)</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
@@ -93,6 +82,9 @@ Antwort auf: <ref target="11638">1931-02-25 SF (Berlin) an AS (Wien)</ref>, <ref
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb335683">Teatro d'Arte di Roma</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11645.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30775">Der Gang zum Weiher</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29845">Die Gefährtin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb335680">La Compagna (Die Gefährtin, ital.)</ref>
         </note>
       </correspDesc>
       <textClass>

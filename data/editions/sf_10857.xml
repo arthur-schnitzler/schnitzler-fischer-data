@@ -50,35 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
-            <title>Anatol</title>
-          </bibl>
-          <bibl ref="#pmb30005" source="https://pmb.acdh.oeaw.ac.at/entity/30005/">
-            <title>Anatol: Abschiedssouper</title>
-          </bibl>
-          <bibl ref="#pmb30207" source="https://pmb.acdh.oeaw.ac.at/entity/30207/">
-            <title>Das weite Land</title>
-          </bibl>
-          <bibl ref="#pmb30717" source="https://pmb.acdh.oeaw.ac.at/entity/30717/">
-            <title>Komödie der Worte</title>
-          </bibl>
-          <bibl ref="#pmb29863" source="https://pmb.acdh.oeaw.ac.at/entity/29863/">
-            <title>Lebendige Stunden</title>
-          </bibl>
-          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
-            <title>Liebelei</title>
-          </bibl>
-          <bibl ref="#pmb30403" source="https://pmb.acdh.oeaw.ac.at/entity/30403/">
-            <title>Paracelsus</title>
-          </bibl>
-          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
-            <title>Reigen</title>
-          </bibl>
-          <bibl ref="#pmb29903" source="https://pmb.acdh.oeaw.ac.at/entity/29903/">
-            <title>Zwischenspiel</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb146179" source="https://pmb.acdh.oeaw.ac.at/entity/146179/">
             <orgName>Benjamin Harz Verlag (Berlin, Wien)</orgName>
@@ -87,7 +58,7 @@
             <orgName>Ladenburg, Thalmann &amp; Co. (Bankhaus, New York)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten</note>
@@ -123,6 +94,15 @@
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb336030">Blancheteatern Stockholm</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10857.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29935">Anatol</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30005">Anatol: Abschiedssouper</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30207">Das weite Land</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30717">Komödie der Worte</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29863">Lebendige Stunden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29917">Liebelei</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30403">Paracelsus</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29903">Zwischenspiel</ref>
         </note>
       </correspDesc>
       <textClass>

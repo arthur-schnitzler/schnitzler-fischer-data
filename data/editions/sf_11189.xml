@@ -50,15 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30217" source="https://pmb.acdh.oeaw.ac.at/entity/30217/">
-            <title>Der tapfere Cassian</title>
-          </bibl>
-          <bibl ref="#pmb29853" source="https://pmb.acdh.oeaw.ac.at/entity/29853/">
-            <title>Lieutenant Gustl</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
@@ -85,6 +77,8 @@ Beantwortet in: <ref target="11190">1925-07-23 SF (Berlin) an AS (Wien)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12861">Straus, Oscar</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11189.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30217">Der tapfere Cassian</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29853">Lieutenant Gustl</ref>
         </note>
       </correspDesc>
       <textClass>

@@ -57,20 +57,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb31975" source="https://pmb.acdh.oeaw.ac.at/entity/31975/">
-            <title>Die kleine Komödie</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb335701">
-            <title>Collection Guillaume et Lemerre (Paris)</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb36166" source="https://pmb.acdh.oeaw.ac.at/entity/36166/">
-            <title>Freie Bühne</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb36152" source="https://pmb.acdh.oeaw.ac.at/entity/36152/">
-            <title>Neue Deutsche Rundschau</title>
-          </bibl>
-        </listBibl>
         <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-06-17.html">Tgb 1895-06-17 (Korresp. charakterisiert)</ref>
       </sourceDesc>
       <notesStmt>
@@ -97,6 +83,10 @@ Beantwortet in: 1895-06-11post/1895-06-15ante AS an SF (Erregung über Angebot d
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4785">Zasche, Theodor</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10027.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb31975">Die kleine Komödie</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb335701">Collection Guillaume et Lemerre (Paris)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb36166">Freie Bühne</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb36152">Neue Deutsche Rundschau</ref>
         </note>
       </correspDesc>
       <textClass>

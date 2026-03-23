@@ -50,32 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
-            <title>Anatol</title>
-          </bibl>
-          <bibl ref="#pmb30005" source="https://pmb.acdh.oeaw.ac.at/entity/30005/">
-            <title>Anatol: Abschiedssouper</title>
-          </bibl>
-          <bibl ref="#pmb30649" source="https://pmb.acdh.oeaw.ac.at/entity/30649/">
-            <title>Der blinde Geronimo und sein Bruder</title>
-          </bibl>
-          <bibl ref="#pmb30167" source="https://pmb.acdh.oeaw.ac.at/entity/30167/">
-            <title>Die griechische Tänzerin</title>
-          </bibl>
-          <bibl ref="#pmb29877" source="https://pmb.acdh.oeaw.ac.at/entity/29877/">
-            <title>Die letzten Masken</title>
-          </bibl>
-          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
-            <title>Professor Bernhardi</title>
-          </bibl>
-          <bibl ref="#pmb42616" source="https://pmb.acdh.oeaw.ac.at/entity/42616/">
-            <title>Vor dem Tode (vermeintlicher Einakter AS)</title>
-          </bibl>
-          <bibl type="journal" ref="981067-5" source="https://ld.zdb-services.de/resource/981067-5">
-            <title>Wiesbadener Volksbücher</title>
-          </bibl>
-        </listBibl>
         <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-12-16.html">Tgb 1912-12-16</ref>
       </sourceDesc>
       <notesStmt>
@@ -114,6 +88,14 @@ Beantwortet in: <ref target="10480">1912-12-20 SF an AS</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29569">Wiener Freie Volksbühne</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10479.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29935">Anatol</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30005">Anatol: Abschiedssouper</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30649">Der blinde Geronimo und sein Bruder</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30167">Die griechische Tänzerin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29877">Die letzten Masken</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30203">Professor Bernhardi</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb42616">Vor dem Tode (vermeintlicher Einakter AS)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="981067-5">Wiesbadener Volksbücher</ref>
         </note>
       </correspDesc>
       <textClass>

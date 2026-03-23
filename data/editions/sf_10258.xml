@@ -49,12 +49,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29931" source="https://pmb.acdh.oeaw.ac.at/entity/29931/">
-            <title>Komtesse Mizzi</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite beschrieben
@@ -75,6 +70,9 @@ wohl Antwort auf Verlagsbitte um Korrekturen für Neuauflage 'Komtesse Mizzi'</n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29931">Komtesse Mizzi</ref>
+        </note>
       </correspDesc>
       <textClass/>
     </profileDesc>

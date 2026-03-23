@@ -50,14 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30775" source="https://pmb.acdh.oeaw.ac.at/entity/30775/">
-            <title>Der Gang zum Weiher</title>
-          </bibl>
-          <bibl ref="#pmb30945" source="https://pmb.acdh.oeaw.ac.at/entity/30945/">
-            <title>Im Spiel der Sommerlüfte</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="1186419687" source="https://d-nb.info/gnd/1186419687">
             <orgName>European Books Limited (London)</orgName>
@@ -66,7 +58,7 @@
             <orgName>Ente Italiano Audizione Radiofoniche (Rom)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
@@ -97,6 +89,8 @@ Beantwortet in: <ref target="11641">1931-03-02 SF (Berlin) an AS (Wien)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb224">London</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11639.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30775">Der Gang zum Weiher</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30945">Im Spiel der Sommerlüfte</ref>
         </note>
       </correspDesc>
       <textClass>

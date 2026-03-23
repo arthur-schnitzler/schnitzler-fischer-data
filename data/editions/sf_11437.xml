@@ -50,17 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb32133" source="https://pmb.acdh.oeaw.ac.at/entity/32133/">
-            <title>Frau Beate und ihr Sohn</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="institution" ref="14184-7" source="https://d-nb.info/gnd/14184-7">
             <orgName>Società italiana degli autori es editori (Rom)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
@@ -90,6 +85,7 @@ Beantwortet in: <ref target="11439">1928-08-20 SF (Berlin) an AS (Wien)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11437.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32133">Frau Beate und ihr Sohn</ref>
         </note>
       </correspDesc>
       <textClass>

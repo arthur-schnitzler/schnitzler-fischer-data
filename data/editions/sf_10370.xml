@@ -50,24 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
-            <title>Anatol</title>
-          </bibl>
-          <bibl ref="#pmb30005" source="https://pmb.acdh.oeaw.ac.at/entity/30005/">
-            <title>Anatol: Abschiedssouper</title>
-          </bibl>
-          <bibl ref="#pmb30033" source="https://pmb.acdh.oeaw.ac.at/entity/30033/">
-            <title>Anatol: Anatols Hochzeitsmorgen</title>
-          </bibl>
-          <bibl ref="#pmb29937" source="https://pmb.acdh.oeaw.ac.at/entity/29937/">
-            <title>Der junge Medardus</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb36156" source="https://pmb.acdh.oeaw.ac.at/entity/36156/">
-            <title>Die neue Rundschau</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten beschrieben
@@ -104,6 +87,11 @@ Beantwortet in: <ref target="10372">1911-03-22 SF an AS</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb55522">Schauspielhaus Berlin</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10370.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29935">Anatol</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30005">Anatol: Abschiedssouper</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30033">Anatol: Anatols Hochzeitsmorgen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29937">Der junge Medardus</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb36156">Die neue Rundschau</ref>
         </note>
       </correspDesc>
       <textClass>

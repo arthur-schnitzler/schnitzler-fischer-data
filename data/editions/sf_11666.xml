@@ -50,21 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30775" source="https://pmb.acdh.oeaw.ac.at/entity/30775/">
-            <title>Der Gang zum Weiher</title>
-          </bibl>
-          <bibl ref="#pmb30819" source="https://pmb.acdh.oeaw.ac.at/entity/30819/">
-            <title>Die Schwestern oder Casanova in Spa</title>
-          </bibl>
-          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
-            <title>Reigen</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb78069" source="https://pmb.acdh.oeaw.ac.at/entity/78069/">
-            <title>Alfred Döblin: Berlin Alexanderplatz</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
@@ -94,6 +80,10 @@ Antwort auf: <ref target="11664">1931-04-23 SF (Berlin) an AS (Wien)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb336100">Preußische Staatstheater Berlin</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11666.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30775">Der Gang zum Weiher</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30819">Die Schwestern oder Casanova in Spa</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb78069">Alfred Döblin: Berlin Alexanderplatz</ref>
         </note>
       </correspDesc>
       <textClass>

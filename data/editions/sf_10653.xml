@@ -50,29 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29857" source="https://pmb.acdh.oeaw.ac.at/entity/29857/">
-            <title>Der Schleier der Beatrice</title>
-          </bibl>
-          <bibl ref="#pmb29923" source="https://pmb.acdh.oeaw.ac.at/entity/29923/">
-            <title>Der Weg ins Freie</title>
-          </bibl>
-          <bibl ref="#pmb30075" source="https://pmb.acdh.oeaw.ac.at/entity/30075/">
-            <title>Die Frau des Weisen</title>
-          </bibl>
-          <bibl ref="#pmb29921" source="https://pmb.acdh.oeaw.ac.at/entity/29921/">
-            <title>Dämmerseelen</title>
-          </bibl>
-          <bibl ref="#pmb30117" source="https://pmb.acdh.oeaw.ac.at/entity/30117/">
-            <title>Sterben</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="institution">
             <orgName>Kriegwirtschaftsstelle (Berlin)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">3 Blatt, 3 Seiten
@@ -102,6 +85,11 @@ Beantwortet in: <ref target="10654">1918-04-17 AS (Wien) an SF (Berlin)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10653.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29857">Der Schleier der Beatrice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29923">Der Weg ins Freie</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30075">Die Frau des Weisen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29921">Dämmerseelen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30117">Sterben</ref>
         </note>
       </correspDesc>
       <textClass>

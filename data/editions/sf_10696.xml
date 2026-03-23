@@ -50,21 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30033" source="https://pmb.acdh.oeaw.ac.at/entity/30033/">
-            <title>Anatol: Anatols Hochzeitsmorgen</title>
-          </bibl>
-          <bibl ref="#pmb30145" source="https://pmb.acdh.oeaw.ac.at/entity/30145/">
-            <title>Anatol: Denksteine</title>
-          </bibl>
-          <bibl ref="#pmb30749" source="https://pmb.acdh.oeaw.ac.at/entity/30749/">
-            <title>Anatol: Die Frage an das Schicksal</title>
-          </bibl>
-          <bibl ref="#pmb31357" source="https://pmb.acdh.oeaw.ac.at/entity/31357/">
-            <title>Anatol: Episode</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">3 Blatt, 3 Seiten
@@ -97,6 +83,10 @@ Verweis auf Postkarte 1908-09-19 Neumann, Angelo (Prag) an Eirich, Oscar Friedri
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb298754">Königliches Deutsches Landestheater Prag</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10696.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30033">Anatol: Anatols Hochzeitsmorgen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30145">Anatol: Denksteine</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30749">Anatol: Die Frage an das Schicksal</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb31357">Anatol: Episode</ref>
         </note>
       </correspDesc>
       <textClass>

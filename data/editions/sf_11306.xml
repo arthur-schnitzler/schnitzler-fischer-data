@@ -50,15 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30051" source="https://pmb.acdh.oeaw.ac.at/entity/30051/">
-            <title>Der Geist im Wort und der Geist in der Tat</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb65910" source="https://pmb.acdh.oeaw.ac.at/entity/65910/">
-            <title>Der Weltspiegel</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten</note>
@@ -82,6 +74,8 @@
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb969">Südtirol</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11306.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30051">Der Geist im Wort und der Geist in der Tat</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb65910">Der Weltspiegel</ref>
         </note>
       </correspDesc>
       <textClass>

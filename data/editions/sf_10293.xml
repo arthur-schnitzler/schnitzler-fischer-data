@@ -50,30 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
-            <title>Anatol</title>
-          </bibl>
-          <bibl ref="#pmb30005" source="https://pmb.acdh.oeaw.ac.at/entity/30005/">
-            <title>Anatol: Abschiedssouper</title>
-          </bibl>
-          <bibl ref="#pmb29905" source="https://pmb.acdh.oeaw.ac.at/entity/29905/">
-            <title>Der Ruf des Lebens</title>
-          </bibl>
-          <bibl ref="#pmb29857" source="https://pmb.acdh.oeaw.ac.at/entity/29857/">
-            <title>Der Schleier der Beatrice</title>
-          </bibl>
-          <bibl ref="#pmb29865" source="https://pmb.acdh.oeaw.ac.at/entity/29865/">
-            <title>Die Frau mit dem Dolche</title>
-          </bibl>
-          <bibl ref="#pmb29877" source="https://pmb.acdh.oeaw.ac.at/entity/29877/">
-            <title>Die letzten Masken</title>
-          </bibl>
-          <bibl ref="#pmb29863" source="https://pmb.acdh.oeaw.ac.at/entity/29863/">
-            <title>Lebendige Stunden</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten beschrieben
@@ -101,6 +78,13 @@ Beantwortet in: 1910-01-07post/1910-01-11ante SF an AS (Vertrag 'Kakadu'; nicht 
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10293.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29935">Anatol</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30005">Anatol: Abschiedssouper</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29905">Der Ruf des Lebens</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29857">Der Schleier der Beatrice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29865">Die Frau mit dem Dolche</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29877">Die letzten Masken</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29863">Lebendige Stunden</ref>
         </note>
       </correspDesc>
       <textClass>

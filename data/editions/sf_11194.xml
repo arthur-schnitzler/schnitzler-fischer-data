@@ -49,17 +49,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29937" source="https://pmb.acdh.oeaw.ac.at/entity/29937/">
-            <title>Der junge Medardus</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="institution" ref="44825-4" source="https://d-nb.info/gnd/44825-4">
             <orgName>Nordische Rundfunk AG (Hamburg)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite</note>
@@ -79,6 +74,9 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29937">Der junge Medardus</ref>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>

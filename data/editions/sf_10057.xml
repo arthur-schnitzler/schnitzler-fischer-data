@@ -27,20 +27,12 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <listBibl>
-          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
-            <title>Liebelei</title>
-          </bibl>
-          <bibl ref="#pmb30117" source="https://pmb.acdh.oeaw.ac.at/entity/30117/">
-            <title>Sterben</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb40681" source="https://pmb.acdh.oeaw.ac.at/entity/40681/">
             <orgName>Éditions Perrin</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Doppelblatt, 3 Seiten beschrieben
@@ -67,6 +59,8 @@ wohl zeitlich überlappend mit <ref target="10056">1896-09-24 SF/OB an AS</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb40665">Vallette, Gaspard</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10057.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29917">Liebelei</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30117">Sterben</ref>
         </note>
       </correspDesc>
       <textClass>

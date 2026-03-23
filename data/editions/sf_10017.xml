@@ -56,12 +56,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30117" source="https://pmb.acdh.oeaw.ac.at/entity/30117/">
-            <title>Sterben</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten beschrieben
@@ -83,6 +78,9 @@ Antwort auf: 1894-09-11ante AS an SF (Erscheinen 'Sterben' im Herbst 1894; nicht
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30117">Sterben</ref>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>

@@ -50,38 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30053" source="https://pmb.acdh.oeaw.ac.at/entity/30053/">
-            <title>Buch der Sprüche und Bedenken</title>
-          </bibl>
-          <bibl ref="#pmb30971" source="https://pmb.acdh.oeaw.ac.at/entity/30971/">
-            <title>Casanovas Heimfahrt</title>
-          </bibl>
-          <bibl ref="#pmb30775" source="https://pmb.acdh.oeaw.ac.at/entity/30775/">
-            <title>Der Gang zum Weiher</title>
-          </bibl>
-          <bibl ref="#pmb30051" source="https://pmb.acdh.oeaw.ac.at/entity/30051/">
-            <title>Der Geist im Wort und der Geist in der Tat</title>
-          </bibl>
-          <bibl ref="#pmb30205" source="https://pmb.acdh.oeaw.ac.at/entity/30205/">
-            <title>Komödie der Verführung</title>
-          </bibl>
-          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
-            <title>Reigen</title>
-          </bibl>
-          <bibl ref="#pmb32131" source="https://pmb.acdh.oeaw.ac.at/entity/32131/">
-            <title>Spiel im Morgengrauen</title>
-          </bibl>
-          <bibl ref="#pmb30851" source="https://pmb.acdh.oeaw.ac.at/entity/30851/">
-            <title>Traumnovelle</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb48752" source="https://pmb.acdh.oeaw.ac.at/entity/48752/">
             <orgName>Phaidon-Verlag (Wien)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
@@ -108,6 +82,14 @@ Beantwortet in: <ref target="11664">1931-04-23 SF (Berlin) an AS (Wien)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2167">Salten, Felix</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11662.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30053">Buch der Sprüche und Bedenken</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30971">Casanovas Heimfahrt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30775">Der Gang zum Weiher</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30051">Der Geist im Wort und der Geist in der Tat</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30205">Komödie der Verführung</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32131">Spiel im Morgengrauen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30851">Traumnovelle</ref>
         </note>
       </correspDesc>
       <textClass>

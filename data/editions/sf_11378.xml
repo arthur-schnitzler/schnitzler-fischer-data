@@ -50,18 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb32131" source="https://pmb.acdh.oeaw.ac.at/entity/32131/">
-            <title>Spiel im Morgengrauen</title>
-          </bibl>
-          <bibl ref="#pmb30817" source="https://pmb.acdh.oeaw.ac.at/entity/30817/">
-            <title>Therese. Chronik eines Frauenlebens</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb76938" source="https://pmb.acdh.oeaw.ac.at/entity/76938/">
-            <title>Jakob Wassermann: Der Fall Maurizius</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
@@ -89,6 +78,9 @@ Antwort auf: <ref target="11375">1928-02-15 SF (Berlin) an AS (Wien)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11378.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32131">Spiel im Morgengrauen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30817">Therese. Chronik eines Frauenlebens</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb76938">Jakob Wassermann: Der Fall Maurizius</ref>
         </note>
       </correspDesc>
       <textClass>

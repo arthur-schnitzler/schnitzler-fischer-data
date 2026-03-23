@@ -57,15 +57,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30219" source="https://pmb.acdh.oeaw.ac.at/entity/30219/">
-            <title>Das Vermächtnis</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb33083" source="https://pmb.acdh.oeaw.ac.at/entity/33083/">
-            <title>Leo Feld (Ps. Leo Hirschfeld): Die Lumpen</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten beschrieben
@@ -92,6 +84,8 @@ Beantwortet in: 1898-11-15post/1898-11-23ante AS an SF (Honorar 'Kakadu'; nicht 
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12968">Trebitsch, Siegfried</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10084.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30219">Das Vermächtnis</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb33083">Leo Feld (Ps. Leo Hirschfeld): Die Lumpen</ref>
         </note>
       </correspDesc>
       <textClass>

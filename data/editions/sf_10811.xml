@@ -50,11 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb33754" source="https://pmb.acdh.oeaw.ac.at/entity/33754/">
-            <title>Der Mörder</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb118088" source="https://pmb.acdh.oeaw.ac.at/entity/118088/">
             <orgName>Karczag-Verlag (Wien)</orgName>
@@ -63,7 +58,7 @@
             <orgName>Verlag Paul Knepler (Wien)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite</note>
@@ -87,6 +82,7 @@
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb19465">Knepler, Paul</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10811.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb33754">Der Mörder</ref>
         </note>
       </correspDesc>
       <textClass>

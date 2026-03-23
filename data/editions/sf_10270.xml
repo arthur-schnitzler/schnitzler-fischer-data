@@ -57,24 +57,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
-            <title>Anatol</title>
-          </bibl>
-          <bibl ref="#pmb29857" source="https://pmb.acdh.oeaw.ac.at/entity/29857/">
-            <title>Der Schleier der Beatrice</title>
-          </bibl>
-          <bibl ref="#pmb29865" source="https://pmb.acdh.oeaw.ac.at/entity/29865/">
-            <title>Die Frau mit dem Dolche</title>
-          </bibl>
-          <bibl ref="#pmb29863" source="https://pmb.acdh.oeaw.ac.at/entity/29863/">
-            <title>Lebendige Stunden</title>
-          </bibl>
-          <bibl type="journal" ref="715786-1" source="https://ld.zdb-services.de/resource/715786-1">
-            <title>The fortnightly review</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten beschrieben
@@ -101,6 +84,11 @@ Anlage: Scheck von Horace Samuel (nicht überliefert)</note>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb224">London</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10270.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29935">Anatol</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29857">Der Schleier der Beatrice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29865">Die Frau mit dem Dolche</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29863">Lebendige Stunden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="715786-1">The fortnightly review</ref>
         </note>
       </correspDesc>
       <textClass>

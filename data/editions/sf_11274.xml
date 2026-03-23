@@ -50,38 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30971" source="https://pmb.acdh.oeaw.ac.at/entity/30971/">
-            <title>Casanovas Heimfahrt</title>
-          </bibl>
-          <bibl ref="#pmb30649" source="https://pmb.acdh.oeaw.ac.at/entity/30649/">
-            <title>Der blinde Geronimo und sein Bruder</title>
-          </bibl>
-          <bibl ref="#pmb30051" source="https://pmb.acdh.oeaw.ac.at/entity/30051/">
-            <title>Der Geist im Wort und der Geist in der Tat</title>
-          </bibl>
-          <bibl ref="#pmb33061" source="https://pmb.acdh.oeaw.ac.at/entity/33061/">
-            <title>Die dreifache Warnung</title>
-          </bibl>
-          <bibl ref="#pmb30751" source="https://pmb.acdh.oeaw.ac.at/entity/30751/">
-            <title>Die Frau des Richters</title>
-          </bibl>
-          <bibl ref="#pmb30819" source="https://pmb.acdh.oeaw.ac.at/entity/30819/">
-            <title>Die Schwestern oder Casanova in Spa</title>
-          </bibl>
-          <bibl ref="#pmb29941" source="https://pmb.acdh.oeaw.ac.at/entity/29941/">
-            <title>Fräulein Else</title>
-          </bibl>
-          <bibl ref="#pmb32131" source="https://pmb.acdh.oeaw.ac.at/entity/32131/">
-            <title>Spiel im Morgengrauen</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="institution" ref="1049680723" source="https://d-nb.info/gnd/1049680723">
             <orgName>University of California</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten</note>
@@ -111,6 +85,14 @@
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11274.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30971">Casanovas Heimfahrt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30649">Der blinde Geronimo und sein Bruder</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30051">Der Geist im Wort und der Geist in der Tat</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb33061">Die dreifache Warnung</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30751">Die Frau des Richters</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30819">Die Schwestern oder Casanova in Spa</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29941">Fräulein Else</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32131">Spiel im Morgengrauen</ref>
         </note>
       </correspDesc>
       <textClass>

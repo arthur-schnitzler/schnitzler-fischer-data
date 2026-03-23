@@ -50,17 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30181" source="https://pmb.acdh.oeaw.ac.at/entity/30181/">
-            <title>Anfang vom Ende</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="institution" ref="#pmb89714" source="https://pmb.acdh.oeaw.ac.at/entity/89714/">
             <orgName>International Copyright Bureau Ltd. (London)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
@@ -90,6 +85,7 @@ Anhang 2: Brief 1931-09-07 Heilbron, XX (London) an SF (Berlin), englische Auff√
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb224">London</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11704.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30181">Anfang vom Ende</ref>
         </note>
       </correspDesc>
       <textClass>

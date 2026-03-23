@@ -57,17 +57,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl type="journal" ref="#pmb36152" source="https://pmb.acdh.oeaw.ac.at/entity/36152/">
-            <title>Neue Deutsche Rundschau</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb10186309-3" source="https://pmb.acdh.oeaw.ac.at/entity/10186309-3/">
             <orgName>Theaterverlag Eduard Bloch</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">3 Blatt, 4 Seiten beschrieben (Schluss, Bl. 3v, nicht digitalisiert, aber auf Digitalisat 3r durchschlagend zu erkennen)
@@ -96,6 +91,7 @@ Antwort auf: 1903-06-26post/1903-07-24ante AS an SF (sommerliche Reisepläne, po
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10123.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb36152">Neue Deutsche Rundschau</ref>
         </note>
       </correspDesc>
       <textClass>

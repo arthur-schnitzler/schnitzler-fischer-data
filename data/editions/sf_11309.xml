@@ -50,15 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl type="third_party" ref="#pmb77100" source="https://pmb.acdh.oeaw.ac.at/entity/77100/">
-            <title>Georg Bernard Shaw: Die heilige Johanna (Saint Joan, dt.)</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb80603" source="https://pmb.acdh.oeaw.ac.at/entity/80603/">
-            <title>Wolfgang Goetz: Neithardt von Gneisenau</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
@@ -100,6 +92,8 @@ Brief Nr. 806</note>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb57345">Schauspielhaus Leipzig</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11309.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb77100">Georg Bernard Shaw: Die heilige Johanna (Saint Joan, dt.)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb80603">Wolfgang Goetz: Neithardt von Gneisenau</ref>
         </note>
       </correspDesc>
       <textClass>

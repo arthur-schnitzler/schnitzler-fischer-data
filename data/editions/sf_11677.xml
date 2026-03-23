@@ -50,17 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30717" source="https://pmb.acdh.oeaw.ac.at/entity/30717/">
-            <title>Komödie der Worte</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="institution" ref="#pmb29397" source="https://pmb.acdh.oeaw.ac.at/entity/29397/">
             <orgName>Société des Auteurs et Compositeurs Dramatiques (Paris)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
@@ -86,6 +81,7 @@ Anlage: Formular auf französisch zum Ausfüllen</note>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb6369">Boner, Georgette</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11677.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30717">Komödie der Worte</ref>
         </note>
       </correspDesc>
       <textClass>

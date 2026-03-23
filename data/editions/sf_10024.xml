@@ -57,30 +57,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb31975" source="https://pmb.acdh.oeaw.ac.at/entity/31975/">
-            <title>Die kleine Komödie</title>
-          </bibl>
-          <bibl ref="#pmb30117" source="https://pmb.acdh.oeaw.ac.at/entity/30117/">
-            <title>Sterben</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb39562" source="https://pmb.acdh.oeaw.ac.at/entity/39562/">
-            <title>Allgemeine Zeitung (München)</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb40968" source="https://pmb.acdh.oeaw.ac.at/entity/40968/">
-            <title>Das Magazin für Litteratur (Magazin für die Literatur des Auslandes)</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb144228" source="https://pmb.acdh.oeaw.ac.at/entity/144228/">
-            <title>Kölnische Zeitung</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb36152" source="https://pmb.acdh.oeaw.ac.at/entity/36152/">
-            <title>Neue Deutsche Rundschau</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb41264" source="https://pmb.acdh.oeaw.ac.at/entity/41264/">
-            <title>Wiener Abendpost</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten beschrieben
@@ -105,6 +82,13 @@ Antwort auf: 1895-03-25post/1895-04-01ante AS an SF (Rezensionen zu 'Sterben', A
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4785">Zasche, Theodor</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10024.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb31975">Die kleine Komödie</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30117">Sterben</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb39562">Allgemeine Zeitung (München)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb40968">Das Magazin für Litteratur (Magazin für die Literatur des Auslandes)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb144228">Kölnische Zeitung</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb36152">Neue Deutsche Rundschau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb41264">Wiener Abendpost</ref>
         </note>
       </correspDesc>
       <textClass>

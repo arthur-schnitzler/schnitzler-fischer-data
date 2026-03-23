@@ -49,18 +49,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30971" source="https://pmb.acdh.oeaw.ac.at/entity/30971/">
-            <title>Casanovas Heimfahrt</title>
-          </bibl>
-          <bibl ref="#pmb30819" source="https://pmb.acdh.oeaw.ac.at/entity/30819/">
-            <title>Die Schwestern oder Casanova in Spa</title>
-          </bibl>
-          <bibl ref="#pmb30881" source="https://pmb.acdh.oeaw.ac.at/entity/30881/">
-            <title>Fink und Fliederbusch</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
@@ -81,6 +70,11 @@ Beantwortet in: 1931-04-31 SF (Berlin) an AS (Wien)</note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30971">Casanovas Heimfahrt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30819">Die Schwestern oder Casanova in Spa</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30881">Fink und Fliederbusch</ref>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>

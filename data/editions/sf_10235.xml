@@ -57,17 +57,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29865" source="https://pmb.acdh.oeaw.ac.at/entity/29865/">
-            <title>Die Frau mit dem Dolche</title>
-          </bibl>
-          <bibl ref="#pmb29863" source="https://pmb.acdh.oeaw.ac.at/entity/29863/">
-            <title>Lebendige Stunden</title>
-          </bibl>
-          <bibl type="journal" ref="715786-1" source="https://ld.zdb-services.de/resource/715786-1">
-            <title>The fortnightly review</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb29557" source="https://pmb.acdh.oeaw.ac.at/entity/29557/">
             <orgName>A. Entsch (Wien)</orgName>
@@ -76,7 +65,7 @@
             <orgName>Theaterverlag Eduard Bloch</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten beschrieben
@@ -104,6 +93,9 @@ Beantwortet in: <ref target="10236">1908-10-01 AS an SF</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2871">Entsch, Theodor</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10235.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29865">Die Frau mit dem Dolche</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29863">Lebendige Stunden</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="715786-1">The fortnightly review</ref>
         </note>
       </correspDesc>
       <textClass>

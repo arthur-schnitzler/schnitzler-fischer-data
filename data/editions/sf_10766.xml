@@ -50,53 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30971" source="https://pmb.acdh.oeaw.ac.at/entity/30971/">
-            <title>Casanovas Heimfahrt</title>
-          </bibl>
-          <bibl ref="#pmb29985" source="https://pmb.acdh.oeaw.ac.at/entity/29985/">
-            <title>Der einsame Weg</title>
-          </bibl>
-          <bibl ref="#pmb29937" source="https://pmb.acdh.oeaw.ac.at/entity/29937/">
-            <title>Der junge Medardus</title>
-          </bibl>
-          <bibl ref="#pmb29857" source="https://pmb.acdh.oeaw.ac.at/entity/29857/">
-            <title>Der Schleier der Beatrice</title>
-          </bibl>
-          <bibl ref="#pmb29923" source="https://pmb.acdh.oeaw.ac.at/entity/29923/">
-            <title>Der Weg ins Freie</title>
-          </bibl>
-          <bibl ref="#pmb30167" source="https://pmb.acdh.oeaw.ac.at/entity/30167/">
-            <title>Die griechische Tänzerin</title>
-          </bibl>
-          <bibl ref="#pmb32133" source="https://pmb.acdh.oeaw.ac.at/entity/32133/">
-            <title>Frau Beate und ihr Sohn</title>
-          </bibl>
-          <bibl ref="#pmb30486" source="https://pmb.acdh.oeaw.ac.at/entity/30486/">
-            <title>Frau Bertha Garlan</title>
-          </bibl>
-          <bibl ref="#pmb30717" source="https://pmb.acdh.oeaw.ac.at/entity/30717/">
-            <title>Komödie der Worte</title>
-          </bibl>
-          <bibl ref="#pmb29853" source="https://pmb.acdh.oeaw.ac.at/entity/29853/">
-            <title>Lieutenant Gustl</title>
-          </bibl>
-          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
-            <title>Professor Bernhardi</title>
-          </bibl>
-          <bibl ref="#pmb30117" source="https://pmb.acdh.oeaw.ac.at/entity/30117/">
-            <title>Sterben</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb36156" source="https://pmb.acdh.oeaw.ac.at/entity/36156/">
-            <title>Die neue Rundschau</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="institution" ref="1072959488" source="https://d-nb.info/gnd/1072959488">
             <orgName>Friese &amp; Lang (Buchhandel, Wien)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">5 Blatt, 5 Seiten
@@ -125,6 +84,19 @@ Antwort auf: <ref target="10765">1920-07-05 AS (Wien) an SF (Berlin)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10766.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30971">Casanovas Heimfahrt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29985">Der einsame Weg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29937">Der junge Medardus</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29857">Der Schleier der Beatrice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29923">Der Weg ins Freie</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30167">Die griechische Tänzerin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32133">Frau Beate und ihr Sohn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30486">Frau Bertha Garlan</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30717">Komödie der Worte</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29853">Lieutenant Gustl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30203">Professor Bernhardi</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30117">Sterben</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb36156">Die neue Rundschau</ref>
         </note>
       </correspDesc>
       <textClass>

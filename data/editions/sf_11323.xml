@@ -50,23 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30649" source="https://pmb.acdh.oeaw.ac.at/entity/30649/">
-            <title>Der blinde Geronimo und sein Bruder</title>
-          </bibl>
-          <bibl ref="#pmb30775" source="https://pmb.acdh.oeaw.ac.at/entity/30775/">
-            <title>Der Gang zum Weiher</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb33247" source="https://pmb.acdh.oeaw.ac.at/entity/33247/">
-            <title>Thomas Mann: Der Zauberberg</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="institution" ref="#pmb29441" source="https://pmb.acdh.oeaw.ac.at/entity/29441/">
             <orgName>Ravag (Radio-Verkehrs-Aktiengesellschaft)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten
@@ -100,6 +89,9 @@ Beantwortet in: <ref target="11324">1927-07-09 AS (Wien) an SF (Berlin)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11323.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30649">Der blinde Geronimo und sein Bruder</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30775">Der Gang zum Weiher</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb33247">Thomas Mann: Der Zauberberg</ref>
         </note>
       </correspDesc>
       <textClass>

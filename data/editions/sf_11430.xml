@@ -50,29 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb335709">
-            <title>Die Alternden (Novellensammlung)</title>
-          </bibl>
-          <bibl ref="#pmb168310" source="https://pmb.acdh.oeaw.ac.at/entity/168310/">
-            <title>Die Erwachenden (Novellensammlung)</title>
-          </bibl>
-          <bibl ref="#pmb30486" source="https://pmb.acdh.oeaw.ac.at/entity/30486/">
-            <title>Frau Bertha Garlan</title>
-          </bibl>
-          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
-            <title>Reigen</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb41531" source="https://pmb.acdh.oeaw.ac.at/entity/41531/">
-            <title>Berliner Tageblatt</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb146179" source="https://pmb.acdh.oeaw.ac.at/entity/146179/">
             <orgName>Benjamin Harz Verlag (Berlin, Wien)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">3 Blatt, 3 Seiten
@@ -102,6 +85,11 @@ Beantwortet in: <ref target="11432">1928-07-14 AS (Wien) an SF (Berlin)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13055">Wassermann, Jakob</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11430.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb335709">Die Alternden (Novellensammlung)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb168310">Die Erwachenden (Novellensammlung)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30486">Frau Bertha Garlan</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb41531">Berliner Tageblatt</ref>
         </note>
       </correspDesc>
       <textClass>

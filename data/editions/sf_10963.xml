@@ -50,47 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30033" source="https://pmb.acdh.oeaw.ac.at/entity/30033/">
-            <title>Anatol: Anatols Hochzeitsmorgen</title>
-          </bibl>
-          <bibl ref="#pmb30349" source="https://pmb.acdh.oeaw.ac.at/entity/30349/">
-            <title>Das Tagebuch der Redegonda</title>
-          </bibl>
-          <bibl ref="#pmb30649" source="https://pmb.acdh.oeaw.ac.at/entity/30649/">
-            <title>Der blinde Geronimo und sein Bruder</title>
-          </bibl>
-          <bibl ref="#pmb29985" source="https://pmb.acdh.oeaw.ac.at/entity/29985/">
-            <title>Der einsame Weg</title>
-          </bibl>
-          <bibl ref="#pmb29843" source="https://pmb.acdh.oeaw.ac.at/entity/29843/">
-            <title>Der grüne Kakadu</title>
-          </bibl>
-          <bibl ref="#pmb29923" source="https://pmb.acdh.oeaw.ac.at/entity/29923/">
-            <title>Der Weg ins Freie</title>
-          </bibl>
-          <bibl ref="#pmb29877" source="https://pmb.acdh.oeaw.ac.at/entity/29877/">
-            <title>Die letzten Masken</title>
-          </bibl>
-          <bibl ref="#pmb29833" source="https://pmb.acdh.oeaw.ac.at/entity/29833/">
-            <title>Die Toten schweigen</title>
-          </bibl>
-          <bibl ref="#pmb30201" source="https://pmb.acdh.oeaw.ac.at/entity/30201/">
-            <title>Doktor Gräsler, Badearzt</title>
-          </bibl>
-          <bibl ref="#pmb33776" source="https://pmb.acdh.oeaw.ac.at/entity/33776/">
-            <title>Dämmerseele</title>
-          </bibl>
-          <bibl ref="#pmb33806" source="https://pmb.acdh.oeaw.ac.at/entity/33806/">
-            <title>Ein Abschied</title>
-          </bibl>
-          <bibl ref="#pmb29931" source="https://pmb.acdh.oeaw.ac.at/entity/29931/">
-            <title>Komtesse Mizzi</title>
-          </bibl>
-          <bibl ref="#pmb30117" source="https://pmb.acdh.oeaw.ac.at/entity/30117/">
-            <title>Sterben</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb29586" source="https://pmb.acdh.oeaw.ac.at/entity/29586/">
             <orgName>Brandt &amp; Kirkpatrick (New York)</orgName>
@@ -99,7 +58,7 @@
             <orgName>USA. Alien Property Custodian</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten</note>
@@ -127,6 +86,19 @@
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10963.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30033">Anatol: Anatols Hochzeitsmorgen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30349">Das Tagebuch der Redegonda</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30649">Der blinde Geronimo und sein Bruder</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29985">Der einsame Weg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29843">Der grüne Kakadu</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29923">Der Weg ins Freie</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29877">Die letzten Masken</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29833">Die Toten schweigen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30201">Doktor Gräsler, Badearzt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb33776">Dämmerseele</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb33806">Ein Abschied</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29931">Komtesse Mizzi</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30117">Sterben</ref>
         </note>
       </correspDesc>
       <textClass>
@@ -276,7 +248,7 @@ Uudestämät.<lb/>
 Lääneissä yleisestä<lb/>
 H<lb/>
 E,E,L, O + oE<lb/>
-F. R. â<lb/>
+F. R. â&#x96;<lb/>
 a + u o u n o ui n i<lb/>
 V 0<lb/>
 rævätä ai saakkeen<lb/>
@@ -293,7 +265,7 @@ P.S.<lb/>
 a. „ — 0<lb/>
 r<lb/>
 „ s „ r<lb/>
-T. â¢ —<lb/>
+T. â&#x80;¢ —<lb/>
 — — — » » — » —<lb/>
 O O<lb/>
 ilmoitetaan sekä<lb/>
@@ -517,7 +489,7 @@ Pr<lb/>
 Höystäitä<lb/>
 P.<lb/>
 "F<lb/>
-P &amp; N â<lb/>
+P &amp; N â&#x80;&#x94;<lb/>
 soe<lb/>
 = s<lb/>
 B &amp; D O -<lb/>
@@ -575,7 +547,7 @@ ii. s. m<lb/>
 E. E.<lb/>
 G O G<lb/>
 Päivä läänistä, maa-<lb/>
-â. —<lb/>
+â&#x80;&#x94;. —<lb/>
 Eläs-<lb/>
 G<lb/>
 G P N<lb/>

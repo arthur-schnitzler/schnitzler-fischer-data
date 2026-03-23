@@ -50,29 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30201" source="https://pmb.acdh.oeaw.ac.at/entity/30201/">
-            <title>Doktor Gräsler, Badearzt</title>
-          </bibl>
-          <bibl ref="#pmb29853" source="https://pmb.acdh.oeaw.ac.at/entity/29853/">
-            <title>Lieutenant Gustl</title>
-          </bibl>
-          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
-            <title>Reigen</title>
-          </bibl>
-          <bibl ref="#pmb30851" source="https://pmb.acdh.oeaw.ac.at/entity/30851/">
-            <title>Traumnovelle</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb52605" source="https://pmb.acdh.oeaw.ac.at/entity/52605/">
-            <title>Vossische Zeitung</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb29681" source="https://pmb.acdh.oeaw.ac.at/entity/29681/">
             <orgName>Ullstein Verlag (Berlin)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
@@ -98,6 +81,11 @@ Antwort auf: <ref target="11607">1930-12-11 SF (Berlin) an AS (Wien)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11995">Krell, Max</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11608.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30201">Doktor Gräsler, Badearzt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29853">Lieutenant Gustl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30851">Traumnovelle</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb52605">Vossische Zeitung</ref>
         </note>
       </correspDesc>
       <textClass>

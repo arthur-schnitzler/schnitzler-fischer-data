@@ -50,15 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30005" source="https://pmb.acdh.oeaw.ac.at/entity/30005/">
-            <title>Anatol: Abschiedssouper</title>
-          </bibl>
-          <bibl ref="#pmb30033" source="https://pmb.acdh.oeaw.ac.at/entity/30033/">
-            <title>Anatol: Anatols Hochzeitsmorgen</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
@@ -86,6 +78,8 @@ ist hier das verlinkte Telegramm gemeint, oder anderer Brief?</note>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb336033">Hebbeltheater (Theater in der Königgrätzer Straße) Berlin</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10610.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30005">Anatol: Abschiedssouper</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30033">Anatol: Anatols Hochzeitsmorgen</ref>
         </note>
       </correspDesc>
       <textClass>

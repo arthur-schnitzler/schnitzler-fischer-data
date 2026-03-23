@@ -50,11 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30817" source="https://pmb.acdh.oeaw.ac.at/entity/30817/">
-            <title>Therese. Chronik eines Frauenlebens</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher">
             <orgName>Anton Kodym (Prag)</orgName>
@@ -63,7 +58,7 @@
             <orgName>Paul Zsolnay Verlag (Wien)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
@@ -92,6 +87,7 @@ Beantwortet in: 1928-11-14 AS (Wien) an SF (Berlin)</note>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43430">Tschechien</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11450.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30817">Therese. Chronik eines Frauenlebens</ref>
         </note>
       </correspDesc>
       <textClass>

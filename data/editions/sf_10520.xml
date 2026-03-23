@@ -50,30 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29865" source="https://pmb.acdh.oeaw.ac.at/entity/29865/">
-            <title>Die Frau mit dem Dolche</title>
-          </bibl>
-          <bibl ref="#pmb29845" source="https://pmb.acdh.oeaw.ac.at/entity/29845/">
-            <title>Die Gefährtin</title>
-          </bibl>
-          <bibl ref="#pmb30881" source="https://pmb.acdh.oeaw.ac.at/entity/30881/">
-            <title>Fink und Fliederbusch</title>
-          </bibl>
-          <bibl ref="#pmb29853" source="https://pmb.acdh.oeaw.ac.at/entity/29853/">
-            <title>Lieutenant Gustl</title>
-          </bibl>
-          <bibl ref="#pmb32816" source="https://pmb.acdh.oeaw.ac.at/entity/32816/">
-            <title>Masken und Wunder</title>
-          </bibl>
-          <bibl ref="#pmb30403" source="https://pmb.acdh.oeaw.ac.at/entity/30403/">
-            <title>Paracelsus</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb77835" source="https://pmb.acdh.oeaw.ac.at/entity/77835/">
-            <title>Tristan Bernard: Les deux canards</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten beschrieben
@@ -107,6 +84,13 @@ Antwort auf: <ref target="10519">1914-02-18 SF (Berlin) an AS (Wien)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10520.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29865">Die Frau mit dem Dolche</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29845">Die Gefährtin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30881">Fink und Fliederbusch</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29853">Lieutenant Gustl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32816">Masken und Wunder</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30403">Paracelsus</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb77835">Tristan Bernard: Les deux canards</ref>
         </note>
       </correspDesc>
       <textClass>

@@ -50,18 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29985" source="https://pmb.acdh.oeaw.ac.at/entity/29985/">
-            <title>Der einsame Weg</title>
-          </bibl>
-          <bibl ref="#pmb29937" source="https://pmb.acdh.oeaw.ac.at/entity/29937/">
-            <title>Der junge Medardus</title>
-          </bibl>
-          <bibl ref="#pmb30213" source="https://pmb.acdh.oeaw.ac.at/entity/30213/">
-            <title>Die Hirtenflöte</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten beschrieben
@@ -95,6 +84,9 @@ Beantwortet in: <ref target="10384">1911-06-02 SF an AS</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb55522">Schauspielhaus Berlin</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10383.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29985">Der einsame Weg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29937">Der junge Medardus</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30213">Die Hirtenflöte</ref>
         </note>
       </correspDesc>
       <textClass>

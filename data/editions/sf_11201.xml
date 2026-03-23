@@ -50,20 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30775" source="https://pmb.acdh.oeaw.ac.at/entity/30775/">
-            <title>Der Gang zum Weiher</title>
-          </bibl>
-          <bibl ref="#pmb30751" source="https://pmb.acdh.oeaw.ac.at/entity/30751/">
-            <title>Die Frau des Richters</title>
-          </bibl>
-          <bibl ref="#pmb30851" source="https://pmb.acdh.oeaw.ac.at/entity/30851/">
-            <title>Traumnovelle</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb52605" source="https://pmb.acdh.oeaw.ac.at/entity/52605/">
-            <title>Vossische Zeitung</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb36907" source="https://pmb.acdh.oeaw.ac.at/entity/36907/">
             <orgName>Paul Zsolnay Verlag (Wien)</orgName>
@@ -72,7 +58,7 @@
             <orgName>Ullstein Verlag (Berlin)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
@@ -98,6 +84,10 @@ Antwort auf: <ref target="11200">1925-10-28 SF (Berlin) an AS (Wien)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4374">Maril, Konrad</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11201.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30775">Der Gang zum Weiher</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30751">Die Frau des Richters</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30851">Traumnovelle</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb52605">Vossische Zeitung</ref>
         </note>
       </correspDesc>
       <textClass>

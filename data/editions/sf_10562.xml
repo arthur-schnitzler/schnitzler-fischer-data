@@ -57,14 +57,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30649" source="https://pmb.acdh.oeaw.ac.at/entity/30649/">
-            <title>Der blinde Geronimo und sein Bruder</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb41531" source="https://pmb.acdh.oeaw.ac.at/entity/41531/">
-            <title>Berliner Tageblatt</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="institution" ref="#pmb43466" source="https://pmb.acdh.oeaw.ac.at/entity/43466/">
             <orgName>Internationales Komitee vom Roten Kreuz</orgName>
@@ -73,7 +65,7 @@
             <orgName>Kriegsministerium (Berlin)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten beschrieben
@@ -101,6 +93,8 @@ Beantwortet in: <ref target="10563">1915-05-22 AS an SF</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10562.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30649">Der blinde Geronimo und sein Bruder</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb41531">Berliner Tageblatt</ref>
         </note>
       </correspDesc>
       <textClass>

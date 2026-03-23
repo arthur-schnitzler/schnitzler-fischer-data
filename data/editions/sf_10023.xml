@@ -56,21 +56,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30117" source="https://pmb.acdh.oeaw.ac.at/entity/30117/">
-            <title>Sterben</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb92648" source="https://pmb.acdh.oeaw.ac.at/entity/92648/">
-            <title>Journal des débats</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb36152" source="https://pmb.acdh.oeaw.ac.at/entity/36152/">
-            <title>Neue Deutsche Rundschau</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb41264" source="https://pmb.acdh.oeaw.ac.at/entity/41264/">
-            <title>Wiener Abendpost</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten beschrieben
@@ -93,6 +79,12 @@ Beantwortet in: 1895-03-25post/1895-04-01ante AS an SF (Rezensionen zu 'Sterben'
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30117">Sterben</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb92648">Journal des débats</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb36152">Neue Deutsche Rundschau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb41264">Wiener Abendpost</ref>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>

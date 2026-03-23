@@ -50,20 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb32131" source="https://pmb.acdh.oeaw.ac.at/entity/32131/">
-            <title>Spiel im Morgengrauen</title>
-          </bibl>
-          <bibl ref="#pmb30851" source="https://pmb.acdh.oeaw.ac.at/entity/30851/">
-            <title>Traumnovelle</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher">
             <orgName>E. Jespersens Forlag (Kopenhagen)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
@@ -88,6 +80,8 @@ Beilage: Jespersen an SF 1927-04-09</note>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43570">Dänemark</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11298.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32131">Spiel im Morgengrauen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30851">Traumnovelle</ref>
         </note>
       </correspDesc>
       <textClass>

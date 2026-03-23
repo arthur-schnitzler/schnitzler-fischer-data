@@ -57,27 +57,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
-            <title>Anatol</title>
-          </bibl>
-          <bibl ref="#pmb29823" source="https://pmb.acdh.oeaw.ac.at/entity/29823/">
-            <title>Das Märchen</title>
-          </bibl>
-          <bibl ref="#pmb30075" source="https://pmb.acdh.oeaw.ac.at/entity/30075/">
-            <title>Die Frau des Weisen</title>
-          </bibl>
-          <bibl ref="#pmb29853" source="https://pmb.acdh.oeaw.ac.at/entity/29853/">
-            <title>Lieutenant Gustl</title>
-          </bibl>
-          <bibl ref="#pmb296461" source="https://pmb.acdh.oeaw.ac.at/entity/296461/">
-            <title>Lieutenant Gustl (frz.)</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb296465" source="https://pmb.acdh.oeaw.ac.at/entity/296465/">
-            <title>La Revue politique et littéraire (La Revue bleue)</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten beschrieben
@@ -105,6 +85,12 @@ Antwort auf: 1901-10-25ante AS an SF (Absatz 'Anatol'; Freiexemplare 'Frau des W
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb26414">Vaucaire, Maurice</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10117.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29935">Anatol</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29823">Das Märchen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30075">Die Frau des Weisen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29853">Lieutenant Gustl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb296461">Lieutenant Gustl (frz.)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb296465">La Revue politique et littéraire (La Revue bleue)</ref>
         </note>
       </correspDesc>
       <textClass>

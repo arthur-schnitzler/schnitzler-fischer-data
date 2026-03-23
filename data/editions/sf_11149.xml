@@ -49,12 +49,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30863" source="https://pmb.acdh.oeaw.ac.at/entity/30863/">
-            <title>Flucht in die Finsternis</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten
@@ -75,6 +70,9 @@ wohl Beilage zum Brief vom gleichen Datum</note>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30863">Flucht in die Finsternis</ref>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>

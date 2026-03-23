@@ -57,21 +57,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29923" source="https://pmb.acdh.oeaw.ac.at/entity/29923/">
-            <title>Der Weg ins Freie</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb36156" source="https://pmb.acdh.oeaw.ac.at/entity/36156/">
-            <title>Die neue Rundschau</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb335732">
-            <title>Georg Hirschfeld: Der Wirt von Veladuz</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb78060" source="https://pmb.acdh.oeaw.ac.at/entity/78060/">
-            <title>Johannes Vilhelm Jensen: Das Rad (Hjulet, dt.)</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten beschrieben
@@ -101,6 +87,10 @@ Beantwortet in: 1908-03-28post/1908-04-09ante AS an SF (Hartleben-Briefe, Einban
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb34438">Russland</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10213.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29923">Der Weg ins Freie</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb36156">Die neue Rundschau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb335732">Georg Hirschfeld: Der Wirt von Veladuz</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb78060">Johannes Vilhelm Jensen: Das Rad (Hjulet, dt.)</ref>
         </note>
       </correspDesc>
       <textClass>

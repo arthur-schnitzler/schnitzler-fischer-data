@@ -56,23 +56,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30075" source="https://pmb.acdh.oeaw.ac.at/entity/30075/">
-            <title>Die Frau des Weisen</title>
-          </bibl>
-          <bibl ref="#pmb33806" source="https://pmb.acdh.oeaw.ac.at/entity/33806/">
-            <title>Ein Abschied</title>
-          </bibl>
-          <bibl type="journal" ref="515602-6" source="https://ld.zdb-services.de/resource/515602-6">
-            <title>Deutscher Novellenschatz</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="5193995-2" source="https://d-nb.info/gnd/5193995-2">
             <orgName>Frankenstein &amp; Wagner (Leipzig)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite beschrieben
@@ -93,6 +82,11 @@ Antwort auf: 1896-11-28post/1896-12-01ante AS an SF ('Frankensteinische Sammlung
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30075">Die Frau des Weisen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb33806">Ein Abschied</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="515602-6">Deutscher Novellenschatz</ref>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>

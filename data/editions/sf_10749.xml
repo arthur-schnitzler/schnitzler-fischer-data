@@ -50,26 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29923" source="https://pmb.acdh.oeaw.ac.at/entity/29923/">
-            <title>Der Weg ins Freie</title>
-          </bibl>
-          <bibl ref="#pmb30075" source="https://pmb.acdh.oeaw.ac.at/entity/30075/">
-            <title>Die Frau des Weisen</title>
-          </bibl>
-          <bibl ref="#pmb29921" source="https://pmb.acdh.oeaw.ac.at/entity/29921/">
-            <title>Dämmerseelen</title>
-          </bibl>
-          <bibl ref="#pmb29899" source="https://pmb.acdh.oeaw.ac.at/entity/29899/">
-            <title>Freiwild</title>
-          </bibl>
-          <bibl ref="#pmb29859" source="https://pmb.acdh.oeaw.ac.at/entity/29859/">
-            <title>Marionetten</title>
-          </bibl>
-          <bibl ref="#pmb32816" source="https://pmb.acdh.oeaw.ac.at/entity/32816/">
-            <title>Masken und Wunder</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="1087495962" source="https://d-nb.info/gnd/1087495962">
             <orgName>Athenaeum (Budapest)</orgName>
@@ -81,7 +61,7 @@
             <orgName>Kurt Wolff Verlag (Leipzig, München)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">6 Blatt, 6 Seiten
@@ -117,6 +97,12 @@ Beantwortet in: <ref target="10751">1920-05-01 AS (Wien) an SF (Berlin)</ref> un
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10749.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29923">Der Weg ins Freie</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30075">Die Frau des Weisen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29921">Dämmerseelen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29899">Freiwild</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29859">Marionetten</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32816">Masken und Wunder</ref>
         </note>
       </correspDesc>
       <textClass>

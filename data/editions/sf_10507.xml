@@ -50,26 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb32133" source="https://pmb.acdh.oeaw.ac.at/entity/32133/">
-            <title>Frau Beate und ihr Sohn</title>
-          </bibl>
-          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
-            <title>Professor Bernhardi</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb77546" source="https://pmb.acdh.oeaw.ac.at/entity/77546/">
-            <title>Carl Rössler: Die fünf Frankfurter</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb81159" source="https://pmb.acdh.oeaw.ac.at/entity/81159/">
-            <title>Theodor Reik: Arthur Schnitzler als Psycholog</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="institution" ref="5155469-0" source="https://d-nb.info/gnd/5155469-0">
             <orgName>Hugo Baruch &amp; Cie., Hoflieferanten (Berlin)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten beschrieben
@@ -99,6 +85,10 @@ Beantwortet in: 1913-06-05 und 1913-06-16 SF/EPT an AS</note>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10507.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32133">Frau Beate und ihr Sohn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30203">Professor Bernhardi</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb77546">Carl Rössler: Die fünf Frankfurter</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb81159">Theodor Reik: Arthur Schnitzler als Psycholog</ref>
         </note>
       </correspDesc>
       <textClass>

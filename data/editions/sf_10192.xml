@@ -57,17 +57,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29923" source="https://pmb.acdh.oeaw.ac.at/entity/29923/">
-            <title>Der Weg ins Freie</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb36156" source="https://pmb.acdh.oeaw.ac.at/entity/36156/">
-            <title>Die neue Rundschau</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb60890" source="https://pmb.acdh.oeaw.ac.at/entity/60890/">
-            <title>Edward Stilgebauer: Götz Krafft</title>
-          </bibl>
-        </listBibl>
         <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-10-10.html">Tgb 1907-10-10</ref>
       </sourceDesc>
       <notesStmt>
@@ -94,6 +83,9 @@ Rückbezug auf: <ref target="10190">1907-09-16 AS an SF</ref> (Honorar 'Weg ins 
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10039">Stilgebauer, Edward</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10192.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29923">Der Weg ins Freie</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb36156">Die neue Rundschau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb60890">Edward Stilgebauer: Götz Krafft</ref>
         </note>
       </correspDesc>
       <textClass>

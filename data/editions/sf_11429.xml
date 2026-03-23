@@ -50,56 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30971" source="https://pmb.acdh.oeaw.ac.at/entity/30971/">
-            <title>Casanovas Heimfahrt</title>
-          </bibl>
-          <bibl ref="#pmb335709">
-            <title>Die Alternden (Novellensammlung)</title>
-          </bibl>
-          <bibl ref="#pmb168310" source="https://pmb.acdh.oeaw.ac.at/entity/168310/">
-            <title>Die Erwachenden (Novellensammlung)</title>
-          </bibl>
-          <bibl ref="#pmb30751" source="https://pmb.acdh.oeaw.ac.at/entity/30751/">
-            <title>Die Frau des Richters</title>
-          </bibl>
-          <bibl ref="#pmb30213" source="https://pmb.acdh.oeaw.ac.at/entity/30213/">
-            <title>Die Hirtenflöte</title>
-          </bibl>
-          <bibl ref="#pmb30201" source="https://pmb.acdh.oeaw.ac.at/entity/30201/">
-            <title>Doktor Gräsler, Badearzt</title>
-          </bibl>
-          <bibl ref="#pmb32133" source="https://pmb.acdh.oeaw.ac.at/entity/32133/">
-            <title>Frau Beate und ihr Sohn</title>
-          </bibl>
-          <bibl ref="#pmb30486" source="https://pmb.acdh.oeaw.ac.at/entity/30486/">
-            <title>Frau Bertha Garlan</title>
-          </bibl>
-          <bibl ref="#pmb29941" source="https://pmb.acdh.oeaw.ac.at/entity/29941/">
-            <title>Fräulein Else</title>
-          </bibl>
-          <bibl ref="#pmb30117" source="https://pmb.acdh.oeaw.ac.at/entity/30117/">
-            <title>Sterben</title>
-          </bibl>
-          <bibl ref="#pmb30851" source="https://pmb.acdh.oeaw.ac.at/entity/30851/">
-            <title>Traumnovelle</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb335734">
-            <title>George Bernard Shaw: Komödien des Glaubens</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb164879" source="https://pmb.acdh.oeaw.ac.at/entity/164879/">
-            <title>George Bernard Shaw: Plays. Pleasant and Unpleasant</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb164883" source="https://pmb.acdh.oeaw.ac.at/entity/164883/">
-            <title>George Bernard Shaw: Three Plays for Puritans</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb36907" source="https://pmb.acdh.oeaw.ac.at/entity/36907/">
             <orgName>Paul Zsolnay Verlag (Wien)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten
@@ -135,6 +91,20 @@ Beantwortet in: <ref target="11430">1928-07-11 SF (Berlin) an AS (Wien)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50822">Klobenstein</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11429.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30971">Casanovas Heimfahrt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb335709">Die Alternden (Novellensammlung)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb168310">Die Erwachenden (Novellensammlung)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30751">Die Frau des Richters</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30213">Die Hirtenflöte</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30201">Doktor Gräsler, Badearzt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32133">Frau Beate und ihr Sohn</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30486">Frau Bertha Garlan</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29941">Fräulein Else</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30117">Sterben</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30851">Traumnovelle</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb335734">George Bernard Shaw: Komödien des Glaubens</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb164879">George Bernard Shaw: Plays. Pleasant and Unpleasant</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb164883">George Bernard Shaw: Three Plays for Puritans</ref>
         </note>
       </correspDesc>
       <textClass>

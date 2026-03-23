@@ -50,29 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30207" source="https://pmb.acdh.oeaw.ac.at/entity/30207/">
-            <title>Das weite Land</title>
-          </bibl>
-          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
-            <title>Liebelei</title>
-          </bibl>
-          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
-            <title>Professor Bernhardi</title>
-          </bibl>
-          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
-            <title>Reigen</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb78902" source="https://pmb.acdh.oeaw.ac.at/entity/78902/">
-            <title>Bernhard Kellermann: Der Tunnel</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb78498" source="https://pmb.acdh.oeaw.ac.at/entity/78498/">
-            <title>Hermann Hesse: Demian</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb33187" source="https://pmb.acdh.oeaw.ac.at/entity/33187/">
-            <title>Thomas Mann: Buddenbrooks</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb29586" source="https://pmb.acdh.oeaw.ac.at/entity/29586/">
             <orgName>Brandt &amp; Kirkpatrick (New York)</orgName>
@@ -81,7 +58,7 @@
             <orgName>Foreign Press Service</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">3 Blatt, 6 Seiten
@@ -118,6 +95,13 @@ Anlage: Richtlinien für die Honorierung schönwissenschaftlicher Bücher</note>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb336086">Rotter-Bühnen Berlin</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10989.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30207">Das weite Land</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29917">Liebelei</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30203">Professor Bernhardi</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb78902">Bernhard Kellermann: Der Tunnel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb78498">Hermann Hesse: Demian</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb33187">Thomas Mann: Buddenbrooks</ref>
         </note>
       </correspDesc>
       <textClass>

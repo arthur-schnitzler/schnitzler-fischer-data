@@ -50,38 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30971" source="https://pmb.acdh.oeaw.ac.at/entity/30971/">
-            <title>Casanovas Heimfahrt</title>
-          </bibl>
-          <bibl ref="#pmb29923" source="https://pmb.acdh.oeaw.ac.at/entity/29923/">
-            <title>Der Weg ins Freie</title>
-          </bibl>
-          <bibl ref="#pmb30075" source="https://pmb.acdh.oeaw.ac.at/entity/30075/">
-            <title>Die Frau des Weisen</title>
-          </bibl>
-          <bibl ref="#pmb30213" source="https://pmb.acdh.oeaw.ac.at/entity/30213/">
-            <title>Die Hirtenflöte</title>
-          </bibl>
-          <bibl ref="#pmb30819" source="https://pmb.acdh.oeaw.ac.at/entity/30819/">
-            <title>Die Schwestern oder Casanova in Spa</title>
-          </bibl>
-          <bibl ref="#pmb29899" source="https://pmb.acdh.oeaw.ac.at/entity/29899/">
-            <title>Freiwild</title>
-          </bibl>
-          <bibl ref="#pmb29859" source="https://pmb.acdh.oeaw.ac.at/entity/29859/">
-            <title>Marionetten</title>
-          </bibl>
-          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
-            <title>Reigen</title>
-          </bibl>
-          <bibl ref="#pmb168296" source="https://pmb.acdh.oeaw.ac.at/entity/168296/">
-            <title>The Shepherd’s Pipe and Other Stories</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb78871" source="https://pmb.acdh.oeaw.ac.at/entity/78871/">
-            <title>Hans Henny Jahnn: Pastor Ephraim Magnus</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="1087495962" source="https://d-nb.info/gnd/1087495962">
             <orgName>Athenaeum (Budapest)</orgName>
@@ -90,7 +58,7 @@
             <orgName>Verlag Fritz Gurlitt (Berlin)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">6 Blatt, 12 Seiten
@@ -133,6 +101,16 @@ Beantwortet in: <ref target="10755">1920-05-10 SF (Berlin) an AS (Wien)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10751.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30971">Casanovas Heimfahrt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29923">Der Weg ins Freie</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30075">Die Frau des Weisen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30213">Die Hirtenflöte</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30819">Die Schwestern oder Casanova in Spa</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29899">Freiwild</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29859">Marionetten</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb168296">The Shepherd’s Pipe and Other Stories</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb78871">Hans Henny Jahnn: Pastor Ephraim Magnus</ref>
         </note>
       </correspDesc>
       <textClass>

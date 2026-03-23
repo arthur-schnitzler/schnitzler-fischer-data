@@ -50,17 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
-            <title>Liebelei</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb29666" source="https://pmb.acdh.oeaw.ac.at/entity/29666/">
             <orgName>Philipp Reclam jun. (Stuttgart)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
@@ -87,6 +82,7 @@ Antwort auf: <ref target="11043">1923-11-22 AS (Wien) an SF (Berlin)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11045.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29917">Liebelei</ref>
         </note>
       </correspDesc>
       <textClass>
@@ -167,7 +163,7 @@ in leidlich guten Beziehungen zu den Autoren meines Verlages führen</p>
           <pb facs="1416743_0688"/>G.<lb/>
 décembreur des<lb/>
 se nimé pehrij ai t<lb/>
-«««a«i.««* aifr«B oiandisadag«o? i n i! m â¢ nn«/m ogqo(i U. otsodii«aB<lb/>
+«««a«i.««* aifr«B oiandisadag«o? i n i! m â&#x80;¢ nn«/m ogqo(i U. otsodii«aB<lb/>
 G.C.F.K. h.a. f. g. m..t.t..,...<lb/>
 konnte. Und auch in unserm Fall habe ich durchaus den Wunsch, die<lb/>
 schwebenden Fragen einer loysten Lösung entgegen zu führen. Von diesem<lb/>

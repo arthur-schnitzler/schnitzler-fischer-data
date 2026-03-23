@@ -57,33 +57,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30075" source="https://pmb.acdh.oeaw.ac.at/entity/30075/">
-            <title>Die Frau des Weisen</title>
-          </bibl>
-          <bibl ref="#pmb31975" source="https://pmb.acdh.oeaw.ac.at/entity/31975/">
-            <title>Die kleine Komödie</title>
-          </bibl>
-          <bibl ref="#pmb29899" source="https://pmb.acdh.oeaw.ac.at/entity/29899/">
-            <title>Freiwild</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb42334" source="https://pmb.acdh.oeaw.ac.at/entity/42334/">
-            <title>Collection Fischer</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb335703">
-            <title>Collection Ollendorff illustrée (Paris)</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb36152" source="https://pmb.acdh.oeaw.ac.at/entity/36152/">
-            <title>Neue Deutsche Rundschau</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb34096" source="https://pmb.acdh.oeaw.ac.at/entity/34096/">
-            <title>Clara Katharina Pollaczek: Mimi</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb31735" source="https://pmb.acdh.oeaw.ac.at/entity/31735/">
-            <title>Gerhart Hauptmann: Die versunkene Glocke</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite beschrieben
@@ -120,6 +94,14 @@ Beantwortet in: 1897-02-03post/1897-02-09ante AS an SF (Vertrag 'Mimi'; nicht ü
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10064.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30075">Die Frau des Weisen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb31975">Die kleine Komödie</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29899">Freiwild</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb42334">Collection Fischer</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb335703">Collection Ollendorff illustrée (Paris)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb36152">Neue Deutsche Rundschau</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb34096">Clara Katharina Pollaczek: Mimi</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb31735">Gerhart Hauptmann: Die versunkene Glocke</ref>
         </note>
       </correspDesc>
       <textClass>

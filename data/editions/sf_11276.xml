@@ -49,20 +49,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30051" source="https://pmb.acdh.oeaw.ac.at/entity/30051/">
-            <title>Der Geist im Wort und der Geist in der Tat</title>
-          </bibl>
-          <bibl ref="#pmb32131" source="https://pmb.acdh.oeaw.ac.at/entity/32131/">
-            <title>Spiel im Morgengrauen</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="institution" ref="16338874-X" source="https://d-nb.info/gnd/16338874-X">
             <orgName>Bank für Auswärtigen Handel</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite
@@ -83,6 +75,10 @@ Beantwortet in: <ref target="11277">1927-01-24 SF (Berlin) an AS (Wien)</ref></n
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30051">Der Geist im Wort und der Geist in der Tat</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32131">Spiel im Morgengrauen</ref>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>

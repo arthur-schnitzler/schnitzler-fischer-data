@@ -50,17 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30207" source="https://pmb.acdh.oeaw.ac.at/entity/30207/">
-            <title>Das weite Land</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb30709" source="https://pmb.acdh.oeaw.ac.at/entity/30709/">
-            <title>Das Nibelungenlied</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb31181" source="https://pmb.acdh.oeaw.ac.at/entity/31181/">
-            <title>Friedrich von Schiller: Die Verschwörung des Fiesco zu Genua</title>
-          </bibl>
-        </listBibl>
         <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-12-31.html">Tgb 1910-12-31</ref>
       </sourceDesc>
       <notesStmt>
@@ -91,6 +80,9 @@ Bezug auf: Büchersendung SF (wohl zu Weihnachten 1910; nicht überliefert)</not
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb36247">Burgtheater Wien</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10358.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30207">Das weite Land</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30709">Das Nibelungenlied</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb31181">Friedrich von Schiller: Die Verschwörung des Fiesco zu Genua</ref>
         </note>
       </correspDesc>
       <textClass>

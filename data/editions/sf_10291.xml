@@ -50,21 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30005" source="https://pmb.acdh.oeaw.ac.at/entity/30005/">
-            <title>Anatol: Abschiedssouper</title>
-          </bibl>
-          <bibl ref="#pmb29843" source="https://pmb.acdh.oeaw.ac.at/entity/29843/">
-            <title>Der grüne Kakadu</title>
-          </bibl>
-          <bibl ref="#pmb89761" source="https://pmb.acdh.oeaw.ac.at/entity/89761/">
-            <title>The green cockatoo (Der grüne Kakadu, engl.)</title>
-          </bibl>
-          <bibl type="journal">
-            <title>Pantheon-Ausgabe (Buchreihe, S. Fischer)</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten beschrieben
@@ -96,6 +82,9 @@ Antwort auf: Buchgeschenk-Sendung (vielleicht zu Weihnachten?)</note>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb60688">Theatre Royal Haymarket London</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10291.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30005">Anatol: Abschiedssouper</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29843">Der grüne Kakadu</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb89761">The green cockatoo (Der grüne Kakadu, engl.)</ref>
         </note>
       </correspDesc>
       <textClass>

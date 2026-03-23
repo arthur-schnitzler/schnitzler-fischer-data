@@ -49,12 +49,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30205" source="https://pmb.acdh.oeaw.ac.at/entity/30205/">
-            <title>Komödie der Verführung</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
@@ -75,6 +70,9 @@ Antwort auf: <ref target="11161">1925-01-05 AS (Wien) an SF (Berlin)</ref></note
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb872">Stuttgart</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30205">Komödie der Verführung</ref>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>

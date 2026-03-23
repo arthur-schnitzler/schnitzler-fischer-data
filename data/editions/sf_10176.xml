@@ -50,24 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30655" source="https://pmb.acdh.oeaw.ac.at/entity/30655/">
-            <title>Das neue Lied</title>
-          </bibl>
-          <bibl ref="#pmb30057" source="https://pmb.acdh.oeaw.ac.at/entity/30057/">
-            <title>Das Schicksal des Freiherrn von Leisenbohg</title>
-          </bibl>
-          <bibl ref="#pmb30683" source="https://pmb.acdh.oeaw.ac.at/entity/30683/">
-            <title>Die Weissagung</title>
-          </bibl>
-          <bibl ref="#pmb33776" source="https://pmb.acdh.oeaw.ac.at/entity/33776/">
-            <title>Dämmerseele</title>
-          </bibl>
-          <bibl ref="#pmb29921" source="https://pmb.acdh.oeaw.ac.at/entity/29921/">
-            <title>Dämmerseelen</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite beschrieben
@@ -114,6 +97,11 @@ Antwort auf: 1907-02-23ante SF an AS (Liste Freiexemplarversand 'Dämmerseelen';
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10176.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30655">Das neue Lied</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30057">Das Schicksal des Freiherrn von Leisenbohg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30683">Die Weissagung</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb33776">Dämmerseele</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29921">Dämmerseelen</ref>
         </note>
       </correspDesc>
       <textClass/>

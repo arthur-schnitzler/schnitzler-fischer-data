@@ -50,36 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
-            <title>Reigen</title>
-          </bibl>
-          <bibl ref="#pmb29903" source="https://pmb.acdh.oeaw.ac.at/entity/29903/">
-            <title>Zwischenspiel</title>
-          </bibl>
-          <bibl type="journal" ref="716840-8" source="https://ld.zdb-services.de/resource/716840-8">
-            <title>Algemeen handelsblad (Amsterdam)</title>
-          </bibl>
-          <bibl type="journal" ref="1069647-7" source="https://ld.zdb-services.de/resource/1069647-7">
-            <title>De Haagsche Post</title>
-          </bibl>
-          <bibl type="journal" ref="1002082-2" source="https://ld.zdb-services.de/resource/1002082-2">
-            <title>De Maasbode (Rotterdam)</title>
-          </bibl>
-          <bibl type="journal" ref="716878-0" source="https://ld.zdb-services.de/resource/716878-0">
-            <title>De Telegraaf (Amsterdam)</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb118073" source="https://pmb.acdh.oeaw.ac.at/entity/118073/">
-            <title>Nieuwe Rotterdamsche Courant</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb335627">
-            <title>Rotterdamsch Nieuwsblad</title>
-          </bibl>
-          <bibl type="journal">
-            <title>Scheveninger Telegrammheft (Originaltitel nicht ermittelt)</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
@@ -112,6 +83,14 @@ Anlage: Eine Auflistung von Städten und die Entwicklung der Umrechnungsschlüss
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44313">Scheeveningen</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10926.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29903">Zwischenspiel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="716840-8">Algemeen handelsblad (Amsterdam)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="1069647-7">De Haagsche Post</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="1002082-2">De Maasbode (Rotterdam)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="716878-0">De Telegraaf (Amsterdam)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb118073">Nieuwe Rotterdamsche Courant</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb335627">Rotterdamsch Nieuwsblad</ref>
         </note>
       </correspDesc>
       <textClass>
@@ -186,7 +165,7 @@ natiert</p>
           <pb facs="1416743_0512"/>C.H.P.P<lb/>
 M r... -..<lb/>
 ....<lb/>
-11 ¼ T 8 â¢ 3 T Ass.<lb/>
+11 ¼ T 8 â&#x80;¢ 3 T Ass.<lb/>
 ein Telegramm aus Holland von Ziegels Unternehmer, der sich für<lb/>
 das Verbot natürlich sehr interessiert, dass von der Lugt spielt,<lb/>
 Natürlich ist diese Angelegenheit ganz unabhängig von der Ange<lb/>

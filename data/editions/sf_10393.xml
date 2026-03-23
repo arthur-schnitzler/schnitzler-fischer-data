@@ -50,24 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb33061" source="https://pmb.acdh.oeaw.ac.at/entity/33061/">
-            <title>Die dreifache Warnung</title>
-          </bibl>
-          <bibl ref="#pmb30213" source="https://pmb.acdh.oeaw.ac.at/entity/30213/">
-            <title>Die Hirtenflöte</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb122317" source="https://pmb.acdh.oeaw.ac.at/entity/122317/">
-            <title>Jugend. Münchner illustrierte Wochenschrift</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb50245" source="https://pmb.acdh.oeaw.ac.at/entity/50245/">
-            <title>Simplicissimus</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb335712">
-            <title>Emil Lucka: Isolde Weisshard</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten beschrieben
@@ -103,6 +86,11 @@ Antwort auf: 1911-08-22ante AS an SF (Anfrage Ratislav, Slevogt als Illustrator 
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb336033">Hebbeltheater (Theater in der Königgrätzer Straße) Berlin</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10393.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb33061">Die dreifache Warnung</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30213">Die Hirtenflöte</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb122317">Jugend. Münchner illustrierte Wochenschrift</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb50245">Simplicissimus</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb335712">Emil Lucka: Isolde Weisshard</ref>
         </note>
       </correspDesc>
       <textClass>

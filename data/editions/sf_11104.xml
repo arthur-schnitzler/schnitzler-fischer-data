@@ -49,17 +49,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30205" source="https://pmb.acdh.oeaw.ac.at/entity/30205/">
-            <title>Komödie der Verführung</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="institution" ref="#pmb29694" source="https://pmb.acdh.oeaw.ac.at/entity/29694/">
             <orgName>Spamersche Buchdruckerei (Leipzig)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite</note>
@@ -80,6 +75,9 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30205">Komödie der Verführung</ref>
+        </note>
       </correspDesc>
       <textClass/>
     </profileDesc>

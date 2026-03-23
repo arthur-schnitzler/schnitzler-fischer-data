@@ -57,15 +57,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29857" source="https://pmb.acdh.oeaw.ac.at/entity/29857/">
-            <title>Der Schleier der Beatrice</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb35992" source="https://pmb.acdh.oeaw.ac.at/entity/35992/">
-            <title>Heinrich G. Noren: Der Schleier der Beatrice (Oper)</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite beschrieben
@@ -90,6 +82,8 @@ Bezug auf: nicht überlieferte zwischenzeitliche Korrespondenz zu von Heinrich G
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb22001">Noren, Heinrich G.</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10530.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29857">Der Schleier der Beatrice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb35992">Heinrich G. Noren: Der Schleier der Beatrice (Oper)</ref>
         </note>
       </correspDesc>
       <textClass>

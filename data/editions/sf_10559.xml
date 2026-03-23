@@ -50,23 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29857" source="https://pmb.acdh.oeaw.ac.at/entity/29857/">
-            <title>Der Schleier der Beatrice</title>
-          </bibl>
-          <bibl ref="#pmb29923" source="https://pmb.acdh.oeaw.ac.at/entity/29923/">
-            <title>Der Weg ins Freie</title>
-          </bibl>
-          <bibl ref="#pmb30717" source="https://pmb.acdh.oeaw.ac.at/entity/30717/">
-            <title>Komödie der Worte</title>
-          </bibl>
-          <bibl type="journal" ref="208351-6" source="https://ld.zdb-services.de/resource/208351-6">
-            <title>Monatsschrift für Geschichte und Wissenschaft des Judentums</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb80804" source="https://pmb.acdh.oeaw.ac.at/entity/80804/">
-            <title>Clara Körber: Österreichs Geist und Schwert</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher">
             <orgName>Köbnerische Verlagsbuchhandlung (Breslau)</orgName>
@@ -84,7 +67,7 @@
             <orgName>Verband deutscher Bühnenschriftsteller und Bühnenkomponisten (Berlin)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">3 Blatt, 6 Seiten beschrieben
@@ -123,6 +106,11 @@ Beantwortet in: <ref target="10560">1915-04-21 SF an AS</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb300058">Neues Theater Frankfurt am Main</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10559.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29857">Der Schleier der Beatrice</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29923">Der Weg ins Freie</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30717">Komödie der Worte</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="208351-6">Monatsschrift für Geschichte und Wissenschaft des Judentums</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb80804">Clara Körber: Österreichs Geist und Schwert</ref>
         </note>
       </correspDesc>
       <textClass>

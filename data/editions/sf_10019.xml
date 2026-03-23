@@ -26,18 +26,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <listBibl>
-          <bibl ref="#pmb30391" source="https://pmb.acdh.oeaw.ac.at/entity/30391/">
-            <title>Die überspannte Person</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb36166" source="https://pmb.acdh.oeaw.ac.at/entity/36166/">
-            <title>Freie Bühne</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb36152" source="https://pmb.acdh.oeaw.ac.at/entity/36152/">
-            <title>Neue Deutsche Rundschau</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Postkarte, 1 Seite beschrieben
@@ -60,6 +49,11 @@ Beantwortet in: <ref target="10020">1894-09-25 AS an SF/OB</ref></note>
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30391">Die überspannte Person</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb36166">Freie Bühne</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb36152">Neue Deutsche Rundschau</ref>
+        </note>
       </correspDesc>
       <textClass/>
     </profileDesc>

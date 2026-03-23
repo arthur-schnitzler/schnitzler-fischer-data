@@ -57,26 +57,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30057" source="https://pmb.acdh.oeaw.ac.at/entity/30057/">
-            <title>Das Schicksal des Freiherrn von Leisenbohg</title>
-          </bibl>
-          <bibl ref="#pmb29833" source="https://pmb.acdh.oeaw.ac.at/entity/29833/">
-            <title>Die Toten schweigen</title>
-          </bibl>
-          <bibl ref="#pmb29853" source="https://pmb.acdh.oeaw.ac.at/entity/29853/">
-            <title>Lieutenant Gustl</title>
-          </bibl>
-          <bibl ref="#pmb32816" source="https://pmb.acdh.oeaw.ac.at/entity/32816/">
-            <title>Masken und Wunder</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="1073077691" source="https://d-nb.info/gnd/1073077691">
             <orgName>Hugo Gebers Förlag (Stockholm)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten beschrieben
@@ -104,6 +90,10 @@ Antwort auf: nicht überliefertes Dankesschreiben AS an SF nach seinem 50. Gebur
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="127688366">Sós, Edmund</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10440.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30057">Das Schicksal des Freiherrn von Leisenbohg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29833">Die Toten schweigen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29853">Lieutenant Gustl</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32816">Masken und Wunder</ref>
         </note>
       </correspDesc>
       <textClass>

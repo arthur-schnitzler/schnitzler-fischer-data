@@ -50,38 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
-            <title>Anatol</title>
-          </bibl>
-          <bibl ref="#pmb29873" source="https://pmb.acdh.oeaw.ac.at/entity/29873/">
-            <title>Der Puppenspieler</title>
-          </bibl>
-          <bibl ref="#pmb30215" source="https://pmb.acdh.oeaw.ac.at/entity/30215/">
-            <title>Der Schleier der Pierrette</title>
-          </bibl>
-          <bibl ref="#pmb30819" source="https://pmb.acdh.oeaw.ac.at/entity/30819/">
-            <title>Die Schwestern oder Casanova in Spa</title>
-          </bibl>
-          <bibl ref="#pmb33806" source="https://pmb.acdh.oeaw.ac.at/entity/33806/">
-            <title>Ein Abschied</title>
-          </bibl>
-          <bibl ref="#pmb29899" source="https://pmb.acdh.oeaw.ac.at/entity/29899/">
-            <title>Freiwild</title>
-          </bibl>
-          <bibl ref="#pmb30717" source="https://pmb.acdh.oeaw.ac.at/entity/30717/">
-            <title>Komödie der Worte</title>
-          </bibl>
-          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
-            <title>Reigen</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="institution" ref="#pmb29747" source="https://pmb.acdh.oeaw.ac.at/entity/29747/">
             <orgName>Hugo Heller &amp; Cie (Buchhandel)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
@@ -108,6 +82,14 @@ Antwort auf: 1923-01-03 SF (Berlin) a AS (Wien)</note>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb388">Spanien</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10961.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29935">Anatol</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29873">Der Puppenspieler</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30215">Der Schleier der Pierrette</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30819">Die Schwestern oder Casanova in Spa</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb33806">Ein Abschied</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29899">Freiwild</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30717">Komödie der Worte</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
         </note>
       </correspDesc>
       <textClass>
@@ -301,7 +283,7 @@ FJ<lb/>
 nen 3 3<lb/>
 Kirjelyksi aswäksi. Uudestä-<lb/>
 tää- ja Oulun lääneissä sekä<lb/>
-K &amp; B &amp; C - H â¢ N<lb/>
+K &amp; B &amp; C - H â&#x80;¢ N<lb/>
 Q LYntiO<lb/>
 Pf2<lb/>
 näyttää läänissä asi-<lb/>
@@ -330,7 +312,7 @@ Kirjoja ja Oulun lääneissä asi<lb/>
 Vuodentuksi määrä. » — 0<lb/>
 ⊃ⵔⵥ »ⱥ* S<lb/>
 Oertert as „<lb/>
-näyttävä ai- ai ia- ja w â<lb/>
+näyttävä ai- ai ia- ja w â&#x80;&#x94;<lb/>
 lääneissä seurä sekä säkä ai-<lb/>
 „<lb/>
 määräinen määtä sääställä ai-<lb/>
@@ -469,7 +451,7 @@ Uudestämät.<lb/>
 Lääneissä yleisestä<lb/>
 H<lb/>
 E,E,L, O + oE<lb/>
-F. R. â<lb/>
+F. R. â&#x96;<lb/>
 a + u o u n o ui n i<lb/>
 V 0<lb/>
 rævätä ai saakkeen<lb/>
@@ -486,7 +468,7 @@ P.S.<lb/>
 a. „ — 0<lb/>
 r<lb/>
 „ s „ r<lb/>
-T. â¢ —<lb/>
+T. â&#x80;¢ —<lb/>
 — — — » » — » —<lb/>
 O O<lb/>
 ilmoitetaan sekä<lb/>

@@ -50,14 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30005" source="https://pmb.acdh.oeaw.ac.at/entity/30005/">
-            <title>Anatol: Abschiedssouper</title>
-          </bibl>
-          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
-            <title>Liebelei</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb118088" source="https://pmb.acdh.oeaw.ac.at/entity/118088/">
             <orgName>Karczag-Verlag (Wien)</orgName>
@@ -66,7 +58,7 @@
             <orgName>Rikola Verlag (Wien)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
@@ -100,6 +92,8 @@ Antwort auf: <ref target="10888">1922-02-17 SF (Berlin) an AS (Wien)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb298754">Stavovské divadlo Prag</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10889.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30005">Anatol: Abschiedssouper</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29917">Liebelei</ref>
         </note>
       </correspDesc>
       <textClass>
@@ -217,7 +211,7 @@ P+O+S<lb/>
 F.T.<lb/>
 fraisia<lb/>
 O<lb/>
-W &amp; Pâ¢<lb/>
+W &amp; Pâ&#x80;¢<lb/>
 £2,000<lb/>
 Unterwalt<lb/>
 läänistä.<lb/>
@@ -239,7 +233,7 @@ Ficher<lb/>
 *« a<lb/>
 r<lb/>
 r<lb/>
-â! (2) »<lb/>
+â&#x80;&#x94;! (2) »<lb/>
 T.<lb/>
 En ceux<lb/>
 — 0:0<lb/>
@@ -402,7 +396,7 @@ F.T.F.<lb/>
 G. P. P<lb/>
 ΞΟΟῦν κἱν<lb/>
 8-10 k.<lb/>
-â ###<lb/>
+â&#x80;&#x94; ###<lb/>
 näönisto<lb/>
 &amp; p<lb/>
 GÄHEN,<lb/>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10136">
   <teiHeader>
     <fileDesc>
@@ -15,11 +15,10 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
-          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler-Archiv</publisher>
+        <publisher>Arthur Schnitzler Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -62,7 +61,7 @@
             <title>Der einsame Weg</title>
           </bibl>
         </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite beschrieben
@@ -83,28 +82,6 @@
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
-        <note>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20466">Lindemann, Gustav</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb677">Breslau</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb51147">Bromberg</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb42763">Danzig</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb834">Darmstadt</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb48593">Graudenz</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb115572">Gumbinnen</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb48092">Insterburg</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb39640">Kassel</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb42605">Königsberg</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb335758">Köslin</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb864">Leipzig</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb881">Mannheim</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44282">Posen</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb49847">Stettin</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb46958">Stolp</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb872">Stuttgart</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb114678">Thorn</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10136.xml"/>
-        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -115,6 +92,64 @@
           <term>Vertrag</term>
         </keywords>
       </textClass>
+      <listPerson>
+        <person ref="#pmb20466" source="https://pmb.acdh.oeaw.ac.at/entity/20466/">
+          <persName>Lindemann, Gustav</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb677" source="https://pmb.acdh.oeaw.ac.at/entity/677/">
+          <placeName>Breslau</placeName>
+        </place>
+        <place ref="#pmb51147" source="https://pmb.acdh.oeaw.ac.at/entity/51147/">
+          <placeName>Bromberg</placeName>
+        </place>
+        <place ref="#pmb42763" source="https://pmb.acdh.oeaw.ac.at/entity/42763/">
+          <placeName>Danzig</placeName>
+        </place>
+        <place ref="#pmb834" source="https://pmb.acdh.oeaw.ac.at/entity/834/">
+          <placeName>Darmstadt</placeName>
+        </place>
+        <place ref="#pmb48593" source="https://pmb.acdh.oeaw.ac.at/entity/48593/">
+          <placeName>Graudenz</placeName>
+        </place>
+        <place ref="#pmb115572" source="https://pmb.acdh.oeaw.ac.at/entity/115572/">
+          <placeName>Gumbinnen</placeName>
+        </place>
+        <place ref="#pmb48092" source="https://pmb.acdh.oeaw.ac.at/entity/48092/">
+          <placeName>Insterburg</placeName>
+        </place>
+        <place ref="#pmb39640" source="https://pmb.acdh.oeaw.ac.at/entity/39640/">
+          <placeName>Kassel</placeName>
+        </place>
+        <place ref="#pmb42605" source="https://pmb.acdh.oeaw.ac.at/entity/42605/">
+          <placeName>Königsberg</placeName>
+        </place>
+        <place ref="#pmb335758" source="https://d-nb.info/gnd/4031607-5">
+          <placeName>Köslin</placeName>
+        </place>
+        <place ref="#pmb864" source="https://pmb.acdh.oeaw.ac.at/entity/864/">
+          <placeName>Leipzig</placeName>
+        </place>
+        <place ref="#pmb881" source="https://pmb.acdh.oeaw.ac.at/entity/881/">
+          <placeName>Mannheim</placeName>
+        </place>
+        <place ref="#pmb44282" source="https://pmb.acdh.oeaw.ac.at/entity/44282/">
+          <placeName>Posen</placeName>
+        </place>
+        <place ref="#pmb49847" source="https://pmb.acdh.oeaw.ac.at/entity/49847/">
+          <placeName>Stettin</placeName>
+        </place>
+        <place ref="#pmb46958" source="https://pmb.acdh.oeaw.ac.at/entity/46958/">
+          <placeName>Stolp</placeName>
+        </place>
+        <place ref="#pmb872" source="https://pmb.acdh.oeaw.ac.at/entity/872/">
+          <placeName>Stuttgart</placeName>
+        </place>
+        <place ref="#pmb114678" source="https://pmb.acdh.oeaw.ac.at/entity/114678/">
+          <placeName>Thorn</placeName>
+        </place>
+      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -126,9 +161,8 @@
         <p>1 Blatt, 1 Seite beschrieben
 .</p>
       </div>
-      <div type="OCR">
-        <p>
-          <pb facs="1416742_0178"/>ERLAC<lb/>
+          <div type="OCR">
+        <p><pb facs="1416742_0178"/>ERLAC<lb/>
 TELEPHON;<lb/>
 BERLIN W., DEN 18/1.04.<lb/>
 AMT VI, 1662<lb/>

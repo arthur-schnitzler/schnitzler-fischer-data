@@ -50,18 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
-            <title>Anatol</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb30243" source="https://pmb.acdh.oeaw.ac.at/entity/30243/">
-            <title>Herman Bang: Ludwigshöhe</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb76940" source="https://pmb.acdh.oeaw.ac.at/entity/76940/">
-            <title>Jakob Wassermann: Der Moloch</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten beschrieben
@@ -92,6 +81,9 @@ Beantwortet in: <ref target="10217">1908-04-13 SF an AS</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb182">Paris</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10215.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29935">Anatol</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30243">Herman Bang: Ludwigshöhe</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb76940">Jakob Wassermann: Der Moloch</ref>
         </note>
       </correspDesc>
       <textClass>

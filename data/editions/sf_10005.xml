@@ -43,20 +43,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
-            <title>Anatol</title>
-          </bibl>
-          <bibl ref="#pmb30033" source="https://pmb.acdh.oeaw.ac.at/entity/30033/">
-            <title>Anatol: Anatols Hochzeitsmorgen</title>
-          </bibl>
-          <bibl ref="#pmb31357" source="https://pmb.acdh.oeaw.ac.at/entity/31357/">
-            <title>Anatol: Episode</title>
-          </bibl>
-          <bibl ref="#pmb30143" source="https://pmb.acdh.oeaw.ac.at/entity/30143/">
-            <title>Das Abenteuer seines Lebens</title>
-          </bibl>
-        </listBibl>
         <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1888-12-10.html">Tgb 1888-12-10 (Inhalt referiert)</ref>
       </sourceDesc>
       <notesStmt>
@@ -80,6 +66,12 @@ Antwort auf: 1888-11-27ante AS an SF (Anfrage Drucklegung 'Anatol'; nicht überl
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29935">Anatol</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30033">Anatol: Anatols Hochzeitsmorgen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb31357">Anatol: Episode</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30143">Das Abenteuer seines Lebens</ref>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>

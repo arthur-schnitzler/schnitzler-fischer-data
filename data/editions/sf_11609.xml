@@ -50,18 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
-            <title>Reigen</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb30899" source="https://pmb.acdh.oeaw.ac.at/entity/30899/">
-            <title>Jakob Wassermann: Das Gänsemännchen</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb33187" source="https://pmb.acdh.oeaw.ac.at/entity/33187/">
-            <title>Thomas Mann: Buddenbrooks</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
@@ -88,6 +77,9 @@ Anlage: Auflistung potenzieller Zusammenstellungen von Schnitzlers Novellen für
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13055">Wassermann, Jakob</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11609.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30899">Jakob Wassermann: Das Gänsemännchen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb33187">Thomas Mann: Buddenbrooks</ref>
         </note>
       </correspDesc>
       <textClass>

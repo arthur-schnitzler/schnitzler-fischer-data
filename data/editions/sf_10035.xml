@@ -56,14 +56,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb31975" source="https://pmb.acdh.oeaw.ac.at/entity/31975/">
-            <title>Die kleine Komödie</title>
-          </bibl>
-          <bibl ref="#pmb30117" source="https://pmb.acdh.oeaw.ac.at/entity/30117/">
-            <title>Sterben</title>
-          </bibl>
-        </listBibl>
         <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-09-07.html">Tgb 1895-09-07 (Eingang)</ref>
       </sourceDesc>
       <notesStmt>
@@ -87,6 +79,10 @@ Beantwortet in: 1895-09-04post/1895-09-10 AS an SF (Nachfrage Abrechnung, nicht 
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb31975">Die kleine Komödie</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30117">Sterben</ref>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>

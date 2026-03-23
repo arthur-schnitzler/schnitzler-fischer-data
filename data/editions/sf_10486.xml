@@ -57,20 +57,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
-            <title>Professor Bernhardi</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb76884" source="https://pmb.acdh.oeaw.ac.at/entity/76884/">
-            <title>Raoul Auernheimer: Das Paar nach der Mode</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="institution" ref="2007813-4" source="https://d-nb.info/gnd/2007813-4">
             <orgName>Deutsche Buch-Gemeinschaft</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten beschrieben
@@ -99,6 +91,8 @@ Bezug auf (nicht überlieferte) zwischenzeitliche Korrespondenz sowie evtl. auf 
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb47085">Münchner Schauspielhaus</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10486.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30203">Professor Bernhardi</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb76884">Raoul Auernheimer: Das Paar nach der Mode</ref>
         </note>
       </correspDesc>
       <textClass>

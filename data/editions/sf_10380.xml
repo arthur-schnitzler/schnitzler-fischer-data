@@ -57,18 +57,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30069" source="https://pmb.acdh.oeaw.ac.at/entity/30069/">
-            <title>Amerika</title>
-          </bibl>
-          <bibl ref="#pmb33746" source="https://pmb.acdh.oeaw.ac.at/entity/33746/">
-            <title>Der Andere. Aus dem Tagebuch eines Hinterbliebenen</title>
-          </bibl>
-          <bibl ref="#pmb33710" source="https://pmb.acdh.oeaw.ac.at/entity/33710/">
-            <title>Mein Freund Ypsilon</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite beschrieben
@@ -95,6 +84,9 @@ Beantwortet in: <ref target="10381">1911-05-25 AS an SF</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10380.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30069">Amerika</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb33746">Der Andere. Aus dem Tagebuch eines Hinterbliebenen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb33710">Mein Freund Ypsilon</ref>
         </note>
       </correspDesc>
       <textClass>

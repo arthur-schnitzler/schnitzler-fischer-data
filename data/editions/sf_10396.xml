@@ -50,11 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30213" source="https://pmb.acdh.oeaw.ac.at/entity/30213/">
-            <title>Die Hirtenflöte</title>
-          </bibl>
-        </listBibl>
         <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-10-10.html">Tgb 1911-10-10</ref>
       </sourceDesc>
       <notesStmt>
@@ -81,6 +76,7 @@ Kurz nachdem AS hier den Illustrationsentwurf von Franz Christophe zur 'Hirtenfl
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb6648">Christophe, Franz</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10396.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30213">Die Hirtenflöte</ref>
         </note>
       </correspDesc>
       <textClass>

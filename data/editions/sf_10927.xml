@@ -50,11 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
-            <title>Reigen</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb29586" source="https://pmb.acdh.oeaw.ac.at/entity/29586/">
             <orgName>Brandt &amp; Kirkpatrick (New York)</orgName>
@@ -69,7 +64,7 @@
             <orgName>USA. Alien Property Custodian</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">3 Blatt, 5 Seiten
@@ -102,6 +97,7 @@ Anlage: Übersetzer Brief von Brandt &amp; Kirpatrik (1922-07-17) und Brief von 
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10927.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
         </note>
       </correspDesc>
       <textClass>
@@ -172,7 +168,7 @@ xxxich enie als mellovdrew amed.ebuw neda nedem</p>
 o0 oa n<lb/>
 22<lb/>
 e bai x*v* 't" 't 't' :t 'i 'w 'i'i 'iit 'u 'd.w.i '.o lu<lb/>
-G.C.F.Jt. â¢ n<lb/>
+G.C.F.Jt. â&#x80;¢ n<lb/>
 DUJISTEASITABT<lb/>
 Es konnte also immerhin bei diesem der Eindruck entstehen ( oder<lb/>
 er kann vorgeben, dass er entstanden ist), dass, sofern nur die<lb/>

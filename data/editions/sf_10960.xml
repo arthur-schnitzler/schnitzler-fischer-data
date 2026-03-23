@@ -50,20 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29985" source="https://pmb.acdh.oeaw.ac.at/entity/29985/">
-            <title>Der einsame Weg</title>
-          </bibl>
-          <bibl ref="#pmb29923" source="https://pmb.acdh.oeaw.ac.at/entity/29923/">
-            <title>Der Weg ins Freie</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb29586" source="https://pmb.acdh.oeaw.ac.at/entity/29586/">
             <orgName>Brandt &amp; Kirkpatrick (New York)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten</note>
@@ -88,6 +80,8 @@
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10960.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29985">Der einsame Weg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29923">Der Weg ins Freie</ref>
         </note>
       </correspDesc>
       <textClass>
@@ -463,7 +457,7 @@ FJ<lb/>
 nen 3 3<lb/>
 Kirjelyksi aswäksi. Uudestä-<lb/>
 tää- ja Oulun lääneissä sekä<lb/>
-K &amp; B &amp; C - H â¢ N<lb/>
+K &amp; B &amp; C - H â&#x80;¢ N<lb/>
 Q LYntiO<lb/>
 Pf2<lb/>
 näyttää läänissä asi-<lb/>
@@ -492,7 +486,7 @@ Kirjoja ja Oulun lääneissä asi<lb/>
 Vuodentuksi määrä. » — 0<lb/>
 ⊃ⵔⵥ »ⱥ* S<lb/>
 Oertert as „<lb/>
-näyttävä ai- ai ia- ja w â<lb/>
+näyttävä ai- ai ia- ja w â&#x80;&#x94;<lb/>
 lääneissä seurä sekä säkä ai-<lb/>
 „<lb/>
 määräinen määtä sääställä ai-<lb/>

@@ -56,20 +56,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb31975" source="https://pmb.acdh.oeaw.ac.at/entity/31975/">
-            <title>Die kleine Komödie</title>
-          </bibl>
-          <bibl ref="#pmb30117" source="https://pmb.acdh.oeaw.ac.at/entity/30117/">
-            <title>Sterben</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb36166" source="https://pmb.acdh.oeaw.ac.at/entity/36166/">
-            <title>Freie Bühne</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb36152" source="https://pmb.acdh.oeaw.ac.at/entity/36152/">
-            <title>Neue Deutsche Rundschau</title>
-          </bibl>
-        </listBibl>
         <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-06-17.html">Tgb 1895-06-17 (Korresp. charakterisiert)</ref>
       </sourceDesc>
       <notesStmt>
@@ -93,6 +79,12 @@ Beantwortet in: 1895-06-17 AS an SF (Polemik gegen Honorarangebot des Verlags; v
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb31975">Die kleine Komödie</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30117">Sterben</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb36166">Freie Bühne</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb36152">Neue Deutsche Rundschau</ref>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>

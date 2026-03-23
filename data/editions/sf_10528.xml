@@ -50,38 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30453" source="https://pmb.acdh.oeaw.ac.at/entity/30453/">
-            <title>Blumen</title>
-          </bibl>
-          <bibl ref="#pmb30655" source="https://pmb.acdh.oeaw.ac.at/entity/30655/">
-            <title>Das neue Lied</title>
-          </bibl>
-          <bibl ref="#pmb30649" source="https://pmb.acdh.oeaw.ac.at/entity/30649/">
-            <title>Der blinde Geronimo und sein Bruder</title>
-          </bibl>
-          <bibl ref="#pmb30167" source="https://pmb.acdh.oeaw.ac.at/entity/30167/">
-            <title>Die griechische Tänzerin</title>
-          </bibl>
-          <bibl ref="#pmb29833" source="https://pmb.acdh.oeaw.ac.at/entity/29833/">
-            <title>Die Toten schweigen</title>
-          </bibl>
-          <bibl ref="#pmb30683" source="https://pmb.acdh.oeaw.ac.at/entity/30683/">
-            <title>Die Weissagung</title>
-          </bibl>
-          <bibl type="journal" ref="282035-3" source="https://ld.zdb-services.de/resource/282035-3">
-            <title>Corriere della Sera</title>
-          </bibl>
-          <bibl type="journal">
-            <title>Neue Romanreihe (Buchreihe, S. Fischer?)</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="institution" ref="128103-3" source="https://d-nb.info/gnd/128103-3">
             <orgName>Deutscher Verlegerverein</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten beschrieben
@@ -110,6 +84,13 @@ Antwort auf: 1914-03-11 SF as AS</note>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb374">Gardone</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10528.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30453">Blumen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30655">Das neue Lied</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30649">Der blinde Geronimo und sein Bruder</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30167">Die griechische Tänzerin</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29833">Die Toten schweigen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30683">Die Weissagung</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="282035-3">Corriere della Sera</ref>
         </note>
       </correspDesc>
       <textClass>

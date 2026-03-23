@@ -50,14 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30391" source="https://pmb.acdh.oeaw.ac.at/entity/30391/">
-            <title>Die überspannte Person</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb50245" source="https://pmb.acdh.oeaw.ac.at/entity/50245/">
-            <title>Simplicissimus</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher">
             <orgName>Gowans and Gray, Ltd. (London, Glasgow)</orgName>
@@ -69,7 +61,7 @@
             <orgName>Allgemeiner Schriftstellerverein</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite beschrieben
@@ -96,6 +88,8 @@ Beantwortet in: <ref target="10534">1914-06-18 SF/LS an AS</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12790">Singer, Isidor</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10532.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30391">Die überspannte Person</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb50245">Simplicissimus</ref>
         </note>
       </correspDesc>
       <textClass/>

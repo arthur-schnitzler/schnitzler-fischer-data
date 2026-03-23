@@ -50,44 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30349" source="https://pmb.acdh.oeaw.ac.at/entity/30349/">
-            <title>Das Tagebuch der Redegonda</title>
-          </bibl>
-          <bibl ref="#pmb33754" source="https://pmb.acdh.oeaw.ac.at/entity/33754/">
-            <title>Der Mörder</title>
-          </bibl>
-          <bibl ref="#pmb29905" source="https://pmb.acdh.oeaw.ac.at/entity/29905/">
-            <title>Der Ruf des Lebens</title>
-          </bibl>
-          <bibl ref="#pmb30217" source="https://pmb.acdh.oeaw.ac.at/entity/30217/">
-            <title>Der tapfere Cassian</title>
-          </bibl>
-          <bibl ref="#pmb33758" source="https://pmb.acdh.oeaw.ac.at/entity/33758/">
-            <title>Der Tod des Junggesellen</title>
-          </bibl>
-          <bibl ref="#pmb33760" source="https://pmb.acdh.oeaw.ac.at/entity/33760/">
-            <title>Der tote Gabriel</title>
-          </bibl>
-          <bibl ref="#pmb33061" source="https://pmb.acdh.oeaw.ac.at/entity/33061/">
-            <title>Die dreifache Warnung</title>
-          </bibl>
-          <bibl ref="#pmb30213" source="https://pmb.acdh.oeaw.ac.at/entity/30213/">
-            <title>Die Hirtenflöte</title>
-          </bibl>
-          <bibl ref="#pmb29921" source="https://pmb.acdh.oeaw.ac.at/entity/29921/">
-            <title>Dämmerseelen</title>
-          </bibl>
-          <bibl ref="#pmb32816" source="https://pmb.acdh.oeaw.ac.at/entity/32816/">
-            <title>Masken und Wunder</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb48425" source="https://pmb.acdh.oeaw.ac.at/entity/48425/">
             <orgName>Deutsch-Österreichischer Verlag (Wien)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten beschrieben
@@ -117,6 +85,16 @@ Beantwortet in: <ref target="10431">1912-04-01 SF an AS</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb58481">Uj szinpad Budapest</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10430.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30349">Das Tagebuch der Redegonda</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb33754">Der Mörder</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29905">Der Ruf des Lebens</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30217">Der tapfere Cassian</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb33758">Der Tod des Junggesellen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb33760">Der tote Gabriel</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb33061">Die dreifache Warnung</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30213">Die Hirtenflöte</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29921">Dämmerseelen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32816">Masken und Wunder</ref>
         </note>
       </correspDesc>
       <textClass>

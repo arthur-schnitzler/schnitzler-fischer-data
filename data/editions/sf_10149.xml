@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10149">
   <teiHeader>
     <fileDesc>
@@ -15,11 +15,10 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
-          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler-Archiv</publisher>
+        <publisher>Arthur Schnitzler Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -70,7 +69,7 @@
             <orgName>Theaterverlag Eduard Bloch</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 2 Seiten beschrieben
@@ -90,24 +89,6 @@ Anlagen: 1904-09-09 Gutachten Syndikus des Börsenvereins zu Copyright USA, 2 Bl
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
-        <note>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2142">D'Annunzio, Gabriele</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4532">Jonas, Paul</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116851740">Lederer, Emanuel</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20466">Lindemann, Gustav</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Rehloff-Lindemann, Maria (Theateragentin, Berlin-Karlshorst)</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12681">Schmidt, Lothar</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb48593">Graudenz</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb48092">Insterburg</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb335758">Köslin</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb54949">Memel</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44053">New York</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb62049">Tilsit</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb47927">Washington</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10149.xml"/>
-        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -120,6 +101,52 @@ Anlagen: 1904-09-09 Gutachten Syndikus des Börsenvereins zu Copyright USA, 2 Bl
           <term>Vertrag</term>
         </keywords>
       </textClass>
+      <listPerson>
+        <person ref="#pmb2142" source="https://pmb.acdh.oeaw.ac.at/entity/2142/">
+          <persName>D'Annunzio, Gabriele</persName>
+        </person>
+        <person ref="#pmb4532" source="https://pmb.acdh.oeaw.ac.at/entity/4532/">
+          <persName>Jonas, Paul</persName>
+        </person>
+        <person ref="116851740" source="https://d-nb.info/gnd/116851740">
+          <persName>Lederer, Emanuel</persName>
+        </person>
+        <person ref="#pmb20466" source="https://pmb.acdh.oeaw.ac.at/entity/20466/">
+          <persName>Lindemann, Gustav</persName>
+        </person>
+        <person>
+          <persName>Rehloff-Lindemann, Maria (Theateragentin, Berlin-Karlshorst)</persName>
+        </person>
+        <person ref="#pmb12681" source="https://pmb.acdh.oeaw.ac.at/entity/12681/">
+          <persName>Schmidt, Lothar</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb48593" source="https://pmb.acdh.oeaw.ac.at/entity/48593/">
+          <placeName>Graudenz</placeName>
+        </place>
+        <place ref="#pmb48092" source="https://pmb.acdh.oeaw.ac.at/entity/48092/">
+          <placeName>Insterburg</placeName>
+        </place>
+        <place ref="#pmb335758" source="https://d-nb.info/gnd/4031607-5">
+          <placeName>Köslin</placeName>
+        </place>
+        <place ref="#pmb54949" source="https://pmb.acdh.oeaw.ac.at/entity/54949/">
+          <placeName>Memel</placeName>
+        </place>
+        <place ref="#pmb44053" source="https://pmb.acdh.oeaw.ac.at/entity/44053/">
+          <placeName>New York</placeName>
+        </place>
+        <place ref="#pmb62049" source="https://pmb.acdh.oeaw.ac.at/entity/62049/">
+          <placeName>Tilsit</placeName>
+        </place>
+        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
+          <placeName>USA</placeName>
+        </place>
+        <place ref="#pmb47927" source="https://pmb.acdh.oeaw.ac.at/entity/47927/">
+          <placeName>Washington</placeName>
+        </place>
+      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -131,9 +158,8 @@ Anlagen: 1904-09-09 Gutachten Syndikus des Börsenvereins zu Copyright USA, 2 Bl
         <p>2 Blatt, 2 Seiten beschrieben
 Anlagen: 1904-09-09 Gutachten Syndikus des Börsenvereins zu Copyright USA, 2 Blatt, 2 Seiten beschrieben (Abschrift); 1904-09-XX SF/LS (Berlin) an Maria Rehloff-Lindemann (Berlin-Karlshorst), 1 Blatt, 1 Seite beschrieben (Abschrift)</p>
       </div>
-      <div type="OCR">
-        <p>
-          <pb facs="1416742_0209"/>ILIN W.<lb/>
+          <div type="OCR">
+        <p><pb facs="1416742_0209"/>ILIN W.<lb/>
 TELEPHON:<lb/>
 Ich kand sit Recht gelteid xxx BUL0WSTRASSE 90/91<lb/>
 AMT VI, 1662<lb/>
@@ -162,8 +188,7 @@ noch gebunden zu sein,<lb/>
 habe, Lindesann gegenüber<lb/>
 nicht Alles verge¬<lb/>
 ich weiss.</p>
-        <p>
-          <pb facs="1416742_0210"/>Ich kann mit Recht geltend machen, dass ich aus der Erfahrung sit<lb/>
+        <p><pb facs="1416742_0210"/>Ich kann mit Recht geltend machen, dass ich aus der Erfahrung sit<lb/>
 bezüglich der „Toten Stadt“ anzunehmen berechtigt war, dass die Garantie<lb/>
 Summe in vorhinein zahlbar sei. Ob wir damit durchkommen, ist eine Frage,<lb/>
 aber da vorläufig nicht viel riskiert ist, wenn wir uns auf den prozessualen<lb/>

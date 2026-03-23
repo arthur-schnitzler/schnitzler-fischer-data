@@ -57,27 +57,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb31975" source="https://pmb.acdh.oeaw.ac.at/entity/31975/">
-            <title>Die kleine Komödie</title>
-          </bibl>
-          <bibl ref="#pmb30117" source="https://pmb.acdh.oeaw.ac.at/entity/30117/">
-            <title>Sterben</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb39562" source="https://pmb.acdh.oeaw.ac.at/entity/39562/">
-            <title>Allgemeine Zeitung (München)</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb40968" source="https://pmb.acdh.oeaw.ac.at/entity/40968/">
-            <title>Das Magazin für Litteratur (Magazin für die Literatur des Auslandes)</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb144228" source="https://pmb.acdh.oeaw.ac.at/entity/144228/">
-            <title>Kölnische Zeitung</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb48880" source="https://pmb.acdh.oeaw.ac.at/entity/48880/">
-            <title>La Semaine Littéraire</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Doppelblatt, 3 Seiten beschrieben
@@ -104,6 +84,12 @@ Beantwortet in: 1895-04-29post/1895-06-05ante AS an SF (Ms 'Die kleine Komödie'
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="">Karpp, J. (frz. Übersetzer, Cannes)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10025.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb31975">Die kleine Komödie</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30117">Sterben</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb39562">Allgemeine Zeitung (München)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb40968">Das Magazin für Litteratur (Magazin für die Literatur des Auslandes)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb144228">Kölnische Zeitung</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb48880">La Semaine Littéraire</ref>
         </note>
       </correspDesc>
       <textClass>

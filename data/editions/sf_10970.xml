@@ -50,23 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29923" source="https://pmb.acdh.oeaw.ac.at/entity/29923/">
-            <title>Der Weg ins Freie</title>
-          </bibl>
-          <bibl ref="#pmb30717" source="https://pmb.acdh.oeaw.ac.at/entity/30717/">
-            <title>Komödie der Worte</title>
-          </bibl>
-          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
-            <title>Liebelei</title>
-          </bibl>
-          <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
-            <title>Reigen</title>
-          </bibl>
-          <bibl ref="#pmb335635">
-            <title>The Road to the Open (Der Weg in Freie, engl.)</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="#pmb29586" source="https://pmb.acdh.oeaw.ac.at/entity/29586/">
             <orgName>Brandt &amp; Kirkpatrick (New York)</orgName>
@@ -75,7 +58,7 @@
             <orgName>George Allen &amp; Unwin (London)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 4 Seiten
@@ -111,6 +94,11 @@ Antwort auf: <ref target="10968">1923-01-26 SF (Berlin) an AS (Wien)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb45530">Deutsches Schauspielhaus in Hamburg</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10970.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29923">Der Weg ins Freie</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30717">Komödie der Worte</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29917">Liebelei</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb335635">The Road to the Open (Der Weg in Freie, engl.)</ref>
         </note>
       </correspDesc>
       <textClass>
@@ -251,7 +239,7 @@ täjän Uudestä täätä ole täh-<lb/>
 [incompréhensible]<lb/>
 Kotkan korttien määrätä.<lb/>
 Vuodentulksen määrätä. —<lb/>
-M â s<lb/>
+M â&#x80;&#x94; s<lb/>
 Höyrystä Lää-¬<lb/>
 — ### 4-4<lb/>
 me<lb/>
@@ -328,7 +316,7 @@ Hämeen lääneissä kesäkuun mää-<lb/>
 määrän läänissä sekä tämän oli ai-<lb/>
 H!o » — — — » —<lb/>
 T.H.<lb/>
-T m jH â m j m jtt ä<lb/>
+T m jH â&#x80;&#x94; m j m jtt ä<lb/>
 kortteja korteja nelmään ai-<lb/>
 nimittäin, mikä nykyään tämän<lb/>
 Läheinä, että nykyään liiallinen mää-<lb/>
@@ -458,7 +446,7 @@ määränä: Oulun kunnissa<lb/>
 ₤=<lb/>
 θαζθΟΙη—4<lb/>
 maassa lääneissä sekä se<lb/>
-..â¢ O<lb/>
+..â&#x80;¢ O<lb/>
 käkätä, mikä nykyäärät ai-<lb/>
 0 5<lb/>
 kammen järjestä tämän oli<lb/>
@@ -647,7 +635,7 @@ Telsi.<lb/>
 B &amp; J<lb/>
 3 0/0<lb/>
 N:o 3<lb/>
-â¢* â 24<lb/>
+â&#x80;¢* â&#x80;&#x94; 24<lb/>
 r1 3<lb/>
 — w w —<lb/>
 Lähele<lb/>

@@ -50,21 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30881" source="https://pmb.acdh.oeaw.ac.at/entity/30881/">
-            <title>Fink und Fliederbusch</title>
-          </bibl>
-          <bibl type="journal" ref="2097516-8" source="https://ld.zdb-services.de/resource/2097516-8">
-            <title>Magyar kultúra (Zuordnung unsicher)</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb79158" source="https://pmb.acdh.oeaw.ac.at/entity/79158/">
-            <title>Carl Franz Techet: Fern von Europa</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb79161" source="https://pmb.acdh.oeaw.ac.at/entity/79161/">
-            <title>Carl Franz Techet: Völker, Vaterländer und Fürsten</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">3 Blatt, 5 Seiten
@@ -96,6 +82,10 @@ Antwort auf: 1917-12-12: SF (Berlin) an AS (Wien)</note>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10638.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30881">Fink und Fliederbusch</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="2097516-8">Magyar kultúra (Zuordnung unsicher)</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb79158">Carl Franz Techet: Fern von Europa</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb79161">Carl Franz Techet: Völker, Vaterländer und Fürsten</ref>
         </note>
       </correspDesc>
       <textClass>

@@ -56,12 +56,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30203" source="https://pmb.acdh.oeaw.ac.at/entity/30203/">
-            <title>Professor Bernhardi</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 1 Seite beschrieben
@@ -82,6 +77,9 @@ Anlage: Prospekt Gesamtausgabe für Buchhandel (1 Blatt, 4 Seiten); Korrekturabz
           <persName ref="#pmb2121">Schnitzler, Arthur</persName>
           <placeName ref="#pmb45260">Brioni</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30203">Professor Bernhardi</ref>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>

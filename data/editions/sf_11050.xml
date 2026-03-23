@@ -50,15 +50,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl type="journal" ref="134899-1" source="https://ld.zdb-services.de/resource/134899-1">
-            <title>Reclams Universal-Bibliothek</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb30849" source="https://pmb.acdh.oeaw.ac.at/entity/30849/">
-            <title>Thomas Mann: Bekenntnisse des Hochstaplers Felix Krull</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">3 Blatt, 6 Seiten
@@ -87,6 +79,8 @@ Beantwortet in: <ref target="11051">1924-01-23 SF (Berlin) an AS (Wien)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb41240">Österreich</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11050.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="134899-1">Reclams Universal-Bibliothek</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30849">Thomas Mann: Bekenntnisse des Hochstaplers Felix Krull</ref>
         </note>
       </correspDesc>
       <textClass>

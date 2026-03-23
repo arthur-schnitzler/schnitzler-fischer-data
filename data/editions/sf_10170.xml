@@ -57,30 +57,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30647" source="https://pmb.acdh.oeaw.ac.at/entity/30647/">
-            <title>Andreas Thameyers letzter Brief</title>
-          </bibl>
-          <bibl ref="#pmb30655" source="https://pmb.acdh.oeaw.ac.at/entity/30655/">
-            <title>Das neue Lied</title>
-          </bibl>
-          <bibl ref="#pmb30057" source="https://pmb.acdh.oeaw.ac.at/entity/30057/">
-            <title>Das Schicksal des Freiherrn von Leisenbohg</title>
-          </bibl>
-          <bibl ref="#pmb30683" source="https://pmb.acdh.oeaw.ac.at/entity/30683/">
-            <title>Die Weissagung</title>
-          </bibl>
-          <bibl ref="#pmb33776" source="https://pmb.acdh.oeaw.ac.at/entity/33776/">
-            <title>D채mmerseele</title>
-          </bibl>
-          <bibl ref="#pmb29921" source="https://pmb.acdh.oeaw.ac.at/entity/29921/">
-            <title>D채mmerseelen</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb41963" source="https://pmb.acdh.oeaw.ac.at/entity/41963/">
-            <title>Jakob Wassermann: Die Schwestern</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Doppelblatt, 3 Seiten beschrieben
@@ -113,6 +90,13 @@ Antwort auf: 1906-11-14post/1906-11-30ante AS an SF (Sendung f체nf Novellen erw�
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb47927">Washington</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10170.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30647">Andreas Thameyers letzter Brief</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30655">Das neue Lied</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30057">Das Schicksal des Freiherrn von Leisenbohg</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30683">Die Weissagung</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb33776">D채mmerseele</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29921">D채mmerseelen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb41963">Jakob Wassermann: Die Schwestern</ref>
         </note>
       </correspDesc>
       <textClass>

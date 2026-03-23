@@ -15,11 +15,10 @@
         <edition>schnitzler-fischer</edition>
         <respStmt>
           <resp>Regestausgabe</resp>
-          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Arthur Schnitzler-Archiv</publisher>
+        <publisher>Arthur Schnitzler Archiv</publisher>
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
@@ -75,13 +74,12 @@
             <orgName>Società italiana degli autori es editori (Rom)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">2 Blatt, 3 Seiten
 Antwort auf: <ref target="10873">1921-12-28 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10878">1922-01-16 SF (Berlin) an AS (Wien)</ref>
-        </note>
+Beantwortet in: <ref target="10878">1922-01-16 SF (Berlin) an AS (Wien)</ref></note>
         <note type="type">Typoskript (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm))</note>
         <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1922-01-02.html</note>
       </notesStmt>
@@ -97,17 +95,6 @@ Beantwortet in: <ref target="10878">1922-01-16 SF (Berlin) an AS (Wien)</ref>
           <persName ref="#pmb11324">Fischer, Samuel</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
-        <note>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11515">Greiner, Leo</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116324333">Raggio, Enrico</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb92768">Woticky, Edward</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb335761">Sopot</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10874.xml"/>
-        </note>
       </correspDesc>
       <textClass>
         <keywords>
@@ -119,6 +106,31 @@ Beantwortet in: <ref target="10878">1922-01-16 SF (Berlin) an AS (Wien)</ref>
           <term>Überweisung</term>
         </keywords>
       </textClass>
+      <listPerson>
+        <person ref="#pmb11515" source="https://pmb.acdh.oeaw.ac.at/entity/11515/">
+          <persName>Greiner, Leo</persName>
+        </person>
+        <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
+          <persName>Harz, Benjamin</persName>
+        </person>
+        <person ref="116324333" source="https://d-nb.info/gnd/116324333">
+          <persName>Raggio, Enrico</persName>
+        </person>
+        <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
+          <persName>Woticky, Edward</persName>
+        </person>
+      </listPerson>
+      <listPlace>
+        <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
+          <placeName>Italien</placeName>
+        </place>
+        <place ref="#pmb335761" source="https://d-nb.info/gnd/1029207-X">
+          <placeName>Sopot</placeName>
+        </place>
+        <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
+          <placeName>USA</placeName>
+        </place>
+      </listPlace>
     </profileDesc>
   </teiHeader>
   <facsimile>
@@ -129,12 +141,10 @@ Beantwortet in: <ref target="10878">1922-01-16 SF (Berlin) an AS (Wien)</ref>
       <div type="letter">
         <p>2 Blatt, 3 Seiten
 Antwort auf: <ref target="10873">1921-12-28 SF (Berlin) an AS (Wien)</ref>
-Beantwortet in: <ref target="10878">1922-01-16 SF (Berlin) an AS (Wien)</ref>
-        </p>
+Beantwortet in: <ref target="10878">1922-01-16 SF (Berlin) an AS (Wien)</ref></p>
       </div>
-      <div type="OCR">
-        <p>
-          <pb facs="1416739_0211"/>2.1.1922..<lb/>
+          <div type="OCR">
+        <p><pb facs="1416739_0211"/>2.1.1922..<lb/>
 rischer<lb/>
 aie e<lb/>
 Lieber Freund.<lb/>
@@ -174,8 +184,7 @@ ist zu lek ten an mein Konto in New-York, La<lb/>
 denburg,Thalmann &amp; Co. In diesem Fall ganz<lb/>
 besonders bitte ich Sie Ihre Provision sofort<lb/>
 in Abzug zu bringen (ich weiss nicht genau,</p>
-        <p>
-          <pb facs="1416739_0212"/>ob diese jetzt 10,12 oder 15% beträgt,erinne-<lb/>
+        <p><pb facs="1416739_0212"/>ob diese jetzt 10,12 oder 15% beträgt,erinne-<lb/>
 e ich mich recht, so war die Erhöhung der<lb/>
 Provision nur auf eine bestimmte Frist er<lb/>
 streckt). Falls Herr Wotiozky die ganzen<lb/>
@@ -229,8 +238,7 @@ Herzlichst grüssend,mit den wärmsten<lb/>
 Neudemrswünschen für Sie und Herrn Greiner<lb/>
 Ihr<lb/>
 Herrn S.Fischer Verlag.</p>
-        <p>
-          <pb facs="1416739_0213"/>-<lb/>
+        <p><pb facs="1416739_0213"/>-<lb/>
 „ —<lb/>
 Frater<lb/>
 r — k<lb/>
@@ -306,7 +314,7 @@ määnissä sekä aikai-<lb/>
 B &amp; Co + 3 -<lb/>
 Läheinä, Läänille.<lb/>
 †  ==============<lb/>
-(1) „ „ N â¢<lb/>
+(1) „ „ N â&#x80;¢<lb/>
 B.0 N.T. — S.<lb/>
 ⊃ⱥⵔⵥ�ⵛⵜ s<lb/>
 G.C.H. &amp; O.P.<lb/>

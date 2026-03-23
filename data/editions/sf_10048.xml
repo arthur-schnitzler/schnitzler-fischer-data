@@ -26,12 +26,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <listBibl>
-          <bibl type="journal" ref="#pmb53069" source="https://pmb.acdh.oeaw.ac.at/entity/53069/">
-            <title>Der Kunstwart</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten beschrieben
@@ -53,6 +48,9 @@ Antwort auf: <ref target="10047">1896-03-13 SF/OB an AS</ref></note>
           <persName type="coworker">Bie, Oskar</persName>
           <placeName ref="#pmb168">Berlin</placeName>
         </correspAction>
+        <note>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb53069">Der Kunstwart</ref>
+        </note>
       </correspDesc>
       <textClass>
         <keywords>

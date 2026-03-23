@@ -50,20 +50,12 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30717" source="https://pmb.acdh.oeaw.ac.at/entity/30717/">
-            <title>Komödie der Worte</title>
-          </bibl>
-          <bibl ref="#pmb29903" source="https://pmb.acdh.oeaw.ac.at/entity/29903/">
-            <title>Zwischenspiel</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="institution" ref="#pmb29322" source="https://pmb.acdh.oeaw.ac.at/entity/29322/">
             <orgName>Lesezirkel Hottingen</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">3 Blatt, 3 Seiten
@@ -92,6 +84,8 @@ Anlage: 1919-12-30 Kantorowitz, M. (Zürich) an SF (Berlin)</note>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb265652">Stadttheater Zürich</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10734.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30717">Komödie der Worte</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29903">Zwischenspiel</ref>
         </note>
       </correspDesc>
       <textClass>
@@ -160,7 +154,7 @@ mili-e. golta G. rschli<lb/>
 G.C.H.P<lb/>
 (1) 1/2 rt. t.t. m...v. r. p.. r.... m.. r. mai n. m. a. r: m.. m..<lb/>
 G.C.H.F.P.P<lb/>
-. â¢ V. V. nU+1R<lb/>
+. â&#x80;¢ V. V. nU+1R<lb/>
 hältnisse des Züricher Theaters genau bekannt seien, sodass Sie<lb/>
 gegen die Verminderung der Tantiemen einen Einwand kaum erheben<lb/>
 würden. Herrn Direktor Reuker ersucht uns, ein diesbezügliches<lb/>

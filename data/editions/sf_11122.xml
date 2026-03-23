@@ -50,17 +50,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb30207" source="https://pmb.acdh.oeaw.ac.at/entity/30207/">
-            <title>Das weite Land</title>
-          </bibl>
-          <bibl ref="#pmb30205" source="https://pmb.acdh.oeaw.ac.at/entity/30205/">
-            <title>Komödie der Verführung</title>
-          </bibl>
-          <bibl type="journal" ref="#pmb63201" source="https://pmb.acdh.oeaw.ac.at/entity/63201/">
-            <title>Der geistige Arbeiter. Deutsche Urheber-Zeitung</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="institution">
             <orgName>United Plays (Theateragentur, New York)</orgName>
@@ -69,7 +58,7 @@
             <orgName>Verband deutscher Bühnenschriftsteller und Bühnenkomponisten (Berlin)</orgName>
           </org>
         </listOrg>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">1 Blatt, 2 Seiten
@@ -104,6 +93,9 @@ Beantwortet in: <ref target="11123">1924-09-19 SF (Berlin) an AS (Wien)</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb300335">Hessisches Staatstheater Wiesbaden</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11122.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30207">Das weite Land</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30205">Komödie der Verführung</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb63201">Der geistige Arbeiter. Deutsche Urheber-Zeitung</ref>
         </note>
       </correspDesc>
       <textClass>

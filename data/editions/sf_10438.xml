@@ -57,17 +57,6 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl ref="#pmb29917" source="https://pmb.acdh.oeaw.ac.at/entity/29917/">
-            <title>Liebelei</title>
-          </bibl>
-          <bibl ref="#pmb32816" source="https://pmb.acdh.oeaw.ac.at/entity/32816/">
-            <title>Masken und Wunder</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb30367" source="https://pmb.acdh.oeaw.ac.at/entity/30367/">
-            <title>Marguerite de Navarre: Heptameron</title>
-          </bibl>
-        </listBibl>
         <listOrg>
           <org type="publisher" ref="31430-4" source="https://d-nb.info/gnd/31430-4">
             <orgName>Albert Bonniers Förlag (Stockholm)</orgName>
@@ -103,6 +92,9 @@ Antwort auf: <ref target="10436">1912-05-06 AS an SF</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb336084">Neue Freie Volksbühne Berlin</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10438.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29917">Liebelei</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32816">Masken und Wunder</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30367">Marguerite de Navarre: Heptameron</ref>
         </note>
       </correspDesc>
       <textClass>

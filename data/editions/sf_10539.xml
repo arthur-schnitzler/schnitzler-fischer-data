@@ -44,15 +44,7 @@
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl type="journal" ref="#pmb41531" source="https://pmb.acdh.oeaw.ac.at/entity/41531/">
-            <title>Berliner Tageblatt</title>
-          </bibl>
-          <bibl type="third_party" ref="#pmb335639">
-            <title>Theodor Reik: Der Krieg bei Arthur Schnitzler</title>
-          </bibl>
-        </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__.html"/>
+        
       </sourceDesc>
       <notesStmt>
         <note type="description">Nach Rodewald: unvollständiger Maschinendruchschlag; Beginn fehlt
@@ -84,6 +76,8 @@ Beantwortet in: <ref target="10541">1914-09-25 SF an AS</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb46224">Lemberg</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
           <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10539.xml"/>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb41531">Berliner Tageblatt</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb335639">Theodor Reik: Der Krieg bei Arthur Schnitzler</ref>
         </note>
       </correspDesc>
       <textClass>
