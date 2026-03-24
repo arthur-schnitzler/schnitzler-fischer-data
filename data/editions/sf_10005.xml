@@ -14,7 +14,8 @@
       <editionStmt>
         <edition>schnitzler-fischer</edition>
         <respStmt>
-          <resp>Regestausgabe</resp> <orgName>Arthur Schnitzler-Archiv</orgName>
+          <resp>Regestausgabe</resp>
+          <orgName>Arthur Schnitzler-Archiv</orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -22,7 +23,10 @@
         <pubPlace>Freiburg im Breisgau</pubPlace>
         <date when="2026">2026</date>
         <availability>
-          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg
+            (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931.
+            https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den
+            ursprünglichen Ersteller_innen der Datenbank.</p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -30,7 +34,10 @@
           <witness n="1">
             <msDesc>
               <msIdentifier>
-                <repository>DLA; ursprünglich: CUL: MS Schnitzler B121</repository>
+                <country>D</country>
+                <settlement>Marbach am Neckar</settlement>
+                <repository>Deutsches Literaturarchiv</repository>
+                <idno>HS.NZ85.3</idno>
                 <idno type="zotero">HIX9IJLS</idno>
               </msIdentifier>
             </msDesc>
@@ -38,38 +45,42 @@
           <witness n="2">
             <msDesc>
               <msIdentifier>
-                <repository>Nr. 1 (davon Kopie in ASAF)</repository>
+                <country>D</country>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository>Arthur Schnitzler Archiv</repository>
+                <idno>Kopie</idno>
               </msIdentifier>
             </msDesc>
           </witness>
         </listWit>
         <listBibl>
-           <biblStruct>
-              <monogr>
-                 <author ref="#pmb11324">Fischer, Samuel</author>
-                 <author ref="#pmb2657">Fischer, Hedwig</author>
-                 <title level="m">Briefwechsel mit Autoren</title>
-                 <editor>Rodewald, Dierk</editor>
-                 <editor>Fiedler, Corinna</editor>
-                 <imprint>
-                    <pubPlace>Frankfurt am Main</pubPlace>
-                    <publisher>S. Fischer</publisher>
-                    <date when="1989">1989</date>
-                 </imprint>
-                 <biblScope unit="pp">51</biblScope>
-                 <biblScope unit="letter-nr">71</biblScope>
-              </monogr>
-           </biblStruct>
+          <biblStruct>
+            <monogr>
+              <author ref="#pmb11324">Fischer, Samuel</author>
+              <author ref="#pmb2657">Fischer, Hedwig</author>
+              <title level="m">Briefwechsel mit Autoren</title>
+              <editor>Rodewald, Dierk</editor>
+              <editor>Fiedler, Corinna</editor>
+              <imprint>
+                <pubPlace>Frankfurt am Main</pubPlace>
+                <publisher>S. Fischer</publisher>
+                <date when="1989">1989</date>
+              </imprint>
+              <biblScope unit="pp">51</biblScope>
+              <biblScope unit="letter-nr">71</biblScope>
+            </monogr>
+          </biblStruct>
         </listBibl>
-        <ref type="journal_entry" target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1888-12-10.html">Tgb 1888-12-10 (Inhalt referiert)</ref>
+        <ref type="journal_entry"
+          target="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1888-12-10.html">Tgb 1888-12-10
+          (Inhalt referiert)</ref>
       </sourceDesc>
       <notesStmt>
-        <note type="description">1 Doppelblatt, 1 Seite beschrieben
-ehN AS (Rötel): Anatol
-
-Antwort auf: 1888-11-27ante AS an SF (Anfrage Drucklegung 'Anatol'; nicht überliefert)</note>
-        <note type="type">Handschrift (eigenhändige Unterschrift) (eigenhändige Notiz(en) (ggf. mit Urheber-Monogramm) AS)</note>
-        <note type="chronik_entry">https://schnitzler-chronik.acdh.oeaw.ac.at/1888-11-27.html</note>
+        <note type="description">1 Doppelblatt, 1 Seite beschrieben. eigenhändige Nachschrift AS (Rötel): Anatol Antwort
+          auf: <ref>1888-11-27 ante AS an SF</ref> (Anfrage Drucklegung 'Anatol'; nicht überliefert)</note>
+        <note type="type">Handschrift (eigenhändige Unterschrift) (eigenhändige Notiz(en) (ggf. mit
+          Urheber-Monogramm) AS)</note>
+        
       </notesStmt>
     </fileDesc>
     <profileDesc>
@@ -84,15 +95,19 @@ Antwort auf: 1888-11-27ante AS an SF (Anfrage Drucklegung 'Anatol'; nicht überl
           <placeName ref="#pmb50">Wien</placeName>
         </correspAction>
         <note>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29935">Anatol</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30033">Anatol: Anatols Hochzeitsmorgen</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb31357">Anatol: Episode</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30143">Das Abenteuer seines Lebens</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29935"
+            >Anatol</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30033">Anatol:
+            Anatols Hochzeitsmorgen</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb31357">Anatol:
+            Episode</ref>
+          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30143">Das
+            Abenteuer seines Lebens</ref>
         </note>
       </correspDesc>
       <textClass>
         <keywords>
-          <term>Ablehnung/Absage</term>
+          <term>Ableigenhändige Nachschriftung/Absage</term>
           <term>Drama</term>
           <term>Herstellungskosten</term>
         </keywords>
@@ -105,10 +120,8 @@ Antwort auf: 1888-11-27ante AS an SF (Anfrage Drucklegung 'Anatol'; nicht überl
   <text>
     <body>
       <div type="letter">
-        <p>1 Doppelblatt, 1 Seite beschrieben
-ehN AS (Rötel): Anatol
-
-Antwort auf: 1888-11-27ante AS an SF (Anfrage Drucklegung 'Anatol'; nicht überliefert)</p>
+        <p>1 Doppelblatt, 1 Seite beschrieben eigenhändige Nachschrift AS (Rötel): Anatol Antwort auf: 1888-11-27ante AS
+          an SF (Anfrage Drucklegung 'Anatol'; nicht überliefert)</p>
       </div>
     </body>
   </text>
