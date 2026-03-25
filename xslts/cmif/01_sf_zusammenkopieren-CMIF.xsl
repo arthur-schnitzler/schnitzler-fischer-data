@@ -11,26 +11,23 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren
-                            CMIF</title>
+                        <title level="s">Arthur Schnitzler und der S. Fischer Verlag CMIF</title>
                         <editor>Martin Anton Müller<email>martin.anton.mueller@oeaw.ac.at</email>
                         </editor>
-                        <editor>Martin Anton Müller</editor>
-                        <editor>Gerd-Hermann Susen</editor>
-                        <editor>Laura Untner</editor>
-                        <editor>Selma Jahnke</editor>
+                        <editor>
+                            <name>Aurnhammer, Achim</name>
+                            <name>Martin, Dieter</name>
+                            <name>Neubrand, Susanne</name>
+                        </editor>
                     </titleStmt>
                     <publicationStmt>
-                        <publisher>
-                            <ref target="https://schnitzler-briefe.acdh.oeaw.ac.at/">Martin Anton
-                                Müller</ref>
-                        </publisher>
+                        <publisher>Arthur Schnitzler-Archiv</publisher>
+                        <pubPlace>Freiburg im Breisgau</pubPlace>
+                        
+                        <licence target="https://creativecommons.org/licenses/by/null/"
+                            >CC0</licence>
                         <idno type="url"
-                            >https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-cmif/main/schnitzler-briefe-cmif.xml</idno>
-                        <availability>
-                            <licence target="https://creativecommons.org/licenses/by/null/"
-                                >CC0</licence>
-                        </availability>
+                            >https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-cmif/main/schnitzler-fischer-cmif.xml</idno>
                         <xsl:element name="date">
                             <xsl:attribute name="when">
                                 <xsl:value-of
@@ -39,19 +36,18 @@
                         </xsl:element>
                     </publicationStmt>
                     <sourceDesc>
-                        <bibl type="online" xml:id="asbw_0a380dfe-61d4-4b9e-8641-01eba8e50760"
-                            >Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
-                            Edition herausgegeben von Martin Anton Müller mit Gerd-Hermann Susen,
-                            Laura Untner und Selma Jahnke, 2018–[2029] <ref
-                                target="https://schnitzler-briefe.acdh.oeaw.ac.at/"
-                                >https://schnitzler-briefe.acdh.oeaw.ac.at/</ref>
+                        <bibl type="online" xml:id="sf_0a380dfe-61d4-4b9e-8641-01eba8e50760"
+                            >Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. 
+                            Briefdatenbank 1888–1931. <ref
+                                target="https://biblio.ub.uni-freiburg.de/sf/"
+                                >https://biblio.ub.uni-freiburg.de/sf/</ref>
                         </bibl>
                     </sourceDesc>
                 </fileDesc>
                 <xsl:element name="profileDesc" namespace="http://www.tei-c.org/ns/1.0">
                     <xsl:variable name="folderURI" select="resolve-uri('.', base-uri())"/>
                     <xsl:for-each
-                        select="collection(concat($folderURI, '../../editions/?select=L0*.xml;recurse=yes'))[descendant::tei:correspAction]/node()">
+                        select="collection(concat($folderURI, '../../editions/?select=sf_*.xml;recurse=yes'))[descendant::tei:correspAction]/node()">
                         <xsl:if test="not(@xml:id = '' or not(@xml:id) or empty(@xml:id))">
                             <xsl:element name="correspDesc" namespace="http://www.tei-c.org/ns/1.0">
                                 <xsl:attribute name="key">
@@ -65,11 +61,11 @@
                                 </xsl:attribute>
                                 <xsl:attribute name="ref">
                                     <xsl:value-of
-                                        select="concat('https://schnitzler-briefe.acdh.oeaw.ac.at/', @xml:id, '.html')"
+                                        select="concat('https://biblio.ub.uni-freiburg.de/sf/details/', replace(@xml:id, 'sf_', ''))"
                                     />
                                 </xsl:attribute>
                                 <xsl:attribute name="source">
-                                    <xsl:text>#asbw_0a380dfe-61d4-4b9e-8641-01eba8e50760</xsl:text>
+                                    <xsl:text>#sf_0a380dfe-61d4-4b9e-8641-01eba8e50760</xsl:text>
                                 </xsl:attribute>
                                 <xsl:copy-of select="descendant::tei:correspDesc/tei:correspAction"
                                     copy-namespaces="no"/>
