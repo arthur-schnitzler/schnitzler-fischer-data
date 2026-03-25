@@ -130,6 +130,10 @@ class PMBProcessor:
                         if xml_id:
                             self.pmb_index[xml_id] = entity_type
                             count += 1
+                            # Also index pmb-prefixed version (person__12435 → pmb12435 etc.)
+                            if "__" in xml_id:
+                                pmb_key = re.sub(r'^.*__', 'pmb', xml_id)
+                                self.pmb_index[pmb_key] = entity_type
                         elem.clear()  # Free memory immediately
                         
                 print(f"✅ Indexed {count} {entity_type} IDs")
@@ -190,9 +194,17 @@ class PMBProcessor:
             # Find the specific entity using xpath
             if entity_type == "work":
                 entity = root.find(f".//tei:bibl[@xml:id='{pmb_id}']", self.ns)
+                if entity is None and pmb_id.startswith('pmb'):
+                    # listbibl.xml uses work__NNNNN format, not pmb prefix
+                    alt_id = re.sub(r'^pmb', 'work__', pmb_id)
+                    entity = root.find(f".//tei:bibl[@xml:id='{alt_id}']", self.ns)
             else:
                 entity = root.find(f".//tei:{entity_type}[@xml:id='{pmb_id}']", self.ns)
-            
+                if entity is None and pmb_id.startswith('pmb'):
+                    # list*.xml uses type__NNNNN format (person__12435, place__168 etc.)
+                    alt_id = re.sub(r'^pmb', f'{entity_type}__', pmb_id)
+                    entity = root.find(f".//tei:{entity_type}[@xml:id='{alt_id}']", self.ns)
+
             if entity is not None:
                 # Create a deep copy to avoid reference issues
                 entity_copy = copy.deepcopy(entity)
@@ -428,6 +440,12 @@ class PMBProcessor:
                 if target:
                     refs[entity_type]["in_text"].add(target.strip())
 
+        # Remove malformed IDs (e.g. bare "pmb" without digits) from all sets
+        valid = re.compile(r'^pmb\d+$')
+        for entity_type in refs:
+            for subset in refs[entity_type]:
+                refs[entity_type][subset] = {r for r in refs[entity_type][subset] if valid.match(r)}
+
         return refs
 
     def _get_all_refs(self, root: ET.Element) -> list:
@@ -594,6 +612,11 @@ class PMBProcessor:
             if not clean_id.startswith('pmb'):
                 clean_id = f'pmb{clean_id}'
 
+            # Skip malformed IDs (e.g. bare "pmb" without a number)
+            if not re.match(r'^pmb\d+$', clean_id):
+                print(f"⚠️ Skipping malformed ID: {xml_id}")
+                continue
+
             print(f"🔍 Looking up: {original_id} -> {clean_id} (entity_type: {entity_type})")
 
             # Special case for Arthur Schnitzler
@@ -636,65 +659,33 @@ class PMBProcessor:
                 # Try to fetch from PMB API
                 self._fetch_from_api(entity, clean_id, entity_type, ana_attribute)
 
+    _SCHNITZLER_XML = f"""<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="pmb2121">
+        <persName><surname>Schnitzler</surname><forename>Arthur</forename></persName>
+        <birth><date when="1862-05-15">15. 5. 1862</date>
+            <settlement key="pmb50"><placeName type="pref">Wien</placeName>
+                <location><geo>48,208333 16,373056</geo></location>
+            </settlement>
+        </birth>
+        <death><date when="1931-10-21">21. 10. 1931</date>
+            <settlement key="pmb50"><placeName type="pref">Wien</placeName>
+                <location><geo>48,208333 16,373056</geo></location>
+            </settlement>
+        </death>
+        <sex value="male"/>
+        <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+        <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+        <idno type="gnd">https://d-nb.info/gnd/118609807/</idno>
+    </person>"""
+
     def _add_schnitzler_data(self, person_elem: ET.Element, ana_attribute: Optional[str] = None):
-        """Add hardcoded Arthur Schnitzler data"""
+        """Add hardcoded Arthur Schnitzler data without any lookup or API call"""
+        parsed = ET.fromstring(self._SCHNITZLER_XML)
         person_elem.clear()
         person_elem.set("{http://www.w3.org/XML/1998/namespace}id", "pmb2121")
-        # Restore ana attribute if it existed
         if ana_attribute:
             person_elem.set("ana", ana_attribute)
-        
-        # Add persName
-        persname = ET.SubElement(person_elem, f"{{{self.tei_ns}}}persName")
-        surname = ET.SubElement(persname, f"{{{self.tei_ns}}}surname")
-        surname.text = "Schnitzler"
-        forename = ET.SubElement(persname, f"{{{self.tei_ns}}}forename")
-        forename.text = "Arthur"
-        
-        # Add birth
-        birth = ET.SubElement(person_elem, f"{{{self.tei_ns}}}birth")
-        birth_date = ET.SubElement(birth, f"{{{self.tei_ns}}}date")
-        birth_date.set("when", "1862-05-15")
-        birth_date.text = "15. 5. 1862"
-        settlement = ET.SubElement(birth, f"{{{self.tei_ns}}}settlement")
-        settlement.set("key", "pmb50")
-        placename = ET.SubElement(settlement, f"{{{self.tei_ns}}}placeName")
-        placename.set("type", "pref")
-        placename.text = "Wien"
-        location = ET.SubElement(settlement, f"{{{self.tei_ns}}}location")
-        geo = ET.SubElement(location, f"{{{self.tei_ns}}}geo")
-        geo.text = "48,208333 16,373056"
-        
-        # Add death
-        death = ET.SubElement(person_elem, f"{{{self.tei_ns}}}death")
-        death_date = ET.SubElement(death, f"{{{self.tei_ns}}}date")
-        death_date.set("when", "1931-10-21")
-        death_date.text = "21. 10. 1931"
-        settlement2 = ET.SubElement(death, f"{{{self.tei_ns}}}settlement")
-        settlement2.set("key", "pmb50")
-        placename2 = ET.SubElement(settlement2, f"{{{self.tei_ns}}}placeName")
-        placename2.set("type", "pref")
-        placename2.text = "Wien"
-        location2 = ET.SubElement(settlement2, f"{{{self.tei_ns}}}location")
-        geo2 = ET.SubElement(location2, f"{{{self.tei_ns}}}geo")
-        geo2.text = "48,208333 16,373056"
-        
-        # Add sex
-        sex = ET.SubElement(person_elem, f"{{{self.tei_ns}}}sex")
-        sex.set("value", "male")
-        
-        # Add occupations
-        occ1 = ET.SubElement(person_elem, f"{{{self.tei_ns}}}occupation")
-        occ1.set("ref", "pmb90")
-        occ1.text = "Schriftsteller/Schriftstellerin"
-        occ2 = ET.SubElement(person_elem, f"{{{self.tei_ns}}}occupation")
-        occ2.set("ref", "pmb97")
-        occ2.text = "Mediziner/Medizinerin"
-        
-        # Add GND
-        idno = ET.SubElement(person_elem, f"{{{self.tei_ns}}}idno")
-        idno.set("type", "gnd")
-        idno.text = "https://d-nb.info/gnd/118609807/"
+        for child in parsed:
+            person_elem.append(copy.deepcopy(child))
 
     def _fetch_from_api(self, entity: ET.Element, pmb_id: str, entity_type: str, ana_attribute: Optional[str] = None):
         """Fetch entity data from PMB API"""
@@ -746,11 +737,11 @@ class PMBProcessor:
                 error = ET.SubElement(entity, "error")
                 error.set("type", entity_type)
                 error.text = number
-        except Exception as e:
+        except Exception:
             # Add error element
             error = ET.SubElement(entity, "error")
             error.set("type", entity_type)
-            error.text = f"{number} - {str(e)}"
+            error.text = number
 
     def _add_persons_from_bibliography(self, root: ET.Element) -> ET.Element:
         """Add persons from bibliography authors to listPerson (Step 3 - brief_backElement-3.xsl)"""

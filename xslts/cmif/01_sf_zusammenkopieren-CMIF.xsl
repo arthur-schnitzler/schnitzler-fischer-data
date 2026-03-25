@@ -240,9 +240,20 @@
                                             <xsl:attribute name="target">
                                                 <xsl:value-of select="@xml:id"/>
                                             </xsl:attribute>
-                                            <xsl:value-of
-                                                select="child::*[contains(name(), 'Name') or name() = 'title'][1]"
-                                            />
+                                            <xsl:choose>
+                                                <xsl:when test="$currentList = 'listBibl'">
+                                                    <xsl:value-of select="(tei:title[1], error[1])[1]"/>
+                                                </xsl:when>
+                                                <xsl:when test="$currentList = 'listPlace'">
+                                                    <xsl:value-of select="tei:placeName[1]"/>
+                                                </xsl:when>
+                                                <xsl:when test="$currentList = 'listOrg'">
+                                                    <xsl:value-of select="tei:orgName[1]"/>
+                                                </xsl:when>
+                                                <xsl:when test="$currentList = 'listEvent'">
+                                                    <xsl:value-of select="tei:label[1]"/>
+                                                </xsl:when>
+                                            </xsl:choose>
                                         </xsl:element>
                                     </xsl:for-each>
                                 </xsl:for-each>
