@@ -3,8 +3,6 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0" version="3.0">
     <xsl:output indent="yes" method="xml" encoding="utf-8" omit-xml-declaration="false"/>
     <xsl:mode on-no-match="shallow-copy"/>
-    <xsl:param name="correspPartner" select="()"/>
-    <xsl:key name="corresp-lookup" match="tei:personGrp" use="tei:persName/@ref"/>
     <!-- Diese Datei fügt correspDesc zwei Attribute hinzu: ana mit einem Iso-Datum und person mit
 der liste aller Korrespondenzpartner*innen Schnitzlers. 
 Zusätzlich wird ein neues correspContext-Element angelegt, das bei den
@@ -45,18 +43,6 @@ entstehen Duplikate! -->
                         </xsl:otherwise>
                     </xsl:choose>
                 </xsl:variable>
-                <xsl:variable name="partner" as="node()">
-                    <xsl:choose>
-                        <xsl:when
-                            test="tei:correspAction[@type = 'sent']/tei:persName/@ref = '#pmb2121' or tei:correspAction[@type = 'sent']/tei:persName/@ref = '#pmb2173' or tei:correspAction[@type = 'sent']/tei:persName/@ref = '#pmb12695' or tei:correspAction[@type = 'sent']/tei:persName/@ref = '#pmb12701'">
-                            <!-- Briefe von Arthur Schnitzler, Olga Schnitzler, Johann Schnitzler und Louise Schnitzler sind die eine Seite der Korrespondenz -->
-                            <xsl:copy-of select="tei:correspAction[@type = 'received']"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:copy-of select="tei:correspAction[@type = 'sent']"/>
-                        </xsl:otherwise>
-                    </xsl:choose>
-                </xsl:variable>
                 <xsl:element name="correspDesc" namespace="http://www.tei-c.org/ns/1.0">
                     <xsl:copy-of select="@*"/>
                     <xsl:attribute name="ana">
@@ -71,28 +57,6 @@ entstehen Duplikate! -->
                         </xsl:element>
                     </xsl:for-each>
                     <xsl:element name="correspContext" namespace="http://www.tei-c.org/ns/1.0">
-                        <xsl:variable name="correspondences" as="item()*">
-                            <xsl:for-each select="$partner/tei:persName">
-                                <xsl:variable name="currentRef" select="@ref"/>
-                                <xsl:variable name="correspGroup" select="key('corresp-lookup', $currentRef, $correspPartner)"/>
-                                <xsl:if test="$correspGroup/@xml:id != 'correspondence_null'">
-                                    <xsl:sequence select="$correspGroup/@xml:id"/>
-                                </xsl:if>
-                            </xsl:for-each>
-                        </xsl:variable>
-                        <xsl:for-each select="distinct-values($correspondences)">
-                            <xsl:variable name="correspId" select="."/>
-                            <xsl:variable name="correspGroup" select="$correspPartner//tei:personGrp[@xml:id = $correspId]"/>
-                            <xsl:element name="ref" namespace="http://www.tei-c.org/ns/1.0">
-                                <xsl:attribute name="type">
-                                    <xsl:text>belongsToCorrespondence</xsl:text>
-                                </xsl:attribute>
-                                <xsl:attribute name="target">
-                                    <xsl:value-of select="$correspId"/>
-                                </xsl:attribute>
-                                <xsl:value-of select="$correspGroup/tei:persName[@role = 'main']"/>
-                            </xsl:element>
-                        </xsl:for-each>
                         <xsl:copy-of select="tei:correspContext/child::*"/>
                     </xsl:element>
                     <xsl:copy-of select="tei:note[child::tei:ref]"/>
