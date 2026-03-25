@@ -24,8 +24,10 @@
                         <publisher>Arthur Schnitzler-Archiv</publisher>
                         <pubPlace>Freiburg im Breisgau</pubPlace>
                         
-                        <licence target="https://creativecommons.org/licenses/by/null/"
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by/null/"
                             >CC0</licence>
+                        </availability>
                         <idno type="url"
                             >https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-cmif/main/schnitzler-fischer-cmif.xml</idno>
                         <xsl:element name="date">
