@@ -3,7 +3,7 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0" version="3.0">
     <xsl:output indent="yes" method="xml" encoding="utf-8" omit-xml-declaration="false"/>
     <xsl:mode on-no-match="shallow-copy"/>
-    <xsl:param name="correspPartner" select="document('../../indices/listcorrespondence.xml')"/>
+    <xsl:param name="correspPartner" select="()"/>
     <xsl:key name="corresp-lookup" match="tei:personGrp" use="tei:persName/@ref"/>
     <!-- Diese Datei fügt correspDesc zwei Attribute hinzu: ana mit einem Iso-Datum und person mit
 der liste aller Korrespondenzpartner*innen Schnitzlers. 
