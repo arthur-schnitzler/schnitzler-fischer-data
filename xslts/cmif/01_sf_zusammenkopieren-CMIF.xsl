@@ -47,7 +47,7 @@
                 <xsl:element name="profileDesc" namespace="http://www.tei-c.org/ns/1.0">
                     <xsl:variable name="folderURI" select="resolve-uri('.', base-uri())"/>
                     <xsl:for-each
-                        select="collection(concat($folderURI, '../../editions/?select=sf_*.xml;recurse=yes'))[descendant::tei:correspAction]/node()">
+                        select="collection(concat($folderURI, '../../data/editions/?select=sf_*.xml;recurse=yes'))[descendant::tei:correspAction]/node()">
                         <xsl:if test="not(@xml:id = '' or not(@xml:id) or empty(@xml:id))">
                             <xsl:element name="correspDesc" namespace="http://www.tei-c.org/ns/1.0">
                                 <xsl:attribute name="key">
