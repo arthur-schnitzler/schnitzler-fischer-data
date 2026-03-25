@@ -38,12 +38,12 @@ jobs:
         run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
-          if git status --porcelain | grep data/indices/schnitzler-fischer-cmif.xml; then
-            git add data/indices/schnitzler-fischer-cmif.xml
+          git add data/indices/schnitzler-fischer-cmif.xml
+          if git diff --cached --quiet; then
+            echo "📭 Keine Änderungen im CMIF."
+          else
             git commit -m "Automatisch: CMIF aktualisiert"
             git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:${{ github.ref_name }}
-          else
-            echo "📭 Keine Änderungen im CMIF."
           fi
 
   add-correspContext:

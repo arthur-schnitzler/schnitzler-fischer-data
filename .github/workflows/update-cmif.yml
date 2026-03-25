@@ -38,12 +38,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          if git status --porcelain | grep data/indices/schnitzler-fischer-cmif.xml; then
-            git add data/indices/schnitzler-fischer-cmif.xml
+          git add data/indices/schnitzler-fischer-cmif.xml
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
             git commit -m "Update schnitzler-fischer-cmif.xml via workflow"
             git push
-          else
-            echo "No changes to commit."
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
