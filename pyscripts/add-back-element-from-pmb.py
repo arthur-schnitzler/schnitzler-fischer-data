@@ -1122,7 +1122,6 @@ def main():
     sys.stdout.flush()
     
     result = processor.process_file(input_file, output_file)
-    processor.cleanup()
 
     print(f"✅ Script completed: {result}")
     sys.stdout.flush()
