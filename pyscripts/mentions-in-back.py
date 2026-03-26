@@ -31,8 +31,8 @@ def pretty_xml(element):
 mentioned_person_keys = set()
 work_ids = set()
 
-# Verarbeitung aller sf*.xml Dateien in ./editions/
-xml_files = glob.glob("./editions/sf_*.xml")
+# Verarbeitung aller sf*.xml Dateien in ./data/editions/
+xml_files = glob.glob("./data/editions/sf_*.xml")
 
 for tag_name, output_filename in targets:
     keys = set()

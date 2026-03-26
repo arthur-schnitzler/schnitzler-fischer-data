@@ -7,7 +7,7 @@ import time
 NS = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
 # Zielverzeichnis
-output_dir = "./indices"
+output_dir = "./data/indices"
 os.makedirs(output_dir, exist_ok=True)
 
 # Temporäres Verzeichnis für XSLT-Verarbeitung
