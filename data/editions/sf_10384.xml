@@ -1,131 +1,156 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10384">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title level="s">Arthur Schnitzler und der S. Fischer Verlag</title>
- <title level="a">1911-06-02 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
-        <author ref="#pmb11324">Fischer, Samuel</author>
-        <editor>
-          <name>Aurnhammer, Achim</name>
-          <name>Martin, Dieter</name>
-          <name>Neubrand, Susanne</name>
-        </editor>
-      </titleStmt>
-      <editionStmt>
-        <edition>schnitzler-fischer</edition>
-        <respStmt>
-          <resp>Regestausgabe</resp>
-          <orgName>Arthur Schnitzler-Archiv</orgName>
-        </respStmt>
-      </editionStmt>
-      <publicationStmt>
-        <publisher>Arthur Schnitzler-Archiv</publisher>
-        <pubPlace>Freiburg im Breisgau</pubPlace>
-        <date when="2026">2026</date>
-        <availability>
-          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <listWit>
-          <witness n="1">
-            <msDesc>
-              <msIdentifier>
-                <country>D</country>
-                <settlement>Freiburg im Breisgau</settlement>
-                <repository>Arthur Schnitzler Archiv</repository>
-                <idno>Q-1-6a</idno>
-                <idno type="zotero">U95NTT69</idno>
-              </msIdentifier>
-            </msDesc>
-          </witness>
-          <witness n="2">
-            <msDesc>
-              <msIdentifier>
-                <country>GB</country>
-                <settlement>Cambridge</settlement>
-                <repository>Cambridge University Library</repository>
-                <idno>MS Schnitzler B121</idno>
-              </msIdentifier>
-            </msDesc>
-          </witness>
-          <witness n="3">
-            <msDesc>
-              <msIdentifier>
-                <repository>Nr. 251</repository>
-              </msIdentifier>
-            </msDesc>
-          </witness>
-        </listWit>
-        
-      </sourceDesc>
-      <notesStmt>
-        <note type="description">2 Blatt, 2 Seiten beschrieben
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler und der S. Fischer Verlag</title>
+            <title level="a">1911-06-02 Samuel Fischer (Berlin) an Arthur Schnitzler (Wien)</title>
+            <author ref="#pmb11324">Fischer, Samuel</author>
+            <editor>
+               <name>Aurnhammer, Achim</name>
+               <name>Martin, Dieter</name>
+               <name>Neubrand, Susanne</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>schnitzler-fischer</edition>
+            <respStmt>
+               <resp>Regestausgabe</resp>
+               <orgName>Arthur Schnitzler-Archiv</orgName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Arthur Schnitzler-Archiv</publisher>
+            <pubPlace>Freiburg im Breisgau</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>D</country>
+                        <settlement>Freiburg im Breisgau</settlement>
+                        <repository>Arthur Schnitzler Archiv</repository>
+                        <idno>Q-1-6a</idno>
+                        <idno type="zotero">U95NTT69</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness n="2">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>Cambridge University Library</repository>
+                        <idno>MS Schnitzler B121</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness n="3">
+                  <msDesc>
+                     <msIdentifier>
+                        <repository>Nr. 251</repository>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+         <notesStmt>
+            <note type="description">2 Blatt, 2 Seiten beschrieben
 
 Antwort auf: <ref target="10383">1911-06-01 AS an SF</ref>
 Beantwortet in: <ref target="10385">1911-06-06 AS an SF</ref>
-        </note>
-        <note type="published_in">Buohler 2011, 172 (Auszug)</note>
-        <note type="type">Typoskript (Unterschrift-Stempel)</note>
-        
-      </notesStmt>
-    </fileDesc>
-    <profileDesc> <langUsage>             <language ident="de-AT">German</language>          </langUsage>
-      <correspDesc>
-        <correspAction type="sent">
-          <persName ref="#pmb11324">Fischer, Samuel</persName>
-          <placeName ref="#pmb168">Berlin</placeName>
-          <date when="1911-06-02" n="01">1911-06-02</date>
-        </correspAction>
-        <correspAction type="received">
-          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-          <placeName ref="#pmb50">Wien</placeName>
-        </correspAction>
-        <note>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb10896">Bernauer, Rudolf</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11198">Durieux, Tilla</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2226">Fred, Alfred W.</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2229">Handl, Willi</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12078">Lindau, Paul</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12081">Lindner, Anton</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb8889">Meinhard, Carl</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12813">Speidel, Albert von</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb652">Prag</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29380">Berliner Theater</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb44112">Nationaltheater München</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10384.xml"/>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29985">Der einsame Weg</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29937">Der junge Medardus</ref>
-        </note>
-      </correspDesc>
-      <textClass>
-        <keywords>
-          <term>Ableigenhändige Nachschriftung/Absage</term>
-          <term>Aufführung</term>
-          <term>Garantiesumme</term>
-        </keywords>
-      </textClass>
-    </profileDesc> <langUsage>             <language ident="de-AT">German</language>          </langUsage>
-  </teiHeader>
-  <facsimile>
-    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0495.html"/>
-  </facsimile>
-  <text>
-    <body>
-      <div type="letter">
-        <p>2 Blatt, 2 Seiten beschrieben
+            </note>
+            <note type="published_in">Buohler 2011, 172 (Auszug)</note>
+            <note type="type">Typoskript (Unterschrift-Stempel)</note>
+         </notesStmt>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#pmb11324">Fischer, Samuel</persName>
+               <placeName ref="#pmb168">Berlin</placeName>
+               <date when="1911-06-02" n="01">1911-06-02</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <date evidence="conjecture" notBefore="1911-06-03" notAfter="1911-06-07">[3. 6. 1911 – 7. 6. 1911?]</date>
+               <placeName ref="#pmb50">Wien</placeName>
+            </correspAction>
+            <note>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson"
+                    target="pmb10896">Bernauer, Rudolf</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson"
+                    target="pmb11198">Durieux, Tilla</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson"
+                    target="pmb2226">Fred, Alfred W.</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson"
+                    target="pmb2229">Handl, Willi</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson"
+                    target="pmb12078">Lindau, Paul</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson"
+                    target="pmb12081">Lindner, Anton</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson"
+                    target="pmb8889">Meinhard, Carl</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson"
+                    target="pmb12813">Speidel, Albert von</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace"
+                    target="pmb45258">München</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace"
+                    target="pmb652">Prag</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace"
+                    target="pmb50">Wien</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg"
+                    target="pmb29380">Berliner Theater</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg"
+                    target="pmb44112">Nationaltheater München</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile"
+                    target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10384.xml"/>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl"
+                    target="pmb29985">Der einsame Weg</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl"
+                    target="pmb29937">Der junge Medardus</ref>
+            </note>
+            <correspContext>
+               <ref subtype="previous_letter" type="withinCollection" target="sf_10383">Schnitzler an Fischer, 1911-06-01</ref>
+               <ref subtype="next_letter" type="withinCollection" target="sf_10385">Schnitzler an Fischer, 1911-06-06</ref>
+            </correspContext>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term>Ableigenhändige Nachschriftung/Absage</term>
+               <term>Aufführung</term>
+               <term>Garantiesumme</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <langUsage>
+         <language ident="de-AT">German</language>
+      </langUsage>
+   </teiHeader>
+   <facsimile>
+      <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742_0495.html"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>2 Blatt, 2 Seiten beschrieben
 
 Antwort auf: <ref target="10383">1911-06-01 AS an SF</ref>
 Beantwortet in: <ref target="10385">1911-06-06 AS an SF</ref>
-        </p>
-      </div>
-      <div type="OCR">
-        <p>
-          <pb facs="1416742_0495"/>251<lb/>
+            </p>
+         </div>
+         <div type="OCR">
+            <p>
+               <pb facs="1416742_0495"/>251<lb/>
 S. Fischer, Verlag, Berlin W., Bülowstraße 90<lb/>
 den 2. Juni 1911<lb/>
 Herrn Dr. Arthur Schnitzler<lb/>
@@ -152,8 +177,8 @@ tiviert, dass das Schauspielhaus Ihnen eine Aufführung, mit der es<lb/>
 sich sehen lassen könnte, nicht bieten kann. Um Deutschland für den<lb/>
 "Medardus" zu erobern, käme ausser Berlin in erster Linie München in<lb/>
 Betracht. Das Hoftheater hat abgeleigenhändige Nachschriftt. Wenn sich der Intendant</p>
-        <p>
-          <pb facs="1416742_0496"/>Blatt 2<lb/>
+            <p>
+               <pb facs="1416742_0496"/>Blatt 2<lb/>
 190<lb/>
 S. Fischer, Verlag, Berlin,<lb/>
 Speidel entschliessen könnte, den "Medardus" in Wien anzusehen, wäre<lb/>
@@ -180,934 +205,1072 @@ dass ich von einem der beiden ein kleines Buch schreiben lassen soll?<lb/>
 Mit schönsten Pfingstgrüssen<lb/>
 Ihr<lb/>
 S.fischer.</p>
-      </div>
-    </body>
-  <back><listPerson><person xml:id="pmb10896"><persName>
-      <forename>Rudolf</forename>
-      <surname>Bernauer</surname>
-  </persName>
-  <persName type="legacy-name-merge">Bernauer, Rudolf</persName>
-  <birth>
-    <date when="1880-01-20">1880-01-20</date>
-      <settlement ref="pmb50">
-        <placeName type="pref">Wien</placeName>
-        <location><geo>48,208333 16,373056</geo></location>
-      </settlement>
-  </birth>  
-  <death>
-    <date when="1953-11-27">1953-11-27</date>
-      <settlement ref="pmb224">
-        <placeName type="pref">London</placeName>
-        <location><geo>51,50853 -0,12574</geo></location>
-      </settlement>
-  </death>
-  <sex value="male"/>
-  <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
-  <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_13664.html</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10896.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10896/</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q87821</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Rudolf_Bernauer</idno>
-  <idno type="URL" subtype="wiengeschichtewiki">https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=9865</idno>
-  <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb10896.html</idno>
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118656295</idno>
-  <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb10896.html</idno>
-  <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb10896</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/267893/</idno>
-  <idno type="URL" subtype="schaubuehne">https://schaubuehne.oeaw.ac.at/register.html?author=2467</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb10896.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb10896.html</idno>
-  <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/person/single.xhtml?id=10101051</idno>
-<listEvent>
-    <event n="Theateraufführung" when="1905-06-27" ref="pmb51741">
-        <desc n="1256">mitwirkend an</desc>
-        <label>Aufführung von Die Juden, 27.6.1905</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51741/</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb51741.html</idno>
-    </event>
-    <event n="Theateraufführung" when="1905-07-01" ref="pmb333602">
-        <desc n="1256">mitwirkend an</desc>
-        <label>Aufführung von Die Juden, 1.7.1905</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/333602/</idno>
-    </event>
-</listEvent>
-<figure>
-    <graphic url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Rudolf_Bernauer_%28BerlLeben_1908-09%29.jpg/250px-Rudolf_Bernauer_%28BerlLeben_1908-09%29.jpg"/>
-</figure>
-</person><person xml:id="pmb11198"><persName>
-      <forename>Tilla</forename>
-      <surname>Durieux</surname>
-  </persName>
-  <persName type="person_geburtsname_nachname">Godefroy</persName>
-  <persName type="person_ehename_nachname">Spiro</persName>
-  <persName type="person_ehename_nachname">Cassirer</persName>
-  <persName type="person_ehename_nachname">Katzenellenbogen</persName>
-  <persName type="person_geburtsname_vorname">Ottilie</persName>
-  <persName type="legacy-name-merge">Durieux, Tilla</persName>
-  <birth>
-    <date when="1880-08-18">1880-08-18</date>
-      <settlement ref="pmb50">
-        <placeName type="pref">Wien</placeName>
-        <location><geo>48,208333 16,373056</geo></location>
-      </settlement>
-  </birth>  
-  <death>
-    <date when="1971-02-20">1971-02-20</date>
-      <settlement ref="pmb168">
-        <placeName type="pref">Berlin</placeName>
-        <location><geo>52,52437 13,41053</geo></location>
-      </settlement>
-  </death>
-  <sex value="female"/>
-  <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118528262</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_14567.html</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11198.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11198/</idno>
-  <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp54123</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q78793</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Tilla_Durieux</idno>
-  <idno type="URL" subtype="wiengeschichtewiki">https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=10427</idno>
-  <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11198.html</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11198.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159844/</idno>
-  <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11198.html</idno>
-  <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb11198</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11198.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb11198.html</idno>
-  <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/person/single.xhtml?id=8085440</idno>
-  <idno type="URL" subtype="ansorge">https://conrad-ansorge.github.io/ansorge-static/ansorge_p_157.html</idno>
-<listEvent>
-    <event n="Theateraufführung" when="1905-05-13" ref="pmb209369">
-        <desc n="1256">mitwirkend an</desc>
-        <label>Aufführung von Elektra. Tragödie in einem Aufzug, 13.5.1905</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/209369/</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209369.html</idno>
-    </event>
-    <event n="Theateraufführung" when="1905-06-03" ref="pmb45403">
-        <desc n="1256">mitwirkend an</desc>
-        <label>Aufführung von Ein Sommernachtstraum, 3.6.1905</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45403/</idno>
-    </event>
-    <event n="Theaterpremiere" when="1910-01-19" ref="pmb142707">
-        <desc n="1256">mitwirkend an</desc>
-        <label>Deutschsprachige Uraufführung von Der gute König Dagobert, 19.1.1910</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/142707/</idno>
-    </event>
-    <event n="Theaterpremiere" when="1911-05-27" ref="pmb186278">
-        <desc n="1256">mitwirkend an</desc>
-        <label>Premiere von Der junge Medardus, 27.5.1911</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/186278/</idno>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/88576/</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb186278.html</idno>
-    </event>
-    <event n="Generalprobe" when="1911-11-04" ref="pmb252577">
-        <desc n="1256">mitwirkend an</desc>
-        <label>Generalprobe von Schauspielerin, 4.11.1911</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/252577/</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb252577.html</idno>
-    </event>
-    <event n="Theateraufführung" when="1921-04-22" ref="pmb210092">
-        <desc n="1256">mitwirkend an</desc>
-        <label>Aufführung von Fédora, 22.4.1921</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/210092/</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210092.html</idno>
-    </event>
-    <event n="Theateraufführung" when="1924-12-30" ref="pmb210325">
-        <desc n="1256">mitwirkend an</desc>
-        <label>Aufführung von Franziska, 30.12.1924</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/210325/</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210325.html</idno>
-    </event>
-</listEvent>
-<note type="references"> </note>
-<figure>
-    <graphic url="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Tilla_Durieux_1905_Foto_Jacob_Hilsdorf.jpeg/250px-Tilla_Durieux_1905_Foto_Jacob_Hilsdorf.jpeg"/>
-</figure>
-</person><person xml:id="pmb11324"><persName>
-      <forename>Samuel</forename>
-      <surname>Fischer</surname>
-  </persName>
-  <persName type="legacy-name-merge">Fischer, Samuel</persName>
-  <birth>
-    <date when="1859-12-24">1859-12-24</date>
-      <settlement ref="pmb55962">
-        <placeName type="pref">Liptovský Mikuláš</placeName>
-        <location><geo>49,08061 19,62218</geo></location>
-      </settlement>
-  </birth>  
-  <death>
-    <date when="1934-10-15">1934-10-15</date>
-      <settlement ref="pmb168">
-        <placeName type="pref">Berlin</placeName>
-        <location><geo>52,52437 13,41053</geo></location>
-      </settlement>
-  </death>
-  <sex value="male"/>
-  <occupation ref="pmb144">Verleger/Verlegerin</occupation>
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118691406</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_15009.html</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11324.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11324/</idno>
-  <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb11324.html</idno>
-  <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp37584</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q95541</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Samuel_Fischer_(Verleger)</idno>
-  <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11324.html</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11324.html</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416739.html?pmb11324</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416740.html?pmb11324</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416741.html?pmb11324</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742.html?pmb11324</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743.html?pmb11324</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416744.html?pmb11324</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416747.html?pmb11324</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160037/</idno>
-  <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11324.html</idno>
-  <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb11324</idno>
-  <idno type="URL" subtype="zweig-digital">https://www.stefanzweig.digital/o:szd.personen/sdef:TEI/get#SZDPER.1814</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/262813/</idno>
-  <idno type="URL" subtype="brenner">https://brenner.oeaw.ac.at/?p=brennerp10459</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11324.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb11324.html</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb11324</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/p_37584</idno>
-  <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/person/single.xhtml?id=10352053</idno>
-<affiliation when="1886-01-01" notAfter="1886-12-31" notBefore="1886-01-01">
-    <term ref="pmb1409">besitzt</term>
-    <orgName ref="pmb29639">S. Fischer Verlag</orgName>
-    <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29639.html</idno>
-    <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29639/</idno>
-    <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb29639.html</idno>
-    <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q481576</idno>
-    <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/S._Fischer_Verlag</idno>
-    <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb29639.html</idno>
-    <idno type="URL" subtype="wiengeschichtewiki">https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=69407</idno>
-    <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29639.html</idno>
-    <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb29639</idno>
-</affiliation>
-<affiliation when="1889-04-05">
-    <term ref="pmb1182">arbeitet für</term>
-    <orgName ref="pmb29561">Freie Bühne</orgName>
-    <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29561/</idno>
-    <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1453924</idno>
-    <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Freie_B%C3%BChne_Berlin</idno>
-    <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29561.html</idno>
-</affiliation>
-<listEvent>
-    <event n="Theaterpremiere" when="1896-02-04" ref="pmb35206">
-        <desc n="1370">teilgenommen an</desc>
-        <label>Premiere von Liebelei, Der zerbrochene Krug, 4.2.1896</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35206/</idno>
-        <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35206.html</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35206.html</idno>
-    </event>
-    <event n="Theateruraufführung" when="1898-10-08" ref="pmb35382">
-        <desc n="1370">teilgenommen an</desc>
-        <label>Uraufführung von Das Vermächtnis, 8.10.1898</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35382/</idno>
-        <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35382.html</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35382.html</idno>
-    </event>
-    <event n="Theaterpremiere" when="1906-02-24" ref="pmb35179">
-        <desc n="1370">teilgenommen an</desc>
-        <label>Premiere von Der Ruf des Lebens, 24.2.1906</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35179/</idno>
-        <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35179.html</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35179.html</idno>
-    </event>
-    <event n="Theateraufführung" when="1906-04-19" ref="pmb147446">
-        <desc n="1370">teilgenommen an</desc>
-        <label>Aufführung von Der einsame Weg, 19.4.1906</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/147446/</idno>
-    </event>
-    <event n="Theateruraufführung" when="1910-09-12" ref="pmb148404">
-        <desc n="1370">teilgenommen an</desc>
-        <label>Uraufführung 8. Sinfonie, 12.9.1910</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148404/</idno>
-    </event>
-    <event n="Theateruraufführung" when="1910-11-24" ref="pmb35251">
-        <desc n="1370">teilgenommen an</desc>
-        <label>Uraufführung von Der junge Medardus, 24.11.1910</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35251/</idno>
-        <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35251.html</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35251.html</idno>
-    </event>
-    <event n="Liederkonzert" when="1911-02-23" ref="pmb167960">
-        <desc n="1370">teilgenommen an</desc>
-        <label>Gesangskonzert von Olga Schnitzler, 23.2.1911</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/167960/</idno>
-        <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb167960.html</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb167960.html</idno>
-    </event>
-    <event n="Theateruraufführung" when="1912-11-28" ref="pmb35355">
-        <desc n="1370">teilgenommen an</desc>
-        <label>Uraufführung von Professor Bernhardi, 28.11.1912</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35355/</idno>
-        <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35355.html</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35355.html</idno>
-    </event>
-    <event n="Generalprobe" when="1914-10-23" ref="pmb186295">
-        <desc n="1370">teilgenommen an</desc>
-        <label>Generalprobe von Der junge Medardus, 23.10.1914</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/186295/</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb186295.html</idno>
-    </event>
-    <event n="Generalprobe" when="1929-12-02" ref="pmb43870">
-        <desc n="1370">teilgenommen an</desc>
-        <label>Generalprobe von Spuk, 2.12.1929</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43870/</idno>
-        <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb43870.html</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb43870.html</idno>
-    </event>
-</listEvent>
-<figure>
-    <graphic url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Samuel_Fischer_1915_-_Oelgemaelde_von_Max_Liebermann.JPG/250px-Samuel_Fischer_1915_-_Oelgemaelde_von_Max_Liebermann.JPG"/>
-</figure>
-</person><person xml:id="pmb12078"><persName>
-      <forename>Paul</forename>
-      <surname>Lindau</surname>
-  </persName>
-  <persName type="legacy-name-merge">Lindau, Paul</persName>
-  <birth>
-    <date when="1839-06-03">1839-06-03</date>
-      <settlement ref="pmb918">
-        <placeName type="pref">Magdeburg</placeName>
-        <location><geo>52,14167 11,64444</geo></location>
-      </settlement>
-  </birth>  
-  <death>
-    <date when="1919-01-31">1919-01-31</date>
-      <settlement ref="pmb168">
-        <placeName type="pref">Berlin</placeName>
-        <location><geo>52,52437 13,41053</geo></location>
-      </settlement>
-  </death>
-  <sex value="male"/>
-  <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-  <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
-  <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118780034</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_17558.html</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12078.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12078/</idno>
-  <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12078.html</idno>
-  <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp51225</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q86886</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Paul_Lindau</idno>
-  <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12078.html</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12078.html</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416455.html?pmb12078</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161080/</idno>
-  <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_3141.html</idno>
-  <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb12078.html</idno>
-  <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb12078</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12078.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb12078.html</idno>
-  <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/person/single.xhtml?id=8245987</idno>
-  <idno type="URL" subtype="burgtheater">https://kulturerbe.burgtheater.at/person/6504166ba47588ad6024b488</idno>
-<affiliation when="1877-01-01" notAfter="1877-12-31" notBefore="1877-01-01">
-    <term ref="pmb1182">arbeitet für</term>
-    <orgName ref="pmb34269">Nord und Süd</orgName>
-    <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1123300100</idno>
-    <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/34269/</idno>
-    <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb34269.html</idno>
-    <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/304543/</idno>
-    <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/person/single.xhtml?id=10933551</idno>
-</affiliation>
-<affiliation when="1887-01-01" notAfter="1887-12-31" notBefore="1887-01-01">
-    <term ref="pmb1182">arbeitet für</term>
-    <orgName ref="pmb29329">Berliner Tageblatt</orgName>
-    <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29329.html</idno>
-    <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29329/</idno>
-    <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb29329.html</idno>
-    <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q455014</idno>
-    <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berliner_Tageblatt</idno>
-    <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb29329.html</idno>
-    <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29329.html</idno>
-</affiliation>
-<affiliation when="1900-01-01" notAfter="1900-12-31" notBefore="1900-01-01">
-    <term ref="pmb1182">arbeitet für</term>
-    <orgName ref="pmb29380">Berliner Theater</orgName>
-    <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29380/</idno>
-    <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q821806</idno>
-    <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berliner_Theater</idno>
-    <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29380.html</idno>
-    <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb29380.html</idno>
-    <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/333597/</idno>
-</affiliation>
-<affiliation when="1904-07-01">
-    <term ref="pmb1182">arbeitet für</term>
-    <orgName ref="pmb35597">Deutsches Theater Berlin</orgName>
-    <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q703955</idno>
-    <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4058252-8</idno>
-    <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35597/</idno>
-    <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb35597.html</idno>
-    <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Deutsches_Theater_Berlin</idno>
-    <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb35597.html</idno>
-    <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416472.html?pmb35597</idno>
-    <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416473.html?pmb35597</idno>
-    <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35597.html</idno>
-    <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35597.html</idno>
-</affiliation>
-<note type="references"> </note>
-<figure>
-    <graphic url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Die_Gartenlaube_%281877%29_b_129.jpg/250px-Die_Gartenlaube_%281877%29_b_129.jpg"/>
-</figure>
-</person><person xml:id="pmb12081"><persName>
-      <forename>Anton</forename>
-      <surname>Lindner</surname>
-  </persName>
-  <persName type="person_pseudonym">Pierre d’Aubecq</persName>
-  <birth>
-    <date when="1874-12-14">1874-12-14</date>
-      <settlement ref="pmb46224">
-        <placeName type="pref">Lviv</placeName>
-        <location><geo>49,83826 24,02324</geo></location>
-      </settlement>
-  </birth>  
-  <death>
-    <date when="1928-12-30">1928-12-30</date>
-      <settlement ref="pmb12083">
-        <placeName type="pref">Wandsbek</placeName>
-        <location><geo>53,582033 10,084261</geo></location>
-      </settlement>
-  </death>
-  <sex value="male"/>
-  <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/117026190</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_17573.html</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12081.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12081/</idno>
-  <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38356</idno>
-  <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x00282ef7</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q591539</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Anton_Lindner</idno>
-  <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb12081.html</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12081.html</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb12081</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/p_38356</idno>
-  <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb12081.html</idno>
-<affiliation>
-    <term ref="pmb1182">arbeitet für</term>
-    <orgName ref="pmb29749">Wiener Rundschau</orgName>
-    <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29749.html</idno>
-    <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29749/</idno>
-    <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/142338/</idno>
-    <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb29749.html</idno>
-    <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29749.html</idno>
-</affiliation>
-</person><person xml:id="pmb12813"><persName>
-      <forename>Albert von</forename>
-      <surname>Speidel</surname>
-  </persName>
-  <persName type="legacy-name-merge">Speidel, Albert, Freiherr von</persName>
-  <persName type="legacy-name-merge">Speidel, Albert von</persName>
-  <birth>
-    <date when="1858-01-26">1858-01-26</date>
-      <settlement ref="pmb45258">
-        <placeName type="pref">München</placeName>
-        <location><geo>48,13743 11,57549</geo></location>
-      </settlement>
-  </birth>  
-  <death>
-    <date when="1912-09-01">1912-09-01</date>
-      <settlement ref="pmb45258">
-        <placeName type="pref">München</placeName>
-        <location><geo>48,13743 11,57549</geo></location>
-      </settlement>
-  </death>
-  <sex value="male"/>
-  <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/117482609</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_20240.html</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12813.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12813/</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94762524</idno>
-  <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38838</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162324/</idno>
-  <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb12813</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12813.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/304073/</idno>
-  <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/person/single.xhtml?id=10661851</idno>
-<affiliation>
-    <term ref="pmb1182">arbeitet für</term>
-    <orgName ref="pmb44112">Nationaltheater München</orgName>
-    <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44112/</idno>
-    <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q707679</idno>
-    <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Nationaltheater_(M%C3%BCnchen)</idno>
-    <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb44112.html</idno>
-</affiliation>
-<note type="references"> </note>
-</person><person xml:id="pmb2121"><persName><surname>Schnitzler</surname><forename>Arthur</forename></persName>
-        <birth><date when="1862-05-15">15. 5. 1862</date>
-            <settlement ref="pmb50"><placeName type="pref">Wien</placeName>
-                <location><geo>48,208333 16,373056</geo></location>
-            </settlement>
-        </birth>
-        <death><date when="1931-10-21">21. 10. 1931</date>
-            <settlement ref="pmb50"><placeName type="pref">Wien</placeName>
-                <location><geo>48,208333 16,373056</geo></location>
-            </settlement>
-        </death>
-        <sex value="male"/>
-        <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-        <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
-        <idno type="gnd">https://d-nb.info/gnd/118609807/</idno>
-    </person><person xml:id="pmb2226"><persName>
-      <surname>W. Fred</surname>
-  </persName>
-  <persName type="person_geburtsname_vorname">Alfred</persName>
-  <persName type="person_geburtsname_nachname">Wechsler</persName>
-  <persName type="person_pseudonym">W. Fred</persName>
-  <persName type="legacy-name-merge">Wechsler, Alfred</persName>
-  <persName type="legacy-name-merge">Fred, A. W.</persName>
-  <persName type="legacy-name-merge">Fred, W.</persName>
-  <birth>
-    <date when="1879-06-29">1879-06-29</date>
-      <settlement ref="pmb50">
-        <placeName type="pref">Wien</placeName>
-        <location><geo>48,208333 16,373056</geo></location>
-      </settlement>
-  </birth>  
-  <death>
-    <date when="1922-10-23">1922-10-23</date>
-      <settlement ref="pmb168">
-        <placeName type="pref">Berlin</placeName>
-        <location><geo>52,52437 13,41053</geo></location>
-      </settlement>
-  </death>
-  <sex value="male"/>
-  <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-  <occupation ref="pmb99">Journalist/Journalistin</occupation>
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/11674748X</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_15158.html</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2226.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2226/</idno>
-  <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2226.html</idno>
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1133289797</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94884416</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Alfred_Wechsler</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2226.html</idno>
-  <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp55134</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156612/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160091/</idno>
-  <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb160091</idno>
-  <idno type="URL" subtype="schaubuehne">https://schaubuehne.oeaw.ac.at/register.html?author=1991</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2226.html</idno>
-  <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156612.html</idno>
-  <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/person/single.xhtml?id=9132706</idno>
-  <idno type="URL" subtype="sfischer">http://sfischer/foo/bar/52</idno>
-<note type="references"> </note>
-</person><person xml:id="pmb2229"><persName>
-      <forename>Willi</forename>
-      <surname>Handl</surname>
-  </persName>
-  <persName type="person_geburtsname_vorname">Siegmund Wilhelm</persName>
-  <persName type="person_namensvariante_nachname">Handel</persName>
-  <persName type="legacy-name-merge">Handl, Willi</persName>
-  <persName type="legacy-name-merge">Handl, Willi</persName>
-  <birth>
-    <date when="1872-02-12">1872-02-12</date>
-      <settlement ref="pmb50">
-        <placeName type="pref">Wien</placeName>
-        <location><geo>48,208333 16,373056</geo></location>
-      </settlement>
-  </birth>  
-  <death>
-    <date when="1920-05-26">1920-05-26</date>
-      <settlement ref="pmb168">
-        <placeName type="pref">Berlin</placeName>
-        <location><geo>52,52437 13,41053</geo></location>
-      </settlement>
-  </death>
-  <sex value="male"/>
-  <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-  <occupation ref="pmb99">Journalist/Journalistin</occupation>
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116445599</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2229.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2229/</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_15898.html</idno>
-  <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp55575</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1414628</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Willi_Handl</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2229.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160382/</idno>
-  <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2229.html</idno>
-  <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb2229</idno>
-  <idno type="URL" subtype="schaubuehne">https://schaubuehne.oeaw.ac.at/register.html?author=1800</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2229.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb2229.html</idno>
-<affiliation when="1899-01-01" notAfter="1899-12-31" notBefore="1899-01-01">
-    <term ref="pmb1182">arbeitet für</term>
-    <orgName ref="pmb29670">Wiener Allgemeine Zeitung</orgName>
-    <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29670.html</idno>
-    <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29670/</idno>
-    <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb29670.html</idno>
-    <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2568834</idno>
-    <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wiener_Allgemeine_Zeitung</idno>
-    <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb29670.html</idno>
-    <idno type="URL" subtype="wiengeschichtewiki">https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=9290</idno>
-    <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29670.html</idno>
-</affiliation>
-<affiliation when="1905-01-01" notAfter="1905-12-31" notBefore="1905-01-01">
-    <term ref="pmb1182">arbeitet für</term>
-    <orgName ref="pmb29720">Illustrirtes Wiener Extrablatt</orgName>
-    <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29720.html</idno>
-    <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29720/</idno>
-    <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb29720.html</idno>
-    <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29720.html</idno>
-</affiliation>
-<listEvent>
-    <event n="Generalprobe" when="1906-10-08" ref="pmb238288">
-        <desc n="1370">teilgenommen an</desc>
-        <label>Generalprobe von Frau Warrens Gewerbe, 8.10.1906</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/238288/</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb238288.html</idno>
-    </event>
-</listEvent>
-<note type="references"> </note>
-</person><person xml:id="pmb8889"><persName>
-      <forename>Carl</forename>
-      <surname>Meinhard</surname>
-  </persName>
-  <persName type="legacy-name-merge">Meinhard, Carl</persName>
-  <persName type="legacy-name-merge">Meinhardt, Carl</persName>
-  <birth>
-    <date when="1875-11-28">1875-11-28</date>
-      <settlement ref="pmb44092">
-        <placeName type="pref">Jihlava</placeName>
-        <location><geo>49,3961 15,59124</geo></location>
-      </settlement>
-  </birth>  
-  <death>
-    <date when="1949-02-12">1949-02-12</date>
-      <settlement ref="pmb54042">
-        <placeName type="pref">Buenos Aires</placeName>
-        <location><geo>-34,61315 -58,37723</geo></location>
-      </settlement>
-  </death>
-  <sex value="male"/>
-  <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_18047.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/8889/</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb28747.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/28747/</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1039720</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Carl_Meinhard</idno>
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116863641</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161274/</idno>
-  <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb8889.html</idno>
-  <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb8889</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb8889.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb8889.html</idno>
-  <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/person/single.xhtml?id=8245999</idno>
-<affiliation>
-    <term ref="pmb1409">besitzt</term>
-    <orgName ref="pmb29380">Berliner Theater</orgName>
-    <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29380/</idno>
-    <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q821806</idno>
-    <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berliner_Theater</idno>
-    <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29380.html</idno>
-    <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb29380.html</idno>
-    <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/333597/</idno>
-</affiliation>
-<listEvent>
-    <event n="Theaterpremiere" when="1899-04-29" ref="pmb35482">
-        <desc n="1256">mitwirkend an</desc>
-        <label>Premiere von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei Einakter, 29.4.1899</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35482/</idno>
-        <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35482.html</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35482.html</idno>
-    </event>
-    <event n="Theaterpremiere" when="1903-03-07" ref="pmb35098">
-        <desc n="1256">mitwirkend an</desc>
-        <label>Premiere von Der Schleier der Beatrice, 7.3.1903</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35098/</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35098.html</idno>
-    </event>
-    <event n="Theateraufführung" when="1905-07-01" ref="pmb333602">
-        <desc n="1256">mitwirkend an</desc>
-        <label>Aufführung von Die Juden, 1.7.1905</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/333602/</idno>
-    </event>
-</listEvent>
-<note type="references"> </note>
-<figure>
-    <graphic url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Carl_Meinhard_%28BerlLeben_1908-09%29.jpg/250px-Carl_Meinhard_%28BerlLeben_1908-09%29.jpg"/>
-</figure>
-</person></listPerson><listBibl><bibl xml:id="pmb29937"><title type="main">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
-  <title type="werk_bibliografische-angabe">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen. Berlin: S. Fischer [26.10.]1910</title>
-  <title type="werk_arbeitstitel">Altwiener Stück</title>
-  <title type="werk_arbeitstitel">Doppelselbstmord</title>
-  <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
-<date when="1910-10-26">1910-10-26</date>
-  <idno type="URL">https://asaf.com/S.04.01.11</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1198956</idno>
-  <idno type="URL">https://theadok.at/work/38145</idno>
-  <idno type="URL" subtype="exemplar">http://www.literature.at/viewer.alo?objid=12116&amp;page=1&amp;viewmode=fullscreen</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29937.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29937/</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29937.html</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_junge_Medardus</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb29937.html</idno>
-  <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/223966.html?pmb29937</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428143.html?pmb29937</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428190.html?pmb29937</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428191.html?pmb29937</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428192.html?pmb29937</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428193.html?pmb29937</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428194.html?pmb29937</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428195.html?pmb29937</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428196.html?pmb29937</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1429033.html?pmb29937</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416714.html?pmb29937</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29937.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb29937.html</idno>
-  <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/work/single.xhtml?id=10794903</idno>
-<note type="work_kind">Mehraktiges Drama</note>
-</bibl><bibl xml:id="pmb29985"><title type="main">Der einsame Weg. Schauspiel in fünf Akten</title>
-  <title type="werk_link">https://archive.org/details/dereinsamewegsc00schngoog/</title>
-  <title type="werk_arbeitstitel">Junggeselle</title>
-  <title type="werk_arbeitstitel">Junggesellenstück</title>
-  <title type="werk_arbeitstitel">Die Egoisten</title>
-  <title type="werk_arbeitstitel">Einsame Wege</title>
-  <title type="werk_arbeitstitel">Wege ins Dunkle</title>
-  <title type="werk_arbeitstitel">Weg zum Licht</title>
-  <title type="legacy-name-merge">Der einsame Weg</title>
-  <title type="werk_arbeitstitel">Herbst</title>
-  <title type="werk_link">https://www.degruyter.com/document/doi/10.1515/9783111334066/html</title>
-  <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
-<date when="1904-01-01" notBefore="1904-01-01">1904</date>
-  <idno type="URL">https://asaf.com/S.04.01.08</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1198519</idno>
-  <idno type="URL">https://dracor.org/ger/schnitzler-der-einsame-weg</idno>
-  <idno type="URL">https://theadok.at/work/31412</idno>
-  <idno type="URL" subtype="exemplar">https://archive.org/details/dereinsamewegsc00schngoog</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29985.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29985/</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29985.html</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_einsame_Weg</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb29985.html</idno>
-  <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/223970.html?pmb29985</idno>
-  <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/224107.html?pmb29985</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428169.html?pmb29985</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428171.html?pmb29985</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428170.html?pmb29985</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/164815/</idno>
-  <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb164815</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29985.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb29985.html</idno>
-  <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/work/single.xhtml?id=10774301</idno>
-<note type="work_kind">Mehraktiges Drama</note>
-  <note type="references"> </note>
-</bibl></listBibl><listPlace><place xml:id="pmb168"><placeName>Berlin</placeName>
-  <placeName type="alternative-name">Hauptstadt Berlin</placeName>
-  <placeName type="alternative-name">Barlīn</placeName>
-  <placeName type="alternative-name">Reichshauptstadt Berlin</placeName>
-  <placeName type="alternative-name">Berolino</placeName>
-  <placeName type="legacy-name-merge">B-n</placeName>
-  <desc type="entity_type">P.PPLC</desc>
-  <desc type="entity_type_id">1418</desc>
-<location type="coords">
-  <geo>52,52437 13,41053</geo>
-</location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__151">Deutschland</placeName>
-  <geo>51,5 10,5</geo>
-</location>
-  <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4005728-8</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
-  <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb168.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb168.html</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
-  <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb168.html</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb168.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb168.html</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00313</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00093</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb168</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00001836</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00004523</idno>
-<note type="image">
-  <figure>
-    <graphic url="https://iiif.onb.ac.at/images/AKON/AK113_515/515/full/,600/0/native.jpg"/>
-  </figure>
-</note>
-</place><place xml:id="pmb45258"><placeName>München</placeName>
-  <placeName type="alternative-name">München</placeName>
-  <placeName type="legacy-name-merge">München?</placeName>
-  <placeName type="legacy-name-merge">München</placeName>
-  <placeName type="legacy-name-merge">Munich</placeName>
-  <placeName type="alternative-name">Monacho</placeName>
-  <placeName type="alternative-name">Munich</placeName>
-  <placeName type="legacy-name">München</placeName>
-  <placeName type="legacy-name-merge">München?</placeName>
-  <desc type="entity_type">P.PPLA</desc>
-  <desc type="entity_type_id">1415</desc>
-<location type="coords">
-  <geo>48,13743 11,57549</geo>
-</location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__314">Bayern</placeName>
-  <geo>49,0 11,5</geo>
-</location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__151">Deutschland</placeName>
-  <geo>51,5 10,5</geo>
-</location>
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4127793-4</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/38129/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45258/</idno>
-  <idno type="URL" subtype="geonames">https://sws.geonames.org/2867714/</idno>
-  <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb45258.html</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1726</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/M%C3%BCnchen</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb45258.html</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb45258.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/263246/</idno>
-  <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb45258.html</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb45258.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb45258.html</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00383</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb45258</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00000329</idno>
-<note type="image">
-  <figure>
-    <graphic url="https://iiif.onb.ac.at/images/AKON/AK112_094/094/full/,600/0/native.jpg"/>
-  </figure>
-</note>
-</place><place xml:id="pmb50"><placeName>Wien</placeName>
-  <placeName type="ort_fruherer-name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
-  <placeName type="legacy-name-merge">Wien</placeName>
-  <placeName type="alternative-name">Bécs</placeName>
-  <placeName type="alternative-name">Land Wien</placeName>
-  <placeName type="alternative-name">Vídeň</placeName>
-  <placeName type="alternative-name">Wenia</placeName>
-  <placeName type="alternative-name">Beč</placeName>
-  <placeName type="ort_fruherer-name">Vindobona</placeName>
-  <placeName type="legacy-name-merge">Vindobona</placeName>
-  <placeName type="alternative-name">Vienna</placeName>
-  <placeName type="legacy-name-merge">Vienna</placeName>
-  <placeName type="alternative-name">Vienna</placeName>
-  <desc type="entity_type">A.ADM2</desc>
-  <desc type="entity_type_id">1135</desc>
-<location type="coords">
-  <geo>48,208333 16,373056</geo>
-</location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__41240">Österreich</placeName>
-  <geo>47,33333 13,33333</geo>
-</location>
-  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4066009-6</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
-  <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb50.html</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb50.html</idno>
-  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761333/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33999/</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
-  <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb50.html</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb50.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb50.html</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00347</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00066</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00085</idno>
-<note type="image">
-  <figure>
-    <graphic url="https://iiif.onb.ac.at/images/AKON/AK117_016/016/full/,600/0/native.jpg"/>
-  </figure>
-</note>
-</place><place xml:id="pmb652"><placeName>Prag</placeName>
-  <placeName type="alternative-name">Hauptstadt Prag</placeName>
-  <placeName type="legacy-name-merge">Prag</placeName>
-  <placeName type="legacy-name-merge">Prag-Smichow</placeName>
-  <placeName type="legacy-name-merge">Bohnitz bei Prag</placeName>
-  <placeName type="legacy-name-merge">Prag-Dejwitz</placeName>
-  <placeName type="legacy-name-merge">Hlavní město Praha</placeName>
-  <placeName type="legacy-name-merge">Prague</placeName>
-  <desc type="entity_type">A.ADM1</desc>
-  <desc type="entity_type_id">1137</desc>
-<location type="coords">
-  <geo>50,08333 14,46667</geo>
-</location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__43430">Tschechische Republik</placeName>
-  <geo>49,75 15,0</geo>
-</location>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb652.html</idno>
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4076310-9</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/652/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/7313/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/22214/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/26227/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43722/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64237/</idno>
-  <idno type="URL" subtype="geonames">https://sws.geonames.org/3067695/</idno>
-  <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb652.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91524/</idno>
-  <idno type="URL" subtype="geonames">https://sws.geonames.org/3067696/</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1085</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Prag</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb652.html</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb652.html</idno>
-  <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb652.html</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb652.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb652.html</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00194</idno>
-</place></listPlace><listOrg><org xml:id="pmb29380"><orgName>Berliner Theater</orgName>
-  <orgName type="legacy-name-merge">Berliner Ensemble</orgName>
-  <desc type="entity_type">Theater</desc>
-  <desc type="entity_type_id">1012</desc>
-<location type="located_in_place">
-  <placeName ref="pmbplace__738">Berliner Theater</placeName>
-  <geo>52,5048 13,3924</geo>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb738.html</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/738/</idno><idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb738.html</idno><idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb738.html</idno><idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb738.html</idno></location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__168">Berlin</placeName>
-  <geo>52,52437 13,41053</geo>
-  <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno><idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno><idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno><idno type="URL" subtype="kraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb168.html</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno><idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno><idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno><idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb168.html</idno><idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno><idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb168.html</idno><idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb168.html</idno><idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb168.html</idno><idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/DWplace00313</idno><idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/DWplace00093</idno><idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/pmb168</idno><idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/fa_place00001836</idno><idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/fa_place00004523</idno></location>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29380/</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q821806</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berliner_Theater</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29380.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb29380.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/333597/</idno>
-<note type="references"> </note>
-<note type="apis_dates">
-<date from="1888-01-01" to="1933-01-01">1888 – 1933</date>
-</note>
-</org><org xml:id="pmb44112"><orgName>Nationaltheater München</orgName>
-  <orgName type="namensvariante">Königliche Hof- und Nationaltheater München</orgName>
-  <desc type="entity_type">Theaterunternehmen</desc>
-  <desc type="entity_type_id">1047</desc>
-<location type="located_in_place">
-  <placeName ref="pmbplace__9">Königlich Bayerische Hoftheater</placeName>
-  <geo>48,139944 11,578786</geo>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q812446</idno><idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb9.html</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/9/</idno><idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Bayerisches_Staatsschauspiel</idno><idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb9.html</idno><idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb9.html</idno></location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__45258">München</placeName>
-  <geo>48,13743 11,57549</geo>
-  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4127793-4</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/38129/</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45258/</idno><idno type="URL" subtype="geonames">https://sws.geonames.org/2867714/</idno><idno type="URL" subtype="kraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb45258.html</idno><idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1726</idno><idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/M%C3%BCnchen</idno><idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb45258.html</idno><idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb45258.html</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/263246/</idno><idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb45258.html</idno><idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb45258.html</idno><idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb45258.html</idno><idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/DWplace00383</idno><idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/pmb45258</idno><idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/fa_place00000329</idno></location>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44112/</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q707679</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Nationaltheater_(M%C3%BCnchen)</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb44112.html</idno>
-<note type="apis_dates">
-<date when="1818-01-01" notBefore="1818-01-01">1818</date>
-</note>
-</org></listOrg></back></text>
+         </div>
+      </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb10896">
+               <persName>
+                  <forename>Rudolf</forename>
+                  <surname>Bernauer</surname>
+               </persName>
+               <persName type="legacy-name-merge">Bernauer, Rudolf</persName>
+               <birth>
+                  <date when="1880-01-20">1880-01-20</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,208333 16,373056</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1953-11-27">1953-11-27</date>
+                  <settlement ref="pmb224">
+                     <placeName type="pref">London</placeName>
+                     <location>
+                        <geo>51,50853 -0,12574</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_13664.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10896.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10896/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q87821</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Rudolf_Bernauer</idno>
+               <idno type="URL" subtype="wiengeschichtewiki">https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=9865</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb10896.html</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118656295</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb10896.html</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb10896</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/267893/</idno>
+               <idno type="URL" subtype="schaubuehne">https://schaubuehne.oeaw.ac.at/register.html?author=2467</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb10896.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb10896.html</idno>
+               <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/person/single.xhtml?id=10101051</idno>
+               <listEvent>
+                  <event n="Theateraufführung" when="1905-06-27" ref="pmb51741">
+                     <desc n="1256">mitwirkend an</desc>
+                     <label>Aufführung von Die Juden, 27.6.1905</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51741/</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb51741.html</idno>
+                  </event>
+                  <event n="Theateraufführung" when="1905-07-01" ref="pmb333602">
+                     <desc n="1256">mitwirkend an</desc>
+                     <label>Aufführung von Die Juden, 1.7.1905</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/333602/</idno>
+                  </event>
+               </listEvent>
+               <figure>
+                  <graphic url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Rudolf_Bernauer_%28BerlLeben_1908-09%29.jpg/250px-Rudolf_Bernauer_%28BerlLeben_1908-09%29.jpg"/>
+               </figure>
+            </person>
+            <person xml:id="pmb11198">
+               <persName>
+                  <forename>Tilla</forename>
+                  <surname>Durieux</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Godefroy</persName>
+               <persName type="person_ehename_nachname">Spiro</persName>
+               <persName type="person_ehename_nachname">Cassirer</persName>
+               <persName type="person_ehename_nachname">Katzenellenbogen</persName>
+               <persName type="person_geburtsname_vorname">Ottilie</persName>
+               <persName type="legacy-name-merge">Durieux, Tilla</persName>
+               <birth>
+                  <date when="1880-08-18">1880-08-18</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,208333 16,373056</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1971-02-20">1971-02-20</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118528262</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_14567.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11198.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11198/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp54123</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q78793</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Tilla_Durieux</idno>
+               <idno type="URL" subtype="wiengeschichtewiki">https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=10427</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11198.html</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11198.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159844/</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11198.html</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb11198</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11198.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb11198.html</idno>
+               <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/person/single.xhtml?id=8085440</idno>
+               <idno type="URL" subtype="ansorge">https://conrad-ansorge.github.io/ansorge-static/ansorge_p_157.html</idno>
+               <listEvent>
+                  <event n="Theateraufführung" when="1905-05-13" ref="pmb209369">
+                     <desc n="1256">mitwirkend an</desc>
+                     <label>Aufführung von Elektra. Tragödie in einem Aufzug, 13.5.1905</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/209369/</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209369.html</idno>
+                  </event>
+                  <event n="Theateraufführung" when="1905-06-03" ref="pmb45403">
+                     <desc n="1256">mitwirkend an</desc>
+                     <label>Aufführung von Ein Sommernachtstraum, 3.6.1905</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45403/</idno>
+                  </event>
+                  <event n="Theaterpremiere" when="1910-01-19" ref="pmb142707">
+                     <desc n="1256">mitwirkend an</desc>
+                     <label>Deutschsprachige Uraufführung von Der gute König Dagobert, 19.1.1910</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/142707/</idno>
+                  </event>
+                  <event n="Theaterpremiere" when="1911-05-27" ref="pmb186278">
+                     <desc n="1256">mitwirkend an</desc>
+                     <label>Premiere von Der junge Medardus, 27.5.1911</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/186278/</idno>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/88576/</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb186278.html</idno>
+                  </event>
+                  <event n="Generalprobe" when="1911-11-04" ref="pmb252577">
+                     <desc n="1256">mitwirkend an</desc>
+                     <label>Generalprobe von Schauspielerin, 4.11.1911</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/252577/</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb252577.html</idno>
+                  </event>
+                  <event n="Theateraufführung" when="1921-04-22" ref="pmb210092">
+                     <desc n="1256">mitwirkend an</desc>
+                     <label>Aufführung von Fédora, 22.4.1921</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/210092/</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210092.html</idno>
+                  </event>
+                  <event n="Theateraufführung" when="1924-12-30" ref="pmb210325">
+                     <desc n="1256">mitwirkend an</desc>
+                     <label>Aufführung von Franziska, 30.12.1924</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/210325/</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210325.html</idno>
+                  </event>
+               </listEvent>
+               <note type="references"> </note>
+               <figure>
+                  <graphic url="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Tilla_Durieux_1905_Foto_Jacob_Hilsdorf.jpeg/250px-Tilla_Durieux_1905_Foto_Jacob_Hilsdorf.jpeg"/>
+               </figure>
+            </person>
+            <person xml:id="pmb11324">
+               <persName>
+                  <forename>Samuel</forename>
+                  <surname>Fischer</surname>
+               </persName>
+               <persName type="legacy-name-merge">Fischer, Samuel</persName>
+               <birth>
+                  <date when="1859-12-24">1859-12-24</date>
+                  <settlement ref="pmb55962">
+                     <placeName type="pref">Liptovský Mikuláš</placeName>
+                     <location>
+                        <geo>49,08061 19,62218</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1934-10-15">1934-10-15</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb144">Verleger/Verlegerin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118691406</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_15009.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11324.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11324/</idno>
+               <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb11324.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp37584</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q95541</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Samuel_Fischer_(Verleger)</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11324.html</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11324.html</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416739.html?pmb11324</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416740.html?pmb11324</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416741.html?pmb11324</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742.html?pmb11324</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743.html?pmb11324</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416744.html?pmb11324</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416747.html?pmb11324</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160037/</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11324.html</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb11324</idno>
+               <idno type="URL" subtype="zweig-digital">https://www.stefanzweig.digital/o:szd.personen/sdef:TEI/get#SZDPER.1814</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/262813/</idno>
+               <idno type="URL" subtype="brenner">https://brenner.oeaw.ac.at/?p=brennerp10459</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11324.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb11324.html</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb11324</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/p_37584</idno>
+               <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/person/single.xhtml?id=10352053</idno>
+               <affiliation when="1886-01-01" notAfter="1886-12-31" notBefore="1886-01-01">
+                  <term ref="pmb1409">besitzt</term>
+                  <orgName ref="pmb29639">S. Fischer Verlag</orgName>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29639.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29639/</idno>
+                  <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb29639.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q481576</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/S._Fischer_Verlag</idno>
+                  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb29639.html</idno>
+                  <idno type="URL" subtype="wiengeschichtewiki">https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=69407</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29639.html</idno>
+                  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb29639</idno>
+               </affiliation>
+               <affiliation when="1889-04-05">
+                  <term ref="pmb1182">arbeitet für</term>
+                  <orgName ref="pmb29561">Freie Bühne</orgName>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29561/</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1453924</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Freie_B%C3%BChne_Berlin</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29561.html</idno>
+               </affiliation>
+               <listEvent>
+                  <event n="Theaterpremiere" when="1896-02-04" ref="pmb35206">
+                     <desc n="1370">teilgenommen an</desc>
+                     <label>Premiere von Liebelei, Der zerbrochene Krug, 4.2.1896</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35206/</idno>
+                     <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35206.html</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35206.html</idno>
+                  </event>
+                  <event n="Theateruraufführung" when="1898-10-08" ref="pmb35382">
+                     <desc n="1370">teilgenommen an</desc>
+                     <label>Uraufführung von Das Vermächtnis, 8.10.1898</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35382/</idno>
+                     <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35382.html</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35382.html</idno>
+                  </event>
+                  <event n="Theaterpremiere" when="1906-02-24" ref="pmb35179">
+                     <desc n="1370">teilgenommen an</desc>
+                     <label>Premiere von Der Ruf des Lebens, 24.2.1906</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35179/</idno>
+                     <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35179.html</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35179.html</idno>
+                  </event>
+                  <event n="Theateraufführung" when="1906-04-19" ref="pmb147446">
+                     <desc n="1370">teilgenommen an</desc>
+                     <label>Aufführung von Der einsame Weg, 19.4.1906</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/147446/</idno>
+                  </event>
+                  <event n="Theateruraufführung" when="1910-09-12" ref="pmb148404">
+                     <desc n="1370">teilgenommen an</desc>
+                     <label>Uraufführung 8. Sinfonie, 12.9.1910</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148404/</idno>
+                  </event>
+                  <event n="Theateruraufführung" when="1910-11-24" ref="pmb35251">
+                     <desc n="1370">teilgenommen an</desc>
+                     <label>Uraufführung von Der junge Medardus, 24.11.1910</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35251/</idno>
+                     <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35251.html</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35251.html</idno>
+                  </event>
+                  <event n="Liederkonzert" when="1911-02-23" ref="pmb167960">
+                     <desc n="1370">teilgenommen an</desc>
+                     <label>Gesangskonzert von Olga Schnitzler, 23.2.1911</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/167960/</idno>
+                     <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb167960.html</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb167960.html</idno>
+                  </event>
+                  <event n="Theateruraufführung" when="1912-11-28" ref="pmb35355">
+                     <desc n="1370">teilgenommen an</desc>
+                     <label>Uraufführung von Professor Bernhardi, 28.11.1912</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35355/</idno>
+                     <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35355.html</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35355.html</idno>
+                  </event>
+                  <event n="Generalprobe" when="1914-10-23" ref="pmb186295">
+                     <desc n="1370">teilgenommen an</desc>
+                     <label>Generalprobe von Der junge Medardus, 23.10.1914</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/186295/</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb186295.html</idno>
+                  </event>
+                  <event n="Generalprobe" when="1929-12-02" ref="pmb43870">
+                     <desc n="1370">teilgenommen an</desc>
+                     <label>Generalprobe von Spuk, 2.12.1929</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43870/</idno>
+                     <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb43870.html</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb43870.html</idno>
+                  </event>
+               </listEvent>
+               <figure>
+                  <graphic url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Samuel_Fischer_1915_-_Oelgemaelde_von_Max_Liebermann.JPG/250px-Samuel_Fischer_1915_-_Oelgemaelde_von_Max_Liebermann.JPG"/>
+               </figure>
+            </person>
+            <person xml:id="pmb12078">
+               <persName>
+                  <forename>Paul</forename>
+                  <surname>Lindau</surname>
+               </persName>
+               <persName type="legacy-name-merge">Lindau, Paul</persName>
+               <birth>
+                  <date when="1839-06-03">1839-06-03</date>
+                  <settlement ref="pmb918">
+                     <placeName type="pref">Magdeburg</placeName>
+                     <location>
+                        <geo>52,14167 11,64444</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1919-01-31">1919-01-31</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118780034</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_17558.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12078.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12078/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12078.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp51225</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q86886</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Paul_Lindau</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12078.html</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12078.html</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416455.html?pmb12078</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161080/</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_3141.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb12078.html</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb12078</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12078.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb12078.html</idno>
+               <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/person/single.xhtml?id=8245987</idno>
+               <idno type="URL" subtype="burgtheater">https://kulturerbe.burgtheater.at/person/6504166ba47588ad6024b488</idno>
+               <affiliation when="1877-01-01" notAfter="1877-12-31" notBefore="1877-01-01">
+                  <term ref="pmb1182">arbeitet für</term>
+                  <orgName ref="pmb34269">Nord und Süd</orgName>
+                  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1123300100</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/34269/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb34269.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/304543/</idno>
+                  <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/person/single.xhtml?id=10933551</idno>
+               </affiliation>
+               <affiliation when="1887-01-01" notAfter="1887-12-31" notBefore="1887-01-01">
+                  <term ref="pmb1182">arbeitet für</term>
+                  <orgName ref="pmb29329">Berliner Tageblatt</orgName>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29329.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29329/</idno>
+                  <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb29329.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q455014</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berliner_Tageblatt</idno>
+                  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb29329.html</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29329.html</idno>
+               </affiliation>
+               <affiliation when="1900-01-01" notAfter="1900-12-31" notBefore="1900-01-01">
+                  <term ref="pmb1182">arbeitet für</term>
+                  <orgName ref="pmb29380">Berliner Theater</orgName>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29380/</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q821806</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berliner_Theater</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29380.html</idno>
+                  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb29380.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/333597/</idno>
+               </affiliation>
+               <affiliation when="1904-07-01">
+                  <term ref="pmb1182">arbeitet für</term>
+                  <orgName ref="pmb35597">Deutsches Theater Berlin</orgName>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q703955</idno>
+                  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4058252-8</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35597/</idno>
+                  <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb35597.html</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Deutsches_Theater_Berlin</idno>
+                  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb35597.html</idno>
+                  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416472.html?pmb35597</idno>
+                  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416473.html?pmb35597</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35597.html</idno>
+                  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35597.html</idno>
+               </affiliation>
+               <note type="references"> </note>
+               <figure>
+                  <graphic url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Die_Gartenlaube_%281877%29_b_129.jpg/250px-Die_Gartenlaube_%281877%29_b_129.jpg"/>
+               </figure>
+            </person>
+            <person xml:id="pmb12081">
+               <persName>
+                  <forename>Anton</forename>
+                  <surname>Lindner</surname>
+               </persName>
+               <persName type="person_pseudonym">Pierre d’Aubecq</persName>
+               <birth>
+                  <date when="1874-12-14">1874-12-14</date>
+                  <settlement ref="pmb46224">
+                     <placeName type="pref">Lviv</placeName>
+                     <location>
+                        <geo>49,83826 24,02324</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1928-12-30">1928-12-30</date>
+                  <settlement ref="pmb12083">
+                     <placeName type="pref">Wandsbek</placeName>
+                     <location>
+                        <geo>53,582033 10,084261</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/117026190</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_17573.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12081.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12081/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38356</idno>
+               <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x00282ef7</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q591539</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Anton_Lindner</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb12081.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12081.html</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb12081</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/p_38356</idno>
+               <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb12081.html</idno>
+               <affiliation>
+                  <term ref="pmb1182">arbeitet für</term>
+                  <orgName ref="pmb29749">Wiener Rundschau</orgName>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29749.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29749/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/142338/</idno>
+                  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb29749.html</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29749.html</idno>
+               </affiliation>
+            </person>
+            <person xml:id="pmb12813">
+               <persName>
+                  <forename>Albert von</forename>
+                  <surname>Speidel</surname>
+               </persName>
+               <persName type="legacy-name-merge">Speidel, Albert, Freiherr von</persName>
+               <persName type="legacy-name-merge">Speidel, Albert von</persName>
+               <birth>
+                  <date when="1858-01-26">1858-01-26</date>
+                  <settlement ref="pmb45258">
+                     <placeName type="pref">München</placeName>
+                     <location>
+                        <geo>48,13743 11,57549</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1912-09-01">1912-09-01</date>
+                  <settlement ref="pmb45258">
+                     <placeName type="pref">München</placeName>
+                     <location>
+                        <geo>48,13743 11,57549</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/117482609</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_20240.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12813.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12813/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94762524</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38838</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162324/</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb12813</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12813.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/304073/</idno>
+               <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/person/single.xhtml?id=10661851</idno>
+               <affiliation>
+                  <term ref="pmb1182">arbeitet für</term>
+                  <orgName ref="pmb44112">Nationaltheater München</orgName>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44112/</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q707679</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Nationaltheater_(M%C3%BCnchen)</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb44112.html</idno>
+               </affiliation>
+               <note type="references"> </note>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <surname>Schnitzler</surname>
+                  <forename>Arthur</forename>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15. 5. 1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,208333 16,373056</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21. 10. 1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,208333 16,373056</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="gnd">https://d-nb.info/gnd/118609807/</idno>
+            </person>
+            <person xml:id="pmb2226">
+               <persName>
+                  <surname>W. Fred</surname>
+               </persName>
+               <persName type="person_geburtsname_vorname">Alfred</persName>
+               <persName type="person_geburtsname_nachname">Wechsler</persName>
+               <persName type="person_pseudonym">W. Fred</persName>
+               <persName type="legacy-name-merge">Wechsler, Alfred</persName>
+               <persName type="legacy-name-merge">Fred, A. W.</persName>
+               <persName type="legacy-name-merge">Fred, W.</persName>
+               <birth>
+                  <date when="1879-06-29">1879-06-29</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,208333 16,373056</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1922-10-23">1922-10-23</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/11674748X</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_15158.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2226.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2226/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2226.html</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1133289797</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94884416</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Alfred_Wechsler</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2226.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp55134</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156612/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160091/</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb160091</idno>
+               <idno type="URL" subtype="schaubuehne">https://schaubuehne.oeaw.ac.at/register.html?author=1991</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2226.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156612.html</idno>
+               <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/person/single.xhtml?id=9132706</idno>
+               <idno type="URL" subtype="sfischer">http://sfischer/foo/bar/52</idno>
+               <note type="references"> </note>
+            </person>
+            <person xml:id="pmb2229">
+               <persName>
+                  <forename>Willi</forename>
+                  <surname>Handl</surname>
+               </persName>
+               <persName type="person_geburtsname_vorname">Siegmund Wilhelm</persName>
+               <persName type="person_namensvariante_nachname">Handel</persName>
+               <persName type="legacy-name-merge">Handl, Willi</persName>
+               <persName type="legacy-name-merge">Handl, Willi</persName>
+               <birth>
+                  <date when="1872-02-12">1872-02-12</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,208333 16,373056</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1920-05-26">1920-05-26</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116445599</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2229.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2229/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_15898.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp55575</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1414628</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Willi_Handl</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2229.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160382/</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2229.html</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb2229</idno>
+               <idno type="URL" subtype="schaubuehne">https://schaubuehne.oeaw.ac.at/register.html?author=1800</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2229.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb2229.html</idno>
+               <affiliation when="1899-01-01" notAfter="1899-12-31" notBefore="1899-01-01">
+                  <term ref="pmb1182">arbeitet für</term>
+                  <orgName ref="pmb29670">Wiener Allgemeine Zeitung</orgName>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29670.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29670/</idno>
+                  <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb29670.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2568834</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wiener_Allgemeine_Zeitung</idno>
+                  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb29670.html</idno>
+                  <idno type="URL" subtype="wiengeschichtewiki">https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=9290</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29670.html</idno>
+               </affiliation>
+               <affiliation when="1905-01-01" notAfter="1905-12-31" notBefore="1905-01-01">
+                  <term ref="pmb1182">arbeitet für</term>
+                  <orgName ref="pmb29720">Illustrirtes Wiener Extrablatt</orgName>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29720.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29720/</idno>
+                  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb29720.html</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29720.html</idno>
+               </affiliation>
+               <listEvent>
+                  <event n="Generalprobe" when="1906-10-08" ref="pmb238288">
+                     <desc n="1370">teilgenommen an</desc>
+                     <label>Generalprobe von Frau Warrens Gewerbe, 8.10.1906</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/238288/</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb238288.html</idno>
+                  </event>
+               </listEvent>
+               <note type="references"> </note>
+            </person>
+            <person xml:id="pmb8889">
+               <persName>
+                  <forename>Carl</forename>
+                  <surname>Meinhard</surname>
+               </persName>
+               <persName type="legacy-name-merge">Meinhard, Carl</persName>
+               <persName type="legacy-name-merge">Meinhardt, Carl</persName>
+               <birth>
+                  <date when="1875-11-28">1875-11-28</date>
+                  <settlement ref="pmb44092">
+                     <placeName type="pref">Jihlava</placeName>
+                     <location>
+                        <geo>49,3961 15,59124</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1949-02-12">1949-02-12</date>
+                  <settlement ref="pmb54042">
+                     <placeName type="pref">Buenos Aires</placeName>
+                     <location>
+                        <geo>-34,61315 -58,37723</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_18047.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/8889/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb28747.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/28747/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1039720</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Carl_Meinhard</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116863641</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161274/</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb8889.html</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb8889</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb8889.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb8889.html</idno>
+               <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/person/single.xhtml?id=8245999</idno>
+               <affiliation>
+                  <term ref="pmb1409">besitzt</term>
+                  <orgName ref="pmb29380">Berliner Theater</orgName>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29380/</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q821806</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berliner_Theater</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29380.html</idno>
+                  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb29380.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/333597/</idno>
+               </affiliation>
+               <listEvent>
+                  <event n="Theaterpremiere" when="1899-04-29" ref="pmb35482">
+                     <desc n="1256">mitwirkend an</desc>
+                     <label>Premiere von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei Einakter, 29.4.1899</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35482/</idno>
+                     <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35482.html</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35482.html</idno>
+                  </event>
+                  <event n="Theaterpremiere" when="1903-03-07" ref="pmb35098">
+                     <desc n="1256">mitwirkend an</desc>
+                     <label>Premiere von Der Schleier der Beatrice, 7.3.1903</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35098/</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35098.html</idno>
+                  </event>
+                  <event n="Theateraufführung" when="1905-07-01" ref="pmb333602">
+                     <desc n="1256">mitwirkend an</desc>
+                     <label>Aufführung von Die Juden, 1.7.1905</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/333602/</idno>
+                  </event>
+               </listEvent>
+               <note type="references"> </note>
+               <figure>
+                  <graphic url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Carl_Meinhard_%28BerlLeben_1908-09%29.jpg/250px-Carl_Meinhard_%28BerlLeben_1908-09%29.jpg"/>
+               </figure>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb29937">
+               <title type="main">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+               <title type="werk_bibliografische-angabe">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen. Berlin: S. Fischer [26.10.]1910</title>
+               <title type="werk_arbeitstitel">Altwiener Stück</title>
+               <title type="werk_arbeitstitel">Doppelselbstmord</title>
+               <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
+               <date when="1910-10-26">1910-10-26</date>
+               <idno type="URL">https://asaf.com/S.04.01.11</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1198956</idno>
+               <idno type="URL">https://theadok.at/work/38145</idno>
+               <idno type="URL" subtype="exemplar">http://www.literature.at/viewer.alo?objid=12116&amp;page=1&amp;viewmode=fullscreen</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29937.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29937/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29937.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_junge_Medardus</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb29937.html</idno>
+               <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/223966.html?pmb29937</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428143.html?pmb29937</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428190.html?pmb29937</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428191.html?pmb29937</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428192.html?pmb29937</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428193.html?pmb29937</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428194.html?pmb29937</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428195.html?pmb29937</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428196.html?pmb29937</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1429033.html?pmb29937</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416714.html?pmb29937</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29937.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb29937.html</idno>
+               <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/work/single.xhtml?id=10794903</idno>
+               <note type="work_kind">Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb29985">
+               <title type="main">Der einsame Weg. Schauspiel in fünf Akten</title>
+               <title type="werk_link">https://archive.org/details/dereinsamewegsc00schngoog/</title>
+               <title type="werk_arbeitstitel">Junggeselle</title>
+               <title type="werk_arbeitstitel">Junggesellenstück</title>
+               <title type="werk_arbeitstitel">Die Egoisten</title>
+               <title type="werk_arbeitstitel">Einsame Wege</title>
+               <title type="werk_arbeitstitel">Wege ins Dunkle</title>
+               <title type="werk_arbeitstitel">Weg zum Licht</title>
+               <title type="legacy-name-merge">Der einsame Weg</title>
+               <title type="werk_arbeitstitel">Herbst</title>
+               <title type="werk_link">https://www.degruyter.com/document/doi/10.1515/9783111334066/html</title>
+               <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
+               <date when="1904-01-01" notBefore="1904-01-01">1904</date>
+               <idno type="URL">https://asaf.com/S.04.01.08</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1198519</idno>
+               <idno type="URL">https://dracor.org/ger/schnitzler-der-einsame-weg</idno>
+               <idno type="URL">https://theadok.at/work/31412</idno>
+               <idno type="URL" subtype="exemplar">https://archive.org/details/dereinsamewegsc00schngoog</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29985.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29985/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29985.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_einsame_Weg</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb29985.html</idno>
+               <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/223970.html?pmb29985</idno>
+               <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/224107.html?pmb29985</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428169.html?pmb29985</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428171.html?pmb29985</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428170.html?pmb29985</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/164815/</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb164815</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29985.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb29985.html</idno>
+               <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/work/single.xhtml?id=10774301</idno>
+               <note type="work_kind">Mehraktiges Drama</note>
+               <note type="references"> </note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb168">
+               <placeName>Berlin</placeName>
+               <placeName type="alternative-name">Hauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Barlīn</placeName>
+               <placeName type="alternative-name">Reichshauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Berolino</placeName>
+               <placeName type="legacy-name-merge">B-n</placeName>
+               <desc type="entity_type">P.PPLC</desc>
+               <desc type="entity_type_id">1418</desc>
+               <location type="coords">
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4005728-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+               <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb168.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb168.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00313</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00093</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb168</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00001836</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00004523</idno>
+               <note type="image">
+                  <figure>
+                     <graphic url="https://iiif.onb.ac.at/images/AKON/AK113_515/515/full/,600/0/native.jpg"/>
+                  </figure>
+               </note>
+            </place>
+            <place xml:id="pmb45258">
+               <placeName>München</placeName>
+               <placeName type="alternative-name">München</placeName>
+               <placeName type="legacy-name-merge">München?</placeName>
+               <placeName type="legacy-name-merge">München</placeName>
+               <placeName type="legacy-name-merge">Munich</placeName>
+               <placeName type="alternative-name">Monacho</placeName>
+               <placeName type="alternative-name">Munich</placeName>
+               <placeName type="legacy-name">München</placeName>
+               <placeName type="legacy-name-merge">München?</placeName>
+               <desc type="entity_type">P.PPLA</desc>
+               <desc type="entity_type_id">1415</desc>
+               <location type="coords">
+                  <geo>48,13743 11,57549</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__314">Bayern</placeName>
+                  <geo>49,0 11,5</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4127793-4</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/38129/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45258/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2867714/</idno>
+               <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb45258.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1726</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/M%C3%BCnchen</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb45258.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb45258.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/263246/</idno>
+               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb45258.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb45258.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb45258.html</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00383</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb45258</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00000329</idno>
+               <note type="image">
+                  <figure>
+                     <graphic url="https://iiif.onb.ac.at/images/AKON/AK112_094/094/full/,600/0/native.jpg"/>
+                  </figure>
+               </note>
+            </place>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer-name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="legacy-name-merge">Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer-name">Vindobona</placeName>
+               <placeName type="legacy-name-merge">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="legacy-name-merge">Vienna</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <desc type="entity_type">A.ADM2</desc>
+               <desc type="entity_type_id">1135</desc>
+               <location type="coords">
+                  <geo>48,208333 16,373056</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761333/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33999/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb50.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00347</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00066</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00085</idno>
+               <note type="image">
+                  <figure>
+                     <graphic url="https://iiif.onb.ac.at/images/AKON/AK117_016/016/full/,600/0/native.jpg"/>
+                  </figure>
+               </note>
+            </place>
+            <place xml:id="pmb652">
+               <placeName>Prag</placeName>
+               <placeName type="alternative-name">Hauptstadt Prag</placeName>
+               <placeName type="legacy-name-merge">Prag</placeName>
+               <placeName type="legacy-name-merge">Prag-Smichow</placeName>
+               <placeName type="legacy-name-merge">Bohnitz bei Prag</placeName>
+               <placeName type="legacy-name-merge">Prag-Dejwitz</placeName>
+               <placeName type="legacy-name-merge">Hlavní město Praha</placeName>
+               <placeName type="legacy-name-merge">Prague</placeName>
+               <desc type="entity_type">A.ADM1</desc>
+               <desc type="entity_type_id">1137</desc>
+               <location type="coords">
+                  <geo>50,08333 14,46667</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__43430">Tschechische Republik</placeName>
+                  <geo>49,75 15,0</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb652.html</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4076310-9</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/652/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/7313/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/22214/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/26227/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43722/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64237/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3067695/</idno>
+               <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb652.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91524/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3067696/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1085</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Prag</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb652.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb652.html</idno>
+               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb652.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb652.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb652.html</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00194</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb29380">
+               <orgName>Berliner Theater</orgName>
+               <orgName type="legacy-name-merge">Berliner Ensemble</orgName>
+               <desc type="entity_type">Theater</desc>
+               <desc type="entity_type_id">1012</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__738">Berliner Theater</placeName>
+                  <geo>52,5048 13,3924</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb738.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/738/</idno>
+                  <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb738.html</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb738.html</idno>
+                  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb738.html</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__168">Berlin</placeName>
+                  <geo>52,52437 13,41053</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+                  <idno type="URL" subtype="kraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb168.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+                  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb168.html</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/DWplace00313</idno>
+                  <idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/DWplace00093</idno>
+                  <idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/pmb168</idno>
+                  <idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/fa_place00001836</idno>
+                  <idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/fa_place00004523</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29380/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q821806</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berliner_Theater</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29380.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb29380.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/333597/</idno>
+               <note type="references"> </note>
+               <note type="apis_dates">
+                  <date from="1888-01-01" to="1933-01-01">1888 – 1933</date>
+               </note>
+            </org>
+            <org xml:id="pmb44112">
+               <orgName>Nationaltheater München</orgName>
+               <orgName type="namensvariante">Königliche Hof- und Nationaltheater München</orgName>
+               <desc type="entity_type">Theaterunternehmen</desc>
+               <desc type="entity_type_id">1047</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__9">Königlich Bayerische Hoftheater</placeName>
+                  <geo>48,139944 11,578786</geo>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q812446</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb9.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/9/</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Bayerisches_Staatsschauspiel</idno>
+                  <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb9.html</idno>
+                  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb9.html</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__45258">München</placeName>
+                  <geo>48,13743 11,57549</geo>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4127793-4</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/38129/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45258/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2867714/</idno>
+                  <idno type="URL" subtype="kraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb45258.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1726</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/M%C3%BCnchen</idno>
+                  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb45258.html</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb45258.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/263246/</idno>
+                  <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb45258.html</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb45258.html</idno>
+                  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb45258.html</idno>
+                  <idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/DWplace00383</idno>
+                  <idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/pmb45258</idno>
+                  <idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/fa_place00000329</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44112/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q707679</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Nationaltheater_(M%C3%BCnchen)</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb44112.html</idno>
+               <note type="apis_dates">
+                  <date when="1818-01-01" notBefore="1818-01-01">1818</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
+   </text>
 </TEI>

@@ -1,180 +1,229 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_11414">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title level="s">Arthur Schnitzler und der S. Fischer Verlag</title>
- <title level="a">1928-05-19 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
-        <author ref="#pmb2121">Schnitzler, Arthur</author>
-        <editor>
-          <name>Aurnhammer, Achim</name>
-          <name>Martin, Dieter</name>
-          <name>Neubrand, Susanne</name>
-        </editor>
-      </titleStmt>
-      <editionStmt>
-        <edition>schnitzler-fischer</edition>
-        <respStmt>
-          <resp>Regestausgabe</resp>
-          <orgName>Arthur Schnitzler-Archiv</orgName>
-        </respStmt>
-      </editionStmt>
-      <publicationStmt>
-        <publisher>Arthur Schnitzler-Archiv</publisher>
-        <pubPlace>Freiburg im Breisgau</pubPlace>
-        <date when="2026">2026</date>
-        <availability>
-          <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <listWit>
-          <witness n="1">
-            <msDesc>
-              <msIdentifier>
-                <country>D</country>
-                <settlement>Freiburg im Breisgau</settlement>
-                <repository>Arthur Schnitzler Archiv</repository>
-                <idno>Q-1-6b</idno>
-                <idno type="zotero">VHPZUDL5</idno>
-              </msIdentifier>
-            </msDesc>
-          </witness>
-          <witness n="2">
-            <msDesc>
-              <msIdentifier>
-                <country>GB</country>
-                <settlement>Cambridge</settlement>
-                <repository>Cambridge University Library</repository>
-                <idno>MS Schnitzler B121</idno>
-              </msIdentifier>
-            </msDesc>
-          </witness>
-        </listWit>
-        
-      </sourceDesc>
-      <notesStmt>
-        <note type="description">2 Blatt, 3 Seiten
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler und der S. Fischer Verlag</title>
+            <title level="a">1928-05-19 Arthur Schnitzler (Wien) an Samuel Fischer (Berlin)</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Aurnhammer, Achim</name>
+               <name>Martin, Dieter</name>
+               <name>Neubrand, Susanne</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>schnitzler-fischer</edition>
+            <respStmt>
+               <resp>Regestausgabe</resp>
+               <orgName>Arthur Schnitzler-Archiv</orgName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Arthur Schnitzler-Archiv</publisher>
+            <pubPlace>Freiburg im Breisgau</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <p>Die hier präsentierten Daten wurden übernommen von: Arthur Schnitzler-Archiv Freiburg (Hg.): Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931. https://biblio.ub.uni-freiburg.de/sf/ (Zugriff: 2026-03-20). Alle Rechte bei den ursprünglichen Ersteller_innen der Datenbank.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>D</country>
+                        <settlement>Freiburg im Breisgau</settlement>
+                        <repository>Arthur Schnitzler Archiv</repository>
+                        <idno>Q-1-6b</idno>
+                        <idno type="zotero">VHPZUDL5</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness n="2">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>Cambridge University Library</repository>
+                        <idno>MS Schnitzler B121</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+         <notesStmt>
+            <note type="description">2 Blatt, 3 Seiten
 Antwort auf: <ref target="11413">1928-05-16 SF (Berlin) an AS (Wien)</ref>
 Beantwortet in: <ref target="11415">1928-05-21 SF (Berlin) an AS (Wien)</ref>, <ref target="11418">1928-06-07 SF (Berlin) an AS (Wien)</ref>
-        </note>
-        <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
-        
-      </notesStmt>
-    </fileDesc>
-    <profileDesc> <langUsage>             <language ident="de-AT">German</language>          </langUsage>
-      <correspDesc>
-        <correspAction type="sent">
-          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-          <placeName ref="#pmb50">Wien</placeName>
-          <date when="1928-05-19" n="01">1928-05-19</date>
-        </correspAction>
-        <correspAction type="received">
-          <persName ref="#pmb11324">Fischer, Samuel</persName>
-          <placeName ref="#pmb168">Berlin</placeName>
-        </correspAction>
-        <note>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb4423">Knopf, Alfred</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb20474">Linden, Gustaf</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb336314">Lugt Melsert, Cor van der</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb335952">Price, Lawrence Marsden</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb23787">Rémon, Maurice</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb336337">Rökk-Richter, Stefano (Theateragent und Schriftsteller, Italien)</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb25736">Sulzbach, Ernst</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb38195">Berkeley</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb254">England</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb166">Frankreich</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44016">Niederlande</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb313">Polen</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb44335">Schweden</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43430">Tschechien</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb35512">Ungarn</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb50">Wien</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11414.xml"/>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30971">Casanovas Heimfahrt</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30649">Der blinde Geronimo und sein Bruder</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29843">Der grüne Kakadu</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29845">Die Gefährtin</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30819">Die Schwestern oder Casanova in Spa</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb335738">Gra o brzasku (Spiel im Morgengrauen, poln.)</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30403">Paracelsus</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30203">Professor Bernhardi</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb32131">Spiel im Morgengrauen</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30817">Therese. Chronik eines Frauenlebens</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb65406">8 Uhr-Abendblatt</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb36374">Neue Freie Presse</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb52605">Vossische Zeitung</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb122103">Wiener Sonn- und Montags-Zeitung</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb336248">The Observer (London)</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb146179">Benjamin Harz Verlag (Berlin, Wien)</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb37231">Melantrich Verlag (Prag)</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb336415">Pantheon-Verlag (Berlin)</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb336538">Rój (Warschau)</ref>
-          <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb29648">Simon &amp; Schuster (New York)</ref>
-        </note>
-      </correspDesc>
-      <textClass>
-        <keywords>
-          <term>Absatz/Verkauf</term>
-          <term>amerikanisch</term>
-          <term>Aufführung</term>
-          <term>Auflage/Neuauflage/Neuausgabe</term>
-          <term>Einzelausgabe</term>
-          <term>englisch</term>
-          <term>Erfolg</term>
-          <term>Ergänzungsband</term>
-          <term>französisch</term>
-          <term>Garantiesumme</term>
-          <term>Gesamtausgabe</term>
-          <term>Honorar</term>
-          <term>Klage/Gerichtliche Verfolgung/Prozess</term>
-          <term>Korrespondenz</term>
-          <term>Kritik</term>
-          <term>Nachdruck</term>
-          <term>Novellenband</term>
-          <term>polnisch</term>
-          <term>Presse/Feuilleton</term>
-          <term>Reise/Urlaub</term>
-          <term>Rundfunk</term>
-          <term>Rundfunkrecht/Senderecht</term>
-          <term>Schulausgabe</term>
-          <term>schwedisch</term>
-          <term>Tantiemen</term>
-          <term>tschechisch</term>
-          <term>ungarisch</term>
-          <term>Vereinbarung</term>
-          <term>Verhandlung</term>
-          <term>Verlagswerbung</term>
-          <term>Vertrag</term>
-          <term>Übersetzung</term>
-          <term>Übersetzungsrecht</term>
-        </keywords>
-      </textClass>
-    </profileDesc> <langUsage>             <language ident="de-AT">German</language>          </langUsage>
-  </teiHeader>
-  <facsimile>
-    <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416741_0045.html"/>
-  </facsimile>
-  <text>
-    <body>
-      <div type="letter">
-        <p>2 Blatt, 3 Seiten
+            </note>
+            <note type="type">Typoskript (eigenhändige Korrektur(en) (ggf. mit Urheber-Monogramm))</note>
+         </notesStmt>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1928-05-19" n="01">1928-05-19</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#pmb11324">Fischer, Samuel</persName>
+               <date evidence="conjecture" notBefore="1928-05-20" notAfter="1928-05-24">[20. 5. 1928 – 24. 5. 1928?]</date>
+               <placeName ref="#pmb168">Berlin</placeName>
+            </correspAction>
+            <note>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson"
+                    target="pmb17899">Harz, Benjamin</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson"
+                    target="pmb4423">Knopf, Alfred</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson"
+                    target="pmb20474">Linden, Gustaf</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson"
+                    target="pmb336314">Lugt Melsert, Cor van der</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson"
+                    target="pmb335952">Price, Lawrence Marsden</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson"
+                    target="pmb23787">Rémon, Maurice</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson"
+                    target="pmb336337">Rökk-Richter, Stefano (Theateragent und Schriftsteller, Italien)</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson"
+                    target="pmb25736">Sulzbach, Ernst</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace"
+                    target="pmb38195">Berkeley</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace"
+                    target="pmb254">England</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace"
+                    target="pmb166">Frankreich</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace"
+                    target="pmb44016">Niederlande</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace"
+                    target="pmb313">Polen</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace"
+                    target="pmb44335">Schweden</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace"
+                    target="pmb43430">Tschechien</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace"
+                    target="pmb35512">Ungarn</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace"
+                    target="pmb43406">USA</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace"
+                    target="pmb50">Wien</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile"
+                    target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_11414.xml"/>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl"
+                    target="pmb30971">Casanovas Heimfahrt</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl"
+                    target="pmb30649">Der blinde Geronimo und sein Bruder</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl"
+                    target="pmb29843">Der grüne Kakadu</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl"
+                    target="pmb29845">Die Gefährtin</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl"
+                    target="pmb30819">Die Schwestern oder Casanova in Spa</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl"
+                    target="pmb335738">Gra o brzasku (Spiel im Morgengrauen, poln.)</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl"
+                    target="pmb30403">Paracelsus</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl"
+                    target="pmb30203">Professor Bernhardi</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl"
+                    target="pmb29855">Reigen</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl"
+                    target="pmb32131">Spiel im Morgengrauen</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl"
+                    target="pmb30817">Therese. Chronik eines Frauenlebens</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl"
+                    target="pmb65406">8 Uhr-Abendblatt</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl"
+                    target="pmb36374">Neue Freie Presse</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl"
+                    target="pmb52605">Vossische Zeitung</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl"
+                    target="pmb122103">Wiener Sonn- und Montags-Zeitung</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl"
+                    target="pmb336248">The Observer (London)</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg"
+                    target="pmb146179">Benjamin Harz Verlag (Berlin, Wien)</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg"
+                    target="pmb37231">Melantrich Verlag (Prag)</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg"
+                    target="pmb336415">Pantheon-Verlag (Berlin)</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg"
+                    target="pmb336538">Rój (Warschau)</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg"
+                    target="pmb29648">Simon &amp; Schuster (New York)</ref>
+            </note>
+            <correspContext>
+               <ref subtype="previous_letter" type="withinCollection" target="sf_11413">Fischer an Schnitzler, 1928-05-16</ref>
+               <ref subtype="next_letter" type="withinCollection" target="sf_11415">Fischer an Schnitzler, 1928-05-21</ref>
+            </correspContext>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term>Absatz/Verkauf</term>
+               <term>amerikanisch</term>
+               <term>Aufführung</term>
+               <term>Auflage/Neuauflage/Neuausgabe</term>
+               <term>Einzelausgabe</term>
+               <term>englisch</term>
+               <term>Erfolg</term>
+               <term>Ergänzungsband</term>
+               <term>französisch</term>
+               <term>Garantiesumme</term>
+               <term>Gesamtausgabe</term>
+               <term>Honorar</term>
+               <term>Klage/Gerichtliche Verfolgung/Prozess</term>
+               <term>Korrespondenz</term>
+               <term>Kritik</term>
+               <term>Nachdruck</term>
+               <term>Novellenband</term>
+               <term>polnisch</term>
+               <term>Presse/Feuilleton</term>
+               <term>Reise/Urlaub</term>
+               <term>Rundfunk</term>
+               <term>Rundfunkrecht/Senderecht</term>
+               <term>Schulausgabe</term>
+               <term>schwedisch</term>
+               <term>Tantiemen</term>
+               <term>tschechisch</term>
+               <term>ungarisch</term>
+               <term>Vereinbarung</term>
+               <term>Verhandlung</term>
+               <term>Verlagswerbung</term>
+               <term>Vertrag</term>
+               <term>Übersetzung</term>
+               <term>Übersetzungsrecht</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <langUsage>
+         <language ident="de-AT">German</language>
+      </langUsage>
+   </teiHeader>
+   <facsimile>
+      <graphic url="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416741_0045.html"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+            <p>2 Blatt, 3 Seiten
 Antwort auf: <ref target="11413">1928-05-16 SF (Berlin) an AS (Wien)</ref>
 Beantwortet in: <ref target="11415">1928-05-21 SF (Berlin) an AS (Wien)</ref>, <ref target="11418">1928-06-07 SF (Berlin) an AS (Wien)</ref>
-        </p>
-      </div>
-      <div type="OCR">
-        <p>
-          <pb facs="1416741_0045"/>Fischer,<lb/>
+            </p>
+         </div>
+         <div type="OCR">
+            <p>
+               <pb facs="1416741_0045"/>Fischer,<lb/>
 19.5.1928.<lb/>
 here<lb/>
 Ce<lb/>
 Lieber Freund.<lb/>
-<lb/>
+               <lb/>
 Es freut mich sehr von Ihnen zu hören,<lb/>
 dass die Laufbahn der "Therese" sich gut anlässt,<lb/>
 Hoffentlich behalten Sie (anders als im Falle<lb/>
@@ -214,12 +263,12 @@ auf diese forme<lb/>
 Ankünd 1 gun¬<lb/>
 önnte man in d<lb/>
 Geschied</p>
-        <p>
-          <pb facs="1416741_0046"/>G.C.P.<lb/>
-<lb/>
+            <p>
+               <pb facs="1416741_0046"/>G.C.P.<lb/>
+               <lb/>
 be<lb/>
 S.Fischer<lb/>
-<lb/>
+               <lb/>
 10. Trotzdem die nähnische Angelen.<lb/>
 nachdenken. Wie ist das nun mit der Honorarfrage bei<lb/>
 „Spiel im Morgengrauen“ schon vor einem Jahre erledig<lb/>
@@ -242,10 +291,10 @@ auch über Verhandlungen mit ihm, nicht aber von einem<lb/>
 sen.<lb/>
 12. In Amerika erscheint "Therese" wie alle<lb/>
 Abschluss:<lb/>
-<lb/>
+               <lb/>
 5. Gibt es -Neues in der holländischen An-<lb/>
 meine letzten Novellen bei Schuster &amp; Simon.<lb/>
-<lb/>
+               <lb/>
 gelegenheit "Bernhardi«? Wenn dieser Herr Lugt (mit<lb/>
 dem ich schon vor Jahren mit unberechtigten Aufführun-<lb/>
 13. Ueber “Cananovas Heimfahrt“ habe ich mit<lb/>
@@ -258,11 +307,11 @@ durch einen holländischen Rechtsfreund weiter verfol-<lb/>
 Neudruck in hübscher Ausstattung Konkurrenz machen<lb/>
 gen lassen.<lb/>
 könnten, Uebrigens existieren auch die "Schwestern"<lb/>
-<lb/>
+               <lb/>
 G.C.H.<lb/>
-<lb/>
+               <lb/>
 6. Ich finde in meinen Aufzeichnungen keine<lb/>
-<lb/>
+               <lb/>
 ("Casanova in Spa") in einer solchen schon an sich<lb/>
 kaum mehr heute verkäufligen Ausgabe. Die Entschlies-<lb/>
 Antorisationserteilung an Lawrence M.Price, Berkeley<lb/>
@@ -280,13 +329,13 @@ vielleicht im Lauf des Juni für ein paar Tage ins Ge-<lb/>
 Ausgabe bisher weder erschienen noch bezahlt worden.<lb/>
 birge und bleibe dann bis gegen den Herbst in Wien.<lb/>
 Ich hoffe, es geht Ihnen Ellen gut und bin mit herz-<lb/>
-<lb/>
+               <lb/>
 7. Haben Sie betreffs „Therese“ aus Holland<lb/>
 lichen Grüssen<lb/>
 Näheres gehört?<lb/>
 .<lb/>
 8. Hat sich Melantrich, Czecholsowakei wie-<lb/>
-<lb/>
+               <lb/>
 G. A. M.<lb/>
 der gemeldät?<lb/>
 Auch betreffs Schweden habe ich eine<lb/>
@@ -295,8 +344,8 @@ S.F.S.<lb/>
 Anfrage von Dr. Sulzbach erhalten. Hat Linden noch<lb/>
 ein Optionsrecht? Wie lange währt eine solche Option?<lb/>
 at er sich in der Rantfunksache irgendwie geäussert?</p>
-        <p>
-          <pb facs="1416741_0047"/>at<lb/>
+            <p>
+               <pb facs="1416741_0047"/>at<lb/>
 Fischer<lb/>
 31.5.1928.<lb/>
 von der Stadt zu verständen<lb/>
@@ -307,10 +356,10 @@ xxx das xxx<lb/>
 Hau<lb/>
 Lieber Freund.<lb/>
 G.<lb/>
-<lb/>
-<lb/>
-<lb/>
-<lb/>
+               <lb/>
+               <lb/>
+               <lb/>
+               <lb/>
 aa af xxx<lb/>
 Ich erkläre mich damit einverstanden,<lb/>
 dass im Sinne Ihres Briefes vom 21.Mai die Erzäh¬<lb/>
@@ -348,970 +397,1182 @@ nicht. Ich halte den Betrag, den wir für diesen<lb/>
 auf aufwenden wollen, keineswegs für ganz verloren,<lb/>
 als xix Sie diese Restvorräte zu einem kleineren<lb/>
 Preis verkaufen können. Aber auch die Einstampfung</p>
-      </div>
-    </body>
-  <back><listPerson><person xml:id="pmb11324"><persName>
-      <forename>Samuel</forename>
-      <surname>Fischer</surname>
-  </persName>
-  <persName type="legacy-name-merge">Fischer, Samuel</persName>
-  <birth>
-    <date when="1859-12-24">1859-12-24</date>
-      <settlement ref="pmb55962">
-        <placeName type="pref">Liptovský Mikuláš</placeName>
-        <location><geo>49,08061 19,62218</geo></location>
-      </settlement>
-  </birth>  
-  <death>
-    <date when="1934-10-15">1934-10-15</date>
-      <settlement ref="pmb168">
-        <placeName type="pref">Berlin</placeName>
-        <location><geo>52,52437 13,41053</geo></location>
-      </settlement>
-  </death>
-  <sex value="male"/>
-  <occupation ref="pmb144">Verleger/Verlegerin</occupation>
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118691406</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_15009.html</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11324.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11324/</idno>
-  <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb11324.html</idno>
-  <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp37584</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q95541</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Samuel_Fischer_(Verleger)</idno>
-  <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11324.html</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11324.html</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416739.html?pmb11324</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416740.html?pmb11324</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416741.html?pmb11324</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742.html?pmb11324</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743.html?pmb11324</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416744.html?pmb11324</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416747.html?pmb11324</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160037/</idno>
-  <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11324.html</idno>
-  <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb11324</idno>
-  <idno type="URL" subtype="zweig-digital">https://www.stefanzweig.digital/o:szd.personen/sdef:TEI/get#SZDPER.1814</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/262813/</idno>
-  <idno type="URL" subtype="brenner">https://brenner.oeaw.ac.at/?p=brennerp10459</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11324.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb11324.html</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb11324</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/p_37584</idno>
-  <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/person/single.xhtml?id=10352053</idno>
-<affiliation when="1886-01-01" notAfter="1886-12-31" notBefore="1886-01-01">
-    <term ref="pmb1409">besitzt</term>
-    <orgName ref="pmb29639">S. Fischer Verlag</orgName>
-    <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29639.html</idno>
-    <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29639/</idno>
-    <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb29639.html</idno>
-    <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q481576</idno>
-    <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/S._Fischer_Verlag</idno>
-    <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb29639.html</idno>
-    <idno type="URL" subtype="wiengeschichtewiki">https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=69407</idno>
-    <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29639.html</idno>
-    <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb29639</idno>
-</affiliation>
-<affiliation when="1889-04-05">
-    <term ref="pmb1182">arbeitet für</term>
-    <orgName ref="pmb29561">Freie Bühne</orgName>
-    <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29561/</idno>
-    <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1453924</idno>
-    <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Freie_B%C3%BChne_Berlin</idno>
-    <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29561.html</idno>
-</affiliation>
-<listEvent>
-    <event n="Theaterpremiere" when="1896-02-04" ref="pmb35206">
-        <desc n="1370">teilgenommen an</desc>
-        <label>Premiere von Liebelei, Der zerbrochene Krug, 4.2.1896</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35206/</idno>
-        <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35206.html</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35206.html</idno>
-    </event>
-    <event n="Theateruraufführung" when="1898-10-08" ref="pmb35382">
-        <desc n="1370">teilgenommen an</desc>
-        <label>Uraufführung von Das Vermächtnis, 8.10.1898</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35382/</idno>
-        <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35382.html</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35382.html</idno>
-    </event>
-    <event n="Theaterpremiere" when="1906-02-24" ref="pmb35179">
-        <desc n="1370">teilgenommen an</desc>
-        <label>Premiere von Der Ruf des Lebens, 24.2.1906</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35179/</idno>
-        <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35179.html</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35179.html</idno>
-    </event>
-    <event n="Theateraufführung" when="1906-04-19" ref="pmb147446">
-        <desc n="1370">teilgenommen an</desc>
-        <label>Aufführung von Der einsame Weg, 19.4.1906</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/147446/</idno>
-    </event>
-    <event n="Theateruraufführung" when="1910-09-12" ref="pmb148404">
-        <desc n="1370">teilgenommen an</desc>
-        <label>Uraufführung 8. Sinfonie, 12.9.1910</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148404/</idno>
-    </event>
-    <event n="Theateruraufführung" when="1910-11-24" ref="pmb35251">
-        <desc n="1370">teilgenommen an</desc>
-        <label>Uraufführung von Der junge Medardus, 24.11.1910</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35251/</idno>
-        <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35251.html</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35251.html</idno>
-    </event>
-    <event n="Liederkonzert" when="1911-02-23" ref="pmb167960">
-        <desc n="1370">teilgenommen an</desc>
-        <label>Gesangskonzert von Olga Schnitzler, 23.2.1911</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/167960/</idno>
-        <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb167960.html</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb167960.html</idno>
-    </event>
-    <event n="Theateruraufführung" when="1912-11-28" ref="pmb35355">
-        <desc n="1370">teilgenommen an</desc>
-        <label>Uraufführung von Professor Bernhardi, 28.11.1912</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35355/</idno>
-        <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35355.html</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35355.html</idno>
-    </event>
-    <event n="Generalprobe" when="1914-10-23" ref="pmb186295">
-        <desc n="1370">teilgenommen an</desc>
-        <label>Generalprobe von Der junge Medardus, 23.10.1914</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/186295/</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb186295.html</idno>
-    </event>
-    <event n="Generalprobe" when="1929-12-02" ref="pmb43870">
-        <desc n="1370">teilgenommen an</desc>
-        <label>Generalprobe von Spuk, 2.12.1929</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43870/</idno>
-        <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb43870.html</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb43870.html</idno>
-    </event>
-</listEvent>
-<figure>
-    <graphic url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Samuel_Fischer_1915_-_Oelgemaelde_von_Max_Liebermann.JPG/250px-Samuel_Fischer_1915_-_Oelgemaelde_von_Max_Liebermann.JPG"/>
-</figure>
-</person><person xml:id="pmb17899"><persName>
-      <forename>Benjamin</forename>
-      <surname>Harz</surname>
-  </persName>
-  <sex value="male"/>
-  <occupation ref="pmb144">Verleger/Verlegerin</occupation>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_15957.html</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb17899.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/17899/</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416747.html?pmb17899</idno>
-<affiliation when="1920-01-01" notAfter="1920-12-31" notBefore="1920-01-01">
-    <term ref="pmb1409">besitzt</term>
-    <orgName ref="pmb292082">Literarisches Institut »Kosmos«</orgName>
-    <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/292082/</idno>
-</affiliation>
-<affiliation>
-    <term ref="pmb1409">besitzt</term>
-    <orgName ref="pmb146179">Benjamin Harz Verlag</orgName>
-    <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/146179/</idno>
-    <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1031575987</idno>
-</affiliation>
-</person><person xml:id="pmb20474"><persName>
-      <forename>Gustaf</forename>
-      <surname>Linden</surname>
-  </persName>
-  <birth>
-    <date when="1875-11-10">1875-11-10</date>
-      <settlement ref="pmb58096">
-        <placeName type="pref">Malmö</placeName>
-        <location><geo>55,60587 13,00073</geo></location>
-      </settlement>
-  </birth>  
-  <death>
-    <date when="1936-03-19">1936-03-19</date>
-      <settlement ref="pmb1119">
-        <placeName type="pref">Stockholm</placeName>
-        <location><geo>59,325 18,05</geo></location>
-      </settlement>
-  </death>
-  <sex value="male"/>
-  <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
-  <occupation ref="pmb104">Regisseur/Regisseurin</occupation>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_17567.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20474/</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q5955172</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb20474.html</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb20474.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb20474.html</idno>
-<listEvent>
-    <event n="Theaterpremiere" when="1914-01-22" ref="pmb62683">
-        <desc n="1256">mitwirkend an</desc>
-        <label>Premiere von Professor Bernhardi, 22.1.1914</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62683/</idno>
-    </event>
-    <event n="Theateraufführung" when="1923-05-22" ref="pmb62229">
-        <desc n="1370">teilgenommen an</desc>
-        <label>Aufführung von Liebelei, 22.5.1923</label>
-        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62229/</idno>
-        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb62229.html</idno>
-    </event>
-</listEvent>
-</person><person xml:id="pmb2121"><persName><surname>Schnitzler</surname><forename>Arthur</forename></persName>
-        <birth><date when="1862-05-15">15. 5. 1862</date>
-            <settlement ref="pmb50"><placeName type="pref">Wien</placeName>
-                <location><geo>48,208333 16,373056</geo></location>
-            </settlement>
-        </birth>
-        <death><date when="1931-10-21">21. 10. 1931</date>
-            <settlement ref="pmb50"><placeName type="pref">Wien</placeName>
-                <location><geo>48,208333 16,373056</geo></location>
-            </settlement>
-        </death>
-        <sex value="male"/>
-        <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-        <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
-        <idno type="gnd">https://d-nb.info/gnd/118609807/</idno>
-    </person><person xml:id="pmb23787"><persName>
-      <forename>Maurice</forename>
-      <surname>Rémon</surname>
-  </persName>
-  <birth>
-    <date when="1861-11-27">1861-11-27</date>
-      <settlement ref="pmb182">
-        <placeName type="pref">Paris</placeName>
-        <location><geo>48,85341 2,3488</geo></location>
-      </settlement>
-  </birth>  
-  <death>
-    <date when="1945-06-20">1945-06-20</date>
-      <settlement ref="pmb49517">
-        <placeName type="pref">Mérignac</placeName>
-        <location><geo>44,84247 -0,64512</geo></location>
-      </settlement>
-  </death>
-  <sex value="male"/>
-  <occupation ref="pmb116">Übersetzer/Übersetzerin</occupation>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_19182.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/23787/</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q18197826</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb23787.html</idno>
-</person><person xml:id="pmb25736"><persName>
-      <surname>Sulzbach Ernst</surname>
-  </persName>
-  <birth>
-    <date when="1887-04-16">1887-04-16</date>
-      <settlement ref="pmb146">
-        <placeName type="pref">Frankfurt am Main</placeName>
-        <location><geo>50,11552 8,68417</geo></location>
-      </settlement>
-  </birth>  
-  <death>
-    <date when="1954-01-21">1954-01-21</date>
-      <settlement ref="pmb1119">
-        <placeName type="pref">Stockholm</placeName>
-        <location><geo>59,325 18,05</geo></location>
-      </settlement>
-  </death>
-  <sex value="not-set"/>
-  <occupation ref="pmb281">Verlagslektor/Verlagslektorin</occupation>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_20570.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/25736/</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q55847009</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ernst_Sulzbach</idno>
-  <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/person/single.xhtml?id=10772201</idno>
-</person><person xml:id="pmb335952"><persName>
-      <forename>Lawrence</forename>
-      <surname>Marsden Price</surname>
-  </persName>
-  <birth>
-    <date when="1881-02-14">1881-02-14</date>
-  </birth>  
-  <death>
-    <date when="1969-07-03">1969-07-03</date>
-  </death>
-  <sex value="male"/>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/335952/</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q59626758</idno>
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116289791</idno>
-  <idno type="URL" subtype="sfischer">http://sfischer/foo/bar/129</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Lawrence_Marsden_Price</idno>
-</person><person xml:id="pmb336314"><persName>
-      <forename>Cor van der</forename>
-      <surname>Lugt Melsert</surname>
-  </persName>
-  <sex value="not-set"/>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/336314/</idno>
-  <idno type="URL" subtype="sfischer">http://sfischer/foo/bar/93</idno>
-</person><person xml:id="pmb336337"><persName>
-      <forename>Stefano</forename>
-      <surname>Rökk-Richter</surname>
-  </persName>
-  <sex value="male"/>
-  <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-  <occupation ref="pmb199">Theateragent/Theateragentin</occupation>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/336337/</idno>
-  <idno type="URL" subtype="sfischer">http://sfischer/foo/bar/146</idno>
-</person><person xml:id="pmb4423"><persName>
-      <forename>Alfred A.</forename>
-      <surname>Knopf</surname>
-  </persName>
-  <persName type="legacy-name-merge">Knopf, Alfred A.</persName>
-  <birth>
-    <date when="1892-09-12">1892-09-12</date>
-  </birth>  
-  <death>
-    <date when="1984-01-01" notAfter="1984-12-31">1984</date>
-  </death>
-  <sex value="male"/>
-  <occupation ref="pmb144">Verleger/Verlegerin</occupation>
-  <occupation ref="pmb313">Verlagsleiter/Verlagsleiterin</occupation>
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/11625999X</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4423/</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q61108</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/19472/</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_16944.html</idno>
-<figure>
-    <graphic url="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Alfred_A._Knopf.jpg/250px-Alfred_A._Knopf.jpg"/>
-</figure>
-</person></listPerson><listBibl><bibl xml:id="pmb122103"><title type="main">Wiener Sonn- und Montags-Zeitung</title>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/122103/</idno>
-  <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb122103.html</idno>
-  <note type="work_kind">Wochenschrift</note>
-</bibl><bibl xml:id="pmb29843"><title type="main">Der grüne Kakadu. Groteske in einem Akt</title>
-  <title type="werk_bibliografische-angabe">Neue Deutsche Rundschau, Jg. 10, H. 3, März 1899, S. 282–308.</title>
-  <title type="legacy-name-merge">Der grüne Kakadu</title>
-  <title type="legacy-name-merge">Der grüne Kakadu</title>
-  <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
-<date>1899-03-01</date>
-  <idno type="URL">https://asaf.com/S.04.01.10</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2675124</idno>
-  <idno type="URL">https://dracor.org/ger/schnitzler-der-gruene-kakadu</idno>
-  <idno type="URL">https://theadok.at/work/32409</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29843.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29843/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/195877/</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29843.html</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_gr%C3%BCne_Kakadu</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb29843.html</idno>
-  <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/223987.html?pmb29843</idno>
-  <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/224047.html?pmb29843</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428187.html?pmb29843</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1429069.html?pmb29843</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/164816/</idno>
-  <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb29843</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29843.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb29843.html</idno>
-  <note type="work_kind">Einakter</note>
-</bibl><bibl xml:id="pmb29845"><title type="main">Die Gefährtin. Schauspiel in einem Akt</title>
-  <title type="werk_arbeitstitel">Der Wittwer</title>
-  <title type="werk_link">https://library.oapen.org/handle/20.500.12657/76700</title>
-  <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
-<date when="1899-03-01">1899-03-01</date>
-  <idno type="URL">https://asaf.com/S.04.01.16</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1212860</idno>
-  <idno type="URL">https://theadok.at/work/31482</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29845.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29845/</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29845.html</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Die_Gef%C3%A4hrtin</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb29845.html</idno>
-  <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/223988.html?pmb29845</idno>
-  <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/224048.html?pmb29845</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428189.html?pmb29845</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29845.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb29845.html</idno>
-  <note type="work_kind">Einakter</note>
-</bibl><bibl xml:id="pmb29855"><title type="main">Reigen. Zehn Dialoge</title>
-  <title type="werk_link">https://www.digital.wienbibliothek.at/wbrobv/content/pageview/2587756</title>
-  <title type="legacy-name-merge">Reigen</title>
-  <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
-<date when="1900-04-01" notBefore="1900-04-01">1900-04</date>
-  <idno type="URL">https://asaf.com/S.04.01.32</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1414190</idno>
-  <idno type="URL">https://dracor.org/ger/schnitzler-reigen</idno>
-  <idno type="URL">https://theadok.at/work/33309</idno>
-  <idno type="URL" subtype="exemplar">http://www.deutschestextarchiv.de/book/show/schnitzler_reigen_1903</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29855.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29855/</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29855.html</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb29855.html</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Reigen_(Drama)</idno>
-  <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/223982.html?pmb29855</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/164808/</idno>
-  <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb164808</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29855.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb29855.html</idno>
-  <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/work/single.xhtml?id=10566852</idno>
-<note type="work_kind">Mehraktiges Drama</note>
-  <note type="references">None</note>
-</bibl><bibl xml:id="pmb30203"><title type="main">Professor Bernhardi. Komödie in fünf Akten</title>
-  <title type="werk_arbeitstitel">Ärztestück</title>
-  <title type="werk_arbeitstitel">Junggesellenstück</title>
-  <title type="werk_link">https://www.schnitzler-edition.net/emendtext/10083</title>
-  <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
-<date when="1912-01-01" notBefore="1912-01-01">1912</date>
-  <idno type="URL">https://asaf.com/S.04.01.31</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q872683</idno>
-  <idno type="URL">https://dracor.org/ger/schnitzler-professor-bernhardi</idno>
-  <idno type="URL">https://theadok.at/work/43034</idno>
-  <idno type="URL" subtype="exemplar">http://www.archive.org/details/professorbernhar00schn</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30203.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30203/</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30203.html</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Professor_Bernhardi</idno>
-  <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/223963.html?pmb30203</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428584.html?pmb30203</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428583.html?pmb30203</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428586.html?pmb30203</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb30203.html</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb30203.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb30203.html</idno>
-  <note type="work_kind">Mehraktiges Drama</note>
-</bibl><bibl xml:id="pmb30403"><title type="main">Paracelsus. Versspiel in einem Akt</title>
-  <title type="werk_bibliografische-angabe">Cosmopolis, Jg. 3, Bd. 12, Nr. 35, November 1898</title>
-  <title type="werk_link">https://www.degruyter.com/document/doi/10.1515/9783110712247/html</title>
-  <title type="legacy-name-merge">Paracelsus</title>
-  <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
-<date when="1898-11-01">1898-11-01</date>
-  <idno type="URL">https://asaf.com/S.04.01.30</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1757723</idno>
-  <idno type="URL">https://theadok.at/work/38089</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30403.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30403/</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30403.html</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Paracelsus_(Schnitzler)</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb30403.html</idno>
-  <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/223989.html?pmb30403</idno>
-  <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/224049.html?pmb30403</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/164807/</idno>
-  <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb164807</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb30403.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb30403.html</idno>
-  <note type="work_kind">Einakter</note>
-  <note type="references"> </note>
-</bibl><bibl xml:id="pmb30649"><title type="main">Der blinde Geronimo und sein Bruder</title>
-  <title type="werk_bibliografische-angabe">Arthur Schnitzler: Der blinde Hieronymo und sein Bruder. In: Die Zeit, Nr. 325, 22. 12. 1900, S. 190–191; Nr. 326, 29. 12. 1900, S. 207–208; Nr. 327, 5. 1. 1901, S. 15–16; Nr. 328, 12. 1. 1901, S. 31–32</title>
-  <title type="werk_namensvariante">Der blinde Hieronymo und sein Bruder</title>
-  <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
-<date to="1901-01-12">1900-12-22 – 1901-01-12</date>
-  <idno type="URL">https://asaf.com/S.04.02.10</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1198398</idno>
-  <idno type="URL" subtype="exemplar">http://www.zeno.org/Literatur/M/Schnitzler,+Arthur/Erzählungen/Der+blinde+Geronimo+und+sein+Bruder</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30649.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30649/</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30649.html</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_blinde_Geronimo_und_sein_Bruder</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb30649.html</idno>
-  <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/223912.html?pmb30649</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428624.html?pmb30649</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb30649.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb30649.html</idno>
-  <note type="work_kind">Erzählung</note>
-</bibl><bibl xml:id="pmb30817"><title type="main">Therese. Chronik eines Frauenlebens</title>
-  <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
-<date>1928-03-27</date>
-  <idno type="URL">https://asaf.com/S.04.02.44</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q699088</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30817.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30817/</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30817.html</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Therese._Chronik_eines_Frauenlebens</idno>
-  <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/223886.html?pmb30817</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428641.html?pmb30817</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428642.html?pmb30817</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb30817.html</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb30817.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb30817.html</idno>
-  <note type="work_kind">Roman</note>
-</bibl><bibl xml:id="pmb30819"><title type="main">Die Schwestern oder Casanova in Spa. Lustspiel in Versen</title>
-  <title type="werk_bibliografische-angabe">Deutsche Rundschau, Jg. 46, H. 1, Oktober 1919</title>
-  <title type="werk_arbeitstitel">Eifersucht</title>
-  <title type="werk_arbeitstitel">Die Wiederkehr</title>
-  <title type="werk_arbeitstitel">Spion</title>
-  <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
-<date when="1919-10-01">1919-10-01</date>
-  <idno type="URL">https://asaf.com/S.04.01.18</idno>
-  <idno type="URL" subtype="exemplar">https://babel.hathitrust.org/cgi/pt?id=uc1.b3914645</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30819.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30819/</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30819.html</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q31836217</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Die_Schwestern_oder_Casanova_in_Spa</idno>
-  <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/223958.html?pmb30819</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428567.html?pmb30819</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428568.html?pmb30819</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428569.html?pmb30819</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb30819.html</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb30819.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb30819.html</idno>
-  <note type="work_kind">Mehraktiges Drama</note>
-</bibl><bibl xml:id="pmb30971"><title type="main">Casanovas Heimfahrt</title>
-  <title type="werk_bibliografische-angabe">Die neue Rundschau, Jg. 29, Heft 7–9, Juli–September 1918</title>
-  <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
-<date to="1918-09-01">1918-07-01 – 1918-09-01</date>
-  <idno type="URL">https://asaf.com/S.04.02.05</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q946444</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30971.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30971/</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30971.html</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Casanovas_Heimfahrt</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb30971.html</idno>
-  <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/223891.html?pmb30971</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428605.html?pmb30971</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb30971.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb30971.html</idno>
-  <note type="work_kind">Erzählung</note>
-</bibl><bibl xml:id="pmb32131"><title type="main">Spiel im Morgengrauen. Novelle</title>
-  <title type="werk_bibliografische-angabe">Berliner Illustrirte Zeitung, 5. 12. 1926 – 9. 1. 1927</title>
-  <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
-<date to="1927-01-09">1926-12-05 – 1927-01-09</date>
-  <idno type="URL">https://asaf.com/S.04.02.42</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1761527</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32131.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32131/</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32131.html</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Spiel_im_Morgengrauen</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb32131.html</idno>
-  <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/223887.html?pmb32131</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428142.html?pmb32131</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428675.html?pmb32131</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428676.html?pmb32131</idno>
-  <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428677.html?pmb32131</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb32131.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb32131.html</idno>
-  <note type="work_kind">Novelle</note>
-</bibl><bibl xml:id="pmb335738"><title type="main">Gra o brzasku</title>
-  <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
-<date when="1928-01-01" notBefore="1928-01-01">1928</date>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/335738/</idno>
-<note type="work_kind">Novelle</note>
-</bibl><bibl xml:id="pmb336248"><title type="main">The Observer</title>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/336248/</idno>
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4185016-6</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q336197</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/The_Observer</idno>
-<note type="work_kind">Wochenschrift</note>
-</bibl><bibl xml:id="pmb36374"><title type="main">Neue Freie Presse</title>
-  <title type="werk_link">http://anno.onb.ac.at/cgi-content/anno?aid=nfp</title>
-  <title type="legacy-name-merge">Neue freie Presse (Zeitung, Wien)</title>
-  <author role="hat-herausgegeben" ref="pmb10809">Bacher, Eduard</author>
-  <author role="hat-herausgegeben" ref="pmb10875">Benedikt, Moriz</author>
-  <author role="hat-herausgegeben" ref="pmb10872">Benedikt, Ernst</author>
-<date from="1864-01-01" to="1939-01-01">1864 – 1939</date>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36374/</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb36374.html</idno>
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/7640546-1</idno>
-  <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_work_id_82.html</idno>
-  <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb36374.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/201326/</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb36374.html</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb36374/published-expression</idno>
-  <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb36374.html</idno>
-<note type="work_kind">Tageszeitung</note>
-</bibl><bibl xml:id="pmb52605"><title type="main">Vossische Zeitung</title>
-  <title type="werk_link">https://zefys.staatsbibliothek-berlin.de/list/title/zdb/27112366/</title>
-  <title type="namensvariante">Königlich privilegirte Berlinische Zeitung von Staats- und gelehrten Sachen</title>
-  <title type="werk_link">https://zefys.staatsbibliothek-berlin.de/list/title/zdb/24353991/</title>
-<date from="1617-01-01" to="1934-01-01">1617 – 1934</date>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/52605/</idno>
-  <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb52605.html</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb52605.html</idno>
-  <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb52605.html</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb52605.html</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb52605/published-expression</idno>
-<note type="work_kind">Tageszeitung</note>
-</bibl><bibl xml:id="pmb65406"><title type="main">8 Uhr-Abendblatt</title>
-<date from="1910-01-01" to="1938-01-01">1910 – 1938</date>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65406/</idno>
-  <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb65406.html</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q107600657</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/8_Uhr-Abendblatt</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb65406/published-expression</idno>
-<note type="work_kind">Tageszeitung</note>
-</bibl></listBibl><listPlace><place xml:id="pmb166"><placeName>Frankreich</placeName>
-  <placeName type="alternative-name">France</placeName>
-  <placeName type="alternative-name">Frankreich</placeName>
-  <placeName type="legacy-name-merge">Frankreich</placeName>
-  <placeName type="legacy-name-merge">France</placeName>
-  <desc type="entity_type">A.PCLI</desc>
-  <desc type="entity_type_id">1107</desc>
-<location type="coords">
-  <geo>46,0 2,0</geo>
-</location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__468">Europa</placeName>
-  <geo>48,69096 9,14062</geo>
-</location>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q142</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb166.html</idno>
-  <idno type="URL" subtype="geonames">https://sws.geonames.org/3017382/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/166/</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Frankreich</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb166.html</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb166.html</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb166.html</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00004602</idno>
-</place><place xml:id="pmb168"><placeName>Berlin</placeName>
-  <placeName type="alternative-name">Hauptstadt Berlin</placeName>
-  <placeName type="alternative-name">Barlīn</placeName>
-  <placeName type="alternative-name">Reichshauptstadt Berlin</placeName>
-  <placeName type="alternative-name">Berolino</placeName>
-  <placeName type="legacy-name-merge">B-n</placeName>
-  <desc type="entity_type">P.PPLC</desc>
-  <desc type="entity_type_id">1418</desc>
-<location type="coords">
-  <geo>52,52437 13,41053</geo>
-</location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__151">Deutschland</placeName>
-  <geo>51,5 10,5</geo>
-</location>
-  <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4005728-8</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
-  <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb168.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb168.html</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
-  <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb168.html</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb168.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb168.html</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00313</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00093</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb168</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00001836</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00004523</idno>
-<note type="image">
-  <figure>
-    <graphic url="https://iiif.onb.ac.at/images/AKON/AK113_515/515/full/,600/0/native.jpg"/>
-  </figure>
-</note>
-</place><place xml:id="pmb254"><placeName>England</placeName>
-  <placeName type="legacy-name-merge">England</placeName>
-  <desc type="entity_type">A.ADM1</desc>
-  <desc type="entity_type_id">1137</desc>
-<location type="coords">
-  <geo>52,483333 -1,566667</geo>
-</location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__34523">Vereinigtes Königreich</placeName>
-  <geo>54,75844 -2,69531</geo>
-</location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__468">Europa</placeName>
-  <geo>48,69096 9,14062</geo>
-</location>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb254.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/254/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/90593/</idno>
-  <idno type="URL" subtype="geonames">https://sws.geonames.org/6269131/</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q21</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/England</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb254.html</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90593.html</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb254.html</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00169</idno>
-</place><place xml:id="pmb313"><placeName>Polen</placeName>
-  <placeName type="alternative-name">Polen</placeName>
-  <placeName type="alternative-name">Republic of Poland</placeName>
-  <placeName type="legacy-name-merge">Poland</placeName>
-  <desc type="entity_type">A.PCLI</desc>
-  <desc type="entity_type_id">1107</desc>
-<location type="coords">
-  <geo>52,0 20,0</geo>
-</location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__468">Europa</placeName>
-  <geo>48,69096 9,14062</geo>
-</location>
-  <idno type="URL" subtype="geonames">https://www.geonames.org/798544</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q36</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb313.html</idno>
-  <idno type="URL" subtype="geonames">https://sws.geonames.org/798544/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/313/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33948/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43316/</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Polen</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb313.html</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb313.html</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb313.html</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00004027</idno>
-</place><place xml:id="pmb35512"><placeName>Ungarn</placeName>
-  <placeName type="alternative-name">Ungarn</placeName>
-  <placeName type="alternative-name">Republic of Hungary</placeName>
-  <placeName type="legacy-name-merge">Ungarn</placeName>
-  <placeName type="legacy-name-merge">Hungary</placeName>
-  <desc type="entity_type">A.PCLI</desc>
-  <desc type="entity_type_id">1107</desc>
-<location type="coords">
-  <geo>47,0 20,0</geo>
-</location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__468">Europa</placeName>
-  <geo>48,69096 9,14062</geo>
-</location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__687">Österreich-Ungarn</placeName>
-  <geo>48,4054 16,4887</geo>
-</location>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q28</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb167.html</idno>
-  <idno type="URL" subtype="geonames">https://sws.geonames.org/719819/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35512/</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ungarn</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb35512.html</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb35512.html</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35512.html</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00004289</idno>
-<note type="image">
-  <figure>
-    <graphic url="https://iiif.onb.ac.at/images/AKON/AK027_002/002/full/,600/0/native.jpg"/>
-  </figure>
-</note>
-</place><place xml:id="pmb38195"><placeName>Berkeley</placeName>
-  <placeName type="alternative-name">Berkeley</placeName>
-  <placeName type="legacy-name">Berkeley, Kalif.</placeName>
-  <desc type="entity_type">P.PPL</desc>
-  <desc type="entity_type_id">1412</desc>
-<location type="coords">
-  <geo>37,87159 -122,27275</geo>
-</location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__38180">Alameda</placeName>
-  <geo>37,65055 -121,91789</geo>
-</location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__43406">Vereinigte Staaten von Amerika [USA]</placeName>
-  <geo>39,76 -98,5</geo>
-</location>
-  <idno type="URL" subtype="geonames">https://sws.geonames.org/5327684/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/38195/</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q484678</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berkeley</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00000949</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00003444</idno>
-</place><place xml:id="pmb43406"><placeName>Vereinigte Staaten von Amerika [USA]</placeName>
-  <placeName type="alternative-name">Vereinigte Staaten</placeName>
-  <placeName type="legacy-name-merge">Vereinigte Staaten von Amerika</placeName>
-  <placeName type="legacy-name-merge">USA</placeName>
-  <placeName type="alternative-name">America</placeName>
-  <desc type="entity_type">A.PCLI</desc>
-  <desc type="entity_type_id">1107</desc>
-<location type="coords">
-  <geo>39,76 -98,5</geo>
-</location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__91362">Nordamerika</placeName>
-  <geo>54,77535 -105,64453</geo>
-</location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__175">Amerika</placeName>
-  <geo>32,530833 -117,02</geo>
-</location>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q30</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb490.html</idno>
-  <idno type="URL" subtype="geonames">https://sws.geonames.org/6252001/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/490/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/42779/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43406/</idno>
-  <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb43406.html</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Vereinigte_Staaten</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb43406.html</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb43406.html</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb43406.html</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00005277</idno>
-</place><place xml:id="pmb43430"><placeName>Tschechische Republik</placeName>
-  <placeName type="ort_namensvariante">Tschechien</placeName>
-  <placeName type="ort_namensvariante">Bohemia</placeName>
-  <desc type="entity_type">A.PCLI</desc>
-  <desc type="entity_type_id">1107</desc>
-<location type="coords">
-  <geo>49,75 15,0</geo>
-</location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__468">Europa</placeName>
-  <geo>48,69096 9,14062</geo>
-</location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__38444">Tschechoslowakei</placeName>
-  <geo>50,08292 14,46672</geo>
-</location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__298373">Cisleithanien</placeName>
-  <geo>48,5 16,383333333333333</geo>
-</location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__687">Österreich-Ungarn</placeName>
-  <geo>48,4054 16,4887</geo>
-</location>
-  <idno type="URL" subtype="geonames">https://sws.geonames.org/3077311/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33977/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43430/</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb43430.html</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q213</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Tschechien</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb43430.html</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb43430.html</idno>
-</place><place xml:id="pmb44016"><placeName>Niederlande</placeName>
-  <placeName type="ort_namensvariante">Holland</placeName>
-  <placeName type="ort_namensvariante">Netherlands</placeName>
-  <desc type="entity_type">A.PCLI</desc>
-  <desc type="entity_type_id">1107</desc>
-<location type="coords">
-  <geo>52,25 5,75</geo>
-</location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__468">Europa</placeName>
-  <geo>48,69096 9,14062</geo>
-</location>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q55</idno>
-  <idno type="URL" subtype="geonames">https://www.geonames.org/2750405</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb188.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44016/</idno>
-  <idno type="URL" subtype="geonames">https://sws.geonames.org/2750405/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/188/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35629/</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Niederlande</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/120562/</idno>
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4042203-3</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb44016.html</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb44016.html</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb44016.html</idno>
-</place><place xml:id="pmb44335"><placeName>Schweden</placeName>
-  <placeName type="alternative-name">Schweden</placeName>
-  <placeName type="legacy-name-merge">Schweden</placeName>
-  <placeName type="alternative-name">Kingdom of Sweden</placeName>
-  <desc type="entity_type">A.PCLI</desc>
-  <desc type="entity_type_id">1107</desc>
-<location type="coords">
-  <geo>62,0 15,0</geo>
-</location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__745">Skandinavien</placeName>
-  <geo>63,0 25,0</geo>
-</location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__468">Europa</placeName>
-  <geo>48,69096 9,14062</geo>
-</location>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q34</idno>
-  <idno type="URL" subtype="geonames">https://www.geonames.org/2661886</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb244.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/244/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/40699/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44335/</idno>
-  <idno type="URL" subtype="geonames">https://sws.geonames.org/2661886/</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Schweden</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb44335.html</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb44335.html</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb44335.html</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00003508</idno>
-</place><place xml:id="pmb50"><placeName>Wien</placeName>
-  <placeName type="ort_fruherer-name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
-  <placeName type="legacy-name-merge">Wien</placeName>
-  <placeName type="alternative-name">Bécs</placeName>
-  <placeName type="alternative-name">Land Wien</placeName>
-  <placeName type="alternative-name">Vídeň</placeName>
-  <placeName type="alternative-name">Wenia</placeName>
-  <placeName type="alternative-name">Beč</placeName>
-  <placeName type="ort_fruherer-name">Vindobona</placeName>
-  <placeName type="legacy-name-merge">Vindobona</placeName>
-  <placeName type="alternative-name">Vienna</placeName>
-  <placeName type="legacy-name-merge">Vienna</placeName>
-  <placeName type="alternative-name">Vienna</placeName>
-  <desc type="entity_type">A.ADM2</desc>
-  <desc type="entity_type_id">1135</desc>
-<location type="coords">
-  <geo>48,208333 16,373056</geo>
-</location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__41240">Österreich</placeName>
-  <geo>47,33333 13,33333</geo>
-</location>
-  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4066009-6</idno>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
-  <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb50.html</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb50.html</idno>
-  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761333/</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33999/</idno>
-  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
-  <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb50.html</idno>
-  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb50.html</idno>
-  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb50.html</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00347</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00066</idno>
-  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00085</idno>
-<note type="image">
-  <figure>
-    <graphic url="https://iiif.onb.ac.at/images/AKON/AK117_016/016/full/,600/0/native.jpg"/>
-  </figure>
-</note>
-</place></listPlace><listOrg><org xml:id="pmb146179"><orgName>Benjamin Harz Verlag</orgName>
-  <orgName type="alternative-name">Harz, Benjamin (Firma)</orgName>
-  <orgName type="alternative-name">Harts, Binyamin</orgName>
-  <orgName type="alternative-name">Harṣ, Binyamin</orgName>
-  <orgName type="alternative-name">הוצאת בנימן הרץ</orgName>
-  <orgName type="alternative-name">הרץ, בנימן</orgName>
-  <desc type="entity_type">Verlag</desc>
-  <desc type="entity_type_id">975</desc>
-<location type="located_in_place">
-  <placeName ref="pmbplace__168">Berlin</placeName>
-  <geo>52,52437 13,41053</geo>
-  <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno><idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno><idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno><idno type="URL" subtype="kraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb168.html</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno><idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno><idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno><idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb168.html</idno><idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno><idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb168.html</idno><idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb168.html</idno><idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb168.html</idno><idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/DWplace00313</idno><idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/DWplace00093</idno><idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/pmb168</idno><idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/fa_place00001836</idno><idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/fa_place00004523</idno></location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__50">Wien</placeName>
-  <geo>48,208333 16,373056</geo>
-  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno><idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno><idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno><idno type="URL" subtype="kraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb50.html</idno><idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno><idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno><idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb50.html</idno><idno type="URL" subtype="geonames">https://sws.geonames.org/2761333/</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33999/</idno><idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno><idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb50.html</idno><idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb50.html</idno><idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb50.html</idno><idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/DWplace00347</idno><idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/DWplace00066</idno><idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/DWplace00085</idno></location>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/146179/</idno>
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1031575987</idno>
-<note type="apis_dates">
-<date when="1911-01-01" notBefore="1911-01-01">1911</date>
-</note>
-</org><org xml:id="pmb29648"><orgName>Simon &amp; Schuster</orgName>
-  <desc type="entity_type">Verlag</desc>
-  <desc type="entity_type_id">975</desc>
-<location type="located_in_place">
-  <placeName ref="pmbplace__44053">New York City</placeName>
-  <geo>40,71427 -74,00597</geo>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb5199.html</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5199/</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44053/</idno><idno type="URL" subtype="geonames">https://sws.geonames.org/5128581/</idno><idno type="URL" subtype="kraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb44053.html</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/98297/</idno><idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4042011-5</idno><idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q60</idno><idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/New_York_City</idno><idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb44053.html</idno><idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb44053.html</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/261983/</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/262663/</idno><idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb44053.html</idno><idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/DWplace00384</idno><idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/DWplace00056</idno><idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/pmb44053</idno><idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/fa_place00004926</idno><idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/fa_place00001124</idno></location>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29648.html</idno>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29648/</idno>
-  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb29648.html</idno>
-<note type="apis_dates">
-<date when="1924-01-02">1924-01-02</date>
-</note>
-</org><org xml:id="pmb336415"><orgName>Pantheon-Verlag</orgName>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/336415/</idno>
-  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1360401458</idno>
-  <idno type="URL" subtype="sfischer">http://sfischer/foo/bar/org/42</idno>
-</org><org xml:id="pmb336538"><orgName>Rój</orgName>
-  <desc type="entity_type">Verlag</desc>
-  <desc type="entity_type_id">975</desc>
-<location type="located_in_place">
-  <placeName ref="pmbplace__888">Warschau</placeName>
-  <geo>52,22977 21,01178</geo>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q270</idno><idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb888.html</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/888/</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61639/</idno><idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4079048-4</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64383/</idno><idno type="URL" subtype="geonames">https://sws.geonames.org/756135/</idno><idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Warschau</idno><idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb888.html</idno><idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/DWplace00025</idno><idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/fa_place00004426</idno></location>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/336538/</idno>
-</org><org xml:id="pmb37231"><orgName>Melantrich Verlag</orgName>
-  <desc type="entity_type">Verlag</desc>
-  <desc type="entity_type_id">975</desc>
-<location type="located_in_place">
-  <placeName ref="pmbplace__652">Prag</placeName>
-  <geo>50,08333 14,46667</geo>
-  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb652.html</idno><idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4076310-9</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/652/</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/7313/</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/22214/</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/26227/</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43722/</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64237/</idno><idno type="URL" subtype="geonames">https://sws.geonames.org/3067695/</idno><idno type="URL" subtype="kraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb652.html</idno><idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91524/</idno><idno type="URL" subtype="geonames">https://sws.geonames.org/3067696/</idno><idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1085</idno><idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Prag</idno><idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb652.html</idno><idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb652.html</idno><idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb652.html</idno><idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb652.html</idno><idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb652.html</idno><idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/DWplace00194</idno></location>
-<location type="located_in_place">
-  <placeName ref="pmbplace__88250">Husova</placeName>
-  <geo>50,085739102787194 14,418213511568819</geo>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/88250/</idno><idno type="URL" subtype="kraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb88250.html</idno></location>
-  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/37231/</idno>
-  <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb37231.html</idno>
-  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2516736</idno>
-  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Verlag_Melantrich</idno>
-</org></listOrg></back></text>
+         </div>
+      </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb11324">
+               <persName>
+                  <forename>Samuel</forename>
+                  <surname>Fischer</surname>
+               </persName>
+               <persName type="legacy-name-merge">Fischer, Samuel</persName>
+               <birth>
+                  <date when="1859-12-24">1859-12-24</date>
+                  <settlement ref="pmb55962">
+                     <placeName type="pref">Liptovský Mikuláš</placeName>
+                     <location>
+                        <geo>49,08061 19,62218</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1934-10-15">1934-10-15</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb144">Verleger/Verlegerin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118691406</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_15009.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11324.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11324/</idno>
+               <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb11324.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp37584</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q95541</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Samuel_Fischer_(Verleger)</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11324.html</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11324.html</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416739.html?pmb11324</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416740.html?pmb11324</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416741.html?pmb11324</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416742.html?pmb11324</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416743.html?pmb11324</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416744.html?pmb11324</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416747.html?pmb11324</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160037/</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11324.html</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb11324</idno>
+               <idno type="URL" subtype="zweig-digital">https://www.stefanzweig.digital/o:szd.personen/sdef:TEI/get#SZDPER.1814</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/262813/</idno>
+               <idno type="URL" subtype="brenner">https://brenner.oeaw.ac.at/?p=brennerp10459</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11324.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb11324.html</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb11324</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/p_37584</idno>
+               <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/person/single.xhtml?id=10352053</idno>
+               <affiliation when="1886-01-01" notAfter="1886-12-31" notBefore="1886-01-01">
+                  <term ref="pmb1409">besitzt</term>
+                  <orgName ref="pmb29639">S. Fischer Verlag</orgName>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29639.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29639/</idno>
+                  <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb29639.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q481576</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/S._Fischer_Verlag</idno>
+                  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb29639.html</idno>
+                  <idno type="URL" subtype="wiengeschichtewiki">https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=69407</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29639.html</idno>
+                  <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb29639</idno>
+               </affiliation>
+               <affiliation when="1889-04-05">
+                  <term ref="pmb1182">arbeitet für</term>
+                  <orgName ref="pmb29561">Freie Bühne</orgName>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29561/</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1453924</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Freie_B%C3%BChne_Berlin</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29561.html</idno>
+               </affiliation>
+               <listEvent>
+                  <event n="Theaterpremiere" when="1896-02-04" ref="pmb35206">
+                     <desc n="1370">teilgenommen an</desc>
+                     <label>Premiere von Liebelei, Der zerbrochene Krug, 4.2.1896</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35206/</idno>
+                     <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35206.html</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35206.html</idno>
+                  </event>
+                  <event n="Theateruraufführung" when="1898-10-08" ref="pmb35382">
+                     <desc n="1370">teilgenommen an</desc>
+                     <label>Uraufführung von Das Vermächtnis, 8.10.1898</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35382/</idno>
+                     <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35382.html</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35382.html</idno>
+                  </event>
+                  <event n="Theaterpremiere" when="1906-02-24" ref="pmb35179">
+                     <desc n="1370">teilgenommen an</desc>
+                     <label>Premiere von Der Ruf des Lebens, 24.2.1906</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35179/</idno>
+                     <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35179.html</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35179.html</idno>
+                  </event>
+                  <event n="Theateraufführung" when="1906-04-19" ref="pmb147446">
+                     <desc n="1370">teilgenommen an</desc>
+                     <label>Aufführung von Der einsame Weg, 19.4.1906</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/147446/</idno>
+                  </event>
+                  <event n="Theateruraufführung" when="1910-09-12" ref="pmb148404">
+                     <desc n="1370">teilgenommen an</desc>
+                     <label>Uraufführung 8. Sinfonie, 12.9.1910</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148404/</idno>
+                  </event>
+                  <event n="Theateruraufführung" when="1910-11-24" ref="pmb35251">
+                     <desc n="1370">teilgenommen an</desc>
+                     <label>Uraufführung von Der junge Medardus, 24.11.1910</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35251/</idno>
+                     <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35251.html</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35251.html</idno>
+                  </event>
+                  <event n="Liederkonzert" when="1911-02-23" ref="pmb167960">
+                     <desc n="1370">teilgenommen an</desc>
+                     <label>Gesangskonzert von Olga Schnitzler, 23.2.1911</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/167960/</idno>
+                     <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb167960.html</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb167960.html</idno>
+                  </event>
+                  <event n="Theateruraufführung" when="1912-11-28" ref="pmb35355">
+                     <desc n="1370">teilgenommen an</desc>
+                     <label>Uraufführung von Professor Bernhardi, 28.11.1912</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35355/</idno>
+                     <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35355.html</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35355.html</idno>
+                  </event>
+                  <event n="Generalprobe" when="1914-10-23" ref="pmb186295">
+                     <desc n="1370">teilgenommen an</desc>
+                     <label>Generalprobe von Der junge Medardus, 23.10.1914</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/186295/</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb186295.html</idno>
+                  </event>
+                  <event n="Generalprobe" when="1929-12-02" ref="pmb43870">
+                     <desc n="1370">teilgenommen an</desc>
+                     <label>Generalprobe von Spuk, 2.12.1929</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43870/</idno>
+                     <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb43870.html</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb43870.html</idno>
+                  </event>
+               </listEvent>
+               <figure>
+                  <graphic url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Samuel_Fischer_1915_-_Oelgemaelde_von_Max_Liebermann.JPG/250px-Samuel_Fischer_1915_-_Oelgemaelde_von_Max_Liebermann.JPG"/>
+               </figure>
+            </person>
+            <person xml:id="pmb17899">
+               <persName>
+                  <forename>Benjamin</forename>
+                  <surname>Harz</surname>
+               </persName>
+               <sex value="male"/>
+               <occupation ref="pmb144">Verleger/Verlegerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_15957.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb17899.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/17899/</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1416747.html?pmb17899</idno>
+               <affiliation when="1920-01-01" notAfter="1920-12-31" notBefore="1920-01-01">
+                  <term ref="pmb1409">besitzt</term>
+                  <orgName ref="pmb292082">Literarisches Institut »Kosmos«</orgName>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/292082/</idno>
+               </affiliation>
+               <affiliation>
+                  <term ref="pmb1409">besitzt</term>
+                  <orgName ref="pmb146179">Benjamin Harz Verlag</orgName>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/146179/</idno>
+                  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1031575987</idno>
+               </affiliation>
+            </person>
+            <person xml:id="pmb20474">
+               <persName>
+                  <forename>Gustaf</forename>
+                  <surname>Linden</surname>
+               </persName>
+               <birth>
+                  <date when="1875-11-10">1875-11-10</date>
+                  <settlement ref="pmb58096">
+                     <placeName type="pref">Malmö</placeName>
+                     <location>
+                        <geo>55,60587 13,00073</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1936-03-19">1936-03-19</date>
+                  <settlement ref="pmb1119">
+                     <placeName type="pref">Stockholm</placeName>
+                     <location>
+                        <geo>59,325 18,05</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <occupation ref="pmb104">Regisseur/Regisseurin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_17567.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20474/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q5955172</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb20474.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb20474.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb20474.html</idno>
+               <listEvent>
+                  <event n="Theaterpremiere" when="1914-01-22" ref="pmb62683">
+                     <desc n="1256">mitwirkend an</desc>
+                     <label>Premiere von Professor Bernhardi, 22.1.1914</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62683/</idno>
+                  </event>
+                  <event n="Theateraufführung" when="1923-05-22" ref="pmb62229">
+                     <desc n="1370">teilgenommen an</desc>
+                     <label>Aufführung von Liebelei, 22.5.1923</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62229/</idno>
+                     <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb62229.html</idno>
+                  </event>
+               </listEvent>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <surname>Schnitzler</surname>
+                  <forename>Arthur</forename>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15. 5. 1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,208333 16,373056</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21. 10. 1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,208333 16,373056</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="gnd">https://d-nb.info/gnd/118609807/</idno>
+            </person>
+            <person xml:id="pmb23787">
+               <persName>
+                  <forename>Maurice</forename>
+                  <surname>Rémon</surname>
+               </persName>
+               <birth>
+                  <date when="1861-11-27">1861-11-27</date>
+                  <settlement ref="pmb182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1945-06-20">1945-06-20</date>
+                  <settlement ref="pmb49517">
+                     <placeName type="pref">Mérignac</placeName>
+                     <location>
+                        <geo>44,84247 -0,64512</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb116">Übersetzer/Übersetzerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_19182.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/23787/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q18197826</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb23787.html</idno>
+            </person>
+            <person xml:id="pmb25736">
+               <persName>
+                  <surname>Sulzbach Ernst</surname>
+               </persName>
+               <birth>
+                  <date when="1887-04-16">1887-04-16</date>
+                  <settlement ref="pmb146">
+                     <placeName type="pref">Frankfurt am Main</placeName>
+                     <location>
+                        <geo>50,11552 8,68417</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1954-01-21">1954-01-21</date>
+                  <settlement ref="pmb1119">
+                     <placeName type="pref">Stockholm</placeName>
+                     <location>
+                        <geo>59,325 18,05</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="not-set"/>
+               <occupation ref="pmb281">Verlagslektor/Verlagslektorin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_20570.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/25736/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q55847009</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ernst_Sulzbach</idno>
+               <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/person/single.xhtml?id=10772201</idno>
+            </person>
+            <person xml:id="pmb335952">
+               <persName>
+                  <forename>Lawrence</forename>
+                  <surname>Marsden Price</surname>
+               </persName>
+               <birth>
+                  <date when="1881-02-14">1881-02-14</date>
+               </birth>
+               <death>
+                  <date when="1969-07-03">1969-07-03</date>
+               </death>
+               <sex value="male"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/335952/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q59626758</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116289791</idno>
+               <idno type="URL" subtype="sfischer">http://sfischer/foo/bar/129</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Lawrence_Marsden_Price</idno>
+            </person>
+            <person xml:id="pmb336314">
+               <persName>
+                  <forename>Cor van der</forename>
+                  <surname>Lugt Melsert</surname>
+               </persName>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/336314/</idno>
+               <idno type="URL" subtype="sfischer">http://sfischer/foo/bar/93</idno>
+            </person>
+            <person xml:id="pmb336337">
+               <persName>
+                  <forename>Stefano</forename>
+                  <surname>Rökk-Richter</surname>
+               </persName>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb199">Theateragent/Theateragentin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/336337/</idno>
+               <idno type="URL" subtype="sfischer">http://sfischer/foo/bar/146</idno>
+            </person>
+            <person xml:id="pmb4423">
+               <persName>
+                  <forename>Alfred A.</forename>
+                  <surname>Knopf</surname>
+               </persName>
+               <persName type="legacy-name-merge">Knopf, Alfred A.</persName>
+               <birth>
+                  <date when="1892-09-12">1892-09-12</date>
+               </birth>
+               <death>
+                  <date when="1984-01-01" notAfter="1984-12-31">1984</date>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb144">Verleger/Verlegerin</occupation>
+               <occupation ref="pmb313">Verlagsleiter/Verlagsleiterin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/11625999X</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4423/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q61108</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/19472/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_16944.html</idno>
+               <figure>
+                  <graphic url="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Alfred_A._Knopf.jpg/250px-Alfred_A._Knopf.jpg"/>
+               </figure>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb122103">
+               <title type="main">Wiener Sonn- und Montags-Zeitung</title>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/122103/</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb122103.html</idno>
+               <note type="work_kind">Wochenschrift</note>
+            </bibl>
+            <bibl xml:id="pmb29843">
+               <title type="main">Der grüne Kakadu. Groteske in einem Akt</title>
+               <title type="werk_bibliografische-angabe">Neue Deutsche Rundschau, Jg. 10, H. 3, März 1899, S. 282–308.</title>
+               <title type="legacy-name-merge">Der grüne Kakadu</title>
+               <title type="legacy-name-merge">Der grüne Kakadu</title>
+               <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
+               <date>1899-03-01</date>
+               <idno type="URL">https://asaf.com/S.04.01.10</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2675124</idno>
+               <idno type="URL">https://dracor.org/ger/schnitzler-der-gruene-kakadu</idno>
+               <idno type="URL">https://theadok.at/work/32409</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29843.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29843/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/195877/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29843.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_gr%C3%BCne_Kakadu</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb29843.html</idno>
+               <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/223987.html?pmb29843</idno>
+               <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/224047.html?pmb29843</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428187.html?pmb29843</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1429069.html?pmb29843</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/164816/</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb29843</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29843.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb29843.html</idno>
+               <note type="work_kind">Einakter</note>
+            </bibl>
+            <bibl xml:id="pmb29845">
+               <title type="main">Die Gefährtin. Schauspiel in einem Akt</title>
+               <title type="werk_arbeitstitel">Der Wittwer</title>
+               <title type="werk_link">https://library.oapen.org/handle/20.500.12657/76700</title>
+               <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
+               <date when="1899-03-01">1899-03-01</date>
+               <idno type="URL">https://asaf.com/S.04.01.16</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1212860</idno>
+               <idno type="URL">https://theadok.at/work/31482</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29845.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29845/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29845.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Die_Gef%C3%A4hrtin</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb29845.html</idno>
+               <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/223988.html?pmb29845</idno>
+               <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/224048.html?pmb29845</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428189.html?pmb29845</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29845.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb29845.html</idno>
+               <note type="work_kind">Einakter</note>
+            </bibl>
+            <bibl xml:id="pmb29855">
+               <title type="main">Reigen. Zehn Dialoge</title>
+               <title type="werk_link">https://www.digital.wienbibliothek.at/wbrobv/content/pageview/2587756</title>
+               <title type="legacy-name-merge">Reigen</title>
+               <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
+               <date when="1900-04-01" notBefore="1900-04-01">1900-04</date>
+               <idno type="URL">https://asaf.com/S.04.01.32</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1414190</idno>
+               <idno type="URL">https://dracor.org/ger/schnitzler-reigen</idno>
+               <idno type="URL">https://theadok.at/work/33309</idno>
+               <idno type="URL" subtype="exemplar">http://www.deutschestextarchiv.de/book/show/schnitzler_reigen_1903</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29855.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29855/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29855.html</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb29855.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Reigen_(Drama)</idno>
+               <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/223982.html?pmb29855</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/164808/</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb164808</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29855.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb29855.html</idno>
+               <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/work/single.xhtml?id=10566852</idno>
+               <note type="work_kind">Mehraktiges Drama</note>
+               <note type="references">None</note>
+            </bibl>
+            <bibl xml:id="pmb30203">
+               <title type="main">Professor Bernhardi. Komödie in fünf Akten</title>
+               <title type="werk_arbeitstitel">Ärztestück</title>
+               <title type="werk_arbeitstitel">Junggesellenstück</title>
+               <title type="werk_link">https://www.schnitzler-edition.net/emendtext/10083</title>
+               <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
+               <date when="1912-01-01" notBefore="1912-01-01">1912</date>
+               <idno type="URL">https://asaf.com/S.04.01.31</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q872683</idno>
+               <idno type="URL">https://dracor.org/ger/schnitzler-professor-bernhardi</idno>
+               <idno type="URL">https://theadok.at/work/43034</idno>
+               <idno type="URL" subtype="exemplar">http://www.archive.org/details/professorbernhar00schn</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30203.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30203/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30203.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Professor_Bernhardi</idno>
+               <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/223963.html?pmb30203</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428584.html?pmb30203</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428583.html?pmb30203</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428586.html?pmb30203</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb30203.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb30203.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb30203.html</idno>
+               <note type="work_kind">Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb30403">
+               <title type="main">Paracelsus. Versspiel in einem Akt</title>
+               <title type="werk_bibliografische-angabe">Cosmopolis, Jg. 3, Bd. 12, Nr. 35, November 1898</title>
+               <title type="werk_link">https://www.degruyter.com/document/doi/10.1515/9783110712247/html</title>
+               <title type="legacy-name-merge">Paracelsus</title>
+               <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
+               <date when="1898-11-01">1898-11-01</date>
+               <idno type="URL">https://asaf.com/S.04.01.30</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1757723</idno>
+               <idno type="URL">https://theadok.at/work/38089</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30403.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30403/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30403.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Paracelsus_(Schnitzler)</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb30403.html</idno>
+               <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/223989.html?pmb30403</idno>
+               <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/224049.html?pmb30403</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/164807/</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb164807</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb30403.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb30403.html</idno>
+               <note type="work_kind">Einakter</note>
+               <note type="references"> </note>
+            </bibl>
+            <bibl xml:id="pmb30649">
+               <title type="main">Der blinde Geronimo und sein Bruder</title>
+               <title type="werk_bibliografische-angabe">Arthur Schnitzler: Der blinde Hieronymo und sein Bruder. In: Die Zeit, Nr. 325, 22. 12. 1900, S. 190–191; Nr. 326, 29. 12. 1900, S. 207–208; Nr. 327, 5. 1. 1901, S. 15–16; Nr. 328, 12. 1. 1901, S. 31–32</title>
+               <title type="werk_namensvariante">Der blinde Hieronymo und sein Bruder</title>
+               <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
+               <date to="1901-01-12">1900-12-22 – 1901-01-12</date>
+               <idno type="URL">https://asaf.com/S.04.02.10</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1198398</idno>
+               <idno type="URL" subtype="exemplar">http://www.zeno.org/Literatur/M/Schnitzler,+Arthur/Erzählungen/Der+blinde+Geronimo+und+sein+Bruder</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30649.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30649/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30649.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_blinde_Geronimo_und_sein_Bruder</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb30649.html</idno>
+               <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/223912.html?pmb30649</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428624.html?pmb30649</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb30649.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb30649.html</idno>
+               <note type="work_kind">Erzählung</note>
+            </bibl>
+            <bibl xml:id="pmb30817">
+               <title type="main">Therese. Chronik eines Frauenlebens</title>
+               <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
+               <date>1928-03-27</date>
+               <idno type="URL">https://asaf.com/S.04.02.44</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q699088</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30817.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30817/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30817.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Therese._Chronik_eines_Frauenlebens</idno>
+               <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/223886.html?pmb30817</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428641.html?pmb30817</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428642.html?pmb30817</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb30817.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb30817.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb30817.html</idno>
+               <note type="work_kind">Roman</note>
+            </bibl>
+            <bibl xml:id="pmb30819">
+               <title type="main">Die Schwestern oder Casanova in Spa. Lustspiel in Versen</title>
+               <title type="werk_bibliografische-angabe">Deutsche Rundschau, Jg. 46, H. 1, Oktober 1919</title>
+               <title type="werk_arbeitstitel">Eifersucht</title>
+               <title type="werk_arbeitstitel">Die Wiederkehr</title>
+               <title type="werk_arbeitstitel">Spion</title>
+               <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
+               <date when="1919-10-01">1919-10-01</date>
+               <idno type="URL">https://asaf.com/S.04.01.18</idno>
+               <idno type="URL" subtype="exemplar">https://babel.hathitrust.org/cgi/pt?id=uc1.b3914645</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30819.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30819/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30819.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q31836217</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Die_Schwestern_oder_Casanova_in_Spa</idno>
+               <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/223958.html?pmb30819</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428567.html?pmb30819</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428568.html?pmb30819</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428569.html?pmb30819</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb30819.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb30819.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb30819.html</idno>
+               <note type="work_kind">Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb30971">
+               <title type="main">Casanovas Heimfahrt</title>
+               <title type="werk_bibliografische-angabe">Die neue Rundschau, Jg. 29, Heft 7–9, Juli–September 1918</title>
+               <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
+               <date to="1918-09-01">1918-07-01 – 1918-09-01</date>
+               <idno type="URL">https://asaf.com/S.04.02.05</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q946444</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30971.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30971/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30971.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Casanovas_Heimfahrt</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb30971.html</idno>
+               <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/223891.html?pmb30971</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428605.html?pmb30971</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb30971.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb30971.html</idno>
+               <note type="work_kind">Erzählung</note>
+            </bibl>
+            <bibl xml:id="pmb32131">
+               <title type="main">Spiel im Morgengrauen. Novelle</title>
+               <title type="werk_bibliografische-angabe">Berliner Illustrirte Zeitung, 5. 12. 1926 – 9. 1. 1927</title>
+               <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
+               <date to="1927-01-09">1926-12-05 – 1927-01-09</date>
+               <idno type="URL">https://asaf.com/S.04.02.42</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1761527</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32131.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32131/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32131.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Spiel_im_Morgengrauen</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb32131.html</idno>
+               <idno type="URL" subtype="schnitzler-zeitungen">https://schnitzler-zeitungen.acdh.oeaw.ac.at/223887.html?pmb32131</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428142.html?pmb32131</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428675.html?pmb32131</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428676.html?pmb32131</idno>
+               <idno type="URL" subtype="schnitzler-mikrofilme">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428677.html?pmb32131</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb32131.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb32131.html</idno>
+               <note type="work_kind">Novelle</note>
+            </bibl>
+            <bibl xml:id="pmb335738">
+               <title type="main">Gra o brzasku</title>
+               <author role="hat-geschaffen" ref="pmb2121">Schnitzler, Arthur</author>
+               <date when="1928-01-01" notBefore="1928-01-01">1928</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/335738/</idno>
+               <note type="work_kind">Novelle</note>
+            </bibl>
+            <bibl xml:id="pmb336248">
+               <title type="main">The Observer</title>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/336248/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4185016-6</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q336197</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/The_Observer</idno>
+               <note type="work_kind">Wochenschrift</note>
+            </bibl>
+            <bibl xml:id="pmb36374">
+               <title type="main">Neue Freie Presse</title>
+               <title type="werk_link">http://anno.onb.ac.at/cgi-content/anno?aid=nfp</title>
+               <title type="legacy-name-merge">Neue freie Presse (Zeitung, Wien)</title>
+               <author role="hat-herausgegeben" ref="pmb10809">Bacher, Eduard</author>
+               <author role="hat-herausgegeben" ref="pmb10875">Benedikt, Moriz</author>
+               <author role="hat-herausgegeben" ref="pmb10872">Benedikt, Ernst</author>
+               <date from="1864-01-01" to="1939-01-01">1864 – 1939</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36374/</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb36374.html</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/7640546-1</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_work_id_82.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb36374.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/201326/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb36374.html</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb36374/published-expression</idno>
+               <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb36374.html</idno>
+               <note type="work_kind">Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb52605">
+               <title type="main">Vossische Zeitung</title>
+               <title type="werk_link">https://zefys.staatsbibliothek-berlin.de/list/title/zdb/27112366/</title>
+               <title type="namensvariante">Königlich privilegirte Berlinische Zeitung von Staats- und gelehrten Sachen</title>
+               <title type="werk_link">https://zefys.staatsbibliothek-berlin.de/list/title/zdb/24353991/</title>
+               <date from="1617-01-01" to="1934-01-01">1617 – 1934</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/52605/</idno>
+               <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb52605.html</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb52605.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb52605.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb52605.html</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb52605/published-expression</idno>
+               <note type="work_kind">Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb65406">
+               <title type="main">8 Uhr-Abendblatt</title>
+               <date from="1910-01-01" to="1938-01-01">1910 – 1938</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65406/</idno>
+               <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb65406.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q107600657</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/8_Uhr-Abendblatt</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb65406/published-expression</idno>
+               <note type="work_kind">Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb166">
+               <placeName>Frankreich</placeName>
+               <placeName type="alternative-name">France</placeName>
+               <placeName type="alternative-name">Frankreich</placeName>
+               <placeName type="legacy-name-merge">Frankreich</placeName>
+               <placeName type="legacy-name-merge">France</placeName>
+               <desc type="entity_type">A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>46,0 2,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__468">Europa</placeName>
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q142</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb166.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3017382/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/166/</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Frankreich</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb166.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb166.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb166.html</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00004602</idno>
+            </place>
+            <place xml:id="pmb168">
+               <placeName>Berlin</placeName>
+               <placeName type="alternative-name">Hauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Barlīn</placeName>
+               <placeName type="alternative-name">Reichshauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Berolino</placeName>
+               <placeName type="legacy-name-merge">B-n</placeName>
+               <desc type="entity_type">P.PPLC</desc>
+               <desc type="entity_type_id">1418</desc>
+               <location type="coords">
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4005728-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+               <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb168.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb168.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00313</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00093</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb168</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00001836</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00004523</idno>
+               <note type="image">
+                  <figure>
+                     <graphic url="https://iiif.onb.ac.at/images/AKON/AK113_515/515/full/,600/0/native.jpg"/>
+                  </figure>
+               </note>
+            </place>
+            <place xml:id="pmb254">
+               <placeName>England</placeName>
+               <placeName type="legacy-name-merge">England</placeName>
+               <desc type="entity_type">A.ADM1</desc>
+               <desc type="entity_type_id">1137</desc>
+               <location type="coords">
+                  <geo>52,483333 -1,566667</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__34523">Vereinigtes Königreich</placeName>
+                  <geo>54,75844 -2,69531</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__468">Europa</placeName>
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb254.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/254/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/90593/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/6269131/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q21</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/England</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb254.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90593.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb254.html</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00169</idno>
+            </place>
+            <place xml:id="pmb313">
+               <placeName>Polen</placeName>
+               <placeName type="alternative-name">Polen</placeName>
+               <placeName type="alternative-name">Republic of Poland</placeName>
+               <placeName type="legacy-name-merge">Poland</placeName>
+               <desc type="entity_type">A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>52,0 20,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__468">Europa</placeName>
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://www.geonames.org/798544</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q36</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb313.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/798544/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/313/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33948/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43316/</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Polen</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb313.html</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb313.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb313.html</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00004027</idno>
+            </place>
+            <place xml:id="pmb35512">
+               <placeName>Ungarn</placeName>
+               <placeName type="alternative-name">Ungarn</placeName>
+               <placeName type="alternative-name">Republic of Hungary</placeName>
+               <placeName type="legacy-name-merge">Ungarn</placeName>
+               <placeName type="legacy-name-merge">Hungary</placeName>
+               <desc type="entity_type">A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>47,0 20,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__468">Europa</placeName>
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__687">Österreich-Ungarn</placeName>
+                  <geo>48,4054 16,4887</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q28</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb167.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/719819/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35512/</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ungarn</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb35512.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb35512.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35512.html</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00004289</idno>
+               <note type="image">
+                  <figure>
+                     <graphic url="https://iiif.onb.ac.at/images/AKON/AK027_002/002/full/,600/0/native.jpg"/>
+                  </figure>
+               </note>
+            </place>
+            <place xml:id="pmb38195">
+               <placeName>Berkeley</placeName>
+               <placeName type="alternative-name">Berkeley</placeName>
+               <placeName type="legacy-name">Berkeley, Kalif.</placeName>
+               <desc type="entity_type">P.PPL</desc>
+               <desc type="entity_type_id">1412</desc>
+               <location type="coords">
+                  <geo>37,87159 -122,27275</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__38180">Alameda</placeName>
+                  <geo>37,65055 -121,91789</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__43406">Vereinigte Staaten von Amerika [USA]</placeName>
+                  <geo>39,76 -98,5</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/5327684/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/38195/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q484678</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berkeley</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00000949</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00003444</idno>
+            </place>
+            <place xml:id="pmb43406">
+               <placeName>Vereinigte Staaten von Amerika [USA]</placeName>
+               <placeName type="alternative-name">Vereinigte Staaten</placeName>
+               <placeName type="legacy-name-merge">Vereinigte Staaten von Amerika</placeName>
+               <placeName type="legacy-name-merge">USA</placeName>
+               <placeName type="alternative-name">America</placeName>
+               <desc type="entity_type">A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>39,76 -98,5</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__91362">Nordamerika</placeName>
+                  <geo>54,77535 -105,64453</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__175">Amerika</placeName>
+                  <geo>32,530833 -117,02</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q30</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb490.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/6252001/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/490/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/42779/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43406/</idno>
+               <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb43406.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Vereinigte_Staaten</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb43406.html</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb43406.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb43406.html</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00005277</idno>
+            </place>
+            <place xml:id="pmb43430">
+               <placeName>Tschechische Republik</placeName>
+               <placeName type="ort_namensvariante">Tschechien</placeName>
+               <placeName type="ort_namensvariante">Bohemia</placeName>
+               <desc type="entity_type">A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>49,75 15,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__468">Europa</placeName>
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__38444">Tschechoslowakei</placeName>
+                  <geo>50,08292 14,46672</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__298373">Cisleithanien</placeName>
+                  <geo>48,5 16,383333333333333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__687">Österreich-Ungarn</placeName>
+                  <geo>48,4054 16,4887</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3077311/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33977/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43430/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb43430.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q213</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Tschechien</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb43430.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb43430.html</idno>
+            </place>
+            <place xml:id="pmb44016">
+               <placeName>Niederlande</placeName>
+               <placeName type="ort_namensvariante">Holland</placeName>
+               <placeName type="ort_namensvariante">Netherlands</placeName>
+               <desc type="entity_type">A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>52,25 5,75</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__468">Europa</placeName>
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q55</idno>
+               <idno type="URL" subtype="geonames">https://www.geonames.org/2750405</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb188.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44016/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2750405/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/188/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35629/</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Niederlande</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/120562/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4042203-3</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb44016.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb44016.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb44016.html</idno>
+            </place>
+            <place xml:id="pmb44335">
+               <placeName>Schweden</placeName>
+               <placeName type="alternative-name">Schweden</placeName>
+               <placeName type="legacy-name-merge">Schweden</placeName>
+               <placeName type="alternative-name">Kingdom of Sweden</placeName>
+               <desc type="entity_type">A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>62,0 15,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__745">Skandinavien</placeName>
+                  <geo>63,0 25,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__468">Europa</placeName>
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q34</idno>
+               <idno type="URL" subtype="geonames">https://www.geonames.org/2661886</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb244.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/244/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/40699/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44335/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2661886/</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Schweden</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb44335.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb44335.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb44335.html</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00003508</idno>
+            </place>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer-name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="legacy-name-merge">Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer-name">Vindobona</placeName>
+               <placeName type="legacy-name-merge">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="legacy-name-merge">Vienna</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <desc type="entity_type">A.ADM2</desc>
+               <desc type="entity_type_id">1135</desc>
+               <location type="coords">
+                  <geo>48,208333 16,373056</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761333/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33999/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb50.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00347</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00066</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00085</idno>
+               <note type="image">
+                  <figure>
+                     <graphic url="https://iiif.onb.ac.at/images/AKON/AK117_016/016/full/,600/0/native.jpg"/>
+                  </figure>
+               </note>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb146179">
+               <orgName>Benjamin Harz Verlag</orgName>
+               <orgName type="alternative-name">Harz, Benjamin (Firma)</orgName>
+               <orgName type="alternative-name">Harts, Binyamin</orgName>
+               <orgName type="alternative-name">Harṣ, Binyamin</orgName>
+               <orgName type="alternative-name">הוצאת בנימן הרץ</orgName>
+               <orgName type="alternative-name">הרץ, בנימן</orgName>
+               <desc type="entity_type">Verlag</desc>
+               <desc type="entity_type_id">975</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__168">Berlin</placeName>
+                  <geo>52,52437 13,41053</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+                  <idno type="URL" subtype="kraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb168.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+                  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb168.html</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/DWplace00313</idno>
+                  <idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/DWplace00093</idno>
+                  <idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/pmb168</idno>
+                  <idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/fa_place00001836</idno>
+                  <idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/fa_place00004523</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__50">Wien</placeName>
+                  <geo>48,208333 16,373056</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+                  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761333/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33999/</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb50.html</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/DWplace00347</idno>
+                  <idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/DWplace00066</idno>
+                  <idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/DWplace00085</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/146179/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1031575987</idno>
+               <note type="apis_dates">
+                  <date when="1911-01-01" notBefore="1911-01-01">1911</date>
+               </note>
+            </org>
+            <org xml:id="pmb29648">
+               <orgName>Simon &amp; Schuster</orgName>
+               <desc type="entity_type">Verlag</desc>
+               <desc type="entity_type_id">975</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__44053">New York City</placeName>
+                  <geo>40,71427 -74,00597</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb5199.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5199/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44053/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/5128581/</idno>
+                  <idno type="URL" subtype="kraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb44053.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/98297/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4042011-5</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q60</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/New_York_City</idno>
+                  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb44053.html</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb44053.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/261983/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/262663/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb44053.html</idno>
+                  <idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/DWplace00384</idno>
+                  <idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/DWplace00056</idno>
+                  <idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/pmb44053</idno>
+                  <idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/fa_place00004926</idno>
+                  <idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/fa_place00001124</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29648.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29648/</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb29648.html</idno>
+               <note type="apis_dates">
+                  <date when="1924-01-02">1924-01-02</date>
+               </note>
+            </org>
+            <org xml:id="pmb336415">
+               <orgName>Pantheon-Verlag</orgName>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/336415/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1360401458</idno>
+               <idno type="URL" subtype="sfischer">http://sfischer/foo/bar/org/42</idno>
+            </org>
+            <org xml:id="pmb336538">
+               <orgName>Rój</orgName>
+               <desc type="entity_type">Verlag</desc>
+               <desc type="entity_type_id">975</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__888">Warschau</placeName>
+                  <geo>52,22977 21,01178</geo>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q270</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb888.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/888/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61639/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4079048-4</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64383/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/756135/</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Warschau</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb888.html</idno>
+                  <idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/DWplace00025</idno>
+                  <idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/fa_place00004426</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/336538/</idno>
+            </org>
+            <org xml:id="pmb37231">
+               <orgName>Melantrich Verlag</orgName>
+               <desc type="entity_type">Verlag</desc>
+               <desc type="entity_type_id">975</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__652">Prag</placeName>
+                  <geo>50,08333 14,46667</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb652.html</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4076310-9</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/652/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/7313/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/22214/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/26227/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43722/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64237/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/3067695/</idno>
+                  <idno type="URL" subtype="kraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb652.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91524/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/3067696/</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1085</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Prag</idno>
+                  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb652.html</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb652.html</idno>
+                  <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb652.html</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb652.html</idno>
+                  <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb652.html</idno>
+                  <idno type="URL" subtype="sk">https://sk.acdh.oeaw.ac.at/DWplace00194</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmbplace__88250">Husova</placeName>
+                  <geo>50,085739102787194 14,418213511568819</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/88250/</idno>
+                  <idno type="URL" subtype="kraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb88250.html</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/37231/</idno>
+               <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb37231.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2516736</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Verlag_Melantrich</idno>
+            </org>
+         </listOrg>
+      </back>
+   </text>
 </TEI>
