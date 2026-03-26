@@ -27,10 +27,10 @@ jobs:
 
 
       - name: Run mentions-in-back.py (extract PMB IDs from back elements)
-        run: python ./python/mentions-in-back.py
+        run: python ./pyscripts/mentions-in-back.py
 
       - name: Run create-lists.py
-        run: python ./python/create-lists.py
+        run: python ./pyscripts/create-lists.py
 
       - name: Commit and push indices
         run: |
