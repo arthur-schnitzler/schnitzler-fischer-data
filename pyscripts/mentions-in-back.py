@@ -32,7 +32,7 @@ mentioned_person_keys = set()
 work_ids = set()
 
 # Verarbeitung aller L*.xml Dateien in ./editions/
-xml_files = glob.glob("./editions/L*.xml")
+xml_files = glob.glob("./editions/sf_*.xml")
 
 for tag_name, output_filename in targets:
     keys = set()
