@@ -1,7 +1,12 @@
 from lxml import etree as ET
 import requests
 import os
+import sys
 import time
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+from download_pmb_lists import ensure_pmb_lists, PMB_DIR
 
 # TEI Namespace
 NS = {'tei': 'http://www.tei-c.org/ns/1.0'}
@@ -13,6 +18,9 @@ os.makedirs(output_dir, exist_ok=True)
 # Temporäres Verzeichnis für XSLT-Verarbeitung
 temp_dir = "./temp-indices"
 os.makedirs(temp_dir, exist_ok=True)
+
+# PMB-Listen sicherstellen (lädt nur, wenn noch nicht lokal vorhanden)
+ensure_pmb_lists()
 
 # Hilfsfunktion: schön formatieren
 def pretty_xml(elem):
@@ -107,7 +115,7 @@ def create_tei_with_template(list_element, list_type):
     resp_stmt = ET.SubElement(title_stmt, "{http://www.tei-c.org/ns/1.0}respStmt")
     resp = ET.SubElement(resp_stmt, "{http://www.tei-c.org/ns/1.0}resp")
     resp.text = "providing the content"
-    for name in ["Martin Anton Müller", "Gerd-Hermann Susen", "Laura Untner", "Selma Jahnke", "PMB (Personen der Moderne Basis)"]:
+    for name in ["Achim Aurnhammer", "Dieter Martin", "Susanne Neubrand", "PMB (Personen der Moderne Basis)"]:
         name_elem = ET.SubElement(resp_stmt, "{http://www.tei-c.org/ns/1.0}name")
         name_elem.text = name
     
@@ -120,9 +128,9 @@ def create_tei_with_template(list_element, list_type):
     # publicationStmt
     pub_stmt = ET.SubElement(file_desc, "{http://www.tei-c.org/ns/1.0}publicationStmt")
     publisher = ET.SubElement(pub_stmt, "{http://www.tei-c.org/ns/1.0}publisher")
-    publisher.text = "Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)"
+    publisher.text = "Arthur Schnitzler-Archiv"
     pub_place = ET.SubElement(pub_stmt, "{http://www.tei-c.org/ns/1.0}pubPlace")
-    pub_place.text = "Vienna, Austria"
+    pub_place.text = "Freiburg im Breisgau, Germany"
     date = ET.SubElement(pub_stmt, "{http://www.tei-c.org/ns/1.0}date")
     date.text = "2025"
     
@@ -179,7 +187,6 @@ def create_simple_tei(list_element, list_type):
 # Konfiguration für jede Entität
 entities = [
     {
-        "url": "https://pmb.acdh.oeaw.ac.at/media/listperson.xml",
         "local_list": "./temp-indices/mentioned-persons.xml",
         "list_tag": "listPerson",
         "item_tag": "person",
@@ -187,7 +194,6 @@ entities = [
         "output": "listperson.xml"
     },
     {
-        "url": "https://pmb.acdh.oeaw.ac.at/media/listplace.xml",
         "local_list": "./temp-indices/mentioned-places.xml",
         "list_tag": "listPlace",
         "item_tag": "place",
@@ -195,7 +201,6 @@ entities = [
         "output": "listplace.xml"
     },
     {
-        "url": "https://pmb.acdh.oeaw.ac.at/media/listorg.xml",
         "local_list": "./temp-indices/mentioned-orgs.xml",
         "list_tag": "listOrg",
         "item_tag": "org",
@@ -203,7 +208,6 @@ entities = [
         "output": "listorg.xml"
     },
     {
-        "url": "https://pmb.acdh.oeaw.ac.at/media/listbibl.xml",
         "local_list": "./temp-indices/mentioned-bibl.xml",
         "list_tag": "listBibl",
         "item_tag": "bibl",
@@ -211,7 +215,6 @@ entities = [
         "output": "listbibl.xml"
     },
     {
-        "url": "https://pmb.acdh.oeaw.ac.at/media/listevent.xml",
         "local_list": "./temp-indices/mentioned-event.xml",
         "list_tag": "listEvent",
         "item_tag": "event",
@@ -224,13 +227,8 @@ entities = [
 for ent in entities:
     print(f"\n🔄 Verarbeite: {ent['output']}")
 
-    # 1. XML-Datei aus dem Netz laden mit optimierten Headern
-    headers = {
-        "Content-type": "application/xml; charset=utf-8",
-        "Accept-Charset": "utf-8",
-    }
-    r = requests.get(ent["url"], headers=headers)
-    source_tree = ET.ElementTree(ET.fromstring(r.content.decode("utf-8")))
+    # 1. XML-Datei aus lokalem PMB-Verzeichnis laden
+    source_tree = ET.parse(PMB_DIR / ent["output"])
     source_root = source_tree.getroot()
 
     # 2. Erwähnte IDs laden

@@ -2,12 +2,20 @@ from lxml import etree as ET
 import requests
 import glob
 import os
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+from download_pmb_lists import ensure_pmb_lists, PMB_DIR
 
 # Namespace definieren
 NS = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
 # Temp-Verzeichnis erstellen
 os.makedirs("./temp-indices", exist_ok=True)
+
+# PMB-Listen sicherstellen (lädt nur, wenn noch nicht lokal vorhanden)
+ensure_pmb_lists()
 
 # Zu verarbeitende Elemente und Zieldateien
 targets = [
@@ -115,13 +123,7 @@ for tag_name, output_filename in targets:
 
 # ===== Autoren der Werke aus listbibl.xml nachschlagen =====
 try:
-    url = "https://pmb.acdh.oeaw.ac.at/media/listbibl.xml"
-    headers = {
-        "Content-type": "application/xml; charset=utf-8",
-        "Accept-Charset": "utf-8",
-    }
-    r = requests.get(url, headers=headers)
-    listbibl_root = ET.fromstring(r.content.decode("utf-8"))
+    listbibl_root = ET.parse(PMB_DIR / "listbibl.xml").getroot()
 
     work_keys_in_listbibl = {f"work__{wid}" for wid in work_ids}
 

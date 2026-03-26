@@ -24,6 +24,9 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
+      - name: PMB-Listen herunterladen
+        run: uv run pyscripts/download_pmb_lists.py
+
       - name: Back-Elemente berechnen
         run: |
           if [ -n "${{ github.event.inputs.datei }}" ]; then
