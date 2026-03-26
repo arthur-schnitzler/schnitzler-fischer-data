@@ -49,6 +49,10 @@ def fetch_entity_from_api(entity_id, entity_type):
         }
         r = requests.get(api_urls[entity_type], headers=headers)
 
+        if r.status_code != 200:
+            print(f"❌ HTTP {r.status_code} beim Laden von {entity_type} {entity_id}")
+            return None
+
         # XML parsen und Element extrahieren
         api_root = ET.fromstring(r.content.decode("utf-8"))
 
