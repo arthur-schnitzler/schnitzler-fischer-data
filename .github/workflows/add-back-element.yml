@@ -1,0 +1,51 @@
+name: Back-Elemente neu berechnen
+
+on:
+  workflow_dispatch:
+    inputs:
+      datei:
+        description: 'Einzelne Datei (z.B. sf_10758.xml) oder leer für alle'
+        required: false
+        default: ''
+
+jobs:
+  add_back_elements:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Back-Elemente berechnen
+        run: |
+          if [ -n "${{ github.event.inputs.datei }}" ]; then
+            file="data/editions/${{ github.event.inputs.datei }}"
+            echo "Verarbeite einzelne Datei: $file"
+            uv run pyscripts/add-back-element-from-pmb.py "$file" "$file"
+          else
+            for file in data/editions/sf_*.xml; do
+              echo "Verarbeite: $file"
+              uv run pyscripts/add-back-element-from-pmb.py "$file" "$file"
+            done
+          fi
+
+      - name: Änderungen committen und pushen
+        run: |
+          git_status=$(git status --porcelain data/editions/sf_*.xml)
+          if [ -n "$git_status" ]; then
+            git config --global user.name 'github-actions[bot]'
+            git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+            git add data/editions/sf_*.xml
+            git commit -m "Automatisch generierte back-Elemente aktualisiert"
+            git push
+          else
+            echo "Keine Änderungen."
+          fi

@@ -9,6 +9,8 @@ Python implementation of the four XSLT files in xslts/brief_back-element/:
 
 import sys
 import re
+import shutil
+import tempfile
 from lxml import etree as ET
 from pathlib import Path
 from typing import Set, Dict, Optional
@@ -60,10 +62,22 @@ class PMBProcessor:
         ],
     }
 
-    def __init__(self, pmb_lists_dir: str = "data/indices-pmb"):
+    PMB_FULL_LIST_URLS = {
+        "listperson.xml": "https://pmb.acdh.oeaw.ac.at/media/listperson.xml",
+        "listplace.xml":  "https://pmb.acdh.oeaw.ac.at/media/listplace.xml",
+        "listorg.xml":    "https://pmb.acdh.oeaw.ac.at/media/listorg.xml",
+        "listbibl.xml":   "https://pmb.acdh.oeaw.ac.at/media/listbibl.xml",
+        "listevent.xml":  "https://pmb.acdh.oeaw.ac.at/media/listevent.xml",
+    }
+
+    def __init__(self, pmb_lists_dir: str = "data/indices-pmb", use_full_lists: bool = False):
         print(f"🔧 Initializing PMBProcessor...")
         sys.stdout.flush()
-        
+
+        self._temp_dir = None
+        if use_full_lists:
+            pmb_lists_dir = self._download_full_pmb_lists()
+
         self.pmb_lists_dir = Path(pmb_lists_dir)
         self.tei_ns = "http://www.tei-c.org/ns/1.0"
         self.xml_ns = "http://www.w3.org/XML/1998/namespace"
@@ -245,6 +259,39 @@ class PMBProcessor:
         
         return new_elem
 
+
+    def _download_full_pmb_lists(self) -> str:
+        """Lädt die PMB-Gesamtlisten temporär herunter und gibt den Pfad zurück."""
+        self._temp_dir = tempfile.mkdtemp(prefix="pmb-lists-")
+        print(f"📥 Downloading full PMB lists to {self._temp_dir}...")
+        sys.stdout.flush()
+        headers = {
+            "Content-type": "application/xml; charset=utf-8",
+            "Accept-Charset": "utf-8",
+        }
+        for filename, url in self.PMB_FULL_LIST_URLS.items():
+            print(f"🌐 Downloading {filename} from {url}...")
+            sys.stdout.flush()
+            try:
+                r = requests.get(url, headers=headers)
+                if r.status_code != 200:
+                    print(f"❌ HTTP {r.status_code} for {url}")
+                    continue
+                out_path = Path(self._temp_dir) / filename
+                out_path.write_bytes(r.content)
+                print(f"✅ Saved {filename}")
+            except Exception as e:
+                print(f"❌ Error downloading {filename}: {e}")
+            sys.stdout.flush()
+        return self._temp_dir
+
+    def cleanup(self) -> None:
+        """Löscht das temporäre Verzeichnis mit den heruntergeladenen PMB-Listen."""
+        if self._temp_dir and Path(self._temp_dir).exists():
+            shutil.rmtree(self._temp_dir)
+            print(f"🧹 Removed temporary PMB lists dir: {self._temp_dir}")
+            sys.stdout.flush()
+            self._temp_dir = None
 
     def _is_in_back_section(self, elem: ET.Element, root: ET.Element) -> bool:
         """Check if element is in the back section by checking path"""
@@ -1107,7 +1154,8 @@ def main():
     sys.stdout.flush()
     
     result = processor.process_file(input_file, output_file)
-    
+    processor.cleanup()
+
     print(f"✅ Script completed: {result}")
     sys.stdout.flush()
     
