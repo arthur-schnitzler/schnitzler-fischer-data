@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10008">
    <teiHeader>
       <fileDesc>
@@ -59,17 +59,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-               <bibl ref="#pmb29823" source="https://pmb.acdh.oeaw.ac.at/entity/29823/">
-                  <title>Das Märchen</title>
-               </bibl>
-               <bibl type="journal"
-                     ref="#pmb36166"
-                     source="https://pmb.acdh.oeaw.ac.at/entity/36166/">
-                  <title>Freie Bühne</title>
-               </bibl>
-            </listBibl>
-         </sourceDesc>
+            </sourceDesc>
          <notesStmt>
             <note type="description">1 Blätter, 4 Seiten</note>
             <note type="published_in">Bölsche, 693</note>
@@ -92,13 +82,12 @@
                <placeName ref="#pmb168">Berlin</placeName>
             </correspAction>
             <note>
-               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson"
-                    target="pmb11061">Bölsche, Wilhelm</ref>
-               <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg"
-                    target="pmb35053">Lessing-Theater Berlin</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11061">Bölsche, Wilhelm</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb35053">Lessing-Theater Berlin</ref>
                <ref type="https://lod.academy/cmif/vocab/terms#hasLanguage" target="de">German</ref>
-               <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile"
-                    target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10008.xml"/>
+               <ref type="https://lod.academy/cmif/vocab/terms#isAvailableAsTEIfile" target="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-fischer-data/refs/heads/main/data/editions/sf_10008.xml"/>
+            <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29823">Das Märchen</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb36166">Freie Bühne</ref>
             </note>
             <correspContext>
                <ref subtype="previous_letter" type="withinCollection" target="sf_10007">Fischer an Schnitzler, 1892-02-12</ref>
