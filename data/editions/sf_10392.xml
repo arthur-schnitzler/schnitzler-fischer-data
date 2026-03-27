@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10392">
    <teiHeader>
       <fileDesc>
@@ -75,22 +75,7 @@
                   </monogr>
                </biblStruct>
             </listBibl>
-            <listBibl>
-               <bibl ref="#pmb30213" source="https://pmb.acdh.oeaw.ac.at/entity/30213/">
-                  <title>Die Hirtenflöte</title>
-               </bibl>
-               <bibl type="journal"
-                     ref="6209-9"
-                     source="https://ld.zdb-services.de/resource/6209-9">
-                  <title>Das XXV. Jahr (Fischer-Verlag)</title>
-               </bibl>
-               <bibl type="journal"
-                     ref="#pmb36156"
-                     source="https://pmb.acdh.oeaw.ac.at/entity/36156/">
-                  <title>Die neue Rundschau</title>
-               </bibl>
-            </listBibl>
-         </sourceDesc>
+            </sourceDesc>
          <notesStmt>
             <note type="description">1 Blatt, 2 Seite beschrieben
 
@@ -117,6 +102,25 @@ Typoskript (1911-08-09) SF (Berlin) an AS (Wien) mit hs. Zusatz von SF (1911-08-
                <ref subtype="previous_letter" type="withinCollection" target="sf_10391">Schnitzler an Fischer, 1911-07-05</ref>
                <ref subtype="next_letter" type="withinCollection" target="sf_10393">Fischer an Schnitzler, 1911-08-22</ref>
             </correspContext>
+         <note>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb16269">Fischer, Gerhart</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11679">Hesse, Hermann</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11740">Hofmannsthal, Hugo von</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb3797">Keyserling, Eduard von</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11941">Klimt, Gustav</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12176">Mann, Thomas</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12504">Reinhardt, Max</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb2167">Salten, Felix</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb12864">Strauß, Emil</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb13014">Vollmoeller, Karl</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb521">Bad Gastein</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb168">Berlin</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb335764">Hotel Elisabethhof Bad Gastein</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb45258">München</ref>
+            <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30213">Die Hirtenflöte</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="6209-9">Das XXV. Jahr (Fischer-Verlag)</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb36156">Die neue Rundschau</ref>
+            </note>
          </correspDesc>
          <textClass>
             <keywords>
@@ -125,53 +129,7 @@ Typoskript (1911-08-09) SF (Berlin) an AS (Wien) mit hs. Zusatz von SF (1911-08-
                <term>Novelle</term>
             </keywords>
          </textClass>
-         <listPerson>
-            <person ref="#pmb16269" source="https://pmb.acdh.oeaw.ac.at/entity/16269/">
-               <persName>Fischer, Gerhart</persName>
-            </person>
-            <person ref="#pmb11679" source="https://pmb.acdh.oeaw.ac.at/entity/11679/">
-               <persName>Hesse, Hermann</persName>
-            </person>
-            <person ref="#pmb11740" source="https://pmb.acdh.oeaw.ac.at/entity/11740/">
-               <persName>Hofmannsthal, Hugo von</persName>
-            </person>
-            <person ref="#pmb3797" source="https://pmb.acdh.oeaw.ac.at/entity/3797/">
-               <persName>Keyserling, Eduard von</persName>
-            </person>
-            <person ref="#pmb11941" source="https://pmb.acdh.oeaw.ac.at/entity/11941/">
-               <persName>Klimt, Gustav</persName>
-            </person>
-            <person ref="#pmb12176" source="https://pmb.acdh.oeaw.ac.at/entity/12176/">
-               <persName>Mann, Thomas</persName>
-            </person>
-            <person ref="#pmb12504" source="https://pmb.acdh.oeaw.ac.at/entity/12504/">
-               <persName>Reinhardt, Max</persName>
-            </person>
-            <person ref="#pmb2167" source="https://pmb.acdh.oeaw.ac.at/entity/2167/">
-               <persName>Salten, Felix</persName>
-            </person>
-            <person ref="#pmb12864" source="https://pmb.acdh.oeaw.ac.at/entity/12864/">
-               <persName>Strauß, Emil</persName>
-            </person>
-            <person ref="#pmb13014" source="https://pmb.acdh.oeaw.ac.at/entity/13014/">
-               <persName>Vollmoeller, Karl</persName>
-            </person>
-         </listPerson>
-         <listPlace>
-            <place ref="#pmb521" source="https://pmb.acdh.oeaw.ac.at/entity/521/">
-               <placeName>Bad Gastein</placeName>
-            </place>
-            <place ref="#pmb168" source="https://pmb.acdh.oeaw.ac.at/entity/168/">
-               <placeName ref="#pmb168">Berlin</placeName>
-            </place>
-            <place ref="#pmb335764">
-               <placeName>Hotel Elisabethhof Bad Gastein</placeName>
-            </place>
-            <place ref="#pmb45258" source="https://pmb.acdh.oeaw.ac.at/entity/45258/">
-               <placeName>München</placeName>
-            </place>
-         </listPlace>
-      </profileDesc>
+         </profileDesc>
       <langUsage>
          <language ident="de-AT">German</language>
       </langUsage>

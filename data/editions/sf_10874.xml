@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10874">
    <teiHeader>
       <fileDesc>
@@ -50,21 +50,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-               <bibl ref="#pmb29935" source="https://pmb.acdh.oeaw.ac.at/entity/29935/">
-                  <title>Anatol</title>
-               </bibl>
-               <bibl ref="#pmb30207" source="https://pmb.acdh.oeaw.ac.at/entity/30207/">
-                  <title>Das weite Land</title>
-               </bibl>
-               <bibl ref="#pmb30215" source="https://pmb.acdh.oeaw.ac.at/entity/30215/">
-                  <title>Der Schleier der Pierrette</title>
-               </bibl>
-               <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
-                  <title>Reigen</title>
-               </bibl>
-            </listBibl>
-         </sourceDesc>
+            </sourceDesc>
          <notesStmt>
             <note type="description">2 Blatt, 3 Seiten
 Antwort auf: <ref target="10873">1921-12-28 SF (Berlin) an AS (Wien)</ref>
@@ -89,12 +75,20 @@ Beantwortet in: <ref target="10878">1922-01-16 SF (Berlin) an AS (Wien)</ref>
                <placeName ref="#pmb168">Berlin</placeName>
             </correspAction>
             <note>
-               <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg"
-                    target="pmb146179">Benjamin Harz Verlag (Berlin, Wien)</ref>
-               <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg"
-                    target="pmb118088">Karczag-Verlag (Wien)</ref>
-               <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg"
-                    target="pmb336417">Società italiana degli autori es editori (Rom)</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb146179">Benjamin Harz Verlag (Berlin, Wien)</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb118088">Karczag-Verlag (Wien)</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb336417">Società italiana degli autori es editori (Rom)</ref>
+            <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb11515">Greiner, Leo</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb17899">Harz, Benjamin</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="116324333">Raggio, Enrico</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPerson" target="pmb92768">Woticky, Edward</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb40306">Italien</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb335761">Sopot</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb43406">USA</ref>
+            <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29935">Anatol</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30207">Das weite Land</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30215">Der Schleier der Pierrette</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
             </note>
             <correspContext>
                <ref subtype="previous_letter" type="withinCollection" target="sf_10873">Fischer an Schnitzler, 1921-12-28</ref>
@@ -111,32 +105,7 @@ Beantwortet in: <ref target="10878">1922-01-16 SF (Berlin) an AS (Wien)</ref>
                <term>Überweisung</term>
             </keywords>
          </textClass>
-         <listPerson>
-            <person ref="#pmb11515" source="https://pmb.acdh.oeaw.ac.at/entity/11515/">
-               <persName>Greiner, Leo</persName>
-            </person>
-            <person ref="#pmb17899" source="https://pmb.acdh.oeaw.ac.at/entity/17899/">
-               <persName>Harz, Benjamin</persName>
-            </person>
-            <person ref="116324333" source="https://d-nb.info/gnd/116324333">
-               <persName>Raggio, Enrico</persName>
-            </person>
-            <person ref="#pmb92768" source="https://pmb.acdh.oeaw.ac.at/entity/92768/">
-               <persName>Woticky, Edward</persName>
-            </person>
-         </listPerson>
-         <listPlace>
-            <place ref="#pmb40306" source="https://pmb.acdh.oeaw.ac.at/entity/40306/">
-               <placeName>Italien</placeName>
-            </place>
-            <place ref="#pmb335761" source="https://d-nb.info/gnd/1029207-X">
-               <placeName>Sopot</placeName>
-            </place>
-            <place ref="#pmb43406" source="https://pmb.acdh.oeaw.ac.at/entity/43406/">
-               <placeName>USA</placeName>
-            </place>
-         </listPlace>
-      </profileDesc>
+         </profileDesc>
       <langUsage>
          <language ident="de-AT">German</language>
       </langUsage>
@@ -326,7 +295,7 @@ määnissä sekä aikai-<lb/>
 B &amp; Co + 3 -<lb/>
 Läheinä, Läänille.<lb/>
 †  ==============<lb/>
-(1) „ „ N â&#x80;¢<lb/>
+(1) „ „ N â¢<lb/>
 B.0 N.T. — S.<lb/>
 ⊃ⱥⵔⵥ�ⵛⵜ s<lb/>
 G.C.H. &amp; O.P.<lb/>

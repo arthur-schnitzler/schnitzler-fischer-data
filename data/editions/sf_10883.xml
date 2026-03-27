@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10883">
    <teiHeader>
       <fileDesc>
@@ -50,12 +50,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-               <bibl ref="#pmb29855" source="https://pmb.acdh.oeaw.ac.at/entity/29855/">
-                  <title>Reigen</title>
-               </bibl>
-            </listBibl>
-         </sourceDesc>
+            </sourceDesc>
          <notesStmt>
             <note type="description">1 Blatt, 1 Seite</note>
             <note type="type">Typoskript (eigenhändige Unterschrift)</note>
@@ -78,8 +73,11 @@
                <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <note>
-               <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg"
-                    target="pmb336548">Bankgeschäft Weidemann &amp; Co. (Berlin)</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="pmb336548">Bankgeschäft Weidemann &amp; Co. (Berlin)</ref>
+            <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb313">Polen</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb335763">Pommern</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb888">Warschau</ref>
+            <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb29855">Reigen</ref>
             </note>
             <correspContext>
                <ref subtype="previous_letter" type="withinCollection" target="sf_10882">Schnitzler an Fischer, 1922-02-02</ref>
@@ -92,18 +90,7 @@
                <term>Betrug/Veruntreuung</term>
             </keywords>
          </textClass>
-         <listPlace>
-            <place ref="#pmb313" source="https://pmb.acdh.oeaw.ac.at/entity/313/">
-               <placeName>Polen</placeName>
-            </place>
-            <place ref="#pmb335763" source="https://d-nb.info/gnd/4596759-3">
-               <placeName>Pommern</placeName>
-            </place>
-            <place ref="#pmb888" source="https://pmb.acdh.oeaw.ac.at/entity/888/">
-               <placeName>Warschau</placeName>
-            </place>
-         </listPlace>
-      </profileDesc>
+         </profileDesc>
       <langUsage>
          <language ident="de-AT">German</language>
       </langUsage>

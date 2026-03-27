@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sf_10474">
    <teiHeader>
       <fileDesc>
@@ -57,15 +57,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-               <bibl ref="#pmb30207" source="https://pmb.acdh.oeaw.ac.at/entity/30207/">
-                  <title>Das weite Land</title>
-               </bibl>
-               <bibl ref="#pmb30217" source="https://pmb.acdh.oeaw.ac.at/entity/30217/">
-                  <title>Der tapfere Cassian</title>
-               </bibl>
-            </listBibl>
-         </sourceDesc>
+            </sourceDesc>
          <notesStmt>
             <note type="description">1 Blatt, 1 Seite beschrieben
 Anlage: 1912-11-16 ante Landestheater Prag an SF (nicht überliefert)
@@ -94,28 +86,20 @@ Antwort auf: 1912-11-09 SF an AS (nicht überliefert)</note>
                <ref subtype="previous_letter" type="withinCollection" target="sf_10473">Schnitzler an Fischer, 1912-11-16</ref>
                <ref subtype="next_letter" type="withinCollection" target="sf_10475">Schnitzler an Fischer, 1912-12-05</ref>
             </correspContext>
+         <note>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb335766">Mannstedt (Zuordnung unsicher)</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsPlace" target="pmb652">Prag</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsOrg" target="1231430-4">Königliches Deutsches Landestheater Prag</ref>
+            <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30207">Das weite Land</ref>
+               <ref type="https://lod.academy/cmif/vocab/terms#mentionsBibl" target="pmb30217">Der tapfere Cassian</ref>
+            </note>
          </correspDesc>
          <textClass>
             <keywords>
                <term>Garantiesumme</term>
             </keywords>
          </textClass>
-         <listPlace>
-            <place ref="#pmb335766"
-                   cert="low"
-                   source="https://d-nb.info/gnd/1222772590">
-               <placeName>Mannstedt (Zuordnung unsicher)</placeName>
-            </place>
-            <place ref="#pmb652" source="https://pmb.acdh.oeaw.ac.at/entity/652/">
-               <placeName>Prag</placeName>
-            </place>
-         </listPlace>
-         <listOrg type="theaters">
-            <org ref="1231430-4" source="https://d-nb.info/gnd/1231430-4">
-               <orgName>Königliches Deutsches Landestheater Prag</orgName>
-            </org>
-         </listOrg>
-      </profileDesc>
+         </profileDesc>
       <langUsage>
          <language ident="de-AT">German</language>
       </langUsage>
